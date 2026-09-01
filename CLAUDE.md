@@ -47,6 +47,8 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 **Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/metodologia-mdx-pdf.md`.
 
+**Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/security-headers-observatory.md`.
+
 ## Os 10 objetivos da ENGD
 
 | `objetivo` | `objetivo_nome` |

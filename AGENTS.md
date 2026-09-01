@@ -62,6 +62,8 @@ src/
 
 **Disclaimer de variáveis no ranking:** contagem e lista do painel por nível × objetivo em [`docs/ranking-disclaimer-variaveis.md`](docs/ranking-disclaimer-variaveis.md).
 
+**Headers de segurança / Observatory:** CSP com nonce, HSTS e demais headers HTTP em [`docs/security-headers-observatory.md`](docs/security-headers-observatory.md). Não afrouxar `script-src` nem remover o SSR do root layout sem alinhar com esse doc.
+
 ---
 
 ## Os 10 objetivos da ENGD

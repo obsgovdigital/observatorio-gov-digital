@@ -1,6 +1,8 @@
 import createMDX from '@next/mdx'
 import type { NextConfig } from 'next'
 
+import { STATIC_SECURITY_HEADERS } from './src/lib/security-headers'
+
 /** Slugs antigos das páginas por órgão → ver `LEGACY_INSTITUICAO_FONTE_SLUGS` em fontes.ts.
  * Sem `anatel`: o id OBGD da pesquisa é o mesmo slug. */
 const LEGACY_FONTE_ORGAO_SLUGS = [
@@ -22,6 +24,14 @@ const nextConfig: NextConfig = {
       destination: '/metodologia',
       permanent: true,
     }))
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: STATIC_SECURITY_HEADERS,
+      },
+    ]
   },
 }
 
