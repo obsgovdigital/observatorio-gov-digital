@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
+import { connection } from 'next/server'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { SiteHeader } from '@/components/layout/site-header'
 import { Toaster } from '@/components/ui/sonner'
@@ -21,11 +22,13 @@ export const metadata: Metadata = {
     'Observatório Brasileiro de Governo Digital — indicadores, rankings e publicações sobre a transformação digital do setor público.',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  // Nonce do CSP é por request — páginas estáticas geradas no build teriam nonce inválido.
+  await connection()
   return (
     <html lang="pt-BR" className={cn(plusJakartaSans.variable)}>
       <body className={`${plusJakartaSans.variable} font-sans antialiased`}>
