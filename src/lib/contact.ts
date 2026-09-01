@@ -20,8 +20,13 @@ export const contactFormSchema = z.object({
   name: z
     .string()
     .trim()
-    .min(1, 'Informe o seu nome.')
-    .max(CONTACT_LIMITS.name, 'O nome informado é muito longo.'),
+    .transform(s => s.replace(/[\n\r]/g, ' '))
+    .pipe(
+      z
+        .string()
+        .min(1, 'Informe o seu nome.')
+        .max(CONTACT_LIMITS.name, 'O nome informado é muito longo.')
+    ),
   email: z
     .string()
     .trim()
