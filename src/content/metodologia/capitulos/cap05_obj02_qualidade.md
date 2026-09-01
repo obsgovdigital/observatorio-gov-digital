@@ -6,17 +6,21 @@ A metodologia (normalização, agregação, tratamento de não-resposta) está d
 
 ## 5.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca cinco recomendações aos entes federados para aprimorar a qualidade dos serviços públicos digitais:
+A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federados para aprimorar a qualidade dos serviços públicos digitais:
 
-- **2.1** Desenhar serviços com linguagem simplificada, acessibilidade, e jornada personalizada, aprimorando a experiência do usuário, com prioridade para populações vulneráveis.
+- **2.1** Desenhar serviços com linguagem simplificada, acessibilidade e jornada personalizada, aprimorando a experiência do usuário, com prioridade para populações vulneráveis, adotando a abordagem de eventos de vida do cidadão e assegurando que informações já disponíveis em bases governamentais não sejam novamente solicitadas.
 - **2.2** Implementar ações de melhoria dos serviços públicos prestados, com base nos resultados da avaliação de satisfação e pesquisa direta com os usuários dos serviços, usando indicadores e modelagens padronizadas.
 - **2.3** Disponibilizar serviços em canais digitais, preferencialmente por meio de autosserviço, e sem prejuízo do direito a atendimento presencial.
-- **2.4** Integrar os canais digitais de prestação de serviços públicos e de comunicação, preferencialmente consolidando portais e aplicativos de dispositivos móveis.
+- **2.4** Integrar os canais digitais de prestação de serviços públicos e de comunicação, preferencialmente consolidando portais e aplicativos de dispositivos móveis, promovendo a integração de serviços de diferentes entes federados em uma experiência unificada para o cidadão.
 - **2.5** Integrar os serviços públicos em diversidade de canais digitais e físicos, dispondo de canais de atendimento presencial para demandas não resolvidas plenamente pelos serviços públicos digitais, com investigação acerca das dificuldades e barreiras na prestação de serviços.
+- **2.6** Desenvolver e implementar serviços públicos proativos, nos quais o governo, com base em dados e eventos de vida, notifique e ofereça automaticamente serviços e benefícios ao cidadão, eliminando a necessidade de solicitação prévia pelo usuário, respeitados a legislação de proteção de dados pessoais e o consentimento do titular.
+- **2.7** Integrar os canais de atendimento físicos e digitais, assegurando que sejam acessíveis, adequados às necessidades do público e capazes de oferecer respostas efetivas às demandas.
+- **2.8** Promover a criação de pontos únicos de atendimento digital (balcão único) para serviços que envolvam múltiplos entes federados, de forma que o cidadão realize uma única solicitação e que a orquestração entre os entes ocorra de forma automatizada, transparente e com interoperabilidade.
+- **2.9** Adotar, como padrão na oferta de serviços públicos digitais, soluções web responsivas e progressivas, acessíveis em qualquer dispositivo sem necessidade de instalação, reservando o desenvolvimento de aplicativos nativos aos casos em que haja justificativa técnica ou funcional que o exija.
 
 ## 5.2 Cobertura por nível federativo
 
-O Objetivo 2 conta com 102 variáveis ativas no índice, que entram na agregação do índice como 80 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). A distribuição por fonte: 39 variáveis do IOSPD/ABEP-TIC 2025, 34 da MUNIC 2024 (IBGE), 15 da TIC Governo Eletrônico 2023 (CETIC.br), 10 da ESTADIC 2024 (IBGE) e 4 da TIC Saúde 2024 (CETIC.br). Todas contribuem para a visão Nacional. **49 variáveis** têm observação por UF (10 da ESTADIC e 39 da IOSPD/ABEP-TIC) — bem acima do limiar mínimo, justificando a criação da dimensão **`Recorte Estadual`**. **34 variáveis** têm observação por capital (todas da MUNIC) — também acima do limiar, justificando a criação da dimensão **`Recorte de Capitais`**. As demais variáveis (TIC Governo Eletrônico, TIC Saúde) têm apenas valor agregado nacional. A TIC Governo Eletrônico publica, para as prefeituras, agregados regionais ("Capital" como categoria única), mas não valor por capital individual; suas variáveis permanecem, portanto, fora do `Recorte de Capitais`.
+O Objetivo 2 conta com 102 variáveis ativas no índice (39 do IOSPD/ABEP-TIC, 34 da MUNIC (IBGE), 15 da TIC Governo Eletrônico (CETIC.br), 10 da ESTADIC (IBGE) e 4 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 80 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **49 variáveis** têm observação por UF (10 da ESTADIC e 39 da IOSPD/ABEP-TIC) — bem acima do limiar mínimo, justificando a criação da dimensão **`Recorte Estadual`**. **34 variáveis** têm observação por capital (todas da MUNIC) — também acima do limiar, justificando a criação da dimensão **`Recorte de Capitais`**. As demais variáveis (TIC Governo Eletrônico, TIC Saúde) têm apenas valor agregado nacional. A TIC Governo Eletrônico publica, para as prefeituras, agregados regionais ("Capital" como categoria única), mas não valor por capital individual; suas variáveis permanecem, portanto, fora do `Recorte de Capitais`.
 
 Dois indicadores da TIC Domicílios 2024 (CETIC.br) sobre uso de serviços públicos digitais e resolução sem atendimento presencial não integram o índice por medirem percentuais condicionados a um universo restrito — usuários de Internet com 16 anos ou mais —, e não ao conjunto da população. O indicador de inscrição ou venda de ingressos online da TIC Cultura 2024 (CETIC.br) está suspenso até a fonte publicar total nacional oficial: a edição 2024 divulga apenas resultados por tipo de equipamento cultural.
 
@@ -24,15 +28,15 @@ A presença das duas dimensões federativas com dezenas de variáveis cada sinal
 
 ## 5.3 Dimensões
 
-As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões temáticas**, complementadas por duas dimensões federativas (`Recorte Estadual` e `Recorte de Capitais`). Sete dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria — informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), personalização da jornada e ambiente autenticado (Rec 2.1), linguagem e usabilidade (Rec 2.1), acessibilidade (Rec 2.1) e satisfação e experiência do cidadão (Rec 2.2). As outras quatro correspondem ao desdobramento dos serviços setoriais por área temática — saúde, educação, cidadania/segurança/fiscal e mobilidade urbana —, todas alinhadas à Recomendação 2.3, refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. Esse desdobramento eleva o número de dimensões temáticas acima da faixa típica de 3-6 do contrato editorial; a opção foi assumir o maior detalhamento como reflexo fiel da estrutura atual da medição.
+As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. Sete dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria — informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), personalização da jornada e ambiente autenticado (Rec 2.1), linguagem e usabilidade (Rec 2.1), acessibilidade (Rec 2.1) e satisfação e experiência do cidadão (Rec 2.2). As outras quatro correspondem ao desdobramento dos serviços setoriais por área temática — saúde, educação, cidadania/segurança/fiscal e mobilidade urbana —, todas alinhadas à Recomendação 2.3, refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. Esse desdobramento eleva o número de dimensões temáticas acima da faixa típica de 3-6 do contrato editorial; a opção foi assumir o maior detalhamento como reflexo fiel da estrutura atual da medição.
 
 ![Dimensões do Objetivo 2](../graficos/dimensoes/cap05.png)
 
 ### 5.3.1 Informação pública digital
 
-*Definição:* Publicação ativa de informação institucional e de utilidade pública em canais digitais — notícias, legislação, licitações, diário oficial, documentos, concursos —, além da própria presença de website institucional entre os entes com acesso à Internet. Ancorada na Recomendação 2.3 (oferta em canais digitais), na vertente "leitura passiva" de informação pública.
+*Definição:* Publicação ativa de informação institucional e de utilidade pública em canais digitais — notícias, legislação, licitações, diário oficial, documentos, concursos —, além da própria presença de website institucional entre os entes com acesso à Internet. Corresponde à Recomendação 2.3 (oferta em canais digitais), na vertente "leitura passiva" de informação pública.
 
-*Média Nacional:* 84.8 (n=8).
+*Média Nacional:* 84.8 (n=8; 8 itens).
 
 **Indicadores:**
 
@@ -83,9 +87,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.2 Serviços transversais
 
-*Definição:* Ferramentas-meio de prestação digital aplicáveis a qualquer setor — Portal Único de Serviços, agendamento unificado, gestão de cadastro/perfil do cidadão, ouvidoria, Simplifique, ferramenta integrada de pagamento (incluindo PIX e cartão de crédito), consulta a processos, download de documentos e o leque de tipos de serviço disponibilizados no website (emissão de boletos e guias, consulta a processos, download e envio de formulários, emissão de documentos, inscrição ou matrícula e agendamento). Ancorada na Recomendação 2.4 (consolidação de portais e aplicativos móveis); com vínculo secundário à Recomendação 2.3 (autosserviço).
+*Definição:* Ferramentas-meio de prestação digital aplicáveis a qualquer setor — Portal Único de Serviços, agendamento unificado, gestão de cadastro/perfil do cidadão, ouvidoria, Simplifique, ferramenta integrada de pagamento (incluindo PIX e cartão de crédito), consulta a processos, download de documentos e o leque de tipos de serviço disponibilizados no website (emissão de boletos e guias, consulta a processos, download e envio de formulários, emissão de documentos, inscrição ou matrícula e agendamento). Corresponde à Recomendação 2.4 (consolidação de portais e aplicativos móveis); com vínculo secundário à Recomendação 2.3 (autosserviço).
 
-*Média Nacional:* 71.0 (n=13).
+*Média Nacional:* 71.0 (n=13; 13 itens).
 
 **Indicadores:**
 
@@ -163,9 +167,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.3 Serviços setoriais — Saúde
 
-*Definição:* Serviços públicos digitais específicos da área de saúde — telessaúde (oferta institucional pelas UFs e adoção pelos estabelecimentos), dispensação de medicamentos, prescrição de receitas, consulta a estoque de medicamentos, agendamento de saúde e oferta de serviços online por estabelecimentos. Ancorada na Recomendação 2.3 (oferta de serviços em canais digitais).
+*Definição:* Serviços públicos digitais específicos da área de saúde — telessaúde (oferta institucional pelas UFs e adoção pelos estabelecimentos), dispensação de medicamentos, prescrição de receitas, consulta a estoque de medicamentos, agendamento de saúde e oferta de serviços online por estabelecimentos. Corresponde à Recomendação 2.3 (oferta de serviços em canais digitais).
 
-*Média Nacional:* 34.9 (n=7).
+*Média Nacional:* 34.9 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -210,9 +214,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.4 Serviços setoriais — Educação
 
-*Definição:* Serviços públicos digitais específicos da área de educação básica — matrícula e rematrícula online, transferência online de alunos, emissão de diploma do ensino médio. Ancorada na Recomendação 2.3.
+*Definição:* Serviços públicos digitais específicos da área de educação básica — matrícula e rematrícula online, transferência online de alunos, emissão de diploma do ensino médio. Corresponde à Recomendação 2.3.
 
-*Média Nacional:* 38.3 (n=4).
+*Média Nacional:* 38.3 (n=4; 4 itens).
 
 **Indicadores:**
 
@@ -242,9 +246,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.5 Serviços setoriais — Cidadania, segurança e fiscal
 
-*Definição:* Serviços públicos digitais de identidade civil, segurança pública, defesa do consumidor, trânsito veicular e administração fiscal/tributária — prova de vida online, recurso administrativo de trânsito, registro digital de reclamação no Código de Defesa do Consumidor, 2ª via de carteira de identidade, boletim de ocorrência online de violência doméstica, licenciamento e transferência digital de veículos, certidão negativa de débito (estadual e municipal), nota fiscal eletrônica, guia de pagamento de tributos, boletos por celular. Ancorada na Recomendação 2.3.
+*Definição:* Serviços públicos digitais de identidade civil, segurança pública, defesa do consumidor, trânsito veicular e administração fiscal/tributária — prova de vida online, recurso administrativo de trânsito, registro digital de reclamação no Código de Defesa do Consumidor, 2ª via de carteira de identidade, boletim de ocorrência online de violência doméstica, licenciamento e transferência digital de veículos, certidão negativa de débito (estadual e municipal), nota fiscal eletrônica, guia de pagamento de tributos, boletos por celular. Corresponde à Recomendação 2.3.
 
-*Média Nacional:* 68.7 (n=12).
+*Média Nacional:* 68.7 (n=12; 12 itens).
 
 **Indicadores:**
 
@@ -314,9 +318,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.6 Serviços setoriais — Mobilidade urbana
 
-*Definição:* Serviços digitais de mobilidade urbana ofertados ao cidadão — bilhete ou cartão eletrônico no transporte público, tanto nas prefeituras quanto nos governos estaduais (bilhete único), e informação em tempo real sobre a frota de ônibus municipal (GPS com envio de informação ao usuário). Ancorada na Recomendação 2.3 (disponibilizar serviços em canais digitais).
+*Definição:* Serviços digitais de mobilidade urbana ofertados ao cidadão — bilhete ou cartão eletrônico no transporte público, tanto nas prefeituras quanto nos governos estaduais (bilhete único), e informação em tempo real sobre a frota de ônibus municipal (GPS com envio de informação ao usuário). Corresponde à Recomendação 2.3 (disponibilizar serviços em canais digitais).
 
-*Média Nacional:* 21.8 (n=3).
+*Média Nacional:* 21.8 (n=3; 3 itens).
 
 **Indicadores:**
 
@@ -341,9 +345,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.7 Canais e atendimento multicanal
 
-*Definição:* Diversidade de canais de atendimento e comunicação entre cidadão e governo — atendimento à distância, presença em redes sociais (existência, atividade e frequência) e em plataformas digitais por estabelecimentos, presença mobile (apps de governo, website mobile, notificações personalizadas com acompanhamento de serviços, SMS e mensageria) e as formas de contato pela Internet oferecidas no website (e-mail, formulário eletrônico, chat em tempo real, denúncia, solicitação de acesso à informação, sugestões e chatbot). Ancorada nas Recomendações 2.4 (integração de canais digitais, em especial apps móveis) e 2.5 (omnicanalidade físico-digital).
+*Definição:* Diversidade de canais de atendimento e comunicação entre cidadão e governo — atendimento à distância, presença em redes sociais (existência, atividade e frequência) e em plataformas digitais por estabelecimentos, presença mobile (apps de governo, website mobile, notificações personalizadas com acompanhamento de serviços, SMS e mensageria) e as formas de contato pela Internet oferecidas no website (e-mail, formulário eletrônico, chat em tempo real, denúncia, solicitação de acesso à informação, sugestões e chatbot). Corresponde às Recomendações 2.4 (integração de canais digitais, em especial apps móveis) e 2.5 (omnicanalidade físico-digital).
 
-*Média Nacional:* 55.3 (n=33).
+*Média Nacional:* 57.5 (n=23; 33 itens).
 
 **Indicadores:**
 
@@ -513,9 +517,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.8 Personalização da jornada e ambiente autenticado
 
-*Definição:* Oferta de ambiente autenticado e personalizado de serviços — plataforma em que o cidadão, após identificação, acessa serviços, notificações e informações adaptadas ao seu perfil e histórico de interações com o governo. Ancorada na Recomendação 2.1 (jornada personalizada e experiência do usuário).
+*Definição:* Oferta de ambiente autenticado e personalizado de serviços — plataforma em que o cidadão, após identificação, acessa serviços, notificações e informações adaptadas ao seu perfil e histórico de interações com o governo. Corresponde à Recomendação 2.1 (jornada personalizada e experiência do usuário).
 
-*Média Nacional:* 55.6 (n=1).
+*Média Nacional:* 55.6 (n=1; 1 item).
 
 **Indicadores:**
 
@@ -528,9 +532,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.9 Linguagem e usabilidade
 
-*Definição:* Clareza textual, simplicidade de jornada, adequação do conteúdo à compreensão do cidadão e mecanismos de feedback do usuário sobre a apresentação dos serviços. Ancorada na Recomendação 2.1 (linguagem simplificada, experiência do usuário).
+*Definição:* Clareza textual, simplicidade de jornada, adequação do conteúdo à compreensão do cidadão e mecanismos de feedback do usuário sobre a apresentação dos serviços. Corresponde à Recomendação 2.1 (linguagem simplificada, experiência do usuário).
 
-*Média Nacional:* 75.8 (n=9).
+*Média Nacional:* 75.8 (n=1; 9 itens).
 
 **Indicadores:**
 
@@ -585,9 +589,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.10 Acessibilidade
 
-*Definição:* Adequação dos serviços digitais a pessoas com deficiência (visual, auditiva, motora), tanto no nível estadual (acessibilidade global da página, modelo de padrão adotado e plataforma adaptada a surdos e deficientes visuais) quanto nas páginas das prefeituras (recursos específicos: navegação por tecnologia assistiva, descrição de imagens, LIBRAS, título descritivo da página na aba do navegador). Ancorada na Recomendação 2.1 (acessibilidade).
+*Definição:* Adequação dos serviços digitais a pessoas com deficiência (visual, auditiva, motora), tanto no nível estadual (acessibilidade global da página, modelo de padrão adotado e plataforma adaptada a surdos e deficientes visuais) quanto nas páginas das prefeituras (recursos específicos: navegação por tecnologia assistiva, descrição de imagens, LIBRAS, título descritivo da página na aba do navegador). Corresponde à Recomendação 2.1 (acessibilidade).
 
-*Média Nacional:* 42.3 (n=8).
+*Média Nacional:* 51.2 (n=4; 8 itens).
 
 **Indicadores:**
 
@@ -641,9 +645,9 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 ### 5.3.11 Satisfação e experiência do cidadão
 
-*Definição:* Pesquisas de satisfação dos usuários dos serviços públicos digitais, metodologia institucional de avaliação e instrumentos de participação do usuário previstos na Lei 13.460/2017. Ancorada na Recomendação 2.2 (avaliação de satisfação e melhoria contínua).
+*Definição:* Pesquisas de satisfação dos usuários dos serviços públicos digitais, metodologia institucional de avaliação e instrumentos de participação do usuário previstos na Lei 13.460/2017. Corresponde à Recomendação 2.2 (avaliação de satisfação e melhoria contínua).
 
-*Média Nacional:* 61.3 (n=4).
+*Média Nacional:* 61.3 (n=4; 4 itens).
 
 **Indicadores:**
 
@@ -675,12 +679,12 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 *Definição:* Conjunto das variáveis do Objetivo 2 com observação por UF, agregadas para leitura federativa do desempenho na qualidade dos serviços digitais. Reúne as 10 variáveis ESTADIC e as 39 variáveis IOSPD do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Estadual:* 66.6 (n=49; média do score por UF agregando as 49 variáveis; σ = 20.7 entre as 27 UFs).
+*Média Estadual:* 64.7 (n=41; 49 itens).
 
 ![Recorte Estadual — Objetivo 2](../graficos/recortes/cap05_estadual.png)
 
-**Topo (top-3):** PI (93.8), RJ (90.8), SP (89.7).
-**Base (bottom-3):** RN (24.2), RR (27.6), AL (33.6).
+**Topo (top-3) no Recorte Estadual do Objetivo 2:** PI (92.6), RJ (89.0), SP (88.2).
+**Base (bottom-3) no Recorte Estadual do Objetivo 2:** RN (28.9), RR (30.8), AM (33.6).
 
 **Indicadores:**
 
@@ -839,12 +843,12 @@ As 102 variáveis ativas do Objetivo 2 foram agrupadas em **onze dimensões tem�
 
 *Definição:* Conjunto das variáveis do Objetivo 2 com observação por capital, agregadas para leitura federativa do desempenho municipal. Reúne as 34 variáveis MUNIC do objetivo (incluindo os 5 itens da bateria de acessibilidade web). Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Capitais:* 76.9 (n=34; média do score por capital agregando as 34 variáveis; σ = 14.5 entre as 27 capitais).
+*Média Capitais:* 80.6 (n=30; 34 itens).
 
 ![Recorte de Capitais — Objetivo 2](../graficos/recortes/cap05_capitais.png)
 
-**Topo (top-3):** Belo Horizonte (MG) e Curitiba (PR), ambas com 100.0; Macapá (AP), Salvador (BA) e Brasília (DF), todas com 94.12.
-**Base (bottom-3):** Rio Branco (AC) com 41.18; Palmas (TO) com 52.94; Goiânia (GO) com 55.88.
+**Topo (top-3) no Recorte de Capitais do Objetivo 2:** Belo Horizonte (MG) e Curitiba (PR), ambas com 100.0; Salvador (BA) e Brasília (DF), ambas com 96.0.
+**Base (bottom-3) no Recorte de Capitais do Objetivo 2:** Rio Branco (AC) com 46.67; Palmas (TO) com 57.33; Maceió (AL) com 58.67.
 
 **Indicadores:**
 

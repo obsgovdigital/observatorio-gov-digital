@@ -6,9 +6,9 @@ A metodologia (normalização, agregação, tratamento de não-resposta) está d
 
 ## 7.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca cinco recomendações aos entes federados para reforço à privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética:
+A Portaria SGD/MGI nº 5.395/2026 elenca cinco recomendações aos entes federados para reforço à privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética:
 
-- **4.1** Instituir estrutura de governança e coordenação para implementação de medidas de reforço à privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética, em articulação com estruturas de mesmo propósito de âmbito regional e nacional, em especial o Programa de Privacidade e Segurança da Informação - PPSI do Governo federal.
+- **4.1** Instituir estrutura de governança e coordenação para implementação de medidas de reforço à privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética, em articulação com estruturas de mesmo propósito de âmbito regional e nacional, em especial o Programa de Privacidade e Segurança da Informação - PPSI do Governo Federal.
 - **4.2** Estabelecer plano de ação de reforço à privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética que contemple diagnóstico, controles, metodologias e soluções tecnológicas adequadas aos riscos identificados.
 - **4.3** Designar encarregado pelo tratamento de dados pessoais e gestor de segurança da informação.
 - **4.4** Promover ações de sensibilização, conscientização e capacitação para agentes públicos, lideranças governamentais e sociedade sobre privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética, sendo o Centro de Excelência em Privacidade e Segurança da Informação - CEPS Gov.br a unidade de referência para tais atividades.
@@ -16,19 +16,19 @@ A Portaria SGD/MGI nº 4.248/2024 elenca cinco recomendações aos entes federad
 
 ## 7.2 Cobertura por nível federativo
 
-O Objetivo 4 reúne 46 variáveis ativas — 22 do iGovSISP/SGD, 8 da TIC Saúde, 6 da TIC Governo Eletrônico, 5 da MUNIC, 4 da ESTADIC e 1 do IOSPD/ABEP-TIC —, que entram na agregação do índice como 36 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). Todas contribuem para a visão Nacional, 5 têm observação por UF (4 ESTADIC 2024 e `IOSPD_III07`) e 5 têm observação por capital (5 MUNIC 2024). Como cada nível federativo dispõe de ≥2 variáveis, este capítulo cria as duas dimensões federativas dedicadas — `Recorte Estadual` e `Recorte de Capitais` — ao lado das dimensões temáticas. Ambas mantêm-se sem subdivisão (≤10 variáveis cada).
+O Objetivo 4 conta com 55 variáveis ativas no índice (22 do iGovSISP/SGD (SGD/MGI), 9 do iESGo/TCU, 8 da TIC Saúde (CETIC.br), 6 da TIC Governo Eletrônico (CETIC.br), 5 da MUNIC (IBGE), 4 da ESTADIC (IBGE) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 45 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional, 5 têm observação por UF (4 ESTADIC 2024 e `IOSPD_III07`) e 5 têm observação por capital (5 MUNIC 2024). Como cada nível federativo dispõe de ≥2 variáveis, este capítulo cria as duas dimensões federativas dedicadas — `Recorte Estadual` e `Recorte de Capitais` — ao lado das dimensões temáticas. Ambas mantêm-se sem subdivisão (≤10 variáveis cada).
 
 ## 7.3 Dimensões
 
-As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que dialogam com as recomendações 4.1 a 4.5 da Portaria — cobrindo governança e responsabilidades nomeadas, planos formais e diagnóstico, práticas LGPD substantivas, controles e auditoria, resposta a incidentes e capacitação. Em seguida vêm `Recorte Estadual` (5 variáveis) e `Recorte de Capitais` (5 variáveis), que repetem as variáveis observadas em cada nível para leitura federativa.
+As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. As dimensões temáticas dialogam com as recomendações 4.1 a 4.5 da Portaria — cobrindo governança e responsabilidades nomeadas, planos formais e diagnóstico, práticas LGPD substantivas, controles e auditoria, resposta a incidentes e capacitação. Os recortes repetem as cinco variáveis observadas em cada nível para leitura federativa.
 
 ![Dimensões do Objetivo 4](../graficos/dimensoes/cap07.png)
 
 ### 7.3.1 Governança e responsabilidades
 
-*Definição:* Existência de instâncias formais e responsáveis nomeados para privacidade e segurança da informação — encarregado pelo tratamento de dados pessoais, gestor de segurança da informação, área/pessoa LGPD, regulamentação local e supervisão pelo Comitê de Governança Digital. Ancorada nas Recomendações 4.1 e 4.3.
+*Definição:* Existência de instâncias formais e responsáveis nomeados para privacidade e segurança da informação — encarregado pelo tratamento de dados pessoais, gestor de segurança da informação, área/pessoa LGPD, regulamentação local e supervisão pelo Comitê de Governança Digital. Corresponde às Recomendações 4.1 e 4.3.
 
-*Média Nacional:* 37.6 (n=9).
+*Média Nacional:* 41.0 (n=11; 11 itens).
 
 **Indicadores:**
 
@@ -37,6 +37,16 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 - **G1** — O órgão/prefeitura possui pessoa ou área responsável pela LGPD?
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual) — ver Seção 3.3.4.
   - Valor (Nacional): 50.27
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 4242** — A organização dispõe de comitê de segurança da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 62.45
+
+- **iESGo 4243** — A organização possui um gestor institucional de segurança da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 50.69
 
 *ESTADIC 2024 (IBGE):*
 
@@ -83,9 +93,9 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 ### 7.3.2 Planos, políticas e diagnóstico
 
-*Definição:* Existência e adoção de instrumentos formais de planejamento e diagnóstico de segurança da informação — Política de Segurança da Informação (POSIN), política de segurança da informação nos estabelecimentos de saúde, conformidade com a Portaria GSI 852/2023, Framework de Privacidade e Segurança da Informação, Programa de Privacidade e Segurança da Informação (PPSI) e seus guias e modelos. Ancorada na Recomendação 4.2 e, na adoção do PPSI, na Recomendação 4.1.
+*Definição:* Existência e adoção de instrumentos formais de planejamento e diagnóstico de segurança da informação — Política de Segurança da Informação (POSIN), política de segurança da informação nos estabelecimentos de saúde, conformidade com a Portaria GSI 852/2023, Framework de Privacidade e Segurança da Informação, Programa de Privacidade e Segurança da Informação (PPSI) e seus guias e modelos. Corresponde à Recomendação 4.2 e, na adoção do PPSI, à Recomendação 4.1.
 
-*Média Nacional:* 33.2 (n=6).
+*Média Nacional:* 39.9 (n=5; 7 itens).
 
 **Indicadores:**
 
@@ -95,6 +105,12 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
   - *Normalização:* Proporção 0-100% — usado diretamente.
   - Valor (Nacional): 41.64
 
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 4241** — A organização dispõe de uma política de segurança da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 68.48
+
 *iGovSISP/SGD 2025 (SGD/MGI):*
 
 - **G201SPD** — iGovSISP: O órgão possui Política de Segurança da Informação — POSIN? (autodiagnóstico SISP, likert).
@@ -102,28 +118,28 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
   - Valor (Nacional): 49.57
 
 - **G226SPD** — iGovSISP: Acerca da Portaria GSI/PR nº 852, de 28 de março de 2023, que altera a Portaria GSI/PR nº 120/2022, o órgão: (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Escala 0-100 — usado diretamente.
+  - *Normalização:* Proporção 0-100% — usado diretamente
   - Valor (Nacional): 5.98
 
 *Bateria — instrumentos do PPSI: os 3 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
 - **G629IPD** — iGovSISP: O órgão conhece e utiliza o Framework de Privacidade e Segurança da Informação? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Escala 0-100 — usado diretamente.
+  - *Normalização:* Proporção 0-100% — usado diretamente
   - Valor (Nacional): 47.44
 
 - **G630IPD** — iGovSISP: O órgão conhece e utiliza o Programa de Privacidade e Segurança da Informação (PPSI)? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Escala 0-100 — usado diretamente.
+  - *Normalização:* Proporção 0-100% — usado diretamente
   - Valor (Nacional): 36.75
 
 - **G631IPD** — iGovSISP: O órgão conhece e utiliza os Guias e Modelos do PPSI? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Escala 0-100 — usado diretamente.
+  - *Normalização:* Proporção 0-100% — usado diretamente
   - Valor (Nacional): 17.52
 
 ### 7.3.3 Proteção de dados pessoais — práticas LGPD
 
-*Definição:* Adoção das práticas substantivas exigidas pela LGPD — nomeação de encarregado pelo tratamento de dados pessoais (DPO), canal de atendimento para titulares, política de privacidade publicada, documento de papéis e responsabilidades sobre a lei, plano de resposta a incidentes envolvendo dados pessoais, campanha interna de conscientização, gestão de riscos de privacidade e portal único com funcionalidade de consentimento. Ancorada na Recomendação 4.2 (vertente LGPD).
+*Definição:* Adoção das práticas substantivas exigidas pela LGPD — nomeação de encarregado pelo tratamento de dados pessoais (DPO), canal de atendimento para titulares, política de privacidade publicada, documento de papéis e responsabilidades sobre a lei, plano de resposta a incidentes envolvendo dados pessoais, campanha interna de conscientização, gestão de riscos de privacidade e portal único com funcionalidade de consentimento. Corresponde à Recomendação 4.2 (vertente LGPD).
 
-*Média Nacional:* 36.4 (n=15).
+*Média Nacional:* 37.6 (n=7; 15 itens).
 
 **Indicadores:**
 
@@ -208,9 +224,9 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 ### 7.3.4 Controles, riscos e auditoria
 
-*Definição:* Controles técnicos e práticas de gestão de riscos cibernéticos — ferramentas de segurança da informação, gestão de riscos, inventário de ativos, gestão de vulnerabilidades, testes de segurança cibernética, controle de acesso, classificação da informação e auditorias de segurança. Ancorada na Recomendação 4.2 (vertente cibersegurança).
+*Definição:* Controles técnicos e práticas de gestão de riscos cibernéticos — ferramentas de segurança da informação, gestão de riscos, inventário de ativos, gestão de vulnerabilidades, testes de segurança cibernética, controle de acesso, classificação da informação e auditorias de segurança. Corresponde à Recomendação 4.2 (vertente cibersegurança).
 
-*Média Nacional:* 51.4 (n=8).
+*Média Nacional:* 48.7 (n=13; 13 itens).
 
 **Indicadores:**
 
@@ -219,6 +235,28 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 - **A10** — O estabelecimento de saúde que utilizou Internet nos últimos 12 meses utiliza ferramentas de segurança da informação? (C9a questionário)
   - *Normalização:* Proporção 0-100% — agregação `mean` sobre as alternativas A-J (amplitude média de adoção).
   - Valor (Nacional): 53.01
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 4231** — A organização executa processo de gestão dos riscos de tecnologia da informação relativos a processos de negócio.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 43.70
+
+- **iESGo 4232** — A organização executa processo de gestão de riscos de segurança da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 40.43
+
+- **iESGo 4251** — A organização executa processo de controle de acesso à informação e aos ativos associados à informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 43.48
+
+- **iESGo 4252** — A organização executa processo para classificação e tratamento de informações.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 39.56
+
+- **iESGo 4253** — A organização executa atividades de gestão da segurança dos recursos de processamento da informação, inclusive dos recursos de computação em nuvem.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 54.72
 
 *iGovSISP/SGD 2025 (SGD/MGI):*
 
@@ -252,11 +290,17 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 ### 7.3.5 Resposta a incidentes e continuidade
 
-*Definição:* Capacidade institucional de prevenção, tratamento e resposta a incidentes cibernéticos e de continuidade operacional — Equipe de Tratamento e Resposta a Incidentes (ETIR), plano de gestão de incidentes cibernéticos e gestão de continuidade de negócios em SI. Ancorada na Recomendação 4.5 e, na continuidade, na Recomendação 4.2.
+*Definição:* Capacidade institucional de prevenção, tratamento e resposta a incidentes cibernéticos e de continuidade operacional — Equipe de Tratamento e Resposta a Incidentes (ETIR), plano de gestão de incidentes cibernéticos e gestão de continuidade de negócios em SI. Corresponde à Recomendação 4.5 e, na continuidade, à Recomendação 4.2.
 
-*Média Nacional:* 51.9 (n=3).
+*Média Nacional:* 45.8 (n=4; 4 itens).
 
 **Indicadores:**
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 4233** — A organização executa processo de gestão de continuidade de serviços de tecnologia da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 27.79
 
 *iGovSISP/SGD 2025 (SGD/MGI):*
 
@@ -274,9 +318,9 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 ### 7.3.6 Capacitação e conscientização
 
-*Definição:* Ações de sensibilização, conscientização e capacitação de servidores em privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética. Ancorada na Recomendação 4.4 (referência ao CEPS Gov.br).
+*Definição:* Ações de sensibilização, conscientização e capacitação de servidores em privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética. Corresponde à Recomendação 4.4 (referência ao CEPS Gov.br).
 
-*Média Nacional:* 51.1 (n=5).
+*Média Nacional:* 51.1 (n=5; 5 itens).
 
 **Indicadores:**
 
@@ -314,7 +358,7 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 *Definição:* Conjunto das variáveis do Objetivo 4 com observação por UF, agregadas para leitura federativa. Reúne as 4 variáveis do bloco LGPD da ESTADIC 2024 e a variável `IOSPD_III07` do IOSPD 2025. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Estadual:* 68.9 (n=5).
+*Média Estadual:* 68.9 (n=5; 5 itens).
 
 ![Recorte Estadual — Objetivo 4](../graficos/recortes/cap07_estadual.png)
 
@@ -348,7 +392,7 @@ As 46 variáveis ativas foram agrupadas em **seis dimensões temáticas** que di
 
 *Definição:* Conjunto das variáveis do Objetivo 4 com observação por capital, agregadas para leitura federativa. Reúne as 5 variáveis MUNIC 2024 do bloco LGPD (responsável, regulamentação, canal para titulares, capacitação e disseminação pela área de comunicação). Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Capitais:* 68.9 (n=5).
+*Média Capitais:* 68.9 (n=5; 5 itens).
 
 ![Recorte de Capitais — Objetivo 4](../graficos/recortes/cap07_capitais.png)
 

@@ -1,29 +1,31 @@
 # 13. Objetivo 10: Competências em Governo Digital
 
-> Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas.
+> Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas, ampliando a atração e retenção de talentos.
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
 ## 13.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca quatro recomendações aos entes federados para desenvolver competências e cultura de governo digital:
+A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federados para desenvolver competências e cultura de governo digital:
 
 - **10.1** Contribuir com a criação, participação e subsídio às atividades de redes nacionais, estaduais, regionais e associativas de capacitação de servidores e lideranças públicas no país em temáticas de governo digital e inovação, em especial das escolas de governo e do Programa Capacita GOV.BR.
-- **10.2** Implementar, difundir e participar de capacitações específicas voltadas para abordagens inclusivas na prestação de serviços e políticas públicas, minimamente sobre acessibilidade, linguagem simples, interfaces intuitivas, e integração de canais físicos e digitais.
+- **10.2** Implementar, difundir e participar de capacitações especificas voltadas para abordagens inclusivas na prestação de serviços e políticas públicas, minimamente sobre acessibilidade, linguagem simples, interfaces intuitivas, e integração de canais físicos e digitais.
 - **10.3** Instituir ações específicas de capacitação continuada, aprimoramento da gestão e retenção de talentos.
 - **10.4** Realizar e promover a participação em eventos específicos para disseminação de conhecimento a respeito de transformação digital e inovação, em especial aqueles voltados para lideranças e servidores públicos.
+- **10.5** Promover programas de capacitação e de letramento em dados, computação em nuvem, cibersegurança e inteligência artificial para servidores públicos de todos os níveis, com ênfase na compreensão ética, na análise crítica de dados e na aplicação prática dessas competências na melhoria de serviços e políticas públicas.
+- **10.6** Desenvolver e disseminar programas de capacitação voltados à liderança digital no setor público, formando gestores capazes de conduzir projetos de transformação digital, governança de dados e integração de serviços em contextos interfederativos.
 
 ## 13.2 Cobertura por nível federativo
 
-O Objetivo 10 conta com 22 variáveis ativas — 19 do iGovSISP e 3 da TIC Educação —, que entram na agregação do índice como 11 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). Todas contribuem apenas para a visão Nacional. Nenhuma tem observação por UF nem por capital, de modo que este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`.
+O Objetivo 10 conta com 22 variáveis ativas no índice (19 do iGovSISP/SGD (SGD/MGI) e 3 da TIC Educação (CETIC.br)), que entram na agregação do índice como 11 componentes (ver Capítulo 3). Todas contribuem apenas para a visão Nacional. Nenhuma tem observação por UF nem por capital, de modo que este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`.
 
 Dois indicadores de capacitação setorial antes avaliados neste objetivo não integram o índice: o indicador da TIC Governo Eletrônico sobre capacitação de funcionários mede percentual condicionado à existência de área de TI no órgão (universo restrito) e, na publicação oficial, refere-se especificamente a capacitação sobre a LGPD para funcionários de TI; o indicador da TIC Saúde sobre formação em informática em saúde mede a formação individual do gestor respondente, não a capacidade do estabelecimento de saúde.
 
-Outras 7 variáveis MUNIC/ESTADIC sobre programas de inclusão digital ao cidadão foram inicialmente avaliadas neste objetivo, mas classificadas no Objetivo 6 (Infraestrutura) — medem provisão e oferta de inclusão digital à população, não capacitação de servidores ou equipes públicas (escopo literal das Recomendações 10.1–10.4). Dessas, cinco variáveis sobre ações específicas de inclusão digital (`MUNIC_ACAO_TELECENTRO`, `MUNIC_ACAO_QUIOSQUE`, `MUNIC_ACAO_CURSOS`, `MUNIC_ACAO_PC_ESCOLAS`, `MUNIC_ACAO_WIFI_ESCOLAS`) foram posteriormente excluídas do índice na revisão de redundância (ver Anexo A); apenas `MUNIC_INCLUSAO_DIGITAL` e `ESTADIC_INCLUSAO_PROGRAMA` seguem ativas no Objetivo 6 (Capítulo 9).
+Outras 7 variáveis MUNIC/ESTADIC sobre programas de inclusão digital ao cidadão foram inicialmente avaliadas neste objetivo, mas classificadas no Objetivo 6 (Infraestrutura) — medem provisão e oferta de inclusão digital à população, não capacitação de servidores ou equipes públicas (escopo literal das Recomendações 10.1–10.6). Dessas, cinco variáveis sobre ações específicas de inclusão digital (`MUNIC_ACAO_TELECENTRO`, `MUNIC_ACAO_QUIOSQUE`, `MUNIC_ACAO_CURSOS`, `MUNIC_ACAO_PC_ESCOLAS`, `MUNIC_ACAO_WIFI_ESCOLAS`) foram posteriormente excluídas do índice na revisão de redundância (ver Anexo A); apenas `MUNIC_INCLUSAO_DIGITAL` e `ESTADIC_INCLUSAO_PROGRAMA` seguem ativas no Objetivo 6 (Capítulo 9).
 
 ## 13.3 Dimensões
 
-As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temáticas. A primeira trata da força de trabalho de TIC nos órgãos do governo federal — as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica trabalhadas pelos professores com os alunos; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões de capacitação cobrem as Recomendações 10.2 (abordagens inclusivas e uso crítico das tecnologias) e 10.3 (capacitação continuada e retenção); a dimensão de força de trabalho corresponde a sub-conceito não enunciado pelas recomendações. As Recomendações 10.1 (redes nacionais e Capacita GOV.BR) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice — detalhes no Anexo B.10.
+As 22 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões temáticas, sem dimensão federativa dedicada. A primeira trata da força de trabalho de TIC nos órgãos do governo federal — as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica trabalhadas pelos professores com os alunos; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente três recomendações: a 10.3 (capacitação continuada e retenção), pelo plano anual de capacitação das equipes de TI federais e pela proporção de titulares efetivos na força de trabalho; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` está entre os indicadores que sustentam a 10.3. As Recomendações 10.1 (redes nacionais e Capacita GOV.BR), 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice — detalhes no Anexo B.10.
 
 ![Dimensões do Objetivo 10](../graficos/dimensoes/cap13.png)
 
@@ -31,7 +33,7 @@ As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temá
 
 *Definição:* Força de trabalho de TIC nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), captada em sete itens do autodiagnóstico iGovSISP — um por área de conhecimento do próprio instrumento (Gestão e Planejamento de TI; Sistemas e Serviços Públicos Digitais; Dados e Informações; Privacidade e Segurança da Informação; Contratações de TI; Infraestrutura e Plataformas Digitais) e um sobre o percentual de titulares de funções de TI concursados. Sub-conceito não enunciado pelas recomendações da ENGD, mas aderente ao enunciado do objetivo, que inclui a ampliação da atração e retenção de talentos nas organizações públicas.
 
-*Média Nacional:* 72.6 (n=7).
+*Média Nacional:* 72.6 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -67,9 +69,9 @@ As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temá
 
 ### 13.3.2 Formação continuada de professores em TIC
 
-*Definição:* Participação do corpo docente da educação básica em formação continuada sobre uso de TIC na educação. Ancorada na Recomendação 10.3 (capacitação continuada). Os itens sobre os temas abordados nessa formação não integram o índice por medirem percentuais condicionados à participação em formação continuada nos últimos 12 meses — universo restrito aos 53,5% dos professores que declararam essa participação.
+*Definição:* Participação do corpo docente da educação básica em formação continuada sobre uso de TIC na educação. Os itens sobre os temas abordados nessa formação não integram o índice por medirem percentuais condicionados à participação em formação continuada nos últimos 12 meses — universo restrito aos 53,5% dos professores que declararam essa participação.
 
-*Média Nacional:* 53.5 (n=1).
+*Média Nacional:* 53.5 (n=1; 1 item).
 
 **Indicadores:**
 
@@ -81,9 +83,9 @@ As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temá
 
 ### 13.3.3 Competências digitais e educação crítica
 
-*Definição:* Competência digital e educação crítica promovidas pelos professores da educação básica junto aos alunos — atividades pedagógicas sobre proteção à privacidade e aos dados pessoais e sobre os impactos do uso de inteligência artificial na produção de conteúdos, informações e conhecimento. Ancorada nas Recomendações 10.2 (abordagens inclusivas e uso crítico das tecnologias) e 10.3 (capacitação continuada).
+*Definição:* Competência digital e educação crítica promovidas pelos professores da educação básica junto aos alunos — atividades pedagógicas sobre proteção à privacidade e aos dados pessoais e sobre os impactos do uso de inteligência artificial na produção de conteúdos, informações e conhecimento.
 
-*Média Nacional:* 55.3 (n=2).
+*Média Nacional:* 55.3 (n=1; 2 itens).
 
 **Indicadores:**
 
@@ -101,9 +103,9 @@ As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temá
 
 ### 13.3.4 Plano e processo de capacitação em TI no SISP
 
-*Definição:* Ciclo PDCA do plano anual de capacitação para a equipe de TI nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), captado em seis itens do autodiagnóstico iGovSISP — definição de competências, critérios para pedidos de capacitação, elaboração periódica do plano, execução, avaliação e incentivos ao desenvolvimento de competências. Ancorada na Recomendação 10.3, que cita explicitamente "ações específicas de capacitação continuada, aprimoramento da gestão e retenção de talentos".
+*Definição:* Ciclo PDCA do plano anual de capacitação para a equipe de TI nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), captado em seis itens do autodiagnóstico iGovSISP — definição de competências, critérios para pedidos de capacitação, elaboração periódica do plano, execução, avaliação e incentivos ao desenvolvimento de competências. Corresponde à Recomendação 10.3, que cita explicitamente "ações específicas de capacitação continuada, aprimoramento da gestão e retenção de talentos".
 
-*Média Nacional:* 57.7 (n=6).
+*Média Nacional:* 57.7 (n=1; 6 itens).
 
 **Indicadores:**
 
@@ -137,9 +139,9 @@ As 22 variáveis ativas do Objetivo 10 foram agrupadas em cinco dimensões temá
 
 ### 13.3.5 Áreas temáticas das capacitações desenvolvidas em TI no SISP
 
-*Definição:* Cobertura temática das capacitações efetivamente desenvolvidas nas equipes de TI dos órgãos SISP, captada em seis itens do autodiagnóstico iGovSISP — uma variável por área de conhecimento alinhada às dimensões do próprio instrumento (Gestão e Planejamento; Sistemas e Serviços Públicos Digitais; Dados e Informações; Privacidade e Segurança da Informação; Contratações de TI; Infraestrutura e Plataformas Digitais). Mede o resultado do ciclo de capacitação descrito na Dimensão 13.3.4. Ancorada na Recomendação 10.3.
+*Definição:* Cobertura temática das capacitações efetivamente desenvolvidas nas equipes de TI dos órgãos SISP, captada em seis itens do autodiagnóstico iGovSISP — uma variável por área de conhecimento alinhada às dimensões do próprio instrumento (Gestão e Planejamento; Sistemas e Serviços Públicos Digitais; Dados e Informações; Privacidade e Segurança da Informação; Contratações de TI; Infraestrutura e Plataformas Digitais). Mede o resultado do ciclo de capacitação descrito na Dimensão 13.3.4. Corresponde à Recomendação 10.3.
 
-*Média Nacional:* 49.9 (n=6).
+*Média Nacional:* 49.9 (n=1; 6 itens).
 
 **Indicadores:**
 

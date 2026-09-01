@@ -4,33 +4,33 @@
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
+> **Decisão de publicação:** este capítulo preserva as quatro medidas disponíveis porque elas documentam o que já pode ser observado e, sobretudo, o que ainda falta medir. As quatro medidas permanecem, portanto, descritas neste relatório, com a pergunta completa e o valor de cada uma — mas as dimensões deste objetivo não têm média nem gráfico publicados, aqui nem na plataforma pública do Observatório, porque quatro medidas heterogêneas, sobre conceitos e universos distintos, não sustentam leitura equivalente à dos objetivos cobertos por dezenas de indicadores. A justificativa completa está na Seção 3.4.1.
+
 ## 6.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca sete recomendações aos entes federados para implementar e manter solução estruturante de identificação única e nacional:
+A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federados para implementar e manter solução estruturante de identificação única e nacional:
 
 - **3.1** Integrar os serviços públicos digitais ao mecanismo de autenticação digital da Plataforma GOV.BR.
 - **3.2** Integrar os serviços públicos para dar a opção de uso das ferramentas de assinatura eletrônica, inclusive o mecanismo da Plataforma GOV.BR.
 - **3.3** Integrar todos os órgãos estaduais de emissão de identidade civil ao Serviço de Identificação do Cidadão.
 - **3.4** Participar, sob coordenação da União, das definições e desenvolvimento de ferramentas cooperativas para implementação do Serviço de Identificação Civil em canais físicos e digitais, incluindo a integração com a solução de autenticação digital da Plataforma GOV.BR.
-- **3.5** Prover aos cidadãos repositórios digitais de seus documentos e informações, para dispor proativamente de atestados, certidões, documentos comprobatórios de regularidade, dentre outros, preferencialmente integrado à Plataforma GOV.BR.
+- **3.5** Prover aos cidadãos repositórios digitais de seus documentos e informações, consolidando-os de forma integrada entre os entes federados, para dispor proativamente de atestados, certidões, documentos comprobatórios de regularidade, dentre outros, preferencialmente integrados à Plataforma GOV.BR, permitindo o compartilhamento seguro e consentido de dados entre órgãos para eliminação de exigências documentais redundantes.
 - **3.6** Regulamentar uso de assinaturas eletrônicas nas suas interações internas e com a sociedade.
 - **3.7** Utilizar o número de inscrição no Cadastro de Pessoas Físicas - CPF como número suficiente para identificação do cidadão, fazendo constar nos cadastros e documentos de órgãos públicos.
+- **3.8** Contribuir para a instituição e manutenção de um cadastro base do cidadão, de âmbito nacional, que consolide dados essenciais compartilhados entre União, estados e municípios, observada a legislação de proteção de dados pessoais, como instrumento para a oferta integrada e proativa de serviços públicos.
+- **3.9** Permitir que órgãos da administração pública, de qualquer ente federado, acessem documentos e informações já disponíveis nos repositórios digitais do cidadão para a prestação de serviços, mediante base legal adequada, consentimento granular e revogável do titular quando aplicável, registro auditável de acessos e adoção de mecanismos de segurança e proteção de dados pessoais.
 
 ## 6.2 Cobertura por nível federativo
 
-O Objetivo 3 conta com 4 variáveis ativas no índice, correspondendo a 4 componentes, distribuídos por três fontes: uma variável da TIC Governo Eletrônico 2023 (CETIC.br), duas do IOSPD/ABEP-TIC 2025 e uma da MUNIC 2024 (IBGE). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09` e `IOSPD_V07`, ambas IOSPD/ABEP-TIC 2025) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores IOSPD para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
+O Objetivo 3 conta com 4 variáveis ativas no índice (2 do IOSPD/ABEP-TIC, 1 da TIC Governo Eletrônico (CETIC.br) e 1 da MUNIC (IBGE)), que entram na agregação do índice como 4 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09` e `IOSPD_V07`, ambas IOSPD/ABEP-TIC 2025) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores IOSPD para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
 
 ## 6.3 Dimensões
 
-As 4 variáveis ativas do Objetivo 3 foram agrupadas em três dimensões temáticas, cada uma ancorada diretamente em uma ou mais das sete recomendações da Portaria — autenticação digital, assinatura eletrônica e identidade civil. A configuração com uma dimensão singleton (`Identidade civil`) reflete o estado atual do índice. A dimensão federativa **`Recorte Estadual`** consolida os dois indicadores IOSPD com observação por UF.
-
-![Dimensões do Objetivo 3](../graficos/dimensoes/cap06.png)
+As 4 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria — autenticação digital, assinatura eletrônica e identidade civil. A configuração com uma dimensão singleton (`Identidade civil`) reflete o estado atual do índice. O `Recorte Estadual` consolida os dois indicadores IOSPD com observação por UF.
 
 ### 6.3.1 Autenticação digital
 
-*Definição:* Mecanismos de identificação e acesso do cidadão a serviços públicos digitais por sistema de autenticação único, com referência à Plataforma GOV.BR. Ancorada na Recomendação 3.1.
-
-*Média Nacional:* 25.7 (n=2).
+*Definição:* Mecanismos de identificação e acesso do cidadão a serviços públicos digitais por sistema de autenticação único, com referência à Plataforma GOV.BR. Corresponde à Recomendação 3.1.
 
 O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login único Gov.br — o mecanismo de autenticação preconizado pela Recomendação 3.1 —, e não a mera exigência de qualquer cadastro ou login. O valor Nacional de 13,39 indica que a adoção do Gov.br pelos órgãos públicos estaduais e pelas prefeituras ainda é baixa, o que puxa a média da dimensão para baixo mesmo com quase quatro em cada dez prefeituras oferecendo alguma forma de autenticação em serviços pela internet (`MUNIC_AUTENTICACAO`).
 
@@ -51,9 +51,7 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
 
 ### 6.3.2 Assinatura eletrônica
 
-*Definição:* Disponibilidade de solução institucional de assinatura eletrônica, em substituição à assinatura manuscrita nos atos administrativos e na interação com o cidadão. Ancorada na Recomendação 3.2.
-
-*Média Nacional:* 63.0 (n=1).
+*Definição:* Disponibilidade de solução institucional de assinatura eletrônica, em substituição à assinatura manuscrita nos atos administrativos e na interação com o cidadão. Corresponde à Recomendação 3.2.
 
 **Indicadores:**
 
@@ -66,9 +64,7 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
 
 ### 6.3.3 Identidade civil
 
-*Definição:* Capacidade do ente federado de emitir a Carteira de Identidade Nacional (CIN) — documento físico-digital de identidade civil unificado em torno do CPF, integrável ao Serviço de Identificação do Cidadão. Ancorada nas Recomendações 3.3 e 3.4.
-
-*Média Nacional:* 81.5 (n=1).
+*Definição:* Capacidade do ente federado de emitir a Carteira de Identidade Nacional (CIN) — documento físico-digital de identidade civil unificado em torno do CPF, integrável ao Serviço de Identificação do Cidadão. Corresponde à Recomendação 3.3.
 
 **Indicadores:**
 
@@ -82,10 +78,6 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
 ### 6.3.4 Recorte Estadual
 
 *Definição:* Conjunto das variáveis do Objetivo 3 com observação por UF, agregadas para leitura federativa do desempenho na implementação de soluções estruturantes de identificação. Reúne `IOSPD_I09` e `IOSPD_V07`. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
-
-*Média Estadual:* 72.2 (n=2).
-
-![Recorte Estadual — Objetivo 3](../graficos/recortes/cap06_estadual.png)
 
 **Indicadores:**
 

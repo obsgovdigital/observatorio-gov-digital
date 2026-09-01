@@ -6,29 +6,31 @@ A metodologia (normalização, agregação, tratamento de não-resposta) está d
 
 ## 4.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca cinco recomendações aos entes federados para qualificar a gestão e governança das políticas de governo digital:
+A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federados para qualificar a gestão e governança das políticas de governo digital:
 
-- **1.1** Contribuir com a criação, participação e subsidio às atividades de redes nacionais, estaduais, regionais e associativas de políticas públicas de inovação e governo digital no país, em especial da Rede GOV.BR e do seu Comitê Consultivo da Estratégia Nacional de Governo Digital.
+- **1.1** Contribuir com a criação, participação e subsídio às atividades de redes nacionais, estaduais, regionais e associativas de políticas públicas de inovação e governo digital no país, em especial da Rede GOV.BR e do seu Comitê Consultivo da Estratégia Nacional de Governo Digital.
 - **1.2** Diversificar e indicar as fontes de financiamento da transformação digital, considerando a perenidade e a disponibilidade dos recursos.
 - **1.3** Elaborar, publicar e implementar uma estratégia de governo digital adequada à realidade territorial e alinhada à Estratégia Nacional de Governo Digital.
 - **1.4** Implementar uma estrutura de governança para as políticas de governo digital, com a designação de área responsável e instâncias colegiadas para acompanhamento e monitoramento da estratégia local.
-- **1.5** Prever as ações de governo digital nos instrumentos de planejamento e orçamento do ciclo de políticas públicas (Plano Plurianual - PPA, Lei de Diretrizes Orçamentárias - LDO, Lei orçamentária Anual - LOA), além de planos de governo.
+- **1.5** Prever as ações de governo digital nos instrumentos de planejamento e orçamento do ciclo de políticas públicas (PPA, LDO, LOA), além de planos de governo.
+- **1.6** Estabelecer governança interfederativa para a orquestração de serviços públicos que envolvam mais de um ente federado em sua execução, definindo responsabilidades, níveis de serviço e padrões de integração para jornadas de vida do cidadão.
+- **1.7** Prever ações voltadas à implementação e consolidação da Infraestrutura Nacional de Dados da Educação (EducaDados) em alinhamento com a Infraestrutura Nacional de Dados (IND).
 
 ## 4.2 Cobertura por nível federativo
 
-O Objetivo 1 conta com 29 variáveis ativas no índice — 26 do iGovSISP/SGD, 1 da TIC Governo Eletrônico, 1 do IOSPD/ABEP-TIC e 1 da MUNIC —, que entram na agregação do índice como 18 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável tem observação por UF (`IOSPD_I10`, IOSPD/ABEP-TIC 2025) e apenas uma tem observação por capital (`MUNIC_TI_ESTRUTURA`, MUNIC 2024). Como nenhum dos dois níveis federativos atinge o limiar mínimo de duas variáveis, **não se criam** as dimensões `Recorte Estadual` e `Recorte de Capitais`; os dois indicadores aparecem dentro das dimensões temáticas em que foram classificados, com a observação federativa explicitada inline.
+O Objetivo 1 conta com 41 variáveis ativas no índice (26 do iGovSISP/SGD (SGD/MGI), 12 do iESGo/TCU, 1 da TIC Governo Eletrônico (CETIC.br), 1 do IOSPD/ABEP-TIC e 1 da MUNIC (IBGE)), que entram na agregação do índice como 32 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável tem observação por UF (`IOSPD_I10`, IOSPD/ABEP-TIC 2025) e apenas uma tem observação por capital (`MUNIC_TI_ESTRUTURA`, MUNIC 2024). Como nenhum dos dois níveis federativos atinge o limiar mínimo de duas variáveis, **não se criam** as dimensões `Recorte Estadual` e `Recorte de Capitais`; os dois indicadores aparecem dentro das dimensões temáticas em que foram classificados, com a observação federativa explicitada inline.
 
 ## 4.3 Dimensões
 
-As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáticas. As três primeiras seguem diretamente recomendações da Portaria; as outras três cobrem aspectos que o índice mede e que a Portaria não enuncia explicitamente — em particular, práticas de gestão da função TI segundo o framework SISP/COBIT (gerenciamento de processos, força de trabalho em TI, adoção de instrumentos do SGD).
+As 41 variáveis ativas do Objetivo 1 foram organizadas em seis dimensões temáticas, sem dimensão federativa dedicada. As três primeiras seguem diretamente recomendações da Portaria; as outras três cobrem aspectos que o índice mede e que a Portaria não enuncia explicitamente — em particular, práticas de gestão da função TI segundo o framework SISP/COBIT (gerenciamento de processos, força de trabalho em TI, adoção de instrumentos do SGD).
 
 ![Dimensões do Objetivo 1](../graficos/dimensoes/cap04.png)
 
 ### 4.3.1 Estrutura de governança
 
-*Definição:* Existência de instâncias formais que dão suporte à política de governo digital — área/departamento de TI, comitês de governança digital e estruturas/diretrizes de governança de TIC. Ancorada na Recomendação 1.4.
+*Definição:* Existência de instâncias formais que dão suporte à política de governo digital — área/departamento de TI, comitês de governança digital e estruturas/diretrizes de governança de TIC. Corresponde à Recomendação 1.4.
 
-*Média Nacional:* 76.8 (n=4).
+*Média Nacional:* 70.2 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -37,6 +39,20 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 - **B1** — O órgão/prefeitura possui uma área ou departamento de TI?
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual) — ver Seção 3.3.4.
   - Valor (Nacional): 67.89
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 2133** — A alta administração estabeleceu modelo de gestão de tecnologia da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 66.76
+
+- **iESGo 2153** — A liderança monitora o desempenho da gestão de tecnologia da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 57.43
+
+- **iESGo 3132_C** — A instância superior de governança recebe serviços de auditoria interna que adicionam valor à organização (item C: os serviços de auditoria interna prestados anualmente para a organização contemplam avaliação da gestão de tecnologia da informação) (agregação por média entre os 1 sub-itens; ver Capítulo 3).
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 59.95
 
 *MUNIC 2024 (IBGE):*
 
@@ -57,11 +73,25 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 
 ### 4.3.2 Estratégia e planejamento
 
-*Definição:* Existência, qualidade e execução de instrumentos formais de planejamento de TI e governo digital — estratégia de governo digital (IOSPD), conteúdo e gestão do Plano Diretor de Tecnologia da Informação e Comunicação (PDTIC) (publicação, uso do guia do SISP, revisão anual, análise de alternativas, riscos, metas intermediárias e grau de execução), alinhamento à EFGD e integração entre planejamento estratégico institucional (PEI/PDI) e objetivos de TIC. Ancorada na Recomendação 1.3.
+*Definição:* Existência, qualidade e execução de instrumentos formais de planejamento de TI e governo digital — estratégia de governo digital (IOSPD), conteúdo e gestão do Plano Diretor de Tecnologia da Informação e Comunicação (PDTIC) (publicação, uso do guia do SISP, revisão anual, análise de alternativas, riscos, metas intermediárias e grau de execução), alinhamento à EFGD e integração entre planejamento estratégico institucional (PEI/PDI) e objetivos de TIC. Corresponde à Recomendação 1.3.
 
-*Média Nacional:* 71.1 (n=10).
+*Média Nacional:* 67.9 (n=7; 13 itens).
 
 **Indicadores:**
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 2123** — A organização definiu metas para a simplificação do atendimento prestado aos usuários dos serviços públicos.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 37.78
+
+- **iESGo 4211** — A organização executa processo de planejamento de tecnologia da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 71.74
+
+- **iESGo 4212** — A organização possui plano de tecnologia da informação vigente.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 76.65
 
 *IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
 
@@ -115,9 +145,9 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 
 ### 4.3.3 Recursos e contratações
 
-*Definição:* Adequação orçamentária da TI — orçamento adequado às necessidades — e detalhamento de capacitações e orçamentos no PDTIC. Ancorada na Recomendação 1.5.
+*Definição:* Adequação orçamentária da TI — orçamento adequado às necessidades — e detalhamento de capacitações e orçamentos no PDTIC. Corresponde à Recomendação 1.5.
 
-*Média Nacional:* 49.4 (n=3).
+*Média Nacional:* 45.0 (n=2; 3 itens).
 
 **Indicadores:**
 
@@ -141,9 +171,35 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 
 *Definição:* Adoção de práticas formais de gerenciamento da função TI — projetos, riscos, mudanças, ativos, conformidade e gestão de recursos de TI. Sub-conceito não enunciado pelas recomendações da ENGD, mas central no autodiagnóstico SISP.
 
-*Média Nacional:* 62.5 (n=7).
+*Média Nacional:* 55.4 (n=13; 13 itens).
 
 **Indicadores:**
+
+*iESGo/TCU 2024 (TCU):*
+
+- **iESGo 4221** — A organização elabora um catálogo de serviços de tecnologia da informação e monitora níveis de serviço.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 50.43
+
+- **iESGo 4222** — A organização executa processo de gestão de mudanças.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 45.26
+
+- **iESGo 4223** — A organização executa processo de gestão de configuração e ativos (de serviços de tecnologia da informação).
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 35.87
+
+- **iESGo 4224** — A organização executa processo(s) de gestão de incidentes de serviços de tecnologia da informação e de incidentes de segurança da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 50.64
+
+- **iESGo 4261** — A organização executa um processo de software.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 51.69
+
+- **iESGo 4262** — A organização executa processo de gestão de projetos de tecnologia da informação.
+  - *Normalização:* Índice 0-100 — usado diretamente
+  - Valor (Nacional): 49.18
 
 *iGovSISP/SGD 2025 (SGD/MGI):*
 
@@ -177,9 +233,9 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 
 ### 4.3.5 Pessoas e força de trabalho em TI
 
-*Definição:* Dimensionamento da força de trabalho em TI no planejamento do PDTIC — estimativa do quantitativo mínimo de pessoal por competência. Sub-conceito não enunciado pelas recomendações da ENGD, mas presente no instrumento SISP como parte da governança da função TI. Os demais recortes de pessoas e competências — avaliação de desempenho individual, adequação quantitativa do pessoal de TI, capacitação, retenção e mentoria — estão no Objetivo 10 (Capítulo 13), por aderência mais direta às Recomendações 10.1–10.4.
+*Definição:* Dimensionamento da força de trabalho em TI no planejamento do PDTIC — estimativa do quantitativo mínimo de pessoal por competência. Sub-conceito não enunciado pelas recomendações da ENGD, mas presente no instrumento SISP como parte da governança da função TI. Os demais recortes de pessoas e competências — avaliação de desempenho individual, adequação quantitativa do pessoal de TI, capacitação, retenção e mentoria — estão no Objetivo 10 (Capítulo 13), que é o objetivo em que o tema das competências é tratado.
 
-*Média Nacional:* 43.1 (n=1).
+*Média Nacional:* 43.1 (n=1; 1 item).
 
 **Indicadores:**
 
@@ -195,7 +251,7 @@ As 29 variáveis ativas do Objetivo 1 foram agrupadas em seis dimensões temáti
 
 *Definição:* Conhecimento e utilização de instrumentos e orientações da Secretaria de Governo Digital (SGD/MGI) pelos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP) — portarias setoriais sobre software, infraestrutura e estações de trabalho — além de item do autodiagnóstico SISP sobre previsão orçamentária por cenários alternativos. A Plataforma Gov Digital é tratada no Objetivo 6, por aderência à Recomendação 6.1; as instruções normativas estruturantes sobre processo de contratação de TIC (IN SGD/MGI nº 06/2023 e IN SGD/ME nº 94/2022) migraram para o Objetivo 8 (Capítulo 11), por aderência mais direta à Recomendação 8.3.
 
-*Média Nacional:* 57.9 (n=4).
+*Média Nacional:* 56.8 (n=2; 4 itens).
 
 **Indicadores:**
 

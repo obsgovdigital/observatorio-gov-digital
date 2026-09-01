@@ -6,31 +6,32 @@ A metodologia (normalização, agregação, tratamento de não-resposta) está d
 
 ## 11.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca sete recomendações aos entes federados para otimizar e promover a eficiência dos processos das organizações públicas:
+A Portaria SGD/MGI nº 5.395/2026 elenca oito recomendações aos entes federados para otimizar e promover a eficiência dos processos das organizações públicas:
 
 - **8.1** Adotar e desenvolver soluções de compras públicas de forma integrada e compartilhada, em portais padronizados, alinhadas à legislação federal.
 - **8.2** Adotar metodologias de cálculo de impacto econômico, social e ambiental para mensuração dos efeitos da transformação digital, divulgando os resultados periodicamente.
 - **8.3** Adotar padrões e boas práticas estabelecidas para a contratação de serviços de tecnologia, garantindo o máximo de interoperabilidade e formas de integração com os sistemas já disponíveis.
-- **8.4** Adotar sistemas de processos administrativos eletrônicos, compatíveis com o Processo Eletrônico Nacional - PEN, proporcionando maior segurança jurídica, eficiência e celeridade.
-- **8.5** Disponibilizar soluções tecnológicas de uso comum em plataforma aberta, com uma abordagem de compartilhamento com outros entes federados e organizações.
-- **8.6** Inovar na gestão com arranjos organizacionais mais integrados, baseados nos modelos de serviços compartilhados.
+- **8.4** Adotar sistemas de processos administrativos eletrônicos compatíveis com o Processo Eletrônico Nacional - PEN, proporcionando maior segurança jurídica, eficiência e celeridade, e viabilizando a tramitação automatizada de processos entre diferentes entes federados quando o serviço assim o exigir, de forma transparente para o cidadão.
+- **8.5** Disponibilizar soluções tecnológicas de uso comum em plataformas centralizadas, com uso de padrões abertos que garantam interoperabilidade, possibilitando sua integração, reutilização e compartilhamento com outros entes federados e organizações.
+- **8.6** Inovar na gestão com arranjos organizacionais mais integrados, baseados nos modelos de serviços compartilhados, contemplando processos de monitoramento contínuo das soluções digitais e avaliação periódica de desempenho e de conformidade proporcionais aos riscos.
 - **8.7** Revisar, simplificar e digitalizar processos e rotinas de trabalho com foco na eficiência e na qualidade da entrega, e adotando metodologias ágeis e iterativas para o desenvolvimento de soluções e resolução de problemas.
+- **8.8** Mapear, redesenhar e digitalizar as jornadas de serviços públicos que envolvam a atuação de múltiplos entes federados (jornadas interfederativas), adotando metodologias de simplificação, automação e integração de processos, com foco na eliminação de redundâncias e na redução do tempo e do esforço exigidos do cidadão.
 
 ## 11.2 Cobertura por nível federativo
 
-O Objetivo 8 conta com 27 variáveis ativas — 13 da TIC Governo Eletrônico, 8 do iGovSISP/SGD, 3 da TIC Saúde, 2 da TIC Educação e 1 do IOSPD/ABEP-TIC —, que entram na agregação do índice como 9 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável (`IOSPD_III02`, IOSPD/ABEP-TIC 2025) tem observação por UF e nenhuma variável tem observação por capital. Como o nível estadual fica abaixo do limiar mínimo de duas variáveis e o nível municipal não tem nenhuma, este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`. O indicador subnacional aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline. O esvaziamento subnacional sinaliza prioridade para novas fontes ou indicadores específicos a estados e municípios em medições de eficiência e processos.
+O Objetivo 8 conta com 27 variáveis ativas no índice (13 da TIC Governo Eletrônico (CETIC.br), 8 do iGovSISP/SGD (SGD/MGI), 3 da TIC Saúde (CETIC.br), 2 da TIC Educação (CETIC.br) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 10 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável (`IOSPD_III02`, IOSPD/ABEP-TIC 2025) tem observação por UF e nenhuma variável tem observação por capital. Como o nível estadual fica abaixo do limiar mínimo de duas variáveis e o nível municipal não tem nenhuma, este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`. O indicador subnacional aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline. O esvaziamento subnacional sinaliza prioridade para novas fontes ou indicadores específicos a estados e municípios em medições de eficiência e processos.
 
 ## 11.3 Dimensões
 
-As 27 variáveis ativas do Objetivo 8 foram agrupadas em cinco dimensões temáticas. Quatro delas seguem diretamente recomendações da Portaria — contratações de TI (8.3), processos administrativos eletrônicos de compras e simplificação (8.1, 8.4, 8.7) e digitalização de processos finalísticos em saúde e educação, incluindo o apoio à decisão clínica (8.7); a primeira cobre a base operacional de back-office digital captada pelo bloco `B4` da TIC Governo Eletrônico, sub-conceito não enunciado pelas recomendações da ENGD. Os 12 itens conceituais desse bloco formam uma única bateria: 11 são apresentados na dimensão Sistemas administrativos integrados e 1 (o sistema de compras, `B4_E`) na dimensão Processos administrativos eletrônicos e simplificação, mas todos contam juntos como um só componente no peso do índice. As Recomendações 8.2 (cálculo de impacto econômico/social/ambiental) e 8.6 (arranjos organizacionais e serviços compartilhados) não têm indicador no índice; a Recomendação 8.5 (plataforma aberta e compartilhamento entre entes) tem cobertura indireta via contratos com prestadores estratégicos federais — detalhes no Anexo B.8.
+As 27 variáveis ativas do Objetivo 8 foram organizadas em cinco dimensões temáticas, sem dimensão federativa dedicada. Quatro delas seguem diretamente recomendações da Portaria — contratações de TI (8.3), processos administrativos eletrônicos de compras e simplificação (8.1, 8.7) e digitalização de processos finalísticos em saúde e educação, incluindo o apoio à decisão clínica (8.7); a primeira cobre a base operacional de back-office digital captada pelo bloco `B4` da TIC Governo Eletrônico, sub-conceito em boa parte não enunciado pelas recomendações da ENGD, embora dois de seus itens, protocolo e gestão de documentos, sejam os que sustentam a Recomendação 8.4. Os 12 itens conceituais desse bloco formam uma única bateria: 11 são apresentados na dimensão Sistemas administrativos integrados e 1 (o sistema de compras, `B4_E`) na dimensão Processos administrativos eletrônicos e simplificação. A bateria conta uma vez em cada dimensão em que tem presença, totalizando dois componentes. As Recomendações 8.2 (cálculo de impacto econômico/social/ambiental), 8.5 (plataforma aberta e compartilhamento entre entes), 8.6 (arranjos organizacionais e serviços compartilhados) e 8.8 (jornadas interfederativas) não têm indicador no índice — detalhes no Anexo B.8.
 
 ![Dimensões do Objetivo 8](../graficos/dimensoes/cap11.png)
 
 ### 11.3.1 Sistemas administrativos integrados
 
-*Definição:* Adoção de sistemas eletrônicos para funções de back-office da administração pública — recursos humanos, patrimônio, orçamento, finanças e contabilidade, contratos, informação geográfica, apoio à decisão, protocolos, gestão de documentos, ERP e convênios. Sub-conceito não enunciado pelas recomendações da ENGD, mas captado pelo bloco `B4` da TIC Governo Eletrônico como base operacional da eficiência dos entes respondentes.
+*Definição:* Adoção de sistemas eletrônicos para funções de back-office da administração pública — recursos humanos, patrimônio, orçamento, finanças e contabilidade, contratos, informação geográfica, apoio à decisão, protocolos, gestão de documentos, ERP e convênios. Sub-conceito em boa parte não enunciado pelas recomendações da ENGD, mas captado pelo bloco `B4` da TIC Governo Eletrônico como base operacional da eficiência dos entes respondentes. Dois de seus itens, protocolos e gestão de documentos, são os que sustentam a Recomendação 8.4 (sistemas de processos administrativos eletrônicos compatíveis com o PEN).
 
-*Média Nacional:* 67.9 (n=11).
+*Média Nacional:* 67.9 (n=1; 11 itens).
 
 **Indicadores:**
 
@@ -84,9 +85,9 @@ As 27 variáveis ativas do Objetivo 8 foram agrupadas em cinco dimensões temát
 
 ### 11.3.2 Compras e contratações de TI
 
-*Definição:* Conformidade com o normativo estruturante das contratações de TI (Instrução Normativa SGD/ME nº 94/2022) e maturidade das práticas de contratação de soluções e serviços de tecnologia — definição de requisitos, padronização de procedimentos, gestão de contratos, força de trabalho, sustentabilidade e acessibilidade digital. Ancorada na Recomendação 8.3 (padrões e boas práticas para contratação de TI).
+*Definição:* Conformidade com o normativo estruturante das contratações de TI (Instrução Normativa SGD/ME nº 94/2022) e maturidade das práticas de contratação de soluções e serviços de tecnologia — definição de requisitos, padronização de procedimentos, gestão de contratos, força de trabalho, sustentabilidade e acessibilidade digital. Corresponde à Recomendação 8.3 (padrões e boas práticas para contratação de TI).
 
-*Média Nacional:* 85.4 (n=8).
+*Média Nacional:* 85.4 (n=1; 8 itens).
 
 **Indicadores:**
 
@@ -128,9 +129,9 @@ As 27 variáveis ativas do Objetivo 8 foram agrupadas em cinco dimensões temát
 
 ### 11.3.3 Processos administrativos eletrônicos e simplificação
 
-*Definição:* Condução eletrônica de processos administrativos de compras — adoção de sistema de compras e realização de pregão eletrônico — e existência de instâncias formais para desburocratização e simplificação. Ancorada nas Recomendações 8.1 (soluções de compras públicas de forma integrada e compartilhada), 8.4 (sistemas de processos administrativos eletrônicos) e 8.7 (revisar, simplificar e digitalizar processos e rotinas de trabalho).
+*Definição:* Condução eletrônica de processos administrativos de compras — adoção de sistema de compras e realização de pregão eletrônico — e existência de instâncias formais para desburocratização e simplificação. Corresponde às Recomendações 8.1 (soluções de compras públicas de forma integrada e compartilhada) e 8.7 (revisar, simplificar e digitalizar processos e rotinas de trabalho).
 
-*Média Nacional:* 80.8 (n=3).
+*Média Nacional:* 80.8 (n=3; 3 itens).
 
 **Indicadores:**
 
@@ -155,9 +156,9 @@ As 27 variáveis ativas do Objetivo 8 foram agrupadas em cinco dimensões temát
 
 ### 11.3.4 Sistemas eletrônicos em saúde e educação
 
-*Definição:* Digitalização de processos finalísticos em dois setores de larga capilaridade — registro eletrônico em escolas (administrativo, gestão online) e em estabelecimentos de saúde (prontuários mantidos apenas em formato eletrônico e funcionalidades eletrônicas disponíveis no sistema). Ancorada na Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
+*Definição:* Digitalização de processos finalísticos em dois setores de larga capilaridade — registro eletrônico em escolas (administrativo, gestão online) e em estabelecimentos de saúde (prontuários mantidos apenas em formato eletrônico e funcionalidades eletrônicas disponíveis no sistema). Corresponde à Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
 
-*Média Nacional:* 65.6 (n=4).
+*Média Nacional:* 65.6 (n=4; 4 itens).
 
 **Indicadores:**
 
@@ -183,9 +184,9 @@ As 27 variáveis ativas do Objetivo 8 foram agrupadas em cinco dimensões temát
 
 ### 11.3.5 Apoio à decisão clínica
 
-*Definição:* Disponibilidade de funcionalidades de apoio à decisão clínica no sistema eletrônico dos estabelecimentos de saúde — recursos que auxiliam a equipe na conduta assistencial, medidos pelos sete itens oficiais da TIC Saúde 2024. Ancorada na Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
+*Definição:* Disponibilidade de funcionalidades de apoio à decisão clínica no sistema eletrônico dos estabelecimentos de saúde — recursos que auxiliam a equipe na conduta assistencial, medidos pelos sete itens oficiais da TIC Saúde 2024. Corresponde à Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
 
-*Média Nacional:* 28.1 (n=1).
+*Média Nacional:* 28.1 (n=1; 1 item).
 
 **Indicadores:**
 

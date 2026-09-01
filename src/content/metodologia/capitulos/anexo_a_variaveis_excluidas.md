@@ -42,7 +42,7 @@ Este anexo consolida as variáveis avaliadas que não foram incorporadas aos ín
 |----------|-------|-----------|--------|-------------|
 | BLF01 | ANATEL | Número absoluto de acessos de banda larga fixa (~38M-44M) | Contagem absoluta, sem expressão 0-100% | Substituída por BLF02 |
 | BLF03 | ANATEL | Acessos de banda larga fixa por tecnologia | Contagem absoluta | Substituída por INF02 |
-| BLM01 | ANATEL | Número absoluto de estações rádio-base (ERBs) | Contagem absoluta | Substituída por BLM02 |
+| BLM01 | ANATEL | ANATEL SMP — quantitativo de acessos em operação de telefonia e banda larga móvel | Contagem absoluta | Substituída por BLM02 |
 
 ### Variáveis multi-item excluídas (5)
 
@@ -111,7 +111,7 @@ Casos em que a variável anterior foi aposentada e o conceito passou a ser medid
 
 ### Aderência ao escopo ENGD
 
-Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI nº 4.248/2024 e excluídas por não corresponderem a recomendação ENGD do objetivo em que estavam classificadas, ou de nenhum dos 10 objetivos.
+Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI nº 5.395/2026 e excluídas por não corresponderem a recomendação ENGD do objetivo em que estavam classificadas, ou de nenhum dos 10 objetivos.
 
 | Variável | Fonte | Descrição | Motivo | Ação futura |
 |----------|-------|-----------|--------|-------------|
@@ -126,7 +126,7 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; 54 indicadores individuais desagregados |
+| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores individuais, dos quais 48 seguem ativos no índice |
 | IOSPD_DIM1 | ABEP-TIC | Dimensão Capacidades (compósito I.1-I.13) | Compósito de 13 indicadores, desagregados individualmente |
 | IOSPD_DIM2 | ABEP-TIC | Dimensão Serviços (compósito II.1-II.12) | Compósito de 12 indicadores, desagregados individualmente |
 | IOSPD_DIM3 | ABEP-TIC | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito de 11 indicadores, desagregados individualmente |
@@ -134,7 +134,12 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 | IOSPD_DIM5 | ABEP-TIC | Dimensão Inovação (compósito V.1-V.9) | Compósito de 9 indicadores, desagregados individualmente |
 | IOSPD_I02 | ABEP-TIC | Percentual de uso da plataforma única (I.2) | Saturado em zero: todas 27 UFs nota 0 em 2025 |
 | IOSPD_III01 | ABEP-TIC | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
-| iGovTI | iESGo (TCU) | Índice composto GovernancaTI + iGestTI | Compósito de subíndices; toda a fonte saiu do índice pela regra de manter apenas variáveis individuais |
+
+**Escopo das exclusões do iESGo.** O que sai abaixo são os compósitos calculados pelo próprio TCU, e não a fonte. O iESGo integra o índice por vinte questões completas do questionário de governança mais o sub-item `3132_C`, tratadas como variáveis individuais, conforme o capítulo de metodologia.
+
+| Variável | Fonte | Descrição | Motivo |
+|----------|-------|-----------|--------|
+| iGovTI | iESGo (TCU) | Índice composto GovernancaTI + iGestTI | Compósito de subíndices de terceiros; o índice mantém apenas variáveis individuais |
 | GovernancaTI | iESGo (TCU) | Subíndice de governança estratégica de TI | Subíndice composto de terceiros; o índice mantém apenas variáveis individuais |
 | DIM_LIDERANCA | iESGo (TCU) | Sub-dimensão Liderança de GovernancaTI | Sub-dimensão do subíndice GovernancaTI, ele próprio excluído pela mesma regra |
 | DIM_ESTRATEGIA | iESGo (TCU) | Sub-dimensão Estratégia de GovernancaTI | Sub-dimensão do subíndice GovernancaTI, ele próprio excluído pela mesma regra |
@@ -155,6 +160,8 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 ### Redundância — rodada de decisão de junho/2026 (auditoria por objetivo)
 
 A revisão de redundância conduzida em junho de 2026 excluiu 49 variáveis, aplicando cinco critérios, na ordem: entre duas medidas do mesmo objeto, fica a censitária e mais atual; entre degraus logicamente encaixados da mesma prática, fica o mais geral; entre degraus práticos de exigência, fica o mais exigente; entre pergunta guarda-chuva e seus detalhamentos, fica o guarda-chuva; entre prática em funcionamento e prática apenas normatizada, fica o funcionamento. Uma rodada anterior da mesma auditoria já havia excluído os subíndices compostos do iESGo (listados na seção anterior) e `igovsisp/G106GPM`, incluída na tabela abaixo pelo mesmo fundamento de redundância. Exclusões daquela rodada posteriormente revertidas ou recadastradas — os itens C6B_A a C6B_E, hoje ativos como bateria de recursos móveis, e as formas de contato da família E1, reativadas com identidades semânticas — não constam da tabela.
+
+O quinto critério merece registro à parte. Ele decide qual lado de um par manter, e não constata que os dois lados meçam a mesma coisa: a auditoria de redundância conceitual examinou os três pares a que ele se aplica — `iospd/IOSPD_I10` com `iospd/IOSPD_III05`, `iospd/IOSPD_I01` com `iospd/IOSPD_III03` e `iospd/IOSPD_I09` com `iospd/IOSPD_III04` — e concluiu, em cada um, que normatizar uma prática e mantê-la em funcionamento são objetos distintos, de modo que não há redundância entre eles. As três variáveis do lado normatizado seguem fora do índice por decisão da rodada de junho, que preferiu medir o funcionamento, e não porque duplicassem o que já se media.
 
 | Variável | Fonte | Pergunta | Fundamento |
 |---|---|---|---|
@@ -240,7 +247,7 @@ O recorte estadual exclui integralmente as fontes cujos dados por UF medem outro
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; 54 indicadores desagregados |
+| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores, dos quais 48 seguem ativos no índice |
 | IOSPD_DIM1 | ABEP-TIC | Dimensão Capacidades (compósito I.1-I.13) | Compósito, desagregado individualmente |
 | IOSPD_DIM2 | ABEP-TIC | Dimensão Serviços (compósito II.1-II.12) | Compósito, desagregado individualmente |
 | IOSPD_DIM3 | ABEP-TIC | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito, desagregado individualmente |

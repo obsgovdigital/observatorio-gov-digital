@@ -1,33 +1,36 @@
 # 8. Objetivo 5: Dados e Interoperabilidade
 
-> Qualificar a tomada de decisões e a oferta de serviços nas organizações públicas com o reúso constante e de forma ética dos dados disponíveis para análises, interoperabilidade e personalização.
+> Qualificar a tomada de decisões e a oferta de serviços nas organizações públicas com o reuso constante e de forma ética dos dados disponíveis para análises, interoperabilidade e personalização.
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
 ## 8.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca quatro recomendações aos entes federados para qualificar o uso de dados e a interoperabilidade nas organizações públicas:
+A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federados para qualificar o uso de dados e a interoperabilidade nas organizações públicas:
 
 - **5.1** Elaborar, publicar e implementar um programa de governança de dados.
-- **5.2** Estabelecer e adotar mecanismos de interoperabilidade e compartilhamento de dados, entre os órgãos e com outros entes federados, especialmente os ofertados pela Plataforma GOV.BR, para qualificação das políticas públicas e eliminação de pedidos de dados dispensáveis na oferta de serviços públicos.
+- **5.2** Estabelecer e adotar mecanismos de interoperabilidade e compartilhamento de dados, entre os órgãos e com outros entes federados, especialmente os ofertados pela Plataforma GOV.BR, adotando padrões abertos e catálogos comuns, para qualificação das políticas públicas e eliminação de pedidos de dados dispensáveis na oferta de serviços públicos, com prioridade para jornadas de serviços que envolvam múltiplos entes federados em sua execução.
 - **5.3** Contribuir para a elaboração e adotar um modelo de compartilhamento de dados que permita ao cidadão o uso seguro dos seus dados e melhore sua experiência no acesso a serviços.
-- **5.4** Estimular o uso e a adoção de análise de dados, de maneira ética, na tomada de decisão das políticas públicas e na personalização dos serviços.
+- **5.4** Estimular o uso responsável de análise de dados na tomada de decisão de políticas públicas e na personalização de serviços, observadas a finalidade pública, a ética, a transparência, a proteção de dados pessoais, a prevenção de vieses discriminatórios e a avaliação de resultados.
+- **5.5** Instituir mecanismos de governança proporcionais ao risco para o uso de inteligência artificial no setor público, com definição de responsabilidades, instâncias de supervisão e processos de autoavaliação de impacto, observados os princípios éticos, os direitos fundamentais e o interesse público.
+- **5.6** Instituir plataformas federativas de compartilhamento de dados que permitam a troca segura e padronizada de informações entre União, estados e municípios para a prestação integrada de serviços, adotando modelos de governança de dados interfederativa e padrões de qualidade, catalogação e semântica comuns.
+- **5.7** Adotar a regra de que dados e documentos já disponíveis em bases oficiais não sejam novamente solicitados ao cidadão na prestação de serviços públicos, cabendo aos órgãos a consulta automatizada às fontes autoritativas, respeitadas a legislação de proteção de dados pessoais, as hipóteses legais de tratamento e o consentimento do titular quando aplicável.
 
 ## 8.2 Cobertura por nível federativo
 
-O Objetivo 5 conta com **36 variáveis ativas** no catálogo, que entram na agregação do índice como 24 componentes — itens de uma mesma bateria contam juntos como um único componente (ver Capítulo 3). Todas contribuem para a visão Nacional. **Duas** têm observação por UF (`ESTADIC_FORMATO_DADOS` e `IOSPD_I05`) e dão origem à dimensão `Recorte Estadual`. Apenas **uma** tem observação por capital (`MUNIC_DADOS_ABERTOS`), abaixo do limiar de duas variáveis para criação de dimensão federativa dedicada — não se cria `Recorte de Capitais`, e a variável aparece na dimensão temática `Dados abertos`.
+O Objetivo 5 conta com 36 variáveis ativas no índice (29 do iGovSISP/SGD (SGD/MGI), 3 da TIC Saúde (CETIC.br), 1 da TIC Governo Eletrônico (CETIC.br), 1 do IOSPD/ABEP-TIC, 1 da MUNIC (IBGE) e 1 da ESTADIC (IBGE)), que entram na agregação do índice como 26 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **Duas** têm observação por UF (`ESTADIC_FORMATO_DADOS` e `IOSPD_I05`) e dão origem à dimensão `Recorte Estadual`. Apenas **uma** tem observação por capital (`MUNIC_DADOS_ABERTOS`), abaixo do limiar de duas variáveis para criação de dimensão federativa dedicada — não se cria `Recorte de Capitais`, e a variável aparece na dimensão temática `Dados abertos`.
 
 ## 8.3 Dimensões
 
-As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alinhadas, quando aplicável, às Recomendações 5.1 (governança de dados), 5.2 (interoperabilidade) e 5.4 (análise de dados) da Portaria — acrescidas da dimensão federativa `Recorte Estadual`, que reagrupa as variáveis com observação por UF.
+As 36 variáveis ativas do Objetivo 5 foram organizadas em cinco dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. As dimensões temáticas se alinham, quando aplicável, às Recomendações 5.1 (governança de dados), 5.2 (interoperabilidade) e 5.4 (análise de dados) da Portaria. O recorte reagrupa as variáveis com observação por UF.
 
 ![Dimensões do Objetivo 5](../graficos/dimensoes/cap08.png)
 
 ### 8.3.1 Governança de dados
 
-*Definição:* Existência e maturidade de estruturas formais de governança de dados — instâncias colegiadas, gestor de dados designado, política institucional, ética no tratamento e conformidade da coleta com a legislação. Ancorada na Recomendação 5.1.
+*Definição:* Existência e maturidade de estruturas formais de governança de dados — instâncias colegiadas, gestor de dados designado, política institucional, ética no tratamento e conformidade da coleta com a legislação. Corresponde à Recomendação 5.1.
 
-*Média Nacional:* 72.8 (n=5).
+*Média Nacional:* 74.1 (n=4; 5 itens).
 
 **Indicadores:**
 
@@ -60,7 +63,7 @@ As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alin
 
 *Definição:* Práticas de catalogação, modelagem, armazenamento e mensuração da qualidade dos dados produzidos pelos órgãos — documentação de ativos, glossário de termos de negócio, dados mestres, gestão de metadados, ciclo de vida, modelagem, dados não estruturados e geoespaciais. Sub-conceito não enunciado pelas recomendações da ENGD, mas presente no autodiagnóstico SISP como bloco operacional da governança.
 
-*Média Nacional:* 65.1 (n=15).
+*Média Nacional:* 63.8 (n=9; 15 itens).
 
 **Indicadores:**
 
@@ -123,9 +126,9 @@ As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alin
 
 ### 8.3.3 Interoperabilidade e compartilhamento entre órgãos
 
-*Definição:* Mecanismos técnicos e institucionais que permitem integração de dados e sistemas entre órgãos públicos e estabelecimentos — adoção de padrões de interoperabilidade, integração de dados, integração de sistemas, monitoramento, compartilhamento de dados externos e troca eletrônica de informações na rede de saúde. Ancorada na Recomendação 5.2.
+*Definição:* Mecanismos técnicos e institucionais que permitem integração de dados e sistemas entre órgãos públicos e estabelecimentos — adoção de padrões de interoperabilidade, integração de dados, integração de sistemas, monitoramento, compartilhamento de dados externos e troca eletrônica de informações na rede de saúde. Corresponde à Recomendação 5.2.
 
-*Média Nacional:* 61.6 (n=7).
+*Média Nacional:* 53.3 (n=4; 7 itens).
 
 **Indicadores:**
 
@@ -160,9 +163,9 @@ As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alin
 
 ### 8.3.4 Dados abertos
 
-*Definição:* Existência e maturidade da publicação ativa de dados em formato aberto pelo poder público — política institucional, ecossistema de dados abertos no autodiagnóstico SISP, portal de dados abertos das prefeituras e formato de publicação dos dados administrativos pelos governos estaduais. Ancorada na Recomendação 5.2 (compartilhamento de dados) na vertente de transparência ativa via dados abertos.
+*Definição:* Existência e maturidade da publicação ativa de dados em formato aberto pelo poder público — política institucional, ecossistema de dados abertos no autodiagnóstico SISP, portal de dados abertos das prefeituras e formato de publicação dos dados administrativos pelos governos estaduais. Corresponde à Recomendação 5.2 (compartilhamento de dados) na vertente de transparência ativa via dados abertos.
 
-*Média Nacional:* 58.0 (n=4).
+*Média Nacional:* 58.0 (n=4; 4 itens).
 
 **Indicadores:**
 
@@ -193,9 +196,9 @@ As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alin
 
 ### 8.3.5 Análise de dados e decisão
 
-*Definição:* Adoção de big data, capacidade analítica institucional, infraestrutura para análise de dados e uso efetivo dos dados na tomada de decisão pelos órgãos públicos e estabelecimentos de saúde. Ancorada na Recomendação 5.4.
+*Definição:* Adoção de big data, capacidade analítica institucional, infraestrutura para análise de dados e uso efetivo dos dados na tomada de decisão pelos órgãos públicos e estabelecimentos de saúde. Corresponde à Recomendação 5.4.
 
-*Média Nacional:* 57.2 (n=5).
+*Média Nacional:* 57.2 (n=5; 5 itens).
 
 **Indicadores:**
 
@@ -227,7 +230,7 @@ As 36 variáveis ativas são organizadas em cinco dimensões temáticas — alin
 
 *Definição:* Conjunto das variáveis dimensionadas do Objetivo 5 com observação por UF, agregadas para leitura federativa. Reúne `IOSPD_I05` (também presente em `Governança de dados`) e `ESTADIC_FORMATO_DADOS` (também presente em `Dados abertos`) — única exceção à regra de não-repetição entre dimensões.
 
-*Média Estadual:* 42.3 (n=2).
+*Média Estadual:* 42.3 (n=2; 2 itens).
 
 ![Recorte Estadual — Objetivo 5](../graficos/recortes/cap08_estadual.png)
 

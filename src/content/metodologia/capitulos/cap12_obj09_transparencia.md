@@ -1,20 +1,21 @@
 # 12. Objetivo 9: Transparência e Participação
 
-> Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social.
+> Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social, bem como potencializar a colaboração com a sociedade para entregar valor público.
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
 ## 12.1 Recomendações da ENGD para este objetivo
 
-A Portaria SGD/MGI nº 4.248/2024 elenca três recomendações aos entes federados para ampliar a abertura, a transparência e a participação social no governo digital:
+A Portaria SGD/MGI nº 5.395/2026 elenca quatro recomendações aos entes federados para ampliar a abertura, a transparência e a participação social no governo digital:
 
-- **9.1** Implementar instrumentos de participação social e cocriação.
+- **9.1** Implementar instrumentos de participação social e cocriação que permitam ao cidadão contribuir para a melhoria contínua dos serviços públicos e das políticas de governo digital, com mecanismos de devolutiva sobre as contribuições recebidas.
 - **9.2** Instituir canais, espaços e ações para promover a transparência do governo digital.
 - **9.3** Promover a transparência, o acesso à informação e o uso de dados abertos pelos cidadãos.
+- **9.4** Promover a transparência no uso de inteligência artificial, com informações claras sobre a finalidade, o funcionamento e os impactos das soluções, com nível de detalhamento proporcional aos riscos e resguardadas as informações legalmente protegidas.
 
 ## 12.2 Cobertura por nível federativo
 
-O Objetivo 9 conta com 20 variáveis ativas no índice, correspondendo a 20 componentes, distribuídos por quatro fontes: 9 variáveis da MUNIC 2024 (IBGE), 8 do ESTADIC 2024 (IBGE), 2 da TIC Governo Eletrônico 2023 (CETIC.br) e 1 do IOSPD/ABEP-TIC 2025. Todas contribuem para a visão Nacional. Nove variáveis têm observação por UF (oito do ESTADIC e uma do IOSPD/ABEP-TIC) e nove têm observação por capital (todas MUNIC 2024). Como os dois níveis subnacionais ultrapassam o limiar mínimo de duas variáveis, criam-se as duas dimensões federativas dedicadas: `Recorte Estadual` (9 vars) e `Recorte de Capitais` (9 vars).
+O Objetivo 9 conta com 20 variáveis ativas no índice (9 da MUNIC (IBGE), 8 da ESTADIC (IBGE), 2 da TIC Governo Eletrônico (CETIC.br) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 20 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Nove variáveis têm observação por UF (oito da ESTADIC e uma do IOSPD/ABEP-TIC) e nove têm observação por capital (todas MUNIC 2024). Como os dois níveis subnacionais ultrapassam o limiar mínimo de duas variáveis, criam-se as duas dimensões federativas dedicadas: `Recorte Estadual` (9 vars) e `Recorte de Capitais` (9 vars).
 
 Os indicadores de transparência de acervos da TIC Cultura (CETIC.br) não integram o índice: a planilha oficial da edição 2024 não publica total nacional para esses indicadores — apenas resultados por tipo de equipamento cultural —, e possuir acervo é condição institucional do equipamento, não capacidade digital do ente federativo. A fonte permanece fora do índice até publicar total nacional oficial, pesos amostrais ou microdados.
 
@@ -22,15 +23,15 @@ A Escala Brasil Transparente (CGU, edição 2020) — fonte clássica de transpa
 
 ## 12.3 Dimensões
 
-As 20 variáveis ativas do Objetivo 9 foram agrupadas em três dimensões temáticas, que seguem diretamente as recomendações da Portaria — transparência ativa e dados abertos, acesso à informação (LAI) e participação social. Em seguida, duas dimensões federativas (`Recorte Estadual` e `Recorte de Capitais`) agregam as variáveis com observação por UF e por capital, respectivamente — única exceção à regra de não-repetição entre dimensões.
+As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. As dimensões temáticas seguem diretamente as recomendações da Portaria — transparência ativa e dados abertos, acesso à informação (LAI) e participação social. Os recortes agregam as variáveis com observação por UF e por capital, respectivamente — única exceção à regra de não-repetição entre dimensões.
 
 ![Dimensões do Objetivo 9](../graficos/dimensoes/cap12.png)
 
 ### 12.3.1 Transparência ativa e dados abertos
 
-*Definição:* Existência e abrangência de canais públicos de divulgação proativa de informações governamentais — portais da transparência, portais de dados abertos, controle interno publicado, divulgação de informações orçamentárias e financeiras. Ancorada nas Recomendações 9.2 e 9.3.
+*Definição:* Existência e abrangência de canais públicos de divulgação proativa de informações governamentais — portais da transparência, portais de dados abertos, controle interno publicado, divulgação de informações orçamentárias e financeiras. Corresponde às Recomendações 9.2 e 9.3.
 
-*Média Nacional:* 74.1 (n=7).
+*Média Nacional:* 74.1 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -94,9 +95,9 @@ As 20 variáveis ativas do Objetivo 9 foram agrupadas em três dimensões temát
 
 ### 12.3.2 Acesso à informação (LAI)
 
-*Definição:* Implementação local da Lei de Acesso à Informação (Lei nº 12.527/2011) — existência de legislação específica, conteúdo e meios de solicitação da regulamentação estadual, disseminação da LAI, recebimento e publicização de pedidos. Ancorada na Recomendação 9.3.
+*Definição:* Implementação local da Lei de Acesso à Informação (Lei nº 12.527/2011) — existência de legislação específica, conteúdo e meios de solicitação da regulamentação estadual, disseminação da LAI, recebimento e publicização de pedidos. Corresponde à Recomendação 9.3.
 
-*Média Nacional:* 49.4 (n=6).
+*Média Nacional:* 49.4 (n=6; 6 itens).
 
 **Indicadores:**
 
@@ -148,9 +149,9 @@ As 20 variáveis ativas do Objetivo 9 foram agrupadas em três dimensões temát
 
 ### 12.3.3 Participação social e cocriação
 
-*Definição:* Instrumentos de envolvimento do cidadão no governo digital — ouvidorias e canais de denúncia, mecanismos participativos online (consulta, fórum, enquete, votação), uso de redes sociais para consulta pública, e instâncias colegiadas de transparência. Ancorada na Recomendação 9.1.
+*Definição:* Instrumentos de envolvimento do cidadão no governo digital — ouvidorias e canais de denúncia, mecanismos participativos online (consulta, fórum, enquete, votação), uso de redes sociais para consulta pública, e instâncias colegiadas de transparência. Corresponde à Recomendação 9.1.
 
-*Média Nacional:* 40.2 (n=7).
+*Média Nacional:* 40.2 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -201,7 +202,7 @@ As 20 variáveis ativas do Objetivo 9 foram agrupadas em três dimensões temát
 
 *Definição:* Conjunto das variáveis do Objetivo 9 com observação por UF, agregadas para leitura federativa estadual. Reúne 1 variável IOSPD 2025 e 8 variáveis ESTADIC 2024. Inclui variáveis também classificadas em outras dimensões temáticas (única exceção à regra de não-repetição entre dimensões).
 
-*Média Estadual:* 63.5 (n=9).
+*Média Estadual:* 63.5 (n=9; 9 itens).
 
 ![Recorte Estadual — Objetivo 9](../graficos/recortes/cap12_estadual.png)
 
@@ -242,7 +243,7 @@ As 20 variáveis ativas do Objetivo 9 foram agrupadas em três dimensões temát
 
 *Definição:* Conjunto das variáveis do Objetivo 9 com observação por capital, agregadas para leitura federativa municipal. Reúne 9 variáveis MUNIC 2024 (2 do bloco transparência ativa, 4 do bloco LAI e 3 do bloco participação). Inclui variáveis também classificadas em outras dimensões temáticas (única exceção à regra de não-repetição entre dimensões). Sem subdivisão nesta fase.
 
-*Média Capitais:* 74.3 (n=9).
+*Média Capitais:* 74.3 (n=9; 9 itens).
 
 ![Recorte de Capitais — Objetivo 9](../graficos/recortes/cap12_capitais.png)
 
