@@ -45,6 +45,8 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 **Disclaimer de variáveis no ranking:** painel por nível × objetivo (contagem + lista): `docs/ranking-disclaimer-variaveis.md`.
 
+**Links oficiais das fontes:** catálogo e UI (download da edição usada no índice, sem hospedar o bruto): `docs/fontes-acesso-oficial.md`. CSV curado do Observatório: `docs/export-csv-obgd.md`.
+
 **Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/metodologia-mdx-pdf.md`.
 
 **Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/security-headers-observatory.md`.

@@ -62,6 +62,8 @@ src/
 
 **Disclaimer de variáveis no ranking:** contagem e lista do painel por nível × objetivo em [`docs/ranking-disclaimer-variaveis.md`](docs/ranking-disclaimer-variaveis.md).
 
+**Links oficiais das fontes:** catálogo `FONTES_ACESSO` (edição usada no índice) e UI do ícone/diálogo/página da fonte em [`docs/fontes-acesso-oficial.md`](docs/fontes-acesso-oficial.md). O CSV curado do índice continua em [`docs/export-csv-obgd.md`](docs/export-csv-obgd.md).
+
 **Headers de segurança / Observatory:** CSP com nonce, HSTS e demais headers HTTP em [`docs/security-headers-observatory.md`](docs/security-headers-observatory.md). Não afrouxar `script-src` nem remover o SSR do root layout sem alinhar com esse doc.
 
 ---

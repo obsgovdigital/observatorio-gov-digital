@@ -114,6 +114,7 @@ export function ObjetivoVariaveis({
                 <VariavelAcoes
                   nome={variavel.nome}
                   fonteUrl={variavel.fonteUrl}
+                  fonteId={variavel.fonteId}
                   arquivo={variavel.arquivo}
                   nivelKey={nivel.key}
                   conceptId={variavel.conceptId}

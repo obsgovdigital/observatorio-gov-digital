@@ -1,13 +1,19 @@
 'use client'
 
-import { Download, Eye, Loader2, X } from 'lucide-react'
+import { Download, ExternalLink, Loader2, X } from 'lucide-react'
 import * as React from 'react'
 
 import type { ArquivoDados, NivelKey } from '@/data/indicators'
+import {
+  acessoDaFonte,
+  arquivosDaFonte,
+  FONTE_ACESSO_TIPO_LABEL,
+} from '@/data/obgd/fonte-urls'
 
 type VariavelAcoesProps = {
   nome: string
   fonteUrl: string
+  fonteId: string
   arquivo: ArquivoDados
   /** Nível da página (federal | estadual | municipios). */
   nivelKey: NivelKey
@@ -42,6 +48,7 @@ function exportHref(
 export function VariavelAcoes({
   nome,
   fonteUrl,
+  fonteId,
   arquivo,
   nivelKey,
   conceptId,
@@ -50,6 +57,8 @@ export function VariavelAcoes({
   const [aberto, setAberto] = React.useState(false)
   const [baixando, setBaixando] = React.useState(false)
   const [erro, setErro] = React.useState<string | null>(null)
+  const arquivosOficiais = arquivosDaFonte(fonteId)
+  const urlPesquisa = acessoDaFonte(fonteId)?.urlPesquisa
 
   React.useEffect(() => {
     if (!aberto) return
@@ -94,16 +103,16 @@ export function VariavelAcoes({
 
   return (
     <div className="flex shrink-0 items-center gap-1">
-      {/* <a
+      <a
         href={fonteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Ver fonte original"
+        aria-label="Dados oficiais da fonte"
         className="group relative inline-flex items-center justify-center rounded-md border border-muted-foreground/30 p-2.5 text-muted-foreground transition-colors hover:bg-primary/10 hover:text-primary"
       >
-        <Eye className="size-4" aria-hidden="true" />
-        <Tooltip>Ver fonte original</Tooltip>
-      </a> */}
+        <ExternalLink className="size-4" aria-hidden="true" />
+        <Tooltip>Dados oficiais da fonte</Tooltip>
+      </a>
 
       <button
         type="button"
@@ -130,7 +139,7 @@ export function VariavelAcoes({
             role="dialog"
             aria-modal="true"
             aria-label="Baixar dados"
-            className="relative z-10 w-full max-w-sm rounded-xl border bg-background p-6 shadow-xl"
+            className="relative z-10 w-full max-w-md rounded-xl border bg-background p-6 shadow-xl"
           >
             <div className="flex items-start justify-between gap-4">
               <h3 className="text-base font-semibold text-foreground">
@@ -197,6 +206,53 @@ export function VariavelAcoes({
                 )}
                 Confirmar download
               </button>
+            </div>
+
+            <div className="mt-6 border-t border-dashed pt-5">
+              <h4 className="text-sm font-semibold text-foreground">
+                Dados oficiais da fonte
+              </h4>
+              <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                Arquivos publicados pelo órgão da edição usada no índice. A
+                plataforma não hospeda esses dados.
+              </p>
+              {arquivosOficiais.length > 0 ? (
+                <ul className="mt-3 flex flex-col gap-2">
+                  {arquivosOficiais.map(item => (
+                    <li key={item.url}>
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-start justify-between gap-3 rounded-lg border border-border px-3 py-2.5 text-sm transition-colors hover:border-primary hover:bg-primary/10 hover:text-primary"
+                      >
+                        <span className="min-w-0">
+                          <span className="block font-medium leading-snug">
+                            {item.label}
+                          </span>
+                          <span className="mt-0.5 block text-xs text-muted-foreground">
+                            {FONTE_ACESSO_TIPO_LABEL[item.tipo]}
+                          </span>
+                        </span>
+                        <ExternalLink
+                          className="mt-0.5 size-4 shrink-0"
+                          aria-hidden="true"
+                        />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : urlPesquisa ? (
+                <a
+                  href={urlPesquisa}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                >
+                  <ExternalLink className="size-4" aria-hidden="true" />
+                  Página da pesquisa
+                </a>
+              ) : null}
             </div>
           </div>
         </div>

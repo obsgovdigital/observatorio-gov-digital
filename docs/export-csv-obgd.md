@@ -13,6 +13,8 @@ O visitante baixa um **recorte curado** dos dados usados no índice: valores **n
 
 A plataforma **não** hospeda microdados brutos das fontes oficiais. O CSV é gerado no servidor a partir dos assets `detalhes_*.json` — o browser só faz `fetch` e salva o arquivo.
 
+Os **links oficiais** da edição usada no índice (zip, xlsx, PDF, API) são outro fluxo: catálogo, UI e como atualizar estão em [`fontes-acesso-oficial.md`](./fontes-acesso-oficial.md). No diálogo de `VariavelAcoes` e na página da fonte os dois convive — CSV do OBGD **e** lista oficial.
+
 | Aspecto   | Decisão                                               |
 | --------- | ------------------------------------------------------ |
 | Geração | Server-side (Route Handler Next.js)                    |
@@ -27,8 +29,8 @@ A plataforma **não** hospeda microdados brutos das fontes oficiais. O CSV é ge
 
 | Entrada                                                  | Componente                  | Comportamento                                                                            |
 | -------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------- |
-| Lista de variáveis (ranking / indicadores por objetivo) | `VariavelAcoes`           | Ícone de download → diálogo de confirmação → CSV do indicador no nível da página |
-| Página de fonte (`/metodologia/fontes/[fonteId]`) | `ObgdFonteDownloadButton` | Botão “Baixar CSV do OBGD”, só se `hasObgdExportForFonteId` for verdadeiro |
+| Lista de variáveis (ranking / indicadores por objetivo) | `VariavelAcoes`           | Ícone externo → arquivo oficial primário; ícone de download → diálogo com CSV do OBGD **e** lista de dados oficiais da fonte |
+| Página de fonte (`/metodologia/fontes/[fonteId]`) | `FonteContent` + `ObgdFonteDownloadButton` | Lista de arquivos oficiais da edição usada no índice; botão “Baixar CSV do OBGD”, só se `hasObgdExportForFonteId` for verdadeiro |
 
 ---
 
@@ -68,6 +70,7 @@ flowchart LR
 | Assets de origem              | `src/data/obgd/assets/detalhes_{nacional,estadual,capitais}.json`                                                          |
 | UI variável                  | [`src/components/shared/variavel-acoes.tsx`](../src/components/shared/variavel-acoes.tsx)                                   |
 | UI fonte                      | [`src/components/metodologia/obgd-fonte-download-button.tsx`](../src/components/metodologia/obgd-fonte-download-button.tsx) |
+| Links oficiais (não é este CSV) | [`docs/fontes-acesso-oficial.md`](./fontes-acesso-oficial.md) · [`src/data/obgd/fonte-urls.ts`](../src/data/obgd/fonte-urls.ts) |
 
 ---
 

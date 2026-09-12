@@ -77,6 +77,7 @@ type TagVariavelNotas = {
   nome: string
   fonte: string
   fonteUrl: string
+  fonteId: string
   conceptId: string
   subItens: string | null
   notas: Record<string, number | null>
@@ -740,6 +741,7 @@ export function IndicadoresExplorer({
                                     <VariavelAcoes
                                       nome={v.nome}
                                       fonteUrl={v.fonteUrl}
+                                      fonteId={v.fonteId}
                                       arquivo={{
                                         nome: `obgd-${v.slug}.csv`,
                                         tamanho: 'CSV',

@@ -1,13 +1,15 @@
-import { ExternalLink } from 'lucide-react'
+import { Download, ExternalLink } from 'lucide-react'
 
 import { ObgdFonteDownloadButton } from '@/components/metodologia/obgd-fonte-download-button'
 import { BackButton } from '@/components/shared/back-button'
 import type { Fonte } from '@/data/fontes'
 import { hasObgdExportForFonteId } from '@/data/obgd/export-rows'
+import { FONTE_ACESSO_TIPO_LABEL } from '@/data/obgd/fonte-urls'
 
 export function FonteContent({ fonte }: { fonte: Fonte }) {
   const temExportObgd = hasObgdExportForFonteId(fonte.slug)
   const urlPesquisaDistinta = fonte.urlPesquisa !== fonte.urlOrgao
+  const arquivosOficiais = fonte.arquivos
 
   return (
     <section className="pb-12">
@@ -30,6 +32,47 @@ export function FonteContent({ fonte }: { fonte: Fonte }) {
         <p className="mt-4 max-w-2xl text-base text-muted-foreground leading-relaxed">
           {fonte.descricao}
         </p>
+
+        {arquivosOficiais.length > 0 && (
+          <div className="mt-8 max-w-2xl">
+            <h2 className="font-bold text-foreground text-sm">
+              Baixar dados oficiais (edição usada no índice)
+            </h2>
+            <p className="mt-1 text-muted-foreground text-sm leading-relaxed">
+              Arquivos publicados pelo órgão. A plataforma não hospeda esses
+              dados — o link abre o endereço oficial.
+            </p>
+            <ul className="mt-3 flex flex-col gap-2">
+              {arquivosOficiais.map(item => (
+                <li key={item.url}>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start justify-between gap-3 rounded-lg border border-border px-4 py-3 text-sm transition-colors hover:border-primary hover:bg-primary/10 hover:text-primary"
+                  >
+                    <span className="min-w-0">
+                      <span className="inline-flex items-center gap-2 font-medium leading-snug">
+                        <Download
+                          className="size-4 shrink-0"
+                          aria-hidden="true"
+                        />
+                        {item.label}
+                      </span>
+                      <span className="mt-1 block text-xs text-muted-foreground">
+                        {FONTE_ACESSO_TIPO_LABEL[item.tipo]}
+                      </span>
+                    </span>
+                    <ExternalLink
+                      className="mt-0.5 size-4 shrink-0"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className="mt-6 flex flex-wrap gap-3">
           <a
