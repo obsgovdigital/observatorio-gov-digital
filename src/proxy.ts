@@ -7,7 +7,7 @@ import {
 } from '@/lib/features/ranking-mode'
 import { applySecurityHeaders } from '@/lib/security-headers'
 
-/** URLs do antigo recorte Capitais (`municipal`) → Municípios. */
+/** URLs do antigo recorte Capitais (`municipal`) -> Municípios. */
 function redirectMunicipalToMunicipios(
   request: NextRequest
 ): NextResponse | null {
