@@ -164,7 +164,7 @@ flowchart TD
 ### 3.8 Contato (`/contato`) — e-mail via Resend
 
 - Formulário funcional: Server Action + Resend; destino de produção `mbc@mbc.org.br`
-- Validação no servidor, honeypot anti-bot, Reply-To do visitante, toasts Sonner
+- Validação no servidor, honeypot anti-bot, reCAPTCHA v2 Invisible (`siteverify` no servidor), Reply-To do visitante, toasts Sonner
 - Documentação completa (setup, env, produção, troubleshooting): **[`docs/contato-resend.md`](./contato-resend.md)**
 
 ---
@@ -255,7 +255,7 @@ Documentação completa: [`integracao-dados-v3-tags.md`](./integracao-dados-v3-t
 7. `/indicadores?nivel=estadual&entes=sp&por=tematicas&tema=conectividade` — score + variáveis reais da tag
 8. `/v2` — versão sem ranking; `/v2/indicadores/estadual/sp/{objetivo}` — lista + download (sem posição no ranking)
 9. `/metodologia` — nota dos objetivos precários (mock)
-10. `/contato` — envio de mensagem (requer env Resend; ver [`contato-resend.md`](./contato-resend.md))
+10. `/contato` — envio de mensagem (requer env Resend + reCAPTCHA; ver [`contato-resend.md`](./contato-resend.md))
 
 ---
 
@@ -271,7 +271,7 @@ Documentação completa: [`integracao-dados-v3-tags.md`](./integracao-dados-v3-t
 | Feature ranking A/B          | `src/lib/features/`, `src/proxy.ts`                         |
 | Queries OBGD                 | `src/data/obgd/queries.ts`, `src/data/obgd/server.ts`       |
 | Mapa / bandeiras             | `src/components/shared/mapa-brasil.tsx`, `src/lib/geo/`     |
-| Contato / Resend             | `src/app/actions/contact.ts`, `src/components/content/contact-form.tsx`, [`docs/contato-resend.md`](./contato-resend.md) |
+| Contato / Resend             | `src/app/actions/contact.ts`, `src/components/content/contact-form.tsx`, `src/lib/recaptcha.ts`, [`docs/contato-resend.md`](./contato-resend.md) |
 
 ---
 
@@ -279,7 +279,7 @@ Documentação completa: [`integracao-dados-v3-tags.md`](./integracao-dados-v3-t
 
 | Arquivo                                   | Situação                                                                                                                                                                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `contato-resend.md`                     | **Ativo** — formulário `/contato`, Resend, env, produção e troubleshooting                                                                                                                                    |
+| `contato-resend.md`                     | **Ativo** — formulário `/contato`, Resend, reCAPTCHA v2 Invisible, env, produção e troubleshooting                                                                                                             |
 | `security-headers-observatory.md`       | **Ativo** — CSP com nonce, headers HTTP e scan MDN HTTP Observatory                                                                                                                                           |
 | `integracao-dados-v3-tags.md`           | **Ativo** — migração dados-v3, pipeline de sync, tags reais, fórmula de score, operação                                                                                                                        |
 | `pedidos-dados-gabriel.md`              | **Removido** — conteúdo absorvido na §5                                                                                                                                                                       |

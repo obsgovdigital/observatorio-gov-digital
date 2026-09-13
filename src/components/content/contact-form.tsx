@@ -24,6 +24,11 @@ import {
   SUBJECT_OPTIONS,
 } from '@/lib/contact'
 
+const SEND_ERROR =
+  'Não foi possível enviar a mensagem. Tente novamente mais tarde.'
+
+const RECAPTCHA_TIMEOUT_MS = 15_000
+
 function FieldError({ id, message }: { id: string; message?: string }) {
   if (!message) return null
   return (
@@ -33,9 +38,40 @@ function FieldError({ id, message }: { id: string; message?: string }) {
   )
 }
 
-export function ContactForm() {
+function waitForGrecaptcha(
+  timeoutMs = RECAPTCHA_TIMEOUT_MS
+): Promise<GrecaptchaApi> {
+  return new Promise((resolve, reject) => {
+    const started = Date.now()
+    function poll() {
+      const api = window.grecaptcha
+      if (api?.ready) {
+        api.ready(() => resolve(api))
+        return
+      }
+      if (Date.now() - started >= timeoutMs) {
+        reject(new Error('reCAPTCHA timeout'))
+        return
+      }
+      window.setTimeout(poll, 50)
+    }
+    poll()
+  })
+}
+
+interface ContactFormProps {
+  recaptchaSiteKey: string
+}
+
+export function ContactForm({ recaptchaSiteKey }: ContactFormProps) {
   const [subjectKey, setSubjectKey] = React.useState(0)
   const honeypotRef = React.useRef<HTMLInputElement>(null)
+  const widgetElRef = React.useRef<HTMLDivElement>(null)
+  const widgetIdRef = React.useRef<number | null>(null)
+  const tokenWaitersRef = React.useRef<{
+    resolve: (token: string) => void
+    reject: (error: Error) => void
+  } | null>(null)
 
   const {
     register,
@@ -53,6 +89,78 @@ export function ContactForm() {
     },
   })
 
+  React.useEffect(() => {
+    if (!recaptchaSiteKey) return
+    let cancelled = false
+
+    void waitForGrecaptcha()
+      .then(api => {
+        if (cancelled || !widgetElRef.current || widgetIdRef.current !== null) {
+          return
+        }
+        widgetIdRef.current = api.render(widgetElRef.current, {
+          sitekey: recaptchaSiteKey,
+          size: 'invisible',
+          callback: token => {
+            tokenWaitersRef.current?.resolve(token)
+            tokenWaitersRef.current = null
+          },
+          'error-callback': () => {
+            tokenWaitersRef.current?.reject(new Error('reCAPTCHA error'))
+            tokenWaitersRef.current = null
+          },
+          'expired-callback': () => {
+            tokenWaitersRef.current?.reject(new Error('reCAPTCHA expired'))
+            tokenWaitersRef.current = null
+          },
+        })
+      })
+      .catch(() => {
+        /* submit fails closed if the widget never renders */
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [recaptchaSiteKey])
+
+  function resetRecaptcha() {
+    const api = window.grecaptcha
+    const widgetId = widgetIdRef.current
+    if (api && widgetId !== null) {
+      api.reset(widgetId)
+    }
+  }
+
+  function executeRecaptcha(): Promise<string> {
+    const api = window.grecaptcha
+    const widgetId = widgetIdRef.current
+    if (!recaptchaSiteKey || !api || widgetId === null) {
+      return Promise.reject(new Error('reCAPTCHA not ready'))
+    }
+
+    return new Promise((resolve, reject) => {
+      const timeoutId = window.setTimeout(() => {
+        if (tokenWaitersRef.current?.reject === reject) {
+          tokenWaitersRef.current = null
+          reject(new Error('reCAPTCHA timeout'))
+        }
+      }, RECAPTCHA_TIMEOUT_MS)
+
+      tokenWaitersRef.current = {
+        resolve: token => {
+          window.clearTimeout(timeoutId)
+          resolve(token)
+        },
+        reject: error => {
+          window.clearTimeout(timeoutId)
+          reject(error)
+        },
+      }
+      api.execute(widgetId)
+    })
+  }
+
   async function onSubmit(values: ContactFormValues) {
     const formData = new FormData()
     formData.set('name', values.name)
@@ -61,8 +169,20 @@ export function ContactForm() {
     formData.set('message', values.message)
     formData.set('company_url_hp', honeypotRef.current?.value ?? '')
 
+    let token = ''
+    try {
+      token = await executeRecaptcha()
+    } catch {
+      resetRecaptcha()
+      toast.error(SEND_ERROR)
+      return
+    }
+
+    formData.set('recaptcha_token', token)
+
     try {
       const result = await sendContactMessage(formData)
+      resetRecaptcha()
 
       if (!result.ok) {
         toast.error(result.error)
@@ -75,9 +195,8 @@ export function ContactForm() {
         description: 'Retornaremos o seu contato em breve.',
       })
     } catch {
-      toast.error(
-        'Não foi possível enviar a mensagem. Tente novamente mais tarde.'
-      )
+      resetRecaptcha()
+      toast.error(SEND_ERROR)
     }
   }
 
@@ -104,6 +223,7 @@ export function ContactForm() {
           defaultValue=""
         />
       </div>
+      <div ref={widgetElRef} className="hidden" />
 
       <div className="flex flex-col gap-2">
         <Label htmlFor="name" className="text-primary">
@@ -202,6 +322,27 @@ export function ContactForm() {
           </a>
         </p>
       </div>
+      <p className="text-muted-foreground text-xs leading-relaxed">
+        Este site é protegido pelo reCAPTCHA e aplicam-se a{' '}
+        <a
+          href="https://policies.google.com/privacy"
+          className="font-semibold text-primary underline underline-offset-4 hover:opacity-70"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Política de Privacidade
+        </a>{' '}
+        e os{' '}
+        <a
+          href="https://policies.google.com/terms"
+          className="font-semibold text-primary underline underline-offset-4 hover:opacity-70"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Termos de Serviço
+        </a>{' '}
+        do Google.
+      </p>
     </form>
   )
 }
