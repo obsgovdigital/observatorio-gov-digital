@@ -34,7 +34,9 @@ Arquitetura, dados, features e convenções de código.
 | ------------------------------------------------------------- | ------------------------------------------------ |
 | [Visão de arquitetura](02-arquitetura/visao-arquitetura.md)   | Camadas App Router, dados, SSR/CSP               |
 | [Stack e repositório](02-arquitetura/stack-e-repositorio.md)  | Stack, árvore`src/` e convenções            |
-| [Pipeline OBGD](03-dados/pipeline-obgd.md)                     | Sync assets-v4 → assets versionados             |
+| [Pipeline OBGD](03-dados/pipeline-obgd.md)                     | Atualizar snapshot (JSON padrão ou sync a partir de CSV) |
+| [Contrato de entrega de dados](03-dados/contrato-entrega-dados.md) | Formato do pacote estático esperado pela plataforma |
+| [Pipeline de geração de dados](03-dados/pipeline-geracao-dados.md) | Geração do snapshot (frente de dados — pendente) |
 | [Escopos e schema](03-dados/escopos-e-schema.md)               | Federal, estadual, municípios e modelo de dados |
 | [Fontes e exportação](03-dados/fontes-e-exportacao.md)       | Links oficiais e CSV curado                      |
 | [Disclaimer de variáveis](03-dados/disclaimer-variaveis.md)   | Contagem nível × objetivo no ranking           |
@@ -48,7 +50,7 @@ Arquitetura, dados, features e convenções de código.
 | ------------------------------------------------------------- | ----------------------------------------------- |
 | [Setup local](05-operacao/setup-local.md)                      | Instalação, scripts e qualidade de código    |
 | [Variáveis de ambiente](05-operacao/variaveis-de-ambiente.md) | Matriz completa (`.env.example`)              |
-| [Deploy e hospedagem](05-operacao/deploy-e-hospedagem.md)      | Insper / Vercel e migração planejada para AWS |
+| [Deploy e hospedagem](05-operacao/deploy-e-hospedagem.md)      | Handoff e runbook de produção (Resend, reCAPTCHA, secrets, smoke, dados) |
 | [Segurança (headers)](05-operacao/seguranca-headers.md)       | CSP com nonce, HSTS, MDN Observatory            |
 
 ---

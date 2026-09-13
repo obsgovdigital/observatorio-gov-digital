@@ -184,6 +184,8 @@ RECAPTCHA_SECRET_KEY=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
 
 ### 6.2 Produção
 
+A sequência oficial de go-live (Resend, DNS, reCAPTCHA, secrets, smoke) está no runbook [Handoff e deploy em produção](../05-operacao/deploy-e-hospedagem.md). Resumo específico do contato:
+
 1. No Resend, verifique o domínio de envio (ex.: `mbc.org.br` ou domínio do Observatório).
 2. Configure DNS (SPF, DKIM; DMARC recomendado) conforme o painel Resend.
 3. Defina no ambiente de deploy:
@@ -224,7 +226,7 @@ No [admin do reCAPTCHA](https://www.google.com/recaptcha/admin), crie uma chave 
 | Escape HTML | Conteúdo do visitante escapado no corpo HTML |
 | Reply-To | Resposta vai ao visitante; o From continua sendo o domínio Resend/verificado |
 
-**Fora do escopo atual:** rate limiting por IP, fila, retenção em banco, webhook de bounce. As vars `UPSTASH_*` em `.env.example` são residual — **não há código** que as leia.
+**Fora do escopo atual:** rate limiting por IP, fila, retenção em banco, webhook de bounce.
 
 ### 7.1 reCAPTCHA v2 Invisible — manutenção
 

@@ -5,7 +5,7 @@
 | **Audiência** | Engenharia |
 | **Status** | Canônico |
 | **Última atualização** | 2026-09-13 |
-| **Relacionados** | [Pipeline OBGD](pipeline-obgd.md) · [Glossário](../01-produto/glossario.md) · [Índice](../README.md) |
+| **Relacionados** | [Contrato de entrega](contrato-entrega-dados.md) · [Pipeline OBGD](pipeline-obgd.md) · [Glossário](../01-produto/glossario.md) · [Índice](../README.md) |
 
 ---
 

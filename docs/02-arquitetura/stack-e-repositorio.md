@@ -56,7 +56,6 @@ src/
 │   ├── tematicas/          # API das 16 tags
 │   └── objectives*.ts
 ├── lib/                    # contact, recaptcha, security-headers, features
-├── local_assets/           # gitignored — entregas brutas (quando presentes)
 └── proxy.ts                # middleware (variante A/B + headers)
 ```
 

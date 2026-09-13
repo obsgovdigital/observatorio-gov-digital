@@ -82,10 +82,4 @@ npm start
 
 ## 6. Atualização de dados
 
-Quando houver nova entrega em `assets-v4`:
-
-```bash
-node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
-```
-
-Detalhe: [Pipeline OBGD](../03-dados/pipeline-obgd.md).
+Quando houver nova entrega da frente de dados, seguir [Pipeline OBGD](../03-dados/pipeline-obgd.md) (JSON padrão ou sync se a entrega for CSV). Contrato: [Contrato de entrega](../03-dados/contrato-entrega-dados.md).

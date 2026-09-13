@@ -6,9 +6,9 @@
 | **Status** | Canônico |
 | **Última atualização** | 2026-09-13 |
 | **Modelo** | [`.env.example`](../../.env.example) |
-| **Relacionados** | [Contato](../04-features/contato-resend.md) · [Setup local](setup-local.md) · [Deploy](deploy-e-hospedagem.md) · [Índice](../README.md) |
+| **Relacionados** | [Contato](../04-features/contato-resend.md) · [Setup local](setup-local.md) · [Deploy / handoff](deploy-e-hospedagem.md) · [Índice](../README.md) |
 
-Arquivo `.env` local **não** deve ser versionado. Em produção, preferir secrets do provedor de hospedagem.
+Arquivo `.env` local **não** deve ser versionado. Em produção, preferir secrets do provedor de hospedagem. Runbook completo de go-live: [Handoff e deploy em produção](deploy-e-hospedagem.md).
 
 Após alterar variáveis `NEXT_PUBLIC_*`, reiniciar o servidor de desenvolvimento ou fazer rebuild — elas entram no bundle do cliente.
 
@@ -24,14 +24,6 @@ Após alterar variáveis `NEXT_PUBLIC_*`, reiniciar o servidor de desenvolviment
 | `CONTACT_TO_EMAIL` | Sim para envio | Servidor | Destinatário das mensagens (produção: `mbc@mbc.org.br`) |
 | `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | Sim para envio | Cliente | Site key reCAPTCHA v2 Invisible |
 | `RECAPTCHA_SECRET_KEY` | Sim para envio | Servidor | Secret reCAPTCHA; fail-closed se ausente |
-
-### Reservado / não implementado
-
-| Variável | Status |
-| --- | --- |
-| `UPSTASH_REDIS_REST_URL` | Residual no `.env.example` — **não** há rate limit por IP implementado |
-| `UPSTASH_REDIS_REST_TOKEN` | Idem |
-
 ---
 
 ## 2. Exemplos

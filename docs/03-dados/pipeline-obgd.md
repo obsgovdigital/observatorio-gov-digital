@@ -5,26 +5,33 @@
 | **Audiência** | Engenharia · Operação |
 | **Status** | Canônico |
 | **Última atualização** | 2026-09-13 |
-| **Relacionados** | [Escopos e schema](escopos-e-schema.md) · [Fontes e exportação](fontes-e-exportacao.md) · [Índice](../README.md) |
+| **Relacionados** | [Contrato de entrega](contrato-entrega-dados.md) · [Pipeline de geração](pipeline-geracao-dados.md) · [Escopos e schema](escopos-e-schema.md) · [Fontes e exportação](fontes-e-exportacao.md) · [Deploy](../05-operacao/deploy-e-hospedagem.md) · [Índice](../README.md) |
+
+O **formato do pacote** esperado pela plataforma está em [Contrato de entrega de dados](contrato-entrega-dados.md). A construção do pacote a partir das fontes brutas será documentada em [Pipeline de geração](pipeline-geracao-dados.md) (frente de dados).
 
 ---
 
 ## 1. Resumo
 
-O app consome o subset versionado em [`src/data/obgd/assets/`](../../src/data/obgd/assets/), gerado a partir da entrega **assets-v4** (`src/data/obgd/assets-v4/`).
+O app consome o subset versionado em [`src/data/obgd/assets/`](../../src/data/obgd/assets/).
+
+- **Padrão:** a frente de dados entrega **JSON** já alinhados a esse inventário.
+- **Alternativa:** entrega em **CSV** → pasta `src/data/obgd/assets-v4/` → script de sync gera o subset JSON.
 
 Edição de referência do índice no app: **2026** (`ANO_INDICE`).
 
 ```mermaid
 flowchart LR
-  Entrega["assets-v4_ou_entrega"]
-  Sync["sync-obgd-assets-from-v4.mjs"]
-  Assets["src_data_obgd_assets"]
-  App["queries_UI_API"]
-
-  Entrega --> Sync
-  Sync --> Assets
-  Assets --> App
+  subgraph padrao [Padrao_JSON]
+    J[Pacote_JSON] --> Assets1[src_data_obgd_assets]
+  end
+  subgraph alt [Alternativa_CSV]
+    C[Pacote_CSV] --> V4[assets-v4]
+    V4 --> Sync[sync-obgd-assets-from-v4]
+    Sync --> Assets2[src_data_obgd_assets]
+  end
+  Assets1 --> App[queries_UI_API]
+  Assets2 --> App
 ```
 
 ---
@@ -34,10 +41,9 @@ flowchart LR
 | Pergunta | Resposta |
 | --- | --- |
 | Onde o app lê? | `src/data/obgd/assets/` — versionado no Git |
-| Origem do sync atual | `src/data/obgd/assets-v4/` |
-| Como atualizar? | `node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs` |
-| Entregas brutas locais | `src/local_assets/` — **gitignored** |
-| Script legado | `scripts/sync-obgd-assets-from-v3.mjs` (histórico) |
+| Entrega padrão | JSON → atualizar diretamente `src/data/obgd/assets/` |
+| Entrega alternativa (CSV) | Pacote em `src/data/obgd/assets-v4/` + sync |
+| Como atualizar? | Ver seção 7 |
 
 README curto dos assets: [`src/data/obgd/assets/README.md`](../../src/data/obgd/assets/README.md).
 
@@ -65,12 +71,14 @@ Não versionar `indicador_valor.json` (volume alto). Não emitir `detalhes_capit
 
 ---
 
-## 4. O que o sync v4 faz
+## 4. O que o sync v4 faz (somente entrega CSV)
+
+Usado quando o pacote chega em CSV. Script: `scripts/sync-obgd-assets-from-v4.mjs`.
 
 1. Converte CSVs flat → JSON (`ano_indice` vazio → `2026`; fallback de `n_objetivos_com_dados` nos municípios quando vazio).
 2. Filtra `tipo` / `nivel` `capital` da entrega bruta.
 3. Copia entidades canônicas (incl. `tag` e `indicador` com `tags` / `audiencia`).
-4. Pré-calcula `indice_por_tag.json` agrupando por `(tipo, codigo, tag)`.
+4. Pré-calcula `indice_por_tag.json` agrupando por `(tipo, codigo, tag)` (lê `indicador_valor.json` na entrega; não o versiona).
 5. Dispara a geração de `variaveis-por-objetivo-nivel.json`.
 6. **Não** copia `indicador_valor.json`.
 
@@ -128,16 +136,44 @@ Fonte canônica: `dados/tag.json`.
 
 ---
 
-## 7. Operação: nova entrega
+## 7. Como atualizar o snapshot na plataforma
 
-1. Atualizar `src/data/obgd/assets-v4/` (ou o caminho configurado no script).
-2. Executar `node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs`.
-3. Smoke visual nos três recortes (federal, estadual, municípios) — ranking por objetivo e por tag; indicadores.
-4. Commitar `src/data/obgd/assets/` (e código, se o schema mudar).
+### 7.1 Padrão — entrega em JSON
+
+1. **Receber** o pacote JSON alinhado ao [contrato](contrato-entrega-dados.md) (inventário da seção 3).
+2. **Atualizar** os arquivos correspondentes em `src/data/obgd/assets/` (substituir o snapshot anterior).
+3. Se `variaveis-por-objetivo-nivel.json` ou `indice_por_tag.json` não vierem no pacote, gerar com os scripts do repositório (o sync CSV já gera ambos; em entrega JSON incompleta, alinhar com a frente de dados ou regenerar a partir do pacote completo).
+4. **Validação rápida** (seção 8).
+5. **Commitar** `src/data/obgd/assets/` (e código, se tipos/schema mudarem).
+6. **Redeploy** conforme [Deploy e hospedagem](../05-operacao/deploy-e-hospedagem.md) §10.
+
+### 7.2 Alternativa — entrega em CSV
+
+1. **Receber** o pacote CSV (+ `dados/*.json` exigidos pelo sync).
+2. **Substituir/atualizar** `src/data/obgd/assets-v4/`.
+3. **Executar o sync:**
+
+```bash
+node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
+```
+
+4. **Validação rápida** (seção 8).
+5. **Commitar** `src/data/obgd/assets/`.
+6. **Redeploy**.
+
+### 7.3 Validação rápida (ambos os fluxos)
+
+Nos três recortes (federal, estadual, municípios):
+
+- Ranking por objetivo e por tag
+- Indicadores (objetivos e temáticas)
+- Drill-down até lista de variáveis / download
+
+Se a frente de dados alterar colunas ou entidades, alinhar tipos/código e o [contrato](contrato-entrega-dados.md) **antes** de publicar.
 
 ### Pendências conhecidas na frente de dados
 
-- `ano_indice` nulo na entrega bruta (tratado como 2026 no sync).
+- `ano_indice` nulo na entrega bruta (no fluxo CSV, tratado como 2026 no sync).
 - Ranking municipal dos objetivos 7, 8 e 10 pode estar vazio.
 - Tags API / IA / emergentes: fora de escopo de UI nesta edição.
 
@@ -145,7 +181,7 @@ Fonte canônica: `dados/tag.json`.
 
 ## 8. Como validar
 
-1. Após o sync: `ano_indice: 2026` em `indice_long_por_objetivo.json`; existência de `dados/tag.json` e `indice_por_tag.json`.
+1. Conferir presença de `dados/tag.json`, `dados/indice_por_tag.json` e `indice_long_por_objetivo.json` (com `ano_indice: 2026` quando aplicável).
 2. `/ranking?nivel=estadual&por=objetivos` — números coerentes com o long.
 3. `/ranking?nivel=estadual&por=tematicas&tema=conectividade` — 16 pills; scores reais.
 4. `/indicadores?nivel=estadual&entes=sp&por=tematicas&tema=conectividade` — barras e lista reais.

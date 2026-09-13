@@ -62,6 +62,9 @@ Cada objetivo recebe um **índice** de 0 a 100 (média dos indicadores daquele o
 
 Índice completo (produto, arquitetura, dados, features e operação): **[`docs/README.md`](docs/README.md)**.
 
+- Handoff e deploy em produção: [`docs/05-operacao/deploy-e-hospedagem.md`](docs/05-operacao/deploy-e-hospedagem.md)
+- Contrato de dados estáticos: [`docs/03-dados/contrato-entrega-dados.md`](docs/03-dados/contrato-entrega-dados.md)
+
 ---
 
 ## Desenvolvimento local
@@ -77,7 +80,7 @@ Acesse [http://localhost:3000](http://localhost:3000). Setup detalhado: [`docs/0
 
 A página `/contato` envia mensagens por e-mail via [Resend](https://resend.com). Configure `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, `CONTACT_TO_EMAIL` e as keys do reCAPTCHA no `.env` (veja [`.env.example`](.env.example)).
 
-Documentação completa: **[`docs/04-features/contato-resend.md`](docs/04-features/contato-resend.md)**.
+Documentação completa: **[`docs/04-features/contato-resend.md`](docs/04-features/contato-resend.md)**. Go-live: [`docs/05-operacao/deploy-e-hospedagem.md`](docs/05-operacao/deploy-e-hospedagem.md).
 ---
 
 ## Qualidade de código

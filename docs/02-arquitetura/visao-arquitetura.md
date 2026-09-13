@@ -81,8 +81,8 @@ sequenceDiagram
 
 ## 4. Fluxo de dados do índice
 
-1. A frente de dados entrega o snapshot (hoje: `assets-v4`).
-2. O script de sync gera o subset em `src/data/obgd/assets/`.
+1. A frente de dados entrega o snapshot (**padrão: JSON**; alternativa: CSV + sync).
+2. O subset versionado fica em `src/data/obgd/assets/`.
 3. `load.ts` / `queries.ts` / `detalhes.ts` / `tematicas/` alimentam ranking, indicadores e drill-down.
 4. Export CSV e disclaimer de variáveis leem os mesmos `detalhes_*.json` (ou agregados derivados).
 
