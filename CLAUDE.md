@@ -41,15 +41,17 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 **Hospedagem:** Insper inicialmente → AWS (MBC) no longo prazo.
 
-**Formulário de contato (`/contato`):** envio de e-mail via Resend + Server Action. Setup, variáveis de ambiente e operação: `docs/contato-resend.md`.
+**Formulário de contato (`/contato`):** envio de e-mail via Resend + Server Action. Setup, variáveis de ambiente e operação: `docs/04-features/contato-resend.md`.
 
-**Disclaimer de variáveis no ranking:** painel por nível × objetivo (contagem + lista): `docs/ranking-disclaimer-variaveis.md`.
+**Disclaimer de variáveis no ranking:** painel por nível × objetivo (contagem + lista): `docs/03-dados/disclaimer-variaveis.md`.
 
-**Links oficiais das fontes:** catálogo e UI (download da edição usada no índice, sem hospedar o bruto): `docs/fontes-acesso-oficial.md`. CSV curado do Observatório: `docs/export-csv-obgd.md`.
+**Links oficiais das fontes e CSV curado:** `docs/03-dados/fontes-e-exportacao.md`.
 
-**Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/metodologia-mdx-pdf.md`.
+**Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/04-features/metodologia-conteudo.md`.
 
-**Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/security-headers-observatory.md`.
+**Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/05-operacao/seguranca-headers.md`.
+
+**Índice da documentação:** `docs/README.md`.
 
 ## Os 10 objetivos da ENGD
 

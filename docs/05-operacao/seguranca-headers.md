@@ -1,10 +1,14 @@
 # Headers de segurança — MDN HTTP Observatory
 
-> Headers HTTP do portal para a nota **A+** no [MDN HTTP Observatory](https://developer.mozilla.org/en-US/observatory/docs/tests_and_scoring).
->
-> **Scan:** [observatorio-gov-digital.vercel.app](https://developer.mozilla.org/en-US/observatory/analyze?host=observatorio-gov-digital.vercel.app)
->
-> **Última atualização:** 2026-09-12
+| Metadado | Valor |
+| --- | --- |
+| **Audiência** | Engenharia · Operação |
+| **Status** | Canônico |
+| **Última atualização** | 2026-09-13 |
+| **Scan** | [MDN Observatory](https://developer.mozilla.org/en-US/observatory/analyze?host=observatorio-gov-digital.vercel.app) |
+| **Relacionados** | [Contato](../04-features/contato-resend.md) · [Visão de arquitetura](../02-arquitetura/visao-arquitetura.md) · [Índice](../README.md) |
+
+Headers HTTP do portal para a nota **A+** no [MDN HTTP Observatory](https://developer.mozilla.org/en-US/observatory/docs/tests_and_scoring).
 
 ---
 
@@ -16,9 +20,9 @@ O App Router do Next.js injeta scripts inline de hidratação. CSP estático `sc
 
 | Camada                            | Arquivo                                                                                               | O que envia                                                                     |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Proxy (HTML, redirects, rewrites) | [`src/proxy.ts`](../src/proxy.ts) + [`src/lib/security-headers.ts`](../src/lib/security-headers.ts) | CSP com nonce + headers estáticos                                              |
-| `headers()` do Next             | [`next.config.ts`](../next.config.ts)                                                                | Só headers estáticos (assets fora do matcher:`_next/static`, imagens, etc.) |
-| Root layout                       | [`src/app/layout.tsx`](../src/app/layout.tsx)                                                        | `await connection()` — SSR obrigatório para o nonce bater com o HTML        |
+| Proxy (HTML, redirects, rewrites) | [`src/proxy.ts`](../../src/proxy.ts) + [`src/lib/security-headers.ts`](../../src/lib/security-headers.ts) | CSP com nonce + headers estáticos                                              |
+| `headers()` do Next             | [`next.config.ts`](../../next.config.ts)                                                                | Só headers estáticos (assets fora do matcher:`_next/static`, imagens, etc.) |
+| Root layout                       | [`src/app/layout.tsx`](../../src/app/layout.tsx)                                                        | `await connection()` — SSR obrigatório para o nonce bater com o HTML        |
 
 O Next lê o CSP no **request** (`Content-Security-Policy` + `x-nonce`) e carimba o mesmo nonce nos `<script>`. Sem `connection()`, o HTML estático do build teria nonce inválido.
 
@@ -27,10 +31,10 @@ O Next lê o CSP no **request** (`Content-Security-Policy` + `x-nonce`) e carimb
 ## 3. Política (produção)
 
 - **CSP:** `default-src 'none'`; `script-src 'nonce-…' 'strict-dynamic'` (dev: + `'unsafe-eval'` e `connect-src` com `ws:`/`wss:`); `style-src 'self' 'unsafe-inline'` (GSAP, Recharts, Framer Motion, estilos inline); `object-src 'none'`; `frame-ancestors 'none'`; `form-action 'self'`; `upgrade-insecure-requests`.
-- **`/contato` (e `/v2/contato`):** `isContatoPath()` em [`security-headers.ts`](../src/lib/security-headers.ts) liga `buildCsp(..., { recaptcha: true })`. Origens extras:
+- **`/contato` (e `/v2/contato`):** `isContatoPath()` em [`security-headers.ts`](../../src/lib/security-headers.ts) liga `buildCsp(..., { recaptcha: true })`. Origens extras:
   - `frame-src`: `https://www.google.com/recaptcha/` `https://recaptcha.google.com/`
   - `connect-src` e `img-src`: as mesmas + `https://www.gstatic.com/recaptcha/`
-  - Nas demais rotas `frame-src` continua `'none'`. **Não** adicionar `'unsafe-inline'` nem hosts Google em `script-src` — o `api.js` entra com nonce via `next/script` em `/contato`; `strict-dynamic` cobre os scripts filhos. Detalhe operacional: [`contato-resend.md`](./contato-resend.md) §7.1.
+  - Nas demais rotas `frame-src` continua `'none'`. **Não** adicionar `'unsafe-inline'` nem hosts Google em `script-src` — o `api.js` entra com nonce via `next/script` em `/contato`; `strict-dynamic` cobre os scripts filhos. Detalhe operacional: [`contato-resend.md`](../04-features/contato-resend.md) §7.1.
 - **Estáticos:** `X-Content-Type-Options: nosniff`; `Referrer-Policy: strict-origin-when-cross-origin`; `X-Frame-Options: DENY`; `Cross-Origin-Resource-Policy: same-origin`; `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload`.
 
 `unsafe-inline` em **script-src** faz o Observatory dar −20 e trava em B+ (bônus bloqueados). SRI nos chunks do Next não é usado: hashes mudam a cada build; same-origin já passa o teste (0).

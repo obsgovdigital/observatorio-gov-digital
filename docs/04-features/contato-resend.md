@@ -1,12 +1,14 @@
 # Formulário de contato — envio de e-mail com Resend
 
-> Documentação técnica e operacional da feature de contato do portal Observatório Brasileiro de Governo Digital (OBGD).
->
-> **Rota pública:** [`/contato`](../src/app/(app)/contato/page.tsx)
->
-> **Última atualização:** 2026-09-13
->
-> **Manutenção:** este arquivo é a fonte de verdade da feature. Leia a seção 7 (anti-abuso) e a 7.1 (reCAPTCHA) antes de alterar o formulário, a CSP ou as keys.
+| Metadado | Valor |
+| --- | --- |
+| **Audiência** | Engenharia · Operação |
+| **Status** | Canônico |
+| **Última atualização** | 2026-09-13 |
+| **Rota pública** | [`/contato`](../../src/app/(app)/contato/page.tsx) |
+| **Relacionados** | [Variáveis de ambiente](../05-operacao/variaveis-de-ambiente.md) · [Segurança](../05-operacao/seguranca-headers.md) · [Índice](../README.md) |
+
+Este arquivo é a fonte de verdade da feature. Ler a seção 7 (anti-abuso) e a 7.1 (reCAPTCHA) antes de alterar o formulário, a CSP ou as keys.
 
 ---
 
@@ -80,14 +82,14 @@ sequenceDiagram
 
 | Arquivo | Papel |
 | --- | --- |
-| [`src/app/(app)/contato/page.tsx`](../src/app/(app)/contato/page.tsx) | Página `/contato` (layout + formulário + `next/script` com nonce) |
-| [`src/components/content/contact-form.tsx`](../src/components/content/contact-form.tsx) | UI (React Hook Form), erros inline, toasts, honeypot, reCAPTCHA, reset do Select |
-| [`src/app/actions/contact.ts`](../src/app/actions/contact.ts) | Server Action: honeypot + reCAPTCHA + Zod + envio Resend |
-| [`src/lib/contact.ts`](../src/lib/contact.ts) | `SUBJECT_OPTIONS`, limites, schema Zod e `parseContactFormData` |
-| [`src/lib/recaptcha.ts`](../src/lib/recaptcha.ts) | `verifyRecaptchaToken` (`siteverify`, `server-only`) |
-| [`src/lib/security-headers.ts`](../src/lib/security-headers.ts) | CSP extra de reCAPTCHA só em `/contato` (`isContatoPath` + `buildCsp`) |
-| [`src/types/grecaptcha.d.ts`](../src/types/grecaptcha.d.ts) | Tipos de `window.grecaptcha` (render explícito v2) |
-| [`.env.example`](../.env.example) | Modelo das variáveis de ambiente |
+| [`src/app/(app)/contato/page.tsx`](../../src/app/(app)/contato/page.tsx) | Página `/contato` (layout + formulário + `next/script` com nonce) |
+| [`src/components/content/contact-form.tsx`](../../src/components/content/contact-form.tsx) | UI (React Hook Form), erros inline, toasts, honeypot, reCAPTCHA, reset do Select |
+| [`src/app/actions/contact.ts`](../../src/app/actions/contact.ts) | Server Action: honeypot + reCAPTCHA + Zod + envio Resend |
+| [`src/lib/contact.ts`](../../src/lib/contact.ts) | `SUBJECT_OPTIONS`, limites, schema Zod e `parseContactFormData` |
+| [`src/lib/recaptcha.ts`](../../src/lib/recaptcha.ts) | `verifyRecaptchaToken` (`siteverify`, `server-only`) |
+| [`src/lib/security-headers.ts`](../../src/lib/security-headers.ts) | CSP extra de reCAPTCHA só em `/contato` (`isContatoPath` + `buildCsp`) |
+| [`src/types/grecaptcha.d.ts`](../../src/types/grecaptcha.d.ts) | Tipos de `window.grecaptcha` (render explícito v2) |
+| [`.env.example`](../../.env.example) | Modelo das variáveis de ambiente |
 | `.env` | Segredos locais (**não versionar**) |
 
 Dependências npm: `resend`, `zod`, `react-hook-form`, `@hookform/resolvers`. Sem pacote de wrapper do reCAPTCHA.
@@ -238,11 +240,11 @@ Decisão: widget invisível (sem checkbox; o Google só mostra desafio se suspei
 | Badge oculto (`.grecaptcha-badge { visibility: hidden }`) | Visual do portal; o Google **exige** o texto com links de privacidade/termos no form | Esconder o badge **e** remover o aviso |
 | Sem `'unsafe-inline'` em `script-src` | Derruba a nota A+ do Observatory (−20) | Afrouxar `script-src` para “fazer o widget aparecer” |
 
-**Cliente** ([`contact-form.tsx`](../src/components/content/contact-form.tsx)): `waitForGrecaptcha` → `render({ size: 'invisible' })` → no submit, Promise em torno de `execute` (timeout 15 s). Se o widget não renderizar, o submit falha fechado (toast genérico). Tipos em `src/types/grecaptcha.d.ts`.
+**Cliente** ([`contact-form.tsx`](../../src/components/content/contact-form.tsx)): `waitForGrecaptcha` → `render({ size: 'invisible' })` → no submit, Promise em torno de `execute` (timeout 15 s). Se o widget não renderizar, o submit falha fechado (toast genérico). Tipos em `src/types/grecaptcha.d.ts`.
 
-**Servidor** ([`recaptcha.ts`](../src/lib/recaptcha.ts)): `POST https://www.google.com/recaptcha/api/siteverify` com `secret` + `response`. Token vazio **não** chama o Google. `server-only` — não importe esse módulo em Client Component.
+**Servidor** ([`recaptcha.ts`](../../src/lib/recaptcha.ts)): `POST https://www.google.com/recaptcha/api/siteverify` com `secret` + `response`. Token vazio **não** chama o Google. `server-only` — não importe esse módulo em Client Component.
 
-**CSP** ([`security-headers.ts`](../src/lib/security-headers.ts)), só quando `isContatoPath` é verdadeiro:
+**CSP** ([`security-headers.ts`](../../src/lib/security-headers.ts)), só quando `isContatoPath` é verdadeiro:
 
 - `frame-src`: `https://www.google.com/recaptcha/` `https://recaptcha.google.com/`
 - `connect-src` / `img-src`: os mesmos + `https://www.gstatic.com/recaptcha/`
@@ -339,6 +341,5 @@ Hospedagem atual: Insper; migração futura para AWS (MBC). A integração Resen
 - [Resend — verificação de domínio](https://resend.com/docs/dashboard/domains/introduction)
 - [reCAPTCHA v2 Invisible](https://developers.google.com/recaptcha/docs/invisible)
 - [Next.js — Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
-- Variáveis de ambiente do projeto: [`.env.example`](../.env.example)
-- Headers / CSP: [`security-headers-observatory.md`](./security-headers-observatory.md)
-- Acompanhamento geral da plataforma: [`acompanhamento-plataforma.md`](./acompanhamento-plataforma.md)
+- Variáveis de ambiente do projeto: [`.env.example`](../../.env.example) · [matriz](../05-operacao/variaveis-de-ambiente.md)
+- Headers / CSP: [`seguranca-headers.md`](../05-operacao/seguranca-headers.md)

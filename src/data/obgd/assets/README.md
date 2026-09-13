@@ -2,7 +2,7 @@
 
 Subset usado pelo app, gerado a partir de `src/data/obgd/assets-v4/` para ir ao Git e buildar em CI/Vercel sem o JSON bruto de `indicador_valor`.
 
-**Documentação completa:** [`docs/integracao-dados-v3-tags.md`](../../../../docs/integracao-dados-v3-tags.md) (histórico v3 + seção **assets-v4**).
+**Documentação completa:** [`docs/03-dados/pipeline-obgd.md`](../../../../docs/03-dados/pipeline-obgd.md).
 
 ## Conteúdo
 
@@ -12,6 +12,7 @@ assets/
 ├── detalhes_nacional.json
 ├── detalhes_estadual.json
 ├── detalhes_municipios.json      # 319 municípios ≥ 100 mil hab.
+├── variaveis-por-objetivo-nivel.json
 └── dados/
     ├── ente.json                 # 347 entes (BR + 27 UF + 319 municípios)
     ├── fonte.json
@@ -37,7 +38,8 @@ O script:
 2. Filtra `tipo`/`nivel` `capital` (entrega bruta em assets-v4 pode ainda trazer capitais)
 3. Copia entidades canônicas (incl. `tag` e `indicador` com `tags`/`audiencia`)
 4. Pré-calcula `indice_por_tag.json` agrupando por `(tipo, codigo, tag)` — sem linhas de capital
-5. **Não** copia `indicador_valor.json`
+5. Gera `variaveis-por-objetivo-nivel.json`
+6. **Não** copia `indicador_valor.json`
 
 Em seguida, conferir smoke em ranking/indicadores nos três recortes (federal, estadual, municípios) e commitar `src/data/obgd/assets/`.
 
