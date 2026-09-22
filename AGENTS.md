@@ -89,7 +89,7 @@ Estes são os objetivos monitorados, com os IDs usados nas CSVs:
 | 9 | Transparência e Participação |
 | 10 | Competências em Governo Digital |
 
-Cada objetivo recebe um `sub_indice` de 0–100. A média dos sub-índices disponíveis forma o `indice_geral` do ente.
+Cada objetivo recebe um `sub_indice` de 0–100. Não há agregado entre objetivos.
 
 ---
 

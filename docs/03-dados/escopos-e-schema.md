@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Engenharia |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
+| **Última atualização** | 2026-09-22 |
 | **Relacionados** | [Contrato de entrega](contrato-entrega-dados.md) · [Pipeline OBGD](pipeline-obgd.md) · [Glossário](../01-produto/glossario.md) · [Índice](../README.md) |
 
 ---
@@ -59,7 +59,7 @@ Entidades principais:
 | `tag` | 16 temas transversais |
 | `dimensao_conceitual` / `dimensao_tematica` | Organização metodológica (≠ tags da UI) |
 
-**Aviso:** `indice_geral` / média geral são **provisórios** no schema e **não** devem ser expostos na UI. Escalas de `sub_indice`, `indice_geral` e `valor_normalizado`: 0–100.
+**Aviso:** não há agregado entre objetivos. O subset do app não lê `indice_geral` nem `n_objetivos_com_dados`. Escalas de `sub_indice` e `valor_normalizado`: 0–100.
 
 ### Relacionamentos (FKs resumidos)
 

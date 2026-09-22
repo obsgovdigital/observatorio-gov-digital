@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Cliente |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
+| **Última atualização** | 2026-09-22 |
 | **Relacionados** | [Visão geral](visao-geral.md) · [Mapa de rotas](mapa-de-rotas.md) · [Glossário](glossario.md) · [Índice](../README.md) |
 
 Documento estável de decisões de produto e do comportamento correspondente na plataforma. Não registra diário de reuniões nem status de sprint.
@@ -70,4 +70,4 @@ Pendências conhecidas na frente de dados (edição assets-v4): `ano_indice` nul
 | Motivo do Objetivo 3 na UI | Texto provisório até validação oficial |
 | Quatro objetivos precários | Nota técnica mock na metodologia / chips |
 | Série histórica por variável | Gerador mock (último ponto pode espelhar valor real) |
-| Campo `indiceGeral` no modelo | Pode existir no JSON; **não** é exposto como ranking/média geral |
+| Campo `indiceGeral` no modelo | Removido. A entrega não precisa emitir `indice_geral`; o portal não o exibe |
