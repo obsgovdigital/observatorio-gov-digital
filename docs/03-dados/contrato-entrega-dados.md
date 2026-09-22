@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Engenharia · Operação · Frente de dados |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
+| **Última atualização** | 2026-09-22 |
 | **Relacionados** | [Pipeline no portal](pipeline-obgd.md) · [Pipeline de geração](pipeline-geracao-dados.md) · [Escopos e schema](escopos-e-schema.md) · [Deploy](../05-operacao/deploy-e-hospedagem.md) · [Índice](../README.md) |
 
 Define o **formato que a plataforma espera** para o snapshot estático do índice OBGD. A geração a partir das fontes brutas permanece na frente de dados — ver [Pipeline de geração de dados](pipeline-geracao-dados.md).
@@ -80,13 +80,15 @@ src/data/obgd/assets/
 | --- | --- |
 | `indicador_valor.json` | Volume alto; não entra no bundle do client |
 | `detalhes_capitais.json` | Recorte Capitais removido da UI |
+| `dados/indice_geral.json` | Agregado entre objetivos aposentado; o sync não copia |
+| `ranking_*.csv` | Ranking por índice geral; o sync não lê |
 
 Schema relacional de referência (modelo completo da frente de dados): [`src/data/obgd/assets-v4/dados/SCHEMA.md`](../../src/data/obgd/assets-v4/dados/SCHEMA.md). Resumo: [Escopos e schema](escopos-e-schema.md).
 
 ### Avisos de produto / schema
 
-1. `indice_geral` / média geral são **provisórios** no pacote e **não** devem ser expostos na UI.
-2. Escalas de `sub_indice`, `indice_geral` e `valor_normalizado`: **0–100**.
+1. Não há índice geral entre objetivos. O portal não lê `indice_geral` nem `n_objetivos_com_dados`. Rankings e destaques são sempre por objetivo (ou por tag).
+2. Escalas de `sub_indice` e `valor_normalizado`: **0–100**.
 3. Snapshot: cada fonte contribui com o ano mais recente usado no índice (edição de referência do app: **2026**).
 4. Na UI, o rótulo da nota por objetivo é **Índice** (campo nos dados: `sub_indice`).
 
@@ -124,7 +126,9 @@ node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
 | `detalhes_estadual.csv` | → `detalhes_estadual.json` |
 | `detalhes_municipios.csv` | → `detalhes_municipios.json` |
 
-Colunas mínimas do long: `nivel`, `unidade`, `unidade_nome`, `objetivo`, `objetivo_nome`, `ano_indice`, `sub_indice`, `indice_geral`, `n_objetivos_com_dados`, `posicao_no_objetivo`.
+Colunas mínimas do long: `nivel`, `unidade`, `unidade_nome`, `objetivo`, `objetivo_nome`, `ano_indice`, `sub_indice`, `posicao_no_objetivo`.
+
+`n` e `n_itens` podem vir no CSV; o portal não os lê. `indice_geral` e `n_objetivos_com_dados`, se ainda vierem, são descartados pelo sync.
 
 Colunas mínimas de `detalhes_*`: `categoria`, `objetivo`, `objetivo_nome`, `concept_id`, `fonte`, `indicador`, `sub_itens`, `descricao`, `escala`, `populacao`, `valor_normalizado`, `ano_fonte`.
 
@@ -139,7 +143,7 @@ Colunas mínimas de `detalhes_*`: `categoria`, `objetivo`, `objetivo_nome`, `con
 | `tag.json` | Cópia direta |
 | `indicador_valor.json` | Lido só para gerar `indice_por_tag.json`; **não** versionado em `assets/` |
 
-Tratamentos do sync: `ano_indice` vazio → `2026`; `n_objetivos_com_dados` vazio em município → `7`; geração de `variaveis-por-objetivo-nivel.json`.
+Tratamentos do sync: `ano_indice` vazio → `2026`; geração de `variaveis-por-objetivo-nivel.json`.
 
 ---
 
@@ -150,8 +154,6 @@ Tratamentos do sync: `ano_indice` vazio → `2026`; `n_objetivos_com_dados` vazi
 | `sub_indice` | Nota 0–100 por ente × objetivo; na UI o rótulo é **Índice** |
 | `valor_normalizado` | 0–100 por indicador no painel de detalhes |
 | `ano_indice` | Preferencialmente preenchido; se vazio no CSV, o sync grava **2026** |
-| `n_objetivos_com_dados` | Se vazio em município no CSV, fallback **7** no sync |
-| `indice_geral` | Pode existir no pacote; **proibido** como ranking/média na UI |
 | `indicador.tags` | Array de ids presentes em `tag.json` |
 | `indicador.status` | Apenas `ativo` entra no score por tag |
 | `concept_id` | Chave do indicador nos detalhes (export / disclaimer) |

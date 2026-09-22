@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Engenharia · Operação |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
+| **Última atualização** | 2026-09-22 |
 | **Relacionados** | [Contrato de entrega](contrato-entrega-dados.md) · [Pipeline de geração](pipeline-geracao-dados.md) · [Escopos e schema](escopos-e-schema.md) · [Fontes e exportação](fontes-e-exportacao.md) · [Deploy](../05-operacao/deploy-e-hospedagem.md) · [Índice](../README.md) |
 
 O **formato do pacote** esperado pela plataforma está em [Contrato de entrega de dados](contrato-entrega-dados.md). A construção do pacote a partir das fontes brutas será documentada em [Pipeline de geração](pipeline-geracao-dados.md) (frente de dados).
@@ -75,7 +75,7 @@ Não versionar `indicador_valor.json` (volume alto). Não emitir `detalhes_capit
 
 Usado quando o pacote chega em CSV. Script: `scripts/sync-obgd-assets-from-v4.mjs`.
 
-1. Converte CSVs flat → JSON (`ano_indice` vazio → `2026`; fallback de `n_objetivos_com_dados` nos municípios quando vazio).
+1. Converte CSVs flat → JSON (`ano_indice` vazio → `2026`). Descarta `indice_geral` e `n_objetivos_com_dados` se ainda vierem no CSV.
 2. Filtra `tipo` / `nivel` `capital` da entrega bruta.
 3. Copia entidades canônicas (incl. `tag` e `indicador` com `tags` / `audiencia`).
 4. Pré-calcula `indice_por_tag.json` agrupando por `(tipo, codigo, tag)` (lê `indicador_valor.json` na entrega; não o versiona).

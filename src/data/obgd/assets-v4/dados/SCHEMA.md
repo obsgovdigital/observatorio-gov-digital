@@ -6,6 +6,8 @@ Construido do codigo atual (config_engd, catalogo_variaveis, dimensoes_por_objet
 
 `indice_geral`/media geral sao **provisorios** (o pesquisador pode remover). Escalas `sub_indice`/`indice_geral`/`valor_normalizado` em 0-100.
 
+O subset versionado do app (`src/data/obgd/assets/`) não lê `indice_geral` nem `n_objetivos_com_dados`. O restante deste schema descreve o pacote que já está no disco.
+
 ## Relacionamentos (FKs)
 
 - `dimensao_tematica.objetivo_id` -> `objetivo_engd` (pk `id`)

@@ -67,8 +67,6 @@ export type IndiceLongRow = {
   objetivo_nome: string
   ano_indice: number
   sub_indice: number | null
-  indice_geral: number | null
-  n_objetivos_com_dados: number | null
   posicao_no_objetivo: number | null
 }
 
