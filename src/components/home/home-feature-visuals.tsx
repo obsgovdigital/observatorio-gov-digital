@@ -10,6 +10,10 @@ import {
 } from '@/components/charts/objetivos-radar'
 import { type DadoMapa, MapaBrasil } from '@/components/shared/mapa-brasil'
 import {
+  LinkMetodologiaPontuacao,
+  NotaObjetivosForaDaPontuacao,
+} from '@/components/shared/nota-objetivos-fora-da-pontuacao'
+import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
@@ -18,8 +22,9 @@ import type { Ente } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 import {
   filtrarValoresPorIndices,
-  formatNotaObjetivosInativos,
   isObjetivo3,
+  METODOLOGIA_OBJETIVO_3_HREF,
+  METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
   objetivoSelecionavel,
   objetivosParaRadar,
@@ -100,8 +105,6 @@ export function VisualPerfil({
     objetivo: o.titulo,
     slug: objectives[o.numero - 1]?.slug,
   }))
-  const notaInativos = formatNotaObjetivosInativos(inativos)
-
   const series: RadarSerie[] = [
     ...escolhidos.map((ente, i) => ({
       nome: ente.nome,
@@ -175,11 +178,10 @@ export function VisualPerfil({
 
       <div className="min-w-0 flex-1">
         <ObjetivosRadar eixos={radarEixos} series={series} />
-        {notaInativos && (
-          <p className="mx-auto mt-3 max-w-sm text-center text-[11px] leading-snug text-muted-foreground">
-            {notaInativos}
-          </p>
-        )}
+        <NotaObjetivosForaDaPontuacao
+          inativos={inativos}
+          className="mt-3 max-w-sm text-[11px]"
+        />
       </div>
     </div>
   )
@@ -268,11 +270,16 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
                       className="max-w-xs text-left leading-relaxed"
                     >
                       {isObjetivo3(objetivo.slug) && (
-                        <p className="mb-1 font-semibold">
-                          Objetivo desabilitado
-                        </p>
+                        <p className="mb-1 font-semibold">Sem índice neste recorte</p>
                       )}
                       <p>{motivo}</p>
+                      <LinkMetodologiaPontuacao
+                        href={
+                          isObjetivo3(objetivo.slug)
+                            ? METODOLOGIA_OBJETIVO_3_HREF
+                            : METODOLOGIA_PONTUACAO_HREF
+                        }
+                      />
                     </TooltipContent>
                   </Tooltip>
                 ) : (

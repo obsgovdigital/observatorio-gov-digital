@@ -38,7 +38,10 @@ export function EntendaGraficoTip({
           <>
             <p>
               O radar mostra o perfil do ente nos{' '}
-              <strong className="font-medium">dez objetivos da ENGD</strong>.
+              <strong className="font-medium">
+                objetivos da ENGD que têm índice neste recorte
+              </strong>
+              {'. '}
               Cada eixo é um <strong className="font-medium">índice</strong>{' '}
               (média dos indicadores daquele objetivo, de 0 a 100).
             </p>

@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Cliente |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-22 |
+| **Última atualização** | 2026-09-25 |
 | **Relacionados** | [Visão geral](visao-geral.md) · [Mapa de rotas](mapa-de-rotas.md) · [Glossário](glossario.md) · [Índice](../README.md) |
 
 Documento estável de decisões de produto e do comportamento correspondente na plataforma. Não registra diário de reuniões nem status de sprint.
@@ -18,7 +18,7 @@ Documento estável de decisões de produto e do comportamento correspondente na 
 | 1 | Média / índice geral entre objetivos | Não publicar | Rankings e destaques apenas por **objetivo** (Índice) ou por **tag temática** |
 | 2 | Clareza do critério de ordenação do ranking | Critério explícito na UI | Ordenação por objetivo ENGD **ou** categoria temática; sem toggle de índice geral |
 | 3 | Página isolada de variável com série histórica | Remover da UI | Variáveis aparecem como lista + download na página do objetivo |
-| 4 | Objetivo 3 (Identificação Única) com cobertura insuficiente | Desabilitar na UI | Chip desabilitado com tooltip e toast; lacunas reais dos objs. 8 e 10 continuam vindas dos dados |
+| 4 | Objetivo 3 e objetivos sem nota no recorte | Não têm índice publicado neste recorte | Aviso com tooltip e link para o capítulo 3 da metodologia; o texto não fala em falta de dados |
 | 5 | Tags / dimensões temáticas | Catálogo oficial de **16 tags** | Ranking e Indicadores no modo temáticas usam scores reais (média por tag) |
 | 6 | Versão com e sem ranking (teste A/B) | Duas variantes | Variante A (`/`): ranking disponível. Variante B (`/v2` ou env `off`): sem ranking |
 | 6b | Caminho até o download sem ranking | Drill-down em Indicadores | Em ambas as variantes: `/indicadores/[nivel]/[ente]/[objetivo]` com lista + download |
@@ -49,7 +49,7 @@ Documento estável de decisões de produto e do comportamento correspondente na 
 | Tags API / IA / tecnologias emergentes como eixos de UI | Futuro — cobertura insuficiente no snapshot |
 | Série histórica multi-ano por variável | Snapshot anual; série na UI permanece mock se existir no código |
 | Filtro cidadão × gestor (`audiencia`) | Campo nos dados; sem UI nesta etapa |
-| Texto final do tooltip do Objetivo 3 | Copy provisório até validação oficial |
+| Texto do aviso de objetivos sem índice neste recorte | Publicado: tooltip com link para `/metodologia/cap03-metodologia` (Objetivo 3: seção 3.4.1) |
 | Conteúdo final da nota dos objetivos precários | Mock |
 | Recomendações ENGD na página de objetivo do ranking | Removidas; permanecem em `/objetivos/[slug]` |
 
@@ -67,7 +67,7 @@ Pendências conhecidas na frente de dados (edição assets-v4): `ano_indice` nul
 
 | Área | Natureza |
 | --- | --- |
-| Motivo do Objetivo 3 na UI | Texto provisório até validação oficial |
+| Motivo do Objetivo 3 na UI | Aviso de objetivo sem índice publicado, com link para a seção 3.4.1 |
 | Quatro objetivos precários | Nota técnica mock na metodologia / chips |
 | Série histórica por variável | Gerador mock (último ponto pode espelhar valor real) |
 | Campo `indiceGeral` no modelo | Removido. A entrega não precisa emitir `indice_geral`; o portal não o exibe |
