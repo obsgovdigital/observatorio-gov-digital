@@ -16,6 +16,8 @@ ente, fonte.
 - `indice_*`, `detalhes_*`, `ranking_*` -- copias diretas do build.
 
 ## Avisos
+O subset do app (`src/data/obgd/assets/`) não lê `indice_geral` nem `n_objetivos_com_dados`. O restante deste pacote descreve o que já está no disco.
+
 1. **`indice_geral` e PROVISORIO** -- a media geral a partir dos objetivos pode
    ser removida pelo pesquisador. Prefira `indice_objetivo`/rankings por objetivo.
 2. Escala 0-100 para sub_indice, indice_geral e valor_normalizado.

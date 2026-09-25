@@ -3,6 +3,7 @@
 import { Resend } from 'resend'
 
 import { parseContactFormData } from '@/lib/contact'
+import { verifyRecaptchaToken } from '@/lib/recaptcha'
 
 export type ContactActionResult = { ok: true } | { ok: false; error: string }
 
@@ -27,6 +28,16 @@ export async function sendContactMessage(
   // Use an uncommon name so browser autofill does not trip it.
   if (getString(formData, 'company_url_hp')) {
     return { ok: true }
+  }
+
+  const recaptchaOk = await verifyRecaptchaToken(
+    getString(formData, 'recaptcha_token')
+  )
+  if (!recaptchaOk) {
+    return {
+      ok: false,
+      error: 'Não foi possível enviar a mensagem. Tente novamente mais tarde.',
+    }
   }
 
   const parsed = parseContactFormData(formData)

@@ -1,4 +1,8 @@
-import { FONTE_URLS } from '@/data/obgd/fonte-urls'
+import {
+  FONTES_ACESSO,
+  type FonteArquivo,
+  urlFontePrimaria,
+} from '@/data/obgd/fonte-urls'
 import { fontes as fontesObgd } from '@/data/obgd/load'
 
 export type Fonte = {
@@ -11,6 +15,8 @@ export type Fonte = {
   urlPesquisa: string
   /** Site oficial do órgão produtor. */
   urlOrgao: string
+  /** Arquivos oficiais da edição usada no índice (não hospedados aqui). */
+  arquivos: FonteArquivo[]
   descricao: string
 }
 
@@ -42,19 +48,21 @@ const ORGAO_URL_FALLBACK = 'https://www.gov.br/'
 
 /**
  * Catálogo das páginas `/metodologia/fontes/[slug]` — uma por pesquisa OBGD.
- * Downloads de microdados brutos não são oferecidos — apenas link ao portal
- * e CSV curado (`/api/obgd/export?fonteId=`).
+ * A plataforma não hospeda microdados brutos: linka o endereço oficial da
+ * edição usada no índice e oferece o CSV curado (`/api/obgd/export?fonteId=`).
  */
 export const fontes: Fonte[] = fontesObgd.map(f => {
   const urlOrgao =
     ORGAO_URL_POR_INSTITUICAO[f.instituicao] ?? ORGAO_URL_FALLBACK
-  const urlPesquisa = FONTE_URLS[f.id] ?? urlOrgao
+  const acesso = FONTES_ACESSO[f.id]
+  const urlPesquisa = acesso?.urlPesquisa ?? urlFontePrimaria(f.id)
   return {
     slug: f.id,
     name: f.nome,
     instituicao: f.instituicao,
     urlPesquisa,
     urlOrgao,
+    arquivos: acesso?.arquivos ?? [],
     descricao: `Pesquisa/base usada no Observatório. Produzida por ${f.instituicao}.`,
   }
 })

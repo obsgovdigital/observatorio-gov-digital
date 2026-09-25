@@ -7,6 +7,7 @@
  * - Precomputes indice_por_tag.json keyed by (tipo, codigo, tag)
  * - Does NOT copy indicador_valor.json (too large for the app bundle)
  * - Does NOT emit detalhes_capitais.json
+ * - Does NOT copy indice_geral or n_objetivos_com_dados (portal does not read them)
  *
  * Usage: node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
  */
@@ -27,7 +28,6 @@ const ROOT = join(__dirname, '..')
 const SRC = join(ROOT, 'src/data/obgd/assets-v4')
 const DEST = join(ROOT, 'src/data/obgd/assets')
 const ANO_INDICE = 2026
-const N_OBJETIVOS_MUNICIPIO_FALLBACK = 7
 
 async function readCsv(path) {
   const rows = []
@@ -107,24 +107,16 @@ async function convertIndiceLong() {
   const rows = await readCsv(join(SRC, 'indice_long_por_objetivo.csv'))
   return rows
     .filter(r => r.nivel !== 'capital')
-    .map(r => {
-      const nivel = r.nivel
-      const nObj =
-        num(r.n_objetivos_com_dados) ??
-        (nivel === 'municipio' ? N_OBJETIVOS_MUNICIPIO_FALLBACK : null)
-      return {
-        nivel,
-        unidade: r.unidade,
-        unidade_nome: r.unidade_nome,
-        objetivo: num(r.objetivo),
-        objetivo_nome: r.objetivo_nome,
-        ano_indice: num(r.ano_indice, ANO_INDICE),
-        sub_indice: num(r.sub_indice),
-        indice_geral: num(r.indice_geral),
-        n_objetivos_com_dados: nObj,
-        posicao_no_objetivo: num(r.posicao_no_objetivo),
-      }
-    })
+    .map(r => ({
+      nivel: r.nivel,
+      unidade: r.unidade,
+      unidade_nome: r.unidade_nome,
+      objetivo: num(r.objetivo),
+      objetivo_nome: r.objetivo_nome,
+      ano_indice: num(r.ano_indice, ANO_INDICE),
+      sub_indice: num(r.sub_indice),
+      posicao_no_objetivo: num(r.posicao_no_objetivo),
+    }))
 }
 
 async function convertDetalhes(name) {

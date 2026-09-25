@@ -45,7 +45,7 @@ export const OBJETIVO_O_QUE_AVALIA: Record<
   'identidade-unica-do-cidadao': {
     blurb: 'Identificação e autenticação digital do cidadão nos serviços.',
     detalhe:
-      'Mede avanços em identidade digital e login único. Neste recorte a cobertura de dados ainda é limitada — por isso o objetivo pode aparecer desabilitado em alguns níveis.',
+      'Mede avanços em identidade digital e login único. Há indicadores associados a este objetivo, mas eles não entram no índice publicado na plataforma.',
   },
   'privacidade-e-seguranca': {
     blurb: 'Privacidade, proteção de dados pessoais e segurança da informação.',

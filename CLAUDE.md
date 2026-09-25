@@ -41,13 +41,17 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 **Hospedagem:** Insper inicialmente → AWS (MBC) no longo prazo.
 
-**Formulário de contato (`/contato`):** envio de e-mail via Resend + Server Action. Setup, variáveis de ambiente e operação: `docs/contato-resend.md`.
+**Formulário de contato (`/contato`):** envio de e-mail via Resend + Server Action. Setup, variáveis de ambiente e operação: `docs/04-features/contato-resend.md`.
 
-**Disclaimer de variáveis no ranking:** painel por nível × objetivo (contagem + lista): `docs/ranking-disclaimer-variaveis.md`.
+**Disclaimer de variáveis no ranking:** painel por nível × objetivo (contagem + lista): `docs/03-dados/disclaimer-variaveis.md`.
 
-**Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/metodologia-mdx-pdf.md`.
+**Links oficiais das fontes e CSV curado:** `docs/03-dados/fontes-e-exportacao.md`.
 
-**Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/security-headers-observatory.md`.
+**Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/04-features/metodologia-conteudo.md`.
+
+**Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/05-operacao/seguranca-headers.md`.
+
+**Índice da documentação:** `docs/README.md`.
 
 ## Os 10 objetivos da ENGD
 
@@ -68,7 +72,7 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 Três escopos: **nacional** · **estadual** (27 UFs) · **municípios** (319 ≥ 100 mil hab., inclui capitais).
 
-Cada escopo tem 3 arquivos: `indice_*.csv` (índice por objetivo; campo `sub_indice`), `detalhes_*.csv` (indicadores individuais) e `ranking_*.csv` (ranking por `indice_geral`). Na UI o rótulo é **Índice** — ver nomenclatura em `AGENTS.md`.
+Cada escopo tem o long por objetivo (`sub_indice`) e `detalhes_*.csv` (indicadores individuais). Na UI o rótulo é **Índice** — ver nomenclatura em `AGENTS.md`.
 
 **Referências numéricas:**
 - Índice nacional: **58,26**

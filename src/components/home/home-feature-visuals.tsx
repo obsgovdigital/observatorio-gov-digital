@@ -1,7 +1,7 @@
 'use client'
 
 import { Download, Info } from 'lucide-react'
-import { useState } from 'react'
+import { useId, useState } from 'react'
 import { toast } from 'sonner'
 
 import {
@@ -10,16 +10,21 @@ import {
 } from '@/components/charts/objetivos-radar'
 import { type DadoMapa, MapaBrasil } from '@/components/shared/mapa-brasil'
 import {
+  LinkMetodologiaPontuacao,
+  NotaObjetivosForaDaPontuacao,
+} from '@/components/shared/nota-objetivos-fora-da-pontuacao'
+import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
-import { type Ente, formatScore } from '@/data/indicators'
+import type { Ente } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 import {
   filtrarValoresPorIndices,
-  formatNotaObjetivosInativos,
   isObjetivo3,
+  METODOLOGIA_OBJETIVO_3_HREF,
+  METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
   objetivoSelecionavel,
   objetivosParaRadar,
@@ -62,6 +67,7 @@ export function VisualPerfil({
   entes: Ente[]
   medias: (number | null)[]
 }) {
+  const tituloListaId = useId()
   const [selecionados, setSelecionados] = useState<string[]>([
     entes[0]?.slug ?? '',
   ])
@@ -99,8 +105,6 @@ export function VisualPerfil({
     objetivo: o.titulo,
     slug: objectives[o.numero - 1]?.slug,
   }))
-  const notaInativos = formatNotaObjetivosInativos(inativos)
-
   const series: RadarSerie[] = [
     ...escolhidos.map((ente, i) => ({
       nome: ente.nome,
@@ -121,61 +125,63 @@ export function VisualPerfil({
 
   return (
     <div className="flex w-full flex-col gap-6 sm:flex-row">
-      <ul className="max-h-[19rem] w-full shrink-0 space-y-0.5 overflow-y-auto pr-2 [scrollbar-color:var(--border)_transparent] [scrollbar-width:thin] sm:w-48 sm:self-center [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-border [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar]:w-1">
-        {entes.map(ente => {
-          const idx = selecionados.indexOf(ente.slug)
-          const ativo = idx !== -1
-          const bloqueado = !ativo && limiteAtingido
-          const notaDestaque = ente.objetivos.find(
-            o => o.nota != null && !isObjetivo3(o.numero)
-          )?.nota
-          return (
-            <li key={ente.slug}>
-              <button
-                type="button"
-                onClick={() => alternar(ente.slug)}
-                aria-pressed={ativo}
-                aria-disabled={bloqueado}
-                className={cn(
-                  'flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-left text-xs transition-colors',
-                  ativo
-                    ? 'bg-primary/5 font-medium text-foreground'
-                    : bloqueado
-                      ? 'cursor-not-allowed text-muted-foreground/40'
-                      : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
-                )}
-              >
-                <span
-                  aria-hidden="true"
-                  className="size-2 shrink-0 rounded-full border"
-                  style={
+      <div className="flex w-full shrink-0 flex-col gap-2 sm:w-48 sm:self-center lg:h-[28rem] lg:self-start">
+        <p
+          id={tituloListaId}
+          className="px-2 font-medium text-muted-foreground text-xs lg:text-sm"
+        >
+          Estados
+        </p>
+        <ul
+          aria-labelledby={tituloListaId}
+          className="max-h-[22rem] min-h-0 flex-1 space-y-0.5 overflow-y-auto pr-2 [scrollbar-color:var(--border)_transparent] [scrollbar-width:thin] lg:max-h-none [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-border [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar]:w-1"
+        >
+          {entes.map(ente => {
+            const idx = selecionados.indexOf(ente.slug)
+            const ativo = idx !== -1
+            const bloqueado = !ativo && limiteAtingido
+            return (
+              <li key={ente.slug}>
+                <button
+                  type="button"
+                  onClick={() => alternar(ente.slug)}
+                  aria-pressed={ativo}
+                  aria-disabled={bloqueado}
+                  className={cn(
+                    'flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-left text-xs transition-colors',
                     ativo
-                      ? {
-                          backgroundColor: CORES[idx],
-                          borderColor: CORES[idx],
-                        }
-                      : undefined
-                  }
-                />
-                <span className="truncate">{ente.nome}</span>
-                {notaDestaque != null && (
-                  <span className="ml-auto shrink-0 tabular-nums">
-                    {formatScore(notaDestaque)}
-                  </span>
-                )}
-              </button>
-            </li>
-          )
-        })}
-      </ul>
+                      ? 'bg-primary/5 font-medium text-foreground'
+                      : bloqueado
+                        ? 'cursor-not-allowed text-muted-foreground/40'
+                        : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
+                  )}
+                >
+                  <span
+                    aria-hidden="true"
+                    className="size-2 shrink-0 rounded-full border"
+                    style={
+                      ativo
+                        ? {
+                            backgroundColor: CORES[idx],
+                            borderColor: CORES[idx],
+                          }
+                        : undefined
+                    }
+                  />
+                  <span className="truncate">{ente.nome}</span>
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
 
       <div className="min-w-0 flex-1">
         <ObjetivosRadar eixos={radarEixos} series={series} />
-        {notaInativos && (
-          <p className="mx-auto mt-3 max-w-sm text-center text-[11px] leading-snug text-muted-foreground">
-            {notaInativos}
-          </p>
-        )}
+        <NotaObjetivosForaDaPontuacao
+          inativos={inativos}
+          className="mt-3 max-w-sm text-[11px]"
+        />
       </div>
     </div>
   )
@@ -264,11 +270,16 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
                       className="max-w-xs text-left leading-relaxed"
                     >
                       {isObjetivo3(objetivo.slug) && (
-                        <p className="mb-1 font-semibold">
-                          Objetivo desabilitado
-                        </p>
+                        <p className="mb-1 font-semibold">Sem índice neste recorte</p>
                       )}
                       <p>{motivo}</p>
+                      <LinkMetodologiaPontuacao
+                        href={
+                          isObjetivo3(objetivo.slug)
+                            ? METODOLOGIA_OBJETIVO_3_HREF
+                            : METODOLOGIA_PONTUACAO_HREF
+                        }
+                      />
                     </TooltipContent>
                   </Tooltip>
                 ) : (

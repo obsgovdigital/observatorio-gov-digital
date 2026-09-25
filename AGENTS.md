@@ -1,7 +1,11 @@
 <!-- BEGIN:nextjs-agent-rules -->
+
 # This is NOT the Next.js you know
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
 <!-- END:nextjs-agent-rules -->
 
 ---
@@ -54,15 +58,17 @@ src/
 └── proxy.ts                # middleware Next.js (passthrough)
 ```
 
-**Contato / e-mail:** a feature de `/contato` (Resend + Server Action) está documentada em [`docs/contato-resend.md`](docs/contato-resend.md). Não invente outro provedor ou fluxo sem alinhar com esse doc.
+**Contato / e-mail:** a feature de `/contato` (Resend + Server Action) está documentada em [`docs/04-features/contato-resend.md`](docs/04-features/contato-resend.md). Não invente outro provedor ou fluxo sem alinhar com esse doc.
 
-**Metodologia (Markdown → páginas + PDF):** relatório metodológico em MDX/Next e download do PDF estático documentados em [`docs/metodologia-mdx-pdf.md`](docs/metodologia-mdx-pdf.md). Não invente outro pipeline de conteúdo ou geração de PDF no portal sem alinhar com esse doc.
+**Metodologia (Markdown → páginas + PDF):** relatório metodológico em MDX/Next e download do PDF estático documentados em [`docs/04-features/metodologia-conteudo.md`](docs/04-features/metodologia-conteudo.md). Não invente outro pipeline de conteúdo ou geração de PDF no portal sem alinhar com esse doc.
 
-**Dados OBGD / tags:** fonte versionada em `src/data/obgd/assets/`; sync a partir de `local_assets/dados-v3` documentado em [`docs/integracao-dados-v3-tags.md`](docs/integracao-dados-v3-tags.md). Status de produto: [`docs/acompanhamento-plataforma.md`](docs/acompanhamento-plataforma.md).
+**Dados OBGD / tags:** fonte versionada em `src/data/obgd/assets/`; sync a partir de `assets-v4` documentado em [`docs/03-dados/pipeline-obgd.md`](docs/03-dados/pipeline-obgd.md). Decisões de produto: [`docs/01-produto/escopo-e-decisoes.md`](docs/01-produto/escopo-e-decisoes.md). Índice da documentação: [`docs/README.md`](docs/README.md).
 
-**Disclaimer de variáveis no ranking:** contagem e lista do painel por nível × objetivo em [`docs/ranking-disclaimer-variaveis.md`](docs/ranking-disclaimer-variaveis.md).
+**Disclaimer de variáveis no ranking:** contagem e lista do painel por nível × objetivo em [`docs/03-dados/disclaimer-variaveis.md`](docs/03-dados/disclaimer-variaveis.md).
 
-**Headers de segurança / Observatory:** CSP com nonce, HSTS e demais headers HTTP em [`docs/security-headers-observatory.md`](docs/security-headers-observatory.md). Não afrouxar `script-src` nem remover o SSR do root layout sem alinhar com esse doc.
+**Links oficiais das fontes e CSV curado:** [`docs/03-dados/fontes-e-exportacao.md`](docs/03-dados/fontes-e-exportacao.md).
+
+**Headers de segurança / Observatory:** CSP com nonce, HSTS e demais headers HTTP em [`docs/05-operacao/seguranca-headers.md`](docs/05-operacao/seguranca-headers.md). Não afrouxar `script-src` nem remover o SSR do root layout sem alinhar com esse doc.
 
 ---
 
@@ -83,7 +89,7 @@ Estes são os objetivos monitorados, com os IDs usados nas CSVs:
 | 9 | Transparência e Participação |
 | 10 | Competências em Governo Digital |
 
-Cada objetivo recebe um `sub_indice` de 0–100. A média dos sub-índices disponíveis forma o `indice_geral` do ente.
+Cada objetivo recebe um `sub_indice` de 0–100. Não há agregado entre objetivos.
 
 ---
 
@@ -91,7 +97,7 @@ Cada objetivo recebe um `sub_indice` de 0–100. A média dos sub-índices dispo
 
 A pasta `src/local_assets/` é **gitignored** — Não commitar.
 
-**Canônico atual:** `local_assets/dados-v3/` → sync para `src/data/obgd/assets/` via `node scripts/sync-obgd-assets-from-v3.mjs`. Detalhes: [`docs/integracao-dados-v3-tags.md`](docs/integracao-dados-v3-tags.md).
+**Canônico atual:** `src/data/obgd/assets-v4/` → sync para `src/data/obgd/assets/` via `node scripts/sync-obgd-assets-from-v4.mjs`. Detalhes: [`docs/03-dados/pipeline-obgd.md`](docs/03-dados/pipeline-obgd.md).
 
 ### Legado — CSVs de índice (`indice_obgd/csvs/`)
 

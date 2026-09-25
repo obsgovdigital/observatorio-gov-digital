@@ -1,9 +1,15 @@
+import { headers } from 'next/headers'
+import Script from 'next/script'
+
 import { ContactForm } from '@/components/content/contact-form'
 import { MagnetLines } from '@/components/ui/magnet-lines'
 
 export const metadata = { title: 'Contato' }
 
-export default function ContatoPage() {
+export default async function ContatoPage() {
+  const nonce = (await headers()).get('x-nonce') ?? undefined
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''
+
   return (
     <section className="pb-12">
       <div className="relative px-6 pt-28 pb-6 sm:px-10">
@@ -37,7 +43,14 @@ export default function ContatoPage() {
           </div>
 
           <div className="lg:pl-16">
-            <ContactForm />
+            <ContactForm recaptchaSiteKey={recaptchaSiteKey} />
+            {recaptchaSiteKey ? (
+              <Script
+                src="https://www.google.com/recaptcha/api.js?render=explicit&hl=pt"
+                nonce={nonce}
+                strategy="afterInteractive"
+              />
+            ) : null}
           </div>
         </div>
       </div>

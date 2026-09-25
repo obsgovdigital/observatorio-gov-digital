@@ -7,6 +7,7 @@ import {
   type RadarSerie,
 } from '@/components/charts/objetivos-radar'
 import { InfoTip } from '@/components/shared/info-tip'
+import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
 import { GLOSSARIO } from '@/data/help-copy'
 import {
@@ -17,7 +18,6 @@ import {
 } from '@/data/indicators'
 import {
   filtrarValoresPorIndices,
-  formatNotaObjetivosInativos,
   objetivosParaRadar,
 } from '@/data/objectives-availability'
 import { cn } from '@/lib/utils'
@@ -75,7 +75,6 @@ export function EnteDetail({
         ]
       : []),
   ]
-  const notaInativos = formatNotaObjetivosInativos(inativos)
   const mostrarDistribuicao =
     showRankingUi &&
     nivel.isRanking &&
@@ -146,9 +145,9 @@ export function EnteDetail({
             </h2>
             <p className="mt-1 text-sm text-muted-foreground">
               {nivel.entes.length > 1
-                ? `Nota do ente em cada objetivo ativo, comparada à média do nível ${nivel.label.toLowerCase()} (média das notas dos entes desse nível que têm dado — não é média entre objetivos).`
+                ? `Nota do ente em cada objetivo com índice neste recorte, comparada à média do nível ${nivel.label.toLowerCase()} (média das notas dos entes desse nível que têm dado — não é média entre objetivos).`
                 : inativos.length > 0
-                  ? `Nota do ente nos objetivos da ENGD com dados disponíveis.`
+                  ? 'Nota do ente nos objetivos da ENGD com índice neste recorte.'
                   : 'Nota do ente em cada um dos dez objetivos da ENGD.'}
             </p>
             <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
@@ -171,11 +170,10 @@ export function EnteDetail({
               <ObjetivosRadar eixos={radarEixos} series={radarSeries} />
             </div>
 
-            {notaInativos && (
-              <p className="mx-auto mt-4 max-w-md text-center text-xs text-muted-foreground">
-                {notaInativos}
-              </p>
-            )}
+            <NotaObjetivosForaDaPontuacao
+              inativos={inativos}
+              className="mt-4"
+            />
           </div>
 
           {mostrarDistribuicao && (

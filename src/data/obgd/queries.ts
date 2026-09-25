@@ -61,8 +61,6 @@ export type Ente = {
   codigo: string
   tipo: EnteTipo
   ufSigla: string | null
-  indiceGeral: number
-  nObjetivosComDados: number
   objetivos: ObjetivoScore[]
 }
 
@@ -118,8 +116,6 @@ function buildEnte(
 ): Ente {
   const rows = rowsForEnte(dataNivel, codigo)
   const byObj = new Map(rows.map(r => [r.objetivo, r]))
-  const indiceGeral = rows[0]?.indice_geral ?? 0
-  const nObjetivosComDados = rows[0]?.n_objetivos_com_dados ?? rows.length
   const meta = getEnteByTipoCodigo(dataNivel, codigo)
 
   const objetivos: ObjetivoScore[] = objectives.map((objetivo, index) => {
@@ -149,9 +145,6 @@ function buildEnte(
     codigo,
     tipo: dataNivel,
     ufSigla: meta?.uf_sigla ?? null,
-    // Mantido no modelo para compatibilidade com o JSON; não expor na UI.
-    indiceGeral: round1(typeof indiceGeral === 'number' ? indiceGeral : 0),
-    nObjetivosComDados,
     objetivos,
   }
 }

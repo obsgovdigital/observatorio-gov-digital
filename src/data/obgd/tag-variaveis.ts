@@ -24,6 +24,7 @@ export type TagVariavelComNotas = {
   nome: string
   fonte: string
   fonteUrl: string
+  fonteId: string
   conceptId: string
   subItens: string | null
   notas: Record<string, number | null>
@@ -82,6 +83,7 @@ export function variaveisDaTagPorEntes(opts: {
       nome: row.descricao || meta?.descricao || row.indicador,
       fonte: fonteLabel,
       fonteUrl: FONTE_URLS[row.fonte] ?? 'https://www.gov.br/',
+      fonteId: row.fonte,
       conceptId: conceptIdOf(row),
       subItens: row.sub_itens,
       notas,

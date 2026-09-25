@@ -1,14 +1,14 @@
 # Metodologia em Markdown — renderização nativa e PDF
 
-> Documentação técnica e operacional da feature que publica o relatório metodológico do Observatório Brasileiro de Governo Digital (OBGD) como páginas nativas do portal (Markdown → MDX → Next.js) e oferece o download do PDF consolidado.
->
-> **Rotas públicas:**
->
-> - Hub e sumário: [`/metodologia`](../src/app/(app)/metodologia/page.tsx)
-> - Capítulo: `/metodologia/[capitulo]` — ex.: `/metodologia/cap04-obj01-governanca`
-> - PDF estático: [`/metodologia-completa.pdf`](../public/metodologia-completa.pdf)
->
-> **Última atualização:** 2026-08-03
+| Metadado | Valor |
+| --- | --- |
+| **Audiência** | Engenharia · Operação |
+| **Status** | Canônico |
+| **Última atualização** | 2026-09-13 |
+| **Rotas** | `/metodologia` · `/metodologia/[capitulo]` · `/metodologia-completa.pdf` |
+| **Relacionados** | [Pipeline OBGD](../03-dados/pipeline-obgd.md) · [Fontes e exportação](../03-dados/fontes-e-exportacao.md) · [Índice](../README.md) |
+
+Documentação técnica e operacional da feature que publica o relatório metodológico como páginas nativas do portal (Markdown → MDX → Next.js) e oferece o download do PDF consolidado.
 
 ---
 
@@ -36,7 +36,7 @@ Não há geração de PDF **dentro** deste repositório. A compilação Markdown
 
 ### Fonte de verdade do domínio
 
-Para conceitos metodológicos (indicadores, ENGD, índices, escopos), o projeto trata [`public/metodologia-completa.pdf`](../public/metodologia-completa.pdf) como **oráculo** — ver [`AGENTS.md`](../AGENTS.md) e [`.cursor/rules/metodologia-oraculo.mdc`](../.cursor/rules/metodologia-oraculo.mdc).
+Para conceitos metodológicos (indicadores, ENGD, índices, escopos), o projeto trata [`public/metodologia-completa.pdf`](../../public/metodologia-completa.pdf) como **oráculo** — ver [`AGENTS.md`](../../AGENTS.md) e [`.cursor/rules/metodologia-oraculo.mdc`](../../.cursor/rules/metodologia-oraculo.mdc).
 
 > **Atenção de sincronismo:** o Markdown web pode estar mais atualizado que o PDF commitado (ou o contrário). Em conflito de conceito de domínio, prevalece o PDF oráculo até a equipe alinhar os dois artefatos.
 
@@ -102,48 +102,48 @@ flowchart TB
 
 | Arquivo / pasta | Papel |
 | --- | --- |
-| [`src/content/metodologia/capitulos/*.md`](../src/content/metodologia/capitulos/) | Capítulos, anexos e referências renderizados no portal (17 arquivos) |
-| [`src/content/metodologia/capitulos/CLAUDE.md`](../src/content/metodologia/capitulos/CLAUDE.md) | Contrato editorial dos capítulos-objetivo (padrão dimensional); herdado do fluxo de pesquisa |
+| [`src/content/metodologia/capitulos/*.md`](../../src/content/metodologia/capitulos/) | Capítulos, anexos e referências renderizados no portal (17 arquivos) |
+| [`src/content/metodologia/capitulos/CLAUDE.md`](../../src/content/metodologia/capitulos/CLAUDE.md) | Contrato editorial dos capítulos-objetivo (padrão dimensional); herdado do fluxo de pesquisa |
 | `src/content/metodologia/capitulos/*.docx` | Fontes Word auxiliares (ex. revisão de literatura); **não** carregadas pelo app |
 
 ### Registro, loader e tipagem
 
 | Arquivo | Papel |
 | --- | --- |
-| [`src/data/metodologia-capitulos.ts`](../src/data/metodologia-capitulos.ts) | `metodologiaCapitulos`, `getMetodologiaCapitulo`, `getMetodologiaCapituloNav`, `metodologiaCapituloHref` |
-| [`src/lib/metodologia-mdx.ts`](../src/lib/metodologia-mdx.ts) | `loadMetodologiaCapituloMdx(file)` — mapa explícito de `import()` |
-| [`src/types/mdx.d.ts`](../src/types/mdx.d.ts) | Declaração de módulos `*.md` / `*.mdx` |
+| [`src/data/metodologia-capitulos.ts`](../../src/data/metodologia-capitulos.ts) | `metodologiaCapitulos`, `getMetodologiaCapitulo`, `getMetodologiaCapituloNav`, `metodologiaCapituloHref` |
+| [`src/lib/metodologia-mdx.ts`](../../src/lib/metodologia-mdx.ts) | `loadMetodologiaCapituloMdx(file)` — mapa explícito de `import()` |
+| [`src/types/mdx.d.ts`](../../src/types/mdx.d.ts) | Declaração de módulos `*.md` / `*.mdx` |
 
 ### Renderização MDX
 
 | Arquivo | Papel |
 | --- | --- |
-| [`src/mdx-components.tsx`](../src/mdx-components.tsx) | `useMDXComponents()` — `h1`–`h4`, `p`, listas, tabelas, `hr`, `MdxImg` (reescreve paths de gráfico) |
-| [`next.config.ts`](../next.config.ts) | `createMDX`, `pageExtensions`, plugins remark/rehype |
+| [`src/mdx-components.tsx`](../../src/mdx-components.tsx) | `useMDXComponents()` — `h1`–`h4`, `p`, listas, tabelas, `hr`, `MdxImg` (reescreve paths de gráfico) |
+| [`next.config.ts`](../../next.config.ts) | `createMDX`, `pageExtensions`, plugins remark/rehype |
 
 ### Rotas e UI
 
 | Arquivo | Papel |
 | --- | --- |
-| [`src/app/(app)/metodologia/page.tsx`](../src/app/(app)/metodologia/page.tsx) | Hub: intro, CTA do PDF, sumário |
-| [`src/app/(app)/metodologia/[capitulo]/page.tsx`](../src/app/(app)/metodologia/[capitulo]/page.tsx) | Página do capítulo (SSG, MDX, prev/next, metadata) |
-| [`src/components/shared/variant-link.tsx`](../src/components/shared/variant-link.tsx) | Links do sumário/navegação com prefixo `/v2` na variante B |
-| [`src/components/shared/back-button.tsx`](../src/components/shared/back-button.tsx) | Voltar para `/metodologia` |
+| [`src/app/(app)/metodologia/page.tsx`](../../src/app/(app)/metodologia/page.tsx) | Hub: intro, CTA do PDF, sumário |
+| [`src/app/(app)/metodologia/[capitulo]/page.tsx`](../../src/app/(app)/metodologia/[capitulo]/page.tsx) | Página do capítulo (SSG, MDX, prev/next, metadata) |
+| [`src/components/shared/variant-link.tsx`](../../src/components/shared/variant-link.tsx) | Links do sumário/navegação com prefixo `/v2` na variante B |
+| [`src/components/shared/back-button.tsx`](../../src/components/shared/back-button.tsx) | Voltar para `/metodologia` |
 | Header / footer | Entrada de navegação “Metodologia” |
 
 ### PDF e regras de domínio
 
 | Arquivo | Papel |
 | --- | --- |
-| [`public/metodologia-completa.pdf`](../public/metodologia-completa.pdf) | PDF servido em `/metodologia-completa.pdf` |
-| [`AGENTS.md`](../AGENTS.md) / [`CLAUDE.md`](../CLAUDE.md) | Oráculo metodológico aponta para o PDF |
-| [`.cursor/rules/metodologia-oraculo.mdc`](../.cursor/rules/metodologia-oraculo.mdc) | Regra Cursor: consultar o PDF antes de inventar conceitos |
+| [`public/metodologia-completa.pdf`](../../public/metodologia-completa.pdf) | PDF servido em `/metodologia-completa.pdf` |
+| [`AGENTS.md`](../../AGENTS.md) / [`CLAUDE.md`](../../CLAUDE.md) | Oráculo metodológico aponta para o PDF |
+| [`.cursor/rules/metodologia-oraculo.mdc`](../../.cursor/rules/metodologia-oraculo.mdc) | Regra Cursor: consultar o PDF antes de inventar conceitos |
 
 ### Relacionado, mas fora do MDX
 
 | Arquivo | Papel |
 | --- | --- |
-| [`src/app/(app)/metodologia/fontes/[fonte]/page.tsx`](../src/app/(app)/metodologia/fontes/[fonte]/page.tsx) | Páginas por **pesquisa OBGD** (`fonte_id`, ex. `munic`) + export CSV — **não** usam o pipeline MDX. Slugs antigos de órgão (`ibge`, `cetic-br`, …) redirecionam para `/metodologia` (exceto quando o slug coincide com um `fonte_id`, ex. `anatel`). |
+| [`src/app/(app)/metodologia/fontes/[fonte]/page.tsx`](../../src/app/(app)/metodologia/fontes/[fonte]/page.tsx) | Páginas por **pesquisa OBGD** (`fonte_id`, ex. `munic`) + export CSV — **não** usam o pipeline MDX. Slugs antigos de órgão (`ibge`, `cetic-br`, …) redirecionam para `/metodologia` (exceto quando o slug coincide com um `fonte_id`, ex. `anatel`). |
 
 ### Dependências npm (MDX)
 
@@ -199,14 +199,14 @@ Nos capítulos-objetivo, gráficos tipicamente apontam para caminhos relativos h
 No portal:
 
 - `MdxImg` reescreve `../graficos/...` → `/metodologia/graficos/...` e renderiza `<img>`.
-- Os PNGs vivem em [`public/metodologia/graficos/`](../public/metodologia/graficos/) (cópia de `plataforma/entregas/graficos/`).
+- Os PNGs vivem em [`public/metodologia/graficos/`](../../public/metodologia/graficos/) (cópia de `plataforma/entregas/graficos/`).
 - `src` vazio ainda vira placeholder **“Gráfico indisponível”**.
 
 Para atualizar os gráficos no portal: regenerar em `plataforma` e copiar de novo para `public/metodologia/graficos/`.
 
 ### Contrato editorial (capítulos-objetivo)
 
-Para reescrever `cap04`–`cap13` no padrão dimensional, seguir [`src/content/metodologia/capitulos/CLAUDE.md`](../src/content/metodologia/capitulos/CLAUDE.md). Esse contrato referencia scripts e paths do fluxo `plataforma` (`indices/`, worktrees, etc.) que **não** rodam a partir só deste repositório.
+Para reescrever `cap04`–`cap13` no padrão dimensional, seguir [`src/content/metodologia/capitulos/CLAUDE.md`](../../src/content/metodologia/capitulos/CLAUDE.md). Esse contrato referencia scripts e paths do fluxo `plataforma` (`indices/`, worktrees, etc.) que **não** rodam a partir só deste repositório.
 
 ### Origem canônica do texto
 
@@ -216,7 +216,7 @@ Os `.md` do portal devem permanecer alinhados a `plataforma/entregas/capitulos/*
 
 ## 5. Registro de capítulos (slug ↔ arquivo ↔ ordem)
 
-Fonte: [`src/data/metodologia-capitulos.ts`](../src/data/metodologia-capitulos.ts).
+Fonte: [`src/data/metodologia-capitulos.ts`](../../src/data/metodologia-capitulos.ts).
 
 | order | slug (URL) | file (sem `.md`) | title |
 | ---: | --- | --- | --- |
@@ -252,7 +252,7 @@ Helpers:
 
 ### Configuração MDX
 
-Em [`next.config.ts`](../next.config.ts):
+Em [`next.config.ts`](../../next.config.ts):
 
 ```ts
 pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx']
@@ -389,11 +389,10 @@ Não há job de CI neste repositório que regenere ou sincronize o PDF automatic
 
 | Doc | Relação |
 | --- | --- |
-| [`AGENTS.md`](../AGENTS.md) | Oráculo PDF; índice do projeto |
-| [`src/content/metodologia/capitulos/CLAUDE.md`](../src/content/metodologia/capitulos/CLAUDE.md) | Autoria dimensional dos capítulos-objetivo |
-| [`docs/integracao-dados-v3-tags.md`](integracao-dados-v3-tags.md) | Dimensões/tags e export em `/metodologia/fontes` |
-| [`docs/acompanhamento-plataforma.md`](acompanhamento-plataforma.md) | Status de migração de features a partir da plataforma |
-| [`docs/mvp-dashboard.md`](mvp-dashboard.md) | Definições de produto (dimensão temática, etc.) |
+| [`AGENTS.md`](../../AGENTS.md) | Oráculo PDF; índice do projeto |
+| [`src/content/metodologia/capitulos/CLAUDE.md`](../../src/content/metodologia/capitulos/CLAUDE.md) | Autoria dimensional dos capítulos-objetivo |
+| [Pipeline OBGD](../03-dados/pipeline-obgd.md) | Dados, tags e sync |
+| [Fontes e exportação](../03-dados/fontes-e-exportacao.md) | Páginas `/metodologia/fontes` e CSV |
 
 ---
 

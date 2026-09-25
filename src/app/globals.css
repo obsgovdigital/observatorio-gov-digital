@@ -493,3 +493,8 @@
   background-color: var(--background);
   opacity: 0.8;
 }
+
+/* reCAPTCHA v2 Invisible — badge oculto; o aviso exigido pelo Google fica em /contato */
+.grecaptcha-badge {
+  visibility: hidden;
+}

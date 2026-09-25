@@ -1,12 +1,28 @@
 import type { NivelKey } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 
-/** Objetivo 3 — Identificação Única: desabilitado por decisão de produto (dados insuficientes / atrito). */
+/** Objetivo 3 — Identificação Única: escore calculado, sem índice publicado. */
 export const OBJETIVO_3_SLUG = 'identidade-unica-do-cidadao'
 export const OBJETIVO_3_NUMERO = 3
 
+/** Capítulo 3 — critério de publicação e de o que entra no cálculo. */
+export const METODOLOGIA_PONTUACAO_HREF = '/metodologia/cap03-metodologia'
+
+/** Seção 3.4.1. Âncora gerada por rehype-slug. */
+export const METODOLOGIA_OBJETIVO_3_HREF =
+  '/metodologia/cap03-metodologia#341-limitações-das-bases-de-dados'
+
+export const EXPLICACAO_FORA_DA_PONTUACAO =
+  'Há indicadores associados a esses objetivos, mas eles não foram incluídos no cálculo do índice publicado neste recorte.'
+
 export const OBJETIVO_3_MOTIVO =
-  'Este objetivo está temporariamente desabilitado na plataforma: não há dados suficientes e consistentes para uma avaliação comparável entre os entes.'
+  'Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado na plataforma.'
+
+const ROTULO_RECORTE: Record<NivelKey, string> = {
+  federal: 'federal',
+  estadual: 'estadual',
+  municipios: 'municipal',
+}
 
 /**
  * Objetivos com cobertura frágil de variáveis (mock até validação de
@@ -82,7 +98,7 @@ export function motivoObjetivoDesabilitado(
 ): string | null {
   if (isObjetivo3(slug)) return OBJETIVO_3_MOTIVO
   if (!cobertoPelosDados) {
-    return `Não há dados suficientes para este objetivo no nível ${nivel}.`
+    return `Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado no recorte ${ROTULO_RECORTE[nivel]}.`
   }
   return null
 }
@@ -117,7 +133,7 @@ type ObjetivoRadarInput = {
   nota: number | null
 }
 
-/** Separa objetivos com nota dos inativos/sem dados para o radar. */
+/** Separa objetivos com índice publicado dos que ficam sem índice. */
 export function objetivosParaRadar<T extends ObjetivoRadarInput>(
   objetivos: T[]
 ) {
@@ -153,8 +169,8 @@ function formatListaNumerosObjetivo(numeros: number[]): string {
 }
 
 /**
- * Nota de rodapé do radar quando há objetivos inativos.
- * Ex.: "Objetivos 03, 08 e 10 estão inativos por ausência de dados."
+ * Nota de rodapé do radar quando há objetivos sem índice publicado.
+ * Ex.: "Objetivos 03, 08 e 10 não têm índice neste recorte."
  */
 export function formatNotaObjetivosInativos(
   inativos: { numero: number }[]
@@ -162,7 +178,7 @@ export function formatNotaObjetivosInativos(
   if (inativos.length === 0) return null
   const lista = formatListaNumerosObjetivo(inativos.map(o => o.numero))
   if (inativos.length === 1) {
-    return `Objetivo ${lista} está inativo por ausência de dados.`
+    return `Objetivo ${lista} não tem índice neste recorte.`
   }
-  return `Objetivos ${lista} estão inativos por ausência de dados.`
+  return `Objetivos ${lista} não têm índice neste recorte.`
 }
