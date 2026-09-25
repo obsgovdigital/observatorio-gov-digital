@@ -208,7 +208,7 @@ export async function HomeV1Page() {
           >
             <div className="lg:pr-10">
               {'eyebrow' in r && r.eyebrow ? (
-                <span className="font-medium text-muted-foreground text-sm">
+                <span className="block font-medium text-muted-foreground text-sm">
                   {r.eyebrow}
                 </span>
               ) : null}

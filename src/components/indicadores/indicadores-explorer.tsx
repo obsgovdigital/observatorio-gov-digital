@@ -17,6 +17,7 @@ import { FilterPill } from '@/components/shared/filter-pill'
 import { FontesRecorte } from '@/components/shared/fontes-recorte'
 import { HomeFaq } from '@/components/shared/home-faq'
 import { InfoTip } from '@/components/shared/info-tip'
+import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
 import { VariavelAcoes } from '@/components/shared/variavel-acoes'
 import {
@@ -39,7 +40,6 @@ import {
 import { objectives } from '@/data/objectives'
 import {
   filtrarValoresPorIndices,
-  formatNotaObjetivosInativos,
   objetivosParaRadar,
 } from '@/data/objectives-availability'
 import {
@@ -221,7 +221,6 @@ export function IndicadoresExplorer({
     objetivo: o.titulo,
     slug: objectives[o.numero - 1]?.slug,
   }))
-  const notaInativos = formatNotaObjetivosInativos(inativos)
   const mostrarMedia = Boolean(nivel && nivel.entes.length > 1)
   const radarSeries: RadarSerie[] = [
     ...entesSelecionados.map((e, idx) => ({
@@ -604,7 +603,7 @@ export function IndicadoresExplorer({
                     </div>
                     <p className="mt-1 text-muted-foreground text-sm">
                       Comparação dos entes selecionados nos objetivos da ENGD
-                      com cobertura de dados. Cada eixo é um índice (0–100).{' '}
+                      que têm índice neste recorte. Cada eixo é um índice (0–100).{' '}
                       <EntendaGraficoTip modo="objetivos" />
                     </p>
                     <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-muted-foreground text-xs">
@@ -639,11 +638,10 @@ export function IndicadoresExplorer({
                     <div className="mt-2">
                       <ObjetivosRadar eixos={radarEixos} series={radarSeries} />
                     </div>
-                    {notaInativos && (
-                      <p className="mx-auto mt-4 max-w-md text-center text-xs text-muted-foreground">
-                        {notaInativos}
-                      </p>
-                    )}
+                    <NotaObjetivosForaDaPontuacao
+                      inativos={inativos}
+                      className="mt-4"
+                    />
                     <div className="mt-6 flex flex-col gap-2">
                       {entesSelecionados.map(e => (
                         <VariantLink

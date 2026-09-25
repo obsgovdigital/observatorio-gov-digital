@@ -3,6 +3,7 @@
 import { Info } from 'lucide-react'
 import { toast } from 'sonner'
 import { FilterPill } from '@/components/shared/filter-pill'
+import { LinkMetodologiaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import {
   Tooltip,
   TooltipContent,
@@ -12,6 +13,8 @@ import type { NivelKey } from '@/data/indicators'
 import {
   getNotaPrecaria,
   isObjetivo3,
+  METODOLOGIA_OBJETIVO_3_HREF,
+  METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
 } from '@/data/objectives-availability'
 import { cn } from '@/lib/utils'
@@ -92,8 +95,8 @@ export function ObjetivoChip({
     <Tooltip>
       <TooltipTrigger asChild>{chip}</TooltipTrigger>
       <TooltipContent side="top" className="max-w-xs text-left leading-relaxed">
-        {isObjetivo3(slug) && (
-          <p className="mb-1 font-semibold">Objetivo desabilitado</p>
+        {isObjetivo3(slug) && motivo && (
+          <p className="mb-1 font-semibold">Sem índice neste recorte</p>
         )}
         {!motivo && precario && (
           <p className="mb-1 font-semibold">
@@ -101,6 +104,15 @@ export function ObjetivoChip({
           </p>
         )}
         <p>{tooltipText}</p>
+        {motivo && (
+          <LinkMetodologiaPontuacao
+            href={
+              isObjetivo3(slug)
+                ? METODOLOGIA_OBJETIVO_3_HREF
+                : METODOLOGIA_PONTUACAO_HREF
+            }
+          />
+        )}
       </TooltipContent>
     </Tooltip>
   )

@@ -2,11 +2,16 @@ import { notFound } from 'next/navigation'
 
 import { BackButton } from '@/components/shared/back-button'
 import { InfoTip } from '@/components/shared/info-tip'
+import { LinkMetodologiaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
 import { formatScore } from '@/data/indicators'
 import { indicadoresDoObjetivo } from '@/data/obgd/objetivo-indicadores'
 import { getObjective, getObjectiveNumber, objectives } from '@/data/objectives'
-import { isObjetivo3, OBJETIVO_3_MOTIVO } from '@/data/objectives-availability'
+import {
+  isObjetivo3,
+  METODOLOGIA_OBJETIVO_3_HREF,
+  OBJETIVO_3_MOTIVO,
+} from '@/data/objectives-availability'
 import { rankingHref } from '@/lib/ranking-url'
 
 export function generateStaticParams() {
@@ -105,8 +110,11 @@ export default async function ObjetivoPage({
             nacional normalizado (0–100), quando há observação para o Brasil.
             {obj3 ? (
               <span className="ml-1 inline-flex align-text-bottom">
-                <InfoTip label="Por que este objetivo está desabilitado?">
-                  {OBJETIVO_3_MOTIVO}
+                <InfoTip label="Por que este objetivo não tem índice publicado?">
+                  <span className="block">{OBJETIVO_3_MOTIVO}</span>
+                  <LinkMetodologiaPontuacao
+                    href={METODOLOGIA_OBJETIVO_3_HREF}
+                  />
                 </InfoTip>
               </span>
             ) : null}
