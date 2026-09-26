@@ -25,7 +25,7 @@ Build multi-stage em [`Dockerfile`](../../Dockerfile), a partir de `node:22-alpi
 | `builder` | `npm run build` com `output: 'standalone'` |
 | `runner` | Processo `node server.js`, usuário `nextjs` (uid 1001), porta 3000 |
 
-`output: 'standalone'` gera o `server.js` que o container executa. Não é export estático: o portal segue com SSR (CSP com nonce). `npm start` no checkout local continua válido para quem não usa Docker.
+`output: 'standalone'` é o default e gera o `server.js` que o container executa. Não é export estático: o portal segue com SSR (CSP com nonce). `npm start` no checkout local continua válido para quem não usa Docker. No build da Vercel a variável `VERCEL` já vem definida e a config omite `output`, para o builder achar o trace em `.next/next-server.js.nft.json`. O Dockerfile não seta `VERCEL`.
 
 Ficam de fora do contexto de build ([`.dockerignore`](../../.dockerignore)): Git, `node_modules` de desenvolvimento, `.next` anterior, `.env*`, `src/local_assets/`, `coverage` e `.vercel`. Secrets de servidor não devem ser copiados para a imagem.
 

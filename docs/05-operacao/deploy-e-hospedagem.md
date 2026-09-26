@@ -180,7 +180,7 @@ Preferir o cofre de secrets do provedor de hospedagem. Nunca versionar `.env` co
 | Requisito                                                                | Motivo                                                                          |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
 | Next.js App Router com**SSR**                                      | CSP com nonce por request;`connection()` no root layout                       |
-| `npm run build` + processo Node (`npm start` ou equivalente do host) | Não usar`output: 'export'` / site estático puro. `output: 'standalone'` é o artefato da imagem Docker (SSR preservado) — ver [Containerização](containerizacao.md) |
+| `npm run build` + processo Node (`npm start` ou equivalente do host) | Não usar`output: 'export'` / site estático puro. `output: 'standalone'` é o default da imagem Docker (SSR preservado) e fica de fora quando a Vercel define `VERCEL` — ver [Containerização](containerizacao.md) |
 | Node.js compatível com o`package.json`                                | Build e runtime                                                                 |
 | Assets em`src/data/obgd/assets/` no Git                                | Índice e tags; sync de dados**não** é passo automático de cada deploy |
 
