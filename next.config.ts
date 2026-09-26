@@ -33,6 +33,8 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  // Standalone é o artefato Docker. A Vercel define VERCEL=1 e precisa do trace padrão.
+  ...(process.env.VERCEL ? {} : { output: 'standalone' as const }),
 }
 
 const withMDX = createMDX({

@@ -4,8 +4,8 @@
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Audiência**            | Operação · Engenharia · Handoff                                                                                                                                                                                         |
 | **Status**                | Canônico                                                                                                                                                                                                                   |
-| **Última atualização** | 2026-09-13                                                                                                                                                                                                                  |
-| **Relacionados**          | [Variáveis de ambiente](variaveis-de-ambiente.md) · [Segurança](seguranca-headers.md) · [Contato](../04-features/contato-resend.md) · [Contrato de dados](../03-dados/contrato-entrega-dados.md) · [Índice](../README.md) |
+| **Última atualização** | 2026-09-26                                                                                                                                                                                                                  |
+| **Relacionados**          | [Variáveis de ambiente](variaveis-de-ambiente.md) · [Containerização](containerizacao.md) · [Segurança](seguranca-headers.md) · [Contato](../04-features/contato-resend.md) · [Contrato de dados](../03-dados/contrato-entrega-dados.md) · [Índice](../README.md) |
 
 Runbook operacional para colocar o Observatório Brasileiro de Governo Digital (OBGD) em produção e transferir a operação à equipe receptora (Insper ou MBC). Os papéis abaixo são descritos por **função**.
 
@@ -180,7 +180,7 @@ Preferir o cofre de secrets do provedor de hospedagem. Nunca versionar `.env` co
 | Requisito                                                                | Motivo                                                                          |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
 | Next.js App Router com**SSR**                                      | CSP com nonce por request;`connection()` no root layout                       |
-| `npm run build` + processo Node (`npm start` ou equivalente do host) | Não usar`output: 'export'` / site estático puro                             |
+| `npm run build` + processo Node (`npm start` ou equivalente do host) | Não usar`output: 'export'` / site estático puro. `output: 'standalone'` é o default da imagem Docker (SSR preservado) e fica de fora quando a Vercel define `VERCEL` — ver [Containerização](containerizacao.md) |
 | Node.js compatível com o`package.json`                                | Build e runtime                                                                 |
 | Assets em`src/data/obgd/assets/` no Git                                | Índice e tags; sync de dados**não** é passo automático de cada deploy |
 
@@ -213,6 +213,8 @@ Em plataformas com preview por branch, validar primeiro no preview (com hosts do
 O scan MDN Observatory usa `observatorio-gov-digital.vercel.app` como host de referência. Ao mudar o hostname definitivo, atualizar o alvo do Rescan e cadastrar o host no reCAPTCHA **antes** do apontamento DNS.
 
 ### 8.2 Migração planejada para AWS (MBC)
+
+O artefato de runtime para o host do MBC é a imagem Docker. Build, tag, variáveis de build e subida: [Containerização](containerizacao.md).
 
 Runbook detalhado da AWS **não** faz parte deste repositório ainda. No cutover, repetir:
 
