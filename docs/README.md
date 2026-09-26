@@ -5,7 +5,7 @@
 | Metadado                        | Valor                                                                                                          |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Status**                | Canônico                                                                                                      |
-| **Última atualização** | 2026-09-13                                                                                                     |
+| **Última atualização** | 2026-09-26                                                                                                     |
 | **Repositório**          | [github.com/obsgovdigital/observatorio-gov-digital](https://github.com/obsgovdigital/observatorio-gov-digital)  |
 | **Idioma**                | pt-BR                                                                                                          |
 
@@ -50,6 +50,7 @@ Arquitetura, dados, features e convenções de código.
 | ------------------------------------------------------------- | ----------------------------------------------- |
 | [Setup local](05-operacao/setup-local.md)                      | Instalação, scripts e qualidade de código    |
 | [Variáveis de ambiente](05-operacao/variaveis-de-ambiente.md) | Matriz completa (`.env.example`)              |
+| [Containerização](05-operacao/containerizacao.md)              | Imagem Docker: build, inspeção e execução     |
 | [Deploy e hospedagem](05-operacao/deploy-e-hospedagem.md)      | Handoff e runbook de produção (Resend, reCAPTCHA, secrets, smoke, dados) |
 | [Segurança (headers)](05-operacao/seguranca-headers.md)       | CSP com nonce, HSTS, MDN Observatory            |
 
