@@ -4,8 +4,8 @@
 | --- | --- |
 | **Audiência** | Engenharia · Operação |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
-| **Relacionados** | [Variáveis de ambiente](variaveis-de-ambiente.md) · [Pipeline OBGD](../03-dados/pipeline-obgd.md) · [Índice](../README.md) |
+| **Última atualização** | 2026-09-26 |
+| **Relacionados** | [Variáveis de ambiente](variaveis-de-ambiente.md) · [Containerização](containerizacao.md) · [Pipeline OBGD](../03-dados/pipeline-obgd.md) · [Índice](../README.md) |
 
 ---
 
@@ -77,6 +77,8 @@ npm start
 ```
 
 Útil para validar CSP de produção (sem `'unsafe-eval'` de desenvolvimento). Ver [Segurança](seguranca-headers.md).
+
+Para subir o mesmo artefato que vai para o host do MBC, use a imagem Docker: [Containerização](containerizacao.md). `npm run dev` continua o fluxo de desenvolvimento.
 
 ---
 

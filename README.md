@@ -63,6 +63,7 @@ Cada objetivo recebe um **índice** de 0 a 100 (média dos indicadores daquele o
 Índice completo (produto, arquitetura, dados, features e operação): **[`docs/README.md`](docs/README.md)**.
 
 - Handoff e deploy em produção: [`docs/05-operacao/deploy-e-hospedagem.md`](docs/05-operacao/deploy-e-hospedagem.md)
+- Imagem Docker (build e execução): [`docs/05-operacao/containerizacao.md`](docs/05-operacao/containerizacao.md)
 - Contrato de dados estáticos: [`docs/03-dados/contrato-entrega-dados.md`](docs/03-dados/contrato-entrega-dados.md)
 
 ---
