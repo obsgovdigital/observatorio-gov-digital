@@ -20,7 +20,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 
 ## 5.2 Cobertura por nível federativo
 
-O Objetivo 2 conta com 102 variáveis ativas no índice (39 do IOSPD/ABEP-TIC, 34 da MUNIC (IBGE), 15 da TIC Governo Eletrônico (CETIC.br), 10 da ESTADIC (IBGE) e 4 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 80 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **49 variáveis** têm observação por UF (10 da ESTADIC e 39 da IOSPD/ABEP-TIC) — bem acima do limiar mínimo, justificando a criação da dimensão **`Recorte Estadual`**. **34 variáveis** têm observação por capital (todas da MUNIC) — também acima do limiar, justificando a criação da dimensão **`Recorte de Capitais`**. As demais variáveis (TIC Governo Eletrônico, TIC Saúde) têm apenas valor agregado nacional. A TIC Governo Eletrônico publica, para as prefeituras, agregados regionais ("Capital" como categoria única), mas não valor por capital individual; suas variáveis permanecem, portanto, fora do `Recorte de Capitais`.
+O Objetivo 2 conta com 105 variáveis ativas no índice (10 da ESTADIC (IBGE), 3 do iGovSISP (SGD/MGI), 39 do IOSPD (ABEP-TIC), 34 da MUNIC (IBGE), 15 da TIC Governo Eletrônico (CETIC.br) e 4 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 83 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **49 variáveis** têm observação por UF (10 da ESTADIC e 39 da IOSPD) — bem acima do limiar mínimo, justificando a criação da dimensão **`Recorte Estadual`**. **34 variáveis** têm observação por capital (todas da MUNIC) — também acima do limiar, justificando a criação da dimensão **`Recorte de Capitais`**. As demais variáveis (iGovSISP, TIC Governo Eletrônico e TIC Saúde) têm apenas valor agregado nacional. A TIC Governo Eletrônico publica, para as prefeituras, agregados regionais ("Capital" como categoria única), mas não valor por capital individual; suas variáveis permanecem, portanto, fora do `Recorte de Capitais`.
 
 Dois indicadores da TIC Domicílios 2024 (CETIC.br) sobre uso de serviços públicos digitais e resolução sem atendimento presencial não integram o índice por medirem percentuais condicionados a um universo restrito — usuários de Internet com 16 anos ou mais —, e não ao conjunto da população. O indicador de inscrição ou venda de ingressos online da TIC Cultura 2024 (CETIC.br) está suspenso até a fonte publicar total nacional oficial: a edição 2024 divulga apenas resultados por tipo de equipamento cultural.
 
@@ -28,7 +28,7 @@ A presença das duas dimensões federativas com dezenas de variáveis cada sinal
 
 ## 5.3 Dimensões
 
-As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. Sete dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria — informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), personalização da jornada e ambiente autenticado (Rec 2.1), linguagem e usabilidade (Rec 2.1), acessibilidade (Rec 2.1) e satisfação e experiência do cidadão (Rec 2.2). As outras quatro correspondem ao desdobramento dos serviços setoriais por área temática — saúde, educação, cidadania/segurança/fiscal e mobilidade urbana —, todas alinhadas à Recomendação 2.3, refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. Esse desdobramento eleva o número de dimensões temáticas acima da faixa típica de 3-6 do contrato editorial; a opção foi assumir o maior detalhamento como reflexo fiel da estrutura atual da medição.
+As 105 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. Sete dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria — informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), personalização da jornada e ambiente autenticado (Rec 2.1), linguagem e usabilidade (Rec 2.1), acessibilidade (Rec 2.1) e satisfação e experiência do cidadão (Rec 2.2). As outras quatro correspondem ao desdobramento dos serviços setoriais por área temática — saúde, educação, cidadania/segurança/fiscal e mobilidade urbana —, todas alinhadas à Recomendação 2.3, refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. Esse desdobramento eleva o número de dimensões temáticas acima da faixa típica de 3-6 do contrato editorial; a opção foi assumir o maior detalhamento como reflexo fiel da estrutura atual da medição.
 
 ![Dimensões do Objetivo 2](../graficos/dimensoes/cap05.png)
 
@@ -36,16 +36,24 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 *Definição:* Publicação ativa de informação institucional e de utilidade pública em canais digitais — notícias, legislação, licitações, diário oficial, documentos, concursos —, além da própria presença de website institucional entre os entes com acesso à Internet. Corresponde à Recomendação 2.3 (oferta em canais digitais), na vertente "leitura passiva" de informação pública.
 
-*Média Nacional:* 84.8 (n=8; 8 itens).
+*Média Nacional:* 86.3 (n=8; 8 itens).
 
 **Indicadores:**
 
 *ESTADIC 2024 (IBGE):*
 
-- **ESTADIC_SERV_INFORMATIVOS** — Serviços informativos disponibilizados na página da internet do governo estadual: notícias, documentos/formulários, licitações, diário oficial, legislação estadual, finanças públicas, concursos.
+- **ESTADIC_SERV_INFORMATIVOS** — Os serviços informativos disponibilizados atualmente para o público em geral na página da Internet são:
+  - 12a.1) Serviços informativos do estado e notícias (localização de logradouros, endereços úteis, turismo, trânsito, clima, etc.)
+  - 12a.2) Acesso a documentos e formulários
+  - 12a.3) Informações gerais sobre licitações
+  - 12a.4) Diário oficial
+  - 12a.5) Legislação estadual
+  - 12a.6) Finanças públicas
+  - 12a.7) Concursos públicos (informações, editais)
+  - 12a.8) Nenhum dos relacionados
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 81.02
-  - Valor (Estadual): 81.0 (média das 27 UFs)
+  - Valor (Nacional): 92.59
+  - Valor (Estadual): 92.6 (média das 27 UFs)
 
 *MUNIC 2024 (IBGE):*
 
@@ -89,11 +97,11 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 *Definição:* Ferramentas-meio de prestação digital aplicáveis a qualquer setor — Portal Único de Serviços, agendamento unificado, gestão de cadastro/perfil do cidadão, ouvidoria, Simplifique, ferramenta integrada de pagamento (incluindo PIX e cartão de crédito), consulta a processos, download de documentos e o leque de tipos de serviço disponibilizados no website (emissão de boletos e guias, consulta a processos, download e envio de formulários, emissão de documentos, inscrição ou matrícula e agendamento). Corresponde à Recomendação 2.4 (consolidação de portais e aplicativos móveis); com vínculo secundário à Recomendação 2.3 (autosserviço).
 
-*Média Nacional:* 71.0 (n=13; 13 itens).
+*Média Nacional:* 71.5 (n=13; 13 itens).
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I01** — Possui um Portal Único ou um Portal de Serviços disponível ao usuário?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -132,10 +140,23 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 *ESTADIC 2024 (IBGE):*
 
-- **ESTADIC_SERV_TRANSACIONAIS** — Serviços transacionais disponibilizados na página da internet do governo estadual: ouvidoria/atendimento, download de documentos, consulta de processos, delegacia eletrônica, cadastro de fornecedores, certidão negativa, nota fiscal eletrônica, matrícula escolar, agendamento de saúde, guia de tributos, emissão de documentos, pesquisa de satisfação.
+- **ESTADIC_SERV_TRANSACIONAIS** — Dentre os serviços disponibilizados atualmente para o público em geral na página da Internet são:
+  - 12b.1) Ouvidoria e serviços de atendimento ao cidadão
+  - 12b.2) Download de documentos ou formulários
+  - 12b.3) Consulta a processos/acompanhamento de protocolos
+  - 12b.4) Delegacia eletrônica
+  - 12b.5) Cadastramento de fornecedores
+  - 12b.6) Emissão de certidão negativa de débito
+  - 12b.7) Emissão de Nota Fiscal Eletrônica
+  - 12b.8) Matrícula escolar na rede pública online
+  - 12b.9) Agendamento de consulta e exame na rede pública de saúde
+  - 12b.10) Emissão de guia de pagamento de tributos
+  - 12b.11) Emissão de documentos como licenças, certidões, permissões e outros documentos
+  - 12b.12) Pesquisa de satisfação relacionada aos serviços prestados pelo estado
+  - 12b.13) Nenhum dos relacionados
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 75.21
-  - Valor (Estadual): 75.2 (média das 27 UFs)
+  - Valor (Nacional): 81.48
+  - Valor (Estadual): 81.5 (média das 27 UFs)
 
 *MUNIC 2024 (IBGE):*
 
@@ -173,7 +194,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_II02** — Possui serviço de solicitação de medicamento de alto custo, 100% digital?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -220,7 +241,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_II01** — Possui rematrícula online nas escolas estaduais?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -252,7 +273,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_II04** — Possui prova de vida online para servidores, aposentados e pensionistas?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -347,38 +368,54 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 *Definição:* Diversidade de canais de atendimento e comunicação entre cidadão e governo — atendimento à distância, presença em redes sociais (existência, atividade e frequência) e em plataformas digitais por estabelecimentos, presença mobile (apps de governo, website mobile, notificações personalizadas com acompanhamento de serviços, SMS e mensageria) e as formas de contato pela Internet oferecidas no website (e-mail, formulário eletrônico, chat em tempo real, denúncia, solicitação de acesso à informação, sugestões e chatbot). Corresponde às Recomendações 2.4 (integração de canais digitais, em especial apps móveis) e 2.5 (omnicanalidade físico-digital).
 
-*Média Nacional:* 57.5 (n=23; 33 itens).
+*Média Nacional:* 59.8 (n=23; 33 itens).
 
 **Indicadores:**
 
 *ESTADIC 2024 (IBGE):*
 
-- **ESTADIC_ATEND_DISTANCIA** — Formas de atendimento a distância ao cidadão pelo governo estadual: correio, jornais/publicações, websites, WhatsApp, telefone, telefone exclusivo, outros.
+- **ESTADIC_ATEND_DISTANCIA** — Quais as formas de atendimento à distância disponibilizadas ao público pelo governo estadual?
+  - 1.1) Correio
+  - 1.2) Jornais
+  - 1.3) Website
+  - 1.4) WhatsApp
+  - 1.5) Telefone
+  - 1.6) Telefone exclusivo
+  - 1.7) Outros
+  - 1.8) Não disponibiliza
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 49.07
-  - Valor (Estadual): 49.1 (média das 27 UFs)
+  - Valor (Nacional): 56.08
+  - Valor (Estadual): 56.1 (média das 27 UFs)
 
 - **ESTADIC_REDES_SOCIAIS** — Plataformas de rede social do governo estadual: Facebook, Instagram, Youtube, Vimeo, Telegram, WhatsApp, Twitter, TikTok.
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 62.55
-  - Valor (Estadual): 62.6 (média das 27 UFs)
+  - Valor (Nacional): 70.37
+  - Valor (Estadual): 70.4 (média das 27 UFs)
 
 - **ESTADIC_ATIV_REDES** — Atividades do governo estadual nas redes sociais nos últimos 12 meses: postar notícias, responder comentários/dúvidas, consulta pública/enquete, divulgar serviços/campanhas.
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 59.88
-  - Valor (Estadual): 59.9 (média das 27 UFs)
+  - Valor (Nacional): 89.81
+  - Valor (Estadual): 89.8 (média das 27 UFs)
 
-- **ESTADIC_FREQ_REDES** — Frequência de atualização do conteúdo nas redes sociais (em média): Diariamente=100; Pelo menos uma vez por semana=50; demais frequências menores.
+- **ESTADIC_FREQ_REDES** — Em média com que frequência o governo estadual atualiza o conteúdo do seu perfil ou conta nas redes sociais online?
+  - 1) Diariamente
+  - 2) Pelo menos uma vez por semana
+  - 3) Pelo menos uma vez por mês
+  - 4) Pelo menos uma vez a cada três meses
+  - 5) Pelo menos uma vez a cada seis meses
+  - 6) Pelo menos uma vez por ano
+  - 7) Menos frequente ou nunca atualizou
+  - 8) Não sabe informar
   - *Normalização:* Proporção 0-100% — Diariamente=100, Semanal=50
   - Valor (Nacional): 92.59
   - Valor (Estadual): 92.6 (média das 27 UFs)
 
 - **ESTADIC_SERV_CELULAR** — Serviços disponibilizados por celular/smartphone pelo governo estadual nos últimos 12 meses: envio de SMS ao cidadão, recebimento de SMS do cidadão, apps do governo, apps de terceiros, website mobile, boletos de tributos.
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 47.62
-  - Valor (Estadual): 47.6 (média das 27 UFs)
+  - Valor (Nacional): 55.56
+  - Valor (Estadual): 55.6 (média das 27 UFs)
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I07** — A manifestação de ouvidoria pode ser feita pelo Portal Único/Portal de Serviços de forma integrada com a mesma sessão logada?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -523,7 +560,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_V04** — A UF possui plataforma de governo, portal de serviços ou portal único que disponibiliza ambiente personalizado no qual o cidadão, após identificação, acessa serviços, notificações e informações adaptadas ao seu perfil e histórico de interações com o governo?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -538,7 +575,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 *Bateria — linguagem simples dos serviços digitais: os 9 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
@@ -591,7 +628,7 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 *Definição:* Adequação dos serviços digitais a pessoas com deficiência (visual, auditiva, motora), tanto no nível estadual (acessibilidade global da página, modelo de padrão adotado e plataforma adaptada a surdos e deficientes visuais) quanto nas páginas das prefeituras (recursos específicos: navegação por tecnologia assistiva, descrição de imagens, LIBRAS, título descritivo da página na aba do navegador). Corresponde à Recomendação 2.1 (acessibilidade).
 
-*Média Nacional:* 51.2 (n=4; 8 itens).
+*Média Nacional:* 59.9 (n=5; 9 itens).
 
 **Indicadores:**
 
@@ -599,15 +636,19 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
 
 - **ESTADIC_ACESSIBILIDADE** — Acessibilidade da página e serviços eletrônicos do governo estadual: navegação sem mouse, pular itens repetidos, descrição de imagens, tradução em LIBRAS, descrição de páginas (aba do navegador), CAPTCHA acessível.
   - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 40.74
-  - Valor (Estadual): 40.7 (média das 27 UFs)
+  - Valor (Nacional): 61.11
+  - Valor (Estadual): 61.1 (média das 27 UFs)
 
-- **ESTADIC_MODELO_ACESS** — Modelo de acessibilidade usado no website ou portal: WCAG/WAI=100; e-MAG=75; Modelo próprio=50; Nenhum=0.
-  - *Normalização:* Escala ordinal mapeada para 0-100 conforme acima.
+- **ESTADIC_MODELO_ACESS** — Qual o modelo de acessibilidade digital é utilizado?
+  - 1) Modelo próprio de acessibilidade digital
+  - 2) Modelo federal de acessibilidade digital (e-MAG)
+  - 3) Modelo global acessibilidade digital (WCAG/WAI)
+  - 4) Não há qualquer modelo de acessibilidade digital
+  - *Normalização:* Escala ordinal: modelo próprio=50; e-MAG=75; WCAG/WAI=100; nenhum modelo=0.
   - Valor (Nacional): 70.37
   - Valor (Estadual): 70.4 (média das 27 UFs)
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_V09** — A UF possui plataforma de serviços digitais adaptada para proporcionar acessibilidade a surdos e deficientes visuais?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -643,15 +684,23 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
   - Valor (Nacional): 37.50
   - Valor (Capitais): 44.44 (12/27 capitais)
 
+*iGovSISP 2025 (SGD/MGI):*
+
+- **G226SPD**. iGovSISP: Os investimentos em sistemas e serviços digitais previstos no PTD estão alinhados aos padrões e diretrizes de acessibilidade digital, conforme as Normas ABNT NBR 17225/2025 e NBR 17060/2022, bem como o Modelo de Acessibilidade em Governo Eletrônico (eMAG 3.1)? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
+  - Valor (Nacional): 73.93
+  - *Estágio positivo mínimo:* Há iniciativas pontuais, mas sem metodologia estruturada de conformidade com as normas.
+  - *Leitura:* Mede alinhamento dos investimentos às diretrizes de acessibilidade, não acessibilidade efetivamente alcançada.
+
 ### 5.3.11 Satisfação e experiência do cidadão
 
 *Definição:* Pesquisas de satisfação dos usuários dos serviços públicos digitais, metodologia institucional de avaliação e instrumentos de participação do usuário previstos na Lei 13.460/2017. Corresponde à Recomendação 2.2 (avaliação de satisfação e melhoria contínua).
 
-*Média Nacional:* 61.3 (n=4; 4 itens).
+*Média Nacional:* 61.0 (n=6; 6 itens).
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I04** — Possui metodologia e ferramenta de avaliação da satisfação dos usuários em relação aos serviços públicos prestados?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -675,52 +724,65 @@ As 102 variáveis ativas do Objetivo 2 foram organizadas em onze dimensões tem�
   - Valor (Nacional): 23.03
   - Valor (Capitais): 48.15 (13/27 capitais)
 
+*iGovSISP 2025 (SGD/MGI):*
+
+- **G206SPD**. iGovSISP: O órgão monitora o índice de satisfação dos usuários e/ou cidadãos com os sistemas e serviços públicos digitais? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
+  - Valor (Nacional): 75.21
+  - *Estágio positivo mínimo:* Iniciou plano para monitorar
+  - *Leitura:* Mede monitoramento da satisfação, não satisfação alta.
+
+- **G631IPD**. iGovSISP: Dentro dos serviços oferecidos para a sociedade, quantos estão integrados ao módulo de Avaliação, api de avaliação da satisfação dos usuários, ofertada pelo Ministério da Gestão, sem ônus para o órgão? (autodiagnóstico SISP, faixa_percentual)
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens; cada órgão respondente tem peso igual.
+  - Valor (Nacional): 45.68
+  - *Leitura:* Mede integração ao módulo de avaliação, não satisfação nem uso efetivo das avaliações. A média dos tetos aproxima por cima a média entre órgãos.
+
 ### 5.3.12 Recorte Estadual
 
 *Definição:* Conjunto das variáveis do Objetivo 2 com observação por UF, agregadas para leitura federativa do desempenho na qualidade dos serviços digitais. Reúne as 10 variáveis ESTADIC e as 39 variáveis IOSPD do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Estadual:* 64.7 (n=41; 49 itens).
+*Média Estadual:* 67.0 (n=41; 49 itens).
 
 ![Recorte Estadual — Objetivo 2](../graficos/recortes/cap05_estadual.png)
 
-**Topo (top-3) no Recorte Estadual do Objetivo 2:** PI (92.6), RJ (89.0), SP (88.2).
-**Base (bottom-3) no Recorte Estadual do Objetivo 2:** RN (28.9), RR (30.8), AM (33.6).
+**Topo (top-3) no Recorte Estadual do Objetivo 2:** PI (95.6), RJ (91.3), SP (90.8).
+**Base (bottom-3) no Recorte Estadual do Objetivo 2:** RN (31.5), RR (33.1), AM (36.0).
 
 **Indicadores:**
 
 *ESTADIC 2024 (IBGE):*
 
 - **ESTADIC_ACESSIBILIDADE** — Acessibilidade da página e serviços eletrônicos do governo estadual: navegação sem mouse, pular itens repetidos, descrição de imagens, tradução em LIBRAS, descrição de páginas (aba do navegador), CAPTCHA acessível.
-  - Valor (Estadual): 40.7 (média das 27 UFs)
+  - Valor (Estadual): 61.1 (média das 27 UFs)
 
-- **ESTADIC_ATEND_DISTANCIA** — Formas de atendimento a distância ao cidadão pelo governo estadual: correio, jornais/publicações, websites, WhatsApp, telefone, telefone exclusivo, outros.
-  - Valor (Estadual): 49.1 (média das 27 UFs)
+- **ESTADIC_ATEND_DISTANCIA** — Quais as formas de atendimento à distância disponibilizadas ao público pelo governo estadual?
+  - Valor (Estadual): 56.1 (média das 27 UFs)
 
 - **ESTADIC_ATIV_REDES** — Atividades do governo estadual nas redes sociais nos últimos 12 meses: postar notícias, responder comentários/dúvidas, consulta pública/enquete, divulgar serviços/campanhas.
-  - Valor (Estadual): 59.9 (média das 27 UFs)
+  - Valor (Estadual): 89.8 (média das 27 UFs)
 
 - **ESTADIC_BILHETE_UNICO** — O governo estadual instituiu o bilhete único para uso de transporte público? (Etic241)
   - Valor (Estadual): 44.4 (média das 27 UFs)
 
-- **ESTADIC_FREQ_REDES** — Frequência de atualização do conteúdo nas redes sociais (em média): Diariamente=100; Pelo menos uma vez por semana=50; demais frequências menores.
+- **ESTADIC_FREQ_REDES** — Em média com que frequência o governo estadual atualiza o conteúdo do seu perfil ou conta nas redes sociais online?
   - Valor (Estadual): 92.6 (média das 27 UFs)
 
-- **ESTADIC_MODELO_ACESS** — Modelo de acessibilidade usado no website ou portal: WCAG/WAI=100; e-MAG=75; Modelo próprio=50; Nenhum=0.
+- **ESTADIC_MODELO_ACESS** — Qual o modelo de acessibilidade digital é utilizado?
   - Valor (Estadual): 70.4 (média das 27 UFs)
 
 - **ESTADIC_REDES_SOCIAIS** — Plataformas de rede social do governo estadual: Facebook, Instagram, Youtube, Vimeo, Telegram, WhatsApp, Twitter, TikTok.
-  - Valor (Estadual): 62.6 (média das 27 UFs)
+  - Valor (Estadual): 70.4 (média das 27 UFs)
 
 - **ESTADIC_SERV_CELULAR** — Serviços disponibilizados por celular/smartphone pelo governo estadual nos últimos 12 meses: envio de SMS ao cidadão, recebimento de SMS do cidadão, apps do governo, apps de terceiros, website mobile, boletos de tributos.
-  - Valor (Estadual): 47.6 (média das 27 UFs)
+  - Valor (Estadual): 55.6 (média das 27 UFs)
 
-- **ESTADIC_SERV_INFORMATIVOS** — Serviços informativos disponibilizados na página da internet do governo estadual: notícias, documentos/formulários, licitações, diário oficial, legislação estadual, finanças públicas, concursos.
-  - Valor (Estadual): 81.0 (média das 27 UFs)
+- **ESTADIC_SERV_INFORMATIVOS** — Os serviços informativos disponibilizados atualmente para o público em geral na página da Internet são:
+  - Valor (Estadual): 92.6 (média das 27 UFs)
 
-- **ESTADIC_SERV_TRANSACIONAIS** — Serviços transacionais disponibilizados na página da internet do governo estadual: ouvidoria/atendimento, download de documentos, consulta de processos, delegacia eletrônica, cadastro de fornecedores, certidão negativa, nota fiscal eletrônica, matrícula escolar, agendamento de saúde, guia de tributos, emissão de documentos, pesquisa de satisfação.
-  - Valor (Estadual): 75.2 (média das 27 UFs)
+- **ESTADIC_SERV_TRANSACIONAIS** — Dentre os serviços disponibilizados atualmente para o público em geral na página da Internet são:
+  - Valor (Estadual): 81.5 (média das 27 UFs)
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I01** — Possui um Portal Único ou um Portal de Serviços disponível ao usuário?
   - Valor (Estadual): 74.1 (média das 27 UFs)

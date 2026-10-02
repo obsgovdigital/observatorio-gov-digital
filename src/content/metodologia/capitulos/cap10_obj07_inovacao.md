@@ -17,7 +17,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 
 ## 10.2 Cobertura por nível federativo
 
-O Objetivo 7 conta com 9 variáveis ativas no índice (3 da ESTADIC (IBGE), 2 da TIC Governo Eletrônico (CETIC.br), 2 do IOSPD/ABEP-TIC, 1 da TIC Saúde (CETIC.br) e 1 do iGovSISP/SGD (SGD/MGI)), que entram na agregação do índice como 9 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **Cinco** têm observação por UF (`IOSPD_III06`, `IOSPD_V02`, `ESTADIC_ESPACO_INOVACAO`, `ESTADIC_CAPACIT_EMPREEND` e `ESTADIC_PREMIO_INOVACAO`) e dão origem à dimensão `Recorte Estadual`, que atende ao limiar de duas variáveis para criação. Nenhuma variável do objetivo tem observação por capital, de modo que não se cria a dimensão `Recorte de Capitais`.
+O Objetivo 7 conta com 9 variáveis ativas no índice (3 da ESTADIC (IBGE), 1 do iGovSISP (SGD/MGI), 2 do IOSPD (ABEP-TIC), 2 da TIC Governo Eletrônico (CETIC.br) e 1 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 9 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **Cinco** têm observação por UF (`IOSPD_III06`, `IOSPD_V02`, `ESTADIC_ESPACO_INOVACAO`, `ESTADIC_CAPACIT_EMPREEND` e `ESTADIC_PREMIO_INOVACAO`) e dão origem à dimensão `Recorte Estadual`, que atende ao limiar de duas variáveis para criação. Nenhuma variável do objetivo tem observação por capital, de modo que não se cria a dimensão `Recorte de Capitais`.
 
 ## 10.3 Dimensões
 
@@ -49,18 +49,19 @@ As 9 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temát
   - *Normalização:* Proporção 0-100% — usado diretamente.
   - Valor (Nacional): 3.71
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_V02** — A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão?
   - *Normalização:* Índice 0-10 — multiplicado por 10.
   - Valor (Nacional): 66.67
   - Valor (Estadual): 66.7 (média das 27 UFs)
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-- **G337DI** — iGovSISP: Estratégia de IA (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
+- **G337DI**. iGovSISP: TEMA: Estratégia de Inteligência Artificial Assertiva: Há adoção de uma estratégia estruturada para o uso da Inteligência Artificial, garantindo que sua aplicação esteja alinhada aos objetivos institucionais, com governança clara, infraestrutura adequada e monitoramento contínuo. A IA é integrada aos processos centrais da organização, sendo utilizada de forma ética, transparente e orientada para a inovação e a melhoria dos serviços públicos. (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 51.28
+  - *Estágio positivo mínimo:* A exploração do uso de IA de forma mais estruturada está sendo iniciada. Apesar da ausência de uma estratégia formal, os primeiros passos são dados, como a identificação de casos de uso promissores, a designação de um líder ou equipe para coordenar esforços e a consideração inicial de privacidade e segurança, ainda sem políticas definidas. Projetos experimentais podem estar sendo desenvolvidos, mas sem alinhamento estratégico claro.
 
 ### 10.3.2 Laboratórios e fomento à inovação
 
@@ -70,7 +71,7 @@ As 9 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temát
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_III06** — Possui Laboratório de Inovação em Governo? (Lei Federal 14.129/2021, Art. 44º e 45º)
   - *Normalização:* Índice 0-10 — multiplicado por 10.
@@ -104,7 +105,7 @@ As 9 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temát
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_III06** — Possui Laboratório de Inovação em Governo? (Lei Federal 14.129/2021, Art. 44º e 45º)
   - Valor (Estadual): 70.4 (média das 27 UFs)

@@ -15,7 +15,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca quatro recomendações aos entes federa
 
 ## 12.2 Cobertura por nível federativo
 
-O Objetivo 9 conta com 20 variáveis ativas no índice (9 da MUNIC (IBGE), 8 da ESTADIC (IBGE), 2 da TIC Governo Eletrônico (CETIC.br) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 20 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Nove variáveis têm observação por UF (oito da ESTADIC e uma do IOSPD/ABEP-TIC) e nove têm observação por capital (todas MUNIC 2024). Como os dois níveis subnacionais ultrapassam o limiar mínimo de duas variáveis, criam-se as duas dimensões federativas dedicadas: `Recorte Estadual` (9 vars) e `Recorte de Capitais` (9 vars).
+O Objetivo 9 conta com 20 variáveis ativas no índice (9 da MUNIC (IBGE), 8 da ESTADIC (IBGE), 2 da TIC Governo Eletrônico (CETIC.br) e 1 do IOSPD (ABEP-TIC)), que entram na agregação do índice como 20 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Nove variáveis têm observação por UF (oito da ESTADIC e uma do IOSPD (ABEP-TIC)) e nove têm observação por capital (todas MUNIC 2024). Como os dois níveis subnacionais ultrapassam o limiar mínimo de duas variáveis, criam-se as duas dimensões federativas dedicadas: `Recorte Estadual` (9 vars) e `Recorte de Capitais` (9 vars).
 
 Os indicadores de transparência de acervos da TIC Cultura (CETIC.br) não integram o índice: a planilha oficial da edição 2024 não publica total nacional para esses indicadores — apenas resultados por tipo de equipamento cultural —, e possuir acervo é condição institucional do equipamento, não capacidade digital do ente federativo. A fonte permanece fora do índice até publicar total nacional oficial, pesos amostrais ou microdados.
 
@@ -31,11 +31,11 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
 
 *Definição:* Existência e abrangência de canais públicos de divulgação proativa de informações governamentais — portais da transparência, portais de dados abertos, controle interno publicado, divulgação de informações orçamentárias e financeiras. Corresponde às Recomendações 9.2 e 9.3.
 
-*Média Nacional:* 74.1 (n=7; 7 itens).
+*Média Nacional:* 80.4 (n=7; 7 itens).
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I11** — O Quadro Geral ou as Cartas de Serviços Estaduais/Distrital estão integrados à Base Nacional de Serviços Públicos?
   - *Normalização:* Índice 0-10 — multiplicado por 10.
@@ -58,8 +58,8 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
 
 - **ESTADIC_PORTAL_TRANSP** — Portal da transparência e portal de dados abertos — existência (governo estadual).
   - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 56.79
-  - Valor (Estadual): 56.79
+  - Valor (Nacional): 85.19
+  - Valor (Estadual): 85.19
 
 - **ESTADIC_TRANSP_CONTEUDO** — Conteúdo da página na internet ou portal da transparência do governo estadual:
   - A) Competências
@@ -73,8 +73,8 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
   - I) Transferências financeiras
   - J) Nenhuma
   - K) Não possui portal
-  - Valor (Nacional): 70.37
-  - Valor (Estadual): 70.37
+  - Valor (Nacional): 86.01
+  - Valor (Estadual): 86.01
 
 - **ESTADIC_ORCAM_TEMPO_REAL** — Disponibiliza informações orçamentárias/financeiras em tempo real?
   - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre o universo de governos estaduais.
@@ -97,7 +97,7 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
 
 *Definição:* Implementação local da Lei de Acesso à Informação (Lei nº 12.527/2011) — existência de legislação específica, conteúdo e meios de solicitação da regulamentação estadual, disseminação da LAI, recebimento e publicização de pedidos. Corresponde à Recomendação 9.3.
 
-*Média Nacional:* 49.4 (n=6; 6 itens).
+*Média Nacional:* 51.2 (n=6; 6 itens).
 
 **Indicadores:**
 
@@ -144,14 +144,14 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
   - D) Carta
   - E) Outro
   - F) Não disponibiliza
-  - Valor (Nacional): 54.94
-  - Valor (Estadual): 54.94
+  - Valor (Nacional): 65.93
+  - Valor (Estadual): 65.93
 
 ### 12.3.3 Participação social e cocriação
 
 *Definição:* Instrumentos de envolvimento do cidadão no governo digital — ouvidorias e canais de denúncia, mecanismos participativos online (consulta, fórum, enquete, votação), uso de redes sociais para consulta pública, e instâncias colegiadas de transparência. Corresponde à Recomendação 9.1.
 
-*Média Nacional:* 40.2 (n=7; 7 itens).
+*Média Nacional:* 41.4 (n=7; 7 itens).
 
 **Indicadores:**
 
@@ -190,8 +190,8 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
   - C) Enquete online
   - D) Votação online (políticas públicas/orçamento participativo)
   - E) Não disponibilizou
-  - Valor (Nacional): 45.93
-  - Valor (Estadual): 45.93
+  - Valor (Nacional): 54.63
+  - Valor (Estadual): 54.63
 
 - **ESTADIC_CONSELHO_TRANSP** — Conselho Estadual de Transparência ou similar — existência (Sim/Não)?
   - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre o universo de governos estaduais.
@@ -202,13 +202,13 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
 
 *Definição:* Conjunto das variáveis do Objetivo 9 com observação por UF, agregadas para leitura federativa estadual. Reúne 1 variável IOSPD 2025 e 8 variáveis ESTADIC 2024. Inclui variáveis também classificadas em outras dimensões temáticas (única exceção à regra de não-repetição entre dimensões).
 
-*Média Estadual:* 63.5 (n=9; 9 itens).
+*Média Estadual:* 70.6 (n=9; 9 itens).
 
 ![Recorte Estadual — Objetivo 9](../graficos/recortes/cap12_estadual.png)
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I11** — O Quadro Geral ou as Cartas de Serviços Estaduais/Distrital estão integrados à Base Nacional de Serviços Públicos?
   - Valor (Estadual): 51.85
@@ -216,10 +216,10 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
 *ESTADIC 2024 (IBGE):*
 
 - **ESTADIC_PORTAL_TRANSP** — Portal da transparência e portal de dados abertos — existência (governo estadual).
-  - Valor (Estadual): 56.79
+  - Valor (Estadual): 85.19
 
 - **ESTADIC_TRANSP_CONTEUDO** — Conteúdo da página na internet ou portal da transparência do governo estadual?
-  - Valor (Estadual): 70.37
+  - Valor (Estadual): 86.01
 
 - **ESTADIC_ORCAM_TEMPO_REAL** — Disponibiliza informações orçamentárias/financeiras em tempo real?
   - Valor (Estadual): 88.89
@@ -231,10 +231,10 @@ As 20 variáveis ativas do Objetivo 9 foram organizadas em três dimensões tem�
   - Valor (Estadual): 85.19
 
 - **ESTADIC_LAI_MEIOS** — Meios de solicitação de acesso à informação pública?
-  - Valor (Estadual): 54.94
+  - Valor (Estadual): 65.93
 
 - **ESTADIC_PARTICIP_INTERNET** — Formas de participação do cidadão pela internet?
-  - Valor (Estadual): 45.93
+  - Valor (Estadual): 54.63
 
 - **ESTADIC_CONSELHO_TRANSP** — Conselho Estadual de Transparência ou similar — existência (Sim/Não).
   - Valor (Estadual): 51.85

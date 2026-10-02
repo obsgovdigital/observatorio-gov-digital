@@ -16,19 +16,19 @@ A Portaria SGD/MGI nº 5.395/2026 elenca cinco recomendações aos entes federad
 
 ## 7.2 Cobertura por nível federativo
 
-O Objetivo 4 conta com 55 variáveis ativas no índice (22 do iGovSISP/SGD (SGD/MGI), 9 do iESGo/TCU, 8 da TIC Saúde (CETIC.br), 6 da TIC Governo Eletrônico (CETIC.br), 5 da MUNIC (IBGE), 4 da ESTADIC (IBGE) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 45 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional, 5 têm observação por UF (4 ESTADIC 2024 e `IOSPD_III07`) e 5 têm observação por capital (5 MUNIC 2024). Como cada nível federativo dispõe de ≥2 variáveis, este capítulo cria as duas dimensões federativas dedicadas — `Recorte Estadual` e `Recorte de Capitais` — ao lado das dimensões temáticas. Ambas mantêm-se sem subdivisão (≤10 variáveis cada).
+O Objetivo 4 conta com 33 variáveis ativas no índice (4 da ESTADIC (IBGE), 9 do iESGo (TCU), 1 do IOSPD (ABEP-TIC), 5 da MUNIC (IBGE), 6 da TIC Governo Eletrônico (CETIC.br) e 8 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 25 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional, 5 têm observação por UF (4 ESTADIC 2024 e `IOSPD_III07`) e 5 têm observação por capital (5 MUNIC 2024). Como cada nível federativo dispõe de ≥2 variáveis, este capítulo cria as duas dimensões federativas dedicadas — `Recorte Estadual` e `Recorte de Capitais` — ao lado das dimensões temáticas. Ambas mantêm-se sem subdivisão (≤10 variáveis cada).
 
 ## 7.3 Dimensões
 
-As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. As dimensões temáticas dialogam com as recomendações 4.1 a 4.5 da Portaria — cobrindo governança e responsabilidades nomeadas, planos formais e diagnóstico, práticas LGPD substantivas, controles e auditoria, resposta a incidentes e capacitação. Os recortes repetem as cinco variáveis observadas em cada nível para leitura federativa.
+As 33 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte de Capitais`. As dimensões temáticas dialogam com as recomendações 4.1 a 4.5 da Portaria — cobrindo governança e responsabilidades nomeadas, planos formais e diagnóstico, práticas LGPD substantivas, controles e auditoria, resposta a incidentes e capacitação. Os recortes repetem as cinco variáveis observadas em cada nível para leitura federativa.
 
 ![Dimensões do Objetivo 4](../graficos/dimensoes/cap07.png)
 
 ### 7.3.1 Governança e responsabilidades
 
-*Definição:* Existência de instâncias formais e responsáveis nomeados para privacidade e segurança da informação — encarregado pelo tratamento de dados pessoais, gestor de segurança da informação, área/pessoa LGPD, regulamentação local e supervisão pelo Comitê de Governança Digital. Corresponde às Recomendações 4.1 e 4.3.
+*Definição:* Existência de comitê e gestor institucional de segurança da informação, de área ou pessoa responsável pela LGPD e de regulamentação local que define papéis e responsabilidades. Corresponde às Recomendações 4.1 e 4.3.
 
-*Média Nacional:* 41.0 (n=11; 11 itens).
+*Média Nacional:* 47.5 (n=8; 8 itens).
 
 **Indicadores:**
 
@@ -38,7 +38,7 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual) — ver Seção 3.3.4.
   - Valor (Nacional): 50.27
 
-*iESGo/TCU 2024 (TCU):*
+*iESGo 2024 (TCU):*
 
 - **iESGo 4242** — A organização dispõe de comitê de segurança da informação.
   - *Normalização:* Índice 0-100 — usado diretamente
@@ -77,25 +77,11 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Nacional): 23.88
   - Valor (Capitais): 81.48 (22/27 capitais)
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G211SPD** — iGovSISP: Os assuntos relativos à Segurança da Informação são deliberados pelo Comitê de Governança Digital ou equivalente? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 35.47
-
-- **G212SPD** — iGovSISP: O órgão possui gestor de Segurança da Informação formalmente designado conforme o Decreto nº 12.198/2024? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 29.91
-
-- **G224SPD** — iGovSISP: O órgão possui Encarregado pelo Tratamento de Dados Pessoais formalmente designado, conforme o Art. 23, inciso III, da Lei nº 13.709/2018 (LGPD)? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 5.98
-
 ### 7.3.2 Planos, políticas e diagnóstico
 
-*Definição:* Existência e adoção de instrumentos formais de planejamento e diagnóstico de segurança da informação — Política de Segurança da Informação (POSIN), política de segurança da informação nos estabelecimentos de saúde, conformidade com a Portaria GSI 852/2023, Framework de Privacidade e Segurança da Informação, Programa de Privacidade e Segurança da Informação (PPSI) e seus guias e modelos. Corresponde à Recomendação 4.2 e, na adoção do PPSI, à Recomendação 4.1.
+*Definição:* Existência de política de segurança da informação nas organizações federais e nos estabelecimentos de saúde. Essa política aproxima o planejamento de segurança, sem demonstrar o plano de ação abrangente ou todos os diagnósticos exigidos. Corresponde à Recomendação 4.2.
 
-*Média Nacional:* 39.9 (n=5; 7 itens).
+*Média Nacional:* 55.1 (n=2; 2 itens).
 
 **Indicadores:**
 
@@ -105,41 +91,17 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Proporção 0-100% — usado diretamente.
   - Valor (Nacional): 41.64
 
-*iESGo/TCU 2024 (TCU):*
+*iESGo 2024 (TCU):*
 
 - **iESGo 4241** — A organização dispõe de uma política de segurança da informação.
   - *Normalização:* Índice 0-100 — usado diretamente
   - Valor (Nacional): 68.48
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G201SPD** — iGovSISP: O órgão possui Política de Segurança da Informação — POSIN? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 49.57
-
-- **G226SPD** — iGovSISP: Acerca da Portaria GSI/PR nº 852, de 28 de março de 2023, que altera a Portaria GSI/PR nº 120/2022, o órgão: (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 5.98
-
-*Bateria — instrumentos do PPSI: os 3 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
-
-- **G629IPD** — iGovSISP: O órgão conhece e utiliza o Framework de Privacidade e Segurança da Informação? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 47.44
-
-- **G630IPD** — iGovSISP: O órgão conhece e utiliza o Programa de Privacidade e Segurança da Informação (PPSI)? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 36.75
-
-- **G631IPD** — iGovSISP: O órgão conhece e utiliza os Guias e Modelos do PPSI? (autodiagnóstico SISP, conhece_utiliza).
-  - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 17.52
-
 ### 7.3.3 Proteção de dados pessoais — práticas LGPD
 
 *Definição:* Adoção das práticas substantivas exigidas pela LGPD — nomeação de encarregado pelo tratamento de dados pessoais (DPO), canal de atendimento para titulares, política de privacidade publicada, documento de papéis e responsabilidades sobre a lei, plano de resposta a incidentes envolvendo dados pessoais, campanha interna de conscientização, gestão de riscos de privacidade e portal único com funcionalidade de consentimento. Corresponde à Recomendação 4.2 (vertente LGPD).
 
-*Média Nacional:* 37.6 (n=7; 15 itens).
+*Média Nacional:* 45.0 (n=5; 13 itens).
 
 **Indicadores:**
 
@@ -191,7 +153,7 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Proporção 0-100% — usado diretamente.
   - Valor (Nacional): 30.57
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_III07** — A UF possui Portal Único ou de Serviços com funcionalidade de consentimento para LGPD?
   - *Normalização:* Índice 0-10 — multiplicado por 10.
@@ -212,21 +174,11 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Nacional): 28.40
   - Valor (Capitais): 62.96 (17/27 capitais)
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G221SPD** — iGovSISP: O órgão adota ações que protejam a privacidade e os dados pessoais dos cidadãos? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 9.40
-
-- **G223SPD** — iGovSISP: O órgão possui processo de gestão de riscos de privacidade e proteção de dados pessoais? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 28.63
-
 ### 7.3.4 Controles, riscos e auditoria
 
-*Definição:* Controles técnicos e práticas de gestão de riscos cibernéticos — ferramentas de segurança da informação, gestão de riscos, inventário de ativos, gestão de vulnerabilidades, testes de segurança cibernética, controle de acesso, classificação da informação e auditorias de segurança. Corresponde à Recomendação 4.2 (vertente cibersegurança).
+*Definição:* Práticas de gestão de riscos e segurança dos recursos de processamento, controle de acesso e classificação e tratamento da informação. Corresponde à Recomendação 4.2.
 
-*Média Nacional:* 48.7 (n=13; 13 itens).
+*Média Nacional:* 45.8 (n=6; 6 itens).
 
 **Indicadores:**
 
@@ -236,7 +188,7 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Proporção 0-100% — agregação `mean` sobre as alternativas A-J (amplitude média de adoção).
   - Valor (Nacional): 53.01
 
-*iESGo/TCU 2024 (TCU):*
+*iESGo 2024 (TCU):*
 
 - **iESGo 4231** — A organização executa processo de gestão dos riscos de tecnologia da informação relativos a processos de negócio.
   - *Normalização:* Índice 0-100 — usado diretamente
@@ -258,69 +210,25 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Índice 0-100 — usado diretamente
   - Valor (Nacional): 54.72
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G203SPD** — iGovSISP: O órgão possui processo de gestão de riscos de Segurança da Informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 47.86
-
-- **G209SPD** — iGovSISP: O órgão possui inventário de ativos de informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 16.24
-
-- **G210SPD** — iGovSISP: O órgão mapeia e trata as vulnerabilidades nos ativos de TIC? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 77.78
-
-- **G213SPD** — iGovSISP: O órgão realiza testes de segurança cibernética periódicos? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 56.41
-
-- **G214SPD** — iGovSISP: O órgão possui política de controle de acesso documentada e implementada? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 68.80
-
-- **G219SPD** — iGovSISP: O órgão possui processo de classificação da informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 74.36
-
-- **G225SPD** — iGovSISP: O órgão realiza auditorias de segurança periódicas nos sistemas de TI? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 17.09
-
 ### 7.3.5 Resposta a incidentes e continuidade
 
-*Definição:* Capacidade institucional de prevenção, tratamento e resposta a incidentes cibernéticos e de continuidade operacional — Equipe de Tratamento e Resposta a Incidentes (ETIR), plano de gestão de incidentes cibernéticos e gestão de continuidade de negócios em SI. Corresponde à Recomendação 4.5 e, na continuidade, à Recomendação 4.2.
+*Definição:* Processo de gestão da continuidade dos serviços de tecnologia da informação nas organizações federais. Não demonstra participação em redes de resposta a incidentes. Corresponde à Recomendação 4.2.
 
-*Média Nacional:* 45.8 (n=4; 4 itens).
+*Média Nacional:* 27.8 (n=1; 1 item).
 
 **Indicadores:**
 
-*iESGo/TCU 2024 (TCU):*
+*iESGo 2024 (TCU):*
 
 - **iESGo 4233** — A organização executa processo de gestão de continuidade de serviços de tecnologia da informação.
   - *Normalização:* Índice 0-100 — usado diretamente
   - Valor (Nacional): 27.79
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G202SPD** — iGovSISP: O órgão possui equipe de tratamento e resposta a incidentes cibernéticos — ETIR? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 78.63
-
-- **G206SPD** — iGovSISP: O órgão possui processo de gestão de continuidade de negócios no âmbito da Segurança da Informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 24.36
-
-- **G215SPD** — iGovSISP: O órgão possui Plano de Gestão de Incidentes Cibernéticos? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 52.56
-
 ### 7.3.6 Capacitação e conscientização
 
 *Definição:* Ações de sensibilização, conscientização e capacitação de servidores em privacidade, proteção de dados pessoais, segurança da informação e segurança cibernética. Corresponde à Recomendação 4.4 (referência ao CEPS Gov.br).
 
-*Média Nacional:* 51.1 (n=5; 5 itens).
+*Média Nacional:* 44.0 (n=3; 3 itens).
 
 **Indicadores:**
 
@@ -343,16 +251,6 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Binário Sim/Não — Sim=100, Não=0.
   - Valor (Nacional): 18.08
   - Valor (Capitais): 70.37 (19/27 capitais)
-
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G208SPD** — iGovSISP: O órgão possui programa de conscientização em Segurança da Informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 70.51
-
-- **G222SPD** — iGovSISP: O órgão investiu em capacitação de pessoal em Segurança da Informação? (autodiagnóstico SISP, likert).
-  - *Normalização:* Likert 0-100 — usado diretamente.
-  - Valor (Nacional): 52.99
 
 ### 7.3.7 Recorte Estadual
 
@@ -382,7 +280,7 @@ As 55 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Binário Sim/Não — Sim=100, Não=0.
   - Valor (Estadual): 66.7 (média das 27 UFs)
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_III07** — A UF possui Portal Único ou de Serviços com funcionalidade de consentimento para LGPD?
   - *Normalização:* Índice 0-10 — multiplicado por 10.
