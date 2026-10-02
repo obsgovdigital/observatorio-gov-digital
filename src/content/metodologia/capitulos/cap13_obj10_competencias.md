@@ -17,7 +17,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 
 ## 13.2 Cobertura por nível federativo
 
-O Objetivo 10 conta com 22 variáveis ativas no índice (19 do iGovSISP/SGD (SGD/MGI) e 3 da TIC Educação (CETIC.br)), que entram na agregação do índice como 11 componentes (ver Capítulo 3). Todas contribuem apenas para a visão Nacional. Nenhuma tem observação por UF nem por capital, de modo que este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`.
+O Objetivo 10 conta com 23 variáveis ativas no índice (20 do iGovSISP (SGD/MGI) e 3 da TIC Educação (CETIC.br)), que entram na agregação do índice como 12 componentes (ver Capítulo 3). Todas contribuem apenas para a visão Nacional. Nenhuma tem observação por UF nem por capital, de modo que este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`.
 
 Dois indicadores de capacitação setorial antes avaliados neste objetivo não integram o índice: o indicador da TIC Governo Eletrônico sobre capacitação de funcionários mede percentual condicionado à existência de área de TI no órgão (universo restrito) e, na publicação oficial, refere-se especificamente a capacitação sobre a LGPD para funcionários de TI; o indicador da TIC Saúde sobre formação em informática em saúde mede a formação individual do gestor respondente, não a capacidade do estabelecimento de saúde.
 
@@ -25,7 +25,7 @@ Outras 7 variáveis MUNIC/ESTADIC sobre programas de inclusão digital ao cidad�
 
 ## 13.3 Dimensões
 
-As 22 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões temáticas, sem dimensão federativa dedicada. A primeira trata da força de trabalho de TIC nos órgãos do governo federal — as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica trabalhadas pelos professores com os alunos; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente três recomendações: a 10.3 (capacitação continuada e retenção), pelo plano anual de capacitação das equipes de TI federais e pela proporção de titulares efetivos na força de trabalho; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` está entre os indicadores que sustentam a 10.3. As Recomendações 10.1 (redes nacionais e Capacita GOV.BR), 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice — detalhes no Anexo B.10.
+As 23 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões temáticas, sem dimensão federativa dedicada. A primeira trata da força de trabalho de TIC nos órgãos do governo federal — as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica trabalhadas pelos professores com os alunos; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente quatro recomendações: a 10.1 (redes de capacitação), por medida indireta do planejamento e realização de capacitações no PDTIC; a 10.3 (capacitação continuada e retenção), pelo plano anual de capacitação das equipes de TI federais e pela proporção de titulares efetivos na força de trabalho; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` está entre os indicadores que sustentam a 10.3. As Recomendações 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice. O Anexo B.10 detalha as lacunas e os limites da cobertura.
 
 ![Dimensões do Objetivo 10](../graficos/dimensoes/cap13.png)
 
@@ -33,39 +33,39 @@ As 22 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões tem
 
 *Definição:* Força de trabalho de TIC nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), captada em sete itens do autodiagnóstico iGovSISP — um por área de conhecimento do próprio instrumento (Gestão e Planejamento de TI; Sistemas e Serviços Públicos Digitais; Dados e Informações; Privacidade e Segurança da Informação; Contratações de TI; Infraestrutura e Plataformas Digitais) e um sobre o percentual de titulares de funções de TI concursados. Sub-conceito não enunciado pelas recomendações da ENGD, mas aderente ao enunciado do objetivo, que inclui a ampliação da atração e retenção de talentos nas organizações públicas.
 
-*Média Nacional:* 72.6 (n=7; 7 itens).
+*Média Nacional:* 73.2 (n=7; 7 itens).
 
 **Indicadores:**
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-- **G119GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Gestão e Planejamento de TI. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G119GP**. iGovSISP: a. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Gestão e Planejamento de Tecnologia da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 76.50
 
-- **G120GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Sistemas e Serviços Públicos Digitais. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G120GP**. iGovSISP: b. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Sistemas e Serviços Públicos Digitais; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 75.64
 
-- **G121GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Dados e Informações. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G121GP**. iGovSISP: c. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Dados e Informações; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 58.12
 
-- **G122GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Privacidade e Segurança da Informação. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G122GP**. iGovSISP: d. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Privacidade e Segurança da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 55.98
 
-- **G123GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Contratações de TI. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G123GP**. iGovSISP: e. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Contratações de Tecnologia da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 76.92
 
-- **G124GP** — iGovSISP: A força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de Infraestrutura e Plataformas Digitais. (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G124GP**. iGovSISP: f. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Infraestrutura e Plataformas Digitais. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 73.93
 
-- **G130GP** — iGovSISP: Qual é o percentual de titulares de funções de TI que são servidores efetivos/empregados públicos/militares? (Art. 9-C, Decreto 7.579/2011) (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
-  - Valor (Nacional): 91.03
+- **G130GP**. iGovSISP: Qual é o percentual de titulares de funções de TI do seu órgão que são servidores públicos efetivos, empregados públicos ou militares, em conformidade com o Artigo 9º-C do Decreto nº 7.579, de 11 de outubro de 2011, que dispõe sobre o Sistema de Administração dos Recursos de Tecnologia da Informação - SISP, do Poder Executivo federal? (autodiagnóstico SISP, faixa_percentual)
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens; cada órgão respondente tem peso igual.
+  - Valor (Nacional): 95.41
 
 ### 13.3.2 Formação continuada de professores em TIC
 
@@ -103,38 +103,44 @@ As 22 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões tem
 
 ### 13.3.4 Plano e processo de capacitação em TI no SISP
 
-*Definição:* Ciclo PDCA do plano anual de capacitação para a equipe de TI nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), captado em seis itens do autodiagnóstico iGovSISP — definição de competências, critérios para pedidos de capacitação, elaboração periódica do plano, execução, avaliação e incentivos ao desenvolvimento de competências. Corresponde à Recomendação 10.3, que cita explicitamente "ações específicas de capacitação continuada, aprimoramento da gestão e retenção de talentos".
+*Definição:* Planejamento e execução da capacitação das equipes de TI nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP). Reúne o detalhamento das capacitações e seus orçamentos no PDTIC e seis itens sobre o ciclo do plano anual de capacitação: definição de competências, critérios para pedidos, elaboração periódica, execução, avaliação e incentivos. Corresponde à Recomendação 10.3; com vínculo secundário à Recomendação 10.1, por medida indireta da contribuição para redes de capacitação.
 
-*Média Nacional:* 57.7 (n=1; 6 itens).
+*Média Nacional:* 51.7 (n=2; 7 itens).
 
 **Indicadores:**
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-*Bateria — plano anual de capacitação da equipe de TI: os 6 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*O item de conteúdo do PDTIC abaixo constitui um componente próprio neste objetivo. Não se combina com os itens da bateria classificados no Objetivo 1 nem com a bateria de plano anual de capacitação apresentada a seguir.*
 
-- **G131GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão define as competências necessárias para o pessoal de TI executar suas atividades (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G106GPO**. iGovSISP: O órgão detalhou as capacitações planejadas, suas relações com as necessidades priorizadas no PDTIC, se já efetuou as do Capacita.gov.br e os orçamentos das capacitações? (autodiagnóstico SISP, sim_nao_emparte)
+  - *Normalização:* Percentual ponderado entre respondentes: Sim=1, Em parte=0,5 e Não=0.
+  - Valor (Nacional): 45.79
+
+*Bateria de plano anual de capacitação da equipe de TI: os 6 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+
+- **G131GP**. iGovSISP: a. define as competências necessárias para o pessoal de TI executar suas atividades. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 73.50
 
-- **G132GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão define critérios para avaliação e atendimento dos pedidos de capacitação (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G132GP**. iGovSISP: b. define critérios para avaliação e atendimento dos pedidos de capacitação. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 71.37
 
-- **G133GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão elabora, periodicamente, plano de capacitação para suprir as necessidades de desenvolvimento de competências de TI (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G133GP**. iGovSISP: c. elabora, periodicamente, plano de capacitação para suprir as necessidades de desenvolvimento de competências de TI. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 73.50
 
-- **G134GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão executa o plano de capacitação, identificando e corrigindo os desvios (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G134GP**. iGovSISP: d. executa o plano de capacitação, identificando e corrigindo os desvios. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 45.73
 
-- **G135GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão avalia a execução do plano de capacitação, verificando se os objetivos e resultados esperados foram alcançados (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G135GP**. iGovSISP: e. avalia a execução do plano de capacitação, verificando se os objetivos e resultados esperados foram alcançados. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 36.75
 
-- **G136GP** — iGovSISP: Plano Anual de Capacitação para a equipe de TI: o órgão possui algum tipo de incentivo, financeiro ou não, para o desenvolvimento de competências do pessoal de TI (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G136GP**. iGovSISP: f. possui algum tipo de incentivo, financeiro ou não, para o desenvolvimento de competências do pessoal de TI. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 45.30
 
 ### 13.3.5 Áreas temáticas das capacitações desenvolvidas em TI no SISP
@@ -145,30 +151,30 @@ As 22 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões tem
 
 **Indicadores:**
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-*Bateria — áreas de conhecimento das capacitações desenvolvidas: os 6 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*Esta seção apresenta 6 dos 6 indicadores de uma mesma bateria no objetivo. A média dimensional usa os itens desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
 
-- **G137GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Gestão e Planejamento de Tecnologia da Informação (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G137GP**. iGovSISP: a. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Gestão e Planejamento de Tecnologia da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 49.15
 
-- **G138GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Sistemas e Serviços Públicos Digitais (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G138GP**. iGovSISP: b. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Sistemas e Serviços Públicos Digitais; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 44.87
 
-- **G139GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Dados e Informações (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G139GP**. iGovSISP: c. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Dados e Informações; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 41.03
 
-- **G140GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Privacidade e Segurança da Informação (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G140GP**. iGovSISP: d. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Privacidade e Segurança da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 55.98
 
-- **G141GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Contratações de Tecnologia da Informação (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G141GP**. iGovSISP: e. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Contratações de Tecnologia da Informação; (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 58.55
 
-- **G142GP** — iGovSISP: No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Infraestrutura e Plataformas Digitais (autodiagnóstico SISP, likert).
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G142GP**. iGovSISP: f. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Infraestrutura e Plataformas Digitais. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 49.57

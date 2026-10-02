@@ -4,7 +4,7 @@
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
-> **Decisão de publicação:** este capítulo preserva as quatro medidas disponíveis porque elas documentam o que já pode ser observado e, sobretudo, o que ainda falta medir. As quatro medidas permanecem, portanto, descritas neste relatório, com a pergunta completa e o valor de cada uma — mas as dimensões deste objetivo não têm média nem gráfico publicados, aqui nem na plataforma pública do Observatório, porque quatro medidas heterogêneas, sobre conceitos e universos distintos, não sustentam leitura equivalente à dos objetivos cobertos por dezenas de indicadores. A justificativa completa está na Seção 3.4.1.
+> **Decisão de publicação:** este capítulo preserva as cinco medidas disponíveis porque elas documentam o que já pode ser observado e, sobretudo, o que ainda falta medir. As cinco medidas permanecem, portanto, descritas neste relatório, com a pergunta completa e o valor de cada uma — mas as dimensões deste objetivo não têm média nem gráfico publicados, aqui nem na plataforma pública do Observatório, porque cinco medidas heterogêneas, sobre conceitos e universos distintos, não sustentam leitura equivalente à dos objetivos cobertos por dezenas de indicadores. A justificativa completa está na Seção 3.4.1.
 
 ## 6.1 Recomendações da ENGD para este objetivo
 
@@ -22,17 +22,17 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 
 ## 6.2 Cobertura por nível federativo
 
-O Objetivo 3 conta com 4 variáveis ativas no índice (2 do IOSPD/ABEP-TIC, 1 da TIC Governo Eletrônico (CETIC.br) e 1 da MUNIC (IBGE)), que entram na agregação do índice como 4 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09` e `IOSPD_V07`, ambas IOSPD/ABEP-TIC 2025) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores IOSPD para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
+O Objetivo 3 conta com 5 variáveis ativas no índice (1 do iGovSISP (SGD/MGI), 2 do IOSPD (ABEP-TIC), 1 da MUNIC (IBGE) e 1 da TIC Governo Eletrônico (CETIC.br)), que entram na agregação do índice como 5 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09` e `IOSPD_V07`, ambas IOSPD 2025) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores IOSPD para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
 
 ## 6.3 Dimensões
 
-As 4 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria — autenticação digital, assinatura eletrônica e identidade civil. A configuração com uma dimensão singleton (`Identidade civil`) reflete o estado atual do índice. O `Recorte Estadual` consolida os dois indicadores IOSPD com observação por UF.
+As 5 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria — autenticação digital, assinatura eletrônica e identidade civil. A configuração com uma dimensão singleton (`Identidade civil`) reflete o estado atual do índice. O `Recorte Estadual` consolida os dois indicadores IOSPD com observação por UF.
 
 ### 6.3.1 Autenticação digital
 
 *Definição:* Mecanismos de identificação e acesso do cidadão a serviços públicos digitais por sistema de autenticação único, com referência à Plataforma GOV.BR. Corresponde à Recomendação 3.1.
 
-O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login único Gov.br — o mecanismo de autenticação preconizado pela Recomendação 3.1 —, e não a mera exigência de qualquer cadastro ou login. O valor Nacional de 13,39 indica que a adoção do Gov.br pelos órgãos públicos estaduais e pelas prefeituras ainda é baixa, o que puxa a média da dimensão para baixo mesmo com quase quatro em cada dez prefeituras oferecendo alguma forma de autenticação em serviços pela internet (`MUNIC_AUTENTICACAO`).
+As três medidas de autenticação observam objetos e universos distintos. `C9B_A` mede a adoção específica do login único Gov.br por órgãos públicos estaduais e prefeituras. `MUNIC_AUTENTICACAO` registra se a prefeitura oferece algum mecanismo de autenticação para acesso a serviços pela internet, sem identificar a tecnologia usada. `G630IPD` mede, entre os órgãos federais do SISP, a faixa declarada de serviços integrados ao Login Único; seu valor usa a média ponderada dos tetos das faixas e não representa a porcentagem exata de todos os serviços integrados.
 
 **Indicadores:**
 
@@ -49,13 +49,20 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
   - Valor (Nacional): 38.10
   - Valor (Capitais): 88.9 (24/27 capitais)
 
+*iGovSISP 2025 (SGD/MGI):*
+
+- **G630IPD**. iGovSISP: Dentro dos serviços oferecidos para a sociedade, quantos estão integrados ao Login Único (Acesso gov.br), plataforma de autenticação única ofertada pelo Ministério da Gestão, sem ônus para o órgão? (autodiagnóstico SISP, faixa_percentual)
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens; cada órgão respondente tem peso igual.
+  - Valor (Nacional): 60.21
+  - *Leitura:* A média dos tetos aproxima por cima a média de integração entre órgãos; não é a porcentagem exata de todos os serviços integrados.
+
 ### 6.3.2 Assinatura eletrônica
 
 *Definição:* Disponibilidade de solução institucional de assinatura eletrônica, em substituição à assinatura manuscrita nos atos administrativos e na interação com o cidadão. Corresponde à Recomendação 3.2.
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I09** — Utiliza solução de assinatura eletrônica corporativa própria ou do Gov.br?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -68,7 +75,7 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_V07** — A UF disponibiliza a emissão da nova CIN - Carteira de Identidade Nacional?
   - *Normalização:* Índice 0-10 — multiplicado por 10
@@ -81,7 +88,7 @@ O indicador `C9B_A` mede diretamente a adesão dos entes subnacionais ao login �
 
 **Indicadores:**
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_I09** — Utiliza solução de assinatura eletrônica corporativa própria ou do Gov.br?
   - *Normalização:* Índice 0-10 — multiplicado por 10

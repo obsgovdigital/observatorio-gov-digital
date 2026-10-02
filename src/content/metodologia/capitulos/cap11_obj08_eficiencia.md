@@ -19,11 +19,11 @@ A Portaria SGD/MGI nº 5.395/2026 elenca oito recomendações aos entes federado
 
 ## 11.2 Cobertura por nível federativo
 
-O Objetivo 8 conta com 27 variáveis ativas no índice (13 da TIC Governo Eletrônico (CETIC.br), 8 do iGovSISP/SGD (SGD/MGI), 3 da TIC Saúde (CETIC.br), 2 da TIC Educação (CETIC.br) e 1 do IOSPD/ABEP-TIC), que entram na agregação do índice como 10 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável (`IOSPD_III02`, IOSPD/ABEP-TIC 2025) tem observação por UF e nenhuma variável tem observação por capital. Como o nível estadual fica abaixo do limiar mínimo de duas variáveis e o nível municipal não tem nenhuma, este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`. O indicador subnacional aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline. O esvaziamento subnacional sinaliza prioridade para novas fontes ou indicadores específicos a estados e municípios em medições de eficiência e processos.
+O Objetivo 8 conta com 33 variáveis ativas no índice (14 do iGovSISP (SGD/MGI), 1 do IOSPD (ABEP-TIC), 2 da TIC Educação (CETIC.br), 13 da TIC Governo Eletrônico (CETIC.br) e 3 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 13 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Apenas uma variável (`IOSPD_III02`, IOSPD 2025) tem observação por UF e nenhuma variável tem observação por capital. Como o nível estadual fica abaixo do limiar mínimo de duas variáveis e o nível municipal não tem nenhuma, este objetivo **não comporta** as dimensões `Recorte Estadual` nem `Recorte de Capitais`. O indicador subnacional aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline. O esvaziamento subnacional sinaliza prioridade para novas fontes ou indicadores específicos a estados e municípios em medições de eficiência e processos.
 
 ## 11.3 Dimensões
 
-As 27 variáveis ativas do Objetivo 8 foram organizadas em cinco dimensões temáticas, sem dimensão federativa dedicada. Quatro delas seguem diretamente recomendações da Portaria — contratações de TI (8.3), processos administrativos eletrônicos de compras e simplificação (8.1, 8.7) e digitalização de processos finalísticos em saúde e educação, incluindo o apoio à decisão clínica (8.7); a primeira cobre a base operacional de back-office digital captada pelo bloco `B4` da TIC Governo Eletrônico, sub-conceito em boa parte não enunciado pelas recomendações da ENGD, embora dois de seus itens, protocolo e gestão de documentos, sejam os que sustentam a Recomendação 8.4. Os 12 itens conceituais desse bloco formam uma única bateria: 11 são apresentados na dimensão Sistemas administrativos integrados e 1 (o sistema de compras, `B4_E`) na dimensão Processos administrativos eletrônicos e simplificação. A bateria conta uma vez em cada dimensão em que tem presença, totalizando dois componentes. As Recomendações 8.2 (cálculo de impacto econômico/social/ambiental), 8.5 (plataforma aberta e compartilhamento entre entes), 8.6 (arranjos organizacionais e serviços compartilhados) e 8.8 (jornadas interfederativas) não têm indicador no índice — detalhes no Anexo B.8.
+As 33 variáveis ativas do Objetivo 8 foram organizadas em seis dimensões temáticas, sem dimensão federativa dedicada. Quatro delas seguem diretamente recomendações da Portaria — contratações de TI (8.3), processos administrativos eletrônicos de compras e simplificação (8.1, 8.7) e digitalização de processos finalísticos em saúde e educação, incluindo o apoio à decisão clínica (8.7); a primeira cobre a base operacional de back-office digital captada pelo bloco `B4` da TIC Governo Eletrônico, sub-conceito em boa parte não enunciado pelas recomendações da ENGD, embora dois de seus itens, protocolo e gestão de documentos, sejam os que sustentam a Recomendação 8.4. Os 12 itens conceituais desse bloco formam uma única bateria: 11 são apresentados na dimensão Sistemas administrativos integrados e 1 (o sistema de compras, `B4_E`) na dimensão Processos administrativos eletrônicos e simplificação. A bateria conta uma vez em cada dimensão em que tem presença, totalizando dois componentes. A avaliação de valor público tem cobertura parcial na Recomendação 8.2, sem cálculo quantitativo de impacto ou divulgação periódica demonstrados. As Recomendações 8.5 (plataforma aberta e compartilhamento entre entes), 8.6 (arranjos organizacionais e serviços compartilhados) e 8.8 (jornadas interfederativas) não têm indicador no índice — detalhes no Anexo B.8.
 
 ![Dimensões do Objetivo 8](../graficos/dimensoes/cap11.png)
 
@@ -83,55 +83,97 @@ As 27 variáveis ativas do Objetivo 8 foram organizadas em cinco dimensões tem�
   - *Normalização:* Proporção 0-100% sobre o universo de órgãos públicos — usado diretamente.
   - Valor (Nacional): 60.00
 
-### 11.3.2 Compras e contratações de TI
+### 11.3.2 Avaliação dos efeitos da transformação digital
 
-*Definição:* Conformidade com o normativo estruturante das contratações de TI (Instrução Normativa SGD/ME nº 94/2022) e maturidade das práticas de contratação de soluções e serviços de tecnologia — definição de requisitos, padronização de procedimentos, gestão de contratos, força de trabalho, sustentabilidade e acessibilidade digital. Corresponde à Recomendação 8.3 (padrões e boas práticas para contratação de TI).
+*Definição:* Percepção de eficiência e produtividade pelo órgão e prática de avaliação do valor público dos sistemas digitais. A primeira não demonstra ganho quantitativo ou causal; a segunda não mede quanto valor público foi gerado. Corresponde à Recomendação 8.2, por aproximação.
 
-*Média Nacional:* 85.4 (n=1; 8 itens).
+*Média Nacional:* 53.4 (n=2; 2 itens).
 
 **Indicadores:**
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-*Bateria — contratações de TI: os 8 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+- **G214SPD**. iGovSISP: A transformação digital de serviços está resultando em uma maior eficiência e produtividade, perceptível pelo órgão. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
+  - Valor (Nacional): 68.80
+  - *Leitura:* Mede eficiência e produtividade percebidas pelo órgão, não ganho quantitativo nem causalidade demonstrada.
 
-- **G502CTI** — iGovSISP: Acerca da Instrução Normativa SGD/ME nº 94, de 23 de dezembro de 2022, que dispõe sobre o processo de contratação de soluções de Tecnologia da Informação e Comunicação – TIC pelos órgãos e entidades integrantes do SISP, o seu órgão (autodiagnóstico SISP, conhece_utiliza)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G224SPD**. iGovSISP: O órgão avalia o valor público gerado pelos seus sistemas digitais, nos termos da Portaria SGD/MGI Nº 1.083, de 14 de fevereiro de 2025? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
+  - Valor (Nacional): 38.03
+  - *Estágio positivo mínimo:* Avalia apenas com base em custos e prazos.
+  - *Leitura:* Mede a prática de avaliação do valor público, não a quantidade de valor público gerado.
+
+### 11.3.3 Compras e contratações de TI
+
+*Definição:* Conformidade com o normativo estruturante das contratações de TI (Instrução Normativa SGD/ME nº 94/2022), maturidade das práticas de contratação de soluções e serviços de tecnologia — definição de requisitos, padronização de procedimentos, gestão de contratos, força de trabalho, sustentabilidade e acessibilidade digital — e adoção declarada dos modelos de contratação fixados pelas portarias setoriais da SGD/MGI para desenvolvimento e sustentação de software, para operação de infraestrutura e atendimento a usuários e para estações de trabalho. Corresponde à Recomendação 8.3 (padrões e boas práticas para contratação de TI). São três modelos, fixados pelas Portarias SGD/MGI nº 750/2023 (desenvolvimento, manutenção e sustentação de software), nº 1.070/2023 (operação de infraestrutura e atendimento a usuários) e nº 2.715/2023 (contratação e gestão de estações de trabalho), e os itens correspondentes medem adoção declarada: registram o quanto o órgão diz conhecer e utilizar cada modelo. Não observam a interoperabilidade nem a integração com os sistemas já disponíveis, que a segunda metade da recomendação exige, e não medem ganho de eficiência da contratação.
+
+*Média Nacional:* 72.2 (n=2; 11 itens).
+
+**Indicadores:**
+
+*iGovSISP 2025 (SGD/MGI):*
+
+*Esta seção apresenta 8 dos 8 indicadores de uma mesma bateria no objetivo. A média dimensional usa os itens desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
+
+- **G502CTI**. iGovSISP: Acerca da Instrução Normativa SGD/ME nº 94, de 23 de dezembro de 2022, que dispõe sobre o processo de contratação de soluções de Tecnologia da Informação e Comunicação - TIC pelos órgãos e entidades integrantes do SISP, o seu órgão: (autodiagnóstico SISP, conhece_utiliza)
+  - *Normalização:* Percentual de respostas nos níveis 4 e 5 de conhecimento e utilização.
   - Valor (Nacional): 93.59
 
-- **G507CTI** — iGovSISP: Definição de requisitos para contratação de serviços de TI: prática predominante no órgão (autodiagnóstico SISP, ordinal_maturidade_adocao)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G507CTI**. iGovSISP: Em relação à definição de requisitos para contratação de serviços de TI, como descreveria a prática predominante no seu órgão? (autodiagnóstico SISP, ordinal_maturidade_adocao)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 100.00
+  - *Estágio positivo mínimo:* Requisitos básicos, mas não alinhados às necessidades específicas.
 
-- **G508CTI** — iGovSISP: O órgão possui procedimentos internos que auxiliam na padronização das contratações de TI (autodiagnóstico SISP, ordinal_maturidade_adocao)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G508CTI**. iGovSISP: O órgão possui procedimentos internos e/ou processos que auxiliam na padronização das atividades de contratações de TI: (autodiagnóstico SISP, ordinal_maturidade_adocao)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 93.59
+  - *Estágio positivo mínimo:* Iniciou plano para adotar.
 
-- **G511CTI** — iGovSISP: Quanto à gestão de contratos de TI, qual é a situação mais comum em seu órgão? (autodiagnóstico SISP, ordinal_maturidade)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G511CTI**. iGovSISP: Quanto à gestão de contratos de TI, qual é a situação mais comum em seu órgão? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 98.72
+  - *Estágio positivo mínimo:* Monitoramento ocasional, mas sem ações corretivas efetivas.
 
-- **G513CTI** — iGovSISP: Quanto ao pessoal de TI para realizar Contratações de TI, seu órgão (autodiagnóstico SISP, ordinal_maturidade)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G513CTI**. iGovSISP: Quanto ao pessoal de TI para realizar Contratações de TI, seu órgão: (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 45.30
+  - *Estágio positivo mínimo:* Costuma realocar/recrutar constantemente pessoal de outras áreas do órgão para realizar Contratações de TI.
 
-- **G516CTI** — iGovSISP: Quanto ao quantitativo de servidores com conhecimento aprofundado nas normas que regem as Contratações de TI, seu órgão (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G516CTI**. iGovSISP: Na realização de Contratações de TIC, o órgão possui servidores com conhecimento aprofundado na aplicação das Normas de Contratações. (autodiagnóstico SISP, likert)
+  - *Normalização:* Percentual de concordância parcial ou total entre os respondentes.
   - Valor (Nacional): 67.95
+  - *Leitura:* Mede concordância sobre conhecimento aprofundado de normas, não quantidade ou suficiência de servidores.
 
-- **G517CTI** — iGovSISP: O órgão adota critérios e práticas sustentáveis nas Contratações de TI, quando cabíveis, de acordo com o disposto na alínea "g" do inciso I do art. 16 da IN SGD/ME nº 94/2022? (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G517CTI**. iGovSISP: O órgão adota critérios e práticas sustentáveis nas Contratações de TI, quando cabíveis, de acordo com o disposto na alínea "g" do inciso I do art. 16 da IN SGD/ME nº 94/2022? (autodiagnóstico SISP, ordinal_maturidade_adocao)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 96.15
+  - *Estágio positivo mínimo:* Iniciou plano para adotar.
 
-- **G520CTI** — iGovSISP: Para a aquisição de softwares e a contratação de serviços de TIC para o desenvolvimento ou manutenção de portais e aplicativos, e em observância às exigências da Lei nº 13.146, de 6 de julho de 2015 (Lei Brasileira de Inclusão da Pessoa com Deficiência) e da Lei nº 14.133, de 1º de abril de 2021 (Lei de Licitações e Contratos Administrativos), os termos de referência e editais especificam claramente a conformidade com as diretrizes de acessibilidade digital (como o eMAG e as WCAG) como um critério técnico obrigatório e condição indispensável para o aceite final do produto ou serviço? (autodiagnóstico SISP, likert)
-  - *Normalização:* Proporção 0-100% — usado diretamente
+- **G520CTI**. iGovSISP: Para a aquisição de softwares e a contratação de serviços de TIC para o desenvolvimento ou manutenção de portais e aplicativos, e em observância às exigências da Lei nº 13.146, de 6 de julho de 2015, a qual institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência) e da Lei nº 14.133, de 1º de abril de 2021 (Lei de Licitações e Contratos Administrativos), os termos de referência e editais especificam claramente a conformidade com as diretrizes de acessibilidade digital (como o eMAG e as WCAG) como um critério técnico obrigatório e condição indispensável para o aceite final do produto ou serviço? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 87.61
+  - *Estágio positivo mínimo:* A inclusão de requisitos de acessibilidade ocorre de forma pontual ou não estruturada, sem padronização ou verificação sistemática.
 
-### 11.3.3 Processos administrativos eletrônicos e simplificação
+*Esta seção apresenta 3 dos 3 indicadores de uma mesma bateria no objetivo. A média dimensional usa os itens desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
+
+- **G504CTI**. iGovSISP: Acerca da Portaria SGD/MGI nº 750, de 20 de marco de 2023 (incluindo sua alteração pela Portaria SGD/MGI nº 6.679, de 17 de setembro de 2024 e pela Portaria SGD/MGI nº 6.040, de 11 de agosto de 2025), que estabelece modelo para a contratação de serviços de desenvolvimento, manutenção e sustentação de software, no âmbito dos órgãos e entidades integrantes do SISP, o seu órgão: (autodiagnóstico SISP, conhece_utiliza)
+  - *Normalização:* Percentual de respostas nos níveis 4 e 5 de conhecimento e utilização.
+  - Valor (Nacional): 58.12
+
+- **G505CTI**. iGovSISP: Acerca da Portaria SGD/MGI nº 1.070, de 1 de junho de 2023 (incluindo sua alteração pela Portaria SGD/MGI nº 6.680, de 04 de outubro de 2024 e pela Portaria SGD/MGI nº 6.055, de 26 de agosto de 2025), que estabelece modelo de contratação de serviços de operação de infraestrutura e atendimento a usuários de Tecnologia da Informação e Comunicação, no âmbito dos órgãos e entidades integrantes do SISP, o seu órgão: (autodiagnóstico SISP, conhece_utiliza)
+  - *Normalização:* Percentual de respostas nos níveis 4 e 5 de conhecimento e utilização.
+  - Valor (Nacional): 58.97
+
+- **G506CTI**. iGovSISP: Acerca da Portaria SGD/MGI nº 2.715, de 21 de junho de 2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do SISP, o seu órgão: (autodiagnóstico SISP, conhece_utiliza)
+  - *Normalização:* Percentual de respostas nos níveis 4 e 5 de conhecimento e utilização.
+  - Valor (Nacional): 59.83
+
+### 11.3.4 Processos administrativos eletrônicos e simplificação
 
 *Definição:* Condução eletrônica de processos administrativos de compras — adoção de sistema de compras e realização de pregão eletrônico — e existência de instâncias formais para desburocratização e simplificação. Corresponde às Recomendações 8.1 (soluções de compras públicas de forma integrada e compartilhada) e 8.7 (revisar, simplificar e digitalizar processos e rotinas de trabalho).
 
-*Média Nacional:* 80.8 (n=3; 3 itens).
+*Média Nacional:* 78.9 (n=4; 4 itens).
 
 **Indicadores:**
 
@@ -147,14 +189,22 @@ As 27 variáveis ativas do Objetivo 8 foram organizadas em cinco dimensões tem�
   - *Normalização:* Proporção 0-100% — usado diretamente
   - Valor (Nacional): 91.39
 
-*IOSPD/ABEP-TIC 2025 (ABEP-TIC):*
+*IOSPD 2025 (ABEP-TIC):*
 
 - **IOSPD_III02** — A criação de Grupos Setoriais de Trabalho para Desburocratização e Simplificação foi regulamentada?
   - *Normalização:* Índice 0-10 — multiplicado por 10
   - Valor (Nacional): 66.67
   - Valor (Estadual): 66.7 (média das 27 UFs)
 
-### 11.3.4 Sistemas eletrônicos em saúde e educação
+*iGovSISP 2025 (SGD/MGI):*
+
+- **G208SPD**. iGovSISP: Qual é o nível de utilização do sistema SEI (Sistema Eletrônico de Informações) em seu órgão? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
+  - Valor (Nacional): 73.08
+  - *Estágio positivo mínimo:* Estamos em fase de testes iniciais do SEI.
+  - *Leitura:* Mede utilização do SEI, não ganho de eficiência, integração federativa ou transparência ao cidadão.
+
+### 11.3.5 Sistemas eletrônicos em saúde e educação
 
 *Definição:* Digitalização de processos finalísticos em dois setores de larga capilaridade — registro eletrônico em escolas (administrativo, gestão online) e em estabelecimentos de saúde (prontuários mantidos apenas em formato eletrônico e funcionalidades eletrônicas disponíveis no sistema). Corresponde à Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
 
@@ -182,7 +232,7 @@ As 27 variáveis ativas do Objetivo 8 foram organizadas em cinco dimensões tem�
   - *Normalização:* Máximo das proporções 0-100% dos 14 sub-itens
   - Valor (Nacional): 64.73
 
-### 11.3.5 Apoio à decisão clínica
+### 11.3.6 Apoio à decisão clínica
 
 *Definição:* Disponibilidade de funcionalidades de apoio à decisão clínica no sistema eletrônico dos estabelecimentos de saúde — recursos que auxiliam a equipe na conduta assistencial, medidos pelos sete itens oficiais da TIC Saúde 2024. Corresponde à Recomendação 8.7 (digitalização de processos com foco na eficiência e na qualidade da entrega).
 

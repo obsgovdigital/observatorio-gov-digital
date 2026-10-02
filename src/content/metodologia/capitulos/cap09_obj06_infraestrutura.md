@@ -18,7 +18,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federado
 
 ## 9.2 Cobertura por nível federativo
 
-O Objetivo 6 conta com 25 variáveis ativas no índice (8 da MUNIC (IBGE), 6 do iGovSISP/SGD (SGD/MGI), 5 do Censo Escolar/INEP, 2 da ESTADIC (IBGE), 1 da TIC Governo Eletrônico (CETIC.br), 1 da TIC Educação (CETIC.br), 1 da PNAD Contínua TIC (IBGE) e 1 da ANATEL), que entram na agregação do índice como 19 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Quatorze variáveis têm observação por capital — uma da ANATEL (`BLM02`), as cinco do Censo Escolar/INEP e as oito da MUNIC — o que justifica a dimensão **`Recorte de Capitais`**. Duas variáveis têm observação por UF (`ESTADIC_WIFI_EXISTE` e `ESTADIC_INCLUSAO_PROGRAMA`, ESTADIC 2024), cumprindo o limiar mínimo de duas variáveis no mesmo nível federativo, o que justifica a dimensão **`Recorte Estadual`**.
+O Objetivo 6 conta com 25 variáveis ativas no índice (1 da Cobertura móvel (ANATEL), 5 do Censo Escolar (INEP), 2 da ESTADIC (IBGE), 6 do iGovSISP (SGD/MGI), 8 da MUNIC (IBGE), 1 da PNAD Contínua TIC (IBGE), 1 da TIC Educação (CETIC.br) e 1 da TIC Governo Eletrônico (CETIC.br)), que entram na agregação do índice como 19 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Quatorze variáveis têm observação por capital — uma da Cobertura móvel (`BLM02`), as cinco do Censo Escolar e as oito da MUNIC — o que justifica a dimensão **`Recorte de Capitais`**. Duas variáveis têm observação por UF (`ESTADIC_WIFI_EXISTE` e `ESTADIC_INCLUSAO_PROGRAMA`, ESTADIC 2024), cumprindo o limiar mínimo de duas variáveis no mesmo nível federativo, o que justifica a dimensão **`Recorte Estadual`**.
 
 ## 9.3 Dimensões
 
@@ -34,7 +34,7 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 **Indicadores:**
 
-*ANATEL 2025 (ANATEL):*
+*Cobertura móvel 2025 (ANATEL):*
 
 - **BLM02** — Percentual estimado de domicílios cobertos por telefonia móvel, considerando todas as operadoras e tecnologias (ANATEL).
   - *Normalização:* Proporção 0-100% — usado diretamente.
@@ -48,13 +48,13 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 ### 9.3.2 Infraestrutura digital nas escolas
 
-*Definição:* Recursos digitais nas unidades escolares — acesso à Internet, computadores, laboratório de informática, finalidades de uso (alunos, processo de ensino-aprendizagem) e uso de plataformas digitais de aprendizagem. Combina o universo do Censo Escolar/INEP (~180 mil escolas) com o levantamento amostral TIC Educação. Corresponde à Recomendação 6.4 (ampliar e melhorar a infraestrutura de rede em órgãos públicos, especialmente em locais de grande demanda).
+*Definição:* Recursos digitais nas unidades escolares — acesso à Internet, computadores, laboratório de informática, finalidades de uso (alunos, processo de ensino-aprendizagem) e uso de plataformas digitais de aprendizagem. Combina o universo do Censo Escolar (INEP) (~180 mil escolas) com o levantamento amostral TIC Educação. Corresponde à Recomendação 6.4 (ampliar e melhorar a infraestrutura de rede em órgãos públicos, especialmente em locais de grande demanda).
 
 *Média Nacional:* 59.5 (n=2; 6 itens).
 
 **Indicadores:**
 
-*Censo Escolar/INEP 2024 (INEP):*
+*Censo Escolar 2024 (INEP):*
 
 *Bateria — infraestrutura de TIC da escola: os 5 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
@@ -121,19 +121,9 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 *Definição:* Estratégia de armazenamento de dados e adoção de plataformas de computação em nuvem — Centros de Processamento de Dados (CPD) próprios e serviços de nuvem, incluindo a nuvem governamental e a aderência à Portaria SGD/MGI nº 5.950/2023, que disciplina o uso de nuvem na Administração Pública Federal. Corresponde às Recomendações 6.1 (plataformas digitais para provimento de serviços) e 6.5 (estratégia de armazenamento, com atenção a data centers). O uso de computação em nuvem medido pela TIC Governo Eletrônico não integra o índice por medir percentual condicionado a um universo restrito (apenas as prefeituras com área de tecnologia da informação).
 
-*Média Nacional:* 61.4 (n=3; 3 itens).
+*Média Nacional:* 34.2 (n=3; 3 itens).
 
 **Indicadores:**
-
-*iGovSISP/SGD 2025 (SGD/MGI):*
-
-- **G625IPD** — iGovSISP: Maturidade na adoção de computação em nuvem (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 43.59
-
-- **G637IPD** — iGovSISP: Portaria SGD/MGI nº 5.950/2023 (contratação de software/serviços de nuvem) (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 90.17
 
 *MUNIC 2024 (IBGE):*
 
@@ -141,6 +131,18 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
   - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre o universo de prefeituras.
   - Valor (Nacional): 50.38
   - Valor (Capitais): 92.59 (25/27 capitais)
+
+*iGovSISP 2025 (SGD/MGI):*
+
+- **G625IPD**. iGovSISP: Em relação à computação em nuvem, como você classificaria seu órgão ou órgão governamental em termos de maturidade na adoção da nuvem? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
+  - Valor (Nacional): 43.59
+  - *Estágio positivo mínimo:* Em Desenvolvimento: O órgão está em processo de migração para a nuvem, mas ainda não implementou totalmente.
+
+- **G637IPD**. iGovSISP: Acerca da Portaria SGD/MGI nº 5.950, de 26 de outubro de 2023, que estabelece modelo de contratação de software e de serviços de computação em nuvem de governo, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal, o seu órgão: (autodiagnóstico SISP, conhece_utiliza)
+  - *Normalização:* Percentual de respostas nos níveis 4 e 5 de conhecimento e utilização.
+  - Valor (Nacional): 8.55
+  - *Leitura:* O nível 3 já declara uso pequeno. O resultado considera utilização na maior parte ou na totalidade da infraestrutura de nuvem de governo.
 
 ### 9.3.5 Gestão e qualificação da rede de TI federal
 
@@ -150,25 +152,29 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 **Indicadores:**
 
-*iGovSISP/SGD 2025 (SGD/MGI):*
+*iGovSISP 2025 (SGD/MGI):*
 
-*Bateria — gestão da rede de TIC: os 3 itens a seguir entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*Esta seção apresenta 3 dos 3 indicadores de uma mesma bateria no objetivo. A média dimensional usa os itens desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
 
-- **G607IPD** — iGovSISP: Nível de documentação dos ativos de rede (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
+- **G607IPD**. iGovSISP: Qual é o nível de documentação dos ativos de rede em seu órgão? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 98.29
+  - *Estágio positivo mínimo:* Pouco documentado.
 
-- **G608IPD** — iGovSISP: Monitoramento da disponibilidade e desempenho dos ativos de rede (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
+- **G608IPD**. iGovSISP: Como seu órgão monitora a disponibilidade o desempenho dos ativos de rede? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 98.72
+  - *Estágio positivo mínimo:* Monitoramento reativo, apenas quando há problemas.
 
-- **G609IPD** — iGovSISP: Gerenciamento de manutenção preventiva dos ativos de rede (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
+- **G609IPD**. iGovSISP: Como o seu órgão gerencia a manutenção preventiva dos ativos de rede? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 94.87
+  - *Estágio positivo mínimo:* Manutenção apenas após falhas.
 
-- **G634IPD** — iGovSISP: Estágio de maturidade na adoção do IPv6 (autodiagnóstico SISP, ordinal_maturidade).
-  - *Normalização:* Proporção 0-100% — usado diretamente.
+- **G634IPD**. iGovSISP: Em qual estágio de maturidade o seu órgão se encontra em relação à adoção do IPv6? (autodiagnóstico SISP, ordinal_maturidade)
+  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
   - Valor (Nacional): 62.82
+  - *Estágio positivo mínimo:* O órgão já reconhece a necessidade do IPv6 e está em fase de planejamento e elaboração de estratégias para sua implementação.
 
 ### 9.3.6 Programas de inclusão digital ao cidadão
 
@@ -241,7 +247,7 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 ### 9.3.9 Recorte de Capitais
 
-*Definição:* Conjunto das variáveis do Objetivo 6 com observação por capital, agregadas para leitura federativa municipal do desempenho em infraestrutura digital. Reúne 1 variável ANATEL 2025, 5 variáveis Censo Escolar/INEP 2024 e 8 variáveis MUNIC 2024. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
+*Definição:* Conjunto das variáveis do Objetivo 6 com observação por capital, agregadas para leitura federativa municipal do desempenho em infraestrutura digital. Reúne 1 variável de Cobertura móvel 2025 (ANATEL), 5 variáveis Censo Escolar 2024 (INEP) e 8 variáveis MUNIC 2024. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
 *Média Capitais:* 80.8 (n=10; 14 itens).
 
@@ -249,13 +255,13 @@ As 25 variáveis ativas do Objetivo 6 foram organizadas em sete dimensões temá
 
 **Indicadores:**
 
-*ANATEL 2025 (ANATEL):*
+*Cobertura móvel 2025 (ANATEL):*
 
 - **BLM02** — Percentual estimado de domicílios cobertos por telefonia móvel, considerando todas as operadoras e tecnologias (ANATEL; agregação no município de cada capital).
   - *Normalização:* Proporção 0-100% — usado diretamente.
   - Valor (Capitais): 98.99
 
-*Censo Escolar/INEP 2024 (INEP):*
+*Censo Escolar 2024 (INEP):*
 
 - **IN_INTERNET** — A escola possui acesso à Internet?
   - *Normalização:* Binário por escola — (soma_positivos/total)×100, agregado por capital.

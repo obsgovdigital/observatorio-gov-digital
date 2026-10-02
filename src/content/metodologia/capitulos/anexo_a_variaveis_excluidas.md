@@ -17,8 +17,8 @@ Este anexo consolida as variáveis avaliadas que não foram incorporadas aos ín
 
 | Variável | Fonte | Descrição | Motivo | Ação futura |
 |----------|-------|-----------|--------|-------------|
-| SGD_SAT02 | Painéis SGD | Métrica alternativa de satisfação com serviços Gov.br | Não existe como métrica publicada | Pedido LAI ou derivar da dimensão "resolutividade" |
-| SGD_NPS | Painéis SGD | Net Promoter Score dos serviços Gov.br | Gov.br usa escala 1-5, não NPS (0-10) | Sem previsão de implementação |
+| SGD_SAT02 | Painel de Satisfação Gov.br (SGD/MGI) | Métrica alternativa de satisfação com serviços Gov.br | Não existe como métrica publicada | Pedido LAI ou derivar da dimensão "resolutividade" |
+| SGD_NPS | Painel de Satisfação Gov.br (SGD/MGI) | Net Promoter Score dos serviços Gov.br | Gov.br usa escala 1-5, não NPS (0-10) | Sem previsão de implementação |
 | INF02 | ANATEL | % municípios com fibra óptica | Indicador não extraído — ANATEL não publica dados de % municípios com fibra | Monitorar publicação futura |
 | B1B | TIC Saúde (CETIC.br) | As informações dos pacientes são registradas em meio eletrônico (vs papel)? (C4a questionário) | Indicador não publicado no portal 2024 — B1 divulgado sem o desmembramento A/B | Monitorar publicação futura |
 | B3_admin | TIC Saúde (CETIC.br) | O estabelecimento utiliza sistemas eletrônicos para gestão administrativa? (C3 questionário) | Não existe como indicador separado no portal 2024 — B3 cobre todas as funcionalidades | Monitorar publicação futura |
@@ -117,7 +117,7 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 |----------|-------|-----------|--------|-------------|
 | C5 | TIC Governo Eletrônico (CETIC.br) | Recursos multimídia no website (áudio/vídeo/lives, 3 sub-itens A-C) | Mede produção de conteúdo multimídia, não a oferta ou qualidade de serviços digitais ao cidadão — fora do escopo do Obj 2 (Qualidade dos Serviços Digitais) | Sem ação prevista |
 | E5 | TIC Saúde (CETIC.br) | O gestor possui formação em informática em saúde? | Mede formação individual dos gestores respondentes, não capacidade do estabelecimento de saúde | Reavaliar em caso de publicação por estabelecimento |
-| MUNIC_COMUNICACAO | MUNIC (IBGE) | A prefeitura possui estrutura organizacional para a área de comunicação? | Estrutura de comunicação institucional não corresponde a recomendação ENGD em nenhum objetivo. ENGD trata de comunicação digital de governo apenas indiretamente (Obj 2 — qualidade de serviços). | Sem ação prevista |
+| MUNIC_COMUNICACAO | MUNIC (IBGE) | A prefeitura possui estrutura organizacional para a área de comunicação? | Mede estrutura administrativa de comunicação institucional, não a oferta ou integração de canais digitais de serviços e comunicação. | Sem ação prevista |
 | MUNIC_DEV_SOFTWARE | MUNIC (IBGE) | A prefeitura desenvolve software para atender necessidade específica? | Capacidade-meio de produção interna sem âncora em recomendação ENGD. Recs 6.1 e 8.5 favorecem soluções compartilhadas sobre desenvolvimento isolado; rec 8.7 trata de metodologia ágil, não da existência de desenvolvimento. | Sem ação prevista |
 | MUNIC_DEV_SOFTWARE_CIDADAO | MUNIC (IBGE) | A prefeitura desenvolve software para atendimento à sociedade? | Idem MUNIC_DEV_SOFTWARE. | Sem ação prevista |
 | ESTADIC_DESENV_SOFTWARE | ESTADIC (IBGE) | Desenvolvimento de software nos últimos 12 meses (interno e/ou para sociedade) | Idem MUNIC_DEV_SOFTWARE, na visão estadual. | Sem ação prevista |
@@ -126,14 +126,14 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores individuais, dos quais 48 seguem ativos no índice |
-| IOSPD_DIM1 | ABEP-TIC | Dimensão Capacidades (compósito I.1-I.13) | Compósito de 13 indicadores, desagregados individualmente |
-| IOSPD_DIM2 | ABEP-TIC | Dimensão Serviços (compósito II.1-II.12) | Compósito de 12 indicadores, desagregados individualmente |
-| IOSPD_DIM3 | ABEP-TIC | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito de 11 indicadores, desagregados individualmente |
-| IOSPD_DIM4 | ABEP-TIC | Dimensão Linguagem Simples (compósito IV.1-IV.9) | Compósito de 9 indicadores, desagregados individualmente |
-| IOSPD_DIM5 | ABEP-TIC | Dimensão Inovação (compósito V.1-V.9) | Compósito de 9 indicadores, desagregados individualmente |
-| IOSPD_I02 | ABEP-TIC | Percentual de uso da plataforma única (I.2) | Saturado em zero: todas 27 UFs nota 0 em 2025 |
-| IOSPD_III01 | ABEP-TIC | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
+| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores individuais, dos quais 48 seguem ativos no índice |
+| IOSPD_DIM1 | IOSPD (ABEP-TIC) | Dimensão Capacidades (compósito I.1-I.13) | Compósito de 13 indicadores, desagregados individualmente |
+| IOSPD_DIM2 | IOSPD (ABEP-TIC) | Dimensão Serviços (compósito II.1-II.12) | Compósito de 12 indicadores, desagregados individualmente |
+| IOSPD_DIM3 | IOSPD (ABEP-TIC) | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito de 11 indicadores, desagregados individualmente |
+| IOSPD_DIM4 | IOSPD (ABEP-TIC) | Dimensão Linguagem Simples (compósito IV.1-IV.9) | Compósito de 9 indicadores, desagregados individualmente |
+| IOSPD_DIM5 | IOSPD (ABEP-TIC) | Dimensão Inovação (compósito V.1-V.9) | Compósito de 9 indicadores, desagregados individualmente |
+| IOSPD_I02 | IOSPD (ABEP-TIC) | Percentual de uso da plataforma única (I.2) | Saturado em zero: todas 27 UFs nota 0 em 2025 |
+| IOSPD_III01 | IOSPD (ABEP-TIC) | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
 
 **Escopo das exclusões do iESGo.** O que sai abaixo são os compósitos calculados pelo próprio TCU, e não a fonte. O iESGo integra o índice por vinte questões completas do questionário de governança mais o sub-item `3132_C`, tratadas como variáveis individuais, conforme o capítulo de metodologia.
 
@@ -152,8 +152,8 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 | GerirSolucoes | iESGo (TCU) | Subíndice de capacidade em gerir desenvolvimento de soluções e inovação (prática 4260) | Subíndice composto de terceiros; o índice mantém apenas variáveis individuais |
 | PlanejamentoTI | iESGo (TCU) | Subíndice de planejamento de TI | Subíndice composto de terceiros; o índice mantém apenas variáveis individuais |
 | ServicosTI | iESGo (TCU) | Subíndice de gestão de serviços de TI | Subíndice composto de terceiros; o índice mantém apenas variáveis individuais |
-| iGovSustentAmb | iESGo (TCU) | Sustentabilidade ambiental (PLS, resíduos, energia) | Fora do escopo ENGD — sem componente digital (critério iii) |
-| iGovSustentSocial | iESGo (TCU) | Sustentabilidade social (diversidade, anti-assédio, acessibilidade) | Fora do escopo ENGD — sem componente digital relevante (critério iii) |
+| iGovSustentAmb | iESGo (TCU) | Sustentabilidade ambiental (PLS, resíduos, energia) | Mede gestão ambiental, não o cálculo do impacto ambiental da transformação digital; o composto não integra a seleção de questões individuais |
+| iGovSustentSocial | iESGo (TCU) | Sustentabilidade social (diversidade, anti-assédio, acessibilidade) | Composto de terceiros, fora do recorte de questões dos subíndices selecionados de TI e segurança (ver Seção 3.1.2) |
 
 ---
 
@@ -165,47 +165,68 @@ O quinto critério merece registro à parte. Ele decide qual lado de um par mant
 
 | Variável | Fonte | Pergunta | Fundamento |
 |---|---|---|---|
-| `igovsisp/G106GPM` | iGovSISP/SGD | iGovSISP: O órgão estimou a quantidade ideal de pessoal por competência considerando necessidades futuras e fatores críticos de sucesso? (autodiagnóstico SISP, sim_nao) | Redundância clara com igovsisp/G106GPL: mesma bateria, respondente e objeto (dimensionamento de pessoal no PDTIC); GPL retida por maior granularidade (grupo 1.1) |
-| `igovsisp/G106GPA` | iGovSISP/SGD | iGovSISP: A organização possui PDTIC vigente, nos termos da Portaria nº 778/2019, formalmente instituído pelo CGD ou estrutura equivalente? (autodiagnóstico SISP, sim_nao) | Degrau lógico de igovsisp/G106GPE (publicar pressupõe possuir; retido o mais exigente) (caso 5.1) |
-| `munic/MUNIC_LAI_AUTORID_MONIT` | MUNIC/IBGE | A legislação municipal da LAI prevê autoridade de monitoramento para sua implementação? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
-| `munic/MUNIC_LAI_ORGAO_CENTRAL` | MUNIC/IBGE | A legislação municipal da LAI prevê órgão central de monitoramento das ações relativas ao acesso à informação pública? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
-| `munic/MUNIC_LAI_PRAZO_20D` | MUNIC/IBGE | A legislação municipal da LAI estabelece prazo de atendimento de pedido de acesso à informação pública igual ou inferior a 20 dias corridos? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
-| `munic/MUNIC_LAI_RELATORIO` | MUNIC/IBGE | A legislação municipal da LAI prevê a divulgação de relatório de monitoramento com informações estatísticas dos pedidos de acesso à informação pública? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
-| `tic_cultura/D8` | TIC Cultura | A instituição cultural possui catálogo online do acervo acessível ao público? (B7A questionário) | Degrau lógico de tic_cultura/D1 (catálogo online pressupõe acervo catalogado; retido o mais geral) e par empírico com D4B/D5A (caso 5.3) |
-| `censo_escolar/IN_BANDA_LARGA` | Censo Escolar/INEP | A escola possui acesso à Internet por banda larga? (variável binária, Censo Escolar INEP) | Degrau lógico de censo_escolar/IN_INTERNET (banda larga pressupõe Internet; retido o mais geral) (caso 5.4) |
-| `igovsisp/G220SPD` | iGovSISP/SGD | iGovSISP: O órgão possui Plano de Gestão de Vulnerabilidades? (autodiagnóstico SISP, likert) | Escada prática com igovsisp/G210SPD (plano formal × prática efetiva; retida a prática) (caso 5.5) |
-| `igovsisp/G501CTI` | iGovSISP/SGD | iGovSISP: Acerca da Instrução Normativa SGD/MGI nº 06, de 29 de março de 2023 (incluindo sua alteração pela Instrução Normativa SGD/MGI nº 86, de 25 de julho de 2025), que regulamenta os requisitos e procedimentos para aprovação de contratações ou de formação de atas de registro de preços, a serem efetuados por órgãos e entidades integrantes do SISP, relativos a bens e serviços de tecnologia da informação e comunicação – TIC, o seu órgão (autodiagnóstico SISP, conhece_utiliza) | Escada prática com igovsisp/G502CTI (normativos sucessivos da mesma política de contratações; retido G502CTI) (caso 5.6) |
-| `estadic/ESTADIC_ORCAM_LOCAL` | ESTADIC/IBGE | Local de disponibilização de informações orçamentárias (página na internet, portal transparência, outro website) | Escada prática com estadic/ESTADIC_ORCAM_TEMPO_REAL (publicar × publicar em tempo real; retido o mais exigente) (caso 5.7) |
-| `tic_saude/B0` | TIC Saúde | Neste estabelecimento, existe um sistema eletrônico para registro das informações dos pacientes? (C1_1 questionário) | Escada prática com tic_saude/B1 (ter sistema × manter só em meio eletrônico; retido o mais exigente) (caso 5.8) |
-| `munic/MUNIC_PROTOCOLO_APP` | MUNIC/IBGE | A prefeitura permite abertura de solicitação/protocolo por aplicativo? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
-| `munic/MUNIC_PROTOCOLO_REDES` | MUNIC/IBGE | A prefeitura permite abertura de solicitação/protocolo por redes sociais? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
-| `munic/MUNIC_PROTOCOLO_TELEFONE` | MUNIC/IBGE | A prefeitura permite abertura de solicitação/protocolo por telefone? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
-| `munic/MUNIC_PROTOCOLO_WEBSITE` | MUNIC/IBGE | A prefeitura permite abertura de solicitação/protocolo pelo website? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
-| `munic/MUNIC_ACAO_CURSOS` | MUNIC/IBGE | A prefeitura oferece cursos de informática para a população? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
-| `munic/MUNIC_ACAO_PC_ESCOLAS` | MUNIC/IBGE | A prefeitura disponibiliza computadores em escolas públicas com acesso à internet? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
-| `munic/MUNIC_ACAO_QUIOSQUE` | MUNIC/IBGE | A prefeitura disponibiliza quiosque ou balcão informatizado? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
-| `munic/MUNIC_ACAO_TELECENTRO` | MUNIC/IBGE | A prefeitura disponibiliza acesso público gratuito à Internet (telecentro)? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
-| `munic/MUNIC_ACAO_WIFI_ESCOLAS` | MUNIC/IBGE | A prefeitura disponibiliza Wi-Fi em escolas públicas? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
-| `tic_gov/H3C` | TIC Governo Eletrônico | O órgão utilizou inteligência artificial generativa (IA generativa)? | Aprofundamento do geral tic_gov/H3 (IA generativa é detalhe do uso de IA; retido o geral) (caso 6.4) |
-| `munic/MUNIC_PARTICIP_CONSULTA` | MUNIC/IBGE | A prefeitura disponibilizou consulta pública online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
-| `munic/MUNIC_PARTICIP_ENQUETE` | MUNIC/IBGE | A prefeitura disponibilizou enquete online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
-| `munic/MUNIC_PARTICIP_FORUM` | MUNIC/IBGE | A prefeitura disponibilizou fóruns de discussão online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
-| `munic/MUNIC_PARTICIP_VOTACAO` | MUNIC/IBGE | A prefeitura disponibilizou votação online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
-| `iospd/IOSPD_III05` | IOSPD/ABEP-TIC | Princípios para Governo Digital e Eficiência Pública foram normatizados pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I10 (priorizado o funcionamento) (caso 7.1) |
-| `iospd/IOSPD_III03` | IOSPD/ABEP-TIC | O funcionamento do Portal Único/Portal de Serviços foi regulamentado pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I01 (priorizado o funcionamento) (caso 7.2) |
-| `iospd/IOSPD_III04` | IOSPD/ABEP-TIC | O uso de assinaturas eletrônicas em interações com entes públicos foi normatizado pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I09 (priorizado o funcionamento) (caso 7.3) |
-| `igovsisp/G106GPF` | iGovSISP/SGD | iGovSISP: O órgão possui formas ou mecanismos para monitorar as ações do PDTIC vigente? (autodiagnóstico SISP, sim_nao) | Ângulo do acompanhamento do PDTIC absorvido por igovsisp/G106GPS (grau de execução) (caso 8.2) |
-| `igovsisp/G106GPJ` | iGovSISP/SGD | iGovSISP: O CGD acompanhou a execução de ações e contratações do Plano de Metas, inclusive resultados intermediários e efetivo atendimento das necessidades priorizadas no PDTIC? (autodiagnóstico SISP, sim_nao) | Ângulo do acompanhamento do PDTIC absorvido por igovsisp/G106GPS (grau de execução) (caso 8.2) |
-| `igovsisp/G106GPK` | iGovSISP/SGD | iGovSISP: O CGD aprovou e acompanhou o plano de monitoramento, avaliação, relatório de acompanhamento e relatório de resultados do PDTIC? (autodiagnóstico SISP, sim_nao) | Ângulo do acompanhamento do PDTIC absorvido por igovsisp/G106GPS (grau de execução) (caso 8.2) |
-| `iospd/IOSPD_I13` | IOSPD/ABEP-TIC | Possui Portal específico para a disponibilização de Dados Abertos? | Mesmo objeto de estadic/ESTADIC_PORTAL_TRANSP na visão Estadual (retido o ESTADIC, mais geral) (caso 8.3) |
-| `tic_cultura/D5A` | TIC Cultura | Por quais canais a instituição cultural disponibiliza seu acervo digital? (B5 questionário) | Par empírico r_niv=+0,98 com tic_cultura/D8 ('remover ambas') e sobreposição com D4B (anotação redundancia-candidatos, caso 9.8) |
-| `pnad_tic/V4091` | PNAD TIC | Nos últimos 3 meses, o(a) sr(a) utilizou a Internet? (PNAD Contínua TIC, IBGE) | Par empírico r_niv=+0,99 com pnad_tic/V4080 (retida a medida domiciliar) (anotação redundancia-candidatos) |
-| `tic_cultura/B5` | TIC Cultura | A instituição cultural utiliza a Internet? (A9 questionário) | Par empírico r_niv=+1,00 com tic_cultura/B10 (retido B10 por proximidade temática) (anotação redundancia-candidatos) |
-| `censo_escolar/TP_REDE_LOCAL` | Censo Escolar/INEP | A escola possui rede local sem fio (Wi-Fi)? (derivado de TP_REDE_LOCAL, Censo Escolar INEP) | Pares empíricos r_niv≥0,93 com IN_INTERNET_APRENDIZAGEM e tic_educacao/B1 ('remover wi-fi') (anotação redundancia-candidatos) |
-| `tic_educacao/B1` | TIC Educação | A escola possui computador de mesa, portátil ou tablet? (P10 questionário) | Redundância clara com censo_escolar/IN_COMPUTADOR (censo INEP retido) (seção 1) |
-| `tic_educacao/A1` | TIC Educação | A escola possui acesso à Internet? (P8 questionário) | Redundância clara com censo_escolar/IN_INTERNET (censo INEP retido) (seção 1) |
-| `tic_gov/F2A` | TIC Governo Eletrônico | A prefeitura possui centro de operações ou controle urbano? | Redundância clara com munic/MUNIC_SMART_CENTRO_CONTROLE (censo IBGE 2024 retido) (seção 1) |
-| `tic_gov/C7_B` | TIC Governo Eletrônico | A prefeitura oferece wi-fi em espaços públicos? (C7 item B) | Redundância clara com munic/MUNIC_WIFI_PUBLICO (censo IBGE 2024 retido) (seção 1) |
+| `igovsisp/G106GPM` | iGovSISP (SGD/MGI) | iGovSISP: O órgão estimou a quantidade ideal de pessoal por competência considerando as necessidades futuras ou menos urgentes e os fatores críticos de sucesso? (Guia do PDTIC do SISP, p. 85) (autodiagnóstico SISP, sim_nao) | Redundância clara com igovsisp/G106GPL: mesma bateria, respondente e objeto (dimensionamento de pessoal no PDTIC); GPL retida por maior granularidade (grupo 1.1) |
+| `igovsisp/G106GPA` | iGovSISP (SGD/MGI) | iGovSISP: A organização possui PDTIC vigente, nos termos da Portaria nº 778, de 4 de abril de 2019, formalmente instituído pelo Comitê de Governança Digital - CGD ou estrutura equivalente? (autodiagnóstico SISP, sim_nao) | Degrau lógico de igovsisp/G106GPE (publicar pressupõe possuir; retido o mais exigente) (caso 5.1) |
+| `munic/MUNIC_LAI_AUTORID_MONIT` | MUNIC (IBGE) | A legislação municipal da LAI prevê autoridade de monitoramento para sua implementação? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
+| `munic/MUNIC_LAI_ORGAO_CENTRAL` | MUNIC (IBGE) | A legislação municipal da LAI prevê órgão central de monitoramento das ações relativas ao acesso à informação pública? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
+| `munic/MUNIC_LAI_PRAZO_20D` | MUNIC (IBGE) | A legislação municipal da LAI estabelece prazo de atendimento de pedido de acesso à informação pública igual ou inferior a 20 dias corridos? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
+| `munic/MUNIC_LAI_RELATORIO` | MUNIC (IBGE) | A legislação municipal da LAI prevê a divulgação de relatório de monitoramento com informações estatísticas dos pedidos de acesso à informação pública? | Item de conteúdo da lei captada por munic/MUNIC_LAI_LEI (retido o mais geral) (caso 5.2) |
+| `tic_cultura/D8` | TIC Cultura (CETIC.br) | A instituição cultural possui catálogo online do acervo acessível ao público? (B7A questionário) | Degrau lógico de tic_cultura/D1 (catálogo online pressupõe acervo catalogado; retido o mais geral) e par empírico com D4B/D5A (caso 5.3) |
+| `censo_escolar/IN_BANDA_LARGA` | Censo Escolar (INEP) | A escola possui acesso à Internet por banda larga? (variável binária, Censo Escolar INEP) | Degrau lógico de censo_escolar/IN_INTERNET (banda larga pressupõe Internet; retido o mais geral) (caso 5.4) |
+| `igovsisp/G501CTI` | iGovSISP (SGD/MGI) | iGovSISP: Acerca da Instrução Normativa SGD/MGI nº 06, de 29 de março de 2023 (incluindo sua alteração pela Instrução Normativa SGD/MGI nº 86, de 25 de julho de 2025), que regulamenta os requisitos e procedimentos para aprovação de contratações ou de formação de atas de registro de preços, a serem efetuados por órgãos e entidades integrantes do SISP, relativos a bens e serviços de tecnologia da informação e comunicação – TIC, o seu órgão: (autodiagnóstico SISP, conhece_utiliza) | Escada prática com igovsisp/G502CTI (normativos sucessivos da mesma política de contratações; retido G502CTI) (caso 5.6) |
+| `estadic/ESTADIC_ORCAM_LOCAL` | ESTADIC (IBGE) | Local de disponibilização de informações orçamentárias (página na internet, portal transparência, outro website) | Escada prática com estadic/ESTADIC_ORCAM_TEMPO_REAL (publicar × publicar em tempo real; retido o mais exigente) (caso 5.7) |
+| `tic_saude/B0` | TIC Saúde (CETIC.br) | Neste estabelecimento, existe um sistema eletrônico para registro das informações dos pacientes? (C1_1 questionário) | Escada prática com tic_saude/B1 (ter sistema × manter só em meio eletrônico; retido o mais exigente) (caso 5.8) |
+| `munic/MUNIC_PROTOCOLO_APP` | MUNIC (IBGE) | A prefeitura permite abertura de solicitação/protocolo por aplicativo? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
+| `munic/MUNIC_PROTOCOLO_REDES` | MUNIC (IBGE) | A prefeitura permite abertura de solicitação/protocolo por redes sociais? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
+| `munic/MUNIC_PROTOCOLO_TELEFONE` | MUNIC (IBGE) | A prefeitura permite abertura de solicitação/protocolo por telefone? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
+| `munic/MUNIC_PROTOCOLO_WEBSITE` | MUNIC (IBGE) | A prefeitura permite abertura de solicitação/protocolo pelo website? | Canal específico do guarda-chuva munic/MUNIC_ATEND_DISTANCIA (retido o geral) (caso 6.2) |
+| `munic/MUNIC_ACAO_CURSOS` | MUNIC (IBGE) | A prefeitura oferece cursos de informática para a população? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
+| `munic/MUNIC_ACAO_PC_ESCOLAS` | MUNIC (IBGE) | A prefeitura disponibiliza computadores em escolas públicas com acesso à internet? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
+| `munic/MUNIC_ACAO_QUIOSQUE` | MUNIC (IBGE) | A prefeitura disponibiliza quiosque ou balcão informatizado? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
+| `munic/MUNIC_ACAO_TELECENTRO` | MUNIC (IBGE) | A prefeitura disponibiliza acesso público gratuito à Internet (telecentro)? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
+| `munic/MUNIC_ACAO_WIFI_ESCOLAS` | MUNIC (IBGE) | A prefeitura disponibiliza Wi-Fi em escolas públicas? | Ação específica do guarda-chuva munic/MUNIC_INCLUSAO_DIGITAL (retido o geral) (caso 6.3) |
+| `tic_gov/H3C` | TIC Governo Eletrônico (CETIC.br) | O órgão utilizou inteligência artificial generativa (IA generativa)? | Aprofundamento do geral tic_gov/H3 (IA generativa é detalhe do uso de IA; retido o geral) (caso 6.4) |
+| `munic/MUNIC_PARTICIP_CONSULTA` | MUNIC (IBGE) | A prefeitura disponibilizou consulta pública online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
+| `munic/MUNIC_PARTICIP_ENQUETE` | MUNIC (IBGE) | A prefeitura disponibilizou enquete online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
+| `munic/MUNIC_PARTICIP_FORUM` | MUNIC (IBGE) | A prefeitura disponibilizou fóruns de discussão online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
+| `munic/MUNIC_PARTICIP_VOTACAO` | MUNIC (IBGE) | A prefeitura disponibilizou votação online? | Item específico do guarda-chuva munic/MUNIC_PARTICIPACAO (retido o geral) (caso 6.5) |
+| `iospd/IOSPD_III05` | IOSPD (ABEP-TIC) | Princípios para Governo Digital e Eficiência Pública foram normatizados pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I10 (priorizado o funcionamento) (caso 7.1) |
+| `iospd/IOSPD_III03` | IOSPD (ABEP-TIC) | O funcionamento do Portal Único/Portal de Serviços foi regulamentado pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I01 (priorizado o funcionamento) (caso 7.2) |
+| `iospd/IOSPD_III04` | IOSPD (ABEP-TIC) | O uso de assinaturas eletrônicas em interações com entes públicos foi normatizado pelo Governo Estadual/Distrital? | Lado normatizado do par com iospd/IOSPD_I09 (priorizado o funcionamento) (caso 7.3) |
+| `iospd/IOSPD_I13` | IOSPD (ABEP-TIC) | Possui Portal específico para a disponibilização de Dados Abertos? | Mesmo objeto de estadic/ESTADIC_PORTAL_TRANSP na visão Estadual (retido o ESTADIC, mais geral) (caso 8.3) |
+| `tic_cultura/D5A` | TIC Cultura (CETIC.br) | Por quais canais a instituição cultural disponibiliza seu acervo digital? (B5 questionário) | Par empírico r_niv=+0,98 com tic_cultura/D8 ('remover ambas') e sobreposição com D4B (anotação redundancia-candidatos, caso 9.8) |
+| `pnad_tic/V4091` | PNAD Contínua TIC (IBGE) | Nos últimos 3 meses, o(a) sr(a) utilizou a Internet? (PNAD Contínua TIC, IBGE) | Par empírico r_niv=+0,99 com pnad_tic/V4080 (retida a medida domiciliar) (anotação redundancia-candidatos) |
+| `tic_cultura/B5` | TIC Cultura (CETIC.br) | A instituição cultural utiliza a Internet? (A9 questionário) | Par empírico r_niv=+1,00 com tic_cultura/B10 (retido B10 por proximidade temática) (anotação redundancia-candidatos) |
+| `censo_escolar/TP_REDE_LOCAL` | Censo Escolar (INEP) | A escola possui rede local sem fio (Wi-Fi)? (derivado de TP_REDE_LOCAL, Censo Escolar INEP) | Pares empíricos r_niv≥0,93 com IN_INTERNET_APRENDIZAGEM e tic_educacao/B1 ('remover wi-fi') (anotação redundancia-candidatos) |
+| `tic_educacao/B1` | TIC Educação (CETIC.br) | A escola possui computador de mesa, portátil ou tablet? (P10 questionário) | Redundância clara com censo_escolar/IN_COMPUTADOR (censo INEP retido) (seção 1) |
+| `tic_educacao/A1` | TIC Educação (CETIC.br) | A escola possui acesso à Internet? (P8 questionário) | Redundância clara com censo_escolar/IN_INTERNET (censo INEP retido) (seção 1) |
+| `tic_gov/F2A` | TIC Governo Eletrônico (CETIC.br) | A prefeitura possui centro de operações ou controle urbano? | Redundância clara com munic/MUNIC_SMART_CENTRO_CONTROLE (censo IBGE 2024 retido) (seção 1) |
+| `tic_gov/C7_B` | TIC Governo Eletrônico (CETIC.br) | A prefeitura oferece wi-fi em espaços públicos? (C7 item B) | Redundância clara com munic/MUNIC_WIFI_PUBLICO (censo IBGE 2024 retido) (seção 1) |
+
+### Identidade e pertinência das perguntas do iGovSISP
+
+A conferência do questionário oficial de 2025 fundamenta 14 novas exclusões editoriais. Outras quatro variáveis permanecem excluídas, mas por conteúdo sem vínculo substantivo demonstrado, não pelas relações de redundância antes atribuídas a elas. A procedência da primeira exclusão permanece histórica; esta tabela apresenta o fundamento vigente. Excluir do índice não apaga as observações da fonte.
+
+| Variável | Fonte | Pergunta | Fundamento |
+|---|---|---|---|
+| `igovsisp/G106GPF` | iGovSISP (SGD/MGI) | iGovSISP: O órgão possui formas ou mecanismos para monitorar as ações do PDTIC vigente? (autodiagnóstico SISP, sim_nao) | Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano. |
+| `igovsisp/G106GPJ` | iGovSISP (SGD/MGI) | iGovSISP: O CGD acompanhou a execução de ações e contratações do Plano de Metas e Ações, inclusive quanto a resultados intermediários e efetivo atendimento das necessidades priorizadas no PDTIC? (autodiagnóstico SISP, sim_nao) | Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano. |
+| `igovsisp/G106GPK` | iGovSISP (SGD/MGI) | iGovSISP: O CGD aprovou e acompanhou o plano de monitoramento, o plano de avaliação, o relatório de acompanhamento e o relatório de resultados do PDTIC? (autodiagnóstico SISP, sim_nao) | Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano. |
+| `igovsisp/G106GPS` | iGovSISP (SGD/MGI) | iGovSISP: Em conformidade com a Estratégia Federal de Governo Digital (Decreto nº 12.198/2024), que exige a inclusão de ações de acessibilidade no Plano de Transformação Digital (PTD), o PDTIC do órgão ou seu PTD equivalente estabelece metas formais, com indicadores e prazos definidos, para assegurar a plena acessibilidade de seus portais, aplicativos e demais serviços digitais? (autodiagnóstico SISP, ordinal_maturidade) | Universo condicionado à existência de PDTIC: 202 respostas entre 234 órgãos, ou 86,32%, abaixo do piso de 90%. A pergunta mede metas e acompanhamento da acessibilidade digital. Os 32 casos não mostrados não são ausência de adoção. O filtro é sustentado pelo contexto e pelas contagens oficiais, sem acesso à programação do salto. |
+| `igovsisp/G201SPD` | iGovSISP (SGD/MGI) | iGovSISP: Como você avaliaria o nível de documentação e padronização nos processos de desenvolvimento de sistemas em seu órgão? (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G202SPD` | iGovSISP (SGD/MGI) | iGovSISP: Quais métodos de gerenciamento de projetos são utilizados em seu órgão para o desenvolvimento de sistemas? (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G203SPD` | iGovSISP (SGD/MGI) | iGovSISP: Como o seu órgão lida com testes de qualidade e garantia de qualidade no desenvolvimento de sistemas? (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G209SPD` | iGovSISP (SGD/MGI) | iGovSISP: Como você descreveria o nível de maturidade do seu órgão, quanto ao desenvolvimento de sistemas e entrega de serviços, no cumprimento dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU? (autodiagnóstico SISP, ordinal_maturidade) | Alinhamento genérico aos ODS, sem identificação de capacidade ou resultado de governo digital nas alternativas. |
+| `igovsisp/G210SPD` | iGovSISP (SGD/MGI) | iGovSISP: O órgão adota alguma metodologia de desenvolvimento de software? (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G211SPD` | iGovSISP (SGD/MGI) | iGovSISP: Quanto ao uso de ferramentas automatizadas para verificação da qualidade do código, o órgão: (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G212SPD` | iGovSISP (SGD/MGI) | iGovSISP: Quanto ao uso de ferramentas automatizadas para realização de testes, o órgão: (autodiagnóstico SISP, ordinal_maturidade) | Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G215SPD` | iGovSISP (SGD/MGI) | iGovSISP: O órgão coleta regularmente feedback dos usuários para melhorar a experiência. (autodiagnóstico SISP, likert) | Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais. |
+| `igovsisp/G217SPD` | iGovSISP (SGD/MGI) | iGovSISP: Os usuários recebem treinamento e suporte adequados para utilizar os sistemas de TI. (autodiagnóstico SISP, likert) | Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais. |
+| `igovsisp/G219SPD` | iGovSISP (SGD/MGI) | iGovSISP: O órgão busca constantemente maneiras de melhorar a experiência do usuário nos sistemas e serviços de TI. (autodiagnóstico SISP, likert) | Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais. |
+| `igovsisp/G220SPD` | iGovSISP (SGD/MGI) | iGovSISP: No órgão, existem equipes dedicadas ao desenho da jornada do cliente e entendimento adequado para UX (User Experience) e UI (User Interface)? (autodiagnóstico SISP, ordinal_maturidade) | Organização de equipes de jornada, UX e UI sem distinção de serviços públicos digitais; não demonstra vínculo substantivo com a capacidade de governo digital medida. |
+| `igovsisp/G221SPD` | iGovSISP (SGD/MGI) | iGovSISP: O órgão possui um repositório centralizado ou catálogo de aplicações corporativas (Gestão de Portfólio de Aplicações (Application Portfolio Management – APM))? (autodiagnóstico SISP, ordinal_maturidade) | Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G223SPD` | iGovSISP (SGD/MGI) | iGovSISP: Como está o processo de modernização de aplicações legadas? (autodiagnóstico SISP, ordinal_maturidade) | Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
+| `igovsisp/G629IPD` | iGovSISP (SGD/MGI) | iGovSISP: Especificamente quanto ao nível de conhecimento e aplicabilidade sobre o Design System (Padrão Digital de Governo - gov.br/ds), o seu órgão: (autodiagnóstico SISP, ordinal_maturidade) | Conhecimento e adoção do Design System gov.br não demonstram, por si, qualidade ou capacidade substantiva de governo digital. |
 
 ## A.2 Variáveis excluídas do índice estadual
 
@@ -217,22 +238,22 @@ Das 53 variáveis ESTADIC catalogadas, 25 foram excluídas e 28 permanecem ativa
 |---|-------------|--------------------|--------------------| ---------|---------------|
 | 1 | Etic07 | ESTADIC_PESSOAL_TI_VINCULO | Composição de pessoal da área de TI por vínculo | (vii) | Detalhe operacional de RH |
 | 2 | Etic18 | ESTADIC_INCLUSAO_PARCERIAS | Parcerias para programas de inclusão/educação digital | (i) | Detalhe de implementação; programa captado por Etic17 |
-| 3 | Etic30 | ESTADIC_PESSOAL_COMUNICACAO | Composição de pessoal da área de comunicação por vínculo | (iii)+(vii) | Fora do escopo e detalhe operacional |
-| 4 | Etic31 | ESTADIC_CARREIRA_COMUNICACAO | Carreira ou cargo específico de comunicação social | (iii) | Fora do escopo ENGD |
+| 3 | Etic30 | ESTADIC_PESSOAL_COMUNICACAO | Composição de pessoal da área de comunicação por vínculo | (iii)+(vii) | Vínculo de pessoal descreve estrutura administrativa e detalhe de RH, não oferta ou integração de canais digitais |
+| 4 | Etic31 | ESTADIC_CARREIRA_COMUNICACAO | Carreira ou cargo específico de comunicação social | (iii) | Carreira de comunicação descreve estrutura administrativa, não oferta ou integração de canais digitais |
 | 5 | Etic32 | ESTADIC_FUNCOES_COMUNICACAO | Funções da área de comunicação | (iii) | Mede funções de comunicação, não governo digital |
-| 6 | Etic331 | ESTADIC_SERVICOS_COMUNICACAO | Serviços de comunicação contratados por licitação | (iii)+(vii) | Fora do escopo e detalhe de contratação |
+| 6 | Etic331 | ESTADIC_SERVICOS_COMUNICACAO | Serviços de comunicação contratados por licitação | (iii)+(vii) | Mede contratação, não oferta ou integração dos canais; os serviços podem ser executados internamente |
 | 7 | Etic33 | ESTADIC_LICITACAO_COMUNICACAO | Licitações para contratar serviços de comunicação | (vii) | Detalhe operacional |
 | 8 | Etic34 | ESTADIC_MODALIDADES_LICITACAO_COM | Modalidades de licitação para serviços de comunicação | (i)+(vii) | Detalhe técnico de modalidade licitatória |
 | 9 | Etic36 | ESTADIC_ORCAMENTO_COMUNICACAO | Finalidades do orçamento destinado a comunicação | (vii) | Política interna de alocação orçamentária |
 | 10 | Egov012 | ESTADIC_LAI_LOCAL_PUBLICACAO | Local de publicação da legislação LAI | (i) | Detalhe irrelevante (apenas 2 sub-itens) |
 | 11 | Egov11 | ESTADIC_CTRL_INT_SECRETARIA | Secretaria associada ao controle interno | (vii) | Vinculação administrativa |
-| 12 | Egov17 | ESTADIC_CTRL_INT_CARREIRA | Carreira específica de auditor/controlador interno | (iii) | Fora do escopo de governo digital |
-| 13 | Egov18 | ESTADIC_CTRL_INT_AREAS | Áreas de atuação do controle interno | (iii) | Controle interno genérico |
-| 14 | Egov19 | ESTADIC_CTRL_INT_FUNCOES | Funções do sistema de controle interno | (iii) | Funções genéricas |
-| 15 | Egov20 | ESTADIC_CTRL_INT_TEMPORAL | Características temporais das ações de controle interno | (iii)+(vii) | Fora do escopo e detalhe operacional |
-| 16 | Egov21 | ESTADIC_CTRL_INT_IRREGULARIDADES | Comunicação de irregularidades pelo controle interno | (iii) | Fora do escopo ENGD |
-| 17 | Egov22 | ESTADIC_CTRL_INT_PROCESSOS | Processos administrativos originados no controle interno | (iii) | Fora do escopo ENGD |
-| 18 | Egov25 | ESTADIC_CTRL_INT_OCORRENCIAS | Ocorrências originadas no controle interno | (iii) | Fora do escopo ENGD |
+| 12 | Egov17 | ESTADIC_CTRL_INT_CARREIRA | Carreira específica de auditor/controlador interno | (iii) | Carreira do controle interno genérico, não capacidade de governo digital |
+| 13 | Egov18 | ESTADIC_CTRL_INT_AREAS | Áreas de atuação do controle interno | (iii) | Áreas do controle interno genérico, não prestação de serviços digitais |
+| 14 | Egov19 | ESTADIC_CTRL_INT_FUNCOES | Funções do sistema de controle interno | (iii) | Funções de controle interno genérico, não segurança da informação |
+| 15 | Egov20 | ESTADIC_CTRL_INT_TEMPORAL | Características temporais das ações de controle interno | (iii)+(vii) | Temporalidade do controle interno genérico, detalhe operacional que não mede governo digital |
+| 16 | Egov21 | ESTADIC_CTRL_INT_IRREGULARIDADES | Comunicação de irregularidades pelo controle interno | (iii) | Comunicação de irregularidades a órgãos de controle, não prestação de serviços digitais |
+| 17 | Egov22 | ESTADIC_CTRL_INT_PROCESSOS | Processos administrativos originados no controle interno | (iii) | Instauração de processos disciplinares e de responsabilização, não tramitação eletrônica |
+| 18 | Egov25 | ESTADIC_CTRL_INT_OCORRENCIAS | Ocorrências originadas no controle interno | (iii) | Sanções e ressarcimentos do controle interno genérico, não capacidade de governo digital |
 | 19 | Egov27 | ESTADIC_CONSELHO_CARATER | Caráter do conselho de transparência | (vii) | Detalhe operacional do formato |
 | 20 | Egov30 | ESTADIC_CONSELHO_CAPACITACAO | Capacitação dos membros do conselho de transparência | (i)+(vii) | Detalhe de implementação |
 | 21 | Egov311 | ESTADIC_CONSELHO_INFRA | Infraestrutura disponibilizada para o conselho | (vii) | Detalhe operacional de infraestrutura física |
@@ -247,14 +268,14 @@ O recorte estadual exclui integralmente as fontes cujos dados por UF medem outro
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | ABEP-TIC | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores, dos quais 48 seguem ativos no índice |
-| IOSPD_DIM1 | ABEP-TIC | Dimensão Capacidades (compósito I.1-I.13) | Compósito, desagregado individualmente |
-| IOSPD_DIM2 | ABEP-TIC | Dimensão Serviços (compósito II.1-II.12) | Compósito, desagregado individualmente |
-| IOSPD_DIM3 | ABEP-TIC | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito, desagregado individualmente |
-| IOSPD_DIM4 | ABEP-TIC | Dimensão Linguagem Simples (compósito IV.1-IV.9) | Compósito, desagregado individualmente |
-| IOSPD_DIM5 | ABEP-TIC | Dimensão Inovação (compósito V.1-V.9) | Compósito, desagregado individualmente |
-| IOSPD_I02 | ABEP-TIC | Percentual de uso da plataforma única (I.2) | Saturado em zero |
-| IOSPD_III01 | ABEP-TIC | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
+| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores, dos quais 48 seguem ativos no índice |
+| IOSPD_DIM1 | IOSPD (ABEP-TIC) | Dimensão Capacidades (compósito I.1-I.13) | Compósito, desagregado individualmente |
+| IOSPD_DIM2 | IOSPD (ABEP-TIC) | Dimensão Serviços (compósito II.1-II.12) | Compósito, desagregado individualmente |
+| IOSPD_DIM3 | IOSPD (ABEP-TIC) | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito, desagregado individualmente |
+| IOSPD_DIM4 | IOSPD (ABEP-TIC) | Dimensão Linguagem Simples (compósito IV.1-IV.9) | Compósito, desagregado individualmente |
+| IOSPD_DIM5 | IOSPD (ABEP-TIC) | Dimensão Inovação (compósito V.1-V.9) | Compósito, desagregado individualmente |
+| IOSPD_I02 | IOSPD (ABEP-TIC) | Percentual de uso da plataforma única (I.2) | Saturado em zero |
+| IOSPD_III01 | IOSPD (ABEP-TIC) | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
 
 ---
 
