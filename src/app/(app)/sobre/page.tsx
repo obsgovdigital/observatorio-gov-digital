@@ -34,12 +34,12 @@ function renderParagraph(text: string) {
 
 const partners = [
   {
-    src: '/logos/mgi.png',
-    alt: 'Ministério da Gestão e da Inovação em Serviços Públicos',
-    width: 2377,
-    height: 479,
-    size: 'h-12 sm:h-16',
-    href: 'https://www.gov.br/gestao/pt-br',
+    src: '/logos/insper.png',
+    alt: 'Insper — Centro de Gestão e Políticas Públicas',
+    width: 280,
+    height: 52,
+    size: 'h-10 sm:h-12',
+    href: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
   },
   {
     src: '/logos/mbc.png',
@@ -50,12 +50,12 @@ const partners = [
     href: 'https://www.mbc.org.br/',
   },
   {
-    src: '/logos/insper.png',
-    alt: 'Insper — Centro de Gestão e Políticas Públicas',
-    width: 280,
-    height: 52,
-    size: 'h-10 sm:h-12',
-    href: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
+    src: '/logos/mgi.png',
+    alt: 'Ministério da Gestão e da Inovação em Serviços Públicos',
+    width: 2377,
+    height: 479,
+    size: 'h-12 sm:h-16',
+    href: 'https://www.gov.br/gestao/pt-br',
   },
 ]
 
@@ -75,10 +75,10 @@ const partnerIntro =
 
 const partnerDetails = [
   {
-    name: 'Ministério da Gestão e da Inovação em Serviços Públicos (MGI)',
-    url: 'https://www.gov.br/gestao/pt-br',
+    name: 'Insper – Centro de Gestão e Políticas Públicas (CGPP)',
+    url: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
     description:
-      'Órgão responsável pela coordenação das políticas de transformação digital do Governo Federal e pela Estratégia Nacional de Governo Digital.',
+      'Parceiro técnico e acadêmico responsável pelo desenvolvimento metodológico, produção das pesquisas, definição dos indicadores e implementação da plataforma do Observatório. O CGPP atua na formação de líderes públicos e na produção de conhecimento voltado ao desenho, implementação e avaliação de políticas públicas baseadas em evidências.',
   },
   {
     name: 'Movimento Brasil Competitivo (MBC)',
@@ -87,10 +87,10 @@ const partnerDetails = [
       'Organização dedicada à promoção da eficiência, inovação e melhoria da gestão pública e da competitividade do país.',
   },
   {
-    name: 'Insper – Centro de Gestão e Políticas Públicas (CGPP)',
-    url: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
+    name: 'Ministério da Gestão e da Inovação em Serviços Públicos (MGI)',
+    url: 'https://www.gov.br/gestao/pt-br',
     description:
-      'Parceiro técnico e acadêmico responsável pelo desenvolvimento metodológico, produção das pesquisas, definição dos indicadores e implementação da plataforma do Observatório. O CGPP atua na formação de líderes públicos e na produção de conhecimento voltado ao desenho, implementação e avaliação de políticas públicas baseadas em evidências.',
+      'Órgão responsável pela coordenação das políticas de transformação digital do Governo Federal e pela Estratégia Nacional de Governo Digital.',
   },
 ]
 
