@@ -63,9 +63,12 @@ function primeiroObjetivoComNota(entes: Ente[]): string {
 export function VisualPerfil({
   entes,
   medias,
+  listaTitulo = 'Estados',
 }: {
   entes: Ente[]
   medias: (number | null)[]
+  /** Rótulo da lista (Estados, Municípios ou o nome do ente federal). */
+  listaTitulo?: string
 }) {
   const tituloListaId = useId()
   const [selecionados, setSelecionados] = useState<string[]>([
@@ -91,6 +94,7 @@ export function VisualPerfil({
     .map(slug => entes.find(e => e.slug === slug))
     .filter((e): e is Ente => Boolean(e))
   const limiteAtingido = selecionados.length >= MAX_SELECIONADOS
+  const mostrarMedia = entes.length > 1
 
   const radarFonte =
     entes[0]?.objetivos ??
@@ -115,12 +119,16 @@ export function VisualPerfil({
       ),
       fillOpacity: 0.2,
     })),
-    {
-      nome: 'Média do nível',
-      cor: COR_MEDIA,
-      valores: filtrarValoresPorIndices(medias, indicesAtivos),
-      fillOpacity: 0.12,
-    },
+    ...(mostrarMedia
+      ? [
+          {
+            nome: 'Média do nível',
+            cor: COR_MEDIA,
+            valores: filtrarValoresPorIndices(medias, indicesAtivos),
+            fillOpacity: 0.12,
+          },
+        ]
+      : []),
   ]
 
   return (
@@ -130,7 +138,7 @@ export function VisualPerfil({
           id={tituloListaId}
           className="px-2 font-medium text-muted-foreground text-xs lg:text-sm"
         >
-          Estados
+          {listaTitulo}
         </p>
         <ul
           aria-labelledby={tituloListaId}

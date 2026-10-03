@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { getHomeData } from '@/components/home/home-data'
-import { VisualPerfil } from '@/components/home/home-feature-visuals'
+import { HomeExplorar } from '@/components/home/home-explorar'
 import { HomePorqueExiste } from '@/components/home/home-porque-existe'
 import { PesoVariavel } from '@/components/home/peso-variavel'
 import { PixelCanvas } from '@/components/home/pixel-canvas'
@@ -73,7 +73,7 @@ const publicos = [
 export async function HomeV1Page() {
   await resolvePlatformVariant()
   const link = await variantLink()
-  const { estadual, mediasEstadual, parceiros, numeros } = getHomeData()
+  const { parceiros, numeros } = getHomeData()
 
   const recortes = [
     {
@@ -87,17 +87,6 @@ export async function HomeV1Page() {
     {
       titulo: 'Municípios',
       texto: `Os ${numeros.municipios} municípios com 100 mil habitantes ou mais, incluindo as capitais.`,
-    },
-  ]
-
-  const recursos = [
-    {
-      eyebrow: 'Explore os dados',
-      titulo: 'Como está o governo digital no Brasil?',
-      texto:
-        'Selecione uma dimensão e uma localidade para explorar indicadores e comparar diferentes contextos.',
-      cta: { label: 'Explorar indicadores', href: link('/indicadores') },
-      visual: <VisualPerfil entes={estadual.entes} medias={mediasEstadual} />,
     },
   ]
 
@@ -193,44 +182,7 @@ export async function HomeV1Page() {
 
       {/* Explore os dados */}
       <div className="overflow-hidden">
-        {recursos.map((r, i) => (
-          <div
-            key={r.titulo}
-            className={cn(
-              'grid gap-8 px-6 py-20 sm:px-10 lg:min-h-[28rem] lg:grid-cols-3 lg:gap-0',
-              i > 0 && 'border-t'
-            )}
-          >
-            <div className="lg:pr-10">
-              {'eyebrow' in r && r.eyebrow ? (
-                <span className="block font-medium text-muted-foreground text-sm">
-                  {r.eyebrow}
-                </span>
-              ) : null}
-              <h2
-                className={cn(
-                  'font-bold text-2xl text-foreground leading-tight tracking-tight sm:text-3xl',
-                  'eyebrow' in r && r.eyebrow ? 'mt-3' : undefined
-                )}
-              >
-                {r.titulo}
-              </h2>
-              <p className="mt-4 max-w-sm text-muted-foreground text-sm leading-relaxed sm:text-base">
-                {r.texto}
-              </p>
-              <Link
-                href={r.cta.href}
-                className="mt-5 inline-block font-medium text-primary text-sm transition-opacity hover:opacity-70"
-              >
-                {r.cta.label}
-              </Link>
-            </div>
-
-            <div className="flex items-start justify-center lg:col-span-2 lg:dash-l lg:pr-6 lg:pl-8">
-              {r.visual}
-            </div>
-          </div>
-        ))}
+        <HomeExplorar indicadoresHref={link('/indicadores')} />
       </div>
 
       <div aria-hidden="true" className="h-px bg-border" />
