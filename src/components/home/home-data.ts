@@ -27,12 +27,12 @@ export type Parceiro = {
 
 export const parceiros: Parceiro[] = [
   {
-    src: '/logos/mgi.png',
-    alt: 'Ministério da Gestão e da Inovação em Serviços Públicos',
-    width: 2377,
-    height: 479,
-    size: 'h-12 sm:h-16',
-    href: 'https://www.gov.br/gestao/pt-br',
+    src: '/logos/insper.png',
+    alt: 'Insper — Centro de Gestão e Políticas Públicas',
+    width: 280,
+    height: 52,
+    size: 'h-8 sm:h-10',
+    href: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
   },
   {
     src: '/logos/mbc.png',
@@ -43,12 +43,12 @@ export const parceiros: Parceiro[] = [
     href: 'https://www.mbc.org.br/',
   },
   {
-    src: '/logos/insper.png',
-    alt: 'Insper — Centro de Gestão e Políticas Públicas',
-    width: 280,
-    height: 52,
-    size: 'h-8 sm:h-10',
-    href: 'https://www.insper.edu.br/pesquisa-e-conhecimento/centro-de-gestao-e-politicas-publicas/',
+    src: '/logos/mgi.png',
+    alt: 'Ministério da Gestão e da Inovação em Serviços Públicos',
+    width: 2377,
+    height: 479,
+    size: 'h-12 sm:h-16',
+    href: 'https://www.gov.br/gestao/pt-br',
   },
 ]
 

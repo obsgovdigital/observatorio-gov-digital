@@ -2,10 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { getHomeData } from '@/components/home/home-data'
-import {
-  VisualDados,
-  VisualPerfil,
-} from '@/components/home/home-feature-visuals'
+import { VisualPerfil } from '@/components/home/home-feature-visuals'
 import { HomePorqueExiste } from '@/components/home/home-porque-existe'
 import { PesoVariavel } from '@/components/home/peso-variavel'
 import { PixelCanvas } from '@/components/home/pixel-canvas'
@@ -76,8 +73,7 @@ const publicos = [
 export async function HomeV1Page() {
   await resolvePlatformVariant()
   const link = await variantLink()
-  const { estadual, mediasEstadual, variaveisDestaque, parceiros } =
-    getHomeData()
+  const { estadual, mediasEstadual, parceiros } = getHomeData()
 
   const recursos = [
     {
@@ -87,22 +83,6 @@ export async function HomeV1Page() {
         'Selecione uma dimensão e uma localidade para explorar indicadores e comparar diferentes contextos.',
       cta: { label: 'Explorar indicadores', href: link('/indicadores') },
       visual: <VisualPerfil entes={estadual.entes} medias={mediasEstadual} />,
-    },
-    {
-      titulo: 'Dados abertos e verificáveis',
-      texto:
-        'Cada variável traz a fonte oficial e o download do recorte usado no índice (valores normalizados do snapshot), com metodologia transparente.',
-      cta: { label: 'Ver metodologia', href: link('/metodologia') },
-      visual: (
-        <VisualDados
-          variaveis={variaveisDestaque.map(v => ({
-            slug: v.slug,
-            nome: v.nome,
-            fonte: v.fonte,
-            href: link(v.path),
-          }))}
-        />
-      ),
     },
   ]
 
@@ -196,7 +176,7 @@ export async function HomeV1Page() {
 
       <div aria-hidden="true" className="h-px bg-border" />
 
-      {/* Explore os dados + Dados abertos */}
+      {/* Explore os dados */}
       <div className="overflow-hidden">
         {recursos.map((r, i) => (
           <div
