@@ -73,7 +73,22 @@ const publicos = [
 export async function HomeV1Page() {
   await resolvePlatformVariant()
   const link = await variantLink()
-  const { estadual, mediasEstadual, parceiros } = getHomeData()
+  const { estadual, mediasEstadual, parceiros, numeros } = getHomeData()
+
+  const recortes = [
+    {
+      titulo: 'Governo federal',
+      texto: 'Recorte próprio do governo federal.',
+    },
+    {
+      titulo: 'Estados',
+      texto: `As ${numeros.estados} unidades da Federação.`,
+    },
+    {
+      titulo: 'Municípios',
+      texto: `Os ${numeros.municipios} municípios com 100 mil habitantes ou mais, incluindo as capitais.`,
+    },
+  ]
 
   const recursos = [
     {
@@ -216,6 +231,44 @@ export async function HomeV1Page() {
             </div>
           </div>
         ))}
+      </div>
+
+      <div aria-hidden="true" className="h-px bg-border" />
+
+      {/* Escopo */}
+      <div className="px-6 py-20 sm:px-10">
+        <span className="font-medium text-muted-foreground text-sm">
+          O escopo
+        </span>
+        <h2 className="mt-3 max-w-2xl font-bold text-2xl text-foreground leading-tight tracking-tight sm:text-3xl">
+          Federal, estados e municípios
+        </h2>
+        <p className="mt-4 max-w-2xl text-muted-foreground text-sm leading-relaxed sm:text-base">
+          O Observatório acompanha o desenvolvimento digital do governo federal,
+          das {numeros.estados} unidades da Federação e dos municípios com 100
+          mil habitantes ou mais.
+        </p>
+        <div className="dash-t -mx-6 mt-12 grid sm:-mx-10 sm:grid-cols-2 lg:grid-cols-3">
+          {recortes.map((item, i) => (
+            <div
+              key={item.titulo}
+              className={cn(
+                'dash-b flex flex-col gap-2 p-6 sm:p-8',
+                i < recortes.length - 1 && 'lg:dash-br'
+              )}
+            >
+              <h3 className="flex gap-3 font-medium text-primary text-sm tracking-tight">
+                <span className="text-muted-foreground">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                {item.titulo}
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                {item.texto}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div aria-hidden="true" className="h-px bg-border" />

@@ -64,6 +64,8 @@ function getNivelEstadual() {
 export type HomeNumeros = {
   /** Total de entes avaliados (federal + estados + municípios ≥100 mil). */
   entesTotal: number
+  /** Unidades da Federação cobertas. */
+  estados: number
   /** Municípios com 100 mil+ habitantes cobertos. */
   municipios: number
   /** Variáveis/indicadores ativos (exclui excluídos e saturados). */
@@ -107,6 +109,7 @@ export function getHomeData(): HomeData {
 
   const numeros: HomeNumeros = {
     entesTotal: niveis.reduce((total, nivel) => total + nivel.entes.length, 0),
+    estados: getNivel('estadual')?.entes.length ?? 0,
     municipios: getNivel('municipios')?.entes.length ?? 0,
     variaveis: indicadores.filter(i => i.status === 'ativo').length,
     objetivos: objectives.length,
