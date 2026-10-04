@@ -31,6 +31,12 @@ import {
   GLOSSARIO,
 } from '@/data/help-copy'
 import {
+  compararPorHabitantes,
+  formatHabitantes,
+  habitantesDoMunicipio,
+  NOTA_POPULACAO_CENSO,
+} from '@/data/ibge/populacao'
+import {
   type Ente,
   formatScore,
   mediasPorObjetivo,
@@ -261,6 +267,9 @@ export function IndicadoresExplorer({
   >(null)
   const [varsTagLoading, setVarsTagLoading] = React.useState(false)
   const [buscaEnte, setBuscaEnte] = React.useState('')
+  const [ordemEntes, setOrdemEntes] = React.useState<'nome' | 'habitantes'>(
+    'nome'
+  )
   const listaEntesRef = React.useRef<HTMLUListElement>(null)
   const [listaTemMaisAbaixo, setListaTemMaisAbaixo] = React.useState(false)
 
@@ -298,13 +307,19 @@ export function IndicadoresExplorer({
     Boolean(nivel?.isRanking) &&
     (nivelKey === 'municipios' ||
       (nivel?.entes.length ?? 0) > ENTE_BUSCA_LIMIAR)
+  const porHabitantes = nivelKey === 'municipios' && ordemEntes === 'habitantes'
   const entesVisiveis = nivel
-    ? nivel.entes.filter(
-        e =>
-          enteSlugs.includes(e.slug) ||
-          !mostrarBuscaEntes ||
-          entePassaBusca(e, buscaEnte)
-      )
+    ? nivel.entes
+        .filter(
+          e =>
+            enteSlugs.includes(e.slug) ||
+            !mostrarBuscaEntes ||
+            entePassaBusca(e, buscaEnte)
+        )
+        .slice()
+        .sort((a, b) =>
+          porHabitantes ? compararPorHabitantes(a.codigo, b.codigo) : 0
+        )
     : []
 
   const atualizarFadeLista = React.useCallback(() => {
@@ -432,8 +447,35 @@ export function IndicadoresExplorer({
                 )}
               </div>
               {mostrarBuscaEntes && (
-                <div className="mb-2 px-1">
-                  <EnteBusca value={buscaEnte} onChange={setBuscaEnte} />
+                <div className="mb-2 flex flex-col gap-2 px-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <div className="min-w-40 flex-1">
+                      <EnteBusca value={buscaEnte} onChange={setBuscaEnte} />
+                    </div>
+                    {nivelKey === 'municipios' && (
+                      <div className="flex shrink-0 gap-2">
+                        <FilterPill
+                          active={ordemEntes === 'nome'}
+                          onClick={() => setOrdemEntes('nome')}
+                          className="px-3 py-1.5 text-xs"
+                        >
+                          Nome
+                        </FilterPill>
+                        <FilterPill
+                          active={ordemEntes === 'habitantes'}
+                          onClick={() => setOrdemEntes('habitantes')}
+                          className="px-3 py-1.5 text-xs"
+                        >
+                          Habitantes
+                        </FilterPill>
+                      </div>
+                    )}
+                  </div>
+                  {porHabitantes && (
+                    <p className="text-muted-foreground text-xs">
+                      {NOTA_POPULACAO_CENSO}
+                    </p>
+                  )}
                 </div>
               )}
               <div className={cn(mostrarBuscaEntes && 'relative')}>
@@ -461,6 +503,9 @@ export function IndicadoresExplorer({
                     const bloqueado =
                       !isActive && enteSlugs.length >= MAX_ENTES_COMPARATIVO
                     const valor = selecaoAtiva ? valorEnte(e) : null
+                    const habitantes = porHabitantes
+                      ? habitantesDoMunicipio(e.codigo)
+                      : null
                     return (
                       <li key={e.slug}>
                         <button
@@ -495,6 +540,13 @@ export function IndicadoresExplorer({
                               </span>
                             )}
                           </span>
+                          {porHabitantes && (
+                            <span className="shrink-0 text-muted-foreground text-xs tabular-nums">
+                              {habitantes != null
+                                ? formatHabitantes(habitantes)
+                                : '—'}
+                            </span>
+                          )}
                           {valor != null && (
                             <span className="shrink-0 text-muted-foreground text-xs tabular-nums">
                               {formatScore(valor)}

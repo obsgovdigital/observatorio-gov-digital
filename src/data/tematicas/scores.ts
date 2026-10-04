@@ -17,6 +17,7 @@ export function rankingTematico(
 ): {
   slug: string
   nome: string
+  codigo: string
   ufSigla: string | null
   valor: number
   posicao: number
@@ -26,7 +27,13 @@ export function rankingTematico(
       const valor = notaTematica(e, tagSlug)
       return valor == null
         ? null
-        : { slug: e.slug, nome: e.nome, ufSigla: e.ufSigla, valor }
+        : {
+            slug: e.slug,
+            nome: e.nome,
+            codigo: e.codigo,
+            ufSigla: e.ufSigla,
+            valor,
+          }
     })
     .filter(
       (
@@ -34,6 +41,7 @@ export function rankingTematico(
       ): x is {
         slug: string
         nome: string
+        codigo: string
         ufSigla: string | null
         valor: number
       } => x !== null

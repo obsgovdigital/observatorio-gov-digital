@@ -5,14 +5,24 @@ import * as React from 'react'
 
 import { BandeiraEnte } from '@/components/shared/bandeira-ente'
 import { EnteBusca } from '@/components/shared/ente-busca'
+import { FilterPill } from '@/components/shared/filter-pill'
 import { InfoTip } from '@/components/shared/info-tip'
+import {
+  compararPorHabitantes,
+  formatHabitantes,
+  habitantesDoMunicipio,
+  NOTA_POPULACAO_CENSO,
+} from '@/data/ibge/populacao'
 import { formatScore, type NivelKey } from '@/data/indicators'
 import { ENTE_BUSCA_LIMIAR, entePassaBusca } from '@/lib/ente-busca'
 import { bandeiraSrc } from '@/lib/geo/entes-geo'
 
+type OrdemLista = 'indice' | 'habitantes'
+
 type EnteRankingItem = {
   slug: string
   nome: string
+  codigo?: string | null
   ufSigla?: string | null
   valorPrincipal: number
   valorSecundario?: number | null
@@ -41,11 +51,16 @@ export function EnteRankingList({
   hrefQuery,
 }: EnteRankingListProps) {
   const [busca, setBusca] = React.useState('')
+  const [ordem, setOrdem] = React.useState<OrdemLista>('indice')
   const mostrarBusca =
     nivelKey === 'municipios' || entes.length > ENTE_BUSCA_LIMIAR
-  const filtrados = mostrarBusca
-    ? entes.filter(e => entePassaBusca(e, busca))
-    : entes
+  const porHabitantes = nivelKey === 'municipios' && ordem === 'habitantes'
+  const filtrados = (
+    mostrarBusca ? entes.filter(e => entePassaBusca(e, busca)) : entes
+  ).slice()
+  if (porHabitantes) {
+    filtrados.sort((a, b) => compararPorHabitantes(a.codigo, b.codigo))
+  }
   const mostrarUf = nivelKey === 'municipios'
   const padPosicao = Math.max(
     2,
@@ -56,12 +71,37 @@ export function EnteRankingList({
   return (
     <div>
       {mostrarBusca && (
-        <div className="mb-4">
-          <EnteBusca value={busca} onChange={setBusca} />
+        <div className="mb-4 flex flex-col gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="min-w-48 flex-1">
+              <EnteBusca value={busca} onChange={setBusca} />
+            </div>
+            {nivelKey === 'municipios' && (
+              <div className="flex shrink-0 gap-2">
+                <FilterPill
+                  active={ordem === 'indice'}
+                  onClick={() => setOrdem('indice')}
+                  className="px-3 py-1.5 text-xs"
+                >
+                  Índice
+                </FilterPill>
+                <FilterPill
+                  active={ordem === 'habitantes'}
+                  onClick={() => setOrdem('habitantes')}
+                  className="px-3 py-1.5 text-xs"
+                >
+                  Habitantes
+                </FilterPill>
+              </div>
+            )}
+          </div>
           {busca.trim() && (
-            <p className="mt-2 text-muted-foreground text-xs">
+            <p className="text-muted-foreground text-xs">
               {filtrados.length} de {entes.length} entes
             </p>
+          )}
+          {porHabitantes && (
+            <p className="text-muted-foreground text-xs">{NOTA_POPULACAO_CENSO}</p>
           )}
         </div>
       )}
@@ -69,6 +109,9 @@ export function EnteRankingList({
       <div className="flex items-center justify-between font-medium text-muted-foreground text-xs uppercase tracking-wide">
         <span>Ente</span>
         <span className="flex items-center gap-4">
+          {porHabitantes && (
+            <span className="text-right whitespace-nowrap">Habitantes</span>
+          )}
           {colunaSecundaria && (
             <span className="hidden text-right whitespace-nowrap sm:inline">
               {colunaSecundaria}
@@ -93,6 +136,9 @@ export function EnteRankingList({
         )}
         {filtrados.map((ente, index) => {
           const posicao = ente.posicao ?? index + 1
+          const habitantes = porHabitantes
+            ? habitantesDoMunicipio(ente.codigo)
+            : null
           return (
             <Link
               key={ente.slug}
@@ -121,6 +167,11 @@ export function EnteRankingList({
                 )}
               </span>
               <span className="flex items-center gap-4">
+                {porHabitantes && (
+                  <span className="text-right text-muted-foreground text-sm font-normal tabular-nums">
+                    {habitantes != null ? formatHabitantes(habitantes) : '—'}
+                  </span>
+                )}
                 {colunaSecundaria && (
                   <span className="hidden text-right text-muted-foreground text-sm tabular-nums sm:inline">
                     {ente.valorSecundario != null

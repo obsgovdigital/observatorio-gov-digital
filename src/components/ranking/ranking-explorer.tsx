@@ -123,6 +123,7 @@ export function RankingExplorer({
       ? rankingObjetivo.map(e => ({
           slug: e.slug,
           nome: e.nome,
+          codigo: e.codigo,
           ufSigla: e.ufSigla,
           valorPrincipal: e.valorPrincipal,
           posicao: e.posicao,
@@ -130,6 +131,7 @@ export function RankingExplorer({
       : rankingTema.map(e => ({
           slug: e.slug,
           nome: e.nome,
+          codigo: e.codigo,
           ufSigla: e.ufSigla,
           valorPrincipal: e.valor,
           posicao: e.posicao,
