@@ -3,10 +3,8 @@ import Link from 'next/link'
 
 import { getHomeData } from '@/components/home/home-data'
 import { HomeExplorar } from '@/components/home/home-explorar'
+import { HomeHero } from '@/components/home/home-hero'
 import { HomePorqueExiste } from '@/components/home/home-porque-existe'
-import { PesoVariavel } from '@/components/home/peso-variavel'
-import { PixelCanvas } from '@/components/home/pixel-canvas'
-import { Button } from '@/components/ui/button'
 import { objectives } from '@/data/objectives'
 import {
   resolvePlatformVariant,
@@ -92,50 +90,10 @@ export async function HomeV1Page() {
 
   return (
     <section className="pb-12">
-      {/* Hero */}
-      <div className="relative">
-        <PixelCanvas
-          className="pointer-events-none absolute inset-0 -z-10 mask-[radial-gradient(ellipse_at_center,transparent_20%,black_80%)]"
-          colors={['#d1d1d1', '#bcbcbc', '#a1a1a1']}
-          gap={12}
-          pixelSize={1.6}
-          speed={40}
-          appearFrom="middle"
-          duration={0.9}
-        />
-
-        <div className="px-6 py-48 text-center sm:px-10">
-          <PesoVariavel
-            as="h1"
-            texto="Entenda o governo digital no Brasil"
-            de={400}
-            para={800}
-            forca={22}
-            duracao={0.12}
-            className="mx-auto mt-3 block max-w-3xl bg-linear-to-br from-primary to-primary-glow bg-clip-text pb-2 text-3xl text-transparent leading-[1.1] tracking-tight sm:text-5xl"
-          />
-          <p className="mx-auto mt-2 max-w-2xl text-muted-foreground text-sm leading-relaxed sm:text-base">
-            Uma plataforma pública que reúne, organiza e dá transparência aos
-            indicadores da transformação digital do setor público, para que você
-            acompanhe, compare e explore o desempenho de cada ente federado.
-          </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <Button
-              asChild
-              className="h-auto rounded-full bg-primary px-8 py-3 text-primary-foreground text-sm hover:bg-primary/90 has-[>svg]:px-8"
-            >
-              <Link href={link('/indicadores')}>Explorar indicadores</Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              className="h-auto rounded-full border-border bg-white px-8 py-3 text-primary text-sm shadow-none hover:bg-primary/5 hover:text-primary"
-            >
-              <Link href={link('/sobre')}>O que é o Observatório</Link>
-            </Button>
-          </div>
-        </div>
-      </div>
+      <HomeHero
+        indicadoresHref={link('/indicadores')}
+        sobreHref={link('/sobre')}
+      />
 
       <div aria-hidden="true" className="h-px bg-border" />
 
