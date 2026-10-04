@@ -15,7 +15,6 @@ import { BandeiraEnte } from '@/components/shared/bandeira-ente'
 import { EnteBusca } from '@/components/shared/ente-busca'
 import { FilterPill } from '@/components/shared/filter-pill'
 import { FontesRecorte } from '@/components/shared/fontes-recorte'
-import { HomeFaq } from '@/components/shared/home-faq'
 import { InfoTip } from '@/components/shared/info-tip'
 import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
@@ -872,22 +871,7 @@ export function IndicadoresExplorer({
           </div>
         </div>
 
-        <div className="dash-t mt-16 pt-10" data-tour="indicadores-ajuda">
-          <h2 className="font-bold text-foreground text-lg tracking-tight">
-            Perguntas frequentes
-          </h2>
-          <p className="mt-1 max-w-xl text-sm text-muted-foreground">
-            Respostas rápidas sobre o que medimos, de onde vêm os dados e como
-            comparar entes.{' '}
-            <Link
-              href="/metodologia"
-              className="font-medium text-primary underline-offset-2 hover:underline"
-            >
-              Metodologia completa
-            </Link>
-          </p>
-          <HomeFaq />
-        </div>
+
       </div>
     </section>
   )

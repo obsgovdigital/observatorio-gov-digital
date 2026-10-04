@@ -5,6 +5,11 @@ export interface FaqItem {
 
 export const faqItems: FaqItem[] = [
   {
+    pergunta: 'Para quem é o Observatório?',
+    resposta:
+      'O Observatório é voltado a gestores públicos que querem identificar gargalos e acompanhar a evolução da transformação digital em seus entes; a pesquisadores e acadêmicos que precisam de séries históricas e indicadores comparáveis para embasar análises; e a cidadãos interessados em acompanhar de forma transparente como o governo digital avança no Brasil.',
+  },
+  {
     pergunta: 'O que é o Observatório Brasileiro de Governo Digital?',
     resposta:
       'É uma iniciativa que monitora e compara o desenvolvimento digital do governo federal, dos estados e dos municípios com 100 mil habitantes ou mais, organizado segundo os dez objetivos da Estratégia Nacional de Governo Digital (ENGD).',

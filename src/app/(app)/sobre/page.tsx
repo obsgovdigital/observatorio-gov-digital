@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Fragment } from 'react'
 
+import { HomeFaq } from '@/components/shared/home-faq'
 import { ScrollRevealText } from '@/components/shared/scroll-reveal-text'
 import { observatorioLead } from '@/data/site-copy'
 
@@ -213,6 +215,28 @@ export default function SobrePage() {
                 {renderParagraph(paragraph)}
               </p>
             ))}
+          </div>
+        </div>
+
+        {/* Perguntas frequentes */}
+        <div className="-mx-6 mt-24 border-t px-6 pt-24 sm:-mx-10 sm:px-10">
+          <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <h2 className="whitespace-pre-line bg-linear-to-br from-primary to-primary-glow bg-clip-text text-3xl font-bold leading-tight tracking-tight text-transparent sm:text-4xl">
+                Perguntas frequentes
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-muted-foreground">
+                Respostas rápidas sobre o Observatório, seus dados e como
+                navegar pela plataforma.{' '}
+                <Link
+                  href="/metodologia"
+                  className="font-medium text-foreground underline underline-offset-4 hover:no-underline"
+                >
+                  Metodologia completa
+                </Link>
+              </p>
+            </div>
+            <HomeFaq />
           </div>
         </div>
       </div>
