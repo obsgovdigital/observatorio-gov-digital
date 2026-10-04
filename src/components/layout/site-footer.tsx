@@ -14,6 +14,14 @@ type FooterItem = {
 const footerNavBase: FooterItem[] = [
   { label: 'Home', href: '/' },
   {
+    label: 'Sobre',
+    href: '/sobre',
+    children: [
+      { label: 'Sobre', href: '/sobre' },
+      { label: 'Metodologia', href: '/metodologia' },
+    ],
+  },
+  {
     label: 'Indicadores',
     href: '/indicadores',
     children: [
@@ -23,14 +31,6 @@ const footerNavBase: FooterItem[] = [
     ],
   },
   { label: 'Publicações', href: '/publicacoes' },
-  {
-    label: 'Sobre',
-    href: '/sobre',
-    children: [
-      { label: 'Sobre', href: '/sobre' },
-      { label: 'Metodologia', href: '/metodologia' },
-    ],
-  },
   { label: 'Contato', href: '/contato' },
 ]
 

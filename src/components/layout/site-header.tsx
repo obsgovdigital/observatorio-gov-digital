@@ -32,6 +32,7 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
+  { label: 'Sobre', href: '/sobre' },
   {
     label: 'Indicadores',
     href: '/indicadores',
@@ -58,7 +59,6 @@ const navItems: NavItem[] = [
   },
   { label: 'Metodologia', href: '/metodologia' },
   { label: 'Publicações', href: '/publicacoes' },
-  { label: 'Sobre', href: '/sobre' },
   { label: 'Contato', href: '/contato' },
 ]
 

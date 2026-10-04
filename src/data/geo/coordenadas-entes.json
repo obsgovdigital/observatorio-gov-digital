@@ -1,0 +1,2554 @@
+[
+  {
+    "codigo": "1100122",
+    "uf": "RO",
+    "regiao": "N",
+    "capital": false,
+    "lat": -10.8777,
+    "lng": -61.9322
+  },
+  {
+    "codigo": "1100205",
+    "uf": "RO",
+    "regiao": "N",
+    "capital": true,
+    "lat": -8.7608,
+    "lng": -63.8999
+  },
+  {
+    "codigo": "1200401",
+    "uf": "AC",
+    "regiao": "N",
+    "capital": true,
+    "lat": -9.975,
+    "lng": -67.8243
+  },
+  {
+    "codigo": "1301902",
+    "uf": "AM",
+    "regiao": "N",
+    "capital": false,
+    "lat": -3.1386,
+    "lng": -58.4449
+  },
+  {
+    "codigo": "1302504",
+    "uf": "AM",
+    "regiao": "N",
+    "capital": false,
+    "lat": -3.2907,
+    "lng": -60.6216
+  },
+  {
+    "codigo": "1302603",
+    "uf": "AM",
+    "regiao": "N",
+    "capital": true,
+    "lat": -3.1187,
+    "lng": -60.0212
+  },
+  {
+    "codigo": "1400100",
+    "uf": "RR",
+    "regiao": "N",
+    "capital": true,
+    "lat": 2.8238,
+    "lng": -60.6753
+  },
+  {
+    "codigo": "1500107",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.7218,
+    "lng": -48.8788
+  },
+  {
+    "codigo": "1500602",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -3.2041,
+    "lng": -52.21
+  },
+  {
+    "codigo": "1500800",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.3639,
+    "lng": -48.3743
+  },
+  {
+    "codigo": "1501303",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.5119,
+    "lng": -48.6195
+  },
+  {
+    "codigo": "1501402",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": true,
+    "lat": -1.4554,
+    "lng": -48.4898
+  },
+  {
+    "codigo": "1501709",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.0613,
+    "lng": -46.7826
+  },
+  {
+    "codigo": "1501808",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.6804,
+    "lng": -50.4791
+  },
+  {
+    "codigo": "1502103",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -2.2429,
+    "lng": -49.4979
+  },
+  {
+    "codigo": "1502400",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.298,
+    "lng": -47.9167
+  },
+  {
+    "codigo": "1503606",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -4.2667,
+    "lng": -55.9926
+  },
+  {
+    "codigo": "1504208",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -5.3807,
+    "lng": -49.1327
+  },
+  {
+    "codigo": "1504422",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -1.36,
+    "lng": -48.3421
+  },
+  {
+    "codigo": "1505502",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -3.0021,
+    "lng": -47.3527
+  },
+  {
+    "codigo": "1505536",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -6.0678,
+    "lng": -49.9037
+  },
+  {
+    "codigo": "1506807",
+    "uf": "PA",
+    "regiao": "N",
+    "capital": false,
+    "lat": -2.4385,
+    "lng": -54.6996
+  },
+  {
+    "codigo": "1600303",
+    "uf": "AP",
+    "regiao": "N",
+    "capital": true,
+    "lat": 0.0349,
+    "lng": -51.0694
+  },
+  {
+    "codigo": "1600600",
+    "uf": "AP",
+    "regiao": "N",
+    "capital": false,
+    "lat": -0.0454,
+    "lng": -51.1729
+  },
+  {
+    "codigo": "1702109",
+    "uf": "TO",
+    "regiao": "N",
+    "capital": false,
+    "lat": -7.1924,
+    "lng": -48.2044
+  },
+  {
+    "codigo": "1721000",
+    "uf": "TO",
+    "regiao": "N",
+    "capital": true,
+    "lat": -10.24,
+    "lng": -48.3558
+  },
+  {
+    "codigo": "2100055",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -4.9471,
+    "lng": -47.5004
+  },
+  {
+    "codigo": "2101202",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -4.2245,
+    "lng": -44.7832
+  },
+  {
+    "codigo": "2101400",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.5321,
+    "lng": -46.0372
+  },
+  {
+    "codigo": "2103000",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -4.865,
+    "lng": -43.3617
+  },
+  {
+    "codigo": "2103307",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -4.4556,
+    "lng": -43.8924
+  },
+  {
+    "codigo": "2105302",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -5.5185,
+    "lng": -47.4777
+  },
+  {
+    "codigo": "2107506",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -2.5166,
+    "lng": -44.1019
+  },
+  {
+    "codigo": "2111201",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -2.547,
+    "lng": -44.0597
+  },
+  {
+    "codigo": "2111300",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -2.5387,
+    "lng": -44.2825
+  },
+  {
+    "codigo": "2112209",
+    "uf": "MA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -5.0977,
+    "lng": -42.8329
+  },
+  {
+    "codigo": "2207702",
+    "uf": "PI",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -2.9058,
+    "lng": -41.7754
+  },
+  {
+    "codigo": "2211001",
+    "uf": "PI",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -5.0919,
+    "lng": -42.8034
+  },
+  {
+    "codigo": "2303709",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -3.728,
+    "lng": -38.6619
+  },
+  {
+    "codigo": "2304202",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.2153,
+    "lng": -39.4103
+  },
+  {
+    "codigo": "2304400",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -3.7166,
+    "lng": -38.5423
+  },
+  {
+    "codigo": "2306405",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -3.4993,
+    "lng": -39.5836
+  },
+  {
+    "codigo": "2307304",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.1962,
+    "lng": -39.3076
+  },
+  {
+    "codigo": "2307650",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -3.867,
+    "lng": -38.6259
+  },
+  {
+    "codigo": "2307700",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -3.8914,
+    "lng": -38.6829
+  },
+  {
+    "codigo": "2312908",
+    "uf": "CE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -3.6891,
+    "lng": -40.3482
+  },
+  {
+    "codigo": "2403251",
+    "uf": "RN",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -5.9112,
+    "lng": -35.271
+  },
+  {
+    "codigo": "2408003",
+    "uf": "RN",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -5.1837,
+    "lng": -37.3474
+  },
+  {
+    "codigo": "2408102",
+    "uf": "RN",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -5.7936,
+    "lng": -35.1986
+  },
+  {
+    "codigo": "2412005",
+    "uf": "RN",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -5.7907,
+    "lng": -35.3257
+  },
+  {
+    "codigo": "2504009",
+    "uf": "PB",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.222,
+    "lng": -35.8731
+  },
+  {
+    "codigo": "2507507",
+    "uf": "PB",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -7.1151,
+    "lng": -34.8641
+  },
+  {
+    "codigo": "2510808",
+    "uf": "PB",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.0174,
+    "lng": -37.2747
+  },
+  {
+    "codigo": "2513703",
+    "uf": "PB",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.1172,
+    "lng": -34.9753
+  },
+  {
+    "codigo": "2602902",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.2822,
+    "lng": -35.0253
+  },
+  {
+    "codigo": "2603454",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.0235,
+    "lng": -34.9782
+  },
+  {
+    "codigo": "2604106",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.2845,
+    "lng": -35.9699
+  },
+  {
+    "codigo": "2606002",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.8824,
+    "lng": -36.4966
+  },
+  {
+    "codigo": "2606804",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.8288,
+    "lng": -34.9013
+  },
+  {
+    "codigo": "2607901",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.113,
+    "lng": -35.015
+  },
+  {
+    "codigo": "2609600",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.0102,
+    "lng": -34.8545
+  },
+  {
+    "codigo": "2610707",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -7.934,
+    "lng": -34.8684
+  },
+  {
+    "codigo": "2611101",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -9.3887,
+    "lng": -40.5027
+  },
+  {
+    "codigo": "2611606",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -8.0467,
+    "lng": -34.8771
+  },
+  {
+    "codigo": "2613701",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.0068,
+    "lng": -35.0124
+  },
+  {
+    "codigo": "2616407",
+    "uf": "PE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -8.1282,
+    "lng": -35.2976
+  },
+  {
+    "codigo": "2700300",
+    "uf": "AL",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -9.7549,
+    "lng": -36.6615
+  },
+  {
+    "codigo": "2704302",
+    "uf": "AL",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -9.666,
+    "lng": -35.735
+  },
+  {
+    "codigo": "2800308",
+    "uf": "SE",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -10.9091,
+    "lng": -37.0677
+  },
+  {
+    "codigo": "2802908",
+    "uf": "SE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -10.6826,
+    "lng": -37.4273
+  },
+  {
+    "codigo": "2803500",
+    "uf": "SE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -10.9136,
+    "lng": -37.6689
+  },
+  {
+    "codigo": "2804805",
+    "uf": "SE",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -10.8468,
+    "lng": -37.1231
+  },
+  {
+    "codigo": "2900702",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.1335,
+    "lng": -38.4208
+  },
+  {
+    "codigo": "2903201",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.1439,
+    "lng": -44.9968
+  },
+  {
+    "codigo": "2905701",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.6996,
+    "lng": -38.3263
+  },
+  {
+    "codigo": "2910727",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -16.3715,
+    "lng": -39.5821
+  },
+  {
+    "codigo": "2910800",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.2664,
+    "lng": -38.9663
+  },
+  {
+    "codigo": "2913606",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -14.793,
+    "lng": -39.046
+  },
+  {
+    "codigo": "2914802",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -14.7876,
+    "lng": -39.2781
+  },
+  {
+    "codigo": "2918001",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -13.8509,
+    "lng": -40.0877
+  },
+  {
+    "codigo": "2918407",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -9.4162,
+    "lng": -40.5033
+  },
+  {
+    "codigo": "2919207",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.8978,
+    "lng": -38.321
+  },
+  {
+    "codigo": "2919553",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.0956,
+    "lng": -45.7866
+  },
+  {
+    "codigo": "2924009",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -9.3983,
+    "lng": -38.2216
+  },
+  {
+    "codigo": "2925303",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -16.4435,
+    "lng": -39.0643
+  },
+  {
+    "codigo": "2927408",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": true,
+    "lat": -12.9718,
+    "lng": -38.5011
+  },
+  {
+    "codigo": "2928703",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.9614,
+    "lng": -39.2584
+  },
+  {
+    "codigo": "2930709",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -12.7866,
+    "lng": -38.4029
+  },
+  {
+    "codigo": "2931350",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -17.5399,
+    "lng": -39.74
+  },
+  {
+    "codigo": "2933307",
+    "uf": "BA",
+    "regiao": "NE",
+    "capital": false,
+    "lat": -14.8615,
+    "lng": -40.8442
+  },
+  {
+    "codigo": "3103504",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.6456,
+    "lng": -48.1934
+  },
+  {
+    "codigo": "3104007",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.5902,
+    "lng": -46.9438
+  },
+  {
+    "codigo": "3105608",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.2214,
+    "lng": -43.7703
+  },
+  {
+    "codigo": "3106200",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": true,
+    "lat": -19.9102,
+    "lng": -43.9266
+  },
+  {
+    "codigo": "3106705",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.9668,
+    "lng": -44.2008
+  },
+  {
+    "codigo": "3118304",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.6634,
+    "lng": -43.7846
+  },
+  {
+    "codigo": "3118601",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.9321,
+    "lng": -44.0539
+  },
+  {
+    "codigo": "3119401",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.5179,
+    "lng": -42.6276
+  },
+  {
+    "codigo": "3122306",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.1446,
+    "lng": -44.8912
+  },
+  {
+    "codigo": "3127701",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.8545,
+    "lng": -41.9555
+  },
+  {
+    "codigo": "3129806",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.0252,
+    "lng": -44.0569
+  },
+  {
+    "codigo": "3131307",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.4703,
+    "lng": -42.5476
+  },
+  {
+    "codigo": "3131703",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.6239,
+    "lng": -43.2312
+  },
+  {
+    "codigo": "3134202",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.9772,
+    "lng": -49.4639
+  },
+  {
+    "codigo": "3136702",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.7595,
+    "lng": -43.3398
+  },
+  {
+    "codigo": "3138203",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.248,
+    "lng": -45.0009
+  },
+  {
+    "codigo": "3143302",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -16.7282,
+    "lng": -43.8578
+  },
+  {
+    "codigo": "3143906",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.13,
+    "lng": -42.3693
+  },
+  {
+    "codigo": "3144805",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.9758,
+    "lng": -43.8509
+  },
+  {
+    "codigo": "3145208",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.8713,
+    "lng": -44.9847
+  },
+  {
+    "codigo": "3147907",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.7193,
+    "lng": -46.609
+  },
+  {
+    "codigo": "3148004",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.5699,
+    "lng": -46.5013
+  },
+  {
+    "codigo": "3151800",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.78,
+    "lng": -46.5692
+  },
+  {
+    "codigo": "3152501",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.2266,
+    "lng": -45.9389
+  },
+  {
+    "codigo": "3154606",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.7621,
+    "lng": -44.0844
+  },
+  {
+    "codigo": "3156700",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.884,
+    "lng": -43.8263
+  },
+  {
+    "codigo": "3157807",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.7548,
+    "lng": -43.8497
+  },
+  {
+    "codigo": "3167202",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.4569,
+    "lng": -44.2413
+  },
+  {
+    "codigo": "3168606",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -17.8595,
+    "lng": -41.5087
+  },
+  {
+    "codigo": "3169901",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.1204,
+    "lng": -42.9359
+  },
+  {
+    "codigo": "3170107",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.7472,
+    "lng": -47.9381
+  },
+  {
+    "codigo": "3170206",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.9141,
+    "lng": -48.2749
+  },
+  {
+    "codigo": "3170701",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.5556,
+    "lng": -45.4364
+  },
+  {
+    "codigo": "3171204",
+    "uf": "MG",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.6883,
+    "lng": -43.9239
+  },
+  {
+    "codigo": "3201209",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.8462,
+    "lng": -41.1198
+  },
+  {
+    "codigo": "3201308",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.2632,
+    "lng": -40.4165
+  },
+  {
+    "codigo": "3201506",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.5493,
+    "lng": -40.6269
+  },
+  {
+    "codigo": "3202405",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.6772,
+    "lng": -40.5093
+  },
+  {
+    "codigo": "3203205",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -19.3946,
+    "lng": -40.0643
+  },
+  {
+    "codigo": "3204906",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -18.7214,
+    "lng": -39.8579
+  },
+  {
+    "codigo": "3205002",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.121,
+    "lng": -40.3074
+  },
+  {
+    "codigo": "3205200",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.3417,
+    "lng": -40.2875
+  },
+  {
+    "codigo": "3205309",
+    "uf": "ES",
+    "regiao": "SE",
+    "capital": true,
+    "lat": -20.3155,
+    "lng": -40.3128
+  },
+  {
+    "codigo": "3300100",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.0011,
+    "lng": -44.3196
+  },
+  {
+    "codigo": "3300209",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8697,
+    "lng": -42.3326
+  },
+  {
+    "codigo": "3300407",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.5481,
+    "lng": -44.1752
+  },
+  {
+    "codigo": "3300456",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.764,
+    "lng": -43.3992
+  },
+  {
+    "codigo": "3300704",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8894,
+    "lng": -42.0286
+  },
+  {
+    "codigo": "3301009",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.7622,
+    "lng": -41.3181
+  },
+  {
+    "codigo": "3301702",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7858,
+    "lng": -43.3049
+  },
+  {
+    "codigo": "3301900",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7565,
+    "lng": -42.8639
+  },
+  {
+    "codigo": "3302007",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8636,
+    "lng": -43.7798
+  },
+  {
+    "codigo": "3302205",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.1997,
+    "lng": -41.8799
+  },
+  {
+    "codigo": "3302403",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.3768,
+    "lng": -41.7848
+  },
+  {
+    "codigo": "3302502",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.6632,
+    "lng": -43.0315
+  },
+  {
+    "codigo": "3302700",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9354,
+    "lng": -42.8246
+  },
+  {
+    "codigo": "3302858",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8028,
+    "lng": -43.4601
+  },
+  {
+    "codigo": "3303203",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8057,
+    "lng": -43.4233
+  },
+  {
+    "codigo": "3303302",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8832,
+    "lng": -43.1034
+  },
+  {
+    "codigo": "3303401",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.2932,
+    "lng": -42.5377
+  },
+  {
+    "codigo": "3303500",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7556,
+    "lng": -43.4603
+  },
+  {
+    "codigo": "3303906",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.52,
+    "lng": -43.1926
+  },
+  {
+    "codigo": "3304144",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7102,
+    "lng": -43.5518
+  },
+  {
+    "codigo": "3304201",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.4705,
+    "lng": -44.4509
+  },
+  {
+    "codigo": "3304524",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.5174,
+    "lng": -41.9475
+  },
+  {
+    "codigo": "3304557",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": true,
+    "lat": -22.9129,
+    "lng": -43.2003
+  },
+  {
+    "codigo": "3304904",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8268,
+    "lng": -43.0634
+  },
+  {
+    "codigo": "3305109",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8058,
+    "lng": -43.3729
+  },
+  {
+    "codigo": "3305208",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8429,
+    "lng": -42.1026
+  },
+  {
+    "codigo": "3305802",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.4165,
+    "lng": -42.9752
+  },
+  {
+    "codigo": "3306305",
+    "uf": "RJ",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.5202,
+    "lng": -44.0996
+  },
+  {
+    "codigo": "3501608",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7374,
+    "lng": -47.3331
+  },
+  {
+    "codigo": "3502804",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.2076,
+    "lng": -50.4401
+  },
+  {
+    "codigo": "3503208",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.7845,
+    "lng": -48.178
+  },
+  {
+    "codigo": "3503307",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.3572,
+    "lng": -47.3842
+  },
+  {
+    "codigo": "3504008",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.66,
+    "lng": -50.4183
+  },
+  {
+    "codigo": "3504107",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.1171,
+    "lng": -46.5563
+  },
+  {
+    "codigo": "3505500",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.5531,
+    "lng": -48.5698
+  },
+  {
+    "codigo": "3505708",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5057,
+    "lng": -46.879
+  },
+  {
+    "codigo": "3506003",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.3246,
+    "lng": -49.0871
+  },
+  {
+    "codigo": "3506508",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.291,
+    "lng": -50.3432
+  },
+  {
+    "codigo": "3507506",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8837,
+    "lng": -48.4437
+  },
+  {
+    "codigo": "3507605",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9527,
+    "lng": -46.5419
+  },
+  {
+    "codigo": "3509502",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9053,
+    "lng": -47.0659
+  },
+  {
+    "codigo": "3510500",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6125,
+    "lng": -45.4125
+  },
+  {
+    "codigo": "3510609",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5235,
+    "lng": -46.8407
+  },
+  {
+    "codigo": "3511102",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.1314,
+    "lng": -48.977
+  },
+  {
+    "codigo": "3513009",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6022,
+    "lng": -46.919
+  },
+  {
+    "codigo": "3513504",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.8911,
+    "lng": -46.424
+  },
+  {
+    "codigo": "3513801",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6813,
+    "lng": -46.6205
+  },
+  {
+    "codigo": "3515004",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6437,
+    "lng": -46.8579
+  },
+  {
+    "codigo": "3515707",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5411,
+    "lng": -46.371
+  },
+  {
+    "codigo": "3516200",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.5352,
+    "lng": -47.4039
+  },
+  {
+    "codigo": "3516309",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.2792,
+    "lng": -46.7448
+  },
+  {
+    "codigo": "3516408",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.3229,
+    "lng": -46.729
+  },
+  {
+    "codigo": "3518404",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8075,
+    "lng": -45.1938
+  },
+  {
+    "codigo": "3518701",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.9888,
+    "lng": -46.258
+  },
+  {
+    "codigo": "3518800",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.4538,
+    "lng": -46.5333
+  },
+  {
+    "codigo": "3519071",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8529,
+    "lng": -47.2143
+  },
+  {
+    "codigo": "3520509",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.0816,
+    "lng": -47.2101
+  },
+  {
+    "codigo": "3522109",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -24.1736,
+    "lng": -46.788
+  },
+  {
+    "codigo": "3522208",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.7161,
+    "lng": -46.8572
+  },
+  {
+    "codigo": "3522307",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5886,
+    "lng": -48.0483
+  },
+  {
+    "codigo": "3522505",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5488,
+    "lng": -46.9327
+  },
+  {
+    "codigo": "3523107",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.4835,
+    "lng": -46.3457
+  },
+  {
+    "codigo": "3523404",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.0035,
+    "lng": -46.8464
+  },
+  {
+    "codigo": "3523909",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.2544,
+    "lng": -47.2927
+  },
+  {
+    "codigo": "3524402",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.2983,
+    "lng": -45.9658
+  },
+  {
+    "codigo": "3525003",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5275,
+    "lng": -46.9023
+  },
+  {
+    "codigo": "3525300",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.2936,
+    "lng": -48.5592
+  },
+  {
+    "codigo": "3525904",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.1852,
+    "lng": -46.8974
+  },
+  {
+    "codigo": "3526902",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.566,
+    "lng": -47.397
+  },
+  {
+    "codigo": "3529005",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.2171,
+    "lng": -49.9501
+  },
+  {
+    "codigo": "3529401",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6677,
+    "lng": -46.4613
+  },
+  {
+    "codigo": "3530607",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5208,
+    "lng": -46.1854
+  },
+  {
+    "codigo": "3530706",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.3675,
+    "lng": -46.9428
+  },
+  {
+    "codigo": "3534401",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5324,
+    "lng": -46.7916
+  },
+  {
+    "codigo": "3534708",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9797,
+    "lng": -49.8697
+  },
+  {
+    "codigo": "3536505",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7542,
+    "lng": -47.1488
+  },
+  {
+    "codigo": "3538006",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9246,
+    "lng": -45.4613
+  },
+  {
+    "codigo": "3538709",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7338,
+    "lng": -47.6476
+  },
+  {
+    "codigo": "3539806",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5333,
+    "lng": -46.3473
+  },
+  {
+    "codigo": "3541000",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -24.0084,
+    "lng": -46.4121
+  },
+  {
+    "codigo": "3541406",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.1207,
+    "lng": -51.3925
+  },
+  {
+    "codigo": "3543303",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.7067,
+    "lng": -46.4058
+  },
+  {
+    "codigo": "3543402",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.1699,
+    "lng": -47.8099
+  },
+  {
+    "codigo": "3543907",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.3984,
+    "lng": -47.5546
+  },
+  {
+    "codigo": "3545209",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.1996,
+    "lng": -47.2931
+  },
+  {
+    "codigo": "3545803",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.7553,
+    "lng": -47.4143
+  },
+  {
+    "codigo": "3547304",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.4439,
+    "lng": -46.9178
+  },
+  {
+    "codigo": "3547809",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6737,
+    "lng": -46.5432
+  },
+  {
+    "codigo": "3548500",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.9535,
+    "lng": -46.335
+  },
+  {
+    "codigo": "3548708",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6914,
+    "lng": -46.5646
+  },
+  {
+    "codigo": "3548807",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6229,
+    "lng": -46.5548
+  },
+  {
+    "codigo": "3548906",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.0174,
+    "lng": -47.886
+  },
+  {
+    "codigo": "3549805",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -20.8113,
+    "lng": -49.3758
+  },
+  {
+    "codigo": "3549904",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.1896,
+    "lng": -45.8841
+  },
+  {
+    "codigo": "3550308",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": true,
+    "lat": -23.5329,
+    "lng": -46.6395
+  },
+  {
+    "codigo": "3551009",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.9574,
+    "lng": -46.3883
+  },
+  {
+    "codigo": "3551702",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -21.1316,
+    "lng": -47.9875
+  },
+  {
+    "codigo": "3552205",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.4969,
+    "lng": -47.4451
+  },
+  {
+    "codigo": "3552403",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.8204,
+    "lng": -47.2728
+  },
+  {
+    "codigo": "3552502",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5448,
+    "lng": -46.3112
+  },
+  {
+    "codigo": "3552809",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.6019,
+    "lng": -46.7526
+  },
+  {
+    "codigo": "3554003",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.3487,
+    "lng": -47.8461
+  },
+  {
+    "codigo": "3554102",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.0104,
+    "lng": -45.5593
+  },
+  {
+    "codigo": "3556206",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -22.9698,
+    "lng": -46.9974
+  },
+  {
+    "codigo": "3556503",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.2136,
+    "lng": -46.8234
+  },
+  {
+    "codigo": "3557006",
+    "uf": "SP",
+    "regiao": "SE",
+    "capital": false,
+    "lat": -23.5446,
+    "lng": -47.4388
+  },
+  {
+    "codigo": "4100400",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.3188,
+    "lng": -49.3037
+  },
+  {
+    "codigo": "4101408",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.55,
+    "lng": -51.4635
+  },
+  {
+    "codigo": "4101507",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.4153,
+    "lng": -51.4259
+  },
+  {
+    "codigo": "4101804",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.5859,
+    "lng": -49.4047
+  },
+  {
+    "codigo": "4103701",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.2766,
+    "lng": -51.2798
+  },
+  {
+    "codigo": "4104204",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.4525,
+    "lng": -49.529
+  },
+  {
+    "codigo": "4104808",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -24.9573,
+    "lng": -53.459
+  },
+  {
+    "codigo": "4105805",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.2925,
+    "lng": -49.2262
+  },
+  {
+    "codigo": "4106902",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": true,
+    "lat": -25.4195,
+    "lng": -49.2646
+  },
+  {
+    "codigo": "4107652",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.6624,
+    "lng": -49.3073
+  },
+  {
+    "codigo": "4108304",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.5427,
+    "lng": -54.5827
+  },
+  {
+    "codigo": "4109401",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.3902,
+    "lng": -51.4623
+  },
+  {
+    "codigo": "4113700",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.304,
+    "lng": -51.1691
+  },
+  {
+    "codigo": "4115200",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.4205,
+    "lng": -51.9333
+  },
+  {
+    "codigo": "4118204",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.5161,
+    "lng": -48.5225
+  },
+  {
+    "codigo": "4119152",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.4429,
+    "lng": -49.1927
+  },
+  {
+    "codigo": "4119509",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.4422,
+    "lng": -49.0624
+  },
+  {
+    "codigo": "4119905",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.0916,
+    "lng": -50.1668
+  },
+  {
+    "codigo": "4125506",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -25.5313,
+    "lng": -49.2031
+  },
+  {
+    "codigo": "4126256",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.4441,
+    "lng": -51.876
+  },
+  {
+    "codigo": "4127700",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -24.7246,
+    "lng": -53.7412
+  },
+  {
+    "codigo": "4128104",
+    "uf": "PR",
+    "regiao": "S",
+    "capital": false,
+    "lat": -23.7656,
+    "lng": -53.3201
+  },
+  {
+    "codigo": "4202008",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -26.9926,
+    "lng": -48.6352
+  },
+  {
+    "codigo": "4202404",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -26.9155,
+    "lng": -49.0709
+  },
+  {
+    "codigo": "4202909",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.0977,
+    "lng": -48.9107
+  },
+  {
+    "codigo": "4203204",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.0241,
+    "lng": -48.6503
+  },
+  {
+    "codigo": "4204202",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.1004,
+    "lng": -52.6152
+  },
+  {
+    "codigo": "4204608",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -28.6723,
+    "lng": -49.3729
+  },
+  {
+    "codigo": "4205407",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": true,
+    "lat": -27.5945,
+    "lng": -48.5477
+  },
+  {
+    "codigo": "4208203",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -26.9101,
+    "lng": -48.6705
+  },
+  {
+    "codigo": "4208906",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -26.4851,
+    "lng": -49.0713
+  },
+  {
+    "codigo": "4209102",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -26.3045,
+    "lng": -48.8487
+  },
+  {
+    "codigo": "4209300",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.815,
+    "lng": -50.3259
+  },
+  {
+    "codigo": "4211900",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.6455,
+    "lng": -48.6697
+  },
+  {
+    "codigo": "4216602",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.6136,
+    "lng": -48.6366
+  },
+  {
+    "codigo": "4218707",
+    "uf": "SC",
+    "regiao": "S",
+    "capital": false,
+    "lat": -28.4713,
+    "lng": -49.0144
+  },
+  {
+    "codigo": "4300604",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.9914,
+    "lng": -51.0809
+  },
+  {
+    "codigo": "4301602",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -31.3297,
+    "lng": -54.0999
+  },
+  {
+    "codigo": "4302105",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.1662,
+    "lng": -51.5165
+  },
+  {
+    "codigo": "4303103",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.9472,
+    "lng": -51.1016
+  },
+  {
+    "codigo": "4304606",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.9128,
+    "lng": -51.1857
+  },
+  {
+    "codigo": "4305108",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.1629,
+    "lng": -51.1792
+  },
+  {
+    "codigo": "4307005",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -27.6364,
+    "lng": -52.2697
+  },
+  {
+    "codigo": "4309209",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.9413,
+    "lng": -50.9869
+  },
+  {
+    "codigo": "4313409",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.6875,
+    "lng": -51.1328
+  },
+  {
+    "codigo": "4314100",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -28.2576,
+    "lng": -52.4091
+  },
+  {
+    "codigo": "4314407",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -31.7649,
+    "lng": -52.3371
+  },
+  {
+    "codigo": "4314902",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": true,
+    "lat": -30.0318,
+    "lng": -51.2065
+  },
+  {
+    "codigo": "4315602",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -32.0349,
+    "lng": -52.1071
+  },
+  {
+    "codigo": "4316808",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.722,
+    "lng": -52.4343
+  },
+  {
+    "codigo": "4316907",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.6868,
+    "lng": -53.8149
+  },
+  {
+    "codigo": "4318705",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.7545,
+    "lng": -51.1498
+  },
+  {
+    "codigo": "4320008",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.8276,
+    "lng": -51.145
+  },
+  {
+    "codigo": "4322400",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -29.7614,
+    "lng": -57.0853
+  },
+  {
+    "codigo": "4323002",
+    "uf": "RS",
+    "regiao": "S",
+    "capital": false,
+    "lat": -30.0819,
+    "lng": -51.0194
+  },
+  {
+    "codigo": "5002704",
+    "uf": "MS",
+    "regiao": "CO",
+    "capital": true,
+    "lat": -20.4486,
+    "lng": -54.6295
+  },
+  {
+    "codigo": "5003702",
+    "uf": "MS",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -22.2231,
+    "lng": -54.812
+  },
+  {
+    "codigo": "5008305",
+    "uf": "MS",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -20.7849,
+    "lng": -51.7007
+  },
+  {
+    "codigo": "5103403",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": true,
+    "lat": -15.601,
+    "lng": -56.0974
+  },
+  {
+    "codigo": "5107602",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.4673,
+    "lng": -54.6372
+  },
+  {
+    "codigo": "5107909",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -11.8604,
+    "lng": -55.5091
+  },
+  {
+    "codigo": "5107925",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -12.5425,
+    "lng": -55.7211
+  },
+  {
+    "codigo": "5107958",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -14.6229,
+    "lng": -57.4933
+  },
+  {
+    "codigo": "5108402",
+    "uf": "MT",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -15.6458,
+    "lng": -56.1322
+  },
+  {
+    "codigo": "5200258",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -15.7617,
+    "lng": -48.2816
+  },
+  {
+    "codigo": "5201108",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.3281,
+    "lng": -48.953
+  },
+  {
+    "codigo": "5201405",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.8198,
+    "lng": -49.2469
+  },
+  {
+    "codigo": "5205109",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -18.1656,
+    "lng": -47.944
+  },
+  {
+    "codigo": "5208004",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -15.54,
+    "lng": -47.337
+  },
+  {
+    "codigo": "5208707",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": true,
+    "lat": -16.6864,
+    "lng": -49.2643
+  },
+  {
+    "codigo": "5211503",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -18.4093,
+    "lng": -49.2158
+  },
+  {
+    "codigo": "5211909",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -17.8784,
+    "lng": -51.7204
+  },
+  {
+    "codigo": "5212501",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.253,
+    "lng": -47.95
+  },
+  {
+    "codigo": "5215231",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.0592,
+    "lng": -48.0417
+  },
+  {
+    "codigo": "5217609",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -15.452,
+    "lng": -47.6089
+  },
+  {
+    "codigo": "5218805",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -17.7923,
+    "lng": -50.9192
+  },
+  {
+    "codigo": "5220454",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.7084,
+    "lng": -49.0914
+  },
+  {
+    "codigo": "5221403",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.6517,
+    "lng": -49.4927
+  },
+  {
+    "codigo": "5221858",
+    "uf": "GO",
+    "regiao": "CO",
+    "capital": false,
+    "lat": -16.0651,
+    "lng": -47.9757
+  },
+  {
+    "codigo": "5300108",
+    "uf": "DF",
+    "regiao": "CO",
+    "capital": true,
+    "lat": -15.7795,
+    "lng": -47.9297
+  }
+]
