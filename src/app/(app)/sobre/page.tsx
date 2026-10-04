@@ -84,7 +84,7 @@ const partnerDetails = [
     name: 'Movimento Brasil Competitivo (MBC)',
     url: 'https://www.mbc.org.br/',
     description:
-      'Organização dedicada à promoção da eficiência, inovação e melhoria da gestão pública e da competitividade do país.',
+      'O MBC é uma organização empresarial suprapartidária que ajuda o Brasil a ser mais competitivo. Sua forma de fazer está baseada em geração de conhecimento e advocacy para a implementação de ações concretas e estruturantes, construídas em parceria entre setor privado e público.',
   },
   {
     name: 'Ministério da Gestão e da Inovação em Serviços Públicos (MGI)',
