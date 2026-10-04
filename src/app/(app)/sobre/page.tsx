@@ -99,7 +99,7 @@ const historyIntro =
 
 const historyParagraphs = [
   'Embora o Governo Federal tenha avançado significativamente na implementação de políticas de governo digital, ainda existia a necessidade de consolidar informações provenientes de diferentes bases de dados em um ambiente único, capaz de acompanhar de forma contínua a evolução dos indicadores e apoiar a tomada de decisão.',
-  'Em resposta a esse desafio, o Insper, por meio do Centro de Gestão e Políticas Públicas (CGPP), estabeleceu uma parceria com o Ministério da Gestão e da Inovação em Serviços Públicos (MGI) e o Movimento Brasil Competitivo (MBC) para estruturar o Observatório Brasileiro de Governo Digital.',
+  'Em resposta a esse desafio, o Movimento Brasil Competitivo (MBC) firmou um Acordo de Cooperação Técnica com a Secretaria de Governo Digital (SGD) do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) para o desenvolvimento do Observatório Brasileiro de Governo Digital, contando com o Insper, por meio do Centro de Gestão e Políticas Públicas (CGPP), como parceiro técnico da iniciativa.',
   'A primeira versão da plataforma reúne indicadores estratégicos organizados conforme os objetivos da Estratégia Nacional de Governo Digital, estabelecendo as bases para um sistema permanente de acompanhamento do desenvolvimento digital do setor público brasileiro e sua evolução ao longo do tempo.',
 ]
 
