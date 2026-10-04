@@ -3,9 +3,18 @@ import { estadosMapa } from '@/lib/geo/brasil-mapa'
 
 // Nome do estado → UF (derivado do próprio mapa).
 const ufPorEstado = new Map(estadosMapa.map(e => [e.nome, e.uf]))
+const nomePorUf = new Map(estadosMapa.map(e => [e.uf, e.nome] as const))
 const slugPorUf = new Map(
   estadosMapa.map(e => [e.uf, slugify(e.nome)] as const)
 )
+
+/** Nomes oficiais das 27 UFs, na ordem do mapa. */
+export const nomesEstados = estadosMapa.map(e => e.nome)
+
+/** Nome do estado a partir da sigla (ex.: `MG` → `Minas Gerais`). */
+export function nomeEstadoDaUf(ufSigla: string): string | null {
+  return nomePorUf.get(ufSigla) ?? null
+}
 
 /** UF (sigla) correspondente a um ente, para posicioná-lo no mapa do Brasil. */
 export function ufDeEnte(
