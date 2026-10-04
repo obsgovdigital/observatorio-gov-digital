@@ -27,7 +27,7 @@ const footerNavBase: FooterItem[] = [
     label: 'Sobre',
     href: '/sobre',
     children: [
-      { label: 'Equipe', href: '/sobre' },
+      { label: 'Sobre', href: '/sobre' },
       { label: 'Metodologia', href: '/metodologia' },
     ],
   },
