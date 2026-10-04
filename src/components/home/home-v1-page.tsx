@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -253,23 +254,31 @@ export async function HomeV1Page() {
         <span className="font-medium text-muted-foreground text-sm">
           Como a análise se organiza
         </span>
-        <h2 className="mt-3 max-w-3xl font-bold text-2xl text-foreground leading-tight tracking-tight sm:text-3xl">
-          Os dez objetivos da Estratégia Nacional de Governo Digital
-        </h2>
+        <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+          <h2 className="max-w-2xl font-bold text-2xl text-foreground leading-tight tracking-tight sm:text-3xl">
+            Os dez objetivos da Estratégia Nacional de Governo Digital
+          </h2>
+          <Link
+            href={link('/objetivos')}
+            className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-primary underline-offset-4 hover:underline sm:mt-1"
+          >
+            Ver todos os objetivos
+            <ChevronRight className="size-4" />
+          </Link>
+        </div>
         <p className="mt-4 max-w-2xl text-muted-foreground text-sm leading-relaxed sm:text-base">
-          A estrutura do Observatório conecta os indicadores aos objetivos da
-          ENGD, ajudando o usuário a entender não apenas o número, mas também o
-          tema de política pública ao qual ele se relaciona.
+          Os indicadores são organizados segundo os dez objetivos da ENGD,
+          permitindo comparar entes por tema de política pública.
         </p>
-        <p className="mt-2 max-w-2xl text-muted-foreground text-sm leading-relaxed sm:text-base">
-          Clique em um objetivo para ver uma explicação resumida.
-        </p>
-        <div className="dash-t -mx-6 mt-10 sm:-mx-10">
+        <div className="dash-t -mx-6 mt-10 grid sm:-mx-10 sm:grid-cols-2 lg:grid-cols-5">
           {objectives.map((objective, index) => (
             <Link
               key={objective.slug}
               href={link(`/objetivos/${objective.slug}`)}
-              className="dash-b grid gap-2 px-6 py-6 transition-colors hover:bg-muted/60 sm:px-10 lg:grid-cols-3 lg:gap-16"
+              className={cn(
+                'dash-b flex flex-col gap-2 p-6 transition-colors hover:bg-muted/60 sm:p-8',
+                (index + 1) % 5 !== 0 && 'lg:dash-br'
+              )}
             >
               <h3 className="flex gap-3 font-medium text-primary text-sm tracking-tight">
                 <span className="text-muted-foreground">
@@ -277,9 +286,6 @@ export async function HomeV1Page() {
                 </span>
                 {objective.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed lg:col-span-2">
-                {objective.summary}
-              </p>
             </Link>
           ))}
         </div>
