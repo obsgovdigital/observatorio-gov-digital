@@ -201,6 +201,8 @@ type TooltipPayloadItem = {
   payload?: { objetivo?: string }
 }
 
+const NOME_MEDIA_NIVEL = 'Média do nível'
+
 function RadarTooltip({
   active,
   payload,
@@ -210,11 +212,17 @@ function RadarTooltip({
 }) {
   if (!active || !payload?.length) return null
   const objetivo = payload[0]?.payload?.objetivo ?? ''
+  const itens = [...payload].sort((a, b) => {
+    const aMedia = a.name === NOME_MEDIA_NIVEL
+    const bMedia = b.name === NOME_MEDIA_NIVEL
+    if (aMedia === bMedia) return 0
+    return aMedia ? 1 : -1
+  })
 
   return (
     <div className="rounded-lg border bg-background p-3 text-xs shadow-md">
       <p className="mb-1 font-semibold text-foreground">{objetivo}</p>
-      {payload.map(item => (
+      {itens.map(item => (
         <p key={item.name} className="flex items-center gap-2">
           <span
             aria-hidden="true"
