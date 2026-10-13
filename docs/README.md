@@ -36,7 +36,7 @@ Arquitetura, dados, features e convenções de código.
 | [Stack e repositório](02-arquitetura/stack-e-repositorio.md)  | Stack, árvore`src/` e convenções            |
 | [Pipeline OBGD](03-dados/pipeline-obgd.md)                     | Atualizar snapshot (JSON padrão ou sync a partir de CSV) |
 | [Contrato de entrega de dados](03-dados/contrato-entrega-dados.md) | Formato do pacote estático esperado pela plataforma |
-| [Pipeline de geração de dados](03-dados/pipeline-geracao-dados.md) | Geração do snapshot (frente de dados — pendente) |
+| [Pipeline de geração de dados](03-dados/pipeline-geracao-dados.md) | Geração do snapshot e atualização das edições das fontes |
 | [Escopos e schema](03-dados/escopos-e-schema.md)               | Federal, estadual, municípios e modelo de dados |
 | [Fontes e exportação](03-dados/fontes-e-exportacao.md)       | Links oficiais e CSV curado                      |
 | [Disclaimer de variáveis](03-dados/disclaimer-variaveis.md)   | Contagem nível × objetivo no ranking           |
