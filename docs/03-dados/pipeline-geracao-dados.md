@@ -4,12 +4,12 @@
 | --- | --- |
 | **Audiência** | Frente de dados · Engenharia · Operação |
 | **Status** | Vivo, mantido pela frente de dados |
-| **Última atualização** | 2026-09-20 |
+| **Última atualização** | 2026-10-13 |
 | **Relacionados** | [Contrato de entrega](contrato-entrega-dados.md) · [Pipeline no portal](pipeline-obgd.md) · [Escopos e schema](escopos-e-schema.md) · [Fontes e exportação](fontes-e-exportacao.md) · [Índice](../README.md) |
 
 Descreve como o snapshot do Índice OBGD é produzido, das fontes oficiais até o pacote que a plataforma consome.
 
-**Este documento não é definitivo e não deve ser tratado como tal.** A pipeline está em evolução; este arquivo é atualizado junto com o código. A seção 10 registra o que está aberto.
+**Este documento não é definitivo e não deve ser tratado como tal.** A pipeline está em evolução; este arquivo é atualizado junto com o código. A seção 11 registra o que está aberto.
 
 **Fronteiras.** O formato esperado pelo portal é definido pelo [Contrato de entrega de dados](contrato-entrega-dados.md). Este documento cobre a geração até o pacote validado. A incorporação desse pacote ao portal está documentada em [Pipeline OBGD](pipeline-obgd.md).
 
@@ -60,11 +60,11 @@ Treze fontes compõem o snapshot corrente. Os links apontam para o arquivo da ed
 
 | Fonte | Instituição | Edição | Obtenção |
 | --- | --- | --- | --- |
-| TIC Governo Eletrônico | CETIC.br | 2023 | Automática (scraping do portal de arquivos) |
-| TIC Saúde | CETIC.br | 2024 | Automática |
-| TIC Educação | CETIC.br | 2024 | Automática |
-| TIC Cultura | CETIC.br | 2024 | Automática |
-| TIC Domicílios | CETIC.br | 2024 | Automática |
+| TIC Governo Eletrônico | CETIC.br | 2023 | Automática (`baixar_cetic_atual`, pela página de arquivos da edição) |
+| TIC Saúde | CETIC.br | 2024 | Automática (`baixar_cetic_atual`) |
+| TIC Educação | CETIC.br | 2024 | Automática (`baixar_cetic_atual`) |
+| TIC Cultura | CETIC.br | 2024 | Automática (`baixar_cetic_atual`) |
+| TIC Domicílios | CETIC.br | 2024 | Automática (`baixar_cetic_atual`) |
 | iESGo | TCU | 2024 | Automática (URL canônica com 2 fallbacks) |
 | IOSPD | ABEP-TIC | 2025 | **Manual**, sem downloader; validado por script |
 | Cobertura Móvel | ANATEL | 2025 | Automática (ZIP de dados abertos) |
@@ -78,9 +78,9 @@ Os endereços usados na coleta são declarados nos módulos de `baixadores/` e n
 
 ### Duas advertências sobre os links
 
-**Os três PDFs do gov.br retornam 403 sem User-Agent de navegador.** Funcionam no clique do usuário, mas quebram em fetch server-side, proxy ou cache com User-Agent padrão.
+**O portal da ABEP-TIC recusa o User-Agent padrão do `python-requests`.** A página do IOSPD, a planilha e o relatório respondem 406 a ele, e respondem normalmente ao User-Agent do pipeline e ao do curl. Funcionam no clique do usuário, mas uma integração server-side precisa declarar um User-Agent próprio. Os três PDFs do iGovSISP no gov.br não têm essa restrição: respondem aos três User-Agents. Conferido em 13/10/2026.
 
-**Os arquivos do CETIC não têm URL construível.** Ficam em `cetic.br/media/microdados/<id>/`, onde `<id>` é um identificador interno do CMS que não se deriva do ano nem da pesquisa. Por isso o downloader raspa a página de arquivos em vez de montar o endereço.
+**Os arquivos do CETIC não têm URL construível.** Ficam em `cetic.br/media/microdados/<id>/`, onde `<id>` é um identificador interno do CMS que não se deriva do ano nem da pesquisa. Por isso o `baixar_cetic_atual` lê a página de arquivos da edição (`cetic.br/pt/arquivos/<pesquisa>/<ano>/<respondente>/`) para achar o ZIP de tabelas, em vez de montar o endereço. As tabelas ODS em uso ficam versionadas no repositório `pipeline`.
 
 ### O que ficou de fora, e por quê
 
@@ -99,7 +99,9 @@ Os downloaders vivem em `baixadores/` no repositório `pipeline`. O padrão comp
 3. **Validação específica do formato**: abas obrigatórias no XLSX, colunas e contagem mínima de linhas no CSV, integridade do ZIP, magic bytes e tamanho mínimo no PDF.
 4. **Movimento após validação** para `fontes/`, por `shutil.move`.
 
-O downloader do CETIC é uma exceção: ele extrai os arquivos diretamente no diretório final e não usa o staging comum. Essa diferença precisa ser considerada ao diagnosticar uma coleta interrompida.
+O CETIC segue um caminho próprio (`baixadores/baixar_cetic_atual.py`). O ZIP da edição é baixado para o staging e validado, e os ODS são lidos de dentro dele. Ao final, com ou sem sucesso, o ZIP é apagado do staging. Há dois modos:
+- com `--verificar`, o modo do orquestrador, cada ODS do ZIP é comparado ao versionado de mesmo nome, e nada em `fontes/` muda;
+- sem `--verificar`, os ODS são gravados no diretório da edição, e um arquivo que já existe com outro conteúdo só é sobrescrito com `--force`.
 
 Todos os comandos desta seção partem da raiz do repositório `pipeline`. Num ambiente novo:
 
@@ -123,7 +125,9 @@ uv run python preparar_fontes.py --check   # diagnostica qual fonte externa falt
 
 ### Código de saída e logs da coleta
 
-O orquestrador retorna código diferente de zero quando **qualquer** subprocesso termina com falha. Seis dos sete downloaders orquestrados propagam corretamente a falha; a exceção é o downloader do CETIC, que relata edições malsucedidas no log sem encerrar com código de erro. A automação deve verificar o código de saída e também o resumo do CETIC.
+O orquestrador (`baixadores/baixar_todos.py`) roda oito downloaders, cada fonte na edição em uso do `config.FONTES`, e retorna 1 quando **qualquer** um termina com falha. Os oito saem com código diferente de zero em falha. No CETIC, o passo é `baixar_cetic_atual --verificar`, que sai com 1 também quando um ODS versionado diverge do ZIP oficial. Fora do orquestrador, `validar_iospd` e o `baixar_cetic` histórico (edições 2005–2020) também saem com 1 em falha.
+
+Ao final, o orquestrador roda a sondagem de edições (seção 10), que não altera o código de saída: uma fonte que a sondagem não conseguiu verificar não é falha de download. A automação deve olhar o código de saída e o resumo impresso no fim.
 
 ### Fontes que exigem trabalho humano
 
@@ -302,7 +306,7 @@ O escore de um objetivo é a **média dos componentes com dado**, depois do cola
 
 **Não há agregado acima do objetivo.** Média entre os dez objetivos, ranking geral e contagem de objetivos com dado deixaram de ser produzidos, por decisão de setembro de 2026: uma nota única somaria coisas que a metodologia trata como não somáveis.
 
-A geração atual não emite `indice_geral`; o pacote publica `sub_indice`, `n` e `n_itens` por objetivo. O [Contrato de entrega](contrato-entrega-dados.md) ainda descreve `indice_geral` como provisório no pacote e precisa ser reconciliado com a geração antes do próximo sync.
+A geração atual não emite `indice_geral`; o pacote publica `sub_indice`, `n` e `n_itens` por objetivo. O [Contrato de entrega](contrato-entrega-dados.md) já reflete isso (PR #36 deste repositório): o portal não lê `indice_geral` nem `n_objetivos_com_dados`.
 
 A normalização não acontece aqui: o parquet já chega em 0–100. A plataforma apenas verifica a faixa.
 
@@ -359,17 +363,83 @@ O identificador do release entregue é, hoje, a **data no prefixo** somada ao `r
 
 ---
 
-## 10. Limitações e pontos de atenção
+## 10. Atualização para frente
+
+Esta seção é para quem vai manter o índice atualizado sem conhecer o código: como saber se uma fonte publicou edição nova, o que fazer quando publicou e o que continua arriscado. O passo a passo por fonte está no checklist do repositório `pipeline`, [`docs/atualizar-edicao.md`](https://github.com/obsgovdigital/pipeline/blob/main/docs/atualizar-edicao.md); aqui fica o roteiro. O repositório `pipeline` é privado: o link só abre para quem tem acesso a ele na organização `obsgovdigital`; para os demais, o GitHub responde "página não encontrada".
+
+### Quando verificar
+
+Sugestão: uma vez por mês, à mão, na raiz do repositório `pipeline`:
+
+```bash
+uv run python -m baixadores.sondar_edicoes
+```
+
+É a **sondagem de edições**. Ela só lê: consulta páginas, listagens e o índice dos ZIPs das fontes, sem baixar microdados nem alterar arquivos. O relatório sai em `relatorios/sondagem/`, em `.md` para ler e `.json` para máquinas, com a URL e o status de cada consulta. Não há agendamento automático. O `baixar_todos` também roda a sondagem ao final.
+
+### Como ler o resultado
+
+Cada fonte recebe um de quatro estados:
+
+| Estado | O que quer dizer |
+| --- | --- |
+| `NOVA EDIÇÃO` | A fonte publicou edição posterior à em uso, com o arquivo que o extrator lê. Cabe decidir se troca. |
+| `NOVA, INCOMPLETA` | Há edição posterior, mas falta o arquivo que o extrator lê. Exemplos: o IOSPD 2026 saiu só em PDF; a ANATEL ainda não publicou dezembro. |
+| `NENHUMA EDIÇÃO POSTERIOR` | Todas as consultas responderam que não há. No CETIC, quer dizer que nada foi encontrado no padrão de URL atual (seção 11). |
+| `NÃO VERIFICADO` | Alguma consulta falhou: rede, bloqueio, erro do servidor ou página com estrutura inesperada. **Não quer dizer que não há edição nova.** Rode de novo mais tarde e leia o erro registrado. |
+
+Código de saída: `0` se todas as fontes foram verificadas, `3` se alguma ficou `NÃO VERIFICADO` e `1` em erro interno. A sondagem não prevê quando sai a próxima edição. As datas do relatório são a última modificação informada pelo servidor, não a data de divulgação.
+
+### O que é automático e o que é humano
+
+Nada troca de edição sozinho: a decisão é humana. Ela começa sempre no `config.py` do pipeline, acrescentando o ano novo ao fim de `anos_disponiveis` da fonte.
+
+| Fonte | Coleta | Trabalho humano numa troca de edição |
+| --- | --- | --- |
+| CETIC (as 5 pesquisas TIC) | Automática (`baixar_cetic_atual`) | Ano e caminhos no config; revisão dos contratos de coordenadas das tabelas |
+| PNAD Contínua TIC | Automática | Ano no config; conferência do layout de leitura do microdado |
+| Censo Escolar | Automática | Ano no config |
+| MUNIC e ESTADIC | Automática | Conferir se a edição tem o bloco usado; ano e caminhos no config; contrato da ESTADIC |
+| iESGo | Automática | Ano e caminho no config; revisão das questões |
+| ANATEL | Automática | Ano no config; esperar o arquivo de dezembro |
+| IOSPD | Manual | Baixar a planilha no portal da ABEP-TIC e posicioná-la com `uv run python -m baixadores.validar_iospd --arquivo <planilha>` |
+| iGovSISP | PDF automático; dados manuais | Transcrever o relatório em PDF |
+
+### O fluxo de uma troca de edição
+
+1. **Pipeline** (`obsgovdigital/pipeline`):
+   - editar o `config.py`;
+   - baixar: `uv run python -m baixadores.baixar_todos`, ou só o baixador da fonte;
+   - extrair: `uv run python extrair_todos.py`;
+   - testar: `uv run pytest`;
+   - conferir a publicação sem enviar nada: `uv run python publicar_hf.py --dry-run`.
+2. **Hugging Face:** publicar uma tag nova com `publicar_hf.py`, o que exige credencial de escrita no dataset (seção 5). O commit leva os parquets, o manifesto e os brutos em `raw/`.
+3. **Plataforma** (`obsgovdigital/plataforma`): abrir um PR que aponte `DATASET_REVISION_PADRAO`, em `config.py`, para a revisão nova do dataset, e rodar o build da release, `uv run python build.py` (seção 7).
+4. **Pacote:** `uv run python scripts/gerar_entrega_site.py --output-dir <pasta nova>`, na plataforma (seção 8).
+5. **Site** (este repositório): copiar o pacote para `src/data/obgd/assets-v4/` e rodar `node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs` ([Pipeline OBGD](pipeline-obgd.md)).
+
+### Riscos que continuam
+
+- **A ANATEL reescreve os arquivos a cada publicação**, sem guardar versões anteriores. Por isso:
+  - o baixador não sobrescreve sem `--force` um CSV do ano em uso que mudou na fonte;
+  - a extração exige o mês de dezembro do ano em uso. Outro mês só por decisão explícita, registrada em `ANATEL_MES_REFERENCIA_OVERRIDE` no `config.py`.
+- **O IOSPD pode sair só em PDF.** A edição 2026 saiu assim, e sem a planilha não há o que extrair.
+- **O bloco de informática da MUNIC e o de governo digital da ESTADIC não saem todo ano.** Uma edição nova pode não ter as perguntas usadas no índice.
+- **Brutos guardados só a partir da próxima publicação.** Cada publicação feita com o `publicar_hf.py` atual guarda em `raw/`, na mesma tag, os arquivos brutos que geraram os números. Eles podem ser recuperados com `uv run python recuperar_brutos.py --tag <tag> --destino <pasta>`. A tag em uso, `2026-Q3-v5`, é anterior a isso e não tem `raw/`.
+
+---
+
+## 11. Limitações e pontos de atenção
 
 Esta seção é para quem assumir a operação. Nada aqui é hipótese.
 
 **O snapshot é estático por construção.** Virar o ano do índice exige trabalho de código, não reprocessamento. Há anos fixados em pontos do pipeline e cada fonte muda de layout entre edições.
 
-**O downloader do CETIC exige conferência adicional.** O orquestrador retorna falha quando qualquer subprocesso falha, mas o downloader do CETIC registra edições malsucedidas no log sem propagar código de erro. Ver seção 4.
+**A coleta do CETIC depende do padrão de URL da página de arquivos.** O `baixar_cetic_atual` e a sondagem acham cada edição em `cetic.br/pt/arquivos/<pesquisa>/<ano>/<respondente>/`. Se o CETIC mudar esse padrão, o baixador falha e sai com 1, e a sondagem deixa de encontrar edições novas: para ela, `NENHUMA EDIÇÃO POSTERIOR` no CETIC quer dizer "nada no padrão de URL atual". O relatório da sondagem mostra as URLs consultadas. Ver seções 4 e 10.
 
 **Duas fontes dependem de trabalho humano.** IOSPD não tem downloader; iGovSISP usa uma transcrição conferida dos relatórios agregados porque a implementação corrente não dispõe de microdados públicos nem de conversor reproduzível para o CSV consumido pelo extrator.
 
-**Os PDFs do gov.br bloqueiam User-Agent não-navegador.** Qualquer integração server-side com esses links precisa declarar um User-Agent de navegador.
+**O portal da ABEP-TIC recusa o User-Agent padrão do `python-requests` (406).** Qualquer integração server-side com os links do IOSPD precisa declarar um User-Agent próprio, como o pipeline já faz. Os PDFs do gov.br não têm essa restrição. Ver seção 3.
 
 **Uma fonte foi retirada do snapshot ativo.** A satisfação Gov.br não participa da geração corrente, embora o módulo legado permaneça no repositório explicitamente marcado como fora do snapshot.
 
@@ -377,12 +447,15 @@ Esta seção é para quem assumir a operação. Nada aqui é hipótese.
 
 ---
 
-## 11. Como este documento é mantido
+## 12. Como este documento é mantido
 
 Vive neste repositório do portal, no caminho reservado `docs/03-dados/pipeline-geracao-dados.md`. A frente de dados deve atualizá-lo sempre que a geração mudar de forma observável pelo consumidor: mudança no conjunto de fontes, no contrato de colunas, nas regras de cálculo ou nos canais de entrega.
 
 Mudança que altere o **formato** do pacote exige atualizar também o [Contrato de entrega](contrato-entrega-dados.md), renegociar o contrato executável no repositório `plataforma` e coordenar com a engenharia do portal **antes** do sync; um pacote fora do contrato é recusado na validação.
 
+A seção 10 aponta para o checklist do repositório `pipeline` por URL absoluta, porque um link relativo não resolve entre repositórios. Se o arquivo mudar de lugar lá, o link quebra e precisa ser atualizado aqui.
+
 | Revisão | Data | Mudança |
 | --- | --- | --- |
 | 1.0 | 2026-09-20 | Primeira publicação; substitui o stub reservado |
+| 1.1 | 2026-10-13 | Seção 10, "Atualização para frente" (sondagem de edições e fluxo de troca de edição); coleta do CETIC, códigos de saída e advertência de User-Agent corrigidos; seção 7 registra que o contrato de entrega já foi reconciliado |

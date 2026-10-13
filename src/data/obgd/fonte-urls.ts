@@ -49,6 +49,11 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         url: 'https://cetic.br/media/microdados/933/tic_educacao_2024_escolas_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
       },
+      {
+        label: 'Tabelas ODS 2024 — professores',
+        url: 'https://cetic.br/media/microdados/936/tic_educacao_2024_professores_tabelas_ods_v1.0.zip',
+        tipo: 'download_livre',
+      },
     ],
   },
   tic_cultura: {
