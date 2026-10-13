@@ -2,6 +2,11 @@
   "federal": {
     "1": [
       {
+        "id": "igovsisp/G225SPD",
+        "nome": "Alinhamento estratégico dos investimentos do PTD",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G106GPN",
         "nome": "Analisou alternativas (IA, cloud)",
         "fonte": "iGovSISP"
@@ -10,6 +15,11 @@
         "id": "tic_gov/B1",
         "nome": "Área de TI",
         "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "iesgo/source/3132_C",
+        "nome": "Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",
+        "fonte": "iESGo"
       },
       {
         "id": "igovsisp/G109GP",
@@ -22,13 +32,13 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G103GP",
-        "nome": "Comitê de Governança Digital",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4221",
+        "nome": "Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",
+        "fonte": "iESGo"
       },
       {
-        "id": "igovsisp/G106GPO",
-        "nome": "Detalhou capacitações e orçamentos",
+        "id": "igovsisp/G103GP",
+        "nome": "Comitê de Governança Digital",
         "fonte": "iGovSISP"
       },
       {
@@ -39,6 +49,11 @@
       {
         "id": "igovsisp/G106GPQ",
         "nome": "Detalhou riscos e tratamento",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G213SPD",
+        "nome": "Elaboração e execução do Plano de Transformação Digital",
         "fonte": "iGovSISP"
       },
       {
@@ -72,19 +87,24 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G217SPD",
-        "nome": "Gestão de mudanças em TI",
-        "fonte": "iGovSISP"
-      },
-      {
         "id": "igovsisp/G112GP",
         "nome": "Gestão eficiente de recursos de TI",
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G106GPS",
-        "nome": "Grau de execução do PDTIC",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/2153",
+        "nome": "Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/2123",
+        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/2133",
+        "nome": "Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",
+        "fonte": "iESGo"
       },
       {
         "id": "igovsisp/G107GP",
@@ -112,24 +132,44 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G505CTI",
-        "nome": "Portaria 1.070/2023 (infraestrutura)",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G506CTI",
-        "nome": "Portaria 2.715/2023 (estações)",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G504CTI",
-        "nome": "Portaria 750/2023 (software)",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4212",
+        "nome": "Plano de TI vigente (iESGo/TCU 2024, questão 4212)",
+        "fonte": "iESGo"
       },
       {
         "id": "igovsisp/G114GP",
         "nome": "Previsão orçamentária por cenários alternativos",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "iesgo/source/4223",
+        "nome": "Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4224",
+        "nome": "Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4222",
+        "nome": "Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4262",
+        "nome": "Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4211",
+        "nome": "Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4261",
+        "nome": "Processo de software (iESGo/TCU 2024, questão 4261)",
+        "fonte": "iESGo"
       },
       {
         "id": "igovsisp/G116GP",
@@ -162,6 +202,11 @@
         "id": "iospd/IOSPD_I03",
         "nome": "Agendamento digital unificado (IOSPD I.3)",
         "fonte": "IOSPD"
+      },
+      {
+        "id": "igovsisp/G226SPD",
+        "nome": "Alinhamento dos investimentos do PTD à acessibilidade",
+        "fonte": "iGovSISP"
       },
       {
         "id": "iospd/IOSPD_V04",
@@ -349,6 +394,11 @@
         "fonte": "IOSPD"
       },
       {
+        "id": "igovsisp/G631IPD",
+        "nome": "Integração dos serviços ao módulo de avaliação de satisfação",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "iospd/IOSPD_V05",
         "nome": "Licenciamento de veículo com pagamento eletrônico (IOSPD V.5)",
         "fonte": "IOSPD"
@@ -367,6 +417,11 @@
         "id": "estadic/ESTADIC_MODELO_ACESS",
         "nome": "Modelo de acessibilidade adotado",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
+      },
+      {
+        "id": "igovsisp/G206SPD",
+        "nome": "Monitoramento da satisfação com sistemas e serviços públicos digitais",
+        "fonte": "iGovSISP"
       },
       {
         "id": "munic/MUNIC_ACESS_NAVEGACAO",
@@ -676,17 +731,17 @@
         "fonte": "IOSPD"
       },
       {
+        "id": "igovsisp/G630IPD",
+        "nome": "Integração dos serviços à sociedade ao Login Único",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "tic_gov/C9B_A",
         "nome": "Login único Gov.br para acesso a serviços online",
         "fonte": "TIC Governo Eletrônico"
       }
     ],
     "4": [
-      {
-        "id": "igovsisp/G225SPD",
-        "nome": "Auditorias de segurança",
-        "fonte": "iGovSISP"
-      },
       {
         "id": "estadic/ESTADIC_LGPD_CANAL_TITULAR",
         "nome": "Canal internet para titulares de dados (LGPD)",
@@ -708,19 +763,14 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "igovsisp/G222SPD",
-        "nome": "Capacitação em SI",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4252",
+        "nome": "Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",
+        "fonte": "iESGo"
       },
       {
-        "id": "igovsisp/G219SPD",
-        "nome": "Classificação da informação",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G226SPD",
-        "nome": "Conformidade Portaria GSI 852/2023",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4242",
+        "nome": "Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",
+        "fonte": "iESGo"
       },
       {
         "id": "tic_saude/A12_D",
@@ -728,24 +778,14 @@
         "fonte": "TIC Saúde"
       },
       {
-        "id": "igovsisp/G208SPD",
-        "nome": "Conscientização SI",
-        "fonte": "iGovSISP"
-      },
-      {
         "id": "iospd/IOSPD_III07",
         "nome": "Consentimento LGPD no portal (IOSPD III.7)",
         "fonte": "IOSPD"
       },
       {
-        "id": "igovsisp/G206SPD",
-        "nome": "Continuidade negócios SI",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G214SPD",
-        "nome": "Controle de acesso",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4251",
+        "nome": "Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",
+        "fonte": "iESGo"
       },
       {
         "id": "munic/MUNIC_LGPD_CAPACIT",
@@ -768,45 +808,29 @@
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "igovsisp/G224SPD",
-        "nome": "Encarregado dados pessoais (LGPD)",
-        "fonte": "iGovSISP"
-      },
-      { "id": "igovsisp/G202SPD", "nome": "ETIR", "fonte": "iGovSISP" },
-      {
         "id": "tic_saude/A10",
         "nome": "Ferramentas de segurança (C9a quest. → A10 portal)",
         "fonte": "TIC Saúde"
       },
       {
-        "id": "igovsisp/G629IPD",
-        "nome": "Framework Privacidade e SI",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4233",
+        "nome": "Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",
+        "fonte": "iESGo"
       },
       {
-        "id": "igovsisp/G223SPD",
-        "nome": "Gestão riscos privacidade/LGPD",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4232",
+        "nome": "Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",
+        "fonte": "iESGo"
       },
       {
-        "id": "igovsisp/G203SPD",
-        "nome": "Gestão riscos SI",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4231",
+        "nome": "Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",
+        "fonte": "iESGo"
       },
       {
-        "id": "igovsisp/G212SPD",
-        "nome": "Gestor SI designado",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G631IPD",
-        "nome": "Guias e Modelos PPSI",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G209SPD",
-        "nome": "Inventário ativos informação",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4243",
+        "nome": "Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",
+        "fonte": "iESGo"
       },
       {
         "id": "tic_gov/G3_A",
@@ -829,11 +853,6 @@
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "igovsisp/G215SPD",
-        "nome": "Plano Gestão Incidentes Cibernéticos",
-        "fonte": "iGovSISP"
-      },
-      {
         "id": "tic_saude/A12_C",
         "nome": "Política de privacidade publicada",
         "fonte": "TIC Saúde"
@@ -848,12 +867,10 @@
         "nome": "Política de segurança da informação (C8a quest. → A8 portal)",
         "fonte": "TIC Saúde"
       },
-      { "id": "igovsisp/G201SPD", "nome": "POSIN", "fonte": "iGovSISP" },
-      { "id": "igovsisp/G630IPD", "nome": "PPSI", "fonte": "iGovSISP" },
       {
-        "id": "igovsisp/G221SPD",
-        "nome": "Proteção privacidade/dados pessoais",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4241",
+        "nome": "Política de segurança da informação (iESGo/TCU 2024, questão 4241)",
+        "fonte": "iESGo"
       },
       {
         "id": "estadic/ESTADIC_LGPD_REGULAMENT",
@@ -881,24 +898,14 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "igovsisp/G211SPD",
-        "nome": "SI deliberada pelo CGD",
-        "fonte": "iGovSISP"
-      },
-      {
-        "id": "igovsisp/G213SPD",
-        "nome": "Testes segurança cibernética",
-        "fonte": "iGovSISP"
+        "id": "iesgo/source/4253",
+        "nome": "Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",
+        "fonte": "iESGo"
       },
       {
         "id": "tic_saude/A8A",
         "nome": "Treinamento em segurança (C8b quest. → A8A portal)",
         "fonte": "TIC Saúde"
-      },
-      {
-        "id": "igovsisp/G210SPD",
-        "nome": "Vulnerabilidades TIC",
-        "fonte": "iGovSISP"
       }
     ],
     "5": [
@@ -1008,18 +1015,23 @@
         "fonte": "IOSPD"
       },
       {
+        "id": "igovsisp/G333DI",
+        "nome": "Governança e gestão de dados para entregas à sociedade",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G383DI",
         "nome": "Infraestrutura análise dados",
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G310DI",
-        "nome": "Integração de dados",
+        "id": "igovsisp/G329DI",
+        "nome": "Integração de sistemas",
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G329DI",
-        "nome": "Integração de sistemas",
+        "id": "igovsisp/G222SPD",
+        "nome": "Integração de sistemas e bases internas e externas",
         "fonte": "iGovSISP"
       },
       {
@@ -1068,11 +1080,6 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "igovsisp/G333DI",
-        "nome": "Qualidade dos dados",
-        "fonte": "iGovSISP"
-      },
-      {
         "id": "igovsisp/G301DI",
         "nome": "Relevância e suficiência dados",
         "fonte": "iGovSISP"
@@ -1081,6 +1088,11 @@
         "id": "tic_saude/B6",
         "nome": "Troca eletrônica entre estabelecimentos (C7 quest. → B6 portal)",
         "fonte": "TIC Saúde"
+      },
+      {
+        "id": "igovsisp/G310DI",
+        "nome": "Uso sistemático de dados nas decisões",
+        "fonte": "iGovSISP"
       }
     ],
     "6": [
@@ -1264,6 +1276,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "igovsisp/G516CTI",
+        "nome": "Concordância sobre conhecimento aprofundado das normas de contratação",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G517CTI",
         "nome": "Critérios sustentáveis em contratações",
         "fonte": "iGovSISP"
@@ -1271,6 +1288,11 @@
       {
         "id": "igovsisp/G507CTI",
         "nome": "Definição requisitos contratação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G214SPD",
+        "nome": "Eficiência e produtividade percebidas após transformação digital",
         "fonte": "iGovSISP"
       },
       {
@@ -1304,6 +1326,26 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "igovsisp/G505CTI",
+        "nome": "Portaria 1.070/2023 (infraestrutura)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G506CTI",
+        "nome": "Portaria 2.715/2023 (estações)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G504CTI",
+        "nome": "Portaria 750/2023 (software)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G224SPD",
+        "nome": "Prática de avaliação do valor público dos sistemas digitais",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G508CTI",
         "nome": "Procedimentos padronizados",
         "fonte": "iGovSISP"
@@ -1322,11 +1364,6 @@
         "id": "tic_educacao/E1",
         "nome": "Registro eletrônico (P33 quest. → E1 portal)",
         "fonte": "TIC Educação"
-      },
-      {
-        "id": "igovsisp/G516CTI",
-        "nome": "Servidores com conhecimento em normas",
-        "fonte": "iGovSISP"
       },
       {
         "id": "tic_gov/B4_I",
@@ -1392,6 +1429,11 @@
         "id": "tic_gov/B4_A",
         "nome": "Sistema de recursos humanos",
         "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G208SPD",
+        "nome": "Utilização do SEI",
+        "fonte": "iGovSISP"
       }
     ],
     "9": [
@@ -1498,11 +1540,6 @@
     ],
     "10": [
       {
-        "id": "igovsisp/G130GP",
-        "nome": "% de titulares de funções de TI concursados",
-        "fonte": "iGovSISP"
-      },
-      {
         "id": "tic_educacao/P42a_G",
         "nome": "Atividades com alunos sobre impactos da inteligência artificial",
         "fonte": "TIC Educação"
@@ -1558,6 +1595,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "igovsisp/G106GPO",
+        "nome": "Detalhou capacitações e orçamentos",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G134GP",
         "nome": "Executa plano de capacitação",
         "fonte": "iGovSISP"
@@ -1605,6 +1647,11 @@
       {
         "id": "igovsisp/G133GP",
         "nome": "Plano de capacitação periódico",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G130GP",
+        "nome": "Titulares de funções de TI efetivos, empregados públicos ou militares",
         "fonte": "iGovSISP"
       }
     ]

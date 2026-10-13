@@ -1,154 +1,370 @@
 {
   "fonte": {
-    "descricao": "Base de dados de origem (14 fontes publicas).",
-    "pk": "id",
-    "campos": {
-      "id": "str -- id curto (ex.: tic_gov)",
-      "nome": "str",
-      "instituicao": "str",
-      "ano_base": "int -- ano da edicao usada (snapshot)",
-      "formato": "str|null",
-      "granularidade": "list[str]",
-      "anos_disponiveis": "list[int]"
+    "columns": {
+      "id": {
+        "type": "string"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "instituicao": {
+        "type": "string"
+      },
+      "anos_disponiveis": {
+        "type": "integer[]",
+        "nullable": true,
+        "optional": true
+      },
+      "ano_base": {
+        "type": "integer"
+      },
+      "formato": {
+        "type": "string",
+        "nullable": true
+      },
+      "granularidade": {
+        "type": "string[]"
+      }
     },
-    "fk": {}
+    "keys": [["id"]],
+    "relations": []
   },
   "objetivo_engd": {
-    "descricao": "Os 10 objetivos da ENGD (Decreto 12.069/2024).",
-    "pk": "id",
-    "campos": {
-      "id": "int 1..10",
-      "nome": "str",
-      "descricao": "str"
+    "columns": {
+      "id": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10
+      },
+      "nome": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string"
+      }
     },
-    "fk": {}
+    "keys": [["id"]],
+    "relations": []
   },
   "dimensao_conceitual": {
-    "descricao": "As 3 dimensoes conceituais do marco teorico (cap02).",
-    "pk": "id",
-    "campos": {
-      "id": "str -- slug (capacidade/uso_politicas/valor_publico)",
-      "nome": "str",
-      "descricao": "str"
+    "columns": {
+      "id": {
+        "type": "string"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string"
+      }
     },
-    "fk": {}
+    "keys": [["id"]],
+    "relations": []
   },
   "dimensao_tematica": {
-    "descricao": "As 52 dimensoes tematicas que organizam os capitulos.",
-    "pk": "id",
-    "campos": {
-      "id": "int",
-      "objetivo_id": "int",
-      "nome": "str"
+    "columns": {
+      "id": {
+        "type": "string"
+      },
+      "objetivo_id": {
+        "type": "integer"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "tipo": {
+        "type": "string"
+      }
     },
-    "fk": {
-      "objetivo_id": "objetivo_engd"
-    }
-  },
-  "tag": {
-    "descricao": "Temas transversais (tags) que recortam o catalogo atraves dos objetivos, para a visualizacao por tema. Multivaloradas por indicador.",
-    "pk": "id",
-    "campos": {
-      "id": "str -- slug kebab-case",
-      "nome": "str",
-      "descricao": "str",
-      "lado": "str (cidadao|gestor) -- publico tipico do tema"
-    },
-    "fk": {}
+    "keys": [["id"]],
+    "relations": [
+      {
+        "fields": ["objetivo_id"],
+        "target": "dados/objetivo_engd.json",
+        "target_fields": ["id"]
+      }
+    ]
   },
   "ente": {
-    "descricao": "Unidade de analise: Brasil, 27 UFs, 27 capitais e os 319 municipios com >=100 mil habitantes. As capitais aparecem nos dois recortes municipais (tipo=capital, chave sigla; e tipo=municipio, chave cod_ibge) -- filtre por `tipo`.",
-    "pk": "id",
-    "campos": {
-      "id": "int",
-      "tipo": "str (nacional|uf|capital|municipio)",
-      "codigo": "str (BR | sigla UF | cod IBGE 7 dig do municipio)",
-      "nome": "str",
-      "uf_sigla": "str|null -- UF do municipio/capital",
-      "regiao": "str|null (N/NE/SE/S/CO)"
+    "columns": {
+      "id": {
+        "type": "integer"
+      },
+      "tipo": {
+        "type": "string",
+        "enum": ["nacional", "uf", "municipio", "capital"]
+      },
+      "codigo": {
+        "type": "string"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "uf_sigla": {
+        "type": "string",
+        "nullable": true
+      },
+      "regiao": {
+        "type": "string",
+        "nullable": true,
+        "optional": true
+      }
     },
-    "fk": {}
+    "keys": [["id"], ["tipo", "codigo"]],
+    "relations": []
+  },
+  "tag": {
+    "columns": {
+      "id": {
+        "type": "string"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string",
+        "nullable": true,
+        "optional": true
+      },
+      "lado": {
+        "type": "string",
+        "optional": true,
+        "enum": ["cidadao", "gestor"]
+      }
+    },
+    "keys": [["id"]],
+    "relations": []
   },
   "indicador": {
-    "descricao": "Catalogo de variaveis: classificacao de cada indicador.",
-    "pk": "chave",
-    "campos": {
-      "chave": "str -- fonte/indicador[_sub]",
-      "fonte_id": "str",
-      "indicador": "str",
-      "sub_itens": "list[str]|null",
-      "descricao": "str",
-      "pergunta": "str",
-      "escala": "str",
-      "populacao": "str|null",
-      "objetivo_id": "int|null -- objetivo primario",
-      "objetivos_engd": "list[int]",
-      "tags": "list[str] -- ids de tag (temas transversais; FK logica -> tag.id)",
-      "audiencia": "str|null (cidadao|gestor|ambos) -- ambito da prestacao",
-      "dimensao_conceitual_id": "str|null",
-      "dimensao_tematica_id": "int|null",
-      "agregacao": "str|null (max|mean)",
-      "bateria": "str|null -- id do grupo de itens da mesma pergunta-mae",
-      "status": "str (ativo|excluido|saturado)",
-      "motivo_exclusao": "str|null",
-      "anos_observados": "list[int]",
-      "primeiro_ano": "int|null"
+    "columns": {
+      "chave": {
+        "type": "string"
+      },
+      "fonte_id": {
+        "type": "string"
+      },
+      "indicador": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string"
+      },
+      "pergunta": {
+        "type": "string",
+        "nullable": true,
+        "optional": true
+      },
+      "escala": {
+        "type": "string",
+        "nullable": true,
+        "optional": true
+      },
+      "populacao": {
+        "type": "string",
+        "nullable": true,
+        "optional": true
+      },
+      "objetivo_id": {
+        "type": "integer",
+        "nullable": true
+      },
+      "tags": {
+        "type": "string[]"
+      },
+      "status": {
+        "type": "string"
+      },
+      "concept_id": {
+        "type": "string"
+      },
+      "indicador_fisico": {
+        "type": "string"
+      },
+      "sub_itens": {
+        "type": "string[]",
+        "nullable": true
+      },
+      "objetivos_engd": {
+        "type": "integer[]"
+      },
+      "dimensao_conceitual_id": {
+        "type": "string",
+        "nullable": true
+      },
+      "dimensao_tematica_id": {
+        "type": "string",
+        "nullable": true
+      },
+      "audiencia": {
+        "type": "string",
+        "nullable": true,
+        "enum": ["cidadao", "gestor", "ambos"]
+      },
+      "agregacao": {
+        "type": "string",
+        "nullable": true
+      },
+      "bateria": {
+        "type": "string",
+        "nullable": true
+      },
+      "motivo_exclusao": {
+        "type": "string",
+        "nullable": true
+      },
+      "anos_observados": {
+        "type": "integer[]",
+        "nullable": true
+      },
+      "primeiro_ano": {
+        "type": "integer",
+        "nullable": true
+      }
     },
-    "fk": {
-      "fonte_id": "fonte",
-      "objetivo_id": "objetivo_engd",
-      "dimensao_conceitual_id": "dimensao_conceitual",
-      "dimensao_tematica_id": "dimensao_tematica"
-    }
+    "keys": [["chave"]],
+    "relations": [
+      {
+        "fields": ["fonte_id"],
+        "target": "dados/fonte.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["objetivo_id"],
+        "target": "dados/objetivo_engd.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["tags"],
+        "target": "dados/tag.json",
+        "target_fields": ["id"],
+        "each": true
+      },
+      {
+        "fields": ["dimensao_conceitual_id"],
+        "target": "dados/dimensao_conceitual.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["dimensao_tematica_id"],
+        "target": "dados/dimensao_tematica.json",
+        "target_fields": ["id"]
+      }
+    ]
   },
   "indicador_valor": {
-    "descricao": "Observacoes: valor normalizado de cada indicador por ente.",
-    "pk": null,
-    "campos": {
-      "indicador_chave": "str|null -- FK para indicador",
-      "fonte_id": "str",
-      "indicador": "str",
-      "sub_itens": "str",
-      "ente_id": "int",
-      "ano": "int|null",
-      "valor_normalizado": "float 0-100",
-      "escala": "str",
-      "populacao": "str|null",
-      "dimensao": "str (nacional|estadual|capitais)"
+    "columns": {
+      "indicador_chave": {
+        "type": "string",
+        "nullable": true
+      },
+      "ente_id": {
+        "type": "integer"
+      },
+      "valor_normalizado": {
+        "type": "number",
+        "nullable": true,
+        "minimum": 0,
+        "maximum": 100
+      },
+      "concept_id": {
+        "type": "string"
+      },
+      "fonte_id": {
+        "type": "string"
+      },
+      "indicador": {
+        "type": "string"
+      },
+      "indicador_fisico": {
+        "type": "string"
+      },
+      "sub_itens": {
+        "type": "string",
+        "nullable": true
+      },
+      "objetivo_id": {
+        "type": "integer"
+      },
+      "ano": {
+        "type": "integer"
+      },
+      "escala": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string"
+      },
+      "populacao": {
+        "type": "string",
+        "nullable": true
+      },
+      "dimensao": {
+        "type": "string",
+        "enum": ["nacional", "estadual", "capitais", "municipios"]
+      }
     },
-    "fk": {
-      "indicador_chave": "indicador",
-      "fonte_id": "fonte",
-      "ente_id": "ente"
-    }
+    "keys": [],
+    "relations": [
+      {
+        "fields": ["indicador_chave"],
+        "target": "dados/indicador.json",
+        "target_fields": ["chave"]
+      },
+      {
+        "fields": ["ente_id"],
+        "target": "dados/ente.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["fonte_id"],
+        "target": "dados/fonte.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["objetivo_id"],
+        "target": "dados/objetivo_engd.json",
+        "target_fields": ["id"]
+      }
+    ]
   },
   "indice_objetivo": {
-    "descricao": "Sub-indice (0-100) por ente x objetivo x edicao do indice.",
-    "pk": null,
-    "campos": {
-      "ente_id": "int",
-      "objetivo_id": "int",
-      "ano_indice": "int|null -- ano da EDICAO do indice (nao das fontes); de loader_postgres.ANO_INDICE",
-      "sub_indice": "float 0-100",
-      "n_indicadores": "int|null"
+    "columns": {
+      "ente_id": {
+        "type": "integer"
+      },
+      "objetivo_id": {
+        "type": "integer"
+      },
+      "ano_indice": {
+        "type": "integer"
+      },
+      "sub_indice": {
+        "type": "number",
+        "nullable": true,
+        "minimum": 0,
+        "maximum": 100
+      },
+      "n": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "n_itens": {
+        "type": "integer",
+        "minimum": 0
+      }
     },
-    "fk": {
-      "ente_id": "ente",
-      "objetivo_id": "objetivo_engd"
-    }
-  },
-  "indice_geral": {
-    "descricao": "Indice geral (0-100) por ente x edicao. PROVISORIO: a media geral pode ser removida pelo pesquisador.",
-    "pk": null,
-    "campos": {
-      "ente_id": "int",
-      "ano_indice": "int|null -- ano da EDICAO do indice (nao das fontes)",
-      "indice_geral": "float 0-100 (PROVISORIO)",
-      "n_objetivos_com_dados": "int",
-      "provisorio": "bool"
-    },
-    "fk": {
-      "ente_id": "ente"
-    }
+    "keys": [["ente_id", "objetivo_id", "ano_indice"]],
+    "relations": [
+      {
+        "fields": ["ente_id"],
+        "target": "dados/ente.json",
+        "target_fields": ["id"]
+      },
+      {
+        "fields": ["objetivo_id"],
+        "target": "dados/objetivo_engd.json",
+        "target_fields": ["id"]
+      }
+    ]
   }
 }

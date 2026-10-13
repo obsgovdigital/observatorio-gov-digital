@@ -133,6 +133,6 @@
     "ano_base": 2025,
     "formato": null,
     "granularidade": ["orgaos_federais_sisp"],
-    "anos_disponiveis": [2023, 2024, 2025]
+    "anos_disponiveis": [2025]
   }
 ]

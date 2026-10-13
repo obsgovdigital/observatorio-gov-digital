@@ -27,12 +27,12 @@
   {
     "id": 6,
     "nome": "Infraestrutura",
-    "descricao": "Dispor de infraestrutura moderna, segura, escalável e robusta para a implantação e evolução de soluções de governo digital, promovendo soluções estruturantes compartilhadas."
+    "descricao": "Dispor de infraestrutura moderna, segura, escalável e robusta para a implantação e evolução de soluções de governo digital, promovendo soluções estruturantes compartilhadas, uso de padrões comuns e a integração entre os entes federados."
   },
   {
     "id": 7,
     "nome": "Inovação e Tecnologias Emergentes",
-    "descricao": "Estimular e fomentar o desenvolvimento do ecossistema de inovação e de governo digital, envolvendo todos os entes federados e a sociedade, gerando novas oportunidades."
+    "descricao": "Estimular e fomentar o desenvolvimento do ecossistema de inovação e de governo digital, envolvendo todos os entes federados e a sociedade, gerando novas oportunidades para o aprimoramento do setor público e desenvolvimento de negócios, inclusive para o desenvolvimento e o uso de tecnologias emergentes."
   },
   {
     "id": 8,
@@ -42,11 +42,11 @@
   {
     "id": 9,
     "nome": "Transparência e Participação",
-    "descricao": "Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social."
+    "descricao": "Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social, bem como potencializar a colaboração com a sociedade para entregar valor público."
   },
   {
     "id": 10,
     "nome": "Competências em Governo Digital",
-    "descricao": "Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas."
+    "descricao": "Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas, ampliando a atração e retenção de talentos."
   }
 ]
