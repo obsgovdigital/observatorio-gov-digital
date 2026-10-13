@@ -1,0 +1,460 @@
+categoria,tag,tag_nome,sub_indice,n,n_itens
+RO,conectividade,Conectividade,100.0,1,1
+RO,canais-digitais-atendimento,Canais digitais de atendimento,72.37,17,17
+RO,servicos-publicos-digitais,Serviços públicos digitais,78.85,15,23
+RO,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+RO,pagamento-digital,Pagamento digital,88.9,3,3
+RO,identidade-digital,Identidade digital e autenticação,100.0,2,2
+RO,saude-digital,Saúde digital,75.0,4,4
+RO,educacao-digital,Educação digital,33.33,3,3
+RO,transparencia-dados-abertos,Transparência e dados abertos,33.33,9,9
+RO,inclusao-acessibilidade,Inclusão e acessibilidade,80.95,7,7
+RO,inteligencia-artificial,Inteligência artificial,100.0,1,1
+RO,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+RO,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+RO,dados-interoperabilidade,Dados e interoperabilidade,66.67,3,3
+RO,seguranca-lgpd,Segurança e LGPD,0.0,5,5
+RO,contratacoes,Contratações e compras,,0,0
+RO,infraestrutura,Infraestrutura e plataformas,,0,0
+AC,conectividade,Conectividade,0.0,1,1
+AC,canais-digitais-atendimento,Canais digitais de atendimento,74.48,17,17
+AC,servicos-publicos-digitais,Serviços públicos digitais,98.19,15,23
+AC,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+AC,pagamento-digital,Pagamento digital,88.9,3,3
+AC,identidade-digital,Identidade digital e autenticação,100.0,2,2
+AC,saude-digital,Saúde digital,100.0,4,4
+AC,educacao-digital,Educação digital,100.0,3,3
+AC,transparencia-dados-abertos,Transparência e dados abertos,76.85,9,9
+AC,inclusao-acessibilidade,Inclusão e acessibilidade,64.29,7,7
+AC,inteligencia-artificial,Inteligência artificial,100.0,1,1
+AC,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+AC,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+AC,dados-interoperabilidade,Dados e interoperabilidade,88.89,3,3
+AC,seguranca-lgpd,Segurança e LGPD,60.0,5,5
+AC,contratacoes,Contratações e compras,,0,0
+AC,infraestrutura,Infraestrutura e plataformas,,0,0
+AM,conectividade,Conectividade,0.0,1,1
+AM,canais-digitais-atendimento,Canais digitais de atendimento,47.91,17,17
+AM,servicos-publicos-digitais,Serviços públicos digitais,16.67,15,23
+AM,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+AM,pagamento-digital,Pagamento digital,8.33,3,3
+AM,identidade-digital,Identidade digital e autenticação,50.0,2,2
+AM,saude-digital,Saúde digital,0.0,4,4
+AM,educacao-digital,Educação digital,0.0,3,3
+AM,transparencia-dados-abertos,Transparência e dados abertos,91.93,9,9
+AM,inclusao-acessibilidade,Inclusão e acessibilidade,77.39,7,7
+AM,inteligencia-artificial,Inteligência artificial,0.0,1,1
+AM,gestao-planejamento-ti,Gestão e planejamento de TI,20.0,5,5
+AM,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+AM,dados-interoperabilidade,Dados e interoperabilidade,17.46,3,3
+AM,seguranca-lgpd,Segurança e LGPD,60.0,5,5
+AM,contratacoes,Contratações e compras,,0,0
+AM,infraestrutura,Infraestrutura e plataformas,,0,0
+RR,conectividade,Conectividade,0.0,1,1
+RR,canais-digitais-atendimento,Canais digitais de atendimento,47.93,17,17
+RR,servicos-publicos-digitais,Serviços públicos digitais,37.96,15,23
+RR,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+RR,pagamento-digital,Pagamento digital,55.57,3,3
+RR,identidade-digital,Identidade digital e autenticação,66.65,2,2
+RR,saude-digital,Saúde digital,0.0,4,4
+RR,educacao-digital,Educação digital,0.0,3,3
+RR,transparencia-dados-abertos,Transparência e dados abertos,64.97,9,9
+RR,inclusao-acessibilidade,Inclusão e acessibilidade,59.52,7,7
+RR,inteligencia-artificial,Inteligência artificial,0.0,1,1
+RR,gestao-planejamento-ti,Gestão e planejamento de TI,0.0,5,5
+RR,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+RR,dados-interoperabilidade,Dados e interoperabilidade,11.11,3,3
+RR,seguranca-lgpd,Segurança e LGPD,40.0,5,5
+RR,contratacoes,Contratações e compras,,0,0
+RR,infraestrutura,Infraestrutura e plataformas,,0,0
+PA,conectividade,Conectividade,100.0,1,1
+PA,canais-digitais-atendimento,Canais digitais de atendimento,46.19,17,17
+PA,servicos-publicos-digitais,Serviços públicos digitais,63.89,15,23
+PA,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+PA,pagamento-digital,Pagamento digital,33.33,3,3
+PA,identidade-digital,Identidade digital e autenticação,50.0,2,2
+PA,saude-digital,Saúde digital,25.0,4,4
+PA,educacao-digital,Educação digital,33.33,3,3
+PA,transparencia-dados-abertos,Transparência e dados abertos,76.96,9,9
+PA,inclusao-acessibilidade,Inclusão e acessibilidade,54.77,7,7
+PA,inteligencia-artificial,Inteligência artificial,0.0,1,1
+PA,gestao-planejamento-ti,Gestão e planejamento de TI,26.66,5,5
+PA,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+PA,dados-interoperabilidade,Dados e interoperabilidade,22.22,3,3
+PA,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+PA,contratacoes,Contratações e compras,,0,0
+PA,infraestrutura,Infraestrutura e plataformas,,0,0
+AP,conectividade,Conectividade,100.0,1,1
+AP,canais-digitais-atendimento,Canais digitais de atendimento,86.36,17,17
+AP,servicos-publicos-digitais,Serviços públicos digitais,38.37,15,23
+AP,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+AP,pagamento-digital,Pagamento digital,47.23,3,3
+AP,identidade-digital,Identidade digital e autenticação,100.0,2,2
+AP,saude-digital,Saúde digital,0.0,4,4
+AP,educacao-digital,Educação digital,0.0,3,3
+AP,transparencia-dados-abertos,Transparência e dados abertos,87.19,9,9
+AP,inclusao-acessibilidade,Inclusão e acessibilidade,85.71,7,7
+AP,inteligencia-artificial,Inteligência artificial,100.0,1,1
+AP,gestao-planejamento-ti,Gestão e planejamento de TI,46.66,5,5
+AP,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+AP,dados-interoperabilidade,Dados e interoperabilidade,44.44,3,3
+AP,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+AP,contratacoes,Contratações e compras,,0,0
+AP,infraestrutura,Infraestrutura e plataformas,,0,0
+TO,conectividade,Conectividade,0.0,1,1
+TO,canais-digitais-atendimento,Canais digitais de atendimento,76.05,17,17
+TO,servicos-publicos-digitais,Serviços públicos digitais,99.3,15,23
+TO,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+TO,pagamento-digital,Pagamento digital,100.0,3,3
+TO,identidade-digital,Identidade digital e autenticação,50.0,2,2
+TO,saude-digital,Saúde digital,50.0,4,4
+TO,educacao-digital,Educação digital,66.67,3,3
+TO,transparencia-dados-abertos,Transparência e dados abertos,57.85,9,9
+TO,inclusao-acessibilidade,Inclusão e acessibilidade,57.15,7,7
+TO,inteligencia-artificial,Inteligência artificial,100.0,1,1
+TO,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+TO,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+TO,dados-interoperabilidade,Dados e interoperabilidade,58.73,3,3
+TO,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+TO,contratacoes,Contratações e compras,,0,0
+TO,infraestrutura,Infraestrutura e plataformas,,0,0
+MA,conectividade,Conectividade,100.0,1,1
+MA,canais-digitais-atendimento,Canais digitais de atendimento,79.94,17,17
+MA,servicos-publicos-digitais,Serviços públicos digitais,58.22,15,23
+MA,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+MA,pagamento-digital,Pagamento digital,72.23,3,3
+MA,identidade-digital,Identidade digital e autenticação,50.0,2,2
+MA,saude-digital,Saúde digital,25.0,4,4
+MA,educacao-digital,Educação digital,0.0,3,3
+MA,transparencia-dados-abertos,Transparência e dados abertos,75.46,9,9
+MA,inclusao-acessibilidade,Inclusão e acessibilidade,59.52,7,7
+MA,inteligencia-artificial,Inteligência artificial,0.0,1,1
+MA,gestao-planejamento-ti,Gestão e planejamento de TI,40.0,5,5
+MA,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+MA,dados-interoperabilidade,Dados e interoperabilidade,22.22,3,3
+MA,seguranca-lgpd,Segurança e LGPD,60.0,5,5
+MA,contratacoes,Contratações e compras,,0,0
+MA,infraestrutura,Infraestrutura e plataformas,,0,0
+PI,conectividade,Conectividade,100.0,1,1
+PI,canais-digitais-atendimento,Canais digitais de atendimento,92.88,17,17
+PI,servicos-publicos-digitais,Serviços públicos digitais,93.33,15,23
+PI,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+PI,pagamento-digital,Pagamento digital,100.0,3,3
+PI,identidade-digital,Identidade digital e autenticação,100.0,2,2
+PI,saude-digital,Saúde digital,100.0,4,4
+PI,educacao-digital,Educação digital,100.0,3,3
+PI,transparencia-dados-abertos,Transparência e dados abertos,92.26,9,9
+PI,inclusao-acessibilidade,Inclusão e acessibilidade,100.0,7,7
+PI,inteligencia-artificial,Inteligência artificial,100.0,1,1
+PI,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+PI,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+PI,dados-interoperabilidade,Dados e interoperabilidade,80.95,3,3
+PI,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+PI,contratacoes,Contratações e compras,,0,0
+PI,infraestrutura,Infraestrutura e plataformas,,0,0
+CE,conectividade,Conectividade,100.0,1,1
+CE,canais-digitais-atendimento,Canais digitais de atendimento,90.38,17,17
+CE,servicos-publicos-digitais,Serviços públicos digitais,84.81,15,23
+CE,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+CE,pagamento-digital,Pagamento digital,88.9,3,3
+CE,identidade-digital,Identidade digital e autenticação,100.0,2,2
+CE,saude-digital,Saúde digital,25.0,4,4
+CE,educacao-digital,Educação digital,33.33,3,3
+CE,transparencia-dados-abertos,Transparência e dados abertos,71.14,9,9
+CE,inclusao-acessibilidade,Inclusão e acessibilidade,54.76,7,7
+CE,inteligencia-artificial,Inteligência artificial,0.0,1,1
+CE,gestao-planejamento-ti,Gestão e planejamento de TI,20.0,5,5
+CE,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+CE,dados-interoperabilidade,Dados e interoperabilidade,77.78,3,3
+CE,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+CE,contratacoes,Contratações e compras,,0,0
+CE,infraestrutura,Infraestrutura e plataformas,,0,0
+RN,conectividade,Conectividade,100.0,1,1
+RN,canais-digitais-atendimento,Canais digitais de atendimento,37.84,17,17
+RN,servicos-publicos-digitais,Serviços públicos digitais,40.0,15,23
+RN,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+RN,pagamento-digital,Pagamento digital,33.33,3,3
+RN,identidade-digital,Identidade digital e autenticação,16.65,2,2
+RN,saude-digital,Saúde digital,0.0,4,4
+RN,educacao-digital,Educação digital,0.0,3,3
+RN,transparencia-dados-abertos,Transparência e dados abertos,66.36,9,9
+RN,inclusao-acessibilidade,Inclusão e acessibilidade,38.1,7,7
+RN,inteligencia-artificial,Inteligência artificial,0.0,1,1
+RN,gestao-planejamento-ti,Gestão e planejamento de TI,20.0,5,5
+RN,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+RN,dados-interoperabilidade,Dados e interoperabilidade,11.11,3,3
+RN,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+RN,contratacoes,Contratações e compras,,0,0
+RN,infraestrutura,Infraestrutura e plataformas,,0,0
+PB,conectividade,Conectividade,0.0,1,1
+PB,canais-digitais-atendimento,Canais digitais de atendimento,36.38,17,17
+PB,servicos-publicos-digitais,Serviços públicos digitais,44.56,15,23
+PB,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+PB,pagamento-digital,Pagamento digital,66.67,3,3
+PB,identidade-digital,Identidade digital e autenticação,66.65,2,2
+PB,saude-digital,Saúde digital,0.0,4,4
+PB,educacao-digital,Educação digital,0.0,3,3
+PB,transparencia-dados-abertos,Transparência e dados abertos,76.96,9,9
+PB,inclusao-acessibilidade,Inclusão e acessibilidade,69.04,7,7
+PB,inteligencia-artificial,Inteligência artificial,100.0,1,1
+PB,gestao-planejamento-ti,Gestão e planejamento de TI,40.0,5,5
+PB,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+PB,dados-interoperabilidade,Dados e interoperabilidade,50.79,3,3
+PB,seguranca-lgpd,Segurança e LGPD,40.0,5,5
+PB,contratacoes,Contratações e compras,,0,0
+PB,infraestrutura,Infraestrutura e plataformas,,0,0
+PE,conectividade,Conectividade,0.0,1,1
+PE,canais-digitais-atendimento,Canais digitais de atendimento,74.47,17,17
+PE,servicos-publicos-digitais,Serviços públicos digitais,81.93,15,23
+PE,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+PE,pagamento-digital,Pagamento digital,100.0,3,3
+PE,identidade-digital,Identidade digital e autenticação,100.0,2,2
+PE,saude-digital,Saúde digital,75.0,4,4
+PE,educacao-digital,Educação digital,66.67,3,3
+PE,transparencia-dados-abertos,Transparência e dados abertos,72.88,9,9
+PE,inclusao-acessibilidade,Inclusão e acessibilidade,79.77,7,7
+PE,inteligencia-artificial,Inteligência artificial,100.0,1,1
+PE,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+PE,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+PE,dados-interoperabilidade,Dados e interoperabilidade,84.13,3,3
+PE,seguranca-lgpd,Segurança e LGPD,60.0,5,5
+PE,contratacoes,Contratações e compras,,0,0
+PE,infraestrutura,Infraestrutura e plataformas,,0,0
+AL,conectividade,Conectividade,0.0,1,1
+AL,canais-digitais-atendimento,Canais digitais de atendimento,57.23,17,17
+AL,servicos-publicos-digitais,Serviços públicos digitais,25.56,15,23
+AL,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+AL,pagamento-digital,Pagamento digital,0.0,3,3
+AL,identidade-digital,Identidade digital e autenticação,0.0,2,2
+AL,saude-digital,Saúde digital,0.0,4,4
+AL,educacao-digital,Educação digital,66.67,3,3
+AL,transparencia-dados-abertos,Transparência e dados abertos,74.69,9,9
+AL,inclusao-acessibilidade,Inclusão e acessibilidade,64.29,7,7
+AL,inteligencia-artificial,Inteligência artificial,0.0,1,1
+AL,gestao-planejamento-ti,Gestão e planejamento de TI,60.0,5,5
+AL,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+AL,dados-interoperabilidade,Dados e interoperabilidade,44.44,3,3
+AL,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+AL,contratacoes,Contratações e compras,,0,0
+AL,infraestrutura,Infraestrutura e plataformas,,0,0
+SE,conectividade,Conectividade,0.0,1,1
+SE,canais-digitais-atendimento,Canais digitais de atendimento,43.7,17,17
+SE,servicos-publicos-digitais,Serviços públicos digitais,42.7,15,23
+SE,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+SE,pagamento-digital,Pagamento digital,44.43,3,3
+SE,identidade-digital,Identidade digital e autenticação,50.0,2,2
+SE,saude-digital,Saúde digital,25.0,4,4
+SE,educacao-digital,Educação digital,33.33,3,3
+SE,transparencia-dados-abertos,Transparência e dados abertos,79.06,9,9
+SE,inclusao-acessibilidade,Inclusão e acessibilidade,61.91,7,7
+SE,inteligencia-artificial,Inteligência artificial,0.0,1,1
+SE,gestao-planejamento-ti,Gestão e planejamento de TI,66.66,5,5
+SE,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+SE,dados-interoperabilidade,Dados e interoperabilidade,15.87,3,3
+SE,seguranca-lgpd,Segurança e LGPD,40.0,5,5
+SE,contratacoes,Contratações e compras,,0,0
+SE,infraestrutura,Infraestrutura e plataformas,,0,0
+BA,conectividade,Conectividade,100.0,1,1
+BA,canais-digitais-atendimento,Canais digitais de atendimento,76.26,17,17
+BA,servicos-publicos-digitais,Serviços públicos digitais,50.44,15,23
+BA,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+BA,pagamento-digital,Pagamento digital,88.9,3,3
+BA,identidade-digital,Identidade digital e autenticação,0.0,2,2
+BA,saude-digital,Saúde digital,0.0,4,4
+BA,educacao-digital,Educação digital,33.33,3,3
+BA,transparencia-dados-abertos,Transparência e dados abertos,54.1,9,9
+BA,inclusao-acessibilidade,Inclusão e acessibilidade,67.86,7,7
+BA,inteligencia-artificial,Inteligência artificial,100.0,1,1
+BA,gestao-planejamento-ti,Gestão e planejamento de TI,26.66,5,5
+BA,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+BA,dados-interoperabilidade,Dados e interoperabilidade,11.11,3,3
+BA,seguranca-lgpd,Segurança e LGPD,20.0,5,5
+BA,contratacoes,Contratações e compras,,0,0
+BA,infraestrutura,Infraestrutura e plataformas,,0,0
+MG,conectividade,Conectividade,100.0,1,1
+MG,canais-digitais-atendimento,Canais digitais de atendimento,87.09,17,17
+MG,servicos-publicos-digitais,Serviços públicos digitais,91.63,15,23
+MG,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+MG,pagamento-digital,Pagamento digital,88.9,3,3
+MG,identidade-digital,Identidade digital e autenticação,100.0,2,2
+MG,saude-digital,Saúde digital,75.0,4,4
+MG,educacao-digital,Educação digital,33.33,3,3
+MG,transparencia-dados-abertos,Transparência e dados abertos,91.25,9,9
+MG,inclusao-acessibilidade,Inclusão e acessibilidade,88.1,7,7
+MG,inteligencia-artificial,Inteligência artificial,100.0,1,1
+MG,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+MG,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+MG,dados-interoperabilidade,Dados e interoperabilidade,93.65,3,3
+MG,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+MG,contratacoes,Contratações e compras,,0,0
+MG,infraestrutura,Infraestrutura e plataformas,,0,0
+ES,conectividade,Conectividade,0.0,1,1
+ES,canais-digitais-atendimento,Canais digitais de atendimento,78.2,17,17
+ES,servicos-publicos-digitais,Serviços públicos digitais,84.26,15,23
+ES,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+ES,pagamento-digital,Pagamento digital,66.67,3,3
+ES,identidade-digital,Identidade digital e autenticação,50.0,2,2
+ES,saude-digital,Saúde digital,50.0,4,4
+ES,educacao-digital,Educação digital,66.67,3,3
+ES,transparencia-dados-abertos,Transparência e dados abertos,83.6,9,9
+ES,inclusao-acessibilidade,Inclusão e acessibilidade,54.76,7,7
+ES,inteligencia-artificial,Inteligência artificial,100.0,1,1
+ES,gestao-planejamento-ti,Gestão e planejamento de TI,80.0,5,5
+ES,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+ES,dados-interoperabilidade,Dados e interoperabilidade,17.46,3,3
+ES,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+ES,contratacoes,Contratações e compras,,0,0
+ES,infraestrutura,Infraestrutura e plataformas,,0,0
+RJ,conectividade,Conectividade,100.0,1,1
+RJ,canais-digitais-atendimento,Canais digitais de atendimento,83.35,17,17
+RJ,servicos-publicos-digitais,Serviços públicos digitais,100.0,15,23
+RJ,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+RJ,pagamento-digital,Pagamento digital,100.0,3,3
+RJ,identidade-digital,Identidade digital e autenticação,100.0,2,2
+RJ,saude-digital,Saúde digital,100.0,4,4
+RJ,educacao-digital,Educação digital,66.67,3,3
+RJ,transparencia-dados-abertos,Transparência e dados abertos,78.9,9,9
+RJ,inclusao-acessibilidade,Inclusão e acessibilidade,90.48,7,7
+RJ,inteligencia-artificial,Inteligência artificial,100.0,1,1
+RJ,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+RJ,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+RJ,dados-interoperabilidade,Dados e interoperabilidade,82.54,3,3
+RJ,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+RJ,contratacoes,Contratações e compras,,0,0
+RJ,infraestrutura,Infraestrutura e plataformas,,0,0
+SP,conectividade,Conectividade,100.0,1,1
+SP,canais-digitais-atendimento,Canais digitais de atendimento,92.87,17,17
+SP,servicos-publicos-digitais,Serviços públicos digitais,86.52,15,23
+SP,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+SP,pagamento-digital,Pagamento digital,88.9,3,3
+SP,identidade-digital,Identidade digital e autenticação,100.0,2,2
+SP,saude-digital,Saúde digital,100.0,4,4
+SP,educacao-digital,Educação digital,100.0,3,3
+SP,transparencia-dados-abertos,Transparência e dados abertos,92.13,9,9
+SP,inclusao-acessibilidade,Inclusão e acessibilidade,94.05,7,7
+SP,inteligencia-artificial,Inteligência artificial,100.0,1,1
+SP,gestao-planejamento-ti,Gestão e planejamento de TI,70.0,5,5
+SP,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+SP,dados-interoperabilidade,Dados e interoperabilidade,55.56,3,3
+SP,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+SP,contratacoes,Contratações e compras,,0,0
+SP,infraestrutura,Infraestrutura e plataformas,,0,0
+PR,conectividade,Conectividade,100.0,1,1
+PR,canais-digitais-atendimento,Canais digitais de atendimento,71.3,17,17
+PR,servicos-publicos-digitais,Serviços públicos digitais,67.48,15,23
+PR,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+PR,pagamento-digital,Pagamento digital,88.9,3,3
+PR,identidade-digital,Identidade digital e autenticação,100.0,2,2
+PR,saude-digital,Saúde digital,25.0,4,4
+PR,educacao-digital,Educação digital,100.0,3,3
+PR,transparencia-dados-abertos,Transparência e dados abertos,66.49,9,9
+PR,inclusao-acessibilidade,Inclusão e acessibilidade,91.67,7,7
+PR,inteligencia-artificial,Inteligência artificial,100.0,1,1
+PR,gestao-planejamento-ti,Gestão e planejamento de TI,70.0,5,5
+PR,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+PR,dados-interoperabilidade,Dados e interoperabilidade,17.46,3,3
+PR,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+PR,contratacoes,Contratações e compras,,0,0
+PR,infraestrutura,Infraestrutura e plataformas,,0,0
+SC,conectividade,Conectividade,0.0,1,1
+SC,canais-digitais-atendimento,Canais digitais de atendimento,76.2,17,17
+SC,servicos-publicos-digitais,Serviços públicos digitais,43.67,15,23
+SC,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+SC,pagamento-digital,Pagamento digital,88.9,3,3
+SC,identidade-digital,Identidade digital e autenticação,66.65,2,2
+SC,saude-digital,Saúde digital,0.0,4,4
+SC,educacao-digital,Educação digital,33.33,3,3
+SC,transparencia-dados-abertos,Transparência e dados abertos,74.93,9,9
+SC,inclusao-acessibilidade,Inclusão e acessibilidade,78.57,7,7
+SC,inteligencia-artificial,Inteligência artificial,0.0,1,1
+SC,gestao-planejamento-ti,Gestão e planejamento de TI,60.0,5,5
+SC,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+SC,dados-interoperabilidade,Dados e interoperabilidade,53.97,3,3
+SC,seguranca-lgpd,Segurança e LGPD,60.0,5,5
+SC,contratacoes,Contratações e compras,,0,0
+SC,infraestrutura,Infraestrutura e plataformas,,0,0
+RS,conectividade,Conectividade,100.0,1,1
+RS,canais-digitais-atendimento,Canais digitais de atendimento,83.99,17,17
+RS,servicos-publicos-digitais,Serviços públicos digitais,96.11,15,23
+RS,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+RS,pagamento-digital,Pagamento digital,88.9,3,3
+RS,identidade-digital,Identidade digital e autenticação,100.0,2,2
+RS,saude-digital,Saúde digital,100.0,4,4
+RS,educacao-digital,Educação digital,100.0,3,3
+RS,transparencia-dados-abertos,Transparência e dados abertos,89.81,9,9
+RS,inclusao-acessibilidade,Inclusão e acessibilidade,89.29,7,7
+RS,inteligencia-artificial,Inteligência artificial,100.0,1,1
+RS,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+RS,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+RS,dados-interoperabilidade,Dados e interoperabilidade,77.78,3,3
+RS,seguranca-lgpd,Segurança e LGPD,100.0,5,5
+RS,contratacoes,Contratações e compras,,0,0
+RS,infraestrutura,Infraestrutura e plataformas,,0,0
+MS,conectividade,Conectividade,100.0,1,1
+MS,canais-digitais-atendimento,Canais digitais de atendimento,87.75,17,17
+MS,servicos-publicos-digitais,Serviços públicos digitais,91.52,15,23
+MS,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+MS,pagamento-digital,Pagamento digital,88.9,3,3
+MS,identidade-digital,Identidade digital e autenticação,66.65,2,2
+MS,saude-digital,Saúde digital,100.0,4,4
+MS,educacao-digital,Educação digital,66.67,3,3
+MS,transparencia-dados-abertos,Transparência e dados abertos,97.71,9,9
+MS,inclusao-acessibilidade,Inclusão e acessibilidade,88.1,7,7
+MS,inteligencia-artificial,Inteligência artificial,100.0,1,1
+MS,gestao-planejamento-ti,Gestão e planejamento de TI,86.66,5,5
+MS,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+MS,dados-interoperabilidade,Dados e interoperabilidade,63.49,3,3
+MS,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+MS,contratacoes,Contratações e compras,,0,0
+MS,infraestrutura,Infraestrutura e plataformas,,0,0
+MT,conectividade,Conectividade,100.0,1,1
+MT,canais-digitais-atendimento,Canais digitais de atendimento,80.52,17,17
+MT,servicos-publicos-digitais,Serviços públicos digitais,97.44,15,23
+MT,cidades-inteligentes,Cidades inteligentes,0.0,1,1
+MT,pagamento-digital,Pagamento digital,88.9,3,3
+MT,identidade-digital,Identidade digital e autenticação,100.0,2,2
+MT,saude-digital,Saúde digital,75.0,4,4
+MT,educacao-digital,Educação digital,66.67,3,3
+MT,transparencia-dados-abertos,Transparência e dados abertos,66.51,9,9
+MT,inclusao-acessibilidade,Inclusão e acessibilidade,38.1,7,7
+MT,inteligencia-artificial,Inteligência artificial,100.0,1,1
+MT,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+MT,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+MT,dados-interoperabilidade,Dados e interoperabilidade,77.78,3,3
+MT,seguranca-lgpd,Segurança e LGPD,20.0,5,5
+MT,contratacoes,Contratações e compras,,0,0
+MT,infraestrutura,Infraestrutura e plataformas,,0,0
+GO,conectividade,Conectividade,100.0,1,1
+GO,canais-digitais-atendimento,Canais digitais de atendimento,84.03,17,17
+GO,servicos-publicos-digitais,Serviços públicos digitais,80.0,15,23
+GO,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+GO,pagamento-digital,Pagamento digital,100.0,3,3
+GO,identidade-digital,Identidade digital e autenticação,100.0,2,2
+GO,saude-digital,Saúde digital,100.0,4,4
+GO,educacao-digital,Educação digital,100.0,3,3
+GO,transparencia-dados-abertos,Transparência e dados abertos,92.59,9,9
+GO,inclusao-acessibilidade,Inclusão e acessibilidade,86.91,7,7
+GO,inteligencia-artificial,Inteligência artificial,100.0,1,1
+GO,gestao-planejamento-ti,Gestão e planejamento de TI,100.0,5,5
+GO,servicos-digitais,Sistemas e serviços digitais,100.0,1,1
+GO,dados-interoperabilidade,Dados e interoperabilidade,77.78,3,3
+GO,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+GO,contratacoes,Contratações e compras,,0,0
+GO,infraestrutura,Infraestrutura e plataformas,,0,0
+DF,conectividade,Conectividade,100.0,1,1
+DF,canais-digitais-atendimento,Canais digitais de atendimento,68.28,17,17
+DF,servicos-publicos-digitais,Serviços públicos digitais,69.78,15,23
+DF,cidades-inteligentes,Cidades inteligentes,100.0,1,1
+DF,pagamento-digital,Pagamento digital,33.33,3,3
+DF,identidade-digital,Identidade digital e autenticação,66.65,2,2
+DF,saude-digital,Saúde digital,50.0,4,4
+DF,educacao-digital,Educação digital,0.0,3,3
+DF,transparencia-dados-abertos,Transparência e dados abertos,92.59,9,9
+DF,inclusao-acessibilidade,Inclusão e acessibilidade,65.48,7,7
+DF,inteligencia-artificial,Inteligência artificial,100.0,1,1
+DF,gestao-planejamento-ti,Gestão e planejamento de TI,66.66,5,5
+DF,servicos-digitais,Sistemas e serviços digitais,0.0,1,1
+DF,dados-interoperabilidade,Dados e interoperabilidade,11.11,3,3
+DF,seguranca-lgpd,Segurança e LGPD,80.0,5,5
+DF,contratacoes,Contratações e compras,,0,0
+DF,infraestrutura,Infraestrutura e plataformas,,0,0

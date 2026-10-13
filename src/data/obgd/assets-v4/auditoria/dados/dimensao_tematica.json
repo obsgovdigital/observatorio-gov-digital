@@ -1,0 +1,392 @@
+[
+  {
+    "id": "obj01-estrutura-governanca",
+    "objetivo_id": 1,
+    "nome": "Estrutura de governança",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-estrategia-planejamento",
+    "objetivo_id": 1,
+    "nome": "Estratégia e planejamento",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-recursos-contratacoes",
+    "objetivo_id": 1,
+    "nome": "Recursos e contratações",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-maturidade-processos-ti",
+    "objetivo_id": 1,
+    "nome": "Gestão e maturidade de processos de TI",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-pessoas-forca-trabalho-ti",
+    "objetivo_id": 1,
+    "nome": "Pessoas e força de trabalho em TI",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-instrumentos-sgd-sisp",
+    "objetivo_id": 1,
+    "nome": "Adoção de instrumentos do SGD/SISP",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-informacao-publica-digital",
+    "objetivo_id": 2,
+    "nome": "Informação pública digital",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-servicos-transversais",
+    "objetivo_id": 2,
+    "nome": "Serviços transversais",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-servicos-setoriais-saude",
+    "objetivo_id": 2,
+    "nome": "Serviços setoriais — Saúde",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-servicos-setoriais-educacao",
+    "objetivo_id": 2,
+    "nome": "Serviços setoriais — Educação",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-servicos-setoriais-cidadania-seguranca-fiscal",
+    "objetivo_id": 2,
+    "nome": "Serviços setoriais — Cidadania, segurança e fiscal",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-servicos-setoriais-mobilidade-urbana",
+    "objetivo_id": 2,
+    "nome": "Serviços setoriais — Mobilidade urbana",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-canais-atendimento-multicanal",
+    "objetivo_id": 2,
+    "nome": "Canais e atendimento multicanal",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-personalizacao-jornada-ambiente-autenticado",
+    "objetivo_id": 2,
+    "nome": "Personalização da jornada e ambiente autenticado",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-linguagem-usabilidade",
+    "objetivo_id": 2,
+    "nome": "Linguagem e usabilidade",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-acessibilidade",
+    "objetivo_id": 2,
+    "nome": "Acessibilidade",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-satisfacao-experiencia-cidadao",
+    "objetivo_id": 2,
+    "nome": "Satisfação e experiência do cidadão",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj02-recorte-estadual",
+    "objetivo_id": 2,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj02-recorte-capitais",
+    "objetivo_id": 2,
+    "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj03-autenticacao-digital",
+    "objetivo_id": 3,
+    "nome": "Autenticação digital",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj03-assinatura-eletronica",
+    "objetivo_id": 3,
+    "nome": "Assinatura eletrônica",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj03-identidade-civil",
+    "objetivo_id": 3,
+    "nome": "Identidade civil",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj03-recorte-estadual",
+    "objetivo_id": 3,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj04-governanca-responsabilidades",
+    "objetivo_id": 4,
+    "nome": "Governança e responsabilidades",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-planos-politicas-diagnostico",
+    "objetivo_id": 4,
+    "nome": "Planos, políticas e diagnóstico",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-protecao-dados-pessoais-lgpd",
+    "objetivo_id": 4,
+    "nome": "Proteção de dados pessoais — práticas LGPD",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-controles-riscos-auditoria",
+    "objetivo_id": 4,
+    "nome": "Controles, riscos e auditoria",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-resposta-incidentes-continuidade",
+    "objetivo_id": 4,
+    "nome": "Resposta a incidentes e continuidade",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-capacitacao-conscientizacao",
+    "objetivo_id": 4,
+    "nome": "Capacitação e conscientização",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj04-recorte-estadual",
+    "objetivo_id": 4,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj04-recorte-capitais",
+    "objetivo_id": 4,
+    "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj05-governanca-dados",
+    "objetivo_id": 5,
+    "nome": "Governança de dados",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj05-qualidade-ativos-dados",
+    "objetivo_id": 5,
+    "nome": "Qualidade e gestão dos ativos de dados",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj05-interoperabilidade-compartilhamento",
+    "objetivo_id": 5,
+    "nome": "Interoperabilidade e compartilhamento entre órgãos",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj05-dados-abertos",
+    "objetivo_id": 5,
+    "nome": "Dados abertos",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj05-analise-dados-decisao",
+    "objetivo_id": 5,
+    "nome": "Análise de dados e decisão",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj05-recorte-estadual",
+    "objetivo_id": 5,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj06-conectividade-ambiente-brasileiro",
+    "objetivo_id": 6,
+    "nome": "Conectividade do ambiente brasileiro",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-infraestrutura-digital-escolas",
+    "objetivo_id": 6,
+    "nome": "Infraestrutura digital nas escolas",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-conectividade-equipamentos-publicos",
+    "objetivo_id": 6,
+    "nome": "Conectividade pública e em equipamentos públicos",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-plataformas-armazenamento-dados",
+    "objetivo_id": 6,
+    "nome": "Plataformas digitais e armazenamento de dados",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-rede-ti-federal",
+    "objetivo_id": 6,
+    "nome": "Gestão e qualificação da rede de TI federal",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-programas-inclusao-digital",
+    "objetivo_id": 6,
+    "nome": "Programas de inclusão digital ao cidadão",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-infraestrutura-urbana-inteligente",
+    "objetivo_id": 6,
+    "nome": "Infraestrutura urbana inteligente",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj06-recorte-estadual",
+    "objetivo_id": 6,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj06-recorte-capitais",
+    "objetivo_id": 6,
+    "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj07-ia-tecnologias-emergentes",
+    "objetivo_id": 7,
+    "nome": "Inteligência artificial e tecnologias emergentes",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj07-laboratorios-fomento-inovacao",
+    "objetivo_id": 7,
+    "nome": "Laboratórios e fomento à inovação",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj07-recorte-estadual",
+    "objetivo_id": 7,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj08-sistemas-administrativos-integrados",
+    "objetivo_id": 8,
+    "nome": "Sistemas administrativos integrados",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj08-avaliacao-efeitos-transformacao-digital",
+    "objetivo_id": 8,
+    "nome": "Avaliação dos efeitos da transformação digital",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj08-compras-contratacoes-ti",
+    "objetivo_id": 8,
+    "nome": "Compras e contratações de TI",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj08-processos-eletronicos-simplificacao",
+    "objetivo_id": 8,
+    "nome": "Processos administrativos eletrônicos e simplificação",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj08-sistemas-eletronicos-saude-educacao",
+    "objetivo_id": 8,
+    "nome": "Sistemas eletrônicos em saúde e educação",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj08-apoio-decisao-clinica",
+    "objetivo_id": 8,
+    "nome": "Apoio à decisão clínica",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj09-transparencia-ativa-dados-abertos",
+    "objetivo_id": 9,
+    "nome": "Transparência ativa e dados abertos",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj09-acesso-informacao-lai",
+    "objetivo_id": 9,
+    "nome": "Acesso à informação (LAI)",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj09-participacao-social-cocriacao",
+    "objetivo_id": 9,
+    "nome": "Participação social e cocriação",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj09-recorte-estadual",
+    "objetivo_id": 9,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj09-recorte-capitais",
+    "objetivo_id": 9,
+    "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj10-forca-trabalho-tic-sisp",
+    "objetivo_id": 10,
+    "nome": "Força de trabalho de TIC no SISP",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj10-formacao-continuada-professores",
+    "objetivo_id": 10,
+    "nome": "Formação continuada de professores em TIC",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj10-competencias-digitais-educacao-critica",
+    "objetivo_id": 10,
+    "nome": "Competências digitais e educação crítica",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj10-plano-capacitacao-ti-sisp",
+    "objetivo_id": 10,
+    "nome": "Plano e processo de capacitação em TI no SISP",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj10-areas-tematicas-capacitacoes-sisp",
+    "objetivo_id": 10,
+    "nome": "Áreas temáticas das capacitações desenvolvidas em TI no SISP",
+    "tipo": "tematica"
+  }
+]

@@ -1,24 +1,9 @@
-# Entrega dos dados para o site (OBGD)
+# Entrega do modelo-base
 
-Dois formatos dos MESMOS dados (fonte unica de verdade):
+dados/ contém a projeção relacional externa e auditoria/dados/ conserva o modelo canônico. Schema e SCHEMA.md derivam da mesma especificação. Os metadados separam a revisão do dataset, a revisão da build e a revisão do exportador, com hashes das entradas consumidas.
 
-## `dados/` -- modelo relacional (JSON) -- **canonico**
-Entidades normalizadas com FKs, para relacionar e filtrar sem API:
-`fonte`, `objetivo_engd`, `dimensao_conceitual`, `dimensao_tematica`, `ente`,
-`indicador`, `indicador_valor`, `indice_objetivo`, `indice_geral`.
-Ver `dados/SCHEMA.md` e `dados/schema.json` (relacoes/FKs e exemplos de join).
-Filtros suportados: por objetivo, dimensao conceitual/tematica, regiao, tipo de
-ente, fonte.
+indicador usa o sufixo canônico na projeção externa, enquanto concept_id, indicador_chave e indicador_fisico preservam a correspondência com a origem. Os CSVs externos de detalhes omitem somente observações nulas. Zero permanece zero; objetivos com escore nulo permanecem no modelo e na view long. n conta componentes ponderados; n_itens conta itens observados, ambos vindos da build.
 
-## CSVs (raiz) -- views flat de conveniencia (derivadas do canonico)
-- `indice_long_por_objetivo.csv` -- uma linha por (nivel, unidade, objetivo) com
-  `sub_indice`, `indice_geral` e `posicao_no_objetivo`. `unidade` = `ente.codigo`.
-- `indice_*`, `detalhes_*`, `ranking_*` -- copias diretas do build.
+indice_long_por_objetivo.csv deriva do modelo, com ranking por nível e objetivo e empates min. Os CSVs em auditoria/ conservam todos os registros de entrada, sem rankings gerais. Não há cálculo ou arredondamento adicional.
 
-## Avisos
-O subset do app (`src/data/obgd/assets/`) não lê `indice_geral` nem `n_objetivos_com_dados`. O restante deste pacote descreve o que já está no disco.
-
-1. **`indice_geral` e PROVISORIO** -- a media geral a partir dos objetivos pode
-   ser removida pelo pesquisador. Prefira `indice_objetivo`/rankings por objetivo.
-2. Escala 0-100 para sub_indice, indice_geral e valor_normalizado.
-3. Snapshot: cada fonte contribui com 1 ano (o mais recente).
+Tags e municípios pertencem ao mesmo modelo e à mesma proveniência da release. Os escores por tag permanecem nos CSVs, sem entidade JSON paralela. audiencia e lado são metadados técnicos, sem efeito no cálculo. A exportação não altera nem homologa o consumidor. export_complete.json só aparece após a última escrita.

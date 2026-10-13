@@ -2,7 +2,7 @@
   {
     "id": "conectividade",
     "nome": "Conectividade",
-    "descricao": "Acesso à internet, banda larga, cobertura móvel e Wi-Fi — infraestrutura de conexão que chega à população e às escolas.",
+    "descricao": "Acesso à internet, banda larga, cobertura móvel e Wi-Fi. Infraestrutura de conexão que chega à população e às escolas.",
     "lado": "cidadao"
   },
   {
@@ -32,7 +32,7 @@
   {
     "id": "identidade-digital",
     "nome": "Identidade digital e autenticação",
-    "descricao": "Identificação e autenticação do cidadão no digital: login único (gov.br), assinatura eletrônica, biometria, carteira/documentos de identidade digitais. Reservada a variáveis cujo assunto É identidade — não a serviços que apenas usam login.",
+    "descricao": "Identificação e autenticação do cidadão no digital: login único (gov.br), assinatura eletrônica, biometria, carteira/documentos de identidade digitais. Reservada a variáveis cujo assunto é identidade, não a serviços que apenas usam login.",
     "lado": "cidadao"
   },
   {
@@ -60,6 +60,12 @@
     "lado": "cidadao"
   },
   {
+    "id": "inteligencia-artificial",
+    "nome": "Inteligência artificial",
+    "descricao": "Adoção e estratégia de inteligência artificial pelo Estado. Exclui big data e pacotes genéricos de tecnologias emergentes quando a inteligência artificial aparece apenas como exemplo incidental.",
+    "lado": "gestor"
+  },
+  {
     "id": "gestao-planejamento-ti",
     "nome": "Gestão e planejamento de TI",
     "descricao": "Governança, estrutura, estratégia e planejamento da tecnologia da informação no órgão (comitês, PDTIC, gestão de processos de TI).",
@@ -68,7 +74,7 @@
   {
     "id": "servicos-digitais",
     "nome": "Sistemas e serviços digitais",
-    "descricao": "Capacidade de construir e operar sistemas e serviços digitais do órgão — tanto os públicos (desenvolvimento, plataformas de serviço, integração) quanto os sistemas internos de gestão (ERP, CRM, BI, RH, patrimônio, contabilidade).",
+    "descricao": "Capacidade de construir e operar sistemas e serviços digitais do órgão, tanto os públicos (desenvolvimento, plataformas de serviço, integração) quanto os sistemas internos de gestão (ERP, CRM, BI, RH, patrimônio, contabilidade).",
     "lado": "gestor"
   },
   {
@@ -80,7 +86,7 @@
   {
     "id": "seguranca-lgpd",
     "nome": "Segurança e LGPD",
-    "descricao": "Privacidade, proteção de dados pessoais, segurança da informação e cibersegurança — aparece sob governança, infraestrutura e competências.",
+    "descricao": "Privacidade, proteção de dados pessoais, segurança da informação e cibersegurança, presente em governança, infraestrutura e competências.",
     "lado": "gestor"
   },
   {
