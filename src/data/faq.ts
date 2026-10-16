@@ -12,7 +12,7 @@ export const faqItems: FaqItem[] = [
   {
     pergunta: 'O que é o Observatório Brasileiro de Governo Digital?',
     resposta:
-      'É uma iniciativa que monitora e compara o desenvolvimento digital do governo federal, dos estados e dos municípios com 100 mil habitantes ou mais, organizado segundo os dez objetivos da Estratégia Nacional de Governo Digital (ENGD).',
+      'É uma iniciativa que monitora e compara o desenvolvimento digital no recorte nacional, nos estados e nos municípios com 100 mil habitantes ou mais, organizado segundo os dez objetivos da Estratégia Nacional de Governo Digital (ENGD).',
   },
   {
     pergunta: 'Como o Índice de Desenvolvimento Digital é calculado?',
@@ -32,7 +32,7 @@ export const faqItems: FaqItem[] = [
   {
     pergunta: 'Posso comparar diferentes entes?',
     resposta:
-      'Sim. Na página de Indicadores você seleciona até cinco entes do mesmo recorte (federal, estadual ou municípios com 100 mil habitantes ou mais) e visualiza os perfis lado a lado no radar; no Ranking, é possível explorar cada ente do nível até o objetivo e ver as variáveis associadas.',
+      'Sim. Na página de Indicadores você seleciona até cinco entes do mesmo recorte (nacional, estadual ou municípios com 100 mil habitantes ou mais) e visualiza os perfis lado a lado no radar; no Ranking, é possível explorar cada ente do nível até o objetivo e ver as variáveis associadas.',
   },
   {
     pergunta: 'Os dados são atualizados?',

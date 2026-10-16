@@ -76,7 +76,7 @@ export const RANKING_TOUR_STEPS: TourStepCopy[] = [
     element: '[data-tour="ranking-nivel"]',
     title: 'Escolha o nível de governo',
     description:
-      'Estados ou municípios com 100 mil habitantes ou mais entram no ranking. O nível federal tem página própria de detalhe.',
+      'Estados ou municípios com 100 mil habitantes ou mais entram no ranking. O nível nacional tem página própria de detalhe.',
     side: 'bottom',
     align: 'start',
   },

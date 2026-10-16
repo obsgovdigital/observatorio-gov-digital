@@ -19,7 +19,7 @@ export const OBJETIVO_3_MOTIVO =
   'Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado na plataforma.'
 
 const ROTULO_RECORTE: Record<NivelKey, string> = {
-  federal: 'federal',
+  federal: 'nacional',
   estadual: 'estadual',
   municipios: 'municipal',
 }
@@ -47,7 +47,7 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
     slug: 'competencias-e-capacitacao',
     numero: 10,
     motivoResumo:
-      'Dados concentrados no nível federal; lacuna estadual/municipal.',
+      'Dados concentrados no nível nacional; lacuna estadual/municipal.',
     oQueFoiAvaliado: [
       'Indicadores de capacitação e competências disponíveis no escopo nacional.',
     ],
@@ -62,7 +62,7 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
     numero: 8,
     motivoResumo: 'Sem cobertura municipal na edição atual.',
     oQueFoiAvaliado: [
-      'Indicadores de eficiência e colaboração nos níveis federal e estadual.',
+      'Indicadores de eficiência e colaboração nos níveis nacional e estadual.',
     ],
     oQueNaoFoiIncluido: [
       'Variáveis municipais de eficiência operacional e colaboração interinstitucional.',

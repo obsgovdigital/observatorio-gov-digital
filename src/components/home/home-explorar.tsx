@@ -17,7 +17,7 @@ interface Props {
 }
 
 function tituloDaLista(nivelKey: NivelKey, nomeFederal: string | undefined) {
-  if (nivelKey === 'federal') return nomeFederal ?? 'Federal'
+  if (nivelKey === 'federal') return nomeFederal ?? 'Nacional'
   if (nivelKey === 'municipios') return 'Municípios'
   return 'Estados'
 }

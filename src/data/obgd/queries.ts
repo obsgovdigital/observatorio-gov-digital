@@ -81,7 +81,7 @@ const NIVEL_MAP: Record<
     dataNivel: DataNivel
   }
 > = {
-  federal: { label: 'Federal', isRanking: false, dataNivel: 'nacional' },
+  federal: { label: 'Nacional', isRanking: false, dataNivel: 'nacional' },
   estadual: { label: 'Estadual', isRanking: true, dataNivel: 'uf' },
   municipios: { label: 'Municípios', isRanking: true, dataNivel: 'municipio' },
 }

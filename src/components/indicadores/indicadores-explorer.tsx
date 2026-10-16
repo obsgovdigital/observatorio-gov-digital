@@ -368,7 +368,7 @@ export function IndicadoresExplorer({
             Explorar indicadores
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-            Compare o governo federal, os estados e os municípios com 100 mil
+            Compare o recorte nacional, os estados e os municípios com 100 mil
             habitantes ou mais nos objetivos da ENGD ou em categorias temáticas.
             As notas vêm de indicadores de fontes públicas — sem precisar de uma
             média geral entre objetivos.{' '}
