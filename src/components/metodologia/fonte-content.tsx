@@ -4,11 +4,10 @@ import { ObgdFonteDownloadButton } from '@/components/metodologia/obgd-fonte-dow
 import { BackButton } from '@/components/shared/back-button'
 import type { Fonte } from '@/data/fontes'
 import { hasObgdExportForFonteId } from '@/data/obgd/export-rows'
-import { FONTE_ACESSO_TIPO_LABEL } from '@/data/obgd/fonte-urls'
+import { descricaoArquivo } from '@/data/obgd/fonte-urls'
 
 export function FonteContent({ fonte }: { fonte: Fonte }) {
   const temExportObgd = hasObgdExportForFonteId(fonte.slug)
-  const urlPesquisaDistinta = fonte.urlPesquisa !== fonte.urlOrgao
   const arquivosOficiais = fonte.arquivos
 
   return (
@@ -60,7 +59,7 @@ export function FonteContent({ fonte }: { fonte: Fonte }) {
                         {item.label}
                       </span>
                       <span className="mt-1 block text-xs text-muted-foreground">
-                        {FONTE_ACESSO_TIPO_LABEL[item.tipo]}
+                        {descricaoArquivo(item)}
                       </span>
                     </span>
                     <ExternalLink
@@ -84,17 +83,15 @@ export function FonteContent({ fonte }: { fonte: Fonte }) {
             <ExternalLink className="size-4" aria-hidden="true" />
             Acessar página da pesquisa
           </a>
-          {urlPesquisaDistinta && (
-            <a
-              href={fonte.urlOrgao}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-medium text-muted-foreground text-sm transition-colors hover:border-primary hover:bg-primary/10 hover:text-primary"
-            >
-              <ExternalLink className="size-4" aria-hidden="true" />
-              Site do órgão
-            </a>
-          )}
+          <a
+            href={fonte.urlOrgao}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-medium text-muted-foreground text-sm transition-colors hover:border-primary hover:bg-primary/10 hover:text-primary"
+          >
+            <ExternalLink className="size-4" aria-hidden="true" />
+            Site do órgão
+          </a>
         </div>
 
         {temExportObgd && (

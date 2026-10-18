@@ -7,7 +7,7 @@ import type { ArquivoDados, NivelKey } from '@/data/indicators'
 import {
   acessoDaFonte,
   arquivosDaFonte,
-  FONTE_ACESSO_TIPO_LABEL,
+  descricaoArquivo,
 } from '@/data/obgd/fonte-urls'
 
 type VariavelAcoesProps = {
@@ -231,7 +231,7 @@ export function VariavelAcoes({
                             {item.label}
                           </span>
                           <span className="mt-0.5 block text-xs text-muted-foreground">
-                            {FONTE_ACESSO_TIPO_LABEL[item.tipo]}
+                            {descricaoArquivo(item)}
                           </span>
                         </span>
                         <ExternalLink
