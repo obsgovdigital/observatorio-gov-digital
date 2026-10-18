@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Engenharia |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-13 |
+| **Última atualização** | 2026-10-18 |
 | **Relacionados** | [Pipeline OBGD](pipeline-obgd.md) · [Disclaimer de variáveis](disclaimer-variaveis.md) · [Índice](../README.md) |
 
 A plataforma **não hospeda** microdados brutos. Oferece dois canais distintos de acesso a dados.
@@ -106,7 +106,15 @@ Tudo vive em [`src/data/obgd/fonte-urls.ts`](../../src/data/obgd/fonte-urls.ts).
 ```ts
 type FonteAcessoTipo = 'download_livre' | 'solicitacao' | 'painel'
 
-type FonteArquivo = { label: string; url: string; tipo: FonteAcessoTipo }
+type FonteArquivoFormato = 'ZIP' | 'XLSX' | 'PDF' | 'TXT'
+
+type FonteArquivo = {
+  label: string
+  url: string
+  tipo: FonteAcessoTipo
+  formato: FonteArquivoFormato
+  tamanho: string // aproximado, ex.: "1,2 MB"
+}
 
 type FonteAcesso = {
   urlPesquisa: string
@@ -116,44 +124,54 @@ type FonteAcesso = {
 
 | Campo | Uso |
 | --- | --- |
-| `urlPesquisa` | Landing da pesquisa (CTA secundário) |
-| `arquivos[]` | Downloads da **edição usada no índice** |
+| `urlPesquisa` | Página da pesquisa ou da edição. Nunca a página inicial do órgão. |
+| `arquivos[]` | Downloads da **edição usada no índice**: só arquivos que o pipeline usa para calcular o índice |
 | `tipo` | `download_livre` · `painel` · `solicitacao` |
+| `formato` / `tamanho` | Exibidos junto do tipo ("Download livre · ZIP · 1,2 MB"), para o visitante saber o que vai baixar |
 
-Helpers: `arquivosDaFonte`, `acessoDaFonte`, `urlFontePrimaria`, alias `FONTE_URLS`.
+Helpers: `arquivosDaFonte`, `acessoDaFonte`, `urlFontePrimaria`, `descricaoArquivo`, alias `FONTE_URLS`.
 
-O site do órgão (`urlOrgao`) fica em `src/data/fontes.ts` (`ORGAO_URL_POR_INSTITUICAO`), fora deste catálogo.
+O site do órgão (`urlOrgao`) fica em `src/data/fontes.ts` (`ORGAO_URL_POR_INSTITUICAO`), por instituição, fora deste catálogo.
+
+### Regras
+
+1. **Só as fontes usadas no índice têm página.** `/metodologia/fontes/[fonte]` existe para cada fonte com pelo menos um indicador `ativo` em `assets/dados/indicador.json`. Fonte retirada, ou com todas as variáveis excluídas, não tem página, mesmo que `fonte.json` a liste. Se uma variável dela voltar ao índice, a página volta sem mudança de código.
+2. **Toda página mostra os dois botões**, "Acessar página da pesquisa" e "Site do órgão". Os dois endereços precisam existir e ser diferentes. Se não forem, o `npm run build` falha e cita a fonte (checagem em `src/data/fontes.ts`).
+3. **Downloads só do que o índice usa.** Arquivo que a fonte publica mas o pipeline não usa (exemplo: o ZIP de banda larga fixa da ANATEL) não entra.
+4. **Cada link é testado com requisição real** antes do merge. Bloqueio anti-robô (Cloudflare no IBGE, F5 no TCU) ou queda de conexão é registrado como "não verificado", nunca como link quebrado, e o link é conferido no navegador.
 
 ### Onde aparece na UI
 
 | Superfície | Comportamento |
 | --- | --- |
-| Lista de variáveis (`VariavelAcoes`) | Ícone externo → arquivo primário; diálogo com CSV OBGD **e** lista oficial |
-| Página `/metodologia/fontes/[fonte]` | Bloco de downloads oficiais + CSV OBGD se houver export |
+| Lista de variáveis (`VariavelAcoes`) | Ícone externo → arquivo primário; diálogo com CSV OBGD **e** lista oficial (com formato e tamanho) |
+| Página `/metodologia/fontes/[fonte]` | Bloco "Baixar dados oficiais" (com formato e tamanho), os dois botões e o CSV OBGD se houver export |
 
 ### Catálogo desta edição (resumo)
 
-IDs = `fonte.id` em `fonte.json`. URLs canônicas só em `FONTES_ACESSO`.
+IDs = `fonte.id` em `fonte.json`. URLs canônicas só em `FONTES_ACESSO`. Links conferidos e tamanhos medidos em 18/10/2026.
 
-| `fonteId` | Edição | Observação |
-| --- | ---: | --- |
-| `tic_gov` | 2023 | Zips ODS (órgãos e prefeituras) |
-| `tic_saude` / `tic_educacao` / `tic_cultura` / `tic_domicilios` | 2024 | Zips ODS CETIC |
-| `iesgo` | 2024 | Sem arquivo; só `urlPesquisa` (TCU) até URL de download |
-| `iospd` | 2025 | xlsx + PDF |
-| `anatel` | 2025 | Zips banda larga / cobertura |
-| `censo_escolar` | 2024 | Zip INEP |
-| `pnad_tic` | 2024 | Zip + sintaxe |
-| `sgd_sat` | 2025 | API (`painel`) |
-| `munic` / `estadic` | 2024 | xlsx FTP IBGE |
-| `igovsisp` | 2025 | PDF autodiagnóstico |
+| `fonteId` | Edição | Página da pesquisa | Downloads |
+| --- | ---: | --- | --- |
+| `tic_gov` | 2023 | CETIC, pesquisa TIC Governo | 2 ZIPs de tabelas ODS (órgãos; prefeituras) |
+| `tic_saude` / `tic_educacao` | 2024 | CETIC, página de cada pesquisa | ZIPs de tabelas ODS (Educação: escolas e professores) |
+| `iesgo` | 2024 | `iesgo.tcu.gov.br/iesgo2024/` | Tabela dinâmica (XLSX) |
+| `iospd` | 2025 | ABEP-TIC, Índice ABEP 2025 | Planilha por dimensões (XLSX) e relatório (PDF) |
+| `anatel` | 2025 | Painel "Cobertura Móvel" da ANATEL | `cobertura_movel.zip`, o arquivo atual da ANATEL (o índice usa dezembro de 2025) |
+| `censo_escolar` | 2024 | INEP, Censo Escolar | Microdados (ZIP) |
+| `pnad_tic` | 2024 | IBGE, PNAD Contínua | Microdados (ZIP) e sintaxe de leitura (TXT) |
+| `munic` / `estadic` | 2024 | IBGE, páginas 10586 e 16770 | Bases (XLSX) |
+| `igovsisp` | 2025 | Governo Digital, autodiagnóstico iGovSISP | Relatório 2025 (PDF) |
+
+Sem página, por não terem indicador ativo: `tic_cultura` e `tic_domicilios` (mantêm a entrada em `fonte-urls.ts`, com os links conferidos, caso voltem ao índice) e `sgd_sat` (Painel de Satisfação Gov.br, retirado do índice em 08/05/2026; sem entrada).
 
 CETIC: rotular como “Tabelas ODS”, não como microdados unitários (Termo NIC.br).
 
 ### Como atualizar (edição seguinte)
 
 1. Obter da frente de dados, por fonte: `fonteId`, ano, URL, `tipo`.
-2. Editar só `fonte-urls.ts`.
+2. Editar só `fonte-urls.ts` (e `ORGAO_URL_POR_INSTITUICAO`, se mudar o órgão).
 3. Ajustar `label` com o ano da edição.
-4. Sem arquivo: `arquivos: []` + `urlPesquisa` útil.
-5. Não commitar cópia das bases oficiais no repositório.
+4. Medir o tamanho de cada arquivo novo (por exemplo, `curl -s -o NUL -r 0-0 -w "%header{content-range}" <url>`; o total vem depois da barra) e preencher `formato` e `tamanho`.
+5. Testar cada link (regra 4) e rodar `npm run build`, que confere a regra 2.
+6. Não commitar cópia das bases oficiais no repositório.

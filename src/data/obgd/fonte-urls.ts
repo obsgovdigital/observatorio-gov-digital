@@ -2,32 +2,46 @@ const URL_FALLBACK = 'https://www.gov.br/'
 
 export type FonteAcessoTipo = 'download_livre' | 'solicitacao' | 'painel'
 
+export type FonteArquivoFormato = 'ZIP' | 'XLSX' | 'PDF' | 'TXT'
+
 export type FonteArquivo = {
   label: string
   url: string
   tipo: FonteAcessoTipo
+  formato: FonteArquivoFormato
+  /** Tamanho aproximado, medido na publicação do link (ex.: "1,2 MB"). */
+  tamanho: string
 }
 
 export type FonteAcesso = {
-  /** Landing da edição/pesquisa (CTA secundário). */
+  /** Página da pesquisa ou da edição (nunca a home do órgão). */
   urlPesquisa: string
-  /** Endereços oficiais de download/acesso da edição usada no índice. */
+  /** Arquivos oficiais que o índice usa, na edição usada no índice. */
   arquivos: FonteArquivo[]
 }
 
+/**
+ * Tamanhos medidos em 18/10/2026 (total do Content-Range, unidades binárias).
+ * Fontes sem indicador ativo (tic_cultura, tic_domicilios) mantêm a entrada,
+ * mas não têm página enquanto nenhuma variável delas entrar no índice.
+ */
 export const FONTES_ACESSO: Record<string, FonteAcesso> = {
   tic_gov: {
-    urlPesquisa: 'https://cetic.br/pt/pesquisa/governo-eletronico/',
+    urlPesquisa: 'https://cetic.br/pt/pesquisa/governo/',
     arquivos: [
       {
         label: 'Tabelas ODS 2023 — órgãos federais e estaduais',
         url: 'https://cetic.br/media/microdados/778/tic_governo_eletronico_2023_orgaos_federais_e_estaduais_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '271 KB',
       },
       {
         label: 'Tabelas ODS 2023 — prefeituras',
         url: 'https://cetic.br/media/microdados/781/tic_governo_eletronico_2023_prefeituras_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '1,2 MB',
       },
     ],
   },
@@ -38,6 +52,8 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Tabelas ODS 2024 — estabelecimentos',
         url: 'https://cetic.br/media/microdados/836/tic_saude_2024_estabelecimentos_tabelas_ods_v1.1.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '530 KB',
       },
     ],
   },
@@ -48,11 +64,15 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Tabelas ODS 2024 — escolas',
         url: 'https://cetic.br/media/microdados/933/tic_educacao_2024_escolas_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '986 KB',
       },
       {
         label: 'Tabelas ODS 2024 — professores',
         url: 'https://cetic.br/media/microdados/936/tic_educacao_2024_professores_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '1,9 MB',
       },
     ],
   },
@@ -63,6 +83,8 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Tabelas ODS 2024',
         url: 'https://cetic.br/media/microdados/942/tic_cultura_2024_tabelas_ods_v1.0.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '377 KB',
       },
     ],
   },
@@ -73,12 +95,22 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Tabelas ODS 2024 — indivíduos',
         url: 'https://cetic.br/media/microdados/849/tic_domicilios_2024_individuos_ods_v1.1.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '931 KB',
       },
     ],
   },
   iesgo: {
-    urlPesquisa: 'https://portal.tcu.gov.br/',
-    arquivos: [],
+    urlPesquisa: 'https://iesgo.tcu.gov.br/iesgo2024/',
+    arquivos: [
+      {
+        label: 'Tabela dinâmica iESGo 2024',
+        url: 'https://iesgo.tcu.gov.br/wp-content/uploads/sites/12/iesgo2024/iESGo2024_7_TabelaDinamica.xlsx',
+        tipo: 'download_livre',
+        formato: 'XLSX',
+        tamanho: '1,5 MB',
+      },
+    ],
   },
   iospd: {
     urlPesquisa: 'https://abep-tic.org.br/indice-abep-2025/',
@@ -87,26 +119,28 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Planilha detalhada por dimensões (2025)',
         url: 'https://abep-tic.org.br/wp-content/uploads/2025/08/IOSPD-2025_detalhado_dimensoes.xlsx',
         tipo: 'download_livre',
+        formato: 'XLSX',
+        tamanho: '53 KB',
       },
       {
         label: 'Relatório do índice (2025)',
         url: 'https://abep-tic.org.br/wp-content/uploads/2025/08/Relatorio-Indice-ABEP-TIC-de-Oferta-de-Servicos-Publicos-Digitais-dos-Governos.pdf',
         tipo: 'download_livre',
+        formato: 'PDF',
+        tamanho: '8,2 MB',
       },
     ],
   },
   anatel: {
-    urlPesquisa: 'https://www.gov.br/anatel/',
+    urlPesquisa:
+      'https://informacoes.anatel.gov.br/paineis/infraestrutura/cobertura-movel',
     arquivos: [
       {
-        label: 'Acessos de banda larga fixa (2025)',
-        url: 'https://www.anatel.gov.br/dadosabertos/paineis_de_dados/acessos/acessos_banda_larga_fixa.zip',
-        tipo: 'download_livre',
-      },
-      {
-        label: 'Cobertura móvel (2025)',
+        label: 'Cobertura móvel (arquivo atual; o índice usa dezembro de 2025)',
         url: 'https://www.anatel.gov.br/dadosabertos/paineis_de_dados/infraestrutura/cobertura_movel.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: 'cerca de 319 MB',
       },
     ],
   },
@@ -118,6 +152,8 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Microdados do Censo Escolar 2024',
         url: 'https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2024.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '32 MB',
       },
     ],
   },
@@ -129,21 +165,15 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Microdados — 4º trimestre 2024',
         url: 'https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_4/Dados/PNADC_2024_trimestre4_20251014.zip',
         tipo: 'download_livre',
+        formato: 'ZIP',
+        tamanho: '230 MB',
       },
       {
         label: 'Arquivo de input / sintaxe — 4º trimestre 2024',
         url: 'https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_4/Documentacao/input_PNADC_trimestre4_20251010.txt',
         tipo: 'download_livre',
-      },
-    ],
-  },
-  sgd_sat: {
-    urlPesquisa: 'https://www.gov.br/governodigital/',
-    arquivos: [
-      {
-        label: 'API de avaliação de serviços (Gov.br)',
-        url: 'https://avaliacao.servicos.gov.br/api/avaliacao/v2/servicos',
-        tipo: 'painel',
+        formato: 'TXT',
+        tamanho: '84 KB',
       },
     ],
   },
@@ -155,27 +185,34 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         label: 'Base MUNIC 2024',
         url: 'https://ftp.ibge.gov.br/Perfil_Municipios/2024/Base_de_Dados/Base_MUNIC_2024_20251107.xlsx',
         tipo: 'download_livre',
+        formato: 'XLSX',
+        tamanho: '24 MB',
       },
     ],
   },
   estadic: {
     urlPesquisa:
-      'https://www.ibge.gov.br/estatisticas/sociais/administracao-publica-e-participacao-politica/20282-pesquisa-de-informacoes-basicas-estaduais.html',
+      'https://www.ibge.gov.br/estatisticas/sociais/administracao-publica-e-participacao-politica/16770-pesquisa-de-informacoes-basicas-estaduais.html',
     arquivos: [
       {
         label: 'Base ESTADIC 2024',
         url: 'https://ftp.ibge.gov.br/Perfil_Estados/2024/Base_Estadic_2024.xlsx',
         tipo: 'download_livre',
+        formato: 'XLSX',
+        tamanho: '206 KB',
       },
     ],
   },
   igovsisp: {
-    urlPesquisa: 'https://www.gov.br/governodigital/',
+    urlPesquisa:
+      'https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/sisp/autodiagnostico-igovsisp',
     arquivos: [
       {
-        label: 'Relatório do autodiagnóstico SISP 2025 (PDF)',
+        label: 'Relatório do autodiagnóstico SISP 2025',
         url: 'https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/sisp/autodiagnostico-igovsisp/arquivos/relatorio_autodiagnostico_sisp_2025.pdf',
         tipo: 'download_livre',
+        formato: 'PDF',
+        tamanho: '6,6 MB',
       },
     ],
   },
@@ -203,4 +240,13 @@ export const FONTE_ACESSO_TIPO_LABEL: Record<FonteAcessoTipo, string> = {
   download_livre: 'Download livre',
   solicitacao: 'Sob solicitação',
   painel: 'Painel / API',
+}
+
+/** Linha secundária de um arquivo: "Download livre · ZIP · 1,2 MB". */
+export function descricaoArquivo(arquivo: FonteArquivo): string {
+  return [
+    FONTE_ACESSO_TIPO_LABEL[arquivo.tipo],
+    arquivo.formato,
+    arquivo.tamanho,
+  ].join(' · ')
 }
