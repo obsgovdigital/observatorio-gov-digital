@@ -6,7 +6,7 @@
 
 Coletar feedback sobre a definição de governo digital adotada, a seleção de bases e variáveis e a estrutura preliminar do índice. Além disso, buscamos verificar a aderência das métricas à experiência prática dos usuários com governo digital.
 
-**Paulo Cunha | Amazon | Data: 25/03/2026**
+**Entrevistado 1 | Amazon | Data: 25/03/2026**
 
 **Bloco 1 \- Definição de Governo Digital**
 
@@ -36,7 +36,7 @@ O entrevistado avaliou que o índice consegue produzir um diagnóstico interessa
 
 Em relação às capitais, os resultados foram considerados, em geral, plausíveis, ainda que com algumas posições que poderiam gerar debate. O entrevistado destacou que o ranking, nesse sentido, funciona como um bom ponto de partida para discussão. Também foi levantada a observação de que algumas dimensões, como transparência e participação, poderiam apresentar desempenho melhor, indicando possíveis diferenças entre percepção e mensuração.
 
-**Wagner Silva Araujo | SGD/MGI | Data: 27/03/2026**
+**Entrevistado 2 | SGD/MGI | Data: 27/03/2026**
 
 **Bloco 1 \- Definição de Governo Digital**
 
@@ -70,7 +70,7 @@ Em relação a discussão sobre estados e municípios, o entrevistado destacou q
 
 Também foi apontado que a realidade municipal é bastante heterogênea, especialmente em função da capacidade institucional e da adesão voluntária a iniciativas federais, como a rede gov.br. Nesse sentido, a simples comparação entre entes pode não capturar adequadamente essas diferenças.
 
-**Cris Heckert | Amazon | Data: 19/03/2026**
+**Entrevistado 3 | Amazon | Data: 19/03/2026**
 
 **Bloco 1 \- Avaliação de Fontes e Indicadores**
 
@@ -92,7 +92,7 @@ A apresentação dos resultados para estados e capitais gerou contribuições im
 
 Além disso, foi destacada uma preocupação central com a forma de apresentação dos resultados. O entrevistado alertou que rankings tendem a concentrar a atenção pública e podem gerar distorções no debate, especialmente quando utilizados de forma simplificada pela imprensa ou por atores políticos.
 
-**Roberto Sampaio Pedreira | Agência Brasileira de Desenvolvimento Industrial (ABDI) | Data: 19/03/2026**
+**Entrevistado 4 | Agência Brasileira de Desenvolvimento Industrial (ABDI) | Data: 19/03/2026**
 
 **Bloco 1 \- Definição de Governo Digital**
 
