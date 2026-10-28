@@ -51,7 +51,7 @@ export function SiteFooter() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
             <Link href={link('/')} className="inline-block">
-              <BrandLogo className="h-10 w-auto sm:h-12" />
+              <BrandLogo className="h-10 w-auto sm:h-14" />
             </Link>
           </div>
 

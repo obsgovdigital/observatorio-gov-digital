@@ -119,7 +119,7 @@ export function SiteHeader() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           {/* Logo à esquerda */}
           <Link href={link('/')} className="flex items-center">
-            <BrandLogo className="h-9 w-auto" loading="eager" />
+            <BrandLogo className="h-10 sm:h-12 w-auto" loading="eager" />
           </Link>
 
           {/* Menu à direita (desktop) */}
