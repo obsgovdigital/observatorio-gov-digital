@@ -520,7 +520,15 @@ O instrumento incluiu ainda questões sobre a intenção de voltar a utilizar e 
 
 Os resultados confirmaram a pertinência da proposta da plataforma e, ao mesmo tempo, forneceram subsídios concretos para sua evolução. As percepções dos participantes foram incorporadas ao processo de desenvolvimento, permitindo aprimorar aspectos de navegação, apresentação e contextualização das informações e orientar a inclusão de novos recursos. Dessa forma, a avaliação com usuários foi parte efetiva do processo iterativo de construção da plataforma, além de etapa de validação.
 
-### 3.7.5 Incorporação das contribuições e aprimoramento da experiência
+### 3.7.5 Entrevistas de validação da plataforma
+
+Foram realizadas **13 entrevistas semiestruturadas**, com duração de 30 a 40 minutos, para avaliar a usabilidade, a clareza e a utilidade do Observatório e identificar oportunidades de melhoria na plataforma.
+
+As entrevistas incluíram uma breve navegação guiada e perguntas sobre cinco temas: **uso de dados e indicadores; organização e navegação; indicadores e visualizações; funcionalidades e experiência de uso; e utilidade e melhorias**.
+
+Entre os principais pontos levantados estão a necessidade de uma **página inicial mais explicativa**, que apresente as possibilidades do Observatório; melhorias na **exploração e comparação dos indicadores**; e a adoção de uma visualização inicial padrão. O **gráfico de radar** foi destacado positivamente como ferramenta de comparação. Também foram revisados aspectos relacionados aos **dados disponíveis para download**, às orientações de **fonte e citação**, à atualização dos conteúdos e à criação de mecanismos para **sugestões, correções e participação dos usuários**.
+
+### 3.7.6 Incorporação das contribuições e aprimoramento da experiência
 
 As entrevistas e o *survey* foram utilizados como insumos para um novo ciclo de desenvolvimento.
 
@@ -539,7 +547,7 @@ Entre as evoluções posteriores à avaliação com usuários estiveram:
 
 As questões abertas do *survey* também tiveram papel importante nessa etapa, pois permitiram identificar demandas relacionadas, entre outros aspectos, ao detalhamento das variáveis, evolução dos dados, informações sobre indicadores e aprimoramento da navegação.
 
-### 3.7.6 Validação e segurança da informação
+### 3.7.7 Validação e segurança da informação
 
 Após a consolidação das funcionalidades e dos principais aprimoramentos de experiência do usuário, a plataforma passou por uma etapa específica de avaliação de segurança da informação.
 
@@ -547,7 +555,7 @@ Essa fase foi composta por diferentes testes de segurança destinados a identifi
 
 Os resultados encontrados durante esse processo foram analisados pela equipe técnica e utilizados para orientar os ajustes necessários, incorporando a segurança como uma dimensão do processo de qualidade da plataforma.
 
-### 3.7.7 Um processo contínuo de evolução
+### 3.7.8 Um processo contínuo de evolução
 
 A metodologia adotada para o Observatório considera a plataforma como um produto em evolução contínua. O ciclo pode ser sintetizado como uma sequência que parte da prototipação, segue pelo desenvolvimento, pela integração de dados, pela avaliação com usuários, pelo aprimoramento e pela validação de segurança, e desemboca na evolução contínua, que realimenta a sequência.
 
