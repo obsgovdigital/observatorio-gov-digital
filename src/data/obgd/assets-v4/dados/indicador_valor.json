@@ -2304,22 +2304,6 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
-    "ente_id": 1,
-    "objetivo_id": 3,
-    "ano": 2025,
-    "dimensao": "nacional",
-    "sub_itens": "total",
-    "valor_normalizado": 81.48,
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
-  },
-  {
     "indicador_chave": "munic/MUNIC_AUTENTICACAO",
     "concept_id": "munic/MUNIC_AUTENTICACAO",
     "fonte_id": "munic",
@@ -2350,6 +2334,22 @@
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
     "descricao": "Integração dos serviços à sociedade ao Login Único"
+  },
+  {
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
+    "ente_id": 1,
+    "objetivo_id": 3,
+    "ano": 2026,
+    "dimensao": "nacional",
+    "sub_itens": "total",
+    "valor_normalizado": 52.66,
+    "escala": "pct_meta_100",
+    "populacao": "uf",
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "tic_gov/G1",
@@ -6048,20 +6048,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 2,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 50.49,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -7264,20 +7264,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 3,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 69.27,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -8480,20 +8480,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 4,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 51.78,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -9696,20 +9696,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 5,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 30.87,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -10912,20 +10912,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 6,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 0.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 7.86,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -12128,20 +12128,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 7,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 35.93,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -13344,20 +13344,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 8,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 0.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 53.22,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -14560,20 +14560,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 9,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 58.31,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -15776,20 +15776,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 10,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
     "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -16992,20 +16992,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 11,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 59.3,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -18208,20 +18208,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 12,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 0.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 65.79,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -19424,20 +19424,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 13,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 59.38,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -20640,20 +20640,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 14,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 49.92,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -21856,20 +21856,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 15,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 0.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 68.36,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -23072,20 +23072,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 16,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 79.41,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -24288,20 +24288,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 17,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 0.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 52.44,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -25504,20 +25504,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 18,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 60.23,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -26720,20 +26720,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 19,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 42.6,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -27936,20 +27936,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 20,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 50.66,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -29152,20 +29152,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 21,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 42.42,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -30368,20 +30368,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 22,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 58.02,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -31584,20 +31584,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 23,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 60.2,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -32800,20 +32800,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 24,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 63.36,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -34016,20 +34016,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 25,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 54.08,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -35232,20 +35232,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 26,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 65.41,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -36448,20 +36448,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 27,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 51.56,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",
@@ -37664,20 +37664,20 @@
     "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)"
   },
   {
-    "indicador_chave": "iospd/IOSPD_V07",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte_id": "iospd",
-    "indicador": "IOSPD_V07",
-    "indicador_fisico": "IOSPD_V07",
+    "indicador_chave": "cin/atingimento_meta_cin",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte_id": "cin",
+    "indicador": "atingimento_meta_cin",
+    "indicador_fisico": "atingimento_meta_cin",
     "ente_id": 28,
     "objetivo_id": 3,
-    "ano": 2025,
+    "ano": 2026,
     "dimensao": "estadual",
     "sub_itens": "total",
-    "valor_normalizado": 100.0,
-    "escala": "indice_0_10",
+    "valor_normalizado": 61.97,
+    "escala": "pct_meta_100",
     "populacao": "uf",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)"
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)"
   },
   {
     "indicador_chave": "iospd/IOSPD_III07",

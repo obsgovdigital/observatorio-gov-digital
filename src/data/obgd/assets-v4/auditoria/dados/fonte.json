@@ -134,5 +134,14 @@
     "formato": null,
     "granularidade": ["orgaos_federais_sisp"],
     "anos_disponiveis": [2025]
+  },
+  {
+    "id": "cin",
+    "nome": "Base de dados da Carteira de Identidade Nacional",
+    "instituicao": "SGD/MGI",
+    "ano_base": 2026,
+    "formato": null,
+    "granularidade": ["uf"],
+    "anos_disponiveis": [2026]
   }
 ]

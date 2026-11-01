@@ -110,8 +110,8 @@ Total,pagamento-digital,Pagamento digital,munic/MUNIC_CELULAR_BOLETOS,munic,MUNI
 Total,pagamento-digital,Pagamento digital,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,55.98,2024
 Total,identidade-digital,Identidade digital e autenticação,tic_gov/C9B_A,tic_gov,C9B,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,13.38965,2023
 Total,identidade-digital,Identidade digital e autenticação,iospd/IOSPD_I09,iospd,IOSPD_I09,total,Assinatura eletrônica Gov.br (IOSPD I.9),indice_0_10,uf,62.96,2025
-Total,identidade-digital,Identidade digital e autenticação,iospd/IOSPD_V07,iospd,IOSPD_V07,total,Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7),indice_0_10,uf,81.48,2025
 Total,identidade-digital,Identidade digital e autenticação,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Autenticação para acessar serviços pela internet,prop_0_100,prefeituras,38.1,2024
+Total,identidade-digital,Identidade digital e autenticação,cin/atingimento_meta_cin,cin,atingimento_meta_cin,total,Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN),pct_meta_100,uf,52.66,2026
 Total,saude-digital,Saúde digital,tic_saude/B1,tic_saude,B1,total,Prontuários mantidos apenas em formato eletrônico (C1 quest. → B1 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,36.7939,2024
 Total,saude-digital,Saúde digital,tic_saude/B3,tic_saude,B3,"['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",Maior percentual entre as funcionalidades eletrônicas disponíveis,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,64.7333,2024
 Total,saude-digital,Saúde digital,tic_saude/B4,tic_saude,B4,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,28.11238571428572,2024

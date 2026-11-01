@@ -143,9 +143,9 @@ Total,2,Qualidade dos Serviços Digitais,igovsisp/G226SPD,igovsisp,G226SPD,total
 Total,2,Qualidade dos Serviços Digitais,igovsisp/G631IPD,igovsisp,G631IPD,total,Integração dos serviços ao módulo de avaliação de satisfação,prop_0_100,orgaos_federais_sisp,45.68,2025
 Total,3,Identificação Única,tic_gov/C9B_A,tic_gov,C9B,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,13.38965,2023
 Total,3,Identificação Única,iospd/IOSPD_I09,iospd,IOSPD_I09,total,Assinatura eletrônica Gov.br (IOSPD I.9),indice_0_10,uf,62.96,2025
-Total,3,Identificação Única,iospd/IOSPD_V07,iospd,IOSPD_V07,total,Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7),indice_0_10,uf,81.48,2025
 Total,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Autenticação para acessar serviços pela internet,prop_0_100,prefeituras,38.1,2024
 Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,60.21,2025
+Total,3,Identificação Única,cin/atingimento_meta_cin,cin,atingimento_meta_cin,total,Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN),pct_meta_100,uf,52.66,2026
 Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,50.2654,2023
 Total,4,Segurança e LGPD,tic_gov/G3_A,tic_gov,G3,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,ambos,35.2307,2023
 Total,4,Segurança e LGPD,tic_gov/G3_B,tic_gov,G3,['B'],Canal online sobre o uso de dados pessoais,prop_0_100,ambos,46.12075,2023
