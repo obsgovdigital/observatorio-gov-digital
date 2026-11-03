@@ -22,8 +22,6 @@ import type { Ente } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 import {
   filtrarValoresPorIndices,
-  isObjetivo3,
-  METODOLOGIA_OBJETIVO_3_HREF,
   METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
   objetivoSelecionavel,
@@ -53,9 +51,8 @@ export type VariavelTeaser = {
 }
 
 function primeiroObjetivoComNota(entes: Ente[]): string {
-  const obj = objectives.find(
-    (o, i) =>
-      !isObjetivo3(o.slug) && entes.some(e => e.objetivos[i]?.nota != null)
+  const obj = objectives.find((_, i) =>
+    entes.some(e => e.objetivos[i]?.nota != null)
   )
   return obj?.slug ?? objectives[0].slug
 }
@@ -232,7 +229,6 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
         <ul className="space-y-0.5">
           {objectives.map((objetivo, i) => {
             const motivo = motivoObjetivoDesabilitado(
-              objetivo.slug,
               'estadual',
               Boolean(cobertura[i])
             )
@@ -277,16 +273,9 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
                       side="top"
                       className="max-w-xs text-left leading-relaxed"
                     >
-                      {isObjetivo3(objetivo.slug) && (
-                        <p className="mb-1 font-semibold">Sem índice neste recorte</p>
-                      )}
                       <p>{motivo}</p>
                       <LinkMetodologiaPontuacao
-                        href={
-                          isObjetivo3(objetivo.slug)
-                            ? METODOLOGIA_OBJETIVO_3_HREF
-                            : METODOLOGIA_PONTUACAO_HREF
-                        }
+                        href={METODOLOGIA_PONTUACAO_HREF}
                       />
                     </TooltipContent>
                   </Tooltip>

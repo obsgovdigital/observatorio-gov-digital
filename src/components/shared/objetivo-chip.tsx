@@ -12,8 +12,6 @@ import {
 import type { NivelKey } from '@/data/indicators'
 import {
   getNotaPrecaria,
-  isObjetivo3,
-  METODOLOGIA_OBJETIVO_3_HREF,
   METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
 } from '@/data/objectives-availability'
@@ -24,7 +22,7 @@ type ObjetivoChipProps = {
   slug: string
   title: string
   nivel: NivelKey
-  /** Cobertura pelos dados (ignora política do Obj. 3). */
+  /** O objetivo tem nota no recorte, segundo os dados. */
   cobertoPelosDados: boolean
   active?: boolean
   onSelect?: () => void
@@ -41,7 +39,7 @@ export function ObjetivoChip({
   onSelect,
   className,
 }: ObjetivoChipProps) {
-  const motivo = motivoObjetivoDesabilitado(slug, nivel, cobertoPelosDados)
+  const motivo = motivoObjetivoDesabilitado(nivel, cobertoPelosDados)
   const desabilitado = Boolean(motivo)
   const precario = getNotaPrecaria(slug)
   const mostrarInfo = desabilitado || Boolean(precario)
@@ -95,9 +93,6 @@ export function ObjetivoChip({
     <Tooltip>
       <TooltipTrigger asChild>{chip}</TooltipTrigger>
       <TooltipContent side="top" className="max-w-xs text-left leading-relaxed">
-        {isObjetivo3(slug) && motivo && (
-          <p className="mb-1 font-semibold">Sem índice neste recorte</p>
-        )}
         {!motivo && precario && (
           <p className="mb-1 font-semibold">
             Nota técnica — cobertura precária
@@ -105,13 +100,7 @@ export function ObjetivoChip({
         )}
         <p>{tooltipText}</p>
         {motivo && (
-          <LinkMetodologiaPontuacao
-            href={
-              isObjetivo3(slug)
-                ? METODOLOGIA_OBJETIVO_3_HREF
-                : METODOLOGIA_PONTUACAO_HREF
-            }
-          />
+          <LinkMetodologiaPontuacao href={METODOLOGIA_PONTUACAO_HREF} />
         )}
       </TooltipContent>
     </Tooltip>

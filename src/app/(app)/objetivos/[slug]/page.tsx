@@ -1,17 +1,10 @@
 import { notFound } from 'next/navigation'
 
 import { BackButton } from '@/components/shared/back-button'
-import { InfoTip } from '@/components/shared/info-tip'
-import { LinkMetodologiaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
 import { formatScore } from '@/data/indicators'
 import { indicadoresDoObjetivo } from '@/data/obgd/objetivo-indicadores'
 import { getObjective, getObjectiveNumber, objectives } from '@/data/objectives'
-import {
-  isObjetivo3,
-  METODOLOGIA_OBJETIVO_3_HREF,
-  OBJETIVO_3_MOTIVO,
-} from '@/data/objectives-availability'
 import { rankingHref } from '@/lib/ranking-url'
 
 export function generateStaticParams() {
@@ -42,7 +35,6 @@ export default async function ObjetivoPage({
 
   const number = getObjectiveNumber(slug)
   const indicadores = indicadoresDoObjetivo(number)
-  const obj3 = isObjetivo3(slug)
   const rankingUrl = rankingHref({
     nivel: 'estadual',
     por: 'objetivos',
@@ -75,14 +67,12 @@ export default async function ObjetivoPage({
           >
             Comparar entes neste objetivo
           </VariantLink>
-          {!obj3 && (
-            <VariantLink
-              href={rankingUrl}
-              className="text-sm font-medium text-primary underline-offset-2 hover:underline"
-            >
-              Ver ranking estadual
-            </VariantLink>
-          )}
+          <VariantLink
+            href={rankingUrl}
+            className="text-sm font-medium text-primary underline-offset-2 hover:underline"
+          >
+            Ver ranking estadual
+          </VariantLink>
         </div>
 
         <div className="-mx-6 mt-16 border-t sm:-mx-10">
@@ -108,16 +98,6 @@ export default async function ObjetivoPage({
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
             Variáveis ativas usadas no índice. A nota à direita é o valor
             nacional normalizado (0–100), quando há observação para o Brasil.
-            {obj3 ? (
-              <span className="ml-1 inline-flex align-text-bottom">
-                <InfoTip label="Por que este objetivo não tem índice publicado?">
-                  <span className="block">{OBJETIVO_3_MOTIVO}</span>
-                  <LinkMetodologiaPontuacao
-                    href={METODOLOGIA_OBJETIVO_3_HREF}
-                  />
-                </InfoTip>
-              </span>
-            ) : null}
           </p>
 
           <div className="mt-6 flex items-center justify-between gap-4 text-xs font-medium uppercase tracking-wide text-muted-foreground">

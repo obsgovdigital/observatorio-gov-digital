@@ -1,22 +1,11 @@
 import type { NivelKey } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 
-/** Objetivo 3 — Identificação Única: escore calculado, sem índice publicado. */
-export const OBJETIVO_3_SLUG = 'identidade-unica-do-cidadao'
-export const OBJETIVO_3_NUMERO = 3
-
 /** Capítulo 3 — critério de publicação e de o que entra no cálculo. */
 export const METODOLOGIA_PONTUACAO_HREF = '/metodologia/cap03-metodologia'
 
-/** Seção 3.4.1. Âncora gerada por rehype-slug. */
-export const METODOLOGIA_OBJETIVO_3_HREF =
-  '/metodologia/cap03-metodologia#341-limitações-das-bases-de-dados'
-
 export const EXPLICACAO_FORA_DA_PONTUACAO =
   'Há indicadores associados a esses objetivos, mas eles não foram incluídos no cálculo do índice publicado neste recorte.'
-
-export const OBJETIVO_3_MOTIVO =
-  'Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado na plataforma.'
 
 const ROTULO_RECORTE: Record<NivelKey, string> = {
   federal: 'nacional',
@@ -85,32 +74,23 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
   },
 ] as const
 
-export function isObjetivo3(slugOrNumero: string | number): boolean {
-  if (typeof slugOrNumero === 'number')
-    return slugOrNumero === OBJETIVO_3_NUMERO
-  return slugOrNumero === OBJETIVO_3_SLUG
-}
-
 export function motivoObjetivoDesabilitado(
-  slug: string,
   nivel: NivelKey,
   cobertoPelosDados: boolean
 ): string | null {
-  if (isObjetivo3(slug)) return OBJETIVO_3_MOTIVO
   if (!cobertoPelosDados) {
     return `Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado no recorte ${ROTULO_RECORTE[nivel]}.`
   }
   return null
 }
 
-/** Índice 0-based: objetivo usável na UI (não é Obj.3 e tem cobertura de dados). */
+/** Índice 0-based: objetivo usável na UI (tem cobertura de dados no recorte). */
 export function objetivoSelecionavel(
   index: number,
   cobertura: boolean[]
 ): boolean {
   const obj = objectives[index]
   if (!obj) return false
-  if (isObjetivo3(obj.slug)) return false
   return Boolean(cobertura[index])
 }
 
