@@ -21,16 +21,18 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
   {
     slug: 'identidade-unica-do-cidadao',
     numero: 3,
-    motivoResumo: 'Cobertura insuficiente e inconsistente entre níveis.',
+    motivoResumo:
+      'Poucas variáveis ativas: 5 no nacional, 2 por UF e 1 nos municípios.',
     oQueFoiAvaliado: [
-      'Existência de iniciativas de identidade digital em fontes públicas pontuais.',
+      'Adoção do login Gov.br e integração dos serviços ao Login Único.',
+      'Assinatura eletrônica, autenticação em serviços municipais e emissão da Carteira de Identidade Nacional (CIN) por UF.',
     ],
     oQueNaoFoiIncluido: [
-      'Indicadores de adoção efetiva da CIN / identidade única nacional por UF e município.',
-      'Séries comparáveis de autenticação e interoperabilidade de identidade.',
+      'Contas Gov.br por nível de autenticação (bronze, prata e ouro), por UF.',
+      'Órgãos integrados ao login Gov.br por nível de governo, usuários únicos e volume de assinaturas eletrônicas.',
     ],
     porQueNaoIncluido:
-      'As fontes disponíveis não permitem construir um índice comparável e auditável para todos os entes nesta edição.',
+      'Esses dados não são publicados; a Seção 3.6 da metodologia descreve o pedido à SGD/MGI.',
   },
   {
     slug: 'competencias-e-capacitacao',

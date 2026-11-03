@@ -45,7 +45,7 @@ export const OBJETIVO_O_QUE_AVALIA: Record<
   'identidade-unica-do-cidadao': {
     blurb: 'Identificação e autenticação digital do cidadão nos serviços.',
     detalhe:
-      'Mede avanços em identidade digital e login único. Há indicadores associados a este objetivo, mas eles não entram no índice publicado na plataforma.',
+      'Mede avanços em identidade digital e login único, como a adoção do login Gov.br e a emissão da Carteira de Identidade Nacional.',
   },
   'privacidade-e-seguranca': {
     blurb: 'Privacidade, proteção de dados pessoais e segurança da informação.',
