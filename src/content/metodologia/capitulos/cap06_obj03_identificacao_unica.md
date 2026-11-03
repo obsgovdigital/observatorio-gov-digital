@@ -4,8 +4,6 @@
 
 A metodologia (normalização, agregação, tratamento de não-resposta) está descrita no Capítulo 3.
 
-> **Decisão de publicação:** este capítulo preserva as cinco medidas disponíveis porque elas documentam o que já pode ser observado e, sobretudo, o que ainda falta medir. As cinco medidas permanecem, portanto, descritas neste relatório, com a pergunta completa e o valor de cada uma — mas as dimensões deste objetivo não têm média nem gráfico publicados, aqui nem na plataforma pública do Observatório, porque cinco medidas heterogêneas, sobre conceitos e universos distintos, não sustentam leitura equivalente à dos objetivos cobertos por dezenas de indicadores. A justificativa completa está na Seção 3.4.1.
-
 ## 6.1 Recomendações da ENGD para este objetivo
 
 A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federados para implementar e manter solução estruturante de identificação única e nacional:
@@ -22,15 +20,19 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 
 ## 6.2 Cobertura por nível federativo
 
-O Objetivo 3 conta com 5 variáveis ativas no índice (1 do iGovSISP (SGD/MGI), 2 do IOSPD (ABEP-TIC), 1 da MUNIC (IBGE) e 1 da TIC Governo Eletrônico (CETIC.br)), que entram na agregação do índice como 5 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09` e `IOSPD_V07`, ambas IOSPD 2025) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores IOSPD para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
+O Objetivo 3 conta com 5 variáveis ativas no índice (1 da Base de dados da CIN (SGD/MGI), 1 do iGovSISP (SGD/MGI), 1 do IOSPD (ABEP-TIC), 1 da MUNIC (IBGE) e 1 da TIC Governo Eletrônico (CETIC.br)), que entram na agregação do índice como 5 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. Duas variáveis têm observação por UF (`IOSPD_I09`, IOSPD 2025, e `atingimento_meta_cin`, Base de dados da CIN 2026) e uma tem observação por capital (`MUNIC_AUTENTICACAO`, MUNIC 2024). O limiar mínimo de duas variáveis com observação no mesmo nível federativo justifica a criação da dimensão **`Recorte Estadual`**, que reúne os dois indicadores para leitura por UF. Como há apenas uma variável com observação por capital, **não se cria** a dimensão `Recorte de Capitais`; o indicador correspondente aparece dentro da dimensão temática em que foi classificado, com a observação federativa explicitada inline.
 
 ## 6.3 Dimensões
 
-As 5 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria — autenticação digital, assinatura eletrônica e identidade civil. A configuração com uma dimensão singleton (`Identidade civil`) reflete o estado atual do índice. O `Recorte Estadual` consolida os dois indicadores IOSPD com observação por UF.
+As 5 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pela dimensão federativa `Recorte Estadual`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria: autenticação digital, assinatura eletrônica e identidade civil. Duas dimensões têm uma única variável (`Assinatura eletrônica` e `Identidade civil`), o que reflete o estado atual do índice. O `Recorte Estadual` consolida os dois indicadores com observação por UF.
+
+![Dimensões do Objetivo 3](../graficos/dimensoes/cap06.png)
 
 ### 6.3.1 Autenticação digital
 
 *Definição:* Mecanismos de identificação e acesso do cidadão a serviços públicos digitais por sistema de autenticação único, com referência à Plataforma GOV.BR. Corresponde à Recomendação 3.1.
+
+*Média Nacional:* 37.2 (n=3; 3 itens).
 
 As três medidas de autenticação observam objetos e universos distintos. `C9B_A` mede a adoção específica do login único Gov.br por órgãos públicos estaduais e prefeituras. `MUNIC_AUTENTICACAO` registra se a prefeitura oferece algum mecanismo de autenticação para acesso a serviços pela internet, sem identificar a tecnologia usada. `G630IPD` mede, entre os órgãos federais do SISP, a faixa declarada de serviços integrados ao Login Único; seu valor usa a média ponderada dos tetos das faixas e não representa a porcentagem exata de todos os serviços integrados.
 
@@ -60,6 +62,8 @@ As três medidas de autenticação observam objetos e universos distintos. `C9B_
 
 *Definição:* Disponibilidade de solução institucional de assinatura eletrônica, em substituição à assinatura manuscrita nos atos administrativos e na interação com o cidadão. Corresponde à Recomendação 3.2.
 
+*Média Nacional:* 63.0 (n=1; 1 item).
+
 **Indicadores:**
 
 *IOSPD 2025 (ABEP-TIC):*
@@ -71,20 +75,28 @@ As três medidas de autenticação observam objetos e universos distintos. `C9B_
 
 ### 6.3.3 Identidade civil
 
-*Definição:* Capacidade do ente federado de emitir a Carteira de Identidade Nacional (CIN) — documento físico-digital de identidade civil unificado em torno do CPF, integrável ao Serviço de Identificação do Cidadão. Corresponde à Recomendação 3.3.
+*Definição:* Emissão da Carteira de Identidade Nacional (CIN), documento físico-digital de identidade civil unificado em torno do CPF, pelos órgãos estaduais de identificação, integrados ao Serviço de Identificação do Cidadão. Corresponde à Recomendação 3.3; com vínculo secundário à Recomendação 3.7.
+
+*Média Nacional:* 52.7 (n=1; 1 item).
+
+A medida é o atingimento de uma meta federal. A Iniciativa 11.3 da Estratégia Federal de Governo Digital (Portaria SGD/MGI nº 6.618/2024, com a redação da Portaria nº 473/2026) fixa 120 milhões de CINs emitidas até 2027, o que corresponde a 56,2 carteiras por cem habitantes sobre a população estimada pelo IBGE para 2025, de 213.421.037 pessoas. A meta é nacional; aplicá-la a cada UF como a mesma fração da sua população é escolha deste relatório, e não da norma. O valor 100 significa que a UF já emitiu 56,2 carteiras por cem habitantes, e o valor é limitado a 100 quando ela supera a meta, como o Piauí, que chega a 118,3. A contagem é a da UF emissora, e não a da UF de residência do titular: quem tira a carteira fora do estado em que mora entra na conta do estado emissor. A base é registro administrativo da SGD/MGI, com extração de 08/10/2026 (Seção 3.4.2).
 
 **Indicadores:**
 
-*IOSPD 2025 (ABEP-TIC):*
+*Base de dados da CIN 2026 (SGD/MGI):*
 
-- **IOSPD_V07** — A UF disponibiliza a emissão da nova CIN - Carteira de Identidade Nacional?
-  - *Normalização:* Índice 0-10 — multiplicado por 10
-  - Valor (Nacional): 81.48
-  - Valor (Estadual): 81.5 (média das 27 UFs)
+- **atingimento_meta_cin** — Que proporção da meta de emissão da Carteira de Identidade Nacional, de 56,2 carteiras por cem habitantes, a UF emissora já alcançou?
+  - *Normalização:* Proporção 0-100% — usado diretamente; o valor que supera a meta é limitado a 100
+  - Valor (Nacional): 52.66
+  - Valor (Estadual): 55.7 (média das 27 UFs)
 
 ### 6.3.4 Recorte Estadual
 
-*Definição:* Conjunto das variáveis do Objetivo 3 com observação por UF, agregadas para leitura federativa do desempenho na implementação de soluções estruturantes de identificação. Reúne `IOSPD_I09` e `IOSPD_V07`. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
+*Definição:* Conjunto das variáveis do Objetivo 3 com observação por UF, agregadas para leitura federativa estadual do desempenho na implementação de soluções estruturantes de identificação. Reúne `IOSPD_I09` e `atingimento_meta_cin`. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
+
+*Média Estadual:* 59.3 (n=2; 2 itens).
+
+![Recorte Estadual — Objetivo 3](../graficos/recortes/cap06_estadual.png)
 
 **Indicadores:**
 
@@ -94,6 +106,8 @@ As três medidas de autenticação observam objetos e universos distintos. `C9B_
   - *Normalização:* Índice 0-10 — multiplicado por 10
   - Valor (Estadual): 63.0 (média das 27 UFs)
 
-- **IOSPD_V07** — A UF disponibiliza a emissão da nova CIN - Carteira de Identidade Nacional?
-  - *Normalização:* Índice 0-10 — multiplicado por 10
-  - Valor (Estadual): 81.5 (média das 27 UFs)
+*Base de dados da CIN 2026 (SGD/MGI):*
+
+- **atingimento_meta_cin** — Que proporção da meta de emissão da Carteira de Identidade Nacional, de 56,2 carteiras por cem habitantes, a UF emissora já alcançou?
+  - *Normalização:* Proporção 0-100% — usado diretamente; o valor que supera a meta é limitado a 100
+  - Valor (Estadual): 55.7 (média das 27 UFs)
