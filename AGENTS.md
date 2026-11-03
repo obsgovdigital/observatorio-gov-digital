@@ -99,45 +99,6 @@ A pasta `src/local_assets/` é **gitignored** — Não commitar.
 
 **Canônico atual:** `src/data/obgd/assets-v4/` → sync para `src/data/obgd/assets/` via `node scripts/sync-obgd-assets-from-v4.mjs`. Detalhes: [`docs/03-dados/pipeline-obgd.md`](docs/03-dados/pipeline-obgd.md).
 
-### Legado — CSVs de índice (`indice_obgd/csvs/`)
-
-> Supersedido por `dados-v2` / `dados-v3`. Mantido abaixo só como referência histórica.
-
-Três escopos disponíveis, cada um com os mesmos 3 arquivos:
-
-| Pasta | Escopo | Registros aprox. |
-|---|---|---|
-| `indice_nacional/` | Brasil agregado | 10 objetivos |
-| `indice_estadual/` | 27 estados (UF) | 27 × 10 objetivos |
-| `indice_capitais/` | 27 capitais | 27 × 10 objetivos |
-
-**`indice_*.csv`** — sub-índice por objetivo por ente:
-```
-categoria, objetivo, objetivo_nome, sub_indice, indice_geral, n_objetivos_com_dados
-```
-- `categoria`: "Total" (nacional), sigla UF (estadual/capitais)
-- `indice_geral` é o mesmo em todas as linhas do mesmo ente (repetido por conveniência)
-
-**`detalhes_*.csv`** — indicadores individuais que compõem cada sub-índice:
-```
-categoria, objetivo, objetivo_nome, fonte, indicador, sub_itens,
-descricao, escala, populacao, valor_normalizado, ano_fonte
-```
-- `fonte`: `tic_gov` · `iesgo` · `iospd` · `igovsisp` · `munic` · `abep`
-- `valor_normalizado`: valor do indicador na escala 0–100
-- `ano_fonte`: 2023–2025
-
-**`ranking_*.csv`** — ranking dos entes por `indice_geral`:
-```
-rank, categoria, indice_geral, n_objetivos_com_dados
-```
-
-### Referências de dados (2025)
-
-- Índice nacional: **58,26**
-- Top 3 estados: PI 93,52 · MG 92,27 · RJ 92,02
-- Top 3 capitais: Belo Horizonte 94,89 · Brasília 94,84 · Salvador 94,80
-
 ### Outros arquivos em `local_assets/`
 
 - `obgd_v6_fontes_e_indicadores.xlsx` — definição completa dos indicadores e fontes (v6)

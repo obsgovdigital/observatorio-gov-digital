@@ -121,8 +121,6 @@ function buildEnte(
   const objetivos: ObjetivoScore[] = objectives.map((objetivo, index) => {
     const numero = index + 1
     const row = byObj.get(numero)
-    // Objetivo 3 desabilitado por decisão de produto (mesmo com linhas no JSON).
-    const desabilitadoPorPolitica = numero === 3
     const sub = row?.sub_indice
 
     return {
@@ -130,10 +128,8 @@ function buildEnte(
       numero,
       titulo: objetivo.title,
       descricao: objetivo.description,
-      nota: desabilitadoPorPolitica || sub == null ? null : round1(sub),
-      posicaoNoObjetivo: desabilitadoPorPolitica
-        ? null
-        : (row?.posicao_no_objetivo ?? null),
+      nota: sub == null ? null : round1(sub),
+      posicaoNoObjetivo: row?.posicao_no_objetivo ?? null,
       variaveis: [],
     }
   })

@@ -2019,20 +2019,6 @@
     "categoria": "Total",
     "objetivo": 3,
     "objetivo_nome": "Identificação Única",
-    "concept_id": "iospd/IOSPD_V07",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V07",
-    "sub_itens": "total",
-    "descricao": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 81.48,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 3,
-    "objetivo_nome": "Identificação Única",
     "concept_id": "munic/MUNIC_AUTENTICACAO",
     "fonte": "munic",
     "indicador": "MUNIC_AUTENTICACAO",
@@ -2056,6 +2042,20 @@
     "populacao": "orgaos_federais_sisp",
     "valor_normalizado": 60.21,
     "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 3,
+    "objetivo_nome": "Identificação Única",
+    "concept_id": "cin/atingimento_meta_cin",
+    "fonte": "cin",
+    "indicador": "atingimento_meta_cin",
+    "sub_itens": "total",
+    "descricao": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)",
+    "escala": "pct_meta_100",
+    "populacao": "uf",
+    "valor_normalizado": 52.66,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",

@@ -14584,119 +14584,119 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "identidade-digital",
-    "nota": 49,
+    "nota": 41.8,
     "n_indicadores": 4
   },
   {
     "tipo": "uf",
     "unidade": "AC",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 84.6,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "AL",
     "tag_id": "identidade-digital",
-    "nota": 0,
+    "nota": 34.2,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "AM",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 25.9,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "AP",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 68,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "BA",
     "tag_id": "identidade-digital",
-    "nota": 0,
+    "nota": 26.2,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "CE",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 79.7,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "DF",
     "tag_id": "identidade-digital",
-    "nota": 66.7,
+    "nota": 47.6,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "ES",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 21.3,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "GO",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 75.8,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "MA",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 29.2,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "MG",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 80.1,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "MS",
     "tag_id": "identidade-digital",
-    "nota": 66.7,
+    "nota": 43.7,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "MT",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 82.7,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "PA",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 53.9,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "PB",
     "tag_id": "identidade-digital",
-    "nota": 66.7,
+    "nota": 46.3,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "PE",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 75,
     "n_indicadores": 2
   },
   {
@@ -14710,70 +14710,70 @@
     "tipo": "uf",
     "unidade": "PR",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 79,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "RJ",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 75.3,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "RN",
     "tag_id": "identidade-digital",
-    "nota": 16.7,
+    "nota": 49.5,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "RO",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 75.2,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "RR",
     "tag_id": "identidade-digital",
-    "nota": 66.7,
+    "nota": 32.1,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "RS",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 81.7,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "SC",
     "tag_id": "identidade-digital",
-    "nota": 66.7,
+    "nota": 46.8,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "SE",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 39.7,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "SP",
     "tag_id": "identidade-digital",
-    "nota": 100,
+    "nota": 71.2,
     "n_indicadores": 2
   },
   {
     "tipo": "uf",
     "unidade": "TO",
     "tag_id": "identidade-digital",
-    "nota": 50,
+    "nota": 76.6,
     "n_indicadores": 2
   },
   {

@@ -2,7 +2,7 @@
 
 Este capítulo apresenta a metodologia comum às três visões do Índice de Governo Digital publicadas no relatório, **nacional agregado**, **estadual** e **de capitais**, bem como as especificidades de cada uma. Além dessas três visões, o produto de dados desta edição inclui o recorte dos municípios com pelo menos 100 mil habitantes segundo o Censo Demográfico 2022 do IBGE. O limiar é inclusivo, de modo que um município com exatamente 100 mil habitantes entra, e o corte seleciona 319 municípios, entre eles as 27 capitais. Esse recorte é produto de dados: os escores e o ranking por objetivo ficam nos arquivos da edição, e o corpo do relatório não traz síntese, ranking nem tabela municipal derivados dele. Os elementos compartilhados, como critérios de seleção de variáveis, normalização, tratamento de não-resposta e fórmula de agregação, são descritos uma única vez. As fontes de dados e limitações são apresentadas com indicação de quais visões utilizam cada fonte.
 
-Os Capítulos 4 a 13 apresentam, cada um, **um objetivo da ENGD**. Dentro de cada objetivo, as variáveis são organizadas em **dimensões temáticas** — sub-conceitos mais fechados que o objetivo — e, quando há pelo menos duas variáveis com observação por UF ou por capital, também em dimensões federativas dedicadas (`Recorte Estadual` e/ou `Recorte de Capitais`). As médias dimensionais organizam a apresentação dos resultados neste relatório; o escore de cada objetivo é calculado diretamente sobre seus componentes, após o colapso das baterias dentro do objetivo, sem média intermediária das dimensões. Não há nota geral por recorte nem escore único da ENGD que agregue os dez objetivos (ver Seção 3.3.4). Esta cobertura editorial dos dez objetivos não equivale ao escopo da plataforma pública do Observatório: as dimensões do Objetivo 3 permanecem descritas no relatório, como diagnóstico de uma lacuna de informação, mas não serão publicadas na plataforma — decisão registrada na Seção 3.4.1.
+Os Capítulos 4 a 13 apresentam, cada um, **um objetivo da ENGD**. Dentro de cada objetivo, as variáveis são organizadas em **dimensões temáticas** — sub-conceitos mais fechados que o objetivo — e, quando há pelo menos duas variáveis com observação por UF ou por capital, também em dimensões federativas dedicadas (`Recorte Estadual` e/ou `Recorte de Capitais`). As médias dimensionais organizam a apresentação dos resultados neste relatório; o escore de cada objetivo é calculado diretamente sobre seus componentes, após o colapso das baterias dentro do objetivo, sem média intermediária das dimensões. Não há nota geral por recorte nem escore único da ENGD que agregue os dez objetivos (ver Seção 3.3.4). Os dez objetivos têm médias dimensionais publicadas; as do Objetivo 3 incluem a base de dados da Carteira de Identidade Nacional (ver Seção 3.4.1).
 
 ---
 
@@ -51,7 +51,7 @@ A tabela consolida as fontes utilizadas nas três visões apresentadas no relat�
 | TIC Educação | CETIC.br | 2024 | ✓ | | | 6 |
 | TIC Cultura | CETIC.br | 2024 | ✓ | | | 0 |
 | TIC Domicílios | CETIC.br | 2024 | ✓ | | | 0 |
-| IOSPD | ABEP-TIC | 2025 | ✓ | ✓ | | 48 |
+| IOSPD | ABEP-TIC | 2025 | ✓ | ✓ | | 47 |
 | iGovSISP | SGD/MGI | 2025 | ✓ | | | 97 |
 | iESGo | TCU | 2024 | ✓ | | | 21 |
 | PNAD Contínua TIC | IBGE | 2024 | ✓ | | | 1 |
@@ -59,6 +59,7 @@ A tabela consolida as fontes utilizadas nas três visões apresentadas no relat�
 | Censo Escolar | INEP | 2024 | ✓ | | ✓ | 5 |
 | ESTADIC | IBGE | 2024 | ✓ | ✓ | | 28 |
 | MUNIC | IBGE | 2024 | ✓ | | ✓ | 59 |
+| Base de dados da CIN | SGD/MGI | 2026 | ✓ | ✓ | | 1 |
 
 A TIC Cultura e a TIC Domicílios permanecem catalogadas, mas nenhum dos seus indicadores integra o índice na edição atual: os da TIC Cultura estão suspensos até a fonte publicar totais nacionais oficiais (a planilha de 2024 não os divulga), e os da TIC Domicílios medem percentuais condicionados a um universo restrito de respondentes (ver Seção 3.2.4). Ambas seguem acompanhadas como séries descritivas.
 
@@ -72,24 +73,27 @@ O iESGo (TCU) integra o índice por meio de vinte questões completas do questio
 
 ### 3.1.3 Fontes do recorte nacional agregado
 
-O recorte nacional agregado utiliza 13 fontes catalogadas, das quais 11 contribuem com os 327 indicadores ativos — que entram na agregação como 248 componentes nas vistas dimensionais. No cálculo por objetivo, o colapso das baterias reúne esses indicadores em 241 componentes, sem média intermediária das dimensões (ver Seção 3.3.4). As principais fontes são:
+O recorte nacional agregado utiliza 14 fontes catalogadas, das quais 12 contribuem com os 327 indicadores ativos — que entram na agregação como 248 componentes nas vistas dimensionais. No cálculo por objetivo, o colapso das baterias reúne esses indicadores em 241 componentes, sem média intermediária das dimensões (ver Seção 3.3.4). As principais fontes são:
 
 - **Pesquisas CETIC.br** (5 pesquisas catalogadas, das quais 3 fornecem 67 variáveis ativas): TIC Governo Eletrônico (bienal, 42 variáveis), TIC Saúde (anual, 19) e TIC Educação (anual, 6). A TIC Cultura (bienal) e a TIC Domicílios (anual) permanecem catalogadas sem indicador ativo na edição atual (ver Seção 3.1.2). O total reflete o desmembramento de variáveis multi-item em entradas individuais (ver Seção 3.2.3). Quatro pesquisas requerem Termo de Acesso e Uso com o NIC.br; TIC Domicílios tem microdados livres.
-- **IOSPD (ABEP-TIC)**: Índice anual de oferta de serviços públicos digitais, avaliando portais estaduais em 5 dimensões. Desagregado em 48 indicadores individuais ativos que mapeiam para 8 dos 10 objetivos ENGD: Capacidades (I.1-I.13), Serviços (II.1-II.12), Normatização (III.1a-III.7), Linguagem Simples (IV.1-IV.9) e Inovação (V.1-V.9). Dados detalhados por UF disponíveis na edição utilizada.
+- **IOSPD (ABEP-TIC)**: Índice anual de oferta de serviços públicos digitais, avaliando portais estaduais em 5 dimensões. Desagregado em 47 indicadores individuais ativos que mapeiam para 8 dos 10 objetivos ENGD: Capacidades (I.1-I.13), Serviços (II.1-II.12), Normatização (III.1a-III.7), Linguagem Simples (IV.1-IV.9) e Inovação (V.1-V.9). Dados detalhados por UF disponíveis na edição utilizada.
 - **iGovSISP (SGD/MGI)**: Autodiagnóstico anual aplicado aos órgãos do SISP, com 234 respondentes em 2025 e 97 variáveis ativas nesta edição do índice. O cálculo usa somente a edição mais recente. Concordância genuína considera respostas parcialmente ou totalmente concordantes; conhecimento e utilização considera os níveis 4 e 5; maturidade considera estágios acima do inicial, sem presumir adoção plena. Faixas percentuais usam a média dos tetos reais, ponderada pelas contagens, com peso igual entre órgãos. A seleção e seus limites estão descritos na Seção 3.3.6 e no Anexo A.
 - **Censo Escolar (INEP)**: Microdados anuais de escolas brasileiras. 5 indicadores binários agregados como proporção nacional.
 - **Cobertura móvel (ANATEL)**: Dados regulatórios de telecomunicações.
 - **PNAD Contínua TIC (IBGE)**: Módulo rotativo de acesso a TIC nos domicílios.
 - **MUNIC (IBGE)**: Pesquisa censitária aplicada a todos os 5.570 municípios brasileiros, com suplemento de Informática e Comunicação. No recorte nacional, os 59 indicadores binários são agregados como proporção nacional (% de municípios com a capacidade). No recorte de capitais, os dados individuais das 27 capitais compõem as dimensões federativas correspondentes.
 - **ESTADIC (IBGE)**: Pesquisa censitária aplicada às 27 Unidades da Federação, com suplementos de Informática e Comunicação e Governança. No recorte nacional, os 28 indicadores são agregados como média das UFs. No recorte estadual, os dados individuais por UF compõem as dimensões federativas correspondentes.
+- **Base de dados da CIN (SGD/MGI)**: Registro administrativo das Carteiras de Identidade Nacional emitidas, por UF emissora, recebido da Secretaria de Governo Digital com extração de 08/10/2026. Fornece 1 indicador, o atingimento da meta federal de emissão, descrito no Capítulo 6. No recorte nacional entra o valor do Brasil; no recorte estadual, o de cada UF.
 
 ### 3.1.4 Fontes do recorte estadual
 
-O recorte estadual utiliza 2 fontes que medem diretamente o governo estadual, totalizando 76 variáveis distribuídas em 9 dos 10 objetivos. Em 7 desses objetivos há ao menos duas variáveis com observação por UF — o mínimo para compor a dimensão `Recorte Estadual` nos capítulos de resultados. Os Objetivos 1 e 8 têm apenas 1 variável com observação por UF cada: abaixo do mínimo de duas, ela não forma dimensão federativa e, portanto, não gera valor publicado no recorte estadual — aparece dentro da dimensão temática em que foi classificada, com a observação por UF explicitada na listagem do indicador. O Objetivo 10 não tem variável com observação por UF no catálogo ativo:
+O recorte estadual utiliza 3 fontes que medem diretamente o governo estadual, totalizando 76 variáveis distribuídas em 9 dos 10 objetivos. Em 7 desses objetivos há ao menos duas variáveis com observação por UF — o mínimo para compor a dimensão `Recorte Estadual` nos capítulos de resultados. Os Objetivos 1 e 8 têm apenas 1 variável com observação por UF cada: abaixo do mínimo de duas, ela não forma dimensão federativa e, portanto, não gera valor publicado no recorte estadual — aparece dentro da dimensão temática em que foi classificada, com a observação por UF explicitada na listagem do indicador. O Objetivo 10 não tem variável com observação por UF no catálogo ativo:
 
-**IOSPD (ABEP-TIC).** 48 indicadores individuais (ver descrição na Seção 3.1.3) — todos os ativos da visão Nacional têm observação por UF e integram o recorte. Fonte dominante (63,2% das variáveis).
+**IOSPD (ABEP-TIC).** 47 indicadores individuais (ver descrição na Seção 3.1.3) — todos os ativos da visão Nacional têm observação por UF e integram o recorte. Fonte dominante (61,8% das variáveis).
 
 **ESTADIC (IBGE).** Pesquisa censitária (N=27 UFs), suplemento TIC quinquenal. Fornece 28 variáveis ao recorte estadual, nos suplementos "Informática e Comunicação" (códigos Etic) e "Governança" (códigos Egov).
+
+**Base de dados da CIN (SGD/MGI).** Registro administrativo das carteiras emitidas pelo órgão de identificação de cada UF. Fornece 1 variável ao recorte estadual, o atingimento da meta de emissão da Carteira de Identidade Nacional.
 
 **Escolha de fontes diretas:** O recorte estadual utiliza apenas fontes que medem diretamente a atuação do governo estadual. Esta decisão elimina a distorção causada por indicadores indiretos, como dados de prefeituras municipais, escolas ou domicílios agregados por UF, que atribuiriam ao governo estadual o desempenho de atores que ele não controla diretamente. Por isso, o recorte exclui a desagregação por UF do questionário de prefeituras da TIC Governo Eletrônico, o Censo Escolar e a PNAD Contínua TIC.
 
@@ -143,8 +147,8 @@ O catálogo registra ainda as tags transversais, que reúnem temas atravessando 
 
 | Recorte | Fontes | Variáveis | Objetivos cobertos |
 |--------|:------:|:---------:|:------------------:|
-| Nacional agregado | 11 | 327 | 10/10 |
-| Estadual | 2 | 76 | 7/10 (Obj. 1 e 8 com uma única variável por UF; Obj. 10 sem variável por UF) |
+| Nacional agregado | 12 | 327 | 10/10 |
+| Estadual | 3 | 76 | 7/10 (Obj. 1 e 8 com uma única variável por UF; Obj. 10 sem variável por UF) |
 | Capitais | 3 | 65 | 4/10 (Obj. 1, 3 e 5 com uma única variável por capital; Obj. 7, 8 e 10 sem variável por capital) |
 
 Os totais acima se referem ao catálogo ativo utilizado para a construção dos recortes. Nos capítulos de resultados, variáveis em revisão de classificação podem ficar temporariamente fora do dimensionamento textual do objetivo; nesses casos, o próprio capítulo registra a diferença entre o catálogo ativo e o conjunto efetivamente dimensionado.
@@ -282,7 +286,7 @@ Três indicadores foram ajustados:
 
 1. **Tabelas publicadas em vez de microdados:** O Censo Escolar (INEP) e a PNAD Contínua TIC (IBGE) possuem microdados públicos, mas nesta edição utilizamos valores agregados extraídos das Sinopses Estatísticas e tabelas oficiais publicadas.
 2. **Cobertura variável por objetivo:** Nem todos os objetivos possuem o mesmo número de indicadores. Objetivos com mais indicadores têm medições mais robustas.
-3. **Desagregação de compostos:** Os 5 scores dimensionais do IOSPD (DIM1-5) e o IOSPD Geral foram substituídos por indicadores individuais, permitindo mapeamento ENGD preciso por indicador. Após exclusões de compósitos, indicadores saturados e redundâncias, 48 indicadores IOSPD permanecem ativos.
+3. **Desagregação de compostos:** Os 5 scores dimensionais do IOSPD (DIM1-5) e o IOSPD Geral foram substituídos por indicadores individuais, permitindo mapeamento ENGD preciso por indicador. Após exclusões de compósitos, indicadores saturados e redundâncias, 47 indicadores IOSPD permanecem ativos.
 4. **Exclusão dos sub-índices do iESGo:** As entradas originais do iESGo eram sub-índices compósitos calculados pelo TCU (GovernancaTI, PlanejamentoTI, RiscosTISegInfo, entre outros), e a decisão de compor o índice apenas com variáveis individuais as excluiu. A seleção de questões individuais descrita na Seção 3.1.2 substitui os subíndices selecionados de TI e segurança, sem incorporar os compostos de sustentabilidade ambiental e social.
 5. **Indicadores reclassificados:** C7 (Acesso público à Internet) integra exclusivamente o Objetivo 6; H3C (IA generativa) integra exclusivamente o Objetivo 7.
 6. **ANATEL — densidade de banda larga:** O indicador de densidade de acessos de banda larga fixa por 100 domicílios está suspenso do índice até que numerador e denominador provenham de fontes oficiais versionadas (ANATEL e IBGE); a fonte permanece representada pela cobertura móvel.
@@ -292,7 +296,7 @@ Três indicadores foram ajustados:
 
 **Recorte estadual:**
 
-1. Dominância do IOSPD: 48/76 variáveis (63,2%). A desagregação do IOSPD em indicadores individuais ampliou a cobertura temática, mas concentrou o recorte em uma única fonte. Complementarmente, a ESTADIC contribui com 28 variáveis (36,8%).
+1. Dominância do IOSPD: 47/76 variáveis (61,8%). A desagregação do IOSPD em indicadores individuais ampliou a cobertura temática, mas concentrou o recorte em uma única fonte. Complementarmente, a ESTADIC contribui com 28 variáveis (36,8%) e a base de dados da CIN, com 1 (1,3%).
 2. Cobertura de 7 dos 10 objetivos: os Objetivos 1 e 8 têm apenas 1 indicador com observação por UF cada — abaixo do mínimo de duas variáveis para compor recorte federativo — e o Objetivo 10 não possui variável com observação por UF no catálogo ativo.
 3. Cobertura variável por objetivo: Nem todos os objetivos possuem o mesmo número de indicadores. O Objetivo 2 (49 indicadores) tem medição muito mais robusta que os objetivos com 2 indicadores.
 4. ESTADIC pesquisa censitária (N=27): valores são observações diretas, não estimativas.
@@ -314,15 +318,15 @@ Três indicadores foram ajustados:
 | Unidade de análise | Nacional agregado | UF (27 estados) | Capital (27 capitais) |
 | N.º de variáveis | 327 | 76 | 65 |
 | N.º de componentes | 248 | 68 | 57 |
-| Fontes | 11 | 2 | 3 |
+| Fontes | 12 | 3 | 3 |
 | Objetivos cobertos | 10 | 7 | 4 |
 | ESTADIC | Incluída (média das 27 UFs) | Incluída (fonte principal) | N/A |
 | MUNIC | Incluída (proporção de 5.570 municípios) | N/A | Incluída (fonte principal) |
 | iGovSISP | Incluído | Excluído (sem dados UF) | Excluído (sem dados municipais) |
 | TIC Governo Eletrônico, Censo Escolar, PNAD Contínua TIC | Incluídos | Excluídos (fontes indiretas) | Censo Escolar incluído; TIC Governo Eletrônico e PNAD excluídos |
-| Fonte dominante | iGovSISP (97 var.) | IOSPD (48 var.) | MUNIC (59 var.) |
+| Fonte dominante | iGovSISP (97 var.) | IOSPD (47 var.) | MUNIC (59 var.) |
 
-Os três totais de componentes são diferentes porque os três índices são construções distintas, e não porque um mesmo índice perca componentes ao descer de nível federativo. Os recortes estadual e de capitais filtram por fonte na origem: o estadual lê ESTADIC e IOSPD, o de capitais lê MUNIC, Cobertura móvel (ANATEL) e Censo Escolar, e nenhum dos dois lê iGovSISP ou iESGo, cujas observações existem apenas no agregado nacional. Cada visão agrega o que a sua própria composição permite observar, e é por isso que o capítulo declara o total de cada uma em vez de publicar um número só.
+Os três totais de componentes são diferentes porque os três índices são construções distintas, e não porque um mesmo índice perca componentes ao descer de nível federativo. Os recortes estadual e de capitais filtram por fonte na origem: o estadual lê ESTADIC, IOSPD e a base de dados da CIN, o de capitais lê MUNIC, Cobertura móvel (ANATEL) e Censo Escolar, e nenhum dos dois lê iGovSISP ou iESGo, cujas observações existem apenas no agregado nacional. Cada visão agrega o que a sua própria composição permite observar, e é por isso que o capítulo declara o total de cada uma em vez de publicar um número só.
 
 A composição do recorte nacional convive com uma assimetria que é anterior à entrada do iESGo e vale a pena explicitar: a maior população do catálogo é a dos órgãos federais do SISP, com 97 variáveis, cujos dados existem apenas na dimensão total, sem observação por UF ou por capital. Somadas às 21 entradas do iESGo, são 118 dos 327 indicadores ativos sem existência subnacional. Isso não torna o índice nacional menos federativo do que era: ele sempre publicou um número só convivendo com essas fontes.
 
@@ -347,7 +351,7 @@ Limitações específicas por pesquisa:
 - **TIC Cultura:** Bienal, nenhuma variável ativa. A planilha oficial de 2024 não publica totais nacionais; os indicadores da pesquisa estão suspensos do índice até a fonte divulgar total oficial, pesos amostrais ou microdados.
 - **TIC Domicílios:** Anual, nenhuma variável ativa. Os indicadores de governo eletrônico são publicados apenas para usuários de Internet de 16 anos ou mais — universo que cobre 83,8% da população dessa faixa etária, abaixo do corte de 90% da Seção 3.2.4 —, de modo que nenhum indicador da pesquisa integra o índice na edição atual.
 
-**Cobertura do Objetivo 3:** O Objetivo 3 (Identificação Única) é o objetivo com menor cobertura no catálogo ativo: 5 variáveis de 4 fontes (`C9B_A`, `IOSPD_I09`, `IOSPD_V07`, `MUNIC_AUTENTICACAO` e `G630IPD`). As cinco medidas distinguem adoção do login GOV.BR, extensão da integração dos serviços ao Login Único, disponibilidade de assinatura eletrônica, emissão da Carteira de Identidade Nacional e autenticação em serviços municipais, em universos de respondentes também distintos. Elas permanecem descritas no relatório, para explicitar o diagnóstico e orientar a busca de dados, mas as dimensões do objetivo não serão publicadas na plataforma pública do Observatório: cinco medidas heterogêneas não sustentam leitura equivalente à dos objetivos cobertos por dezenas de indicadores. Esta é a formulação de referência da decisão; os Capítulos 1 e 6 remetem a ela. A Seção 3.6 descreve a estratégia de parceria com a SGD/MGI para ampliar essa cobertura.
+**Cobertura do Objetivo 3:** O Objetivo 3 (Identificação Única) é o objetivo com menor cobertura no catálogo ativo: 5 variáveis de 5 fontes (`C9B_A`, `IOSPD_I09`, `atingimento_meta_cin`, `MUNIC_AUTENTICACAO` e `G630IPD`). As cinco medidas distinguem adoção do login GOV.BR, extensão da integração dos serviços ao Login Único, disponibilidade de assinatura eletrônica, emissão da Carteira de Identidade Nacional e autenticação em serviços municipais, em universos de respondentes também distintos. O escore do objetivo é publicado, e a base de dados da Carteira de Identidade Nacional da SGD/MGI entra no índice com as carteiras de fato emitidas por UF, no lugar da pergunta do IOSPD sobre a oferta da emissão (ver Anexo A). As dimensões do Capítulo 6 têm média e gráfico como as dos outros nove objetivos. A cobertura segue estreita, e a Seção 3.6 descreve a estratégia de parceria com a SGD/MGI para ampliá-la.
 
 #### Demais bases (recorte nacional agregado)
 
@@ -361,7 +365,7 @@ Limitações específicas por pesquisa:
 
 **Acesso:** Dados em XLSX agregado, sem microdados estruturados e sem API. A extração requer processamento manual das planilhas publicadas pelo IBGE. Suplemento TIC quinquenal.
 
-**Dependência:** As 28 variáveis da ESTADIC são indispensáveis para o recorte estadual. Se o IBGE descontinuar ou alterar significativamente o questionário, o recorte estadual ficaria restrito às 48 variáveis IOSPD, de 1 única fonte.
+**Dependência:** As 28 variáveis da ESTADIC são indispensáveis para o recorte estadual. Se o IBGE descontinuar ou alterar significativamente o questionário, o recorte estadual ficaria restrito às 47 variáveis do IOSPD e à da base de dados da CIN, de 2 fontes.
 
 **Não-resposta:** Rondônia não respondeu ao suplemento de Governança (10 variáveis Egov = 0). Bahia respondeu "Não sabe" nas variáveis LGPD (= 0). Os dois casos são da ESTADIC, e portanto do regime de imputação de zero descrito na Seção 3.3.2, que não vale para as fontes já agregadas. A premissa é conservadora — pode subestimar estados que possuem a capacidade mas não responderam por razões administrativas. A alternativa (excluir UFs) premiaria a não-resposta ao calcular a média sobre menos componentes.
 
@@ -379,11 +383,11 @@ O índice agrega variáveis de múltiplas fontes, com desenhos de coleta diferen
 
 **Pesquisas CETIC.br com resposta voluntária** (67 das 327 variáveis do recorte nacional agregado): as três pesquisas que contribuem para o índice dependem da resposta das unidades selecionadas, mas seus desenhos não são iguais. A TIC Governo Eletrônico combina abordagem censitária e seleção amostral; nessa pesquisa, responderam 88% dos órgãos públicos federais e estaduais e 77% das prefeituras. Se as unidades menos digitalizadas responderem menos, as proporções publicadas podem superestimar a realidade, mas as tabelas agregadas e as taxas de resposta não permitem testar essa associação nem medir sua magnitude. A superestimação é uma hipótese de direção do viés, não um efeito demonstrado.
 
-**Avaliação externa — IOSPD** (48 das 327 variáveis do recorte nacional agregado): avaliação externa dos portais estaduais pela ABEP-TIC. Viés de seleção baixo (todos os 27 portais são avaliados).
+**Avaliação externa — IOSPD** (47 das 327 variáveis do recorte nacional agregado): avaliação externa dos portais estaduais pela ABEP-TIC. Viés de seleção baixo (todos os 27 portais são avaliados).
 
 **Questionário de autoavaliação: iESGo** (21 das 327 variáveis do recorte nacional agregado): o [FAQ do iESGo 2024](https://iesgo.tcu.gov.br/wp-content/uploads/sites/12/iesgo2024/FAQ_iESGo-v4.docx) define o instrumento como autoavaliação e atribui a responsabilidade pelas respostas ao dirigente máximo de cada organização. O questionário alcançou o universo de 387 organizações jurisdicionadas dos três Poderes. O TCU não verificou diretamente as respostas: o [relatório técnico](https://iesgo.tcu.gov.br/wp-content/uploads/sites/12/iesgo2024/iESGo2024_Relatorio_tecnico.pdf) informa que essa validação exigiria auditorias de campo, não realizadas no ciclo. Para reduzir a probabilidade de superestimação, o instrumento pede texto livre com indicação de evidência auditável e desdobra itens em subquestões de sim ou não. Esses procedimentos estruturam a declaração, mas não constituem auditoria das respostas. O viés de seleção é baixo porque a aplicação cobre o universo pesquisado; persiste o risco de desejabilidade social porque cada organização avalia a própria governança. O índice usa as questões individuais, e não os sub-índices compósitos calculados pelo TCU. A periodicidade é irregular. Direção esperada: superestimação; os procedimentos podem reduzir o risco, mas sua magnitude não foi medida.
 
-**Dados administrativos e censitários** (94 das 327 variáveis do recorte nacional agregado): ESTADIC (28 variáveis, pesquisa censitária N=27 UFs), MUNIC (59 variáveis, pesquisa censitária N=5.570 municípios), Censo Escolar (INEP, 5), Cobertura móvel (ANATEL, 1) e PNAD Contínua TIC (1). Viés de seleção baixo — ESTADIC e MUNIC são pesquisas censitárias obrigatórias. Porém, como os questionários são preenchidos pelo próprio governo respondente, há risco moderado de viés de desejabilidade social, semelhante aos autodiagnósticos federais.
+**Dados administrativos e censitários** (95 das 327 variáveis do recorte nacional agregado): ESTADIC (28 variáveis, pesquisa censitária N=27 UFs), MUNIC (59 variáveis, pesquisa censitária N=5.570 municípios), Censo Escolar (INEP, 5), Cobertura móvel (ANATEL, 1), PNAD Contínua TIC (1) e Base de dados da CIN (SGD/MGI, 1). A base da CIN é registro administrativo, com extração de 08/10/2026, recebido por e-mail no acordo de envio de dados de 08/10/2026 com a SGD/MGI; não depende de resposta do ente e cobre as 27 UFs, com viés de seleção baixo, mas a contagem é atribuída à UF emissora, e não à de residência do titular. Viés de seleção baixo — ESTADIC e MUNIC são pesquisas censitárias obrigatórias. Porém, como os questionários são preenchidos pelo próprio governo respondente, há risco moderado de viés de desejabilidade social, semelhante aos autodiagnósticos federais.
 
 **ESTADIC — saltos condicionais:** Na aba de Informática, 6,2% das células contêm "-" (salto condicional); na aba de Governança, 8,0%. Em algumas variáveis, o percentual chega a 59-74%. O tratamento desses traços (NaN vs. 0) afeta diretamente as proporções.
 
@@ -391,7 +395,7 @@ O índice agrega variáveis de múltiplas fontes, com desenhos de coleta diferen
 
 ### 3.4.3 Proveniência desta edição
 
-Esta edição foi construída sobre o conjunto de dados identificado pelo manifesto de SHA-256 `61a24adfb7061005db24156bfd22e7b135bb1718dd93e620c5d54099d2f2a400`, que reproduz a revisão `5127d22` do conjunto `obsgovdigital/obsgovdigital` em tudo, menos na composição corrigida das baterias da ESTADIC descrita na Seção 3.3.1. O manifesto da release que acompanha este relatório identifica a revisão dos dados, a revisão do código e o hash de cada arquivo produzido, e é por ele que os números aqui publicados se reproduzem.
+Esta edição foi construída sobre o conjunto de dados identificado pelo manifesto de SHA-256 `f8a8012e77c7a4a36555bc8061b7fd137c79b4a53e89a0fdd4adcf48936f2e97`, da revisão `3749ef9` do conjunto `obsgovdigital/obsgovdigital`, que traz a composição corrigida das baterias da ESTADIC descrita na Seção 3.3.1 e a base de dados da Carteira de Identidade Nacional. O manifesto da release que acompanha este relatório identifica a revisão dos dados, a revisão do código e o hash de cada arquivo produzido, e é por ele que os números aqui publicados se reproduzem.
 
 ---
 
@@ -425,13 +429,12 @@ Algumas fontes do Observatório já fornecem os melhores dados disponíveis — 
 
 #### SGD/MGI — Dados primários do Gov.br
 
-O Objetivo 3 da ENGD (Identificação Única) é o objetivo com menor cobertura no catálogo ativo: 5 variáveis de 4 fontes (`C9B_A`, `IOSPD_I09`, `IOSPD_V07`, `MUNIC_AUTENTICACAO` e `G630IPD`). Enquanto isso, a plataforma Gov.br cresceu de 130 milhões para 166 milhões de contas entre 2023 e 2025, 67,55 milhões de cidadãos atingiram o nível ouro de autenticação e 31,5 milhões de Carteiras de Identidade Nacional foram emitidas — nenhum desses avanços é captado pelo índice.
+O Objetivo 3 da ENGD (Identificação Única) é o objetivo com menor cobertura no catálogo ativo: 5 variáveis de 5 fontes (`C9B_A`, `IOSPD_I09`, `atingimento_meta_cin`, `MUNIC_AUTENTICACAO` e `G630IPD`). A emissão da Carteira de Identidade Nacional já entra no índice, pela base que a SGD/MGI enviou em 08/10/2026. Os outros dois avanços da plataforma Gov.br seguem fora dele: o número de contas cresceu de 130 milhões para 166 milhões entre 2023 e 2025, e 67,55 milhões de cidadãos atingiram o nível ouro de autenticação.
 
 Para ampliar essa cobertura, propõe-se solicitar à Secretaria de Governo Digital (SGD/MGI) dados primários sobre a plataforma Gov.br, via Lei de Acesso à Informação ou via parceria institucional direta. Os dados solicitados incluem:
 
 - **Contas Gov.br por nível de autenticação** (bronze, prata e ouro), por UF — permite medir não apenas a adesão ao login único, mas a qualidade da identificação (níveis mais altos indicam verificação biométrica e documental)
 - **Número de órgãos e entidades integrados ao login Gov.br**, com nível de governo — mede a efetiva adoção da solução estruturante pelos entes federados
-- **Número de carteiras de identidade nacional (CIN) emitidas**, por UF — meta explicitamente vinculada ao Objetivo 3 da ENGD
 - **Número de usuários únicos que acessaram o Gov.br** — indicador de alcance e uso efetivo da plataforma
 - **Volume de assinaturas eletrônicas realizadas via Gov.br** — 120 milhões em 2024 segundo a SGD
 

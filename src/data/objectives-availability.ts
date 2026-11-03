@@ -1,22 +1,11 @@
 import type { NivelKey } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 
-/** Objetivo 3 — Identificação Única: escore calculado, sem índice publicado. */
-export const OBJETIVO_3_SLUG = 'identidade-unica-do-cidadao'
-export const OBJETIVO_3_NUMERO = 3
-
 /** Capítulo 3 — critério de publicação e de o que entra no cálculo. */
 export const METODOLOGIA_PONTUACAO_HREF = '/metodologia/cap03-metodologia'
 
-/** Seção 3.4.1. Âncora gerada por rehype-slug. */
-export const METODOLOGIA_OBJETIVO_3_HREF =
-  '/metodologia/cap03-metodologia#341-limitações-das-bases-de-dados'
-
 export const EXPLICACAO_FORA_DA_PONTUACAO =
   'Há indicadores associados a esses objetivos, mas eles não foram incluídos no cálculo do índice publicado neste recorte.'
-
-export const OBJETIVO_3_MOTIVO =
-  'Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado na plataforma.'
 
 const ROTULO_RECORTE: Record<NivelKey, string> = {
   federal: 'nacional',
@@ -32,16 +21,18 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
   {
     slug: 'identidade-unica-do-cidadao',
     numero: 3,
-    motivoResumo: 'Cobertura insuficiente e inconsistente entre níveis.',
+    motivoResumo:
+      'Poucas variáveis ativas: 5 no nacional, 2 por UF e 1 nos municípios.',
     oQueFoiAvaliado: [
-      'Existência de iniciativas de identidade digital em fontes públicas pontuais.',
+      'Adoção do login Gov.br e integração dos serviços ao Login Único.',
+      'Assinatura eletrônica, autenticação em serviços municipais e emissão da Carteira de Identidade Nacional (CIN) por UF.',
     ],
     oQueNaoFoiIncluido: [
-      'Indicadores de adoção efetiva da CIN / identidade única nacional por UF e município.',
-      'Séries comparáveis de autenticação e interoperabilidade de identidade.',
+      'Contas Gov.br por nível de autenticação (bronze, prata e ouro), por UF.',
+      'Órgãos integrados ao login Gov.br por nível de governo, usuários únicos e volume de assinaturas eletrônicas.',
     ],
     porQueNaoIncluido:
-      'As fontes disponíveis não permitem construir um índice comparável e auditável para todos os entes nesta edição.',
+      'Esses dados não são publicados; a Seção 3.6 da metodologia descreve o pedido à SGD/MGI.',
   },
   {
     slug: 'competencias-e-capacitacao',
@@ -85,32 +76,23 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
   },
 ] as const
 
-export function isObjetivo3(slugOrNumero: string | number): boolean {
-  if (typeof slugOrNumero === 'number')
-    return slugOrNumero === OBJETIVO_3_NUMERO
-  return slugOrNumero === OBJETIVO_3_SLUG
-}
-
 export function motivoObjetivoDesabilitado(
-  slug: string,
   nivel: NivelKey,
   cobertoPelosDados: boolean
 ): string | null {
-  if (isObjetivo3(slug)) return OBJETIVO_3_MOTIVO
   if (!cobertoPelosDados) {
     return `Há indicadores associados a este objetivo, mas eles não foram incluídos no cálculo do índice publicado no recorte ${ROTULO_RECORTE[nivel]}.`
   }
   return null
 }
 
-/** Índice 0-based: objetivo usável na UI (não é Obj.3 e tem cobertura de dados). */
+/** Índice 0-based: objetivo usável na UI (tem cobertura de dados no recorte). */
 export function objetivoSelecionavel(
   index: number,
   cobertura: boolean[]
 ): boolean {
   const obj = objectives[index]
   if (!obj) return false
-  if (isObjetivo3(obj.slug)) return false
   return Boolean(cobertura[index])
 }
 

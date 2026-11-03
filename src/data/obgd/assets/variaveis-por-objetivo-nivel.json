@@ -721,14 +721,14 @@
         "fonte": "IOSPD"
       },
       {
+        "id": "cin/atingimento_meta_cin",
+        "nome": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)",
+        "fonte": "Base de dados da Carteira de Identidade Nacional"
+      },
+      {
         "id": "munic/MUNIC_AUTENTICACAO",
         "nome": "Autenticação para acessar serviços pela internet",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_V07",
-        "nome": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)",
-        "fonte": "IOSPD"
       },
       {
         "id": "igovsisp/G630IPD",
@@ -1918,9 +1918,9 @@
         "fonte": "IOSPD"
       },
       {
-        "id": "iospd/IOSPD_V07",
-        "nome": "Emissão da CIN — Carteira de Identidade Nacional (IOSPD V.7)",
-        "fonte": "IOSPD"
+        "id": "cin/atingimento_meta_cin",
+        "nome": "Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN)",
+        "fonte": "Base de dados da Carteira de Identidade Nacional"
       }
     ],
     "4": [

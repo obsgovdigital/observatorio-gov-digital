@@ -126,7 +126,7 @@ Variáveis cuja permanência no índice foi reavaliada contra a Portaria SGD/MGI
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores individuais, dos quais 48 seguem ativos no índice |
+| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores individuais, dos quais 47 seguem ativos no índice |
 | IOSPD_DIM1 | IOSPD (ABEP-TIC) | Dimensão Capacidades (compósito I.1-I.13) | Compósito de 13 indicadores, desagregados individualmente |
 | IOSPD_DIM2 | IOSPD (ABEP-TIC) | Dimensão Serviços (compósito II.1-II.12) | Compósito de 12 indicadores, desagregados individualmente |
 | IOSPD_DIM3 | IOSPD (ABEP-TIC) | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito de 11 indicadores, desagregados individualmente |
@@ -228,6 +228,14 @@ A conferência do questionário oficial de 2025 fundamenta 14 novas exclusões e
 | `igovsisp/G223SPD` | iGovSISP (SGD/MGI) | iGovSISP: Como está o processo de modernização de aplicações legadas? (autodiagnóstico SISP, ordinal_maturidade) | Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
 | `igovsisp/G629IPD` | iGovSISP (SGD/MGI) | iGovSISP: Especificamente quanto ao nível de conhecimento e aplicabilidade sobre o Design System (Padrão Digital de Governo - gov.br/ds), o seu órgão: (autodiagnóstico SISP, ordinal_maturidade) | Conhecimento e adoção do Design System gov.br não demonstram, por si, qualidade ou capacidade substantiva de governo digital. |
 
+### Redundância com variável mais adequada — emissão da Carteira de Identidade Nacional
+
+A entrada da base de dados da Carteira de Identidade Nacional no índice, com a variável `cin/atingimento_meta_cin`, retira pelo critério (iv) da Seção 3.2.1 a pergunta do IOSPD que media a mesma emissão. As duas observam o mesmo objeto, a emissão da CIN pela unidade da federação, por caminhos distintos: o IOSPD registra se a avaliação do portal estadual encontrou a oferta, e a base da CIN registra as carteiras de fato emitidas. Onde os dois divergem, o registro administrativo desmente a avaliação. A V.7 vale 0 em Alagoas, Bahia, Pará, Rio Grande do Norte e Tocantins, e a base da CIN mostra as cinco emitindo desde 2023 ou 2024, com 38,4, 29,5, 4,4, 37,0 e 29,9 carteiras por cem habitantes em agosto de 2026. Só o Pará é compatível com uma oferta ainda não aberta na data da avaliação.
+
+| Variável | Fonte | Pergunta | Fundamento |
+|---|---|---|---|
+| `iospd/IOSPD_V07` | IOSPD (ABEP-TIC) | A UF disponibiliza a emissão da nova CIN - Carteira de Identidade Nacional? | Mesmo objeto de `cin/atingimento_meta_cin`, medido por registro administrativo das carteiras emitidas (retida a CIN); a V.7 nega a emissão em cinco UFs que a base registra emitindo |
+
 ## A.2 Variáveis excluídas do índice estadual
 
 ### Variáveis ESTADIC excluídas (25)
@@ -268,7 +276,7 @@ O recorte estadual exclui integralmente as fontes cujos dados por UF medem outro
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores, dos quais 48 seguem ativos no índice |
+| IOSPD_GERAL | IOSPD (ABEP-TIC) | Índice geral IOSPD (média das 5 dimensões) | Compósito de DIM1-5; desagregado em 54 indicadores, dos quais 47 seguem ativos no índice |
 | IOSPD_DIM1 | IOSPD (ABEP-TIC) | Dimensão Capacidades (compósito I.1-I.13) | Compósito, desagregado individualmente |
 | IOSPD_DIM2 | IOSPD (ABEP-TIC) | Dimensão Serviços (compósito II.1-II.12) | Compósito, desagregado individualmente |
 | IOSPD_DIM3 | IOSPD (ABEP-TIC) | Dimensão Normatização (compósito III.1-III.7 + III.1a-d) | Compósito, desagregado individualmente |
@@ -276,6 +284,7 @@ O recorte estadual exclui integralmente as fontes cujos dados por UF medem outro
 | IOSPD_DIM5 | IOSPD (ABEP-TIC) | Dimensão Inovação (compósito V.1-V.9) | Compósito, desagregado individualmente |
 | IOSPD_I02 | IOSPD (ABEP-TIC) | Percentual de uso da plataforma única (I.2) | Saturado em zero |
 | IOSPD_III01 | IOSPD (ABEP-TIC) | Regulamentação pilares Lei 13.460/2017 (III.1) | Compósito-pai de III.1a-d; variância zero |
+| IOSPD_V07 | IOSPD (ABEP-TIC) | Emissão da nova CIN (V.7) | Redundante com a base de dados da CIN, que a substitui no recorte estadual (ver A.1) |
 
 ---
 

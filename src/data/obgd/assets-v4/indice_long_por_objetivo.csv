@@ -1,7 +1,7 @@
 nivel,unidade,unidade_nome,objetivo,objetivo_nome,ano_indice,sub_indice,posicao_no_objetivo,n,n_itens
 nacional,BR,Brasil,1,Governança do Governo Digital,2026,62.54,1,30,37
 nacional,BR,Brasil,2,Qualidade dos Serviços Digitais,2026,61.18,1,83,105
-nacional,BR,Brasil,3,Identificação Única,2026,51.23,1,5,5
+nacional,BR,Brasil,3,Identificação Única,2026,45.46,1,5,5
 nacional,BR,Brasil,4,Segurança e LGPD,2026,45.99,1,25,33
 nacional,BR,Brasil,5,Dados e Interoperabilidade,2026,62.74,1,25,37
 nacional,BR,Brasil,6,Infraestrutura,2026,53.65,1,19,25
@@ -11,7 +11,7 @@ nacional,BR,Brasil,9,Transparência e Participação,2026,58.01,1,20,20
 nacional,BR,Brasil,10,Competências em Governo Digital,2026,64.56,1,12,23
 uf,RO,Rondônia,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,RO,Rondônia,2,Qualidade dos Serviços Digitais,2026,76.13,12,41,49
-uf,RO,Rondônia,3,Identificação Única,2026,100.0,1,2,2
+uf,RO,Rondônia,3,Identificação Única,2026,75.24,11,2,2
 uf,RO,Rondônia,4,Segurança e LGPD,2026,0.0,27,5,5
 uf,RO,Rondônia,5,Dados e Interoperabilidade,2026,50.0,13,2,2
 uf,RO,Rondônia,6,Infraestrutura,2026,100.0,1,2,2
@@ -21,7 +21,7 @@ uf,RO,Rondônia,9,Transparência e Participação,2026,25.0,27,9,9
 uf,RO,Rondônia,10,Competências em Governo Digital,2026,,,0,0
 uf,AC,Acre,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,AC,Acre,2,Qualidade dos Serviços Digitais,2026,86.97,5,41,49
-uf,AC,Acre,3,Identificação Única,2026,100.0,1,2,2
+uf,AC,Acre,3,Identificação Única,2026,84.64,2,2,2
 uf,AC,Acre,4,Segurança e LGPD,2026,60.0,17,5,5
 uf,AC,Acre,5,Dados e Interoperabilidade,2026,83.34,2,2,2
 uf,AC,Acre,6,Infraestrutura,2026,50.0,17,2,2
@@ -31,7 +31,7 @@ uf,AC,Acre,9,Transparência e Participação,2026,68.33,14,9,9
 uf,AC,Acre,10,Competências em Governo Digital,2026,,,0,0
 uf,AM,Amazonas,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,AM,Amazonas,2,Qualidade dos Serviços Digitais,2026,36.01,25,41,49
-uf,AM,Amazonas,3,Identificação Única,2026,50.0,19,2,2
+uf,AM,Amazonas,3,Identificação Única,2026,25.89,26,2,2
 uf,AM,Amazonas,4,Segurança e LGPD,2026,60.0,17,5,5
 uf,AM,Amazonas,5,Dados e Interoperabilidade,2026,26.19,18,2,2
 uf,AM,Amazonas,6,Infraestrutura,2026,50.0,17,2,2
@@ -41,7 +41,7 @@ uf,AM,Amazonas,9,Transparência e Participação,2026,78.33,10,9,9
 uf,AM,Amazonas,10,Competências em Governo Digital,2026,,,0,0
 uf,RR,Roraima,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,RR,Roraima,2,Qualidade dos Serviços Digitais,2026,33.11,26,41,49
-uf,RR,Roraima,3,Identificação Única,2026,66.65,14,2,2
+uf,RR,Roraima,3,Identificação Única,2026,32.08,23,2,2
 uf,RR,Roraima,4,Segurança e LGPD,2026,40.0,22,5,5
 uf,RR,Roraima,5,Dados e Interoperabilidade,2026,16.66,23,2,2
 uf,RR,Roraima,6,Infraestrutura,2026,50.0,17,2,2
@@ -51,7 +51,7 @@ uf,RR,Roraima,9,Transparência e Participação,2026,62.38,20,9,9
 uf,RR,Roraima,10,Competências em Governo Digital,2026,,,0,0
 uf,PA,Pará,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,PA,Pará,2,Qualidade dos Serviços Digitais,2026,45.06,22,41,49
-uf,PA,Pará,3,Identificação Única,2026,50.0,19,2,2
+uf,PA,Pará,3,Identificação Única,2026,53.93,15,2,2
 uf,PA,Pará,4,Segurança e LGPD,2026,100.0,1,5,5
 uf,PA,Pará,5,Dados e Interoperabilidade,2026,33.34,16,2,2
 uf,PA,Pará,6,Infraestrutura,2026,100.0,1,2,2
@@ -61,7 +61,7 @@ uf,PA,Pará,9,Transparência e Participação,2026,56.14,23,9,9
 uf,PA,Pará,10,Competências em Governo Digital,2026,,,0,0
 uf,AP,Amapá,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,AP,Amapá,2,Qualidade dos Serviços Digitais,2026,59.28,18,41,49
-uf,AP,Amapá,3,Identificação Única,2026,100.0,1,2,2
+uf,AP,Amapá,3,Identificação Única,2026,67.96,14,2,2
 uf,AP,Amapá,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,AP,Amapá,5,Dados e Interoperabilidade,2026,16.66,23,2,2
 uf,AP,Amapá,6,Infraestrutura,2026,100.0,1,2,2
@@ -71,7 +71,7 @@ uf,AP,Amapá,9,Transparência e Participação,2026,92.38,3,9,9
 uf,AP,Amapá,10,Competências em Governo Digital,2026,,,0,0
 uf,TO,Tocantins,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,TO,Tocantins,2,Qualidade dos Serviços Digitais,2026,80.06,10,41,49
-uf,TO,Tocantins,3,Identificação Única,2026,50.0,19,2,2
+uf,TO,Tocantins,3,Identificação Única,2026,76.61,8,2,2
 uf,TO,Tocantins,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,TO,Tocantins,5,Dados e Interoperabilidade,2026,38.1,15,2,2
 uf,TO,Tocantins,6,Infraestrutura,2026,50.0,17,2,2
@@ -81,7 +81,7 @@ uf,TO,Tocantins,9,Transparência e Participação,2026,49.38,26,9,9
 uf,TO,Tocantins,10,Competências em Governo Digital,2026,,,0,0
 uf,MA,Maranhão,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,MA,Maranhão,2,Qualidade dos Serviços Digitais,2026,51.6,19,41,49
-uf,MA,Maranhão,3,Identificação Única,2026,50.0,19,2,2
+uf,MA,Maranhão,3,Identificação Única,2026,29.16,24,2,2
 uf,MA,Maranhão,4,Segurança e LGPD,2026,60.0,17,5,5
 uf,MA,Maranhão,5,Dados e Interoperabilidade,2026,33.34,16,2,2
 uf,MA,Maranhão,6,Infraestrutura,2026,100.0,1,2,2
@@ -101,7 +101,7 @@ uf,PI,Piauí,9,Transparência e Participação,2026,94.17,2,9,9
 uf,PI,Piauí,10,Competências em Governo Digital,2026,,,0,0
 uf,CE,Ceará,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,CE,Ceará,2,Qualidade dos Serviços Digitais,2026,76.31,11,41,49
-uf,CE,Ceará,3,Identificação Única,2026,100.0,1,2,2
+uf,CE,Ceará,3,Identificação Única,2026,79.65,6,2,2
 uf,CE,Ceará,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,CE,Ceará,5,Dados e Interoperabilidade,2026,66.66,8,2,2
 uf,CE,Ceará,6,Infraestrutura,2026,100.0,1,2,2
@@ -111,7 +111,7 @@ uf,CE,Ceará,9,Transparência e Participação,2026,70.77,12,9,9
 uf,CE,Ceará,10,Competências em Governo Digital,2026,,,0,0
 uf,RN,Rio Grande do Norte,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,RN,Rio Grande do Norte,2,Qualidade dos Serviços Digitais,2026,31.46,27,41,49
-uf,RN,Rio Grande do Norte,3,Identificação Única,2026,16.65,25,2,2
+uf,RN,Rio Grande do Norte,3,Identificação Única,2026,49.54,16,2,2
 uf,RN,Rio Grande do Norte,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,RN,Rio Grande do Norte,5,Dados e Interoperabilidade,2026,16.66,23,2,2
 uf,RN,Rio Grande do Norte,6,Infraestrutura,2026,100.0,1,2,2
@@ -121,7 +121,7 @@ uf,RN,Rio Grande do Norte,9,Transparência e Participação,2026,64.88,18,9,9
 uf,RN,Rio Grande do Norte,10,Competências em Governo Digital,2026,,,0,0
 uf,PB,Paraíba,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,PB,Paraíba,2,Qualidade dos Serviços Digitais,2026,39.76,24,41,49
-uf,PB,Paraíba,3,Identificação Única,2026,66.65,14,2,2
+uf,PB,Paraíba,3,Identificação Única,2026,46.34,19,2,2
 uf,PB,Paraíba,4,Segurança e LGPD,2026,40.0,22,5,5
 uf,PB,Paraíba,5,Dados e Interoperabilidade,2026,26.19,18,2,2
 uf,PB,Paraíba,6,Infraestrutura,2026,50.0,17,2,2
@@ -131,7 +131,7 @@ uf,PB,Paraíba,9,Transparência e Participação,2026,64.48,19,9,9
 uf,PB,Paraíba,10,Competências em Governo Digital,2026,,,0,0
 uf,PE,Pernambuco,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,PE,Pernambuco,2,Qualidade dos Serviços Digitais,2026,71.51,14,41,49
-uf,PE,Pernambuco,3,Identificação Única,2026,100.0,1,2,2
+uf,PE,Pernambuco,3,Identificação Única,2026,74.96,12,2,2
 uf,PE,Pernambuco,4,Segurança e LGPD,2026,60.0,17,5,5
 uf,PE,Pernambuco,5,Dados e Interoperabilidade,2026,76.19,5,2,2
 uf,PE,Pernambuco,6,Infraestrutura,2026,50.0,17,2,2
@@ -141,7 +141,7 @@ uf,PE,Pernambuco,9,Transparência e Participação,2026,80.56,9,9,9
 uf,PE,Pernambuco,10,Competências em Governo Digital,2026,,,0,0
 uf,AL,Alagoas,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,AL,Alagoas,2,Qualidade dos Serviços Digitais,2026,42.71,23,41,49
-uf,AL,Alagoas,3,Identificação Única,2026,0.0,26,2,2
+uf,AL,Alagoas,3,Identificação Única,2026,34.18,22,2,2
 uf,AL,Alagoas,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,AL,Alagoas,5,Dados e Interoperabilidade,2026,66.66,8,2,2
 uf,AL,Alagoas,6,Infraestrutura,2026,50.0,17,2,2
@@ -151,7 +151,7 @@ uf,AL,Alagoas,9,Transparência e Participação,2026,65.99,17,9,9
 uf,AL,Alagoas,10,Competências em Governo Digital,2026,,,0,0
 uf,SE,Sergipe,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,SE,Sergipe,2,Qualidade dos Serviços Digitais,2026,49.03,21,41,49
-uf,SE,Sergipe,3,Identificação Única,2026,50.0,19,2,2
+uf,SE,Sergipe,3,Identificação Única,2026,39.7,21,2,2
 uf,SE,Sergipe,4,Segurança e LGPD,2026,40.0,22,5,5
 uf,SE,Sergipe,5,Dados e Interoperabilidade,2026,23.81,22,2,2
 uf,SE,Sergipe,6,Infraestrutura,2026,50.0,17,2,2
@@ -161,7 +161,7 @@ uf,SE,Sergipe,9,Transparência e Participação,2026,67.1,16,9,9
 uf,SE,Sergipe,10,Competências em Governo Digital,2026,,,0,0
 uf,BA,Bahia,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,BA,Bahia,2,Qualidade dos Serviços Digitais,2026,51.18,20,41,49
-uf,BA,Bahia,3,Identificação Única,2026,0.0,26,2,2
+uf,BA,Bahia,3,Identificação Única,2026,26.22,25,2,2
 uf,BA,Bahia,4,Segurança e LGPD,2026,20.0,25,5,5
 uf,BA,Bahia,5,Dados e Interoperabilidade,2026,16.66,23,2,2
 uf,BA,Bahia,6,Infraestrutura,2026,100.0,1,2,2
@@ -171,7 +171,7 @@ uf,BA,Bahia,9,Transparência e Participação,2026,61.11,21,9,9
 uf,BA,Bahia,10,Competências em Governo Digital,2026,,,0,0
 uf,MG,Minas Gerais,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,MG,Minas Gerais,2,Qualidade dos Serviços Digitais,2026,86.54,6,41,49
-uf,MG,Minas Gerais,3,Identificação Única,2026,100.0,1,2,2
+uf,MG,Minas Gerais,3,Identificação Única,2026,80.11,5,2,2
 uf,MG,Minas Gerais,4,Segurança e LGPD,2026,100.0,1,5,5
 uf,MG,Minas Gerais,5,Dados e Interoperabilidade,2026,90.48,1,2,2
 uf,MG,Minas Gerais,6,Infraestrutura,2026,100.0,1,2,2
@@ -181,7 +181,7 @@ uf,MG,Minas Gerais,9,Transparência e Participação,2026,81.14,8,9,9
 uf,MG,Minas Gerais,10,Competências em Governo Digital,2026,,,0,0
 uf,ES,Espírito Santo,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,ES,Espírito Santo,2,Qualidade dos Serviços Digitais,2026,71.87,13,41,49
-uf,ES,Espírito Santo,3,Identificação Única,2026,50.0,19,2,2
+uf,ES,Espírito Santo,3,Identificação Única,2026,21.3,27,2,2
 uf,ES,Espírito Santo,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,ES,Espírito Santo,5,Dados e Interoperabilidade,2026,26.19,18,2,2
 uf,ES,Espírito Santo,6,Infraestrutura,2026,50.0,17,2,2
@@ -191,7 +191,7 @@ uf,ES,Espírito Santo,9,Transparência e Participação,2026,70.0,13,9,9
 uf,ES,Espírito Santo,10,Competências em Governo Digital,2026,,,0,0
 uf,RJ,Rio de Janeiro,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,RJ,Rio de Janeiro,2,Qualidade dos Serviços Digitais,2026,91.35,2,41,49
-uf,RJ,Rio de Janeiro,3,Identificação Única,2026,100.0,1,2,2
+uf,RJ,Rio de Janeiro,3,Identificação Única,2026,75.33,10,2,2
 uf,RJ,Rio de Janeiro,4,Segurança e LGPD,2026,100.0,1,5,5
 uf,RJ,Rio de Janeiro,5,Dados e Interoperabilidade,2026,73.81,6,2,2
 uf,RJ,Rio de Janeiro,6,Infraestrutura,2026,100.0,1,2,2
@@ -201,7 +201,7 @@ uf,RJ,Rio de Janeiro,9,Transparência e Participação,2026,74.17,11,9,9
 uf,RJ,Rio de Janeiro,10,Competências em Governo Digital,2026,,,0,0
 uf,SP,São Paulo,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,SP,São Paulo,2,Qualidade dos Serviços Digitais,2026,90.77,3,41,49
-uf,SP,São Paulo,3,Identificação Única,2026,100.0,1,2,2
+uf,SP,São Paulo,3,Identificação Única,2026,71.21,13,2,2
 uf,SP,São Paulo,4,Segurança e LGPD,2026,100.0,1,5,5
 uf,SP,São Paulo,5,Dados e Interoperabilidade,2026,83.34,2,2,2
 uf,SP,São Paulo,6,Infraestrutura,2026,100.0,1,2,2
@@ -211,7 +211,7 @@ uf,SP,São Paulo,9,Transparência e Participação,2026,82.5,6,9,9
 uf,SP,São Paulo,10,Competências em Governo Digital,2026,,,0,0
 uf,PR,Paraná,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,PR,Paraná,2,Qualidade dos Serviços Digitais,2026,70.36,15,41,49
-uf,PR,Paraná,3,Identificação Única,2026,100.0,1,2,2
+uf,PR,Paraná,3,Identificação Única,2026,79.01,7,2,2
 uf,PR,Paraná,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,PR,Paraná,5,Dados e Interoperabilidade,2026,26.19,18,2,2
 uf,PR,Paraná,6,Infraestrutura,2026,100.0,1,2,2
@@ -221,7 +221,7 @@ uf,PR,Paraná,9,Transparência e Participação,2026,54.88,24,9,9
 uf,PR,Paraná,10,Competências em Governo Digital,2026,,,0,0
 uf,SC,Santa Catarina,1,Governança do Governo Digital,2026,0.0,18,1,1
 uf,SC,Santa Catarina,2,Qualidade dos Serviços Digitais,2026,60.66,17,41,49
-uf,SC,Santa Catarina,3,Identificação Única,2026,66.65,14,2,2
+uf,SC,Santa Catarina,3,Identificação Única,2026,46.75,18,2,2
 uf,SC,Santa Catarina,4,Segurança e LGPD,2026,60.0,17,5,5
 uf,SC,Santa Catarina,5,Dados e Interoperabilidade,2026,80.95,4,2,2
 uf,SC,Santa Catarina,6,Infraestrutura,2026,50.0,17,2,2
@@ -231,7 +231,7 @@ uf,SC,Santa Catarina,9,Transparência e Participação,2026,54.72,25,9,9
 uf,SC,Santa Catarina,10,Competências em Governo Digital,2026,,,0,0
 uf,RS,Rio Grande do Sul,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,RS,Rio Grande do Sul,2,Qualidade dos Serviços Digitais,2026,89.05,4,41,49
-uf,RS,Rio Grande do Sul,3,Identificação Única,2026,100.0,1,2,2
+uf,RS,Rio Grande do Sul,3,Identificação Única,2026,81.68,4,2,2
 uf,RS,Rio Grande do Sul,4,Segurança e LGPD,2026,100.0,1,5,5
 uf,RS,Rio Grande do Sul,5,Dados e Interoperabilidade,2026,66.66,8,2,2
 uf,RS,Rio Grande do Sul,6,Infraestrutura,2026,100.0,1,2,2
@@ -241,7 +241,7 @@ uf,RS,Rio Grande do Sul,9,Transparência e Participação,2026,87.22,5,9,9
 uf,RS,Rio Grande do Sul,10,Competências em Governo Digital,2026,,,0,0
 uf,MS,Mato Grosso do Sul,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,MS,Mato Grosso do Sul,2,Qualidade dos Serviços Digitais,2026,86.53,7,41,49
-uf,MS,Mato Grosso do Sul,3,Identificação Única,2026,66.65,14,2,2
+uf,MS,Mato Grosso do Sul,3,Identificação Única,2026,43.69,20,2,2
 uf,MS,Mato Grosso do Sul,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,MS,Mato Grosso do Sul,5,Dados e Interoperabilidade,2026,45.24,14,2,2
 uf,MS,Mato Grosso do Sul,6,Infraestrutura,2026,100.0,1,2,2
@@ -251,7 +251,7 @@ uf,MS,Mato Grosso do Sul,9,Transparência e Participação,2026,98.77,1,9,9
 uf,MS,Mato Grosso do Sul,10,Competências em Governo Digital,2026,,,0,0
 uf,MT,Mato Grosso,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,MT,Mato Grosso,2,Qualidade dos Serviços Digitais,2026,85.22,9,41,49
-uf,MT,Mato Grosso,3,Identificação Única,2026,100.0,1,2,2
+uf,MT,Mato Grosso,3,Identificação Única,2026,82.7,3,2,2
 uf,MT,Mato Grosso,4,Segurança e LGPD,2026,20.0,25,5,5
 uf,MT,Mato Grosso,5,Dados e Interoperabilidade,2026,66.66,8,2,2
 uf,MT,Mato Grosso,6,Infraestrutura,2026,50.0,17,2,2
@@ -261,7 +261,7 @@ uf,MT,Mato Grosso,9,Transparência e Participação,2026,59.48,22,9,9
 uf,MT,Mato Grosso,10,Competências em Governo Digital,2026,,,0,0
 uf,GO,Goiás,1,Governança do Governo Digital,2026,100.0,1,1,1
 uf,GO,Goiás,2,Qualidade dos Serviços Digitais,2026,85.66,8,41,49
-uf,GO,Goiás,3,Identificação Única,2026,100.0,1,2,2
+uf,GO,Goiás,3,Identificação Única,2026,75.78,9,2,2
 uf,GO,Goiás,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,GO,Goiás,5,Dados e Interoperabilidade,2026,66.66,8,2,2
 uf,GO,Goiás,6,Infraestrutura,2026,100.0,1,2,2
@@ -271,7 +271,7 @@ uf,GO,Goiás,9,Transparência e Participação,2026,91.67,4,9,9
 uf,GO,Goiás,10,Competências em Governo Digital,2026,,,0,0
 uf,DF,Distrito Federal,1,Governança do Governo Digital,2026,33.3,12,1,1
 uf,DF,Distrito Federal,2,Qualidade dos Serviços Digitais,2026,64.04,16,41,49
-uf,DF,Distrito Federal,3,Identificação Única,2026,66.65,14,2,2
+uf,DF,Distrito Federal,3,Identificação Única,2026,47.64,17,2,2
 uf,DF,Distrito Federal,4,Segurança e LGPD,2026,80.0,7,5,5
 uf,DF,Distrito Federal,5,Dados e Interoperabilidade,2026,16.66,23,2,2
 uf,DF,Distrito Federal,6,Infraestrutura,2026,100.0,1,2,2
