@@ -232,7 +232,7 @@ Runbook detalhado da AWS **não** faz parte deste repositório ainda. No cutover
 | -: | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | 1 | Home`/`                                                          | Carrega sem erro; seções principais visíveis                                  |
 | 2 | `/indicadores`                                                   | Explorer responde; URL com query restaura estado                                 |
-| 3 | Ranking (se`on`)                                                 | `/ranking` lista entes; Obj. 3 desabilitado na UI                              |
+| 3 | Ranking (se`on`)                                                 | `/ranking` lista entes; objetivo sem nota no recorte desabilitado na UI      |
 | 4 | Ranking (se`off`)                                                | `/ranking` redireciona; download via `/indicadores/.../[objetivo]`           |
 | 5 | `/metodologia`                                                   | Hub e PDF`/metodologia-completa.pdf`                                           |
 | 6 | `/contato`                                                       | Envio real chega em`CONTACT_TO_EMAIL`; Reply-To = e-mail do visitante          |

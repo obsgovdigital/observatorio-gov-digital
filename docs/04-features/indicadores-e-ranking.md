@@ -35,7 +35,7 @@ Ambas suportam ordenação / eixo por **objetivos ENGD** ou por **tags temática
 ## 3. Ranking
 
 - Níveis: estadual e municípios (≥ 100 mil); federal navega direto ao ente Brasil quando aplicável.
-- Chips de objetivo (Objetivo 3 desabilitado na UI) ou pills de tag.
+- Chips de objetivo (desabilitado só o objetivo sem nota no recorte) ou pills de tag.
 - Distribuição + mapa (estadual) + tabela.
 - Coluna principal = **Índice** (sem índice geral).
 - Disclaimer de contagem de variáveis no modo objetivos — ver [Disclaimer](../03-dados/disclaimer-variaveis.md).
@@ -75,6 +75,6 @@ Slugs mock antigos não são válidos; tema desconhecido cai no default do catá
 ## 6. Validação rápida
 
 1. `/indicadores?nivel=estadual&entes=sp&por=objetivos` — URL restaura seleção; CTA leva ao ente.
-2. `/ranking?nivel=estadual&por=objetivos&objetivo=gestao-e-governanca` — Obj. 3 desabilitado; disclaimer visível.
+2. `/ranking?nivel=estadual&por=objetivos&objetivo=gestao-e-governanca` — Obj. 10 desabilitado (sem nota no estadual); disclaimer visível.
 3. `/ranking?nivel=estadual&por=tematicas&tema=conectividade` — scores reais.
 4. `/v2/indicadores/estadual/sp/{objetivo}` — lista + download sem UI de posição.

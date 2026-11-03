@@ -330,7 +330,7 @@ O exportador valida o manifesto da release, confere os hashes das entradas e sa�
 
 A saída traz o modelo relacional em JSON (`dados/`), as views achatadas em CSV, uma cópia de auditoria e, escrito **por último**, um marcador de exportação completa. É por ele que se sabe que o diretório não é um pacote pela metade.
 
-O pacote é validado contra [`contracts/frontend-data-contract.json`](https://github.com/obsgovdigital/plataforma/blob/main/contracts/frontend-data-contract.json), no repositório `plataforma`, que **fixa o commit exato do repositório do site** para o qual foi negociado. Há teste que quebra se o transformador do portal mudar sem renegociação. Gerar o pacote não autoriza, por si, entregá-lo ou publicá-lo.
+O pacote é validado contra [`contracts/frontend-data-contract.json`](https://github.com/obsgovdigital/plataforma/blob/main/contracts/frontend-data-contract.json), no repositório `plataforma`, que **fixa o commit exato do repositório do site** para o qual foi negociado. O teste `tests/contrato/test_frontend_consumer.py` da plataforma roda o sync e os leitores do site sobre uma cópia desse commit, guardada em `tests/fixtures/frontend_consumer/`, e confere nota por nota que o site lê o pacote sem perder nem trocar valores. Ele não olha o repositório do site: uma mudança no sync ou nos leitores do portal não quebra o teste. Quando essa parte do site muda, a cópia e o commit fixado no contrato precisam ser renovados na plataforma. Gerar o pacote não autoriza, por si, entregá-lo ou publicá-lo.
 
 O formato detalhado que o portal espera, incluindo arquivos e colunas obrigatórias, é definido pelo [Contrato de entrega de dados](contrato-entrega-dados.md).
 

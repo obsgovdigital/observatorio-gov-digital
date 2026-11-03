@@ -74,11 +74,6 @@ Três escopos: **nacional** · **estadual** (27 UFs) · **municípios** (319 ≥
 
 Cada escopo tem o long por objetivo (`sub_indice`) e `detalhes_*.csv` (indicadores individuais). Na UI o rótulo é **Índice** — ver nomenclatura em `AGENTS.md`.
 
-**Referências numéricas:**
-- Índice nacional: **58,26**
-- Top 3 estados: PI 93,52 · MG 92,27 · RJ 92,02
-- Top 3 municípios (referência histórica de capitais): Belo Horizonte 94,89 · Brasília 94,84 · Salvador 94,80
-
 ## Design system
 
 Tokens em `src/app/globals.css` (Tailwind v4, OKLCH):
