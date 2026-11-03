@@ -216,6 +216,11 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
       },
     ],
   },
+  /** A SGD/MGI envia a base ao Observatório e não a publica: sem download. */
+  cin: {
+    urlPesquisa: 'https://www.gov.br/governodigital/pt-br/identidade/cin',
+    arquivos: [],
+  },
 }
 
 export function acessoDaFonte(fonteId: string): FonteAcesso | undefined {
