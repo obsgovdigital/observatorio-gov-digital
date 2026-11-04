@@ -14,11 +14,9 @@
       "!**/package-lock.json",
       "!**/*.js",
       "!**/playwright-report",
-      "!**/test-results",
-      "!public/bandeiras/**/*.svg",
-      "!src/data/obgd/assets-v4/**/indicador_valor.json",
-      "!src/data/obgd/assets/detalhes_municipios.json"
-    ]
+      "!**/test-results"
+    ],
+    "maxSize": 16777216
   },
   "formatter": {
     "enabled": true,
@@ -86,6 +84,16 @@
             "noImportantStyles": "off"
           }
         }
+      }
+    },
+    {
+      "includes": [
+        "src/data/obgd/assets-v4/auditoria/dados/indicador_valor.json",
+        "src/data/obgd/assets-v4/dados/indicador_valor.json",
+        "src/data/obgd/assets/detalhes_municipios.json"
+      ],
+      "formatter": {
+        "enabled": false
       }
     }
   ]
