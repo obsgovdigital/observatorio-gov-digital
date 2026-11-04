@@ -1,7 +1,6 @@
 'use client'
 
 import { Info } from 'lucide-react'
-import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import * as React from 'react'
 import { toast } from 'sonner'
@@ -654,8 +653,8 @@ export function IndicadoresExplorer({
                     </div>
                     <p className="mt-1 text-muted-foreground text-sm">
                       Comparação dos entes selecionados nos objetivos da ENGD
-                      que têm índice neste recorte. Cada eixo é um índice (0–100).{' '}
-                      <EntendaGraficoTip modo="objetivos" />
+                      que têm índice neste recorte. Cada eixo é um índice
+                      (0–100). <EntendaGraficoTip modo="objetivos" />
                     </p>
                     <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-muted-foreground text-xs">
                       {entesSelecionados.map((e, idx) => (
@@ -870,8 +869,6 @@ export function IndicadoresExplorer({
             )}
           </div>
         </div>
-
-
       </div>
     </section>
   )

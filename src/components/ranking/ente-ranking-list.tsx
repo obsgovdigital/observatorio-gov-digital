@@ -101,7 +101,9 @@ export function EnteRankingList({
             </p>
           )}
           {porHabitantes && (
-            <p className="text-muted-foreground text-xs">{NOTA_POPULACAO_CENSO}</p>
+            <p className="text-muted-foreground text-xs">
+              {NOTA_POPULACAO_CENSO}
+            </p>
           )}
         </div>
       )}
