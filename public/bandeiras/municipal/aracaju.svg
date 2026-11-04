@@ -8,7 +8,7 @@ viewBox="0 0 529.167 370.818"
  version="1.0">
  <defs>
   <style type="text/css">
-   <![CDATA[
+
     .str0 {stroke:#2B2828;stroke-width:0.152737}
     .str4 {stroke:white;stroke-width:0.883949}
     .str3 {stroke:white;stroke-width:1.71759}
@@ -26,7 +26,7 @@ viewBox="0 0 529.167 370.818"
     .fil2 {fill:white}
     .fil4 {fill:#2B2828;fill-rule:nonzero}
     .fil6 {fill:#131516;fill-opacity:0.000000}
-   ]]>
+
   </style>
      <clipPath id="id0">
       <path d="M89.1063 54.219l34.1762 0 -0.0436964 66.841c-17.327,12.6264 -17.2069,0.867513 -33.8627,12.5647 -0.0809786,-0.147325 -0.172981,-0.289639 -0.269795,-0.429547l0 -78.9764 0 0.000200442z"/>

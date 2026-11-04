@@ -3,7 +3,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="700" viewBox="-1000 -700 2000 1400">
 <defs>
 	<style type="text/css">
-	<![CDATA[
+
 		.str0 {stroke:#373435;stroke-width:1}
 		.str1 {stroke:#373435;stroke-width:5}
 		.fil0 {fill:none}
@@ -17,7 +17,7 @@
 		.fil8 {fill:#EFDD00}
 		.fil9 {fill:#F58634}
 		.fil10 {fill:#00A859}
-	]]>
+
 	</style>
 	<path id="base_star" d="M0,-225 73.473156537,-101.12712430 213.98771617, -69.528823734 118.88206454,38.627124297 132.25168177,182.02882373 0,125 -132.25168177,182.02882373 -118.88206454,38.627124297 -213.98771617, -69.528823734 -73.473156537,-101.12712430z" />
 	<clipPath id="shield_cut">

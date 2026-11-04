@@ -6,11 +6,11 @@
  .str0 {stroke:#000000;stroke-width:1}
  .str1 {stroke:#000000;stroke-width:2.5}
  .fil2 {fill:none;fill-rule:nonzero}
- .fil1 {fill:#F21E2B} <!-- goles -->
- .fil3 {fill:#F5E410} <!-- ouro -->
- .fil0 {fill:#0070B8} <!-- blau -->
- .fil6 {fill:#3D9064} <!-- sinople -->
- .fil4 {fill:#FFFFFF} <!-- prata -->
+ .fil1 {fill:#F21E2B} /* goles */
+ .fil3 {fill:#F5E410} /* ouro */
+ .fil0 {fill:#0070B8} /* blau */
+ .fil6 {fill:#3D9064} /* sinople */
+ .fil4 {fill:#FFFFFF} /* prata */
   </style>
  <clipPath id="escudocut">
  <path id="campo" class="fil0" d="M-400,-220 h800 v300 a400,400 0 0,1 -800,0 z"/>
