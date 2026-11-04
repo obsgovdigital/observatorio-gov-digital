@@ -85,18 +85,3 @@ Para subir o mesmo artefato que vai para o host do MBC, use a imagem Docker: [Co
 ## 6. Atualização de dados
 
 Quando houver nova entrega da frente de dados, seguir [Pipeline OBGD](../03-dados/pipeline-obgd.md) (JSON padrão ou sync se a entrega for CSV). Contrato: [Contrato de entrega](../03-dados/contrato-entrega-dados.md).
-
-## 7. Lint de assets estáticos
-
-O Biome também verifica CSS e acessibilidade dos SVGs de bandeiras. O limite de
-arquivo é 16 MiB para incluir Fortaleza e os snapshots JSON grandes; os arquivos
-não são excluídos do parser ou do linter.
-
-Apenas a **formatação** de três snapshots gerados é desativada:
-`src/data/obgd/assets/detalhes_municipios.json`,
-`src/data/obgd/assets-v4/dados/indicador_valor.json` e
-`src/data/obgd/assets-v4/auditoria/dados/indicador_valor.json`.
-O parser, o linter e a organização de código continuam habilitados nesses
-arquivos. Isso preserva o formato produzido pelo pipeline, evita diffs de
-centenas de milhares de linhas e mantém a validação de sintaxe e regras JSON.
-Execute `npm run lint`; não há ferramenta ou runtime adicional.

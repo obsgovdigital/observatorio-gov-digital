@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.5.13/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.4.16/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -15,8 +15,7 @@
       "!**/*.js",
       "!**/playwright-report",
       "!**/test-results"
-    ],
-    "maxSize": 16777216
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -50,7 +49,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "preset": "recommended",
+      "recommended": true,
       "a11y": {
         "noSvgWithoutTitle": "off",
         "useFocusableInteractive": "off",
@@ -84,16 +83,6 @@
             "noImportantStyles": "off"
           }
         }
-      }
-    },
-    {
-      "includes": [
-        "src/data/obgd/assets-v4/auditoria/dados/indicador_valor.json",
-        "src/data/obgd/assets-v4/dados/indicador_valor.json",
-        "src/data/obgd/assets/detalhes_municipios.json"
-      ],
-      "formatter": {
-        "enabled": false
       }
     }
   ]

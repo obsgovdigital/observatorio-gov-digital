@@ -5,7 +5,11 @@ import { useState } from 'react'
 
 import { VisualPerfil } from '@/components/home/home-feature-visuals'
 import { FilterPill } from '@/components/shared/filter-pill'
-import { mediasPorObjetivo, type NivelKey, niveis } from '@/data/indicators'
+import {
+  mediasPorObjetivo,
+  type NivelKey,
+  niveis,
+} from '@/data/indicators'
 
 interface Props {
   /** `/indicadores` já com o prefixo de variante, sem query string. */

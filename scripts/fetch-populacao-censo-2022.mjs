@@ -7,7 +7,7 @@
  *
  * Usage: node scripts/fetch-populacao-censo-2022.mjs
  */
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -20,7 +20,9 @@ const IBGE_URL =
   'https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93?localidades=N6[all]'
 
 const entes = JSON.parse(readFileSync(ENTE, 'utf8'))
-const codigos = entes.filter(e => e.tipo === 'municipio').map(e => e.codigo)
+const codigos = entes
+  .filter(e => e.tipo === 'municipio')
+  .map(e => e.codigo)
 
 const res = await fetch(IBGE_URL)
 if (!res.ok) {
@@ -73,8 +75,6 @@ const amostras = [
   ['1100122', 'Ji-Paraná'],
 ]
 for (const [codigo, nome] of amostras) {
-  console.log(
-    `${nome} (${codigo}): ${municipios[codigo]?.toLocaleString('pt-BR') ?? 'ausente'}`
-  )
+  console.log(`${nome} (${codigo}): ${municipios[codigo]?.toLocaleString('pt-BR') ?? 'ausente'}`)
 }
 console.log(`${codigos.length} municípios gravados em ${OUT}`)
