@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check",
+    "lint": "biome check && npm run validate:assets",
     "format": "biome format --write",
-    "prepare": "lefthook install"
+    "prepare": "lefthook install",
+    "validate:assets": "python3 -B scripts/validate-static-assets.py",
+    "test:asset-validation": "python3 -B -m unittest discover -s scripts/tests -p 'test_validate_static_assets.py'"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
