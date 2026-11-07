@@ -52,7 +52,7 @@ function main() {
   )
   const fonteNomeById = new Map(fontes.map(f => [f.id, f.nome]))
 
-  const federal = uniqByObjetivo(
+  const nacional = uniqByObjetivo(
     JSON.parse(readFileSync(join(ASSETS, 'detalhes_nacional.json'), 'utf8')),
     fonteNomeById
   )
@@ -65,7 +65,7 @@ function main() {
     fonteNomeById
   )
 
-  const payload = { federal, estadual, municipios }
+  const payload = { nacional, estadual, municipios }
   writeFileSync(OUT, `${JSON.stringify(payload)}\n`, 'utf8')
 
   const counts = Object.fromEntries(

@@ -24,7 +24,7 @@ function entesValidos(nivelKey: NivelKey, slugs: string[]): string[] {
     unicos.push(slug)
     if (unicos.length >= MAX_ENTES_COMPARATIVO) break
   }
-  // Nível sem ranking (federal): um único ente fixo.
+  // Nível sem ranking (nacional): um único ente fixo.
   if (!nivel.isRanking && nivel.entes[0]) {
     return [nivel.entes[0].slug]
   }
@@ -38,7 +38,7 @@ export function parseIndicadoresSearchParams(
   const nivel: NivelKey =
     nivelRaw && NIVEIS_VALIDOS.has(nivelRaw as NivelKey)
       ? (nivelRaw as NivelKey)
-      : 'federal'
+      : 'nacional'
 
   const por: IndicadoresModo =
     sp.get('por') === 'tematicas' ? 'tematicas' : 'objetivos'
@@ -75,7 +75,7 @@ export function indicadoresHref(filtros: IndicadoresFiltros): string {
   return qs ? `/indicadores?${qs}` : '/indicadores'
 }
 
-/** Normaliza patch (nível federal, limite de entes, tema inválido). */
+/** Normaliza patch (nível nacional, limite de entes, tema inválido). */
 export function normalizarIndicadoresFiltros(
   filtros: IndicadoresFiltros
 ): IndicadoresFiltros {

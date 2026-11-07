@@ -23,7 +23,7 @@ No ranking ordenado por objetivo, a plataforma informa **quantas variáveis** en
 
 **Motivo:** o mesmo objetivo ENGD pode ter dezenas de indicadores no painel nacional e poucos no estadual/municipal. Contar pelo catálogo global desinforma o leitor do ranking subnacional.
 
-Exemplo (Objetivo 1 — Governança): federal **29**, estadual **1**, municípios **1** (snapshot de referência).
+Exemplo (Objetivo 1 — Governança): nacional **29**, estadual **1**, municípios **1** (snapshot de referência).
 
 ---
 
@@ -46,7 +46,7 @@ Exemplo (Objetivo 1 — Governança): federal **29**, estadual **1**, município
 
 | Nível UI | Arquivo de detalhes |
 | --- | --- |
-| `federal` | `detalhes_nacional.json` |
+| `nacional` | `detalhes_nacional.json` |
 | `estadual` | `detalhes_estadual.json` |
 | `municipios` | `detalhes_municipios.json` |
 

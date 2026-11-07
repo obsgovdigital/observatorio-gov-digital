@@ -36,7 +36,7 @@ flowchart TB
 
 | Camada | Responsabilidade |
 | --- | --- |
-| **Proxy** (`src/proxy.ts`) | Variante A/B, redirects (`/municipal` → `/municipios`), CSP com nonce e headers de segurança |
+| **Proxy** (`src/proxy.ts`) | Variante A/B, redirects (`/municipal` → `/municipios`, `/federal` → `/nacional`), CSP com nonce e headers de segurança |
 | **App Router** | Rotas em `src/app/(app)/`; Server Components por padrão |
 | **UI** | Componentes em `src/components/`; Client Components só quando há interatividade |
 | **Server Actions / API** | Contato (`sendContactMessage`); export CSV (`GET /api/obgd/export`) |

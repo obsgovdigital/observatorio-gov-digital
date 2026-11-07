@@ -64,7 +64,7 @@ flowchart TD
 | `/sobre` | Sobre o Observatório |
 | `/publicacoes` | Publicações |
 
-URLs antigas com `/municipal` ou `nivel=municipal` redirecionam (308) para `/municipios`.
+URLs antigas com `/municipal` ou `nivel=municipal` redirecionam (308) para `/municipios`. URLs antigas com `/federal` ou `nivel=federal` redirecionam (308) para `/nacional`.
 
 ---
 
@@ -72,7 +72,7 @@ URLs antigas com `/municipal` ou `nivel=municipal` redirecionam (308) para `/mun
 
 | Nível | Exemplo (variante A) | Exemplo (variante B) |
 | --- | --- | --- |
-| Federal | `/indicadores/federal/brasil/{objetivo}` | `/v2/indicadores/federal/brasil/{objetivo}` |
+| Nacional | `/indicadores/nacional/brasil/{objetivo}` | `/v2/indicadores/nacional/brasil/{objetivo}` |
 | Estadual | `/indicadores/estadual/sp/privacidade-e-seguranca` | `/v2/indicadores/estadual/sp/...` |
 | Municípios | `/indicadores/municipios/{municipio}/{objetivo}` | `/v2/indicadores/municipios/...` |
 

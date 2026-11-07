@@ -163,7 +163,7 @@ node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
 
 ### 7.3 Validação rápida (ambos os fluxos)
 
-Nos três recortes (federal, estadual, municípios):
+Nos três recortes (nacional, estadual, municípios):
 
 - Ranking por objetivo e por tag
 - Indicadores (objetivos e temáticas)

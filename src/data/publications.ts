@@ -98,7 +98,7 @@ export const publications: Publication[] = [
   {
     title: 'Boletim de Indicadores — 2º Trimestre 2026',
     excerpt:
-      'Síntese trimestral com a evolução dos principais indicadores de governo digital nos níveis federal, estadual e municipal...',
+      'Síntese trimestral com a evolução dos principais indicadores de governo digital nos níveis nacional, estadual e municipal...',
     date: '22 ABR 2026',
     category: 'Relatórios',
     href: '#',

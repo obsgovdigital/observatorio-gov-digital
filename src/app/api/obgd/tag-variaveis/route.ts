@@ -1,16 +1,14 @@
 import { NextResponse } from 'next/server'
-import { type NivelKey, niveis } from '@/data/obgd/queries'
+import { nivelKeyFromParam } from '@/data/obgd/queries'
 import { variaveisDaTagPorEntes } from '@/data/obgd/tag-variaveis'
 import { tematicas } from '@/data/tematicas'
-
-const NIVEIS = new Set(niveis.map(n => n.key))
 
 /**
  * GET /api/obgd/tag-variaveis?nivel=estadual&tema=conectividade&entes=sao-paulo,rio-de-janeiro
  */
 export function GET(request: Request) {
   const { searchParams } = new URL(request.url)
-  const nivel = searchParams.get('nivel') as NivelKey | null
+  const nivel = nivelKeyFromParam(searchParams.get('nivel'))
   const tema = searchParams.get('tema')
   const entesRaw = searchParams.get('entes') ?? ''
   const enteSlugs = entesRaw
@@ -18,7 +16,7 @@ export function GET(request: Request) {
     .map(s => s.trim())
     .filter(Boolean)
 
-  if (!nivel || !NIVEIS.has(nivel) || !tema || enteSlugs.length === 0) {
+  if (!nivel || !tema || enteSlugs.length === 0) {
     return NextResponse.json(
       { error: 'Parâmetros inválidos. Use nivel, tema e entes.' },
       { status: 400 }

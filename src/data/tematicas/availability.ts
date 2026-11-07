@@ -3,7 +3,7 @@ import { tematicas } from './catalog'
 import { notaTematica } from './scores'
 
 const NIVEL_LABEL: Record<NivelKey, string> = {
-  federal: 'nacional',
+  nacional: 'nacional',
   estadual: 'estadual',
   municipios: 'municípios',
 }

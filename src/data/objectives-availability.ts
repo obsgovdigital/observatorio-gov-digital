@@ -8,7 +8,7 @@ export const EXPLICACAO_FORA_DA_PONTUACAO =
   'Há indicadores associados a esses objetivos, mas eles não foram incluídos no cálculo do índice publicado neste recorte.'
 
 const ROTULO_RECORTE: Record<NivelKey, string> = {
-  federal: 'nacional',
+  nacional: 'nacional',
   estadual: 'estadual',
   municipios: 'municipal',
 }

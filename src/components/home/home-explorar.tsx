@@ -5,19 +5,15 @@ import { useState } from 'react'
 
 import { VisualPerfil } from '@/components/home/home-feature-visuals'
 import { FilterPill } from '@/components/shared/filter-pill'
-import {
-  mediasPorObjetivo,
-  type NivelKey,
-  niveis,
-} from '@/data/indicators'
+import { mediasPorObjetivo, type NivelKey, niveis } from '@/data/indicators'
 
 interface Props {
   /** `/indicadores` já com o prefixo de variante, sem query string. */
   indicadoresHref: string
 }
 
-function tituloDaLista(nivelKey: NivelKey, nomeFederal: string | undefined) {
-  if (nivelKey === 'federal') return nomeFederal ?? 'Nacional'
+function tituloDaLista(nivelKey: NivelKey, nomeNacional: string | undefined) {
+  if (nivelKey === 'nacional') return nomeNacional ?? 'Nacional'
   if (nivelKey === 'municipios') return 'Municípios'
   return 'Estados'
 }

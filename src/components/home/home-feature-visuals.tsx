@@ -64,7 +64,7 @@ export function VisualPerfil({
 }: {
   entes: Ente[]
   medias: (number | null)[]
-  /** Rótulo da lista (Estados, Municípios ou o nome do ente federal). */
+  /** Rótulo da lista (Estados, Municípios ou o nome do ente nacional). */
   listaTitulo?: string
 }) {
   const tituloListaId = useId()

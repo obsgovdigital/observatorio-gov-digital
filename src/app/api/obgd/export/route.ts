@@ -5,9 +5,7 @@ import {
   exportRowsToCsvResponse,
   METODOLOGIA_SLUG_PARA_FONTE_IDS,
 } from '@/data/obgd/export-rows'
-import type { NivelKey } from '@/data/obgd/queries'
-
-const NIVEIS: NivelKey[] = ['federal', 'estadual', 'municipios']
+import { nivelKeyFromParam } from '@/data/obgd/queries'
 
 /**
  * GET /api/obgd/export?nivel=estadual&conceptId=tic_gov/B1
@@ -19,7 +17,7 @@ export function GET(request: Request) {
   const metodologiaSlug = searchParams.get('metodologiaSlug')
   const fonteId = searchParams.get('fonteId')
   const conceptId = searchParams.get('conceptId')
-  const nivel = searchParams.get('nivel') as NivelKey | null
+  const nivel = nivelKeyFromParam(searchParams.get('nivel'))
   const subItens = searchParams.get('subItens')
 
   if (metodologiaSlug) {
@@ -51,7 +49,7 @@ export function GET(request: Request) {
     return exportRowsToCsvResponse(rows, filename)
   }
 
-  if (!conceptId || !nivel || !NIVEIS.includes(nivel)) {
+  if (!conceptId || !nivel) {
     return NextResponse.json(
       {
         error:

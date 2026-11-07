@@ -7,6 +7,25 @@ import {
 } from '@/lib/features/ranking-mode'
 import { applySecurityHeaders } from '@/lib/security-headers'
 
+/** URLs do recorte antigo (`federal`) -> Nacional. */
+function redirectFederalToNacional(request: NextRequest): NextResponse | null {
+  const url = request.nextUrl.clone()
+  let changed = false
+
+  if (url.pathname.includes('/federal')) {
+    url.pathname = url.pathname.replaceAll('/federal', '/nacional')
+    changed = true
+  }
+
+  if (url.searchParams.get('nivel') === 'federal') {
+    url.searchParams.set('nivel', 'nacional')
+    changed = true
+  }
+
+  if (!changed) return null
+  return NextResponse.redirect(url, 308)
+}
+
 /** URLs do antigo recorte Capitais (`municipal`) -> Municípios. */
 function redirectMunicipalToMunicipios(
   request: NextRequest
@@ -30,6 +49,9 @@ function redirectMunicipalToMunicipios(
 
 export function proxy(request: NextRequest) {
   return applySecurityHeaders(request, requestHeaders => {
+    const federalRedirect = redirectFederalToNacional(request)
+    if (federalRedirect) return federalRedirect
+
     const municipalRedirect = redirectMunicipalToMunicipios(request)
     if (municipalRedirect) return municipalRedirect
 

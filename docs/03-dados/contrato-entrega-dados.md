@@ -98,12 +98,12 @@ Schema relacional de referência (modelo completo da frente de dados): [`src/dat
 
 | Nos dados (`nivel` / `ente.tipo`) | Na UI (`NivelKey`) | Observação |
 | --- | --- | --- |
-| `nacional` | `federal` | Brasil |
+| `nacional` | `nacional` | Brasil |
 | `uf` | `estadual` | 27 UFs |
 | `municipio` | `municipios` | 319 ≥ 100 mil hab. (inclui capitais como município) |
 | `capital` | — | Se vier na entrega, **não** entra no recorte da UI |
 
-URLs antigas `/municipal` redirecionam para `/municipios`.
+URLs antigas `/municipal` redirecionam para `/municipios`. URLs antigas `/federal` e `nivel=federal` redirecionam (308) para `/nacional`.
 
 ---
 

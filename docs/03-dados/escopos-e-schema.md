@@ -13,16 +13,16 @@
 
 | Recorte na UI (`NivelKey`) | Rótulo | `indice_long.nivel` / detalhes | Entes |
 | --- | --- | --- | --- |
-| `federal` | Federal | `nacional` | Brasil |
+| `nacional` | Nacional | `nacional` | Brasil |
 | `estadual` | Estadual | `uf` | 27 UFs |
 | `municipios` | Municípios | `municipio` | 319 ≥ 100 mil hab. (inclui capitais) |
 
-O sync **filtra** linhas `capital` da entrega bruta. URLs antigas `/municipal/...` redirecionam para `/municipios/...`.
+O sync **filtra** linhas `capital` da entrega bruta. URLs antigas `/municipal/...` redirecionam para `/municipios/...`. URLs antigas `/federal/...` e `nivel=federal` redirecionam (308) para `/nacional`.
 
 ```mermaid
 flowchart TB
   subgraph ui [UI]
-    F[federal]
+    F[nacional]
     E[estadual]
     M[municipios]
   end

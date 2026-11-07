@@ -25,7 +25,7 @@ export const INDICADORES_TOUR_STEPS: TourStepCopy[] = [
     element: '[data-tour="indicadores-nivel"]',
     title: 'Escolha o nível de governo',
     description:
-      'Federal, estadual ou municípios com 100 mil habitantes ou mais. O nível define quais entes entram na comparação.',
+      'Nacional, estadual ou municípios com 100 mil habitantes ou mais. O nível define quais entes entram na comparação.',
     side: 'bottom',
     align: 'start',
   },

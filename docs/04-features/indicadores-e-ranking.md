@@ -34,7 +34,7 @@ Ambas suportam ordenação / eixo por **objetivos ENGD** ou por **tags temática
 
 ## 3. Ranking
 
-- Níveis: estadual e municípios (≥ 100 mil); federal navega direto ao ente Brasil quando aplicável.
+- Níveis: estadual e municípios (≥ 100 mil); nacional navega direto ao ente Brasil quando aplicável.
 - Chips de objetivo (desabilitado só o objetivo sem nota no recorte) ou pills de tag.
 - Distribuição + mapa (estadual) + tabela.
 - Coluna principal = **Índice** (sem índice geral).
