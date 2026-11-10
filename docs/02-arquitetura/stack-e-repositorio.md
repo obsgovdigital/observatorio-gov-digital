@@ -45,7 +45,7 @@ src/
 │   ├── content/            # contato, publicações
 │   ├── drilldown/          # ente + variáveis (ranking e indicadores)
 │   ├── indicadores/
-│   ├── layout/
+│   ├── layout/             # header, footer, widget VLibras
 │   ├── metodologia/
 │   ├── ranking/
 │   ├── shared/

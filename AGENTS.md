@@ -62,6 +62,8 @@ src/
 
 **Metodologia (Markdown → páginas + PDF):** relatório metodológico em MDX/Next e download do PDF estático documentados em [`docs/04-features/metodologia-conteudo.md`](docs/04-features/metodologia-conteudo.md). Não invente outro pipeline de conteúdo ou geração de PDF no portal sem alinhar com esse doc.
 
+**Acessibilidade em Libras (VLibras):** widget oficial carregado no root layout com nonce, origens liberadas no CSP e decisão de bloquear a telemetria em [`docs/04-features/vlibras.md`](docs/04-features/vlibras.md). Não troque por wrapper npm nem libere `us.i.posthog.com` sem alinhar com esse doc.
+
 **Dados OBGD / tags:** fonte versionada em `src/data/obgd/assets/`; sync a partir de `assets-v4` documentado em [`docs/03-dados/pipeline-obgd.md`](docs/03-dados/pipeline-obgd.md). Decisões de produto: [`docs/01-produto/escopo-e-decisoes.md`](docs/01-produto/escopo-e-decisoes.md). Índice da documentação: [`docs/README.md`](docs/README.md).
 
 **Disclaimer de variáveis no ranking:** contagem e lista do painel por nível × objetivo em [`docs/03-dados/disclaimer-variaveis.md`](docs/03-dados/disclaimer-variaveis.md).

@@ -32,6 +32,25 @@ const RECAPTCHA_FRAME_SRC = [
   'https://recaptcha.google.com/',
 ] as const
 
+/**
+ * VLibras Widget (global). Os assets de `vlibras.gov.br/app` redirecionam (302) para o
+ * jsDelivr; após redirect o CSP compara só o host. Telemetria PostHog do widget fica de fora.
+ */
+const VLIBRAS_ASSET_SRC = [
+  'https://vlibras.gov.br',
+  'https://cdn.jsdelivr.net/gh/spbgovbr-vlibras/',
+] as const
+
+const VLIBRAS_CONNECT_SRC = [
+  ...VLIBRAS_ASSET_SRC,
+  'https://traducao2.vlibras.gov.br',
+  'https://dicionario2.vlibras.gov.br',
+  'https://repositorio.vlibras.gov.br',
+  'https://pt.wiktionary.org',
+] as const
+
+const VLIBRAS_FRAME_SRC = ['https://vlibras.gov.br/app/'] as const
+
 /** `/contato` e `/v2/contato` — CSP extra só nessas rotas. */
 export function isContatoPath(pathname: string): boolean {
   return (
@@ -51,25 +70,30 @@ export function buildCsp(
   const scriptSrc = [`'nonce-${nonce}'`, `'strict-dynamic'`]
   if (isDev) scriptSrc.push(`'unsafe-eval'`)
 
-  const imgSrc = ["'self'", 'data:', 'blob:']
+  const imgSrc = ["'self'", 'data:', 'blob:', ...VLIBRAS_ASSET_SRC]
   if (recaptcha) imgSrc.push(...RECAPTCHA_IMG_SRC)
 
-  const connectSrc = ["'self'"]
+  const fontSrc = ["'self'", ...VLIBRAS_ASSET_SRC]
+
+  const connectSrc = ["'self'", ...VLIBRAS_CONNECT_SRC]
   if (isDev) connectSrc.push('ws:', 'wss:')
   if (recaptcha) connectSrc.push(...RECAPTCHA_CONNECT_SRC)
+
+  const frameSrc: string[] = [...VLIBRAS_FRAME_SRC]
+  if (recaptcha) frameSrc.push(...RECAPTCHA_FRAME_SRC)
 
   const directives = [
     "default-src 'none'",
     `script-src ${scriptSrc.join(' ')}`,
     "style-src 'self' 'unsafe-inline'",
     `img-src ${imgSrc.join(' ')}`,
-    "font-src 'self'",
+    `font-src ${fontSrc.join(' ')}`,
     `connect-src ${connectSrc.join(' ')}`,
     "object-src 'none'",
     "base-uri 'self'",
     "form-action 'self'",
     "frame-ancestors 'none'",
-    `frame-src ${recaptcha ? RECAPTCHA_FRAME_SRC.join(' ') : "'none'"}`,
+    `frame-src ${frameSrc.join(' ')}`,
     'upgrade-insecure-requests',
   ]
 

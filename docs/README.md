@@ -5,7 +5,7 @@
 | Metadado                        | Valor                                                                                                          |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Status**                | Canônico                                                                                                      |
-| **Última atualização** | 2026-09-26                                                                                                     |
+| **Última atualização** | 2026-11-10                                                                                                     |
 | **Repositório**          | [github.com/obsgovdigital/observatorio-gov-digital](https://github.com/obsgovdigital/observatorio-gov-digital)  |
 | **Idioma**                | pt-BR                                                                                                          |
 
@@ -43,6 +43,7 @@ Arquitetura, dados, features e convenções de código.
 | [Indicadores e ranking](04-features/indicadores-e-ranking.md)  | Explorers, drill-down e modo temáticas          |
 | [Contato (Resend)](04-features/contato-resend.md)              | Formulário`/contato`, anti-abuso, operação  |
 | [Metodologia (MDX + PDF)](04-features/metodologia-conteudo.md) | Capítulos web e PDF estático                   |
+| [VLibras (Libras)](04-features/vlibras.md)                     | Widget oficial, CSP, privacidade e atualização |
 
 ### Operação e infraestrutura
 

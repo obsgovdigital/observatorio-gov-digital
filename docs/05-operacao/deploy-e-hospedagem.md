@@ -238,7 +238,8 @@ Runbook detalhado da AWS **não** faz parte deste repositório ainda. No cutover
 | 6 | `/contato`                                                       | Envio real chega em`CONTACT_TO_EMAIL`; Reply-To = e-mail do visitante          |
 | 7 | Console em`/contato`                                             | Sem violação de CSP no widget reCAPTCHA                                        |
 | 8 | Headers                                                            | `curl -sI https://<host>` — CSP, `nosniff`, `DENY`, Referrer-Policy, HSTS |
-| 9 | [MDN Observatory](https://developer.mozilla.org/en-US/observatory/) | Rescan no host de produção; meta A+                                            |
+| 9 | VLibras (qualquer página)                                          | Botão à direita; avatar traduz um trecho; sem violação de CSP além de `us.i.posthog.com` (esperada) — ver [VLibras](../04-features/vlibras.md) |
+| 10 | [MDN Observatory](https://developer.mozilla.org/en-US/observatory/) | Rescan no host de produção; meta A+                                            |
 
 Troubleshooting de contato: [Contato §10](../04-features/contato-resend.md).
 

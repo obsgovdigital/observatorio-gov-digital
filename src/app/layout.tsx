@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from 'next/font/google'
 import { connection } from 'next/server'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { SiteHeader } from '@/components/layout/site-header'
+import { VLibrasWidget } from '@/components/layout/vlibras-widget'
 import { Toaster } from '@/components/ui/sonner'
 import { cn } from '@/lib/utils'
 
@@ -46,6 +47,7 @@ export default async function RootLayout({
         </main>
         <SiteFooter />
         <Toaster position="bottom-right" />
+        <VLibrasWidget />
       </body>
     </html>
   )

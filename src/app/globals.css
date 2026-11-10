@@ -141,6 +141,9 @@
   --tracking-normal: -0.01em;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+  /* Herdadas pelo shadow root do botão VLibras. */
+  --vlibras-btn-focus-visible-outline: 2px solid var(--background);
+  --vlibras-btn-focus-visible-shadow: 0 0 0 4px var(--ring);
 }
 
 .dark {

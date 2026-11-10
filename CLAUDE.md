@@ -49,6 +49,8 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 **Metodologia (Markdown → páginas + PDF):** conteúdo MDX em `/metodologia`, registro de capítulos, sync com `plataforma` e PDF estático: `docs/04-features/metodologia-conteudo.md`.
 
+**Acessibilidade em Libras (VLibras):** widget oficial no root layout, origens no CSP e telemetria bloqueada: `docs/04-features/vlibras.md`.
+
 **Headers de segurança / Observatory:** CSP com nonce e headers HTTP: `docs/05-operacao/seguranca-headers.md`.
 
 **Índice da documentação:** `docs/README.md`.
