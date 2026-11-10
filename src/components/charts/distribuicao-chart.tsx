@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import {
   Bar,
   BarChart,
@@ -30,6 +31,8 @@ type DistribuicaoChartProps = {
 const AZUL = 'var(--chart-1)'
 const CINZA = '#cbd5e1'
 const LARGURA_FAIXA = 10 // faixas de 10 em 10 pontos
+// Abaixo desta largura (px) os rótulos "90–100" colidem; o eixo mostra só o início da faixa.
+const LARGURA_ROTULO_COMPACTO = 480
 
 type Faixa = {
   rotulo: string
@@ -136,6 +139,7 @@ export function DistribuicaoChart({
   selecionados,
 }: DistribuicaoChartProps) {
   const faixas = montarFaixas(entes, destaques)
+  const [compacto, setCompacto] = useState(false)
 
   const cells = faixas.map(faixa => (
     <Cell key={faixa.rotulo} fill={faixa.temDestaque ? AZUL : CINZA} />
@@ -145,7 +149,11 @@ export function DistribuicaoChart({
 
   return (
     <div className={`w-full ${alturaClasse}`}>
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer
+        width="100%"
+        height="100%"
+        onResize={largura => setCompacto(largura < LARGURA_ROTULO_COMPACTO)}
+      >
         {horizontal ? (
           <BarChart
             layout="vertical"
@@ -198,6 +206,9 @@ export function DistribuicaoChart({
               tickLine={false}
               axisLine={{ stroke: 'var(--border)' }}
               interval={0}
+              tickFormatter={(rotulo: string) =>
+                compacto ? rotulo.split('–')[0] : rotulo
+              }
             />
             <YAxis
               allowDecimals={false}
