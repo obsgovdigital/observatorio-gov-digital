@@ -2,14 +2,11 @@
 
 import { Info } from 'lucide-react'
 import { toast } from 'sonner'
+import { AdaptiveTip } from '@/components/shared/adaptive-tip'
 import { FilterPill } from '@/components/shared/filter-pill'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip'
 import type { NivelKey } from '@/data/indicators'
 import { motivoTematicaDesabilitada } from '@/data/tematicas'
+import { useCanHover } from '@/hooks/use-can-hover'
 import { cn } from '@/lib/utils'
 
 type TematicaChipProps = {
@@ -29,11 +26,14 @@ export function TematicaChip({
   onSelect,
   className,
 }: TematicaChipProps) {
+  const canHover = useCanHover()
   const motivo = motivoTematicaDesabilitada(nivel, temCobertura)
   const desabilitado = Boolean(motivo)
 
   function handleClick() {
     if (desabilitado) {
+      // No touch, o próprio toque abre o Drawer com o motivo.
+      if (!canHover) return
       toast(motivo, {
         position: 'bottom-right',
       })
@@ -64,11 +64,8 @@ export function TematicaChip({
   if (!motivo) return chip
 
   return (
-    <Tooltip>
-      <TooltipTrigger asChild>{chip}</TooltipTrigger>
-      <TooltipContent side="top" className="max-w-xs text-left leading-relaxed">
-        <p>{motivo}</p>
-      </TooltipContent>
-    </Tooltip>
+    <AdaptiveTip title={nome} trigger={chip}>
+      <p>{motivo}</p>
+    </AdaptiveTip>
   )
 }

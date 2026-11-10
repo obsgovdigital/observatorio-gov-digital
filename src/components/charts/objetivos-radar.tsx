@@ -9,11 +9,7 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from 'recharts'
-import {
-  TooltipContent,
-  TooltipTrigger,
-  Tooltip as UiTooltip,
-} from '@/components/ui/tooltip'
+import { AdaptiveTip } from '@/components/shared/adaptive-tip'
 import { oQueAvaliaObjetivo } from '@/data/help-copy'
 import { cn } from '@/lib/utils'
 
@@ -62,7 +58,7 @@ const LINE_HEIGHT = 12
 const FO_WIDTH = 118
 
 // Tick do eixo: número + nome do objetivo, quebrado em linhas.
-// Com slug: foreignObject + Tooltip no hover do título.
+// Com slug: foreignObject + AdaptiveTip no título (hover no desktop, Drawer no touch).
 function renderAngleTick(
   props: AngleTickProps,
   eixoMap: Map<string, EixoMeta>
@@ -144,8 +140,10 @@ function renderAngleTick(
         style={{ overflow: 'visible' }}
       >
         <div className="h-full w-full">
-          <UiTooltip>
-            <TooltipTrigger asChild>
+          <AdaptiveTip
+            title={nome}
+            showTitleInTooltip
+            trigger={
               <button
                 type="button"
                 aria-label={`O que avalia: ${nome}`}
@@ -179,15 +177,10 @@ function renderAngleTick(
                   })}
                 </span>
               </button>
-            </TooltipTrigger>
-            <TooltipContent
-              side="top"
-              className="max-w-xs text-left text-xs leading-relaxed sm:max-w-sm"
-            >
-              <p className="mb-1 font-semibold">{nome}</p>
-              <p>{detalhe}</p>
-            </TooltipContent>
-          </UiTooltip>
+            }
+          >
+            <p>{detalhe}</p>
+          </AdaptiveTip>
         </div>
       </foreignObject>
     </g>

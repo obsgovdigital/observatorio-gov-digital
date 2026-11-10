@@ -44,6 +44,7 @@ Arquitetura, dados, features e convenções de código.
 | [Contato (Resend)](04-features/contato-resend.md)              | Formulário`/contato`, anti-abuso, operação  |
 | [Metodologia (MDX + PDF)](04-features/metodologia-conteudo.md) | Capítulos web e PDF estático                   |
 | [VLibras (Libras)](04-features/vlibras.md)                     | Widget oficial, CSP, privacidade e atualização |
+| [Tooltips no mobile](04-features/tooltips-mobile.md)          | Tooltip no desktop, Drawer ao toque (`AdaptiveTip`) |
 
 ### Operação e infraestrutura
 

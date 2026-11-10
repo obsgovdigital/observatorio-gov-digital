@@ -1,23 +1,19 @@
 'use client'
 
 import { Download, Info } from 'lucide-react'
-import { useId, useState } from 'react'
+import { type KeyboardEvent, useId, useState } from 'react'
 import { toast } from 'sonner'
 
 import {
   ObjetivosRadar,
   type RadarSerie,
 } from '@/components/charts/objetivos-radar'
+import { AdaptiveTip } from '@/components/shared/adaptive-tip'
 import { type DadoMapa, MapaBrasil } from '@/components/shared/mapa-brasil'
 import {
   LinkMetodologiaPontuacao,
   NotaObjetivosForaDaPontuacao,
 } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip'
 import type { Ente } from '@/data/indicators'
 import { objectives } from '@/data/objectives'
 import {
@@ -27,6 +23,7 @@ import {
   objetivoSelecionavel,
   objetivosParaRadar,
 } from '@/data/objectives-availability'
+import { useCanHover } from '@/hooks/use-can-hover'
 import { ufDeEnte } from '@/lib/geo/entes-geo'
 import { cn } from '@/lib/utils'
 
@@ -193,6 +190,7 @@ export function VisualPerfil({
 }
 
 export function VisualMapa({ entes }: { entes: Ente[] }) {
+  const canHover = useCanHover()
   const cobertura = objectives.map((_, i) =>
     entes.some(e => e.objetivos[i]?.nota != null)
   )
@@ -243,7 +241,10 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
                 className={cn(
                   'flex w-full items-center gap-2 rounded-md py-1.5 pr-2 pl-1 text-left text-xs leading-snug whitespace-nowrap transition-colors',
                   desabilitado
-                    ? 'cursor-not-allowed text-muted-foreground/40'
+                    ? cn(
+                        'cursor-not-allowed text-muted-foreground/40',
+                        !canHover && 'pointer-events-none'
+                      )
                     : ativo
                       ? 'bg-primary/5 font-medium text-foreground'
                       : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
@@ -265,20 +266,33 @@ export function VisualMapa({ entes }: { entes: Ente[] }) {
             return (
               <li key={objetivo.slug}>
                 {motivo ? (
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <span className="block w-full">{botao}</span>
-                    </TooltipTrigger>
-                    <TooltipContent
-                      side="top"
-                      className="max-w-xs text-left leading-relaxed"
-                    >
-                      <p>{motivo}</p>
-                      <LinkMetodologiaPontuacao
-                        href={METODOLOGIA_PONTUACAO_HREF}
-                      />
-                    </TooltipContent>
-                  </Tooltip>
+                  <AdaptiveTip
+                    title={objetivo.title}
+                    trigger={
+                      // O botão é `disabled` e não dispara eventos; no touch o span vira o gatilho.
+                      <span
+                        className="block w-full"
+                        {...(!canHover && {
+                          role: 'button',
+                          tabIndex: 0,
+                          'aria-label': `${objetivo.title}: ${motivo}`,
+                          onKeyDown: (e: KeyboardEvent<HTMLSpanElement>) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                              e.preventDefault()
+                              e.currentTarget.click()
+                            }
+                          },
+                        })}
+                      >
+                        {botao}
+                      </span>
+                    }
+                  >
+                    <p>{motivo}</p>
+                    <LinkMetodologiaPontuacao
+                      href={METODOLOGIA_PONTUACAO_HREF}
+                    />
+                  </AdaptiveTip>
                 ) : (
                   botao
                 )}

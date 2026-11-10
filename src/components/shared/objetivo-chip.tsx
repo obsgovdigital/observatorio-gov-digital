@@ -2,20 +2,20 @@
 
 import { Info } from 'lucide-react'
 import { toast } from 'sonner'
+import { AdaptiveTip } from '@/components/shared/adaptive-tip'
 import { FilterPill } from '@/components/shared/filter-pill'
+import { InfoTip } from '@/components/shared/info-tip'
 import { LinkMetodologiaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip'
 import type { NivelKey } from '@/data/indicators'
 import {
   getNotaPrecaria,
   METODOLOGIA_PONTUACAO_HREF,
   motivoObjetivoDesabilitado,
 } from '@/data/objectives-availability'
+import { useCanHover } from '@/hooks/use-can-hover'
 import { cn } from '@/lib/utils'
+
+const TITULO_NOTA_PRECARIA = 'Nota técnica — cobertura precária'
 
 type ObjetivoChipProps = {
   numero: number
@@ -39,13 +39,18 @@ export function ObjetivoChip({
   onSelect,
   className,
 }: ObjetivoChipProps) {
+  const canHover = useCanHover()
   const motivo = motivoObjetivoDesabilitado(nivel, cobertoPelosDados)
   const desabilitado = Boolean(motivo)
   const precario = getNotaPrecaria(slug)
-  const mostrarInfo = desabilitado || Boolean(precario)
+  // No touch, a nota de objetivo precário vai num InfoTip ao lado do chip.
+  const notaAoLado = !canHover && !desabilitado && Boolean(precario)
+  const mostrarInfo = desabilitado || (Boolean(precario) && !notaAoLado)
 
   function handleClick() {
     if (desabilitado) {
+      // No touch, o próprio toque abre o Drawer com o motivo.
+      if (!canHover) return
       toast(motivo, {
         position: 'bottom-center',
         style: {
@@ -81,28 +86,33 @@ export function ObjetivoChip({
     </FilterPill>
   )
 
-  if (!motivo && !precario) return chip
+  if (motivo) {
+    return (
+      <AdaptiveTip title={title} trigger={chip}>
+        <p>{motivo}</p>
+        <LinkMetodologiaPontuacao href={METODOLOGIA_PONTUACAO_HREF} />
+      </AdaptiveTip>
+    )
+  }
 
-  const tooltipText =
-    motivo ??
-    (precario
-      ? `${precario.motivoResumo} Consulte a nota técnica na metodologia.`
-      : '')
+  if (!precario) return chip
+
+  const notaPrecaria = `${precario.motivoResumo} Consulte a nota técnica na metodologia.`
+
+  if (notaAoLado) {
+    return (
+      <span className="inline-flex items-center gap-1">
+        {chip}
+        <InfoTip label={TITULO_NOTA_PRECARIA}>
+          <p>{notaPrecaria}</p>
+        </InfoTip>
+      </span>
+    )
+  }
 
   return (
-    <Tooltip>
-      <TooltipTrigger asChild>{chip}</TooltipTrigger>
-      <TooltipContent side="top" className="max-w-xs text-left leading-relaxed">
-        {!motivo && precario && (
-          <p className="mb-1 font-semibold">
-            Nota técnica — cobertura precária
-          </p>
-        )}
-        <p>{tooltipText}</p>
-        {motivo && (
-          <LinkMetodologiaPontuacao href={METODOLOGIA_PONTUACAO_HREF} />
-        )}
-      </TooltipContent>
-    </Tooltip>
+    <AdaptiveTip title={TITULO_NOTA_PRECARIA} showTitleInTooltip trigger={chip}>
+      <p>{notaPrecaria}</p>
+    </AdaptiveTip>
   )
 }

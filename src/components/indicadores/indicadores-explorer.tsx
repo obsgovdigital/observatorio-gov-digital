@@ -11,6 +11,7 @@ import {
   type RadarSerie,
 } from '@/components/charts/objetivos-radar'
 import { EntendaGraficoTip } from '@/components/indicadores/entenda-grafico-panel'
+import { AdaptiveTip } from '@/components/shared/adaptive-tip'
 import { BandeiraEnte } from '@/components/shared/bandeira-ente'
 import { EnteBusca } from '@/components/shared/ente-busca'
 import { FilterPill } from '@/components/shared/filter-pill'
@@ -19,11 +20,6 @@ import { InfoTip } from '@/components/shared/info-tip'
 import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
 import { VariantLink } from '@/components/shared/variant-link'
 import { VariavelAcoes } from '@/components/shared/variavel-acoes'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip'
 import {
   fontesPorNomes,
   fontesTodosObjetivosAtivos,
@@ -56,6 +52,7 @@ import {
   variaveisPorTematica,
 } from '@/data/tematicas'
 import { INDICADORES_TOUR_STEPS } from '@/data/tour-copy'
+import { useCanHover } from '@/hooks/use-can-hover'
 import { useGuidedTour } from '@/hooks/use-guided-tour'
 import { ENTE_BUSCA_LIMIAR, entePassaBusca } from '@/lib/ente-busca'
 import { usePlatformVariant } from '@/lib/features/use-platform-variant'
@@ -95,6 +92,7 @@ export function IndicadoresExplorer({
 }) {
   const router = useRouter()
   const { link } = usePlatformVariant()
+  const canHover = useCanHover()
   const { startTour } = useGuidedTour({
     id: 'indicadores',
     steps: INDICADORES_TOUR_STEPS,
@@ -165,6 +163,8 @@ export function IndicadoresExplorer({
     if (!nivelKey) return
     const motivo = motivoTematicaDesabilitada(nivelKey, temCobertura)
     if (motivo) {
+      // No touch, o próprio toque abre o Drawer com o motivo.
+      if (!canHover) return
       toast(motivo, {
         position: 'bottom-right',
       })
@@ -619,15 +619,13 @@ export function IndicadoresExplorer({
                       return (
                         <li key={tag.slug}>
                           {motivo ? (
-                            <Tooltip>
-                              <TooltipTrigger asChild>{button}</TooltipTrigger>
-                              <TooltipContent
-                                side="right"
-                                className="max-w-xs text-left leading-relaxed"
-                              >
-                                <p>{motivo}</p>
-                              </TooltipContent>
-                            </Tooltip>
+                            <AdaptiveTip
+                              title={tag.nome}
+                              side="right"
+                              trigger={button}
+                            >
+                              <p>{motivo}</p>
+                            </AdaptiveTip>
                           ) : (
                             button
                           )}
@@ -654,8 +652,8 @@ export function IndicadoresExplorer({
                     </div>
                     <p className="mt-1 text-muted-foreground text-sm">
                       Comparação dos entes selecionados nos objetivos da ENGD
-                      que têm índice neste recorte. Cada eixo é um índice (0–100).{' '}
-                      <EntendaGraficoTip modo="objetivos" />
+                      que têm índice neste recorte. Cada eixo é um índice
+                      (0–100). <EntendaGraficoTip modo="objetivos" />
                     </p>
                     <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-muted-foreground text-xs">
                       {entesSelecionados.map((e, idx) => (
@@ -870,8 +868,6 @@ export function IndicadoresExplorer({
             )}
           </div>
         </div>
-
-
       </div>
     </section>
   )
