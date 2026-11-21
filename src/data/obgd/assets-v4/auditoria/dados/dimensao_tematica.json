@@ -50,25 +50,25 @@
   {
     "id": "obj02-servicos-setoriais-saude",
     "objetivo_id": 2,
-    "nome": "Serviços setoriais — Saúde",
+    "nome": "Serviços setoriais: Saúde",
     "tipo": "tematica"
   },
   {
     "id": "obj02-servicos-setoriais-educacao",
     "objetivo_id": 2,
-    "nome": "Serviços setoriais — Educação",
+    "nome": "Serviços setoriais: Educação",
     "tipo": "tematica"
   },
   {
     "id": "obj02-servicos-setoriais-cidadania-seguranca-fiscal",
     "objetivo_id": 2,
-    "nome": "Serviços setoriais — Cidadania, segurança e fiscal",
+    "nome": "Serviços setoriais: Cidadania, segurança e fiscal",
     "tipo": "tematica"
   },
   {
     "id": "obj02-servicos-setoriais-mobilidade-urbana",
     "objetivo_id": 2,
-    "nome": "Serviços setoriais — Mobilidade urbana",
+    "nome": "Serviços setoriais: Mobilidade urbana",
     "tipo": "tematica"
   },
   {
@@ -152,7 +152,7 @@
   {
     "id": "obj04-protecao-dados-pessoais-lgpd",
     "objetivo_id": 4,
-    "nome": "Proteção de dados pessoais — práticas LGPD",
+    "nome": "Proteção de dados pessoais: práticas LGPD",
     "tipo": "tematica"
   },
   {

@@ -1,16 +1,16 @@
 {
-  "dataset_revision": "3749ef99e3e6efd484cae5fde8f21897da71cab6",
-  "release_code_revision": "2f6e721ce9db0d704a242b5c901488bc81cd9b84",
-  "exporter_revision": "2f6e721ce9db0d704a242b5c901488bc81cd9b84",
-  "release_manifest_sha256": "fa95659be60d2a84d9d0c84c3876d72abc6e65e5f1d39e2ecc8173f47d18253f",
+  "dataset_revision": "74e02b4be85e63168324dbcc85cfbbfcd8492be4",
+  "release_code_revision": "632c9e86693c34d7d7ca6f23f5cbfafac6573844",
+  "exporter_revision": "632c9e86693c34d7d7ca6f23f5cbfafac6573844",
+  "release_manifest_sha256": "b354bb5c301b205e59001f23526e21108bb2a6aaf94233d2939d4cd08a3859e3",
   "release": {
-    "code_revision": "2f6e721ce9db0d704a242b5c901488bc81cd9b84",
-    "dataset_revision": "3749ef99e3e6efd484cae5fde8f21897da71cab6",
+    "code_revision": "632c9e86693c34d7d7ca6f23f5cbfafac6573844",
+    "dataset_revision": "74e02b4be85e63168324dbcc85cfbbfcd8492be4",
     "inputs": {
       "catalog": {
         "path": "variaveis/catalogo_variaveis.py",
-        "sha256": "1a29f64098ad9748d31a5133e8e7fdedf467454426d0e1a7f4824cc9e36fa574",
-        "size_bytes": 399407
+        "sha256": "3497bf1f1fd2fe5edb9792d87ae2a7b0237599ca125e2c1bb9b59addbcc5bab4",
+        "size_bytes": 472401
       },
       "config": {
         "path": "config.py",
@@ -19,8 +19,8 @@
       },
       "dataset_manifest": {
         "path": "dados_hf/manifest.json",
-        "sha256": "f8a8012e77c7a4a36555bc8061b7fd137c79b4a53e89a0fdd4adcf48936f2e97",
-        "size_bytes": 1105508
+        "sha256": "d1449510eed387a1c6c84eb179474392fd74a39c49da0307749b806963c82c39",
+        "size_bytes": 1254225
       },
       "engd_config": {
         "path": "config_engd.py",
@@ -29,8 +29,8 @@
       },
       "estadic_contract": {
         "path": "dados_hf/contracts/estadic_2024_questionnaire.json",
-        "sha256": "d2f730ad6719ca07583e298004db3bf6a79f9ea95608892292bef7ce033a4bca",
-        "size_bytes": 12354
+        "sha256": "9e553b030ece880d6beabc38cb08e87872002e86106f6f20137e7a8157baff7b",
+        "size_bytes": 12356
       },
       "municipal_contract": {
         "path": "dados_hf/contracts/municipios_100k.json",
@@ -39,8 +39,8 @@
       },
       "normas": {
         "path": "normas.py",
-        "sha256": "f2986e0bfb18d61d85fc3ea25dd202841c40d5458828ab23e9b2b72d9ac1410e",
-        "size_bytes": 15391
+        "sha256": "febf54b11a9a5eea65952cd424ee2bd0927c0ac2a10b8a756976588acddfab24",
+        "size_bytes": 15464
       },
       "tags": {
         "path": "variaveis/tags.py",
@@ -51,223 +51,223 @@
     "outputs": [
       {
         "path": "entregas/graficos/dimensoes/cap04.png",
-        "sha256": "5739ef9a22a3dceed36d3f30e5c11b8176d9054a5a9401dc35881e99077d513f",
-        "size_bytes": 64524
+        "sha256": "feffba466c08671bcc5530b3953aa487b7908c19d593a00e4308fde51f709658",
+        "size_bytes": 65324
       },
       {
         "path": "entregas/graficos/dimensoes/cap05.png",
-        "sha256": "b9f767c8e4e951d25594346435f129bdbb16f222a9c8f3b0bde7ce645130cd11",
-        "size_bytes": 106535
+        "sha256": "4fb1dd8905629a58c9824ef0bb75dea3203cf499f1ae76a1bd00c3c101fb3821",
+        "size_bytes": 105914
       },
       {
         "path": "entregas/graficos/dimensoes/cap06.png",
-        "sha256": "a22ebcfe48be7522629a4475a0ece06465153d1894daec59d7e96b40b7c53fea",
-        "size_bytes": 38050
+        "sha256": "d5e57f51514aca5b2cc3074e8d9eaa276819aa31848df3e884e0ea10568c1639",
+        "size_bytes": 38754
       },
       {
         "path": "entregas/graficos/dimensoes/cap07.png",
-        "sha256": "8a7a090568d5249e250792bc392f2bf7cdc2c51ca81a23b3b961dae017e54cdc",
-        "size_bytes": 65067
+        "sha256": "dbc17b6ebde6395fdcf407b266339e423a782d1af839a6e2d1e01658517cf3ec",
+        "size_bytes": 65447
       },
       {
         "path": "entregas/graficos/dimensoes/cap08.png",
-        "sha256": "02447d43932da385cce5b6c4218d87bd10aa93b9d4ac94c71f64430e806d9f0b",
-        "size_bytes": 57688
+        "sha256": "4ca55c5b0e8dfb5d236cf1a957b24f4cf5a6070b2d7247c315d7635dbb11f96d",
+        "size_bytes": 58062
       },
       {
         "path": "entregas/graficos/dimensoes/cap09.png",
-        "sha256": "5681db86c1074185e7e693da20ba7aa12389552a2535f1b15a19fcb2887b7ca0",
-        "size_bytes": 74736
+        "sha256": "22d56e004202e7a6e5d6442a88fdfc241c73c7a664607b93336177fbdd2ec7fe",
+        "size_bytes": 75089
       },
       {
         "path": "entregas/graficos/dimensoes/cap10.png",
-        "sha256": "4873f6e1d898aa548320f3880258f9458c6b97797f281636f62e0ddccdcbc3cb",
-        "size_bytes": 39103
+        "sha256": "f959fee0982a9090dba101cc7affb12bfc57a16ec54161277b20a0ca1299c7ae",
+        "size_bytes": 39403
       },
       {
         "path": "entregas/graficos/dimensoes/cap11.png",
-        "sha256": "da0b89d4507f41e99b32aab0319f9b0d38ef36b86bd6e2f1f5278c1eef911f32",
-        "size_bytes": 67499
+        "sha256": "c22af8efb3200e71867d1845380aba8d2cbf1bbbd38ce358c90bf55997811b56",
+        "size_bytes": 68950
       },
       {
         "path": "entregas/graficos/dimensoes/cap12.png",
-        "sha256": "c210c9aa753c1d352ed76f71342e8ef0e90cb34a391177eaf21f7513a22910f0",
-        "size_bytes": 42525
+        "sha256": "ff312e931e5498c01f97e664ef3c18ac6c963d85a633875742400236bd373b91",
+        "size_bytes": 43477
       },
       {
         "path": "entregas/graficos/dimensoes/cap13.png",
-        "sha256": "1b4e74c28f7b27647e722e7146612933554a070ba5b0951227a40337279e547a",
-        "size_bytes": 66330
+        "sha256": "c50b7c9a8f7496951e716e26c7fb610f265bef404a3cb8f6b55313bf1ef422f9",
+        "size_bytes": 67231
       },
       {
         "path": "entregas/graficos/nacional/barras.png",
-        "sha256": "d67bf4fa65b192e69082ebbd05d06786b84626f2050caa1e7e44440294b2113e",
-        "size_bytes": 78347
+        "sha256": "57788d5c802e6051e6837dba71b1345257c1819c231afbad9d6d9b54c6a029e1",
+        "size_bytes": 78527
       },
       {
         "path": "entregas/graficos/recortes/cap05_capitais.png",
-        "sha256": "aabcaa24f317a12237fce944c2ba4a3ddae0b229151f615656c9d40cb354873d",
-        "size_bytes": 126324
+        "sha256": "334d4c7e8b744f938c74a8a1407c7b6abe6d8555cd98a0c0d80beb3558bcbb9f",
+        "size_bytes": 133198
       },
       {
         "path": "entregas/graficos/recortes/cap05_estadual.png",
-        "sha256": "b94e6da9bfa17c1de6f81595f2dbb2c8f522209967a67a6a4d9442c7ea0fad43",
-        "size_bytes": 90810
+        "sha256": "62f06514585df4af9a70ab46f488525515c55ba75ec579cc0fb0bfdeb514d4d7",
+        "size_bytes": 91439
       },
       {
         "path": "entregas/graficos/recortes/cap06_estadual.png",
-        "sha256": "b21d7ff900048019075ac250d46ef4a5ae3c2a20fe602a306c3af4bef84bb029",
-        "size_bytes": 87471
+        "sha256": "a96d443c6c35ad12a81ef90889d3a7a91ff2a7d723ec923aba971bd2d21181ed",
+        "size_bytes": 89610
       },
       {
         "path": "entregas/graficos/recortes/cap07_capitais.png",
-        "sha256": "33a68b49971b72ae202c05598e08141f5c199898a796c4881b19ffedbbfcd183",
-        "size_bytes": 126054
+        "sha256": "4a31dc382b32d1aa3f082f58d1ae3901871c99a006da4267e826b04af58bc84d",
+        "size_bytes": 133204
       },
       {
         "path": "entregas/graficos/recortes/cap07_estadual.png",
-        "sha256": "f41582c95b2075bda4163890566bc35218ec4cd1b3926cd42851459569e20629",
-        "size_bytes": 91230
+        "sha256": "9363cc9063607d24660a65a29c3de8462f5a097fa546e1cdb0496105578c6d61",
+        "size_bytes": 93009
       },
       {
         "path": "entregas/graficos/recortes/cap08_estadual.png",
-        "sha256": "4c7e7122c0933b4d5106c33d386f1c8f2e5a624cabcd95e62db666cf7be2fcc7",
-        "size_bytes": 88099
+        "sha256": "7c103d9a32b47479b5755c5de7e9dcc1cffe55a2037ce25fb80aabab27a403a1",
+        "size_bytes": 90562
       },
       {
         "path": "entregas/graficos/recortes/cap09_capitais.png",
-        "sha256": "35d76d546c1df4261a79d1eba9da09014f1ed989c7d5106618e6a4eced3de4dc",
-        "size_bytes": 122513
+        "sha256": "db91f0fb8b964d99b063f498a395c2b88a3461ac841c9d5bc987a228df773e5b",
+        "size_bytes": 129547
       },
       {
         "path": "entregas/graficos/recortes/cap09_estadual.png",
-        "sha256": "fcb96d1c6b87c259219565ec2f4d238b3ddb0cf064fb8678c4b7bd14229fb507",
-        "size_bytes": 89770
+        "sha256": "39a4684afc55c946a87c8b156d089b6f709d30af6297bfe150f8a31a6e911f5c",
+        "size_bytes": 91456
       },
       {
         "path": "entregas/graficos/recortes/cap10_estadual.png",
-        "sha256": "99fbc628164477a529ad4d126a7e422b66f6166228954be57dd289128f58b8a8",
-        "size_bytes": 93656
+        "sha256": "e6a59fa0fd9271793ff837f019f2ed55a17ae53fb3462c25396b3f7765c9f07b",
+        "size_bytes": 95694
       },
       {
         "path": "entregas/graficos/recortes/cap12_capitais.png",
-        "sha256": "bd298fee6c05afc594ff64e85be708a4d2f84343c58824798cb1d2e5a1c2321d",
-        "size_bytes": 123616
+        "sha256": "3ea03bd4223d65e0da2c4990e91e2f8690f8edc23ced550fd659d47e4d71f177",
+        "size_bytes": 131088
       },
       {
         "path": "entregas/graficos/recortes/cap12_estadual.png",
-        "sha256": "aa752015bdb5d670da1d41b6d285a2188740f3a412e2ff97e58878ac35cca0e3",
-        "size_bytes": 87529
+        "sha256": "9e9f3e369d7ae528259ada7ced6bdb47fbfc953f1bccc996fc817ebbcb31c202",
+        "size_bytes": 91559
       },
       {
         "path": "entregas/relatorio_unificado.docx",
-        "sha256": "e86f9b50d67c7ecd8e3ea9cb2a77f22ea68297647ed7b4bfadea67533feddf6d",
-        "size_bytes": 1742647
+        "sha256": "4157fbb2eabbfd798b1f93bb7789392db78c3d550fb56d51e148660956d950d8",
+        "size_bytes": 1815945
       },
       {
         "path": "entregas/relatorio_unificado.md",
-        "sha256": "89c712b8642d371dab4031fafe7aab6558feda3b61df0f41b1e50c6e3acd3af2",
-        "size_bytes": 561752
+        "sha256": "22a93119cc37536843071fdcd9c9cf51b83c948a96e2ceddcc5faf9d0f03a66c",
+        "size_bytes": 649701
       },
       {
         "path": "entregas/relatorio_unificado.pdf",
-        "sha256": "86cc73c10d2cbc675a00a6c5eb25eb545a794be04466bc98af69447a947abcc4",
-        "size_bytes": 5027458
+        "sha256": "e35ee39b1eea3f892c1d08448cbad03e07c2ad77fb4cc05fe0690b16790ac4b7",
+        "size_bytes": 5360141
       },
       {
         "path": "entregas/typst/saida/relatorio_unificado.pdf",
-        "sha256": "ede51ddb423afbe32d9e48b4fb6a8ec4322878e6fae09886878ebd4a096a7644",
-        "size_bytes": 5566710
+        "sha256": "25aae4e92fd2aa9b4445a21ea07b5181af3a4524e3e6cabc861219513926d7c7",
+        "size_bytes": 5884479
       },
       {
         "path": "entregas/typst/saida/relatorio_unificado.typ",
-        "sha256": "1d016f29701e1be74b249bde71a81233ba3b5c09d1b7d8eb185e49075016afc5",
-        "size_bytes": 585610
+        "sha256": "80b996b2ea2f4a77ce0c994d6988b9bb241b5582e23c133e30ebbbdb8451d9b9",
+        "size_bytes": 676582
       },
       {
         "path": "indices/indice_estadual/resultados/detalhes_estadual.csv",
-        "sha256": "aa10f437a72f2650abb8af11705667b84e97454e37d8e1202d94932c9caf13da",
-        "size_bytes": 345020
+        "sha256": "8c299756b581470124cc0df2e2ae78f3bfaed9e80ccff3087992ddea187dfefa",
+        "size_bytes": 340062
       },
       {
         "path": "indices/indice_estadual/resultados/detalhes_estadual_tags.csv",
-        "sha256": "bce029309a31b7657e09aa9d95390d3515d76d437ba2b539da6e07a4ba6f487a",
-        "size_bytes": 427843
+        "sha256": "a2e2ec8aa755eece5017d3d0d5538add1c0ecb204df6453edeb4cbb775d2bdda",
+        "size_bytes": 416202
       },
       {
         "path": "indices/indice_estadual/resultados/indice_estadual.csv",
-        "sha256": "79c6923eed39937be0cb16f1fbba0ea612d8c844c1467b2882405aed02ed0d18",
-        "size_bytes": 11289
+        "sha256": "f464fb6be307f76ec99872cd58d45fd02b3a8cbb58f6875162a44025063e6701",
+        "size_bytes": 11292
       },
       {
         "path": "indices/indice_estadual/resultados/indice_estadual_tags.csv",
-        "sha256": "25cd6b44e3fa24bf845dc0e228f33ba0f2807b90a05b2124b3b991fab1c9cf7e",
-        "size_bytes": 26370
+        "sha256": "e8aab6d6a2deccce63b832deaf181ecf8df772d6c55402e8fd06d4e7e99bde90",
+        "size_bytes": 26254
       },
       {
         "path": "indices/indice_municipal_100k/resultados/detalhes_municipios.csv",
-        "sha256": "fe9daf5641e64cbd98e4082e400d2ef77688b0639efe2115e350beb3f45b9863",
-        "size_bytes": 3733740
+        "sha256": "ab90e9cece1c794ceda45df30f4d107891c747a9d31256e1715df0436ccb0706",
+        "size_bytes": 3602767
       },
       {
         "path": "indices/indice_municipal_100k/resultados/detalhes_municipios_tags.csv",
-        "sha256": "d5e0fff34a479564f572e03f50af0684107fa173553d26b542727fcccc5ec6b4",
-        "size_bytes": 4655806
+        "sha256": "5461c6e3c7df87275bd7aafb89fe090fdfd1d41c9bb9ea7ee7a7ebabc678e824",
+        "size_bytes": 4516524
       },
       {
         "path": "indices/indice_municipal_100k/resultados/indice_municipios.csv",
-        "sha256": "36b02df5ae76c2e81f37e248ba98c8fee4e80f01b53f715962613a07ae200c8c",
-        "size_bytes": 146424
+        "sha256": "f1c5252df0f2755daa933e36c5291a099d73a0fc8bdface6ac692a758e4fb404",
+        "size_bytes": 146088
       },
       {
         "path": "indices/indice_municipal_100k/resultados/indice_municipios_tags.csv",
-        "sha256": "8518a31e04c337927498db997f4ed52f66134b52fc76d6029938402017142bf4",
-        "size_bytes": 336080
+        "sha256": "c6c940b2c9455fdc3383b795c40a81064fa50b3c35e9767af39eb7f925f48c87",
+        "size_bytes": 335104
       },
       {
         "path": "indices/indice_municipal_100k/resultados/ranking_municipios.csv",
-        "sha256": "4cea4a8be3d1a2fda520ea4071371db015d2c881237db874e2fdff7108aa5452",
-        "size_bytes": 154330
+        "sha256": "ed86938ef087ff5f5f9bd9bd269c2a053a8829885327879df2054922970913ab",
+        "size_bytes": 154326
       },
       {
         "path": "indices/indice_municipal_capitais/resultados/detalhes_capitais.csv",
-        "sha256": "98b123870a9250a850e2276cff4f1498d617eaca24b28008e2491b31af1c5d10",
-        "size_bytes": 307709
+        "sha256": "79f18ac97ad2ca776c5a02842e16e87041e68cb06b6f91b7c8232a0eb7678458",
+        "size_bytes": 297006
       },
       {
         "path": "indices/indice_municipal_capitais/resultados/detalhes_capitais_tags.csv",
-        "sha256": "6926c1816ac2aca777d0e74045b1513f1de92d91a5f11c092bedc58cc643c3f4",
-        "size_bytes": 384705
+        "sha256": "81bc96b11957637c33862a4e187fdf0fe616aa437ed741c7b13e25b4729078b1",
+        "size_bytes": 373298
       },
       {
         "path": "indices/indice_municipal_capitais/resultados/indice_capitais.csv",
-        "sha256": "9aac516dedacb0797c565662a2982c05b744ca5d1fbf7b732be6cc0ad4d11d23",
-        "size_bytes": 11124
+        "sha256": "e27121e71a0012d6214eb8da3f44d8609f7d89522494dcd107268e87a0c439e4",
+        "size_bytes": 11099
       },
       {
         "path": "indices/indice_municipal_capitais/resultados/indice_capitais_tags.csv",
-        "sha256": "ba36415bcef5265b31bef2134f6fc4371974c88609afb3e45f409e9a7bf94970",
-        "size_bytes": 26236
+        "sha256": "e726d83194e728d39b2987d28737e5e699de24e2fc15b63b51eceb4aa9f63d0f",
+        "size_bytes": 26150
       },
       {
         "path": "indices/resultados/detalhes_total.csv",
-        "sha256": "99578561c42b2a878037cb10b5db7c17704a3afab8e337bb1e917fdd6923b7e1",
-        "size_bytes": 55285
+        "sha256": "706a53abb7c02588ebdbc6e70abd4fc0b26ce57a8f2b5f520a90a260f60ad1a3",
+        "size_bytes": 59026
       },
       {
         "path": "indices/resultados/detalhes_total_tags.csv",
-        "sha256": "1c3202f79d4955b1942f2fa73b977bfad000f57aa288ebd1ba47d3a59cee205f",
-        "size_bytes": 72135
+        "sha256": "5ee848ce2e88ea02138e6726aa3cbe9f15776a75fd1c6c1657e5bdc703c87bca",
+        "size_bytes": 75919
       },
       {
         "path": "indices/resultados/indice_total.csv",
-        "sha256": "c17a753e81032d50182ceece45cd237c4e99bb1ac72101298c43effaf811711c",
-        "size_bytes": 524
+        "sha256": "213c63fd3da31adaf04d6c3d2e67a8719c196bf42dace1cd3e3205ea36f8b168",
+        "size_bytes": 521
       },
       {
         "path": "indices/resultados/indice_total_tags.csv",
-        "sha256": "abefbf1aa9e7287cb883616170e32b8c3b32d11d387c5114d4eb3106d44d23f1",
-        "size_bytes": 1104
+        "sha256": "87b0c7500c9d404b5043eb25b522e75de5fe169ea854bb1041b474f0824c96b7",
+        "size_bytes": 1106
       }
     ],
     "schema_version": 2
@@ -275,88 +275,88 @@
   "consumed_files": [
     {
       "path": "indices/resultados/indice_total.csv",
-      "sha256": "c17a753e81032d50182ceece45cd237c4e99bb1ac72101298c43effaf811711c",
-      "size_bytes": 524
+      "sha256": "213c63fd3da31adaf04d6c3d2e67a8719c196bf42dace1cd3e3205ea36f8b168",
+      "size_bytes": 521
     },
     {
       "path": "indices/resultados/detalhes_total.csv",
-      "sha256": "99578561c42b2a878037cb10b5db7c17704a3afab8e337bb1e917fdd6923b7e1",
-      "size_bytes": 55285
+      "sha256": "706a53abb7c02588ebdbc6e70abd4fc0b26ce57a8f2b5f520a90a260f60ad1a3",
+      "size_bytes": 59026
     },
     {
       "path": "indices/resultados/indice_total_tags.csv",
-      "sha256": "abefbf1aa9e7287cb883616170e32b8c3b32d11d387c5114d4eb3106d44d23f1",
-      "size_bytes": 1104
+      "sha256": "87b0c7500c9d404b5043eb25b522e75de5fe169ea854bb1041b474f0824c96b7",
+      "size_bytes": 1106
     },
     {
       "path": "indices/resultados/detalhes_total_tags.csv",
-      "sha256": "1c3202f79d4955b1942f2fa73b977bfad000f57aa288ebd1ba47d3a59cee205f",
-      "size_bytes": 72135
+      "sha256": "5ee848ce2e88ea02138e6726aa3cbe9f15776a75fd1c6c1657e5bdc703c87bca",
+      "size_bytes": 75919
     },
     {
       "path": "indices/indice_estadual/resultados/indice_estadual.csv",
-      "sha256": "79c6923eed39937be0cb16f1fbba0ea612d8c844c1467b2882405aed02ed0d18",
-      "size_bytes": 11289
+      "sha256": "f464fb6be307f76ec99872cd58d45fd02b3a8cbb58f6875162a44025063e6701",
+      "size_bytes": 11292
     },
     {
       "path": "indices/indice_estadual/resultados/detalhes_estadual.csv",
-      "sha256": "aa10f437a72f2650abb8af11705667b84e97454e37d8e1202d94932c9caf13da",
-      "size_bytes": 345020
+      "sha256": "8c299756b581470124cc0df2e2ae78f3bfaed9e80ccff3087992ddea187dfefa",
+      "size_bytes": 340062
     },
     {
       "path": "indices/indice_estadual/resultados/indice_estadual_tags.csv",
-      "sha256": "25cd6b44e3fa24bf845dc0e228f33ba0f2807b90a05b2124b3b991fab1c9cf7e",
-      "size_bytes": 26370
+      "sha256": "e8aab6d6a2deccce63b832deaf181ecf8df772d6c55402e8fd06d4e7e99bde90",
+      "size_bytes": 26254
     },
     {
       "path": "indices/indice_estadual/resultados/detalhes_estadual_tags.csv",
-      "sha256": "bce029309a31b7657e09aa9d95390d3515d76d437ba2b539da6e07a4ba6f487a",
-      "size_bytes": 427843
+      "sha256": "a2e2ec8aa755eece5017d3d0d5538add1c0ecb204df6453edeb4cbb775d2bdda",
+      "size_bytes": 416202
     },
     {
       "path": "indices/indice_municipal_capitais/resultados/indice_capitais.csv",
-      "sha256": "9aac516dedacb0797c565662a2982c05b744ca5d1fbf7b732be6cc0ad4d11d23",
-      "size_bytes": 11124
+      "sha256": "e27121e71a0012d6214eb8da3f44d8609f7d89522494dcd107268e87a0c439e4",
+      "size_bytes": 11099
     },
     {
       "path": "indices/indice_municipal_capitais/resultados/detalhes_capitais.csv",
-      "sha256": "98b123870a9250a850e2276cff4f1498d617eaca24b28008e2491b31af1c5d10",
-      "size_bytes": 307709
+      "sha256": "79f18ac97ad2ca776c5a02842e16e87041e68cb06b6f91b7c8232a0eb7678458",
+      "size_bytes": 297006
     },
     {
       "path": "indices/indice_municipal_capitais/resultados/indice_capitais_tags.csv",
-      "sha256": "ba36415bcef5265b31bef2134f6fc4371974c88609afb3e45f409e9a7bf94970",
-      "size_bytes": 26236
+      "sha256": "e726d83194e728d39b2987d28737e5e699de24e2fc15b63b51eceb4aa9f63d0f",
+      "size_bytes": 26150
     },
     {
       "path": "indices/indice_municipal_capitais/resultados/detalhes_capitais_tags.csv",
-      "sha256": "6926c1816ac2aca777d0e74045b1513f1de92d91a5f11c092bedc58cc643c3f4",
-      "size_bytes": 384705
+      "sha256": "81bc96b11957637c33862a4e187fdf0fe616aa437ed741c7b13e25b4729078b1",
+      "size_bytes": 373298
     },
     {
       "path": "indices/indice_municipal_100k/resultados/indice_municipios.csv",
-      "sha256": "36b02df5ae76c2e81f37e248ba98c8fee4e80f01b53f715962613a07ae200c8c",
-      "size_bytes": 146424
+      "sha256": "f1c5252df0f2755daa933e36c5291a099d73a0fc8bdface6ac692a758e4fb404",
+      "size_bytes": 146088
     },
     {
       "path": "indices/indice_municipal_100k/resultados/detalhes_municipios.csv",
-      "sha256": "fe9daf5641e64cbd98e4082e400d2ef77688b0639efe2115e350beb3f45b9863",
-      "size_bytes": 3733740
+      "sha256": "ab90e9cece1c794ceda45df30f4d107891c747a9d31256e1715df0436ccb0706",
+      "size_bytes": 3602767
     },
     {
       "path": "indices/indice_municipal_100k/resultados/indice_municipios_tags.csv",
-      "sha256": "8518a31e04c337927498db997f4ed52f66134b52fc76d6029938402017142bf4",
-      "size_bytes": 336080
+      "sha256": "c6c940b2c9455fdc3383b795c40a81064fa50b3c35e9767af39eb7f925f48c87",
+      "size_bytes": 335104
     },
     {
       "path": "indices/indice_municipal_100k/resultados/detalhes_municipios_tags.csv",
-      "sha256": "d5e0fff34a479564f572e03f50af0684107fa173553d26b542727fcccc5ec6b4",
-      "size_bytes": 4655806
+      "sha256": "5461c6e3c7df87275bd7aafb89fe090fdfd1d41c9bb9ea7ee7a7ebabc678e824",
+      "size_bytes": 4516524
     }
   ],
   "dimensional_registry": {
     "path": "variaveis/dimensoes_por_objetivo.py",
-    "sha256": "bda022ac7f67dfba94c1cd83e0030599481bbe6b8fbf61904a247ae687701e3e"
+    "sha256": "2b05225ba5176029f4f113e3a5f8ac40538929efe8703fb6338a7d5f5bc5f456"
   },
   "tag_registry": {
     "path": "variaveis/tags.py",
@@ -365,7 +365,7 @@
   "exporter_files": [
     {
       "path": "scripts/gerar_schema_dados.py",
-      "sha256": "4c496b6c76212200288fe099934acc59e717a0bfe8feae5967b32c8ca2535518"
+      "sha256": "aaf6a0299d1458dc0f42a83b370339b4d79c230f18bc02a93c24ec586789cb48"
     },
     {
       "path": "scripts/gerar_entrega_site.py",

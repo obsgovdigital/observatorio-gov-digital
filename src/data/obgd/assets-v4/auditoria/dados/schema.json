@@ -180,6 +180,9 @@
       "indicador_fisico": {
         "type": "string"
       },
+      "codigo_fonte": {
+        "type": "string"
+      },
       "sub_itens": {
         "type": "string[]",
         "nullable": true
