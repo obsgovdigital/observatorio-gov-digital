@@ -17,7 +17,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 
 ## 10.2 Cobertura por nível federativo
 
-O Objetivo 7 conta com 9 variáveis ativas no índice (3 da ESTADIC (IBGE), 1 do iGovSISP (SGD/MGI), 2 do IOSPD (ABEP-TIC), 2 da TIC Governo Eletrônico (CETIC.br) e 1 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 9 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **Cinco** têm observação por UF (`IOSPD_III06`, `IOSPD_V02`, `ESTADIC_ESPACO_INOVACAO`, `ESTADIC_CAPACIT_EMPREEND` e `ESTADIC_PREMIO_INOVACAO`) e dão origem à dimensão `Recorte Estadual`, que atende ao limiar de duas variáveis para criação. Nenhuma variável do objetivo tem observação por capital, de modo que não se cria a dimensão `Recorte de Capitais`.
+O Objetivo 7 conta com 9 variáveis ativas no índice (3 da ESTADIC (IBGE), 1 do iGovSISP (SGD/MGI), 2 do IOSPD (ABEP-TIC), 2 da TIC Governo Eletrônico (CETIC.br) e 1 da TIC Saúde (CETIC.br)), que entram na agregação do índice como 9 componentes (ver Capítulo 3). Todas contribuem para a visão Nacional. **Cinco** têm observação por UF (`III.6`, `V.2`, `Etic242`, `Etic243` e `Etic244`) e dão origem à dimensão `Recorte Estadual`, que atende ao limiar de duas variáveis para criação. Nenhuma variável do objetivo tem observação por capital, de modo que não se cria a dimensão `Recorte de Capitais`.
 
 ## 10.3 Dimensões
 
@@ -27,96 +27,97 @@ As 9 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temát
 
 ### 10.3.1 Inteligência artificial e tecnologias emergentes
 
-*Definição:* Adoção de inteligência artificial, ciência de dados, dispositivos de Internet das Coisas (IoT) e demais tecnologias emergentes (Blockchain, IA, Robótica) em órgãos públicos e estabelecimentos de saúde, e existência de estratégia institucional de IA. Corresponde à Recomendação 7.4.
+*Definição:* Adoção de inteligência artificial, ciência de dados, dispositivos de Internet das Coisas (IoT) e demais tecnologias emergentes (Blockchain, IA, Robótica) em órgãos públicos e estabelecimentos de saúde, e estágio de estruturação de uma estratégia institucional de IA nos órgãos federais. Corresponde à Recomendação 7.4.
 
-*Média Nacional:* 35.7 (n=5; 5 itens).
+*Média Nacional:* 28,0 (n=5; 5 itens).
 
 **Indicadores:**
 
 *TIC Governo Eletrônico 2023 (CETIC.br):*
 
-- **H3** — O órgão utilizou tecnologias de inteligência artificial?
-  - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 30.08
+- **H3**. Nos últimos 12 meses, este órgão público utilizou tecnologias de Inteligência Artificial como chatbots ou assistentes virtuais, sistemas de reconhecimento facial ou de imagem ou ferramentas de predição e análise de dados a partir de aprendizagem de máquina?
+  - *Normalização:* Proporção 0-100%, usada diretamente.
+  - Valor (Nacional): 30,08
 
-- **H4** — O órgão utilizou dispositivos de Internet das Coisas (IoT)?
-  - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 26.95
+- **H4**. Nos últimos 12 meses, este órgão público utilizou Internet das Coisas, ou seja, dispositivos ou sistemas interconectados que podem coletar e trocar dados e serem monitorados ou controlados remotamente, como sensores e câmeras inteligentes?
+  - *Normalização:* Proporção 0-100%, usada diretamente.
+  - Valor (Nacional): 26,95
 
 *TIC Saúde 2024 (CETIC.br):*
 
-- **D5** — O estabelecimento de saúde que utilizou Internet nos últimos 12 meses utiliza tecnologias emergentes (Blockchain, IA, Robótica, IoT)? (D5A portal 2024) — agregação por máximo entre os 4 sub-itens, equivale a "ao menos uma tecnologia emergente".
-  - *Normalização:* Proporção 0-100% — usado diretamente.
-  - Valor (Nacional): 3.71
+- **D5A**. Nos últimos 12 meses, este estabelecimento de saúde utilizou [...]
+  - *Normalização:* Piso sobre a população inteira, com os casos fora do filtro contados como resposta negativa (ver Seção 3.2.4).
+  - *Contagem:* O valor é a maior proporção de Sim entre os itens publicados Blockchain; Inteligência Artificial; Robótica, como, por exemplo, automação de processos para medicamentos, laboratório e cirurgias.; Internet das Coisas (IoT). Não é a proporção de quem marcou ao menos um. O percentual condicionado é multiplicado pela proporção de Sim do filtro no mesmo estrato, em cadeia quando necessário; quem ficou fora do filtro conta como resposta negativa. O resultado é um piso sobre a população inteira dos estabelecimentos públicos, conforme a Seção 3.2.4.
+  - Valor (Nacional): 1,13
 
 *IOSPD 2025 (ABEP-TIC):*
 
-- **IOSPD_V02** — A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão?
-  - *Normalização:* Índice 0-10 — multiplicado por 10.
-  - Valor (Nacional): 66.67
-  - Valor (Estadual): 66.7 (média das 27 UFs)
+- **V.2**. A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão?
+  - *Normalização:* Índice 0-10, multiplicado por 10.
+  - Valor (Nacional): 66,67
+  - Valor (Estadual): 66,7 (média das 27 UFs)
 
 *iGovSISP 2025 (SGD/MGI):*
 
-- **G337DI**. iGovSISP: TEMA: Estratégia de Inteligência Artificial Assertiva: Há adoção de uma estratégia estruturada para o uso da Inteligência Artificial, garantindo que sua aplicação esteja alinhada aos objetivos institucionais, com governança clara, infraestrutura adequada e monitoramento contínuo. A IA é integrada aos processos centrais da organização, sendo utilizada de forma ética, transparente e orientada para a inovação e a melhoria dos serviços públicos. (autodiagnóstico SISP, ordinal_maturidade)
-  - *Normalização:* Percentual de respostas acima do primeiro estágio, sem presumir adoção plena.
-  - Valor (Nacional): 51.28
-  - *Estágio positivo mínimo:* A exploração do uso de IA de forma mais estruturada está sendo iniciada. Apesar da ausência de uma estratégia formal, os primeiros passos são dados, como a identificação de casos de uso promissores, a designação de um líder ou equipe para coordenar esforços e a consideração inicial de privacidade e segurança, ainda sem políticas definidas. Projetos experimentais podem estar sendo desenvolvidos, mas sem alinhamento estratégico claro.
+- **G337DI**. TEMA: Estratégia de Inteligência Artificial Assertiva: Há adoção de uma estratégia estruturada para o uso da Inteligência Artificial, garantindo que sua aplicação esteja alinhada aos objetivos institucionais, com governança clara, infraestrutura adequada e monitoramento contínuo. A IA é integrada aos processos centrais da organização, sendo utilizada de forma ética, transparente e orientada para a inovação e a melhoria dos serviços públicos.
+  - *Normalização:* Percentual de respostas a partir do terceiro estágio, o ponto de corte comum da escala.
+  - Valor (Nacional): 14,96
+  - *Estágio positivo mínimo:* Bases para a governança da IA estão integradas à estratégia de governança de dados. São desenvolvidos planos para incorporar IA em processos-chave e serviços públicos, além do início da construção de uma infraestrutura adequada. Prototipagem de soluções e projetos piloto começam a ser realizados, com envolvimento gradual de diferentes áreas institucionais.
 
 ### 10.3.2 Laboratórios e fomento à inovação
 
-*Definição:* Existência de laboratórios de inovação em governo e ações estaduais de fomento à inovação e ao empreendedorismo digital — espaços de inovação e coworking, capacitação para empreendedorismo digital e prêmios ou editais destinados a empresas inovadoras e projetos criativos. Corresponde à Recomendação 7.3, que trata dos laboratórios de inovação como espaço de colaboração.
+*Definição:* Existência de laboratórios de inovação em governo e ações estaduais de fomento à inovação e ao empreendedorismo digital: espaços de inovação e coworking, capacitação para empreendedorismo digital e prêmios ou editais destinados a empresas inovadoras e projetos criativos. Corresponde à Recomendação 7.3, que trata dos laboratórios de inovação como espaço de colaboração.
 
-*Média Nacional:* 78.7 (n=4; 4 itens).
+*Média Nacional:* 78,7 (n=4; 4 itens).
 
 **Indicadores:**
 
 *IOSPD 2025 (ABEP-TIC):*
 
-- **IOSPD_III06** — Possui Laboratório de Inovação em Governo? (Lei Federal 14.129/2021, Art. 44º e 45º)
-  - *Normalização:* Índice 0-10 — multiplicado por 10.
-  - Valor (Nacional): 70.37
-  - Valor (Estadual): 70.4 (média das 27 UFs)
+- **III.6**. Possui Laboratório de Inovação em Governo? [Lei Federal 14.129/2021 - Art. 44º e 45º]
+  - *Normalização:* Índice 0-10, multiplicado por 10.
+  - Valor (Nacional): 70,37
+  - Valor (Estadual): 70,4 (média das 27 UFs)
 
 *ESTADIC 2024 (IBGE):*
 
-- **ESTADIC_ESPACO_INOVACAO** — O governo estadual mantém espaços de inovação, coworking ou espaços compartilhados de trabalho para micro e pequenas empresas em funcionamento?
-  - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
-  - Valor (Nacional): 77.78
-  - Valor (Estadual): 77.8 (média das 27 UFs)
+- **Etic242**. O governo estadual: Mantém espaços de inovação, coworking ou espaços compartilhados de trabalho para micro e pequenas empresas atualmente em funcionamento
+  - *Normalização:* Binário Sim/Não: Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
+  - Valor (Nacional): 77,78
+  - Valor (Estadual): 77,8 (média das 27 UFs)
 
-- **ESTADIC_CAPACIT_EMPREEND** — O governo estadual forneceu capacitação para empreendedorismo digital nos últimos 12 meses?
-  - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
-  - Valor (Nacional): 88.89
-  - Valor (Estadual): 88.9 (média das 27 UFs)
+- **Etic243**. O governo estadual: Forneceu capacitação para empreendedorismo digital nos últimos 12 meses
+  - *Normalização:* Binário Sim/Não: Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
+  - Valor (Nacional): 88,89
+  - Valor (Estadual): 88,9 (média das 27 UFs)
 
-- **ESTADIC_PREMIO_INOVACAO** — O governo estadual instituiu, sozinho ou em parceria, prêmio ou edital para destinar recursos a empresas inovadoras ou projetos criativos nos últimos 12 meses?
-  - *Normalização:* Binário Sim/Não — Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
-  - Valor (Nacional): 77.78
-  - Valor (Estadual): 77.8 (média das 27 UFs)
+- **Etic244**. O governo estadual: Instituiu (sozinho ou em parceria) prêmio ou edital para destinar recursos a empresas inovadoras/projetos criativos nos últimos 12 meses
+  - *Normalização:* Binário Sim/Não: Sim=100, Não=0; valor Nacional é a proporção 0-100% sobre as 27 UFs.
+  - Valor (Nacional): 77,78
+  - Valor (Estadual): 77,8 (média das 27 UFs)
 
 ### 10.3.3 Recorte Estadual
 
 *Definição:* Conjunto das variáveis do Objetivo 7 com observação por UF, agregadas para leitura federativa estadual do desempenho no ecossistema de inovação. Reúne as duas variáveis IOSPD e as três variáveis ESTADIC do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
 
-*Média Estadual:* 76.3 (n=5; 5 itens).
+*Média Estadual:* 76,3 (n=5; 5 itens).
 
-![Recorte Estadual — Objetivo 7](../graficos/recortes/cap10_estadual.png)
+![Recorte Estadual do Objetivo 7](../graficos/recortes/cap10_estadual.png)
 
 **Indicadores:**
 
 *IOSPD 2025 (ABEP-TIC):*
 
-- **IOSPD_III06** — Possui Laboratório de Inovação em Governo? (Lei Federal 14.129/2021, Art. 44º e 45º)
-  - Valor (Estadual): 70.4 (média das 27 UFs)
-- **IOSPD_V02** — A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão?
-  - Valor (Estadual): 66.7 (média das 27 UFs)
+- **III.6**. Possui Laboratório de Inovação em Governo? [Lei Federal 14.129/2021 - Art. 44º e 45º]
+  - Valor (Estadual): 70,4 (média das 27 UFs)
+- **V.2**. A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão?
+  - Valor (Estadual): 66,7 (média das 27 UFs)
 
 *ESTADIC 2024 (IBGE):*
 
-- **ESTADIC_ESPACO_INOVACAO** — O governo estadual mantém espaços de inovação, coworking ou espaços compartilhados de trabalho para micro e pequenas empresas em funcionamento?
-  - Valor (Estadual): 77.8 (média das 27 UFs)
-- **ESTADIC_CAPACIT_EMPREEND** — O governo estadual forneceu capacitação para empreendedorismo digital nos últimos 12 meses?
-  - Valor (Estadual): 88.9 (média das 27 UFs)
-- **ESTADIC_PREMIO_INOVACAO** — O governo estadual instituiu, sozinho ou em parceria, prêmio ou edital para destinar recursos a empresas inovadoras ou projetos criativos nos últimos 12 meses?
-  - Valor (Estadual): 77.8 (média das 27 UFs)
+- **Etic242**. O governo estadual: Mantém espaços de inovação, coworking ou espaços compartilhados de trabalho para micro e pequenas empresas atualmente em funcionamento
+  - Valor (Estadual): 77,8 (média das 27 UFs)
+- **Etic243**. O governo estadual: Forneceu capacitação para empreendedorismo digital nos últimos 12 meses
+  - Valor (Estadual): 88,9 (média das 27 UFs)
+- **Etic244**. O governo estadual: Instituiu (sozinho ou em parceria) prêmio ou edital para destinar recursos a empresas inovadoras/projetos criativos nos últimos 12 meses
+  - Valor (Estadual): 77,8 (média das 27 UFs)
