@@ -14,28 +14,33 @@
 | Recorte na UI (`NivelKey`) | Rótulo | `indice_long.nivel` / detalhes | Entes |
 | --- | --- | --- | --- |
 | `nacional` | Nacional | `nacional` | Brasil |
+| `uniao` | Federal | `uniao` | União (ente único `UNIAO`, sem ranking) |
 | `estadual` | Estadual | `uf` | 27 UFs |
 | `municipios` | Municípios | `municipio` | 319 ≥ 100 mil hab. (inclui capitais) |
 
-O sync **filtra** linhas `capital` da entrega bruta. URLs antigas `/municipal/...` redirecionam para `/municipios/...`. URLs antigas `/federal/...` e `nivel=federal` redirecionam (308) para `/nacional`.
+O sync **filtra** linhas `capital` da entrega bruta. URLs antigas `/municipal/...` redirecionam para `/municipios/...`. URLs antigas `/federal/...` e `nivel=federal` redirecionam (308) para `/nacional`; por isso o recorte federal usa a chave `uniao`, a mesma do contrato de dados da plataforma.
 
 ```mermaid
 flowchart TB
   subgraph ui [UI]
-    F[nacional]
+    N[nacional]
+    U[uniao]
     E[estadual]
     M[municipios]
   end
   subgraph assets [Assets]
     DN[detalhes_nacional]
+    DU[detalhes_uniao]
     DE[detalhes_estadual]
     DM[detalhes_municipios]
     Long[indice_long_por_objetivo]
   end
-  F --> DN
+  N --> DN
+  U --> DU
   E --> DE
   M --> DM
-  F --> Long
+  N --> Long
+  U --> Long
   E --> Long
   M --> Long
 ```

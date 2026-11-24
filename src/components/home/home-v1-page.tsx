@@ -80,6 +80,10 @@ export async function HomeV1Page() {
       texto: 'Recorte nacional agregado.',
     },
     {
+      titulo: 'Federal',
+      texto: 'A União, observada pelos dados dos órgãos federais.',
+    },
+    {
       titulo: 'Estados',
       texto: `As ${numeros.estados} unidades da Federação.`,
     },
@@ -152,14 +156,14 @@ export async function HomeV1Page() {
           O escopo
         </span>
         <h2 className="mt-3 max-w-2xl font-bold text-2xl text-foreground leading-tight tracking-tight sm:text-3xl">
-          Nacional, estados e municípios
+          Nacional, federal, estados e municípios
         </h2>
         <p className="mt-4 max-w-2xl text-muted-foreground text-sm leading-relaxed sm:text-base">
           O Observatório acompanha o desenvolvimento digital no recorte
-          nacional, nas {numeros.estados} unidades da Federação e nos municípios
-          com 100 mil habitantes ou mais.
+          nacional, na União, nas {numeros.estados} unidades da Federação e nos
+          municípios com 100 mil habitantes ou mais.
         </p>
-        <div className="dash-t -mx-6 mt-12 grid sm:-mx-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="dash-t -mx-6 mt-12 grid sm:-mx-10 sm:grid-cols-2 lg:grid-cols-4">
           {recortes.map((item, i) => (
             <div
               key={item.titulo}

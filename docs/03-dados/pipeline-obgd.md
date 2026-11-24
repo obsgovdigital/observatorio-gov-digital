@@ -55,6 +55,7 @@ README curto dos assets: [`src/data/obgd/assets/README.md`](../../src/data/obgd/
 src/data/obgd/assets/
 ├── indice_long_por_objetivo.json
 ├── detalhes_nacional.json
+├── detalhes_uniao.json
 ├── detalhes_estadual.json
 ├── detalhes_municipios.json
 ├── variaveis-por-objetivo-nivel.json

@@ -72,7 +72,7 @@ O Brasil ocupa posição de destaque no OECD Digital Government Index (nota 0,79
 
 ## Dados disponíveis
 
-Três escopos: **nacional** · **estadual** (27 UFs) · **municípios** (319 ≥ 100 mil hab., inclui capitais).
+Quatro escopos: **nacional** · **federal** (a União, chave `uniao`) · **estadual** (27 UFs) · **municípios** (319 ≥ 100 mil hab., inclui capitais).
 
 Cada escopo tem o long por objetivo (`sub_indice`) e `detalhes_*.csv` (indicadores individuais). Na UI o rótulo é **Índice** — ver nomenclatura em `AGENTS.md`.
 

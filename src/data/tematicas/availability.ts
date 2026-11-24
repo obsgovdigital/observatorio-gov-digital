@@ -4,6 +4,7 @@ import { notaTematica } from './scores'
 
 const NIVEL_LABEL: Record<NivelKey, string> = {
   nacional: 'nacional',
+  uniao: 'federal',
   estadual: 'estadual',
   municipios: 'municípios',
 }

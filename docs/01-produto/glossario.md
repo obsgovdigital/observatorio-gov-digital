@@ -27,8 +27,9 @@
 
 | Termo | Significado |
 | --- | --- |
-| **Ente** | Unidade observada: Brasil, UF ou município. |
+| **Ente** | Unidade observada: Brasil, União, UF ou município. |
 | **Nacional** | Recorte do Brasil agregado (`NivelKey`: `nacional`; nos dados: `nacional`). URLs antigas com `federal` redirecionam (308) para `nacional`. |
+| **Federal** | Recorte da União como ente único, sem ranking, observada pelos órgãos federais (iGovSISP, iESGo e TIC Governo Eletrônico). `NivelKey` e dados: `uniao` (ente `UNIAO`). A chave não é `federal` porque `federal` já foi o nome da visão Nacional e os links antigos redirecionam para `nacional`. |
 | **Estadual** | 27 UFs. |
 | **Municípios** | 319 municípios com ≥ 100 mil habitantes, incluindo capitais (`NivelKey`: `municipios`). |
 | **Capitais** (legado) | Recorte removido da UI; URLs `/municipal` redirecionam para `/municipios`. |

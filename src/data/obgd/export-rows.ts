@@ -18,6 +18,9 @@ import type { DataNivel, DetalheRow } from './types'
 
 const NIVEL_LABEL: Record<DataNivel, string> = {
   nacional: 'nacional',
+  // Mesmo valor do contrato de dados da plataforma; `federal` já nomeou a
+  // visão Nacional e daria um CSV ambíguo.
+  uniao: 'uniao',
   uf: 'estadual',
   municipio: 'municipios',
 }
@@ -49,6 +52,9 @@ function conceptIdOf(row: DetalheRow): string {
 
 function unidadeNome(dataNivel: DataNivel, categoria: string): string {
   if (dataNivel === 'nacional') return 'Brasil'
+  if (dataNivel === 'uniao') {
+    return getEnteByTipoCodigo('uniao', 'UNIAO')?.nome ?? 'União'
+  }
   if (dataNivel === 'uf') {
     return enteByCodigo.get(categoria)?.nome ?? categoria
   }
@@ -110,7 +116,7 @@ export function buildExportByFonteIds(fonteIds: string[]): {
   filename: string
 } {
   const idSet = new Set(fonteIds)
-  const niveis: DataNivel[] = ['nacional', 'uf', 'municipio']
+  const niveis: DataNivel[] = ['nacional', 'uniao', 'uf', 'municipio']
   const rows: ObgdExportRow[] = []
   for (const dataNivel of niveis) {
     for (const r of detalhesForNivel(dataNivel)) {

@@ -9,12 +9,15 @@ import type {
 
 export type { DataNivel, EnteTipo, SerieHistoricaPonto }
 
-export type NivelKey = 'nacional' | 'estadual' | 'municipios'
+export type NivelKey = 'nacional' | 'uniao' | 'estadual' | 'municipios'
 
-/** Chave de URL/API. `federal` permanece como alias legado. */
+/**
+ * Chave de URL/API. `federal` permanece como alias legado da visão Nacional;
+ * o recorte federal (União) usa a chave `uniao`.
+ */
 export function nivelKeyFromParam(raw: string | null): NivelKey | null {
   if (raw === 'federal' || raw === 'nacional') return 'nacional'
-  if (raw === 'estadual' || raw === 'municipios') return raw
+  if (raw === 'uniao' || raw === 'estadual' || raw === 'municipios') return raw
   return null
 }
 
@@ -74,7 +77,7 @@ export type Ente = {
 export type Nivel = {
   key: NivelKey
   label: string
-  /** Nacional é entidade única (sem ranking); estadual/municípios são rankings. */
+  /** Nacional e Federal são entidade única (sem ranking); estadual/municípios são rankings. */
   isRanking: boolean
   dataNivel: DataNivel
   entes: Ente[]
@@ -89,6 +92,7 @@ const NIVEL_MAP: Record<
   }
 > = {
   nacional: { label: 'Nacional', isRanking: false, dataNivel: 'nacional' },
+  uniao: { label: 'Federal', isRanking: false, dataNivel: 'uniao' },
   estadual: { label: 'Estadual', isRanking: true, dataNivel: 'uf' },
   municipios: { label: 'Municípios', isRanking: true, dataNivel: 'municipio' },
 }
@@ -186,7 +190,7 @@ function buildNivel(key: NivelKey): Nivel {
 
 /** Árvore leve (sem variáveis) — segura para Client Components. */
 export const niveis: Nivel[] = (
-  ['nacional', 'estadual', 'municipios'] as NivelKey[]
+  ['nacional', 'uniao', 'estadual', 'municipios'] as NivelKey[]
 ).map(buildNivel)
 
 export function getNivel(key: string): Nivel | undefined {

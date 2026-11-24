@@ -47,6 +47,7 @@ Exemplo (Objetivo 1 — Governança): nacional **29**, estadual **1**, municípi
 | Nível UI | Arquivo de detalhes |
 | --- | --- |
 | `nacional` | `detalhes_nacional.json` |
+| `uniao` | `detalhes_uniao.json` |
 | `estadual` | `detalhes_estadual.json` |
 | `municipios` | `detalhes_municipios.json` |
 

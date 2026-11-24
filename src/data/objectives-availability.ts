@@ -9,6 +9,7 @@ export const EXPLICACAO_FORA_DA_PONTUACAO =
 
 const ROTULO_RECORTE: Record<NivelKey, string> = {
   nacional: 'nacional',
+  uniao: 'federal',
   estadual: 'estadual',
   municipios: 'municipal',
 }

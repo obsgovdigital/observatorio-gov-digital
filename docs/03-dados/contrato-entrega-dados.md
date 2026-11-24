@@ -53,6 +53,7 @@ O app lê exclusivamente o subset em [`src/data/obgd/assets/`](../../src/data/ob
 src/data/obgd/assets/
 ├── indice_long_por_objetivo.json
 ├── detalhes_nacional.json
+├── detalhes_uniao.json
 ├── detalhes_estadual.json
 ├── detalhes_municipios.json
 ├── variaveis-por-objetivo-nivel.json
@@ -99,6 +100,7 @@ Schema relacional de referência (modelo completo da frente de dados): [`src/dat
 | Nos dados (`nivel` / `ente.tipo`) | Na UI (`NivelKey`) | Observação |
 | --- | --- | --- |
 | `nacional` | `nacional` | Brasil |
+| `uniao` | `uniao` | União (rótulo "Federal"), ente único `UNIAO`, sem ranking |
 | `uf` | `estadual` | 27 UFs |
 | `municipio` | `municipios` | 319 ≥ 100 mil hab. (inclui capitais como município) |
 | `capital` | — | Se vier na entrega, **não** entra no recorte da UI |
@@ -123,6 +125,7 @@ node --max-old-space-size=4096 scripts/sync-obgd-assets-from-v4.mjs
 | --- | --- |
 | `indice_long_por_objetivo.csv` | → `indice_long_por_objetivo.json` (filtra `nivel === capital`) |
 | `detalhes_nacional.csv` | → `detalhes_nacional.json` |
+| `detalhes_uniao.csv` | → `detalhes_uniao.json` |
 | `detalhes_estadual.csv` | → `detalhes_estadual.json` |
 | `detalhes_municipios.csv` | → `detalhes_municipios.json` |
 
