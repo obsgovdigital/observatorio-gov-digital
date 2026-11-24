@@ -23,7 +23,7 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
     slug: 'identidade-unica-do-cidadao',
     numero: 3,
     motivoResumo:
-      'Poucas variáveis ativas: 6 no nacional, 2 na União, 3 por UF e 1 nos municípios.',
+      'Poucas variáveis ativas: 8 no nacional, 4 na União, 3 por UF e 1 nos municípios.',
     oQueFoiAvaliado: [
       'Adoção do login Gov.br e integração dos serviços ao Login Único.',
       'Assinatura eletrônica, autenticação em serviços municipais e emissão da Carteira de Identidade Nacional (CIN) por UF.',
