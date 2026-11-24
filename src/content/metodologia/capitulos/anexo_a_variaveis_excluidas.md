@@ -6,7 +6,7 @@ Este anexo consolida as variáveis avaliadas que não foram incorporadas aos ín
 
 ## A.1 Variáveis excluídas do índice nacional
 
-O IOSPD (ABEP-TIC) e a ESTADIC (IBGE) entram tanto no índice nacional quanto no estadual, e cada exclusão aparece uma vez só neste anexo. As 13 exclusões do IOSPD estão na Seção A.2 e valem também para o índice nacional. As 27 exclusões da ESTADIC estão na Seção A.2 e valem também para o índice nacional.
+O IOSPD (ABEP-TIC) e a ESTADIC (IBGE) entram tanto no índice nacional quanto no estadual, e cada exclusão aparece uma vez só neste anexo. As 60 exclusões do IOSPD estão na Seção A.2 e valem também para o índice nacional. As 27 exclusões da ESTADIC estão na Seção A.2 e valem também para o índice nacional.
 
 ### Saturação (variância zero ou quase zero)
 
@@ -38,8 +38,8 @@ Variáveis com sub-itens fundamentalmente diferentes que foram desmembradas em v
 | C7 | TIC Governo Eletrônico (CETIC.br) | 1 (A) | Item A, centros públicos de acesso gratuito; o item B, Wi-Fi gratuito em áreas públicas, foi excluído por redundância com a MUNIC (ver adiante) | 6 |
 | G3 | TIC Governo Eletrônico (CETIC.br) | 5 | Bateria LGPD; os itens C e D dos órgãos não existem para as prefeituras, e o item C das prefeituras, sobre documento que define papéis e responsabilidades na LGPD, é variável própria | 4 |
 | A12 | TIC Saúde (CETIC.br) | 5 (A-E) | Bateria LGPD dos estabelecimentos de saúde, com os itens A a E | 4 |
-| B4 | TIC Governo Eletrônico (CETIC.br) | 12 (A-L) | Bateria de sistemas administrativos, com os itens A a L | 8 |
-| B8 | TIC Governo Eletrônico (CETIC.br) | 6 (A-F) | Processos de gestão de TI com identidade própria; o contêiner não duplica os itens | 1 |
+| B4 | TIC Governo Eletrônico (CETIC.br) | 5 (H-L) | Bateria de sistemas administrativos apenas nas prefeituras; os sete itens A a G foram arquivados, e os cinco restantes perderam a observação em órgãos | 8 |
+| B8 | TIC Governo Eletrônico (CETIC.br) | Nenhum item corrente | A pergunta foi retirada; os seis conceitos anteriores estão arquivados | 1 |
 | F2C | TIC Governo Eletrônico (CETIC.br) | 6 (A-F) | Bateria de monitoramento setorial; o contêiner não duplica os itens | 6 |
 | H7 | TIC Educação (CETIC.br) | 7 (C-I) | Bateria de formação continuada dos professores; o contêiner não duplica os itens | 10 |
 
@@ -182,6 +182,30 @@ A conferência do questionário oficial de 2025 fundamenta 14 novas exclusões e
 | G223SPD | iGovSISP (SGD/MGI) | Como está o processo de modernização de aplicações legadas? | Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital. |
 | G629IPD | iGovSISP (SGD/MGI) | Especificamente quanto ao nível de conhecimento e aplicabilidade sobre o Design System (Padrão Digital de Governo - gov.br/ds), o seu órgão: | Conhecimento e adoção do Design System gov.br não demonstram, por si, qualidade ou capacidade substantiva de governo digital. |
 
+### Conceitos arquivados na atualização das fontes
+
+Os 16 conceitos abaixo deixam o cálculo porque a fonte os retirou ou substituiu: 15 da TIC Governo Eletrônico e um da TIC Educação. O arquivo do catálogo preserva o enunciado, a edição e os valores anteriores; nenhum valor anterior é carregado para a edição corrente.
+
+| Variável | Fonte | Pergunta | Motivo |
+|---|---|---|---|
+| `B4` (Recursos humanos) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Recursos humanos | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Patrimônio) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Patrimônio | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Orçamento) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Orçamento | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Finanças e contabilidade) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Finanças e contabilidade | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Compras) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Compras | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Convênios) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público utilizou algum sistema para: Convênios | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B4` (Contratos) | TIC Governo Eletrônico (CETIC.br) | Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para: Contratos | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B7` | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui Comitê ou Conselho Diretivo, de Estratégia ou de Governança de TI? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Gestão de riscos) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Gestão de riscos de TI | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Gestão de contratos) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Gestão de contratos de TI | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Acompanhamento de projetos) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Acompanhamento de projetos de TI | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Tratamento de incidentes) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Tratamento de incidentes/problemas | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Gerenciamento de serviços) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Gerenciamento de serviços de TI | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `B8` (Gestão de infraestrutura em tecnologia da informação) | TIC Governo Eletrônico (CETIC.br) | Este órgão público possui processos de: Gestão de infraestrutura em TI | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `C8` | TIC Governo Eletrônico (CETIC.br) | Esta prefeitura realizou pregão eletrônico nos últimos 12 meses? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `E1A` | TIC Educação (CETIC.br) | A escola utiliza algum sistema ou programa para realizar o controle de matrícula, para lançar as notas e a frequência dos alunos ou preencher o diário online? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+
+
 ## A.2 Variáveis excluídas do índice estadual
 
 ### Variáveis ESTADIC excluídas (27)
@@ -224,13 +248,13 @@ Das 54 variáveis ESTADIC catalogadas, 27 foram excluídas e 27 permanecem ativa
 
 O recorte estadual exclui integralmente as fontes cujos dados por UF medem outros atores, e não o governo estadual: a TIC Governo Eletrônico (CETIC.br), cujos recortes por UF agregam prefeituras municipais; o Censo Escolar (INEP), que mede infraestrutura TIC das escolas; e a PNAD Contínua TIC (IBGE), que mede acesso domiciliar e individual à Internet. A remoção é parcialmente compensada pela desagregação do IOSPD, que trouxe cobertura para os Objetivos 3, 4, 5 e 7 no índice estadual.
 
-### Variáveis IOSPD excluídas (13)
+### Variáveis IOSPD excluídas (60)
 
-O IOSPD entra nos índices nacional e estadual, e as 13 exclusões abaixo valem para os dois. A fonte foi desagregada em 52 indicadores individuais, dos quais 47 seguem ativos no índice: saem os seis compósitos da própria fonte e cinco indicadores individuais. Os outros dois itens da tabela, I.2 e III.1, não são mais publicados no conjunto de dados.
+O IOSPD entra nos índices nacional e estadual, e as 60 exclusões abaixo valem para os dois. A edição corrente publica 44 critérios individuais, dos quais 40 seguem ativos no índice. O catálogo preserva 13 exclusões anteriores (seis compósitos e sete critérios individuais) e 47 critérios que foram retirados ou substituídos pela fonte na atualização corrente. A primeira tabela documenta as 13 exclusões anteriores, com o objeto e o fundamento da decisão à época; a segunda lista os 47 critérios arquivados. As identidades antigas não recebem valores da edição corrente.
 
 | Variável | Fonte | Descrição | Motivo |
 |----------|-------|-----------|--------|
-| IOSPD_GERAL | IOSPD (ABEP-TIC) | Pontuação geral das Dimensões I a IV, calculada pelo Observatório como no ranking geral da fonte | Compósito das Dimensões I a IV; a fonte foi desagregada em 52 indicadores individuais, dos quais 47 seguem ativos no índice |
+| IOSPD_GERAL | IOSPD (ABEP-TIC) | Pontuação geral das Dimensões I a IV, calculada pelo Observatório como no ranking geral da fonte | Compósito histórico das Dimensões I a IV; na seleção anterior, 52 indicadores individuais publicados renderam 47 ativos. A edição corrente usa apenas critérios individuais novos |
 | IOSPD_DIM1 | IOSPD (ABEP-TIC) | Dimensão Capacidades (compósito I.1 e I.3-I.13) | Compósito de 12 indicadores, desagregados individualmente |
 | IOSPD_DIM2 | IOSPD (ABEP-TIC) | Dimensão Serviços (compósito II.1-II.12) | Compósito de 12 indicadores, desagregados individualmente |
 | IOSPD_DIM3 | IOSPD (ABEP-TIC) | Dimensão Normatização (compósito III.1a-d + III.2-III.7) | Compósito de 10 indicadores, desagregados individualmente |
@@ -244,9 +268,64 @@ O IOSPD entra nos índices nacional e estadual, e as 13 exclusões abaixo valem 
 | I.13 | IOSPD (ABEP-TIC) | Possui Portal específico para a disponibilização de Dados Abertos? | Mesmo objeto de `estadic/Etic252` na visão estadual (retido o ESTADIC, mais geral), na revisão de redundância de junho de 2026 |
 | V.7 | IOSPD (ABEP-TIC) | A UF disponibiliza a emissão da nova CIN - Carteira de Identidade Nacional? | Mesmo objeto de `cin/atingimento_meta_cin`, medido por registro administrativo das carteiras emitidas (retida a CIN); a V.7 nega a emissão em cinco UFs que a base registra emitindo |
 
-**Emissão da Carteira de Identidade Nacional.** A entrada da base de dados da Carteira de Identidade Nacional no índice, com a variável `cin/atingimento_meta_cin`, retira pelo critério (iv) da Seção 3.2.1 a pergunta do IOSPD que media a mesma emissão. As duas observam o mesmo objeto, a emissão da CIN pela unidade da federação, por caminhos distintos: o IOSPD registra se a avaliação do portal estadual encontrou a oferta, e a base da CIN registra as carteiras de fato emitidas. Onde os dois divergem, o índice segue o registro administrativo. A V.7 vale 0 em Alagoas, Bahia, Pará, Rio Grande do Norte e Tocantins, e a base da CIN mostra as cinco emitindo desde 2023 ou 2024, com 38,4; 29,5; 4,4; 37,0 e 29,9 carteiras por cem habitantes em agosto de 2026. As cinco emitiram ao longo de 2025, ano da edição do IOSPD usada no índice; o Pará, com a menor cobertura, emitiu 145.247 carteiras naquele ano.
+**Emissão da Carteira de Identidade Nacional.** A entrada da base de dados da Carteira de Identidade Nacional no índice, com a variável `cin/atingimento_meta_cin`, retira pelo critério (iv) da Seção 3.2.1 a pergunta do IOSPD que media a mesma emissão. As duas observam o mesmo objeto, a emissão da CIN pela unidade da federação, por caminhos distintos: o IOSPD registra se a avaliação do portal estadual encontrou a oferta, e a base da CIN registra as carteiras de fato emitidas. Onde os dois divergem, o índice segue o registro administrativo. A V.7 vale 0 em Alagoas, Bahia, Pará, Rio Grande do Norte e Tocantins, e a base da CIN mostra as cinco emitindo desde 2023 ou 2024, com 38,4; 29,5; 4,4; 37,0 e 29,9 carteiras por cem habitantes em agosto de 2026. As cinco emitiram ao longo de 2025, ano da edição anterior do IOSPD usada nessa comparação; o Pará, com a menor cobertura, emitiu 145.247 carteiras naquele ano.
 
 ---
+
+**Critérios anteriores do IOSPD arquivados (47)**
+
+A edição corrente reorganizou os critérios e publicou identidades novas. Os critérios anteriores abaixo permanecem no catálogo como excluídos, com o histórico preservado, sem transferência automática de pontuação para critérios de objeto diferente.
+
+| Variável | Fonte | Pergunta | Motivo |
+|---|---|---|---|
+| `I.1` | IOSPD (ABEP-TIC) | Possui um Portal Único ou um Portal de Serviços disponível ao usuário? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.3` | IOSPD (ABEP-TIC) | Possui sistema unificado de agendamento DIGITAL de serviços? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.4` | IOSPD (ABEP-TIC) | Possui metodologia e ferramenta de avaliação da satisfação dos usuários em relação aos serviços públicos prestados? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.5` | IOSPD (ABEP-TIC) | A UF possui estrutura colegiada de governança de dados, ampla, instituída formalmente e ativa? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.6` | IOSPD (ABEP-TIC) | Possui gestão de cadastro e perfil do cidadão pelo usuário? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.7` | IOSPD (ABEP-TIC) | A manifestação de ouvidoria pode ser feita pelo Portal Único/Portal de Serviços de forma integrada com a mesma sessão/login? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.8` | IOSPD (ABEP-TIC) | Possui serviço online para receber e tratar solicitações de simplificação de serviços (Ex.: Simplifique – Governo Federal)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.9` | IOSPD (ABEP-TIC) | Utiliza solução de assinatura eletrônica corporativa própria ou do Gov.br? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.10` | IOSPD (ABEP-TIC) | Possui Estratégia de Governo Digital válida e em funcionamento para 2025? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.11` | IOSPD (ABEP-TIC) | O Quadro Geral ou as Cartas de Serviços Estaduais/Distrital estão integrados à Base Nacional de Serviços Públicos, com serviços disponíveis na busca de serviços geral e por estado do Portal Gov.br? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `I.12` | IOSPD (ABEP-TIC) | O Portal de Governo possui ferramenta DIGITAL integrada de solicitação de atendimento, de acompanhamento da entrega e avaliação dos serviços públicos, notificação e possibilidade de pagamento? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.1` | IOSPD (ABEP-TIC) | Possui rematrícula online nas escolas estaduais? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.2` | IOSPD (ABEP-TIC) | Possui serviço de solicitação de medicamento de alto custo, 100% digital? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.3` | IOSPD (ABEP-TIC) | Possui tele-atendimento para serviços de saúde por videoconferência para o cidadão? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.4` | IOSPD (ABEP-TIC) | Possui prova de vida online para servidores, aposentados e pensionistas? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.5` | IOSPD (ABEP-TIC) | Possui funcionalidade de apresentação de recurso e defesa online para infrações de trânsito em âmbito estadual? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.6` | IOSPD (ABEP-TIC) | Possui registro digital de reclamação do cidadão referente ao Código de Defesa do Consumidor? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.8` | IOSPD (ABEP-TIC) | Possui Boletim de Ocorrência online de VIOLÊNCIA DOMÉSTICA ou CONTRA A MULHER? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.9` | IOSPD (ABEP-TIC) | Possui consulta online dos MEDICAMENTOS DISPONÍVEIS na rede estadual de saúde? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.10` | IOSPD (ABEP-TIC) | Possui emissão e envio de RECEITA online para PRESCRIÇÃO MÉDICA ao cidadão na rede estadual de saúde? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.11` | IOSPD (ABEP-TIC) | Possui solicitação e emissão online de DIPLOMAS DO ENSINO MÉDIO nas escolas da rede estadual de educação? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `II.12` | IOSPD (ABEP-TIC) | Possui TRANSFERÊNCIA ONLINE de alunos entre escolas da rede estadual? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.1a` | IOSPD (ABEP-TIC) | A Carta de Serviços ao Usuário foi normatizada pelo Governo Estadual/Distrital, conforme previsto no Art. 7º, §5 (Carta de Serviços ao Usuário) da Lei Federal 13.460/2017 (Código de Defesa do Usuário do Serviço Público)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.1b` | IOSPD (ABEP-TIC) | A criação de Ouvidorias Públicas foi normatizado pelo Governo Estadual/Distrital, conforme previsto no Art. 17 (Ouvidorias Públicas) da Lei Federal 13.460/2017 (Código de Defesa do Usuário) do Serviço Público)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.1c` | IOSPD (ABEP-TIC) | O Conselho de Usuários do Serviço Público foi normatizado pelo Governo Estadual/Distrital, conforme previsto no Art. 22 (Conselho de Usuários do Serviço Público) da Lei Federal 13.460/2017 (Código de Defesa do Usuário do Serviço Público)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.1d` | IOSPD (ABEP-TIC) | O processo de Avaliação dos Serviços Públicos foi normatizado pelo Governo Estadual/Distrital, conforme previsto no Art. 24o (Avaliação dos Serviços Públicos) da Lei Federal 13.460/2017 (Código de Defesa do Usuário do Serviço Público)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.2` | IOSPD (ABEP-TIC) | A criação de Grupos Setoriais de Trabalho para Desburocratização e Simplificação foi regulamentado via Decreto no Governo Estadual/Distrital, conforme previsto no Art. 5º da Lei Federal 13.726/2018 (Grupos Setoriais de Trabalho para Desburocratização e Simplificação)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.4` | IOSPD (ABEP-TIC) | O uso de assinaturas eletrônicas em interações com entes públicos foi normatizada pelo Governo Estadual/Distrital, conforme previsto pela Lei Federal 14.063/2020 (Assinaturas Eletrônicas)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.6` | IOSPD (ABEP-TIC) | Possui Laboratório de Inovação em Governo? [Lei Federal 14.129/2021 - Art. 44º e 45º] | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `III.7` | IOSPD (ABEP-TIC) | A UF possui Portal Único ou de Serviços com funcionalidade de consentimento para LGPD? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.1` | IOSPD (ABEP-TIC) | O texto utiliza tempos verbais na 2a ou 3a pessoa do singular? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.2` | IOSPD (ABEP-TIC) | As frases dos textos são curtas e indicam uma única ação? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.3` | IOSPD (ABEP-TIC) | O Título é objetivo e curto? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.4` | IOSPD (ABEP-TIC) | O texto tem parágrafos curtos? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.5` | IOSPD (ABEP-TIC) | O texto utiliza o tempo presente do verbo? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.6` | IOSPD (ABEP-TIC) | O texto utiliza caracteres especiais? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.7` | IOSPD (ABEP-TIC) | O vocabulário está de fácil entendimento? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.8` | IOSPD (ABEP-TIC) | Na metodologia utilizada para descrição ou apresentação dos serviços digitais há descrição de como fazer a aplicação da técnica de Linguagem Simples? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `IV.9` | IOSPD (ABEP-TIC) | Possui mecanismos para o cidadão pedir melhoria na apresentação dos serviços? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.1` | IOSPD (ABEP-TIC) | A UF disponibiliza aplicativo móvel para acesso ao portal único ou portal de serviço, capaz de enviar notificações personalizadas e acompanhamento dos serviços pelo cidadão? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.2` | IOSPD (ABEP-TIC) | A UF utiliza ciência de dados, inteligência artificial ou algoritmo em algum serviço público disponível ao cidadão? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.3` | IOSPD (ABEP-TIC) | A UF possui opções de pagamentos de serviços disponíveis aos cidadãos através de PIX e/ou Cartão de Crédito? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.4` | IOSPD (ABEP-TIC) | A UF possui plataforma de governo, portal de serviços ou portal único, que disponibiliza um ambiente personalizado, onde o cidadão, após identificação, acessa serviços, notificações e informações adaptadas ao seu perfil e históricos de interações com o governo? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.5` | IOSPD (ABEP-TIC) | A UF possui consulta da situação do licenciamento de veículo com opção de pagamento eletrônico? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.6` | IOSPD (ABEP-TIC) | A UF possui um serviço online para emitir Certidão Negativa Estadual? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.8` | IOSPD (ABEP-TIC) | A UF possui Transferência Digital de Veículos por meio do site, portal único ou aplicativo do Governo? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+| `V.9` | IOSPD (ABEP-TIC) | A UF possui plataforma de serviços digitais, portal único ou portal de serviços adaptado para proporcionar acessibilidade a surdos e pessoas com deficiência visual, em conformidade com as legislações vigentes, Lei nº 13.146/2015 e padrões de acessibilidade (eMAG, W3C)? | Conceito retirado ou substituído na edição corrente; identidade, edição e valores anteriores preservados no arquivo do catálogo. |
+
 
 ## A.3 Variáveis excluídas do índice de capitais
 
