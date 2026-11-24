@@ -23,7 +23,7 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
     slug: 'identidade-unica-do-cidadao',
     numero: 3,
     motivoResumo:
-      'Poucas variáveis ativas: 5 no nacional, 2 por UF e 1 nos municípios.',
+      'Poucas variáveis ativas: 6 no nacional, 2 na União, 3 por UF e 1 nos municípios.',
     oQueFoiAvaliado: [
       'Adoção do login Gov.br e integração dos serviços ao Login Único.',
       'Assinatura eletrônica, autenticação em serviços municipais e emissão da Carteira de Identidade Nacional (CIN) por UF.',
@@ -39,9 +39,9 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
     slug: 'competencias-e-capacitacao',
     numero: 10,
     motivoResumo:
-      'Dados concentrados no nível nacional; lacuna estadual/municipal.',
+      'Dados concentrados nos níveis nacional e federal; uma variável estadual e nenhuma municipal.',
     oQueFoiAvaliado: [
-      'Indicadores de capacitação e competências disponíveis no escopo nacional.',
+      'Indicadores de capacitação e competências, concentrados nos escopos nacional e federal.',
     ],
     oQueNaoFoiIncluido: [
       'Séries homogêneas de capacitação em TI para estados e municípios.',
@@ -52,12 +52,12 @@ export const OBJETIVOS_PRECARIOS_MOCK = [
   {
     slug: 'eficiencia-e-colaboracao',
     numero: 8,
-    motivoResumo: 'Sem cobertura municipal na edição atual.',
+    motivoResumo: 'Sem cobertura estadual nem municipal na edição atual.',
     oQueFoiAvaliado: [
-      'Indicadores de eficiência e colaboração nos níveis nacional e estadual.',
+      'Indicadores de eficiência e colaboração nos níveis nacional e federal.',
     ],
     oQueNaoFoiIncluido: [
-      'Variáveis municipais de eficiência operacional e colaboração interinstitucional.',
+      'Variáveis estaduais e municipais de eficiência operacional e colaboração interinstitucional.',
     ],
     porQueNaoIncluido:
       'Fontes municipais equivalentes ainda não foram consolidadas para esta edição.',
