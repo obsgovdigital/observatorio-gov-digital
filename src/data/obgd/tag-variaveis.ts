@@ -11,7 +11,8 @@ function round1(n: number): number {
 }
 
 function detalheCategoriaKey(dataNivel: DataNivel, codigo: string): string {
-  if (dataNivel === 'nacional') return 'Total'
+  // Nacional e União têm um ente só; a categoria das linhas é `Total`.
+  if (dataNivel === 'nacional' || dataNivel === 'uniao') return 'Total'
   return codigo
 }
 
@@ -56,8 +57,8 @@ export function variaveisDaTagPorEntes(opts: {
     const cat = detalheCategoriaKey(nivel.dataNivel, ente.codigo)
     for (const row of detalhes) {
       if (row.categoria !== cat) continue
-      const chave = `${row.fonte}/${row.indicador}`
-      const meta = indicadorByChave.get(chave)
+      // Catálogo indexado por concept_id (pode diferir de `fonte/indicador`).
+      const meta = indicadorByChave.get(conceptIdOf(row))
       if (!meta?.tags?.includes(opts.tagId)) continue
       const conceptId = conceptIdOf(row)
       const mapKey = `${conceptId}|${row.sub_itens ?? ''}`
@@ -72,8 +73,7 @@ export function variaveisDaTagPorEntes(opts: {
 
   const out: TagVariavelComNotas[] = []
   for (const { row, notas } of byConcept.values()) {
-    const chave = `${row.fonte}/${row.indicador}`
-    const meta = indicadorByChave.get(chave)
+    const meta = indicadorByChave.get(conceptIdOf(row))
     const fonteMeta = fonteById.get(row.fonte)
     const fonteLabel = fonteMeta
       ? `${fonteMeta.nome} (${fonteMeta.instituicao})`

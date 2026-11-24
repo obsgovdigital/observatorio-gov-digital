@@ -28,6 +28,7 @@ export const METODOLOGIA_SLUG_PARA_FONTE_IDS: Record<string, string[]> = {
     'tic_gov',
     'tic_saude',
     'tic_educacao',
+    'tic_educacao_professores',
     'tic_cultura',
     'tic_domicilios',
   ],

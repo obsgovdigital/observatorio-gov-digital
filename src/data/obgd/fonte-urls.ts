@@ -67,6 +67,12 @@ export const FONTES_ACESSO: Record<string, FonteAcesso> = {
         formato: 'ZIP',
         tamanho: '986 KB',
       },
+    ],
+  },
+  /** Coleta de professores da TIC Educação, fonte física própria no catálogo. */
+  tic_educacao_professores: {
+    urlPesquisa: 'https://cetic.br/pt/pesquisa/educacao/',
+    arquivos: [
       {
         label: 'Tabelas ODS 2024 — professores',
         url: 'https://cetic.br/media/microdados/936/tic_educacao_2024_professores_tabelas_ods_v1.0.zip',
