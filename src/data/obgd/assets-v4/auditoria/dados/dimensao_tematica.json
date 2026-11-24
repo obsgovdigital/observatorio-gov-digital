@@ -36,6 +36,24 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj01-cooperacao-interfederativa",
+    "objetivo_id": 1,
+    "nome": "Cooperação interfederativa",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj01-recorte-estadual",
+    "objetivo_id": 1,
+    "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj01-recorte-federal",
+    "objetivo_id": 1,
+    "nome": "Recorte Federal",
+    "tipo": "federativa"
+  },
+  {
     "id": "obj02-informacao-publica-digital",
     "objetivo_id": 2,
     "nome": "Informação pública digital",
@@ -78,12 +96,6 @@
     "tipo": "tematica"
   },
   {
-    "id": "obj02-personalizacao-jornada-ambiente-autenticado",
-    "objetivo_id": 2,
-    "nome": "Personalização da jornada e ambiente autenticado",
-    "tipo": "tematica"
-  },
-  {
     "id": "obj02-linguagem-usabilidade",
     "objetivo_id": 2,
     "nome": "Linguagem e usabilidade",
@@ -114,6 +126,12 @@
     "tipo": "federativa"
   },
   {
+    "id": "obj02-recorte-federal",
+    "objetivo_id": 2,
+    "nome": "Recorte Federal",
+    "tipo": "federativa"
+  },
+  {
     "id": "obj03-autenticacao-digital",
     "objetivo_id": 3,
     "nome": "Autenticação digital",
@@ -135,6 +153,12 @@
     "id": "obj03-recorte-estadual",
     "objetivo_id": 3,
     "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj03-recorte-federal",
+    "objetivo_id": 3,
+    "nome": "Recorte Federal",
     "tipo": "federativa"
   },
   {
@@ -186,6 +210,12 @@
     "tipo": "federativa"
   },
   {
+    "id": "obj04-recorte-federal",
+    "objetivo_id": 4,
+    "nome": "Recorte Federal",
+    "tipo": "federativa"
+  },
+  {
     "id": "obj05-governanca-dados",
     "objetivo_id": 5,
     "nome": "Governança de dados",
@@ -216,9 +246,21 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj05-governanca-responsavel-ia",
+    "objetivo_id": 5,
+    "nome": "Governança responsável de inteligência artificial",
+    "tipo": "tematica"
+  },
+  {
     "id": "obj05-recorte-estadual",
     "objetivo_id": 5,
     "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj05-recorte-federal",
+    "objetivo_id": 5,
+    "nome": "Recorte Federal",
     "tipo": "federativa"
   },
   {
@@ -264,6 +306,12 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj06-orientacoes-uso-ia",
+    "objetivo_id": 6,
+    "nome": "Orientações para uso de inteligência artificial",
+    "tipo": "tematica"
+  },
+  {
     "id": "obj06-recorte-estadual",
     "objetivo_id": 6,
     "nome": "Recorte Estadual",
@@ -273,6 +321,12 @@
     "id": "obj06-recorte-capitais",
     "objetivo_id": 6,
     "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj06-recorte-federal",
+    "objetivo_id": 6,
+    "nome": "Recorte Federal",
     "tipo": "federativa"
   },
   {
@@ -291,6 +345,12 @@
     "id": "obj07-recorte-estadual",
     "objetivo_id": 7,
     "nome": "Recorte Estadual",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj07-recorte-federal",
+    "objetivo_id": 7,
+    "nome": "Recorte Federal",
     "tipo": "federativa"
   },
   {
@@ -330,6 +390,12 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj08-recorte-federal",
+    "objetivo_id": 8,
+    "nome": "Recorte Federal",
+    "tipo": "federativa"
+  },
+  {
     "id": "obj09-transparencia-ativa-dados-abertos",
     "objetivo_id": 9,
     "nome": "Transparência ativa e dados abertos",
@@ -348,6 +414,12 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj09-transparencia-ia",
+    "objetivo_id": 9,
+    "nome": "Transparência no uso de inteligência artificial",
+    "tipo": "tematica"
+  },
+  {
     "id": "obj09-recorte-estadual",
     "objetivo_id": 9,
     "nome": "Recorte Estadual",
@@ -357,6 +429,12 @@
     "id": "obj09-recorte-capitais",
     "objetivo_id": 9,
     "nome": "Recorte de Capitais",
+    "tipo": "federativa"
+  },
+  {
+    "id": "obj09-recorte-federal",
+    "objetivo_id": 9,
+    "nome": "Recorte Federal",
     "tipo": "federativa"
   },
   {
@@ -388,5 +466,11 @@
     "objetivo_id": 10,
     "nome": "Áreas temáticas das capacitações desenvolvidas em TI no SISP",
     "tipo": "tematica"
+  },
+  {
+    "id": "obj10-recorte-federal",
+    "objetivo_id": 10,
+    "nome": "Recorte Federal",
+    "tipo": "federativa"
   }
 ]

@@ -56,6 +56,10 @@ function main() {
     JSON.parse(readFileSync(join(ASSETS, 'detalhes_nacional.json'), 'utf8')),
     fonteNomeById
   )
+  const uniao = uniqByObjetivo(
+    JSON.parse(readFileSync(join(ASSETS, 'detalhes_uniao.json'), 'utf8')),
+    fonteNomeById
+  )
   const estadual = uniqByObjetivo(
     JSON.parse(readFileSync(join(ASSETS, 'detalhes_estadual.json'), 'utf8')),
     fonteNomeById
@@ -65,7 +69,7 @@ function main() {
     fonteNomeById
   )
 
-  const payload = { nacional, estadual, municipios }
+  const payload = { nacional, uniao, estadual, municipios }
   writeFileSync(OUT, `${JSON.stringify(payload)}\n`, 'utf8')
 
   const counts = Object.fromEntries(

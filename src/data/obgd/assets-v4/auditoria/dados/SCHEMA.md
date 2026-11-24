@@ -66,7 +66,7 @@ Chaves: [["id"], ["tipo", "codigo"]]. Uma lista vazia não impõe unicidade simp
 | Campo | Regra |
 |---|---|
 | id | {"type": "integer"} |
-| tipo | {"type": "string", "enum": ["nacional", "uf", "municipio", "capital"]} |
+| tipo | {"type": "string", "enum": ["nacional", "uf", "municipio", "capital", "uniao"]} |
 | codigo | {"type": "string"} |
 | nome | {"type": "string"} |
 | uf_sigla | {"type": "string", "nullable": true} |
@@ -138,7 +138,7 @@ Chaves: []. Uma lista vazia não impõe unicidade simplificada aos fatos.
 | escala | {"type": "string"} |
 | descricao | {"type": "string"} |
 | populacao | {"type": "string", "nullable": true} |
-| dimensao | {"type": "string", "enum": ["nacional", "estadual", "capitais", "municipios"]} |
+| dimensao | {"type": "string", "enum": ["nacional", "estadual", "capitais", "municipios", "uniao"]} |
 
 Relações: [{"fields": ["indicador_chave"], "target": "dados/indicador.json", "target_fields": ["chave"]}, {"fields": ["ente_id"], "target": "dados/ente.json", "target_fields": ["id"]}, {"fields": ["fonte_id"], "target": "dados/fonte.json", "target_fields": ["id"]}, {"fields": ["objetivo_id"], "target": "dados/objetivo_engd.json", "target_fields": ["id"]}].
 

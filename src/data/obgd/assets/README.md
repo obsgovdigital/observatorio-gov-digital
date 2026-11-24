@@ -14,11 +14,12 @@ Subset usado pelo app, versionado no Git para build em CI/hospedagem.
 assets/
 ├── indice_long_por_objetivo.json
 ├── detalhes_nacional.json
+├── detalhes_uniao.json           # recorte federal (União)
 ├── detalhes_estadual.json
 ├── detalhes_municipios.json      # 319 municípios ≥ 100 mil hab.
 ├── variaveis-por-objetivo-nivel.json
 └── dados/
-    ├── ente.json                 # BR + 27 UF + 319 municípios
+    ├── ente.json                 # BR + 27 UF + 319 municípios + União
     ├── fonte.json
     ├── indicador.json            # tags[] + audiencia
     ├── objetivo_engd.json

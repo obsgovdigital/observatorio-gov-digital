@@ -202,7 +202,11 @@ async function main() {
     join(DEST, 'indice_long_por_objetivo.json'),
     await convertIndiceLong()
   )
-  for (const name of ['detalhes_nacional', 'detalhes_estadual']) {
+  for (const name of [
+    'detalhes_nacional',
+    'detalhes_uniao',
+    'detalhes_estadual',
+  ]) {
     writeJson(join(DEST, `${name}.json`), await convertDetalhes(name))
   }
   writeJson(

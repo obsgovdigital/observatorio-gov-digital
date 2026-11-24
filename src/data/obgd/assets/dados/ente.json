@@ -2774,5 +2774,13 @@
     "nome": "Brasília",
     "uf_sigla": "DF",
     "regiao": "CO"
+  },
+  {
+    "id": 375,
+    "tipo": "uniao",
+    "codigo": "UNIAO",
+    "nome": "União",
+    "uf_sigla": null,
+    "regiao": null
   }
 ]

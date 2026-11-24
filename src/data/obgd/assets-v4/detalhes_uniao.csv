@@ -1,0 +1,183 @@
+categoria,objetivo,objetivo_nome,concept_id,fonte,indicador,sub_itens,descricao,escala,populacao,valor_normalizado,ano_fonte,indicador_fisico,indicador_chave
+Total,1,Governança do Governo Digital,tic_gov/B1,tic_gov,B1,total,Área de TI,prop_0_100,ambos,99.2857,2025,B1,tic_gov/B1
+Total,1,Governança do Governo Digital,tic_gov/B5A_A,tic_gov,B5A_A,['A'],Plano estratégico de TI,prop_0_100,orgaos_e_prefeituras,97.14311459400001,2025,B5A,tic_gov/B5A_A
+Total,1,Governança do Governo Digital,tic_gov/B7A,tic_gov,B7A,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI),prop_0_100,orgaos,93.57141082220001,2025,B7A,tic_gov/B7A
+Total,1,Governança do Governo Digital,tic_gov/source/B5A_C,tic_gov,source/B5A_C,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",prop_0_100,ambos,79.2856878777,2025,B5A,tic_gov/source/B5A_C
+Total,1,Governança do Governo Digital,iesgo/source/2123,iesgo,source/2123,total,"Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",prop_0_100,orgaos_federais,40.92,2024,2123,iesgo/source/2123
+Total,1,Governança do Governo Digital,iesgo/source/2133,iesgo,source/2133,total,"Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",prop_0_100,orgaos_federais,76.42,2024,2133,iesgo/source/2133
+Total,1,Governança do Governo Digital,iesgo/source/2153,iesgo,source/2153,total,"Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",prop_0_100,orgaos_federais,59.89,2024,2153,iesgo/source/2153
+Total,1,Governança do Governo Digital,iesgo/source/3132_C,iesgo,source/3132_C,['C'],"Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",prop_0_100,orgaos_federais,60.7,2024,3132,iesgo/source/3132_C
+Total,1,Governança do Governo Digital,iesgo/source/4211,iesgo,source/4211,total,"Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",prop_0_100,orgaos_federais,82.93,2024,4211,iesgo/source/4211
+Total,1,Governança do Governo Digital,iesgo/source/4212,iesgo,source/4212,total,"Plano de TI vigente (iESGo/TCU 2024, questão 4212)",prop_0_100,orgaos_federais,84.01,2024,4212,iesgo/source/4212
+Total,1,Governança do Governo Digital,iesgo/source/4221,iesgo,source/4221,total,"Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",prop_0_100,orgaos_federais,53.93,2024,4221,iesgo/source/4221
+Total,1,Governança do Governo Digital,iesgo/source/4222,iesgo,source/4222,total,"Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",prop_0_100,orgaos_federais,52.3,2024,4222,iesgo/source/4222
+Total,1,Governança do Governo Digital,iesgo/source/4223,iesgo,source/4223,total,"Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",prop_0_100,orgaos_federais,37.13,2024,4223,iesgo/source/4223
+Total,1,Governança do Governo Digital,iesgo/source/4224,iesgo,source/4224,total,"Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",prop_0_100,orgaos_federais,56.37,2024,4224,iesgo/source/4224
+Total,1,Governança do Governo Digital,iesgo/source/4261,iesgo,source/4261,total,"Processo de software (iESGo/TCU 2024, questão 4261)",prop_0_100,orgaos_federais,59.35,2024,4261,iesgo/source/4261
+Total,1,Governança do Governo Digital,iesgo/source/4262,iesgo,source/4262,total,"Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",prop_0_100,orgaos_federais,56.1,2024,4262,iesgo/source/4262
+Total,1,Governança do Governo Digital,igovsisp/G101GP,igovsisp,G101GP,total,Estruturas/diretrizes de governança de TIC,prop_0_100,orgaos_federais_sisp,84.87,2026,G101GP,igovsisp/G101GP
+Total,1,Governança do Governo Digital,igovsisp/G102GP,igovsisp,G102GP,total,Planejamento alinhado à EFGD,prop_0_100,orgaos_federais_sisp,92.02,2026,G102GP,igovsisp/G102GP
+Total,1,Governança do Governo Digital,igovsisp/G103GP,igovsisp,G103GP,total,Comitê de Governança Digital,prop_0_100,orgaos_federais_sisp,90.76,2026,G103GP,igovsisp/G103GP
+Total,1,Governança do Governo Digital,igovsisp/G105GP,igovsisp,G105GP,total,Gerenciamento de projetos de TI,prop_0_100,orgaos_federais_sisp,76.47,2026,G105GP,igovsisp/G105GP
+Total,1,Governança do Governo Digital,igovsisp/G106GPE,igovsisp,G106GPE,total,PDTIC publicado,prop_0_100,orgaos_federais_sisp,86.13,2026,G106GPE,igovsisp/G106GPE
+Total,1,Governança do Governo Digital,igovsisp/G106GPG,igovsisp,G106GPG,total,Usa Guia PDTIC do SISP,prop_0_100,orgaos_federais_sisp,78.57,2026,G106GPG,igovsisp/G106GPG
+Total,1,Governança do Governo Digital,igovsisp/G106GPH,igovsisp,G106GPH,total,Revisão anual do PDTIC,prop_0_100,orgaos_federais_sisp,61.34,2026,G106GPH,igovsisp/G106GPH
+Total,1,Governança do Governo Digital,igovsisp/G106GPL,igovsisp,G106GPL,total,Estimou mínimo pessoal por competência,prop_0_100,orgaos_federais_sisp,38.24,2026,G106GPL,igovsisp/G106GPL
+Total,1,Governança do Governo Digital,igovsisp/G106GPN,igovsisp,G106GPN,total,"Analisou alternativas (IA, cloud)",prop_0_100,orgaos_federais_sisp,43.28,2026,G106GPN,igovsisp/G106GPN
+Total,1,Governança do Governo Digital,igovsisp/G106GPP,igovsisp,G106GPP,total,Detalhou orçamento por contrato,prop_0_100,orgaos_federais_sisp,64.71,2026,G106GPP,igovsisp/G106GPP
+Total,1,Governança do Governo Digital,igovsisp/G106GPQ,igovsisp,G106GPQ,total,Detalhou riscos e tratamento,prop_0_100,orgaos_federais_sisp,56.09,2026,G106GPQ,igovsisp/G106GPQ
+Total,1,Governança do Governo Digital,igovsisp/G106GPR,igovsisp,G106GPR,total,Planejou metas intermediárias,prop_0_100,orgaos_federais_sisp,60.08,2026,G106GPR,igovsisp/G106GPR
+Total,1,Governança do Governo Digital,igovsisp/G107GP,igovsisp,G107GP,total,Orçamento adequado para necessidades de TI,prop_0_100,orgaos_federais_sisp,28.99,2026,G107GP,igovsisp/G107GP
+Total,1,Governança do Governo Digital,igovsisp/G109GP,igovsisp,G109GP,total,Avaliação de políticas de TI no processo orçamentário,prop_0_100,orgaos_federais_sisp,48.32,2026,G109GP,igovsisp/G109GP
+Total,1,Governança do Governo Digital,igovsisp/G111GP,igovsisp,G111GP,total,Framework para gestão de riscos de entregas de TI,prop_0_100,orgaos_federais_sisp,46.64,2026,G111GP,igovsisp/G111GP
+Total,1,Governança do Governo Digital,igovsisp/G112GP,igovsisp,G112GP,total,Gestão eficiente de recursos de TI,prop_0_100,orgaos_federais_sisp,85.71,2026,G112GP,igovsisp/G112GP
+Total,1,Governança do Governo Digital,igovsisp/G114GP,igovsisp,G114GP,total,Previsão orçamentária por cenários alternativos,prop_0_100,orgaos_federais_sisp,55.88,2026,G114GP,igovsisp/G114GP
+Total,1,Governança do Governo Digital,igovsisp/G115GP,igovsisp,G115GP,total,Avaliações regulares de conformidade em TI,prop_0_100,orgaos_federais_sisp,55.46,2026,G115GP,igovsisp/G115GP
+Total,1,Governança do Governo Digital,igovsisp/G116GP,igovsisp,G116GP,total,Registros precisos de ativos de TI,prop_0_100,orgaos_federais_sisp,74.79,2026,G116GP,igovsisp/G116GP
+Total,1,Governança do Governo Digital,igovsisp/G146GP,igovsisp,G146GP,total,PEI/PDI com objetivos de TIC,prop_0_100,orgaos_federais_sisp,86.13,2026,G146GP,igovsisp/G146GP
+Total,1,Governança do Governo Digital,igovsisp/G213SPD,igovsisp,G213SPD,total,Elaboração e execução do Plano de Transformação Digital,prop_0_100,orgaos_federais_sisp,72.69,2026,G213SPD,igovsisp/G213SPD
+Total,1,Governança do Governo Digital,igovsisp/G225SPD,igovsisp,G225SPD,total,Alinhamento estratégico dos investimentos do PTD,prop_0_100,orgaos_federais_sisp,63.45,2026,G225SPD,igovsisp/G225SPD
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C1,tic_gov,C1,total,Presença de website,prop_0_100,orgaos_e_prefeituras,99.2857,2025,C1,tic_gov/C1
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C3,tic_gov,C3,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Tipos de serviço disponibilizados no website,prop_0_100,orgaos,92.85714949640001,2025,C3,tic_gov/C3
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_A,tic_gov,C6B_A,['A'],Envio de SMS para o cidadão,prop_0_100,orgaos_e_prefeituras,17.857,2025,C6B,tic_gov/C6B_A
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_B,tic_gov,C6B_B,['B'],Recebimento de SMS enviado pelo cidadão,prop_0_100,orgaos_e_prefeituras,11.429,2025,C6B,tic_gov/C6B_B
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_C,tic_gov,C6B_C,['C'],Aplicativo criado pelo ente,prop_0_100,orgaos_e_prefeituras,57.857,2025,C6B,tic_gov/C6B_C
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_D,tic_gov,C6B_D,['D'],Website adaptado para dispositivos móveis,prop_0_100,orgaos_e_prefeituras,83.571,2025,C6B,tic_gov/C6B_D
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_E,tic_gov,C6B_E,['E'],Envio de mensagens por WhatsApp ou Telegram,prop_0_100,orgaos_e_prefeituras,38.571,2025,C6B,tic_gov/C6B_E
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_CHATBOT,tic_gov,E1_CHATBOT,['CHATBOT'],Atendimento automatizado por assistente virtual ou chatbot,prop_0_100,orgaos_e_prefeituras,36.42851904420001,2025,E1,tic_gov/E1_CHATBOT
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_COMPLAINT,tic_gov,E1_COMPLAINT,['COMPLAINT'],Denúncia online como forma de contato,prop_0_100,orgaos_e_prefeituras,90.71436551900001,2025,E1,tic_gov/E1_COMPLAINT
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_EMAIL,tic_gov,E1_EMAIL,['EMAIL'],Endereço de e-mail como forma de contato,prop_0_100,orgaos_e_prefeituras,96.4285554111,2025,E1,tic_gov/E1_EMAIL
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FOI_REQUEST,tic_gov,E1_FOI_REQUEST,['FOI_REQUEST'],Serviço de solicitação de acesso à informação,prop_0_100,orgaos_e_prefeituras,90.0000049075,2025,E1,tic_gov/E1_FOI_REQUEST
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FORM,tic_gov,E1_FORM,['FORM'],Formulário eletrônico como forma de contato,prop_0_100,orgaos_e_prefeituras,75.00041778000002,2025,E1,tic_gov/E1_FORM
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_LIVE_CHAT,tic_gov,E1_LIVE_CHAT,['LIVE_CHAT'],Chat com atendentes em tempo real,prop_0_100,orgaos_e_prefeituras,32.142851803700005,2025,E1,tic_gov/E1_LIVE_CHAT
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_SUGGESTIONS,tic_gov,E1_SUGGESTIONS,['SUGGESTIONS'],Canal de sugestões para melhoria de serviços públicos,prop_0_100,orgaos_e_prefeituras,84.2857157297,2025,E1,tic_gov/E1_SUGGESTIONS
+Total,2,Qualidade dos Serviços Digitais,tic_gov/source/C10,tic_gov,source/C10,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE COLETARAM DADOS OU ESTATÍSTICAS SOBRE O USO DOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES,prop_0_100,ambos,62.85708167010001,2025,C10,tic_gov/source/C10
+Total,2,Qualidade dos Serviços Digitais,tic_gov/source/C11,tic_gov,source/C11,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE MEDIRAM A SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES,prop_0_100,ambos,55.71417055500001,2025,C11,tic_gov/source/C11
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G206SPD,igovsisp,G206SPD,total,Monitoramento da satisfação com sistemas e serviços públicos digitais,prop_0_100,orgaos_federais_sisp,63.87,2026,G206SPD,igovsisp/G206SPD
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G226SPD,igovsisp,G226SPD,total,Alinhamento dos investimentos do PTD à acessibilidade,prop_0_100,orgaos_federais_sisp,41.6,2026,G226SPD,igovsisp/G226SPD
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G628IPD,igovsisp,G628IPD,total,"2.1.2.5. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:",prop_0_100,orgaos_federais_sisp,68.91,2026,G628IPD,igovsisp/G628IPD
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G631IPD,igovsisp,G631IPD,total,Integração dos serviços ao módulo de avaliação de satisfação,prop_0_100,orgaos_federais_sisp,46.85,2026,G631IPD,igovsisp/G631IPD
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G632IPD,igovsisp,G632IPD,total,2.1.2.9. Seu órgão possui algum aplicativo móvel?,prop_0_100,orgaos_federais_sisp,42.86,2026,G632IPD,igovsisp/G632IPD
+Total,3,Identificação Única,tic_gov/C9B_A,tic_gov,C9B_A,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,38.571,2025,C9B,tic_gov/C9B_A
+Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,63.07,2026,G630IPD,igovsisp/G630IPD
+Total,4,Segurança e LGPD,tic_gov/B5A_B,tic_gov,B5A_B,['B'],Plano de segurança da informação,prop_0_100,orgaos_e_prefeituras,89.285644296,2025,B5A,tic_gov/B5A_B
+Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,93.571,2025,G1,tic_gov/G1
+Total,4,Segurança e LGPD,tic_gov/G3_A,tic_gov,G3_A,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,ambos,92.857,2025,G3,tic_gov/G3_A
+Total,4,Segurança e LGPD,tic_gov/G3_B,tic_gov,G3_B,['B'],Canal online sobre o uso de dados pessoais,prop_0_100,ambos,78.571,2025,G3,tic_gov/G3_B
+Total,4,Segurança e LGPD,tic_gov/G3_C,tic_gov,G3_C,['C'],Política de privacidade publicada com bases legais,prop_0_100,orgaos,60.0,2025,G3,tic_gov/G3_C
+Total,4,Segurança e LGPD,tic_gov/G3_D,tic_gov,G3_D,['D'],Plano de resposta a incidentes relacionados a dados pessoais,prop_0_100,orgaos,54.2857,2025,G3,tic_gov/G3_D
+Total,4,Segurança e LGPD,tic_gov/source/B13_A,tic_gov,source/B13_A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,97.8571,2025,B13,tic_gov/source/B13_A
+Total,4,Segurança e LGPD,tic_gov/source/B13_B,tic_gov,source/B13_B,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,82.1429,2025,B13,tic_gov/source/B13_B
+Total,4,Segurança e LGPD,tic_gov/source/B13_C,tic_gov,source/B13_C,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,96.4286,2025,B13,tic_gov/source/B13_C
+Total,4,Segurança e LGPD,tic_gov/source/B13_D,tic_gov,source/B13_D,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,94.2857,2025,B13,tic_gov/source/B13_D
+Total,4,Segurança e LGPD,tic_gov/source/B13_E,tic_gov,source/B13_E,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,80.0,2025,B13,tic_gov/source/B13_E
+Total,4,Segurança e LGPD,tic_gov/source/G3_E,tic_gov,source/G3_E,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR AÇÕES RELACIONADAS À LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)",prop_0_100,orgaos,54.2857,2025,G3,tic_gov/source/G3_E
+Total,4,Segurança e LGPD,iesgo/source/4231,iesgo,source/4231,total,"Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",prop_0_100,orgaos_federais,43.9,2024,4231,iesgo/source/4231
+Total,4,Segurança e LGPD,iesgo/source/4232,iesgo,source/4232,total,"Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",prop_0_100,orgaos_federais,44.72,2024,4232,iesgo/source/4232
+Total,4,Segurança e LGPD,iesgo/source/4233,iesgo,source/4233,total,"Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",prop_0_100,orgaos_federais,28.73,2024,4233,iesgo/source/4233
+Total,4,Segurança e LGPD,iesgo/source/4241,iesgo,source/4241,total,"Política de segurança da informação (iESGo/TCU 2024, questão 4241)",prop_0_100,orgaos_federais,75.61,2024,4241,iesgo/source/4241
+Total,4,Segurança e LGPD,iesgo/source/4242,iesgo,source/4242,total,"Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",prop_0_100,orgaos_federais,66.67,2024,4242,iesgo/source/4242
+Total,4,Segurança e LGPD,iesgo/source/4243,iesgo,source/4243,total,"Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",prop_0_100,orgaos_federais,57.45,2024,4243,iesgo/source/4243
+Total,4,Segurança e LGPD,iesgo/source/4251,iesgo,source/4251,total,"Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",prop_0_100,orgaos_federais,53.39,2024,4251,iesgo/source/4251
+Total,4,Segurança e LGPD,iesgo/source/4252,iesgo,source/4252,total,"Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",prop_0_100,orgaos_federais,46.07,2024,4252,iesgo/source/4252
+Total,4,Segurança e LGPD,iesgo/source/4253,iesgo,source/4253,total,"Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",prop_0_100,orgaos_federais,60.43,2024,4253,iesgo/source/4253
+Total,5,Dados e Interoperabilidade,tic_gov/B7B,tic_gov,B7B,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE GOVERNANÇA DE DADOS,prop_0_100,orgaos,63.571442281600014,2025,B7B,tic_gov/B7B
+Total,5,Dados e Interoperabilidade,tic_gov/H1,tic_gov,H1,total,Análise big data,prop_0_100,ambos,37.1429,2025,H1,tic_gov/H1
+Total,5,Dados e Interoperabilidade,tic_gov/source/B5A_D,tic_gov,source/B5A_D,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",prop_0_100,ambos,49.285719337100005,2025,B5A,tic_gov/source/B5A_D
+Total,5,Dados e Interoperabilidade,igovsisp/G222SPD,igovsisp,G222SPD,total,Integração de sistemas e bases internas e externas,prop_0_100,orgaos_federais_sisp,79.83,2026,G222SPD,igovsisp/G222SPD
+Total,5,Dados e Interoperabilidade,igovsisp/G301DI,igovsisp,G301DI,total,Relevância e suficiência dados,prop_0_100,orgaos_federais_sisp,39.92,2026,G301DI,igovsisp/G301DI
+Total,5,Dados e Interoperabilidade,igovsisp/G307DI,igovsisp,G307DI,total,Decisão baseada em dados,prop_0_100,orgaos_federais_sisp,51.26,2026,G307DI,igovsisp/G307DI
+Total,5,Dados e Interoperabilidade,igovsisp/G308DI,igovsisp,G308DI,total,Capacidade analítica,prop_0_100,orgaos_federais_sisp,42.86,2026,G308DI,igovsisp/G308DI
+Total,5,Dados e Interoperabilidade,igovsisp/G309DI,igovsisp,G309DI,total,Cultura de dados promovida pela alta gestão,prop_0_100,orgaos_federais_sisp,53.36,2026,G309DI,igovsisp/G309DI
+Total,5,Dados e Interoperabilidade,igovsisp/G310DI,igovsisp,G310DI,total,Uso sistemático de dados nas decisões,prop_0_100,orgaos_federais_sisp,42.86,2026,G310DI,igovsisp/G310DI
+Total,5,Dados e Interoperabilidade,igovsisp/G311DI,igovsisp,G311DI,total,Documentação ativos de dados,prop_0_100,orgaos_federais_sisp,44.12,2026,G311DI,igovsisp/G311DI
+Total,5,Dados e Interoperabilidade,igovsisp/G312DI,igovsisp,G312DI,total,Glossário termos de negócio,prop_0_100,orgaos_federais_sisp,20.59,2026,G312DI,igovsisp/G312DI
+Total,5,Dados e Interoperabilidade,igovsisp/G313DI,igovsisp,G313DI,total,Dados mestres e de referência,prop_0_100,orgaos_federais_sisp,16.81,2026,G313DI,igovsisp/G313DI
+Total,5,Dados e Interoperabilidade,igovsisp/G314DI,igovsisp,G314DI,total,Política dados abertos,prop_0_100,orgaos_federais_sisp,57.56,2026,G314DI,igovsisp/G314DI
+Total,5,Dados e Interoperabilidade,igovsisp/G315DI,igovsisp,G315DI,total,Ecossistema dados abertos,prop_0_100,orgaos_federais_sisp,34.87,2026,G315DI,igovsisp/G315DI
+Total,5,Dados e Interoperabilidade,igovsisp/G321DI,igovsisp,G321DI,total,Princípios e políticas de dados,prop_0_100,orgaos_federais_sisp,31.09,2026,G321DI,igovsisp/G321DI
+Total,5,Dados e Interoperabilidade,igovsisp/G322DI,igovsisp,G322DI,total,Estrutura de governança de dados,prop_0_100,orgaos_federais_sisp,36.13,2026,G322DI,igovsisp/G322DI
+Total,5,Dados e Interoperabilidade,igovsisp/G324DI,igovsisp,G324DI,total,Gestão de metadados,prop_0_100,orgaos_federais_sisp,31.51,2026,G324DI,igovsisp/G324DI
+Total,5,Dados e Interoperabilidade,igovsisp/G325DI,igovsisp,G325DI,total,Ciclo de vida dados,prop_0_100,orgaos_federais_sisp,31.51,2026,G325DI,igovsisp/G325DI
+Total,5,Dados e Interoperabilidade,igovsisp/G326DI,igovsisp,G326DI,total,Dados não estruturados,prop_0_100,orgaos_federais_sisp,36.55,2026,G326DI,igovsisp/G326DI
+Total,5,Dados e Interoperabilidade,igovsisp/G328DI,igovsisp,G328DI,total,Padrões interoperabilidade,prop_0_100,orgaos_federais_sisp,23.53,2026,G328DI,igovsisp/G328DI
+Total,5,Dados e Interoperabilidade,igovsisp/G329DI,igovsisp,G329DI,total,Integração de sistemas,prop_0_100,orgaos_federais_sisp,38.66,2026,G329DI,igovsisp/G329DI
+Total,5,Dados e Interoperabilidade,igovsisp/G330DI,igovsisp,G330DI,total,Monitoramento interoperabilidade,prop_0_100,orgaos_federais_sisp,8.4,2026,G330DI,igovsisp/G330DI
+Total,5,Dados e Interoperabilidade,igovsisp/G333DI,igovsisp,G333DI,total,Governança e gestão de dados para entregas à sociedade,prop_0_100,orgaos_federais_sisp,56.3,2026,G333DI,igovsisp/G333DI
+Total,5,Dados e Interoperabilidade,igovsisp/G334DI,igovsisp,G334DI,total,Ética no tratamento dados,prop_0_100,orgaos_federais_sisp,16.81,2026,G334DI,igovsisp/G334DI
+Total,5,Dados e Interoperabilidade,igovsisp/G336DI,igovsisp,G336DI,total,Compartilhamento dados externos,prop_0_100,orgaos_federais_sisp,25.21,2026,G336DI,igovsisp/G336DI
+Total,5,Dados e Interoperabilidade,igovsisp/G359DI,igovsisp,G359DI,total,Modelagem de dados,prop_0_100,orgaos_federais_sisp,47.48,2026,G359DI,igovsisp/G359DI
+Total,5,Dados e Interoperabilidade,igovsisp/G361DI,igovsisp,G361DI,total,Alinhamento dados-objetivos estratégicos,prop_0_100,orgaos_federais_sisp,40.76,2026,G361DI,igovsisp/G361DI
+Total,5,Dados e Interoperabilidade,igovsisp/G381DI,igovsisp,G381DI,total,Letramento em dados,prop_0_100,orgaos_federais_sisp,37.82,2026,G381DI,igovsisp/G381DI
+Total,5,Dados e Interoperabilidade,igovsisp/G382DI,igovsisp,G382DI,total,Dados geoespaciais,prop_0_100,orgaos_federais_sisp,7.56,2026,G382DI,igovsisp/G382DI
+Total,5,Dados e Interoperabilidade,igovsisp/G383DI,igovsisp,G383DI,total,Infraestrutura análise dados,prop_0_100,orgaos_federais_sisp,51.26,2026,G383DI,igovsisp/G383DI
+Total,5,Dados e Interoperabilidade,igovsisp/G384DI,igovsisp,G384DI,total,Gestão qualidade dados,prop_0_100,orgaos_federais_sisp,16.81,2026,G384DI,igovsisp/G384DI
+Total,5,Dados e Interoperabilidade,igovsisp/G385DI,igovsisp,G385DI,total,Cultura qualidade dados,prop_0_100,orgaos_federais_sisp,9.24,2026,G385DI,igovsisp/G385DI
+Total,5,Dados e Interoperabilidade,igovsisp/G386DI,igovsisp,G386DI,total,Medição e controle qualidade,prop_0_100,orgaos_federais_sisp,8.4,2026,G386DI,igovsisp/G386DI
+Total,5,Dados e Interoperabilidade,igovsisp/G403DI,igovsisp,G403DI,total,3.1.3.11. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?,prop_0_100,orgaos_federais_sisp,41.6,2026,G403DI,igovsisp/G403DI
+Total,5,Dados e Interoperabilidade,igovsisp/G33112DI,igovsisp,G33112DI,total,3.1.1.2. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?,prop_0_100,orgaos_federais_sisp,18.07,2026,G33112DI,igovsisp/G33112DI
+Total,5,Dados e Interoperabilidade,igovsisp/G33117DI,igovsisp,G33117DI,total,"3.1.1.7. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?",prop_0_100,orgaos_federais_sisp,25.63,2026,G33117DI,igovsisp/G33117DI
+Total,5,Dados e Interoperabilidade,igovsisp/G33118DI,igovsisp,G33118DI,total,3.1.1.8. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?,prop_0_100,orgaos_federais_sisp,17.65,2026,G33118DI,igovsisp/G33118DI
+Total,5,Dados e Interoperabilidade,igovsisp/G33119DI,igovsisp,G33119DI,total,"3.1.1.9. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?",prop_0_100,orgaos_federais_sisp,3.78,2026,G33119DI,igovsisp/G33119DI
+Total,5,Dados e Interoperabilidade,igovsisp/G33141DI,igovsisp,G33141DI,total,3.1.4.1. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?,prop_0_100,orgaos_federais_sisp,63.03,2026,G33141DI,igovsisp/G33141DI
+Total,5,Dados e Interoperabilidade,igovsisp/G331312DI,igovsisp,G331312DI,total,"3.1.3.12. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?",prop_0_100,orgaos_federais_sisp,14.29,2026,G331312DI,igovsisp/G331312DI
+Total,5,Dados e Interoperabilidade,igovsisp/G331315DI,igovsisp,G331315DI,total,3.1.3.15. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?,prop_0_100,orgaos_federais_sisp,31.93,2026,G331315DI,igovsisp/G331315DI
+Total,6,Infraestrutura,tic_gov/B9B,tic_gov,B9B,"['A', 'B', 'C', 'D']",Contratação de serviços de computação em nuvem,prop_0_100,ambos,87.8571,2025,B9B,tic_gov/B9B
+Total,6,Infraestrutura,tic_gov/source/H3E_A,tic_gov,source/H3E_A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",prop_0_100,ambos,42.8571,2025,H3E,tic_gov/source/H3E_A
+Total,6,Infraestrutura,igovsisp/G607IPD,igovsisp,G607IPD,total,Documentação ativos rede,prop_0_100,orgaos_federais_sisp,87.82,2026,G607IPD,igovsisp/G607IPD
+Total,6,Infraestrutura,igovsisp/G608IPD,igovsisp,G608IPD,total,Monitoramento rede,prop_0_100,orgaos_federais_sisp,76.05,2026,G608IPD,igovsisp/G608IPD
+Total,6,Infraestrutura,igovsisp/G609IPD,igovsisp,G609IPD,total,Manutenção preventiva rede,prop_0_100,orgaos_federais_sisp,81.93,2026,G609IPD,igovsisp/G609IPD
+Total,6,Infraestrutura,igovsisp/G625IPD,igovsisp,G625IPD,total,Maturidade computação em nuvem,prop_0_100,orgaos_federais_sisp,34.87,2026,G625IPD,igovsisp/G625IPD
+Total,6,Infraestrutura,igovsisp/G634IPD,igovsisp,G634IPD,total,Maturidade adoção IPv6,prop_0_100,orgaos_federais_sisp,35.29,2026,G634IPD,igovsisp/G634IPD
+Total,6,Infraestrutura,igovsisp/G636IPD,igovsisp,G636IPD,total,"6.1.1.10. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?",prop_0_100,orgaos_federais_sisp,35.71,2026,G636IPD,igovsisp/G636IPD
+Total,6,Infraestrutura,igovsisp/G637IPD,igovsisp,G637IPD,total,Portaria 5.950/2023 (nuvem),prop_0_100,orgaos_federais_sisp,10.08,2026,G637IPD,igovsisp/G637IPD
+Total,6,Infraestrutura,igovsisp/G641IPD,igovsisp,G641IPD,total,6.1.1.6. O órgão possui rede de Longa Distância (link WAN)?,prop_0_100,orgaos_federais_sisp,61.34,2026,G641IPD,igovsisp/G641IPD
+Total,6,Infraestrutura,igovsisp/G642IPD,igovsisp,G642IPD,total,6.1.2.1. O órgão possui contrato de nuvem?,prop_0_100,orgaos_federais_sisp,36.55,2026,G642IPD,igovsisp/G642IPD
+Total,6,Infraestrutura,igovsisp/G6001IPD,igovsisp,G6001IPD,total,"6.1.1.1. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?",prop_0_100,orgaos_federais_sisp,45.8,2026,G6001IPD,igovsisp/G6001IPD
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/H3,tic_gov,H3,total,Uso de IA,prop_0_100,ambos,70.0,2025,H3,tic_gov/H3
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/H4,tic_gov,H4,total,Uso de IoT,prop_0_100,ambos,20.0,2025,H4,tic_gov/H4
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_A,tic_gov,source/H3F_A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,21.428399999999996,2025,H3F,tic_gov/source/H3F_A
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_B,tic_gov,source/H3F_B,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,6.428799999999999,2025,H3F,tic_gov/source/H3F_B
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_C,tic_gov,source/H3F_C,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,42.1428,2025,H3F,tic_gov/source/H3F_C
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_D,tic_gov,source/H3F_D,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,15.7143,2025,H3F,tic_gov/source/H3F_D
+Total,7,Inovação e Tecnologias Emergentes,igovsisp/G337DI,igovsisp,G337DI,total,Estratégia de IA,prop_0_100,orgaos_federais_sisp,17.23,2026,G337DI,igovsisp/G337DI
+Total,8,Eficiência e Processos,igovsisp/G208SPD,igovsisp,G208SPD,total,Utilização do SEI,prop_0_100,orgaos_federais_sisp,74.37,2026,G208SPD,igovsisp/G208SPD
+Total,8,Eficiência e Processos,igovsisp/G214SPD,igovsisp,G214SPD,total,Eficiência e produtividade percebidas após transformação digital,prop_0_100,orgaos_federais_sisp,70.59,2026,G214SPD,igovsisp/G214SPD
+Total,8,Eficiência e Processos,igovsisp/G224SPD,igovsisp,G224SPD,total,Prática de avaliação do valor público dos sistemas digitais,prop_0_100,orgaos_federais_sisp,27.73,2026,G224SPD,igovsisp/G224SPD
+Total,8,Eficiência e Processos,igovsisp/G502CTI,igovsisp,G502CTI,total,IN SGD/ME nº 94/2022 (proc. contratação TIC),prop_0_100,orgaos_federais_sisp,96.22,2026,G502CTI,igovsisp/G502CTI
+Total,8,Eficiência e Processos,igovsisp/G504CTI,igovsisp,G504CTI,total,Portaria 750/2023 (software),prop_0_100,orgaos_federais_sisp,61.76,2026,G504CTI,igovsisp/G504CTI
+Total,8,Eficiência e Processos,igovsisp/G505CTI,igovsisp,G505CTI,total,Portaria 1.070/2023 (infraestrutura),prop_0_100,orgaos_federais_sisp,65.13,2026,G505CTI,igovsisp/G505CTI
+Total,8,Eficiência e Processos,igovsisp/G506CTI,igovsisp,G506CTI,total,Portaria 2.715/2023 (estações),prop_0_100,orgaos_federais_sisp,66.81,2026,G506CTI,igovsisp/G506CTI
+Total,8,Eficiência e Processos,igovsisp/G507CTI,igovsisp,G507CTI,total,Definição requisitos contratação,prop_0_100,orgaos_federais_sisp,98.74,2026,G507CTI,igovsisp/G507CTI
+Total,8,Eficiência e Processos,igovsisp/G508CTI,igovsisp,G508CTI,total,Procedimentos padronizados,prop_0_100,orgaos_federais_sisp,90.76,2026,G508CTI,igovsisp/G508CTI
+Total,8,Eficiência e Processos,igovsisp/G511CTI,igovsisp,G511CTI,total,Gestão de contratos de TI,prop_0_100,orgaos_federais_sisp,96.22,2026,G511CTI,igovsisp/G511CTI
+Total,8,Eficiência e Processos,igovsisp/G513CTI,igovsisp,G513CTI,total,Pessoal para contratações de TI,prop_0_100,orgaos_federais_sisp,50.42,2026,G513CTI,igovsisp/G513CTI
+Total,8,Eficiência e Processos,igovsisp/G516CTI,igovsisp,G516CTI,total,Concordância sobre conhecimento aprofundado das normas de contratação,prop_0_100,orgaos_federais_sisp,74.37,2026,G516CTI,igovsisp/G516CTI
+Total,8,Eficiência e Processos,igovsisp/G517CTI,igovsisp,G517CTI,total,Critérios sustentáveis em contratações,prop_0_100,orgaos_federais_sisp,94.54,2026,G517CTI,igovsisp/G517CTI
+Total,8,Eficiência e Processos,igovsisp/G520CTI,igovsisp,G520CTI,total,Acessibilidade digital em editais (eMAG/WCAG),prop_0_100,orgaos_federais_sisp,46.64,2026,G520CTI,igovsisp/G520CTI
+Total,8,Eficiência e Processos,igovsisp/G644IPD,igovsisp,G644IPD,total,6.1.3.2. As ferramentas de produtividade e colaboração adotadas estão integradas aos processos de trabalho e sistemas corporativos do órgão?,prop_0_100,orgaos_federais_sisp,65.97,2026,G644IPD,igovsisp/G644IPD
+Total,9,Transparência e Participação,tic_gov/E2A,tic_gov,E2A,total,Ouvidoria online,prop_0_100,orgaos_e_prefeituras,94.285672148,2025,E2A,tic_gov/E2A
+Total,9,Transparência e Participação,tic_gov/E4A,tic_gov,E4A,"['A', 'B', 'C', 'D']",Participação social,prop_0_100,orgaos_e_prefeituras,54.2857,2025,E4A,tic_gov/E4A
+Total,9,Transparência e Participação,igovsisp/G400DI,igovsisp,G400DI,total,3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?,prop_0_100,orgaos_federais_sisp,16.39,2026,G400DI,igovsisp/G400DI
+Total,10,Competências em Governo Digital,tic_gov/G2,tic_gov,G2,total,Capacitação sobre a LGPD para funcionários de TI,prop_0_100,orgaos_e_prefeituras,84.285616444,2025,G2,tic_gov/G2
+Total,10,Competências em Governo Digital,igovsisp/G106GPO,igovsisp,G106GPO,total,Detalhou capacitações e orçamentos,prop_0_100,orgaos_federais_sisp,43.07,2026,G106GPO,igovsisp/G106GPO
+Total,10,Competências em Governo Digital,igovsisp/G119GP,igovsisp,G119GP,total,Força de trabalho de TIC: Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,80.25,2026,G119GP,igovsisp/G119GP
+Total,10,Competências em Governo Digital,igovsisp/G120GP,igovsisp,G120GP,total,Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,83.61,2026,G120GP,igovsisp/G120GP
+Total,10,Competências em Governo Digital,igovsisp/G121GP,igovsisp,G121GP,total,Força de trabalho de TIC: Dados e Informações,prop_0_100,orgaos_federais_sisp,62.61,2026,G121GP,igovsisp/G121GP
+Total,10,Competências em Governo Digital,igovsisp/G122GP,igovsisp,G122GP,total,Força de trabalho de TIC: Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,64.71,2026,G122GP,igovsisp/G122GP
+Total,10,Competências em Governo Digital,igovsisp/G123GP,igovsisp,G123GP,total,Força de trabalho de TIC: Contratações de TI,prop_0_100,orgaos_federais_sisp,79.41,2026,G123GP,igovsisp/G123GP
+Total,10,Competências em Governo Digital,igovsisp/G124GP,igovsisp,G124GP,total,Força de trabalho de TIC: Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,80.25,2026,G124GP,igovsisp/G124GP
+Total,10,Competências em Governo Digital,igovsisp/G130GP,igovsisp,G130GP,total,"Titulares de funções de TI efetivos, empregados públicos ou militares",prop_0_100,orgaos_federais_sisp,96.01,2026,G130GP,igovsisp/G130GP
+Total,10,Competências em Governo Digital,igovsisp/G131GP,igovsisp,G131GP,total,Define competências necessárias para pessoal de TI,prop_0_100,orgaos_federais_sisp,77.31,2026,G131GP,igovsisp/G131GP
+Total,10,Competências em Governo Digital,igovsisp/G132GP,igovsisp,G132GP,total,Critérios para pedidos de capacitação,prop_0_100,orgaos_federais_sisp,72.27,2026,G132GP,igovsisp/G132GP
+Total,10,Competências em Governo Digital,igovsisp/G133GP,igovsisp,G133GP,total,Plano de capacitação periódico,prop_0_100,orgaos_federais_sisp,74.37,2026,G133GP,igovsisp/G133GP
+Total,10,Competências em Governo Digital,igovsisp/G134GP,igovsisp,G134GP,total,Executa plano de capacitação,prop_0_100,orgaos_federais_sisp,45.8,2026,G134GP,igovsisp/G134GP
+Total,10,Competências em Governo Digital,igovsisp/G135GP,igovsisp,G135GP,total,Avalia execução do plano de capacitação,prop_0_100,orgaos_federais_sisp,41.6,2026,G135GP,igovsisp/G135GP
+Total,10,Competências em Governo Digital,igovsisp/G136GP,igovsisp,G136GP,total,Incentivos para competências de TI,prop_0_100,orgaos_federais_sisp,44.96,2026,G136GP,igovsisp/G136GP
+Total,10,Competências em Governo Digital,igovsisp/G137GP,igovsisp,G137GP,total,Capacitações em Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,51.26,2026,G137GP,igovsisp/G137GP
+Total,10,Competências em Governo Digital,igovsisp/G138GP,igovsisp,G138GP,total,Capacitações em Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,47.48,2026,G138GP,igovsisp/G138GP
+Total,10,Competências em Governo Digital,igovsisp/G139GP,igovsisp,G139GP,total,Capacitações em Dados e Informações,prop_0_100,orgaos_federais_sisp,42.44,2026,G139GP,igovsisp/G139GP
+Total,10,Competências em Governo Digital,igovsisp/G140GP,igovsisp,G140GP,total,Capacitações em Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,57.56,2026,G140GP,igovsisp/G140GP
+Total,10,Competências em Governo Digital,igovsisp/G141GP,igovsisp,G141GP,total,Capacitações em Contratações de TI,prop_0_100,orgaos_federais_sisp,57.56,2026,G141GP,igovsisp/G141GP
+Total,10,Competências em Governo Digital,igovsisp/G142GP,igovsisp,G142GP,total,Capacitações em Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,50.0,2026,G142GP,igovsisp/G142GP
+Total,10,Competências em Governo Digital,igovsisp/G143GP,igovsisp,G143GP,total,1.2.1.4. O órgão possui cargo e/ou carreira própria de TIC?,prop_0_100,orgaos_federais_sisp,34.03,2026,G143GP,igovsisp/G143GP

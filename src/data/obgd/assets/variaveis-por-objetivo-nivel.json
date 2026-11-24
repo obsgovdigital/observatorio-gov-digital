@@ -2,9 +2,24 @@
   "nacional": {
     "1": [
       {
-        "id": "tic_gov/B8_C",
-        "nome": "Acompanhamento de projetos",
-        "fonte": "TIC Governo Eletrônico"
+        "id": "iospd/IOSPD_E26_101",
+        "nome": "1.1 POSSUI ESTRATÉGIA DE GOVERNO DIGITAL VIGENTE EM 2026?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_102",
+        "nome": "1.2 EXISTE UMA INSTITUIÇÃO RESPONSÁVEL POR LIDERAR E COORDENAR AS DECISÕES DE GOVERNO DIGITAL E / OU DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO E ASSEGURAR SUA IMPLEMENTAÇÃO DE FORMA TRANSVERSAL NO ESTADO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_103",
+        "nome": "1.3 EXISTE UM ÓRGÃO/ESTRUTURA FORMAL COLEGIADO DE COORDENAÇÃO RESPONSÁVEL POR DIRECIONAR TRANSVERSALMENTE AS POLÍTICAS E INICIATIVAS DE GOVERNO DIGITAL OU TIC?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_506",
+        "nome": "5.6 O ESTADO POSSUI INICIATIVA OU PROGRAMA PARA APOIAR A TRANSFORMAÇÃO DIGITAL DOS SEUS MUNICÍPIOS?",
+        "fonte": "IOSPD"
       },
       {
         "id": "igovsisp/G225SPD",
@@ -47,11 +62,6 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "tic_gov/B7",
-        "nome": "Comitê de governança TI",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
         "id": "igovsisp/G106GPP",
         "nome": "Detalhou orçamento por contrato",
         "fonte": "iGovSISP"
@@ -72,11 +82,6 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "iospd/IOSPD_I10",
-        "nome": "Estratégia de governo digital (IOSPD I.10)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "munic/MUNIC_TI_ESTRUTURA",
         "nome": "Estrutura organizacional de TI na prefeitura",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -95,26 +100,6 @@
         "id": "igovsisp/G105GP",
         "nome": "Gerenciamento de projetos de TI",
         "fonte": "iGovSISP"
-      },
-      {
-        "id": "tic_gov/B8_E",
-        "nome": "Gerenciamento de serviços",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B8_B",
-        "nome": "Gestão de contratos",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B8_F",
-        "nome": "Gestão de infraestrutura de TI",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B8_A",
-        "nome": "Gestão de riscos",
-        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G112GP",
@@ -140,6 +125,16 @@
         "id": "igovsisp/G107GP",
         "nome": "Orçamento adequado para necessidades de TI",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/B5A_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/B7A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI)",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G106GPE",
@@ -217,11 +212,6 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "tic_gov/B8_D",
-        "nome": "Tratamento de incidentes",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
         "id": "igovsisp/G106GPG",
         "nome": "Usa Guia PDTIC do SISP",
         "fonte": "iGovSISP"
@@ -229,19 +219,119 @@
     ],
     "2": [
       {
+        "id": "iospd/IOSPD_E26_107",
+        "nome": "1.7 POSSUI UM PORTAL ÚNICO OU UM PORTAL DIGITAL DE SERVIÇOS DISPONÍVEL AO CIDADÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_109",
+        "nome": "1.9 POSSUI OPÇÕES DE PAGAMENTOS DE SERVIÇOS DISPONÍVEIS AOS CIDADÃOS ATRAVÉS DE PIX OU CARTÃO DE CRÉDITO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_201",
+        "nome": "2.1 DISPONIBILIZA SERVIÇO DIGITAL DE REMATRÍCULA ONLINE NAS ESCOLAS ESTADUAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "igovsisp/G628IPD",
+        "nome": "2.1.2.5. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G632IPD",
+        "nome": "2.1.2.9. Seu órgão possui algum aplicativo móvel?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iospd/IOSPD_E26_210",
+        "nome": "2.10 DISPONIBILIZA TRANSFERÊNCIA DIGITAL DE VEÍCULOS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_212",
+        "nome": "2.12 O ESTADO OFERECE ACESSO A SERVIÇOS DE SAÚDE POR MEIO DE UMA PLATAFORMA DIGITAL (OU APLICATIVO)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_202",
+        "nome": "2.2 DISPONIBILIZA SERVIÇO DIGITAL PARA SOLICITAÇÃO DE MEDICAMENTOS DO COMPONENTE ESPECIALIZADO DA ASSISTÊNCIA FARMACÊUTICA (CEAF)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_203",
+        "nome": "2.3 O ESTADO OFERECE SERVIÇOS ESTRUTURADOS DE TELESSAÚDE PARA O CIDADÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_204",
+        "nome": "2.4 DISPONIBILIZA PROVA DE VIDA ONLINE PARA SERVIDORES, APOSENTADOS E PENSIONISTAS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_205",
+        "nome": "2.5 DISPONIBILIZA FUNCIONALIDADE DE APRESENTAÇÃO DE RECURSO E DEFESA ONLINE PARA INFRAÇÕES DE TRÂNSITO EM ÂMBITO ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_206",
+        "nome": "2.6 DISPONIBILIZA CONSULTA ONLINE DOS MEDICAMENTOS DISPONÍVEIS NA REDE ESTADUAL DE SAÚDE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_207",
+        "nome": "2.7 A REDE ESTADUAL DE SAÚDE DISPONIBILIZA A EMISSÃO E O ENVIO ONLINE DE RECEITA MÉDICA AO CIDADÃO, APÓS AVALIAÇÃO CLÍNICA POR PROFISSIONAL HABILITADO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_208",
+        "nome": "2.8 DISPONIBILIZA SERVIÇO DE SOLICITAÇÃO E EMISSÃO ONLINE DE CERTIFICADO DE CONCLUSÃO DO ENSINO MÉDIO NAS ESCOLAS DA REDE ESTADUAL DE EDUCAÇÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_209",
+        "nome": "2.9 DISPONIBILIZA SERVIÇOS DE TRANSFERÊNCIA ONLINE DE ALUNOS ENTRE ESCOLAS DA REDE ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_305",
+        "nome": "3.5 POSSUI NORMA, MANUAL OU DIRETRIZ OFICIAL SOBRE LINGUAGEM SIMPLES APLICADA À COMUNICAÇÃO PÚBLICA?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_401",
+        "nome": "4.1 OS SERVIÇOS PÚBLICOS ESTÃO DESCRITOS COM LINGUAGEM SIMPLES?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_402",
+        "nome": "4.2 O ESTADO POSSUI UM KIT DE FERRAMENTAS PARA FORMALIZAR O PROCESSO DE PARTICIPAÇÃO DOS CIDADÃOS E EMPRESAS NO DESENHO, TESTE OU MELHORIA DOS SERVIÇOS DIGITAIS, REALIZANDO TESTES DE USABILIDADE E COMPREENSÃO COM USUÁRIOS REAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_403",
+        "nome": "4.3 POSSUI EM OPERAÇÃO UMA ESTRATÉGIA DE OMNICANALIDADE QUE INTEGRE DIFERENTES CANAIS DE ATENDIMENTO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_404",
+        "nome": "4.4 QUAL O GRAU DE ADAPTAÇÃO DO PORTAL ÚNICO OU DE SERVIÇOS PARA GARANTIR ACESSIBILIDADE A PESSOAS COM DEFICIÊNCIA AUDITIVA E VISUAL, EM CONFORMIDADE COM AS LEGISLAÇÕES VIGENTES, LEI Nº 13.146/2015 E COM OS PADRÕES DE ACESSIBILIDADE (EMAG, W3C)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_405",
+        "nome": "4.5 OS CIDADÃOS EFETIVAMENTE ACESSAM E UTILIZAM O PORTAL DE SERVIÇOS DIGITAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_407",
+        "nome": "4.7 POSSUI METODOLOGIA E FERRAMENTA DE AVALIAÇÃO DA SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS PÚBLICOS PRESTADOS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_ACESSIBILIDADE",
         "nome": "Acessibilidade da página e serviços eletrônicos",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_V09",
-        "nome": "Acessibilidade da plataforma digital (IOSPD V.9)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_I03",
-        "nome": "Agendamento digital unificado (IOSPD I.3)",
-        "fonte": "IOSPD"
       },
       {
         "id": "igovsisp/G226SPD",
@@ -249,24 +339,9 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "iospd/IOSPD_V04",
-        "nome": "Ambiente autenticado e personalizado de serviços (IOSPD V.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV08",
-        "nome": "Aplicação da técnica de Linguagem Simples (IOSPD IV.8)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/C6B_C",
         "nome": "Aplicativo criado pelo ente",
         "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "iospd/IOSPD_V01",
-        "nome": "Aplicativo móvel para portal de serviços (IOSPD V.1)",
-        "fonte": "IOSPD"
       },
       {
         "id": "munic/MUNIC_CELULAR_APP_PREF",
@@ -309,16 +384,6 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_I04",
-        "nome": "Avaliação de satisfação dos usuários (IOSPD I.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III01d",
-        "nome": "Avaliação de Serviços Públicos normatizada (IOSPD III.1d)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "munic/MUNIC_SMART_BILHETE",
         "nome": "Bilhete eletrônico no transporte público",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -329,39 +394,14 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_II08",
-        "nome": "Boletim de ocorrência online violência doméstica (IOSPD II.8)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/E1_SUGGESTIONS",
         "nome": "Canal de sugestões para melhoria de serviços públicos",
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "iospd/IOSPD_III01a",
-        "nome": "Carta de Serviços normatizada (IOSPD III.1a)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V06",
-        "nome": "Certidão Negativa Estadual online (IOSPD V.6)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/E1_LIVE_CHAT",
         "nome": "Chat com atendentes em tempo real",
         "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "iospd/IOSPD_III01c",
-        "nome": "Conselho de Usuários normatizado (IOSPD III.1c)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II09",
-        "nome": "Consulta online medicamentos disponíveis (IOSPD II.9)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_gov/E1_COMPLAINT",
@@ -377,16 +417,6 @@
         "id": "munic/MUNIC_CELULAR_BOLETOS",
         "nome": "Emissão de boletos ou guias de pagamento",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_II11",
-        "nome": "Emissão online diplomas ensino médio (IOSPD II.11)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II10",
-        "nome": "Emissão/envio de receita médica online (IOSPD II.10)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_gov/E1_EMAIL",
@@ -409,11 +439,6 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "iospd/IOSPD_I12",
-        "nome": "Ferramenta digital integrada de atendimento (IOSPD I.12)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_ATEND_DISTANCIA",
         "nome": "Formas de atendimento a distância ao cidadão",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
@@ -424,34 +449,14 @@
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "iospd/IOSPD_IV02",
-        "nome": "Frases curtas com ação única (IOSPD IV.2)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_FREQ_REDES",
         "nome": "Frequência de atualização do conteúdo nas redes sociais",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_I06",
-        "nome": "Gestão de cadastro e perfil do cidadão (IOSPD I.6)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "igovsisp/G631IPD",
         "nome": "Integração dos serviços ao módulo de avaliação de satisfação",
         "fonte": "iGovSISP"
-      },
-      {
-        "id": "iospd/IOSPD_V05",
-        "nome": "Licenciamento de veículo com pagamento eletrônico (IOSPD V.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV09",
-        "nome": "Mecanismo de melhoria na apresentação (IOSPD IV.9)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_gov/C5B",
@@ -479,34 +484,19 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "iospd/IOSPD_I07",
-        "nome": "Ouvidoria integrada ao portal (IOSPD I.7)",
-        "fonte": "IOSPD"
+        "id": "tic_gov/source/C10",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE COLETARAM DADOS OU ESTATÍSTICAS SOBRE O USO DOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "iospd/IOSPD_III01b",
-        "nome": "Ouvidorias Públicas normatizadas (IOSPD III.1b)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V03",
-        "nome": "Pagamento por PIX/cartão digital (IOSPD V.3)",
-        "fonte": "IOSPD"
+        "id": "tic_gov/source/C11",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE MEDIRAM A SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "munic/PAGINA_POSSUI_TITULO",
         "nome": "Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2)",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_IV04",
-        "nome": "Parágrafos curtos (IOSPD IV.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_I01",
-        "nome": "Portal único ou de serviços (IOSPD I.1)",
-        "fonte": "IOSPD"
       },
       {
         "id": "munic/MUNIC_PAGINA_INTERNET",
@@ -529,11 +519,6 @@
         "fonte": "TIC Saúde"
       },
       {
-        "id": "iospd/IOSPD_II04",
-        "nome": "Prova de vida online (IOSPD II.4)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/C6B_B",
         "nome": "Recebimento de SMS enviado pelo cidadão",
         "fonte": "TIC Governo Eletrônico"
@@ -542,21 +527,6 @@
         "id": "munic/MUNIC_CELULAR_SMS_RECEB",
         "nome": "Recebimento de SMS pelo cidadão",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_II05",
-        "nome": "Recurso/defesa online infrações de trânsito (IOSPD II.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II06",
-        "nome": "Registro digital reclamação CDC (IOSPD II.6)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II01",
-        "nome": "Rematrícula online escolas estaduais (IOSPD II.1)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_domicilios/G2A",
@@ -669,24 +639,9 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_I08",
-        "nome": "Simplificação de serviços online (IOSPD I.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II02",
-        "nome": "Solicitação de medicamento de alto custo digital (IOSPD II.2)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "munic/MUNIC_ACESS_SALTAR",
         "nome": "Tecnologia assistiva para saltar itens repetitivos",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_II03",
-        "nome": "Tele-atendimento saúde por videoconferência (IOSPD II.3)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_saude/C2",
@@ -694,24 +649,9 @@
         "fonte": "TIC Saúde"
       },
       {
-        "id": "iospd/IOSPD_IV01",
-        "nome": "Tempos verbais 2ª/3ª pessoa (IOSPD IV.1)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV06",
-        "nome": "Texto sem caracteres especiais (IOSPD IV.6)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/C3",
         "nome": "Tipos de serviço disponibilizados no website",
         "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "iospd/IOSPD_IV03",
-        "nome": "Título objetivo e curto (IOSPD IV.3)",
-        "fonte": "IOSPD"
       },
       {
         "id": "munic/MUNIC_ACESS_LIBRAS",
@@ -719,29 +659,9 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "iospd/IOSPD_V08",
-        "nome": "Transferência digital de veículos (IOSPD V.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II12",
-        "nome": "Transferência online entre escolas estaduais (IOSPD II.12)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_domicilios/G1",
         "nome": "Uso de governo eletrônico (indicador publicado G1)",
         "fonte": "TIC Domicílios"
-      },
-      {
-        "id": "iospd/IOSPD_IV05",
-        "nome": "Uso do tempo presente (IOSPD IV.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV07",
-        "nome": "Vocabulário de fácil entendimento (IOSPD IV.7)",
-        "fonte": "IOSPD"
       },
       {
         "id": "tic_saude/C5",
@@ -761,19 +681,19 @@
     ],
     "3": [
       {
+        "id": "iospd/IOSPD_E26_108",
+        "nome": "1.8 UTILIZA SOLUÇÃO DE ASSINATURA ELETRÔNICA CORPORATIVA PRÓPRIA OU DO GOV.BR?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_303",
+        "nome": "3.3 O USO DE ASSINATURAS ELETRÔNICAS EM INTERAÇÕES COM ENTES PÚBLICOS FOI NORMATIZADO PELO GOVERNO ESTADUAL/DISTRITAL, CONFORME PREVISTO PELA LEI FEDERAL 14.063/2020?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "munic/MUNIC_AUTENTICACAO",
         "nome": "Abrangência declarada do acesso com a conta GOV.BR",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "iospd/IOSPD_I09",
-        "nome": "Assinatura eletrônica Gov.br (IOSPD I.9)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III04",
-        "nome": "Assinaturas eletrônicas normatizadas (IOSPD III.4)",
-        "fonte": "IOSPD"
       },
       {
         "id": "cin/atingimento_meta_cin",
@@ -792,6 +712,16 @@
       }
     ],
     "4": [
+      {
+        "id": "iospd/IOSPD_E26_110",
+        "nome": "1.10 EXISTE UMA UNIDADE OPERACIONAL DE CIBERSEGURANÇA FORMALMENTE ESTABELECIDA E ATUALMENTE ATIVA?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_111",
+        "nome": "1.11 POSSUI UMA EQUIPE DE RESPOSTA A INCIDENTES (CERT) FORMALIZADA OU EQUIVALENTE?",
+        "fonte": "IOSPD"
+      },
       {
         "id": "estadic/ESTADIC_LGPD_CANAL_TITULAR",
         "nome": "Canal internet para titulares de dados (LGPD)",
@@ -828,11 +758,6 @@
         "fonte": "TIC Saúde"
       },
       {
-        "id": "iospd/IOSPD_III07",
-        "nome": "Consentimento LGPD no portal (IOSPD III.7)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "iesgo/source/4251",
         "nome": "Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",
         "fonte": "iESGo"
@@ -851,6 +776,21 @@
         "id": "tic_gov/G3_C_PREF",
         "nome": "Documento de papéis e responsabilidades sobre a LGPD",
         "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_educacao/source/H2A",
+        "nome": "ESCOLAS PÚBLICAS QUE RECEBERAM ORIENTAÇÕES DA REDE DE ENSINO SOBRE O TRATAMENTO DE DADOS PESSOAIS DE ALUNOS, PROFESSORES E FUNCIONÁRIOS",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/H1",
+        "nome": "ESCOLAS QUE POSSUEM DOCUMENTO QUE DEFINE A POLÍTICA DE PROTEÇÃO DE DADOS E DE SEGURANÇA DA INFORMAÇÃO NA INSTITUIÇÃO",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/H3",
+        "nome": "ESCOLAS, POR REALIZAÇÃO DE DEBATES OU PALESTRAS SOBRE PRIVACIDADE E PROTEÇÃO DE DADOS NOS ÚLTIMOS 12 MESES",
+        "fonte": "TIC Educação"
       },
       {
         "id": "tic_saude/A10",
@@ -886,6 +826,36 @@
         "id": "tic_saude/A12_A",
         "nome": "Nomeação de encarregado de dados pessoais (DPO) (C10_A quest. → A12 item A portal)",
         "fonte": "TIC Saúde"
+      },
+      {
+        "id": "tic_gov/source/G3_E",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR AÇÕES RELACIONADAS À LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_E",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "tic_saude/A12_E",
@@ -960,6 +930,66 @@
     ],
     "5": [
       {
+        "id": "iospd/IOSPD_E26_104",
+        "nome": "1.4 EXISTE ESTRUTURA COLEGIADA DE GOVERNANÇA DE DADOS INSTITUÍDA FORMALMENTE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_106",
+        "nome": "1.6 O ESTADO POSSUI UM FRAMEWORK DE INTEROPERABILIDADE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "igovsisp/G33112DI",
+        "nome": "3.1.1.2. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33117DI",
+        "nome": "3.1.1.7. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33118DI",
+        "nome": "3.1.1.8. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33119DI",
+        "nome": "3.1.1.9. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G403DI",
+        "nome": "3.1.3.11. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331312DI",
+        "nome": "3.1.3.12. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331315DI",
+        "nome": "3.1.3.15. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33141DI",
+        "nome": "3.1.4.1. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iospd/IOSPD_E26_306",
+        "nome": "3.6 QUAIS PADRÕES OU DIRETRIZES DE GESTÃO DE DADOS EXISTEM NO NÍVEL ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_504",
+        "nome": "5.4 HÁ USO DE APIS ABERTAS QUE PERMITAM QUE TERCEIROS (STARTUPS, EMPRESAS, UNIVERSIDADES OU SOCIEDADE CIVIL) CRIEM APLICAÇÕES, INTEGREM DADOS OU DESENVOLVAM NOVOS SERVIÇOS PÚBLICOS DIGITAIS COM BASE EM DADOS GOVERNAMENTAIS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "igovsisp/G361DI",
         "nome": "Alinhamento dados-objetivos estratégicos",
         "fonte": "iGovSISP"
@@ -1030,6 +1060,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "tic_saude/B10",
+        "nome": "ESTABELECIMENTOS DE SAÚDE, POR INTEGRAÇÃO À REDE NACIONAL DE DADOS EM SAÚDE (RNDS)",
+        "fonte": "TIC Saúde"
+      },
+      {
         "id": "igovsisp/G322DI",
         "nome": "Estrutura de governança de dados",
         "fonte": "iGovSISP"
@@ -1053,11 +1088,6 @@
         "id": "igovsisp/G312DI",
         "nome": "Glossário termos de negócio",
         "fonte": "iGovSISP"
-      },
-      {
-        "id": "iospd/IOSPD_I05",
-        "nome": "Governança de dados (IOSPD I.5)",
-        "fonte": "IOSPD"
       },
       {
         "id": "igovsisp/G333DI",
@@ -1103,6 +1133,16 @@
         "id": "igovsisp/G330DI",
         "nome": "Monitoramento interoperabilidade",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/B5A_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/B7B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE GOVERNANÇA DE DADOS",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G328DI",
@@ -1187,9 +1227,44 @@
         "fonte": "Censo Escolar"
       },
       {
+        "id": "iospd/IOSPD_E26_112",
+        "nome": "1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_406",
+        "nome": "4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "igovsisp/G6001IPD",
+        "nome": "6.1.1.1. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G636IPD",
+        "nome": "6.1.1.10. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G641IPD",
+        "nome": "6.1.1.6. O órgão possui rede de Longa Distância (link WAN)?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G642IPD",
+        "nome": "6.1.2.1. O órgão possui contrato de nuvem?",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "munic/MUNIC_WIFI_PUBLICO",
         "nome": "Acesso público à Internet (Wi-Fi) pela prefeitura",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
+      },
+      {
+        "id": "tic_educacao/G4",
+        "nome": "Ambientes digitais de aprendizagem e avaliação",
+        "fonte": "TIC Educação"
       },
       {
         "id": "munic/MUNIC_SMART_CENTRO_CONTROLE",
@@ -1225,6 +1300,21 @@
         "id": "igovsisp/G607IPD",
         "nome": "Documentação ativos rede",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_educacao/source/C4_2",
+        "nome": "ESCOLAS QUE PERMITEM QUE OS ALUNOS UTILIZEM A INTERNET OU OS COMPUTADORES DA INSTITUIÇÃO FORA DO HORÁRIO DE AULA",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/E5A",
+        "nome": "ESCOLAS QUE POSSUEM GUIA DE ORIENTAÇÕES SOBRE O USO DE INTELIGÊNCIA ARTIFICIAL NAS ATIVIDADES DE ENSINO, DE APRENDIZAGEM E DE GESTÃO",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/C5_1",
+        "nome": "ESCOLAS, POR USO DE COMPUTADORES E DA INTERNET DA ESCOLA PELA COMUNIDADE",
+        "fonte": "TIC Educação"
       },
       {
         "id": "munic/MUNIC_SMART_ILUMINACAO",
@@ -1282,14 +1372,14 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "tic_gov/F2C_F",
-        "nome": "Outros objetos monitorados pelo centro de operações",
+        "id": "tic_gov/source/H3E_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "tic_educacao/G4",
-        "nome": "Plataformas digitais EAD (P42 quest. → G4 portal)",
-        "fonte": "TIC Educação"
+        "id": "tic_gov/F2C_F",
+        "nome": "Outros objetos monitorados pelo centro de operações",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G637IPD",
@@ -1314,6 +1404,26 @@
     ],
     "7": [
       {
+        "id": "iospd/IOSPD_E26_501",
+        "nome": "5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_502",
+        "nome": "5.2 O ESTADO JÁ UTILIZOU SOLUÇÕES BASEADAS EM INTELIGÊNCIA ARTIFICIAL PARA APOIAR A OFERTA OU MELHORIA DE SERVIÇOS PÚBLICOS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_503",
+        "nome": "5.3 O ESTADO REALIZOU COMPRAS PÚBLICAS PARA INOVAÇÃO (CPIN) NO ÚLTIMO ANO (2025), CONFORME OS INSTRUMENTOS PREVISTOS NA LEI Nº 14.133/2021, LEI Nº 10.973/2004 E NO MARCO LEGAL DAS STARTUPS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_505",
+        "nome": "5.5 O ESTADO POSSUI UM LABORATÓRIO DE INOVAÇÃO (OU ESTRUTURA EQUIVALENTE) VOLTADO AO DESENHO, TESTE E EXPERIMENTAÇÃO DE NOVAS SOLUÇÕES DIGITAIS, ENVOLVENDO SERVIDORES, CIDADÃOS E PARCEIROS EXTERNOS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_CAPACIT_EMPREEND",
         "nome": "Capacitação para empreendedorismo digital (Etic243)",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
@@ -1329,9 +1439,29 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "iospd/IOSPD_III06",
-        "nome": "Laboratório de Inovação em Governo (IOSPD III.6)",
-        "fonte": "IOSPD"
+        "id": "tic_educacao/source/D9A",
+        "nome": "GESTORES ESCOLARES QUE ADOTAM INTELIGÊNCIA ARTIFICIAL NA GESTÃO PEDAGÓGICA, ADMINISTRATIVA OU FINANCEIRA DA INSTITUIÇÃO",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_gov/source/H3F_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "estadic/ESTADIC_PREMIO_INOVACAO",
@@ -1349,17 +1479,17 @@
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "iospd/IOSPD_V02",
-        "nome": "Uso de IA/ciência de dados em serviço público (IOSPD V.2)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "tic_gov/H4",
         "nome": "Uso de IoT",
         "fonte": "TIC Governo Eletrônico"
       }
     ],
     "8": [
+      {
+        "id": "igovsisp/G644IPD",
+        "nome": "6.1.3.2. As ferramentas de produtividade e colaboração adotadas estão integradas aos processos de trabalho e sistemas corporativos do órgão?",
+        "fonte": "iGovSISP"
+      },
       {
         "id": "igovsisp/G520CTI",
         "nome": "Acessibilidade digital em editais (eMAG/WCAG)",
@@ -1386,6 +1516,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "tic_educacao/source/E1D",
+        "nome": "ESCOLAS QUE UTILIZAM PROGRAMAS, SISTEMAS OU PLATAFORMAS DIGITAIS NA GESTÃO ESCOLAR",
+        "fonte": "TIC Educação"
+      },
+      {
         "id": "tic_saude/B4",
         "nome": "Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal)",
         "fonte": "TIC Saúde"
@@ -1396,9 +1531,9 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "iospd/IOSPD_III02",
-        "nome": "Grupos de desburocratização regulamentados (IOSPD III.2)",
-        "fonte": "IOSPD"
+        "id": "tic_educacao/source/D8_E",
+        "nome": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
+        "fonte": "TIC Educação"
       },
       {
         "id": "igovsisp/G502CTI",
@@ -1446,11 +1581,6 @@
         "fonte": "TIC Saúde"
       },
       {
-        "id": "tic_gov/C8",
-        "nome": "Realização de pregão eletrônico",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
         "id": "tic_educacao/E1",
         "nome": "Registro eletrônico (P33 quest. → E1 portal)",
         "fonte": "TIC Educação"
@@ -1458,26 +1588,6 @@
       {
         "id": "tic_gov/B4_I",
         "nome": "Sistema de apoio à decisão",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_E",
-        "nome": "Sistema de compras",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_G",
-        "nome": "Sistema de contratos",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_F",
-        "nome": "Sistema de convênios",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_D",
-        "nome": "Sistema de finanças e contabilidade",
         "fonte": "TIC Governo Eletrônico"
       },
       {
@@ -1491,33 +1601,13 @@
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "tic_educacao/E1A",
-        "nome": "Sistema de gestão online (P33a quest. → E1A portal)",
-        "fonte": "TIC Educação"
-      },
-      {
         "id": "tic_gov/B4_H",
         "nome": "Sistema de informação geográfica, mapas ou geoprocessamento",
         "fonte": "TIC Governo Eletrônico"
       },
       {
-        "id": "tic_gov/B4_C",
-        "nome": "Sistema de orçamento",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_B",
-        "nome": "Sistema de patrimônio",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
         "id": "tic_gov/B4_J",
         "nome": "Sistema de protocolos",
-        "fonte": "TIC Governo Eletrônico"
-      },
-      {
-        "id": "tic_gov/B4_A",
-        "nome": "Sistema de recursos humanos",
         "fonte": "TIC Governo Eletrônico"
       },
       {
@@ -1528,8 +1618,13 @@
     ],
     "9": [
       {
-        "id": "iospd/IOSPD_I11",
-        "nome": "Cartas de Serviços na Base Nacional (IOSPD I.11)",
+        "id": "igovsisp/G400DI",
+        "nome": "3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iospd/IOSPD_E26_408",
+        "nome": "4.8 POSSUI PLATAFORMA OU ALGUM OUTRO MECANISMO PARA PARTICIPAÇÃO DIGITAL? (POR EXEMPLO, PARTICIPA +)",
         "fonte": "IOSPD"
       },
       {
@@ -1610,14 +1705,1021 @@
     ],
     "10": [
       {
+        "id": "igovsisp/G143GP",
+        "nome": "1.2.1.4. O órgão possui cargo e/ou carreira própria de TIC?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iospd/IOSPD_E26_105",
+        "nome": "1.5 A INSTITUIÇÃO RESPONSÁVEL POR LIDERAR AS DECISÕES DE GOVERNO DIGITAL (OU OUTRA) CONTRIBUI COM O DESENVOLVIMENTO DE COMPETÊNCIAS DIGITAIS PARA OS SERVIDORES PÚBLICOS ESTADUAIS? MARQUE AS FORMAS COMO SE APLICA:",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "tic_educacao/P42a_G",
         "nome": "Atividades com alunos sobre impactos da inteligência artificial (P42a_G quest. → G2 item G portal)",
-        "fonte": "TIC Educação"
+        "fonte": "TIC Educação — Professores"
       },
       {
         "id": "tic_educacao/G2_C",
         "nome": "Atividades com alunos sobre privacidade e dados pessoais",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "igovsisp/G135GP",
+        "nome": "Avalia execução do plano de capacitação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/G2",
+        "nome": "Capacitação sobre a LGPD para funcionários de TI",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G141GP",
+        "nome": "Capacitações em Contratações de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G139GP",
+        "nome": "Capacitações em Dados e Informações",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G137GP",
+        "nome": "Capacitações em Gestão e Planejamento de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G142GP",
+        "nome": "Capacitações em Infraestrutura e Plataformas Digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G140GP",
+        "nome": "Capacitações em Privacidade e Segurança da Informação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G138GP",
+        "nome": "Capacitações em Sistemas e Serviços Públicos Digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G132GP",
+        "nome": "Critérios para pedidos de capacitação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G131GP",
+        "nome": "Define competências necessárias para pessoal de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPO",
+        "nome": "Detalhou capacitações e orçamentos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_educacao/source/I5",
+        "nome": "ESCOLAS QUE REALIZAM PROJETOS PARA OS ALUNOS SOBRE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",
         "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/I5H",
+        "nome": "ESCOLAS, POR INTERAÇÃO ENTRE ESCOLA E FAMÍLIA NA PROMOÇÃO DE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/I4A",
+        "nome": "ESCOLAS, TIPOS DE PROJETOS ARTÍSTICOS, CULTURAIS E ESPORTIVOS PARA OS ALUNOS MANTIDOS PELA ESCOLA",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "igovsisp/G134GP",
+        "nome": "Executa plano de capacitação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G123GP",
+        "nome": "Força de trabalho de TIC: Contratações de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G121GP",
+        "nome": "Força de trabalho de TIC: Dados e Informações",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G119GP",
+        "nome": "Força de trabalho de TIC: Gestão e Planejamento de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G124GP",
+        "nome": "Força de trabalho de TIC: Infraestrutura e Plataformas Digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G122GP",
+        "nome": "Força de trabalho de TIC: Privacidade e Segurança da Informação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G120GP",
+        "nome": "Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_educacao/H3",
+        "nome": "Formação continuada TIC (P45a quest. → H3 portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_I",
+        "nome": "Formação: adaptação aos ritmos de aprendizagem (P49A2_N quest. → H7 item I portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_D",
+        "nome": "Formação: avaliação da veracidade e compartilhamento responsável (P49A2_I quest. → H7 item D portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_F",
+        "nome": "Formação: computação, programação ou robótica na educação (P49A2_K1 quest. → H7 item F portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_C",
+        "nome": "Formação: criação de conteúdos educacionais com plataformas e aplicativos (P49A2_G quest. → H7 item C portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_H",
+        "nome": "Formação: educação midiática e uso crítico das mídias (P49A2_M quest. → H7 item H portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_G",
+        "nome": "Formação: inteligência artificial em atividades educacionais (P49A2_L quest. → H7 item G portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/H7_E",
+        "nome": "Formação: proteção à privacidade e aos dados pessoais (P49A2_J quest. → H7 item E portal)",
+        "fonte": "TIC Educação — Professores"
+      },
+      {
+        "id": "tic_educacao/source/D8_C",
+        "nome": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "tic_educacao/source/D8_F",
+        "nome": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
+        "fonte": "TIC Educação"
+      },
+      {
+        "id": "igovsisp/G136GP",
+        "nome": "Incentivos para competências de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G133GP",
+        "nome": "Plano de capacitação periódico",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G130GP",
+        "nome": "Titulares de funções de TI efetivos, empregados públicos ou militares",
+        "fonte": "iGovSISP"
+      }
+    ]
+  },
+  "uniao": {
+    "1": [
+      {
+        "id": "igovsisp/G225SPD",
+        "nome": "Alinhamento estratégico dos investimentos do PTD",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPN",
+        "nome": "Analisou alternativas (IA, cloud)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/B1",
+        "nome": "Área de TI",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "iesgo/source/3132_C",
+        "nome": "Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "igovsisp/G109GP",
+        "nome": "Avaliação de políticas de TI no processo orçamentário",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G115GP",
+        "nome": "Avaliações regulares de conformidade em TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iesgo/source/4221",
+        "nome": "Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "igovsisp/G103GP",
+        "nome": "Comitê de Governança Digital",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPP",
+        "nome": "Detalhou orçamento por contrato",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPQ",
+        "nome": "Detalhou riscos e tratamento",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G213SPD",
+        "nome": "Elaboração e execução do Plano de Transformação Digital",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPL",
+        "nome": "Estimou mínimo pessoal por competência",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G101GP",
+        "nome": "Estruturas/diretrizes de governança de TIC",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G111GP",
+        "nome": "Framework para gestão de riscos de entregas de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G105GP",
+        "nome": "Gerenciamento de projetos de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G112GP",
+        "nome": "Gestão eficiente de recursos de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iesgo/source/2153",
+        "nome": "Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/2123",
+        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/2133",
+        "nome": "Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "igovsisp/G107GP",
+        "nome": "Orçamento adequado para necessidades de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/B5A_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/B7A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI)",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G106GPE",
+        "nome": "PDTIC publicado",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G146GP",
+        "nome": "PEI/PDI com objetivos de TIC",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G102GP",
+        "nome": "Planejamento alinhado à EFGD",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPR",
+        "nome": "Planejou metas intermediárias",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iesgo/source/4212",
+        "nome": "Plano de TI vigente (iESGo/TCU 2024, questão 4212)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "tic_gov/B5A_A",
+        "nome": "Plano estratégico de TI",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G114GP",
+        "nome": "Previsão orçamentária por cenários alternativos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "iesgo/source/4223",
+        "nome": "Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4224",
+        "nome": "Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4222",
+        "nome": "Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4262",
+        "nome": "Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4211",
+        "nome": "Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4261",
+        "nome": "Processo de software (iESGo/TCU 2024, questão 4261)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "igovsisp/G116GP",
+        "nome": "Registros precisos de ativos de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPH",
+        "nome": "Revisão anual do PDTIC",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G106GPG",
+        "nome": "Usa Guia PDTIC do SISP",
+        "fonte": "iGovSISP"
+      }
+    ],
+    "2": [
+      {
+        "id": "igovsisp/G628IPD",
+        "nome": "2.1.2.5. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G632IPD",
+        "nome": "2.1.2.9. Seu órgão possui algum aplicativo móvel?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G226SPD",
+        "nome": "Alinhamento dos investimentos do PTD à acessibilidade",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/C6B_C",
+        "nome": "Aplicativo criado pelo ente",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_CHATBOT",
+        "nome": "Atendimento automatizado por assistente virtual ou chatbot",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_SUGGESTIONS",
+        "nome": "Canal de sugestões para melhoria de serviços públicos",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_LIVE_CHAT",
+        "nome": "Chat com atendentes em tempo real",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_COMPLAINT",
+        "nome": "Denúncia online como forma de contato",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_EMAIL",
+        "nome": "Endereço de e-mail como forma de contato",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C6B_E",
+        "nome": "Envio de mensagens por WhatsApp ou Telegram",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C6B_A",
+        "nome": "Envio de SMS para o cidadão",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_FORM",
+        "nome": "Formulário eletrônico como forma de contato",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G631IPD",
+        "nome": "Integração dos serviços ao módulo de avaliação de satisfação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G206SPD",
+        "nome": "Monitoramento da satisfação com sistemas e serviços públicos digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/C10",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE COLETARAM DADOS OU ESTATÍSTICAS SOBRE O USO DOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/C11",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE MEDIRAM A SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C1",
+        "nome": "Presença de website",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C6B_B",
+        "nome": "Recebimento de SMS enviado pelo cidadão",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E1_FOI_REQUEST",
+        "nome": "Serviço de solicitação de acesso à informação",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C3",
+        "nome": "Tipos de serviço disponibilizados no website",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/C6B_D",
+        "nome": "Website adaptado para dispositivos móveis",
+        "fonte": "TIC Governo Eletrônico"
+      }
+    ],
+    "3": [
+      {
+        "id": "igovsisp/G630IPD",
+        "nome": "Integração dos serviços à sociedade ao Login Único",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/C9B_A",
+        "nome": "Login único Gov.br para acesso a serviços online",
+        "fonte": "TIC Governo Eletrônico"
+      }
+    ],
+    "4": [
+      {
+        "id": "tic_gov/G3_B",
+        "nome": "Canal online sobre o uso de dados pessoais",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "iesgo/source/4252",
+        "nome": "Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4242",
+        "nome": "Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4251",
+        "nome": "Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4233",
+        "nome": "Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4232",
+        "nome": "Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4231",
+        "nome": "Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "iesgo/source/4243",
+        "nome": "Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "tic_gov/G3_A",
+        "nome": "Nomeação de encarregado de dados pessoais (DPO)",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/G3_E",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR AÇÕES RELACIONADAS À LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/B13_E",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/G3_D",
+        "nome": "Plano de resposta a incidentes relacionados a dados pessoais",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/B5A_B",
+        "nome": "Plano de segurança da informação",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/G3_C",
+        "nome": "Política de privacidade publicada com bases legais",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "iesgo/source/4241",
+        "nome": "Política de segurança da informação (iESGo/TCU 2024, questão 4241)",
+        "fonte": "iESGo"
+      },
+      {
+        "id": "tic_gov/G1",
+        "nome": "Responsável LGPD",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "iesgo/source/4253",
+        "nome": "Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",
+        "fonte": "iESGo"
+      }
+    ],
+    "5": [
+      {
+        "id": "igovsisp/G33112DI",
+        "nome": "3.1.1.2. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33117DI",
+        "nome": "3.1.1.7. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33118DI",
+        "nome": "3.1.1.8. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33119DI",
+        "nome": "3.1.1.9. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G403DI",
+        "nome": "3.1.3.11. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331312DI",
+        "nome": "3.1.3.12. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331315DI",
+        "nome": "3.1.3.15. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G33141DI",
+        "nome": "3.1.4.1. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G361DI",
+        "nome": "Alinhamento dados-objetivos estratégicos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/H1",
+        "nome": "Análise big data",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G308DI",
+        "nome": "Capacidade analítica",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G325DI",
+        "nome": "Ciclo de vida dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G336DI",
+        "nome": "Compartilhamento dados externos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G309DI",
+        "nome": "Cultura de dados promovida pela alta gestão",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G385DI",
+        "nome": "Cultura qualidade dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G382DI",
+        "nome": "Dados geoespaciais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G313DI",
+        "nome": "Dados mestres e de referência",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G326DI",
+        "nome": "Dados não estruturados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G307DI",
+        "nome": "Decisão baseada em dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G311DI",
+        "nome": "Documentação ativos de dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G315DI",
+        "nome": "Ecossistema dados abertos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G322DI",
+        "nome": "Estrutura de governança de dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G334DI",
+        "nome": "Ética no tratamento dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G324DI",
+        "nome": "Gestão de metadados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G384DI",
+        "nome": "Gestão qualidade dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G312DI",
+        "nome": "Glossário termos de negócio",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G333DI",
+        "nome": "Governança e gestão de dados para entregas à sociedade",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G383DI",
+        "nome": "Infraestrutura análise dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G329DI",
+        "nome": "Integração de sistemas",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G222SPD",
+        "nome": "Integração de sistemas e bases internas e externas",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G381DI",
+        "nome": "Letramento em dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G386DI",
+        "nome": "Medição e controle qualidade",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G359DI",
+        "nome": "Modelagem de dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G330DI",
+        "nome": "Monitoramento interoperabilidade",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/B5A_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/B7B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE GOVERNANÇA DE DADOS",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G328DI",
+        "nome": "Padrões interoperabilidade",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G314DI",
+        "nome": "Política dados abertos",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G321DI",
+        "nome": "Princípios e políticas de dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G301DI",
+        "nome": "Relevância e suficiência dados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G310DI",
+        "nome": "Uso sistemático de dados nas decisões",
+        "fonte": "iGovSISP"
+      }
+    ],
+    "6": [
+      {
+        "id": "igovsisp/G6001IPD",
+        "nome": "6.1.1.1. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G636IPD",
+        "nome": "6.1.1.10. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G641IPD",
+        "nome": "6.1.1.6. O órgão possui rede de Longa Distância (link WAN)?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G642IPD",
+        "nome": "6.1.2.1. O órgão possui contrato de nuvem?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/B9B",
+        "nome": "Contratação de serviços de computação em nuvem",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G607IPD",
+        "nome": "Documentação ativos rede",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G609IPD",
+        "nome": "Manutenção preventiva rede",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G634IPD",
+        "nome": "Maturidade adoção IPv6",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G625IPD",
+        "nome": "Maturidade computação em nuvem",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G608IPD",
+        "nome": "Monitoramento rede",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/H3E_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "igovsisp/G637IPD",
+        "nome": "Portaria 5.950/2023 (nuvem)",
+        "fonte": "iGovSISP"
+      }
+    ],
+    "7": [
+      {
+        "id": "igovsisp/G337DI",
+        "nome": "Estratégia de IA",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/H3F_A",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_B",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_C",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3F_D",
+        "nome": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/H3",
+        "nome": "Uso de IA",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/H4",
+        "nome": "Uso de IoT",
+        "fonte": "TIC Governo Eletrônico"
+      }
+    ],
+    "8": [
+      {
+        "id": "igovsisp/G644IPD",
+        "nome": "6.1.3.2. As ferramentas de produtividade e colaboração adotadas estão integradas aos processos de trabalho e sistemas corporativos do órgão?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G520CTI",
+        "nome": "Acessibilidade digital em editais (eMAG/WCAG)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G516CTI",
+        "nome": "Concordância sobre conhecimento aprofundado das normas de contratação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G517CTI",
+        "nome": "Critérios sustentáveis em contratações",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G507CTI",
+        "nome": "Definição requisitos contratação",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G214SPD",
+        "nome": "Eficiência e produtividade percebidas após transformação digital",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G511CTI",
+        "nome": "Gestão de contratos de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G502CTI",
+        "nome": "IN SGD/ME nº 94/2022 (proc. contratação TIC)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G513CTI",
+        "nome": "Pessoal para contratações de TI",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G505CTI",
+        "nome": "Portaria 1.070/2023 (infraestrutura)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G506CTI",
+        "nome": "Portaria 2.715/2023 (estações)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G504CTI",
+        "nome": "Portaria 750/2023 (software)",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G224SPD",
+        "nome": "Prática de avaliação do valor público dos sistemas digitais",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G508CTI",
+        "nome": "Procedimentos padronizados",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G208SPD",
+        "nome": "Utilização do SEI",
+        "fonte": "iGovSISP"
+      }
+    ],
+    "9": [
+      {
+        "id": "igovsisp/G400DI",
+        "nome": "3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/E2A",
+        "nome": "Ouvidoria online",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/E4A",
+        "nome": "Participação social",
+        "fonte": "TIC Governo Eletrônico"
+      }
+    ],
+    "10": [
+      {
+        "id": "igovsisp/G143GP",
+        "nome": "1.2.1.4. O órgão possui cargo e/ou carreira própria de TIC?",
+        "fonte": "iGovSISP"
       },
       {
         "id": "igovsisp/G135GP",
@@ -1710,46 +2812,6 @@
         "fonte": "iGovSISP"
       },
       {
-        "id": "tic_educacao/H3",
-        "nome": "Formação continuada TIC (P45a quest. → H3 portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_I",
-        "nome": "Formação: adaptação aos ritmos de aprendizagem (P49A2_N quest. → H7 item I portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_D",
-        "nome": "Formação: avaliação da veracidade e compartilhamento responsável (P49A2_I quest. → H7 item D portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_F",
-        "nome": "Formação: computação, programação ou robótica na educação (P49A2_K1 quest. → H7 item F portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_C",
-        "nome": "Formação: criação de conteúdos educacionais com plataformas e aplicativos (P49A2_G quest. → H7 item C portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_H",
-        "nome": "Formação: educação midiática e uso crítico das mídias (P49A2_M quest. → H7 item H portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_G",
-        "nome": "Formação: inteligência artificial em atividades educacionais (P49A2_L quest. → H7 item G portal)",
-        "fonte": "TIC Educação"
-      },
-      {
-        "id": "tic_educacao/H7_E",
-        "nome": "Formação: proteção à privacidade e aos dados pessoais (P49A2_J quest. → H7 item E portal)",
-        "fonte": "TIC Educação"
-      },
-      {
         "id": "igovsisp/G136GP",
         "nome": "Incentivos para competências de TI",
         "fonte": "iGovSISP"
@@ -1769,41 +2831,131 @@
   "estadual": {
     "1": [
       {
-        "id": "iospd/IOSPD_I10",
-        "nome": "Estratégia de governo digital (IOSPD I.10)",
+        "id": "iospd/IOSPD_E26_101",
+        "nome": "1.1 POSSUI ESTRATÉGIA DE GOVERNO DIGITAL VIGENTE EM 2026?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_102",
+        "nome": "1.2 EXISTE UMA INSTITUIÇÃO RESPONSÁVEL POR LIDERAR E COORDENAR AS DECISÕES DE GOVERNO DIGITAL E / OU DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO E ASSEGURAR SUA IMPLEMENTAÇÃO DE FORMA TRANSVERSAL NO ESTADO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_103",
+        "nome": "1.3 EXISTE UM ÓRGÃO/ESTRUTURA FORMAL COLEGIADO DE COORDENAÇÃO RESPONSÁVEL POR DIRECIONAR TRANSVERSALMENTE AS POLÍTICAS E INICIATIVAS DE GOVERNO DIGITAL OU TIC?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_506",
+        "nome": "5.6 O ESTADO POSSUI INICIATIVA OU PROGRAMA PARA APOIAR A TRANSFORMAÇÃO DIGITAL DOS SEUS MUNICÍPIOS?",
         "fonte": "IOSPD"
       }
     ],
     "2": [
       {
+        "id": "iospd/IOSPD_E26_107",
+        "nome": "1.7 POSSUI UM PORTAL ÚNICO OU UM PORTAL DIGITAL DE SERVIÇOS DISPONÍVEL AO CIDADÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_109",
+        "nome": "1.9 POSSUI OPÇÕES DE PAGAMENTOS DE SERVIÇOS DISPONÍVEIS AOS CIDADÃOS ATRAVÉS DE PIX OU CARTÃO DE CRÉDITO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_201",
+        "nome": "2.1 DISPONIBILIZA SERVIÇO DIGITAL DE REMATRÍCULA ONLINE NAS ESCOLAS ESTADUAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_210",
+        "nome": "2.10 DISPONIBILIZA TRANSFERÊNCIA DIGITAL DE VEÍCULOS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_212",
+        "nome": "2.12 O ESTADO OFERECE ACESSO A SERVIÇOS DE SAÚDE POR MEIO DE UMA PLATAFORMA DIGITAL (OU APLICATIVO)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_202",
+        "nome": "2.2 DISPONIBILIZA SERVIÇO DIGITAL PARA SOLICITAÇÃO DE MEDICAMENTOS DO COMPONENTE ESPECIALIZADO DA ASSISTÊNCIA FARMACÊUTICA (CEAF)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_203",
+        "nome": "2.3 O ESTADO OFERECE SERVIÇOS ESTRUTURADOS DE TELESSAÚDE PARA O CIDADÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_204",
+        "nome": "2.4 DISPONIBILIZA PROVA DE VIDA ONLINE PARA SERVIDORES, APOSENTADOS E PENSIONISTAS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_205",
+        "nome": "2.5 DISPONIBILIZA FUNCIONALIDADE DE APRESENTAÇÃO DE RECURSO E DEFESA ONLINE PARA INFRAÇÕES DE TRÂNSITO EM ÂMBITO ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_206",
+        "nome": "2.6 DISPONIBILIZA CONSULTA ONLINE DOS MEDICAMENTOS DISPONÍVEIS NA REDE ESTADUAL DE SAÚDE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_207",
+        "nome": "2.7 A REDE ESTADUAL DE SAÚDE DISPONIBILIZA A EMISSÃO E O ENVIO ONLINE DE RECEITA MÉDICA AO CIDADÃO, APÓS AVALIAÇÃO CLÍNICA POR PROFISSIONAL HABILITADO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_208",
+        "nome": "2.8 DISPONIBILIZA SERVIÇO DE SOLICITAÇÃO E EMISSÃO ONLINE DE CERTIFICADO DE CONCLUSÃO DO ENSINO MÉDIO NAS ESCOLAS DA REDE ESTADUAL DE EDUCAÇÃO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_209",
+        "nome": "2.9 DISPONIBILIZA SERVIÇOS DE TRANSFERÊNCIA ONLINE DE ALUNOS ENTRE ESCOLAS DA REDE ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_305",
+        "nome": "3.5 POSSUI NORMA, MANUAL OU DIRETRIZ OFICIAL SOBRE LINGUAGEM SIMPLES APLICADA À COMUNICAÇÃO PÚBLICA?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_401",
+        "nome": "4.1 OS SERVIÇOS PÚBLICOS ESTÃO DESCRITOS COM LINGUAGEM SIMPLES?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_402",
+        "nome": "4.2 O ESTADO POSSUI UM KIT DE FERRAMENTAS PARA FORMALIZAR O PROCESSO DE PARTICIPAÇÃO DOS CIDADÃOS E EMPRESAS NO DESENHO, TESTE OU MELHORIA DOS SERVIÇOS DIGITAIS, REALIZANDO TESTES DE USABILIDADE E COMPREENSÃO COM USUÁRIOS REAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_403",
+        "nome": "4.3 POSSUI EM OPERAÇÃO UMA ESTRATÉGIA DE OMNICANALIDADE QUE INTEGRE DIFERENTES CANAIS DE ATENDIMENTO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_404",
+        "nome": "4.4 QUAL O GRAU DE ADAPTAÇÃO DO PORTAL ÚNICO OU DE SERVIÇOS PARA GARANTIR ACESSIBILIDADE A PESSOAS COM DEFICIÊNCIA AUDITIVA E VISUAL, EM CONFORMIDADE COM AS LEGISLAÇÕES VIGENTES, LEI Nº 13.146/2015 E COM OS PADRÕES DE ACESSIBILIDADE (EMAG, W3C)?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_405",
+        "nome": "4.5 OS CIDADÃOS EFETIVAMENTE ACESSAM E UTILIZAM O PORTAL DE SERVIÇOS DIGITAIS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_407",
+        "nome": "4.7 POSSUI METODOLOGIA E FERRAMENTA DE AVALIAÇÃO DA SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS PÚBLICOS PRESTADOS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_ACESSIBILIDADE",
         "nome": "Acessibilidade da página e serviços eletrônicos",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_V09",
-        "nome": "Acessibilidade da plataforma digital (IOSPD V.9)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_I03",
-        "nome": "Agendamento digital unificado (IOSPD I.3)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V04",
-        "nome": "Ambiente autenticado e personalizado de serviços (IOSPD V.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV08",
-        "nome": "Aplicação da técnica de Linguagem Simples (IOSPD IV.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V01",
-        "nome": "Aplicativo móvel para portal de serviços (IOSPD V.1)",
-        "fonte": "IOSPD"
       },
       {
         "id": "estadic/ESTADIC_ATIV_REDES",
@@ -1811,59 +2963,9 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_I04",
-        "nome": "Avaliação de satisfação dos usuários (IOSPD I.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III01d",
-        "nome": "Avaliação de Serviços Públicos normatizada (IOSPD III.1d)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_BILHETE_UNICO",
         "nome": "Bilhete único para uso de transporte público (Etic241)",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_II08",
-        "nome": "Boletim de ocorrência online violência doméstica (IOSPD II.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III01a",
-        "nome": "Carta de Serviços normatizada (IOSPD III.1a)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V06",
-        "nome": "Certidão Negativa Estadual online (IOSPD V.6)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III01c",
-        "nome": "Conselho de Usuários normatizado (IOSPD III.1c)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II09",
-        "nome": "Consulta online medicamentos disponíveis (IOSPD II.9)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II11",
-        "nome": "Emissão online diplomas ensino médio (IOSPD II.11)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II10",
-        "nome": "Emissão/envio de receita médica online (IOSPD II.10)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_I12",
-        "nome": "Ferramenta digital integrada de atendimento (IOSPD I.12)",
-        "fonte": "IOSPD"
       },
       {
         "id": "estadic/ESTADIC_ATEND_DISTANCIA",
@@ -1871,79 +2973,14 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_IV02",
-        "nome": "Frases curtas com ação única (IOSPD IV.2)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_FREQ_REDES",
         "nome": "Frequência de atualização do conteúdo nas redes sociais",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_I06",
-        "nome": "Gestão de cadastro e perfil do cidadão (IOSPD I.6)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V05",
-        "nome": "Licenciamento de veículo com pagamento eletrônico (IOSPD V.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV09",
-        "nome": "Mecanismo de melhoria na apresentação (IOSPD IV.9)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_MODELO_ACESS",
         "nome": "Modelo de acessibilidade adotado",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_I07",
-        "nome": "Ouvidoria integrada ao portal (IOSPD I.7)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_III01b",
-        "nome": "Ouvidorias Públicas normatizadas (IOSPD III.1b)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V03",
-        "nome": "Pagamento por PIX/cartão digital (IOSPD V.3)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV04",
-        "nome": "Parágrafos curtos (IOSPD IV.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_I01",
-        "nome": "Portal único ou de serviços (IOSPD I.1)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II04",
-        "nome": "Prova de vida online (IOSPD II.4)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II05",
-        "nome": "Recurso/defesa online infrações de trânsito (IOSPD II.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II06",
-        "nome": "Registro digital reclamação CDC (IOSPD II.6)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II01",
-        "nome": "Rematrícula online escolas estaduais (IOSPD II.1)",
-        "fonte": "IOSPD"
       },
       {
         "id": "estadic/ESTADIC_SERV_CELULAR",
@@ -1959,67 +2996,17 @@
         "id": "estadic/ESTADIC_SERV_TRANSACIONAIS",
         "nome": "Serviços transacionais disponibilizados na página da internet",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_I08",
-        "nome": "Simplificação de serviços online (IOSPD I.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II02",
-        "nome": "Solicitação de medicamento de alto custo digital (IOSPD II.2)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II03",
-        "nome": "Tele-atendimento saúde por videoconferência (IOSPD II.3)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV01",
-        "nome": "Tempos verbais 2ª/3ª pessoa (IOSPD IV.1)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV06",
-        "nome": "Texto sem caracteres especiais (IOSPD IV.6)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV03",
-        "nome": "Título objetivo e curto (IOSPD IV.3)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_V08",
-        "nome": "Transferência digital de veículos (IOSPD V.8)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_II12",
-        "nome": "Transferência online entre escolas estaduais (IOSPD II.12)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV05",
-        "nome": "Uso do tempo presente (IOSPD IV.5)",
-        "fonte": "IOSPD"
-      },
-      {
-        "id": "iospd/IOSPD_IV07",
-        "nome": "Vocabulário de fácil entendimento (IOSPD IV.7)",
-        "fonte": "IOSPD"
       }
     ],
     "3": [
       {
-        "id": "iospd/IOSPD_I09",
-        "nome": "Assinatura eletrônica Gov.br (IOSPD I.9)",
+        "id": "iospd/IOSPD_E26_108",
+        "nome": "1.8 UTILIZA SOLUÇÃO DE ASSINATURA ELETRÔNICA CORPORATIVA PRÓPRIA OU DO GOV.BR?",
         "fonte": "IOSPD"
       },
       {
-        "id": "iospd/IOSPD_III04",
-        "nome": "Assinaturas eletrônicas normatizadas (IOSPD III.4)",
+        "id": "iospd/IOSPD_E26_303",
+        "nome": "3.3 O USO DE ASSINATURAS ELETRÔNICAS EM INTERAÇÕES COM ENTES PÚBLICOS FOI NORMATIZADO PELO GOVERNO ESTADUAL/DISTRITAL, CONFORME PREVISTO PELA LEI FEDERAL 14.063/2020?",
         "fonte": "IOSPD"
       },
       {
@@ -2030,14 +3017,19 @@
     ],
     "4": [
       {
+        "id": "iospd/IOSPD_E26_110",
+        "nome": "1.10 EXISTE UMA UNIDADE OPERACIONAL DE CIBERSEGURANÇA FORMALMENTE ESTABELECIDA E ATUALMENTE ATIVA?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_111",
+        "nome": "1.11 POSSUI UMA EQUIPE DE RESPOSTA A INCIDENTES (CERT) FORMALIZADA OU EQUIVALENTE?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_LGPD_CANAL_TITULAR",
         "nome": "Canal internet para titulares de dados (LGPD)",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_III07",
-        "nome": "Consentimento LGPD no portal (IOSPD III.7)",
-        "fonte": "IOSPD"
       },
       {
         "id": "estadic/ESTADIC_LGPD_CAPACIT",
@@ -2057,8 +3049,23 @@
     ],
     "5": [
       {
-        "id": "iospd/IOSPD_I05",
-        "nome": "Governança de dados (IOSPD I.5)",
+        "id": "iospd/IOSPD_E26_104",
+        "nome": "1.4 EXISTE ESTRUTURA COLEGIADA DE GOVERNANÇA DE DADOS INSTITUÍDA FORMALMENTE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_106",
+        "nome": "1.6 O ESTADO POSSUI UM FRAMEWORK DE INTEROPERABILIDADE?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_306",
+        "nome": "3.6 QUAIS PADRÕES OU DIRETRIZES DE GESTÃO DE DADOS EXISTEM NO NÍVEL ESTADUAL?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_504",
+        "nome": "5.4 HÁ USO DE APIS ABERTAS QUE PERMITAM QUE TERCEIROS (STARTUPS, EMPRESAS, UNIVERSIDADES OU SOCIEDADE CIVIL) CRIEM APLICAÇÕES, INTEGREM DADOS OU DESENVOLVAM NOVOS SERVIÇOS PÚBLICOS DIGITAIS COM BASE EM DADOS GOVERNAMENTAIS?",
         "fonte": "IOSPD"
       },
       {
@@ -2074,6 +3081,16 @@
     ],
     "6": [
       {
+        "id": "iospd/IOSPD_E26_112",
+        "nome": "1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_406",
+        "nome": "4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_INCLUSAO_PROGRAMA",
         "nome": "Desenvolve programa ou ação de inclusão digital",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
@@ -2086,6 +3103,26 @@
     ],
     "7": [
       {
+        "id": "iospd/IOSPD_E26_501",
+        "nome": "5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_502",
+        "nome": "5.2 O ESTADO JÁ UTILIZOU SOLUÇÕES BASEADAS EM INTELIGÊNCIA ARTIFICIAL PARA APOIAR A OFERTA OU MELHORIA DE SERVIÇOS PÚBLICOS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_503",
+        "nome": "5.3 O ESTADO REALIZOU COMPRAS PÚBLICAS PARA INOVAÇÃO (CPIN) NO ÚLTIMO ANO (2025), CONFORME OS INSTRUMENTOS PREVISTOS NA LEI Nº 14.133/2021, LEI Nº 10.973/2004 E NO MARCO LEGAL DAS STARTUPS?",
+        "fonte": "IOSPD"
+      },
+      {
+        "id": "iospd/IOSPD_E26_505",
+        "nome": "5.5 O ESTADO POSSUI UM LABORATÓRIO DE INOVAÇÃO (OU ESTRUTURA EQUIVALENTE) VOLTADO AO DESENHO, TESTE E EXPERIMENTAÇÃO DE NOVAS SOLUÇÕES DIGITAIS, ENVOLVENDO SERVIDORES, CIDADÃOS E PARCEIROS EXTERNOS?",
+        "fonte": "IOSPD"
+      },
+      {
         "id": "estadic/ESTADIC_CAPACIT_EMPREEND",
         "nome": "Capacitação para empreendedorismo digital (Etic243)",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
@@ -2096,32 +3133,15 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "iospd/IOSPD_III06",
-        "nome": "Laboratório de Inovação em Governo (IOSPD III.6)",
-        "fonte": "IOSPD"
-      },
-      {
         "id": "estadic/ESTADIC_PREMIO_INOVACAO",
         "nome": "Prêmio ou edital para empresas inovadoras e projetos criativos (Etic244)",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
-        "id": "iospd/IOSPD_V02",
-        "nome": "Uso de IA/ciência de dados em serviço público (IOSPD V.2)",
-        "fonte": "IOSPD"
-      }
-    ],
-    "8": [
-      {
-        "id": "iospd/IOSPD_III02",
-        "nome": "Grupos de desburocratização regulamentados (IOSPD III.2)",
-        "fonte": "IOSPD"
       }
     ],
     "9": [
       {
-        "id": "iospd/IOSPD_I11",
-        "nome": "Cartas de Serviços na Base Nacional (IOSPD I.11)",
+        "id": "iospd/IOSPD_E26_408",
+        "nome": "4.8 POSSUI PLATAFORMA OU ALGUM OUTRO MECANISMO PARA PARTICIPAÇÃO DIGITAL? (POR EXEMPLO, PARTICIPA +)",
         "fonte": "IOSPD"
       },
       {
@@ -2158,6 +3178,13 @@
         "id": "estadic/ESTADIC_LAI_MEIOS",
         "nome": "Meios de solicitação de acesso à informação pública",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
+      }
+    ],
+    "10": [
+      {
+        "id": "iospd/IOSPD_E26_105",
+        "nome": "1.5 A INSTITUIÇÃO RESPONSÁVEL POR LIDERAR AS DECISÕES DE GOVERNO DIGITAL (OU OUTRA) CONTRIBUI COM O DESENVOLVIMENTO DE COMPETÊNCIAS DIGITAIS PARA OS SERVIDORES PÚBLICOS ESTADUAIS? MARQUE AS FORMAS COMO SE APLICA:",
+        "fonte": "IOSPD"
       }
     ]
   },

@@ -92,7 +92,7 @@
       },
       "tipo": {
         "type": "string",
-        "enum": ["nacional", "uf", "municipio", "capital"]
+        "enum": ["nacional", "uf", "municipio", "capital", "uniao"]
       },
       "codigo": {
         "type": "string"
@@ -303,7 +303,7 @@
       },
       "dimensao": {
         "type": "string",
-        "enum": ["nacional", "estadual", "capitais", "municipios"]
+        "enum": ["nacional", "estadual", "capitais", "municipios", "uniao"]
       }
     },
     "keys": [],
