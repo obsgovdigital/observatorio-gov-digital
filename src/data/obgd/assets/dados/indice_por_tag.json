@@ -7108,8 +7108,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "conectividade",
-    "nota": 75.5,
-    "n_indicadores": 8
+    "nota": 77.4,
+    "n_indicadores": 9
   },
   {
     "tipo": "uf",
@@ -7500,8 +7500,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "dados-interoperabilidade",
-    "nota": 37.6,
-    "n_indicadores": 48
+    "nota": 38,
+    "n_indicadores": 50
   },
   {
     "tipo": "uf",
@@ -7696,8 +7696,8 @@
     "tipo": "uniao",
     "unidade": "UNIAO",
     "tag_id": "dados-interoperabilidade",
-    "nota": 34.6,
-    "n_indicadores": 39
+    "nota": 35.2,
+    "n_indicadores": 41
   },
   {
     "tipo": "municipio",
@@ -9936,8 +9936,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "educacao-digital",
-    "nota": 50.4,
-    "n_indicadores": 30
+    "nota": 51.7,
+    "n_indicadores": 31
   },
   {
     "tipo": "uf",
@@ -12358,8 +12358,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "gestao-planejamento-ti",
-    "nota": 61.9,
-    "n_indicadores": 71
+    "nota": 60.8,
+    "n_indicadores": 74
   },
   {
     "tipo": "uf",
@@ -12547,8 +12547,8 @@
     "tipo": "uniao",
     "unidade": "UNIAO",
     "tag_id": "gestao-planejamento-ti",
-    "nota": 63,
-    "n_indicadores": 65
+    "nota": 63.3,
+    "n_indicadores": 67
   },
   {
     "tipo": "municipio",
@@ -14787,8 +14787,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "identidade-digital",
-    "nota": 41.7,
-    "n_indicadores": 5
+    "nota": 43.4,
+    "n_indicadores": 7
   },
   {
     "tipo": "uf",
@@ -14983,8 +14983,8 @@
     "tipo": "uniao",
     "unidade": "UNIAO",
     "tag_id": "identidade-digital",
-    "nota": 38.6,
-    "n_indicadores": 1
+    "nota": 44.7,
+    "n_indicadores": 3
   },
   {
     "tipo": "municipio",
@@ -19673,8 +19673,8 @@
     "tipo": "nacional",
     "unidade": "BR",
     "tag_id": "inteligencia-artificial",
-    "nota": 30.7,
-    "n_indicadores": 17
+    "nota": 31.4,
+    "n_indicadores": 20
   },
   {
     "tipo": "uf",
@@ -19862,8 +19862,8 @@
     "tipo": "uniao",
     "unidade": "UNIAO",
     "tag_id": "inteligencia-artificial",
-    "nota": 29.1,
-    "n_indicadores": 11
+    "nota": 35.6,
+    "n_indicadores": 13
   },
   {
     "tipo": "municipio",

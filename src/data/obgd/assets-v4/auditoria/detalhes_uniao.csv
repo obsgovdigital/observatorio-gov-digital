@@ -60,6 +60,8 @@ Total,2,Qualidade dos Serviços Digitais,igovsisp/G631IPD,igovsisp,G631IPD,total
 Total,2,Qualidade dos Serviços Digitais,igovsisp/G632IPD,igovsisp,G632IPD,total,2.1.2.9. Seu órgão possui algum aplicativo móvel?,prop_0_100,orgaos_federais_sisp,42.86,2026
 Total,3,Identificação Única,tic_gov/C9B_A,tic_gov,C9B,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,38.571,2025
 Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,63.07,2026
+Total,3,Identificação Única,igovsisp/G331410DI,igovsisp,G331410DI,total,CPF como identificador único nas bases finalísticas,prop_0_100,orgaos_federais_sisp_com_bases_aplicaveis,45.26,2026
+Total,3,Identificação Única,igovsisp/G331411DI,igovsisp,G331411DI,total,CPF como identificador único nos registros cadastrais ativos,prop_0_100,orgaos_federais_sisp_com_registros_aplicaveis,50.12,2026
 Total,4,Segurança e LGPD,tic_gov/B5A_B,tic_gov,B5A,['B'],Plano de segurança da informação,prop_0_100,orgaos_e_prefeituras,89.285644296,2025
 Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,93.571,2025
 Total,4,Segurança e LGPD,tic_gov/G3_A,tic_gov,G3,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,ambos,92.857,2025
@@ -160,6 +162,8 @@ Total,9,Transparência e Participação,tic_gov/E2A,tic_gov,E2A,total,Ouvidoria 
 Total,9,Transparência e Participação,tic_gov/E4A,tic_gov,E4A,"['A', 'B', 'C', 'D']",Participação social,prop_0_100,orgaos_e_prefeituras,54.2857,2025
 Total,9,Transparência e Participação,igovsisp/G400DI,igovsisp,G400DI,total,3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?,prop_0_100,orgaos_federais_sisp,16.39,2026
 Total,10,Competências em Governo Digital,tic_gov/G2,tic_gov,G2,total,Capacitação sobre a LGPD para funcionários de TI,prop_0_100,orgaos_e_prefeituras,84.285616444,2025
+Total,10,Competências em Governo Digital,tic_gov/source/H3C,tic_gov,H3C,total,Capacitação da equipe de TI em inteligência artificial,prop_0_100,orgaos,83.5714,2025
+Total,10,Competências em Governo Digital,tic_gov/source/H3E_D,tic_gov,H3E,total,Oferta de formação em inteligência artificial generativa,prop_0_100,orgaos_e_prefeituras,59.286,2025
 Total,10,Competências em Governo Digital,igovsisp/G106GPO,igovsisp,G106GPO,total,Detalhou capacitações e orçamentos,prop_0_100,orgaos_federais_sisp,43.07,2026
 Total,10,Competências em Governo Digital,igovsisp/G119GP,igovsisp,G119GP,total,Força de trabalho de TIC: Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,80.25,2026
 Total,10,Competências em Governo Digital,igovsisp/G120GP,igovsisp,G120GP,total,Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,83.61,2026

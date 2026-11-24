@@ -701,6 +701,16 @@
         "fonte": "Base de dados da Carteira de Identidade Nacional"
       },
       {
+        "id": "igovsisp/G331410DI",
+        "nome": "CPF como identificador único nas bases finalísticas",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331411DI",
+        "nome": "CPF como identificador único nos registros cadastrais ativos",
+        "fonte": "iGovSISP"
+      },
+      {
         "id": "igovsisp/G630IPD",
         "nome": "Integração dos serviços à sociedade ao Login Único",
         "fonte": "iGovSISP"
@@ -1392,6 +1402,11 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
+        "id": "tic_educacao/source/A4",
+        "nome": "Rede sem fio nas escolas públicas",
+        "fonte": "TIC Educação"
+      },
+      {
         "id": "munic/MUNIC_SMART_SEMAFOROS",
         "nome": "Semáforos inteligentes controlados a distância",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -1730,6 +1745,16 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "tic_gov/source/H3C_PREF",
+        "nome": "Capacitação da equipe de TI das prefeituras em inteligência artificial",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
+        "id": "tic_gov/source/H3C",
+        "nome": "Capacitação da equipe de TI em inteligência artificial",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
         "id": "tic_gov/G2",
         "nome": "Capacitação sobre a LGPD para funcionários de TI",
         "fonte": "TIC Governo Eletrônico"
@@ -1883,6 +1908,11 @@
         "id": "igovsisp/G136GP",
         "nome": "Incentivos para competências de TI",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/H3E_D",
+        "nome": "Oferta de formação em inteligência artificial generativa",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G133GP",
@@ -2197,6 +2227,16 @@
       }
     ],
     "3": [
+      {
+        "id": "igovsisp/G331410DI",
+        "nome": "CPF como identificador único nas bases finalísticas",
+        "fonte": "iGovSISP"
+      },
+      {
+        "id": "igovsisp/G331411DI",
+        "nome": "CPF como identificador único nos registros cadastrais ativos",
+        "fonte": "iGovSISP"
+      },
       {
         "id": "igovsisp/G630IPD",
         "nome": "Integração dos serviços à sociedade ao Login Único",
@@ -2727,6 +2767,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "tic_gov/source/H3C",
+        "nome": "Capacitação da equipe de TI em inteligência artificial",
+        "fonte": "TIC Governo Eletrônico"
+      },
+      {
         "id": "tic_gov/G2",
         "nome": "Capacitação sobre a LGPD para funcionários de TI",
         "fonte": "TIC Governo Eletrônico"
@@ -2815,6 +2860,11 @@
         "id": "igovsisp/G136GP",
         "nome": "Incentivos para competências de TI",
         "fonte": "iGovSISP"
+      },
+      {
+        "id": "tic_gov/source/H3E_D",
+        "nome": "Oferta de formação em inteligência artificial generativa",
+        "fonte": "TIC Governo Eletrônico"
       },
       {
         "id": "igovsisp/G133GP",
