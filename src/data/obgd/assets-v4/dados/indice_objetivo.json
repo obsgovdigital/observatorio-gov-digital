@@ -19,16 +19,16 @@
     "ente_id": 1,
     "objetivo_id": 3,
     "ano_indice": 2026,
-    "sub_indice": 45.29,
-    "n": 6,
-    "n_itens": 6
+    "sub_indice": 45.89,
+    "n": 8,
+    "n_itens": 8
   },
   {
     "ente_id": 1,
     "objetivo_id": 4,
     "ano_indice": 2026,
-    "sub_indice": 51.6,
-    "n": 31,
+    "sub_indice": 51.84,
+    "n": 30,
     "n_itens": 43
   },
   {
@@ -43,9 +43,9 @@
     "ente_id": 1,
     "objetivo_id": 6,
     "ano_indice": 2026,
-    "sub_indice": 47.13,
-    "n": 31,
-    "n_itens": 42
+    "sub_indice": 48.56,
+    "n": 32,
+    "n_itens": 43
   },
   {
     "ente_id": 1,
@@ -75,9 +75,9 @@
     "ente_id": 1,
     "objetivo_id": 10,
     "ano_indice": 2026,
-    "sub_indice": 53.4,
-    "n": 16,
-    "n_itens": 38
+    "sub_indice": 50.51,
+    "n": 19,
+    "n_itens": 41
   },
   {
     "ente_id": 2,
@@ -29939,16 +29939,16 @@
     "ente_id": 375,
     "objetivo_id": 3,
     "ano_indice": 2026,
-    "sub_indice": 50.82,
-    "n": 2,
-    "n_itens": 2
+    "sub_indice": 49.26,
+    "n": 4,
+    "n_itens": 4
   },
   {
     "ente_id": 375,
     "objetivo_id": 4,
     "ano_indice": 2026,
-    "sub_indice": 62.55,
-    "n": 14,
+    "sub_indice": 62.92,
+    "n": 13,
     "n_itens": 21
   },
   {
@@ -29995,8 +29995,8 @@
     "ente_id": 375,
     "objetivo_id": 10,
     "ano_indice": 2026,
-    "sub_indice": 63.28,
-    "n": 7,
-    "n_itens": 22
+    "sub_indice": 65.09,
+    "n": 9,
+    "n_itens": 24
   }
 ]

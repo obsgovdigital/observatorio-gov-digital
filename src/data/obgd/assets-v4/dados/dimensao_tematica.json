@@ -150,6 +150,12 @@
     "tipo": "tematica"
   },
   {
+    "id": "obj03-cpf-cadastros-publicos",
+    "objetivo_id": 3,
+    "nome": "CPF nos cadastros públicos",
+    "tipo": "tematica"
+  },
+  {
     "id": "obj03-recorte-estadual",
     "objetivo_id": 3,
     "nome": "Recorte Estadual",
@@ -465,6 +471,12 @@
     "id": "obj10-areas-tematicas-capacitacoes-sisp",
     "objetivo_id": 10,
     "nome": "Áreas temáticas das capacitações desenvolvidas em TI no SISP",
+    "tipo": "tematica"
+  },
+  {
+    "id": "obj10-formacao-ia",
+    "objetivo_id": 10,
+    "nome": "Formação em inteligência artificial",
     "tipo": "tematica"
   },
   {

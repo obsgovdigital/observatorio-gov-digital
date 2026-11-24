@@ -246,8 +246,6 @@ As 26 variáveis ativas do Objetivo 8 foram organizadas em seis dimensões temá
 
 *Média Federal:* 64,0 (n=6; 15 itens).
 
-![Recorte Federal do Objetivo 8](../graficos/recortes/cap11_federal.png)
-
 *Tabela 20. Indicadores do Recorte Federal do Objetivo 8, com a dimensão temática da pergunta e o valor federal*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |

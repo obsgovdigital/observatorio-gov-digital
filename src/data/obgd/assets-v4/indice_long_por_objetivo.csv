@@ -1,14 +1,14 @@
 nivel,unidade,unidade_nome,objetivo,objetivo_nome,ano_indice,sub_indice,posicao_no_objetivo,n,n_itens
 nacional,BR,Brasil,1,Governança do Governo Digital,2026,65.25,1,36,43
 nacional,BR,Brasil,2,Qualidade dos Serviços Digitais,2026,57.5,1,75,92
-nacional,BR,Brasil,3,Identificação Única,2026,45.29,1,6,6
-nacional,BR,Brasil,4,Segurança e LGPD,2026,51.6,1,31,43
+nacional,BR,Brasil,3,Identificação Única,2026,45.89,1,8,8
+nacional,BR,Brasil,4,Segurança e LGPD,2026,51.84,1,30,43
 nacional,BR,Brasil,5,Dados e Interoperabilidade,2026,40.16,1,40,52
-nacional,BR,Brasil,6,Infraestrutura,2026,47.13,1,31,42
+nacional,BR,Brasil,6,Infraestrutura,2026,48.56,1,32,43
 nacional,BR,Brasil,7,Inovação e Tecnologias Emergentes,2026,51.86,1,13,16
 nacional,BR,Brasil,8,Eficiência e Processos,2026,62.28,1,13,26
 nacional,BR,Brasil,9,Transparência e Participação,2026,62.18,1,17,17
-nacional,BR,Brasil,10,Competências em Governo Digital,2026,53.4,1,16,38
+nacional,BR,Brasil,10,Competências em Governo Digital,2026,50.51,1,19,41
 uf,RO,Rondônia,1,Governança do Governo Digital,2026,100.0,1,4,4
 uf,RO,Rondônia,2,Qualidade dos Serviços Digitais,2026,71.85,15,29,29
 uf,RO,Rondônia,3,Identificação Única,2026,83.5,12,3,3
@@ -3741,11 +3741,11 @@ municipio,5300108,Brasília,9,Transparência e Participação,2026,83.33,10,6,6
 municipio,5300108,Brasília,10,Competências em Governo Digital,2026,,,0,0
 uniao,UNIAO,União,1,Governança do Governo Digital,2026,68.15,1,31,38
 uniao,UNIAO,União,2,Qualidade dos Serviços Digitais,2026,62.62,1,11,21
-uniao,UNIAO,União,3,Identificação Única,2026,50.82,1,2,2
-uniao,UNIAO,União,4,Segurança e LGPD,2026,62.55,1,14,21
+uniao,UNIAO,União,3,Identificação Única,2026,49.26,1,4,4
+uniao,UNIAO,União,4,Segurança e LGPD,2026,62.92,1,13,21
 uniao,UNIAO,União,5,Dados e Interoperabilidade,2026,36.16,1,29,41
 uniao,UNIAO,União,6,Infraestrutura,2026,47.23,1,10,12
 uniao,UNIAO,União,7,Inovação e Tecnologias Emergentes,2026,32.16,1,4,7
 uniao,UNIAO,União,8,Eficiência e Processos,2026,64.04,1,6,15
 uniao,UNIAO,União,9,Transparência e Participação,2026,54.99,1,3,3
-uniao,UNIAO,União,10,Competências em Governo Digital,2026,63.28,1,7,22
+uniao,UNIAO,União,10,Competências em Governo Digital,2026,65.09,1,9,24

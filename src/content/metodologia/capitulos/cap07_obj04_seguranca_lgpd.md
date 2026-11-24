@@ -16,10 +16,10 @@ A Portaria SGD/MGI nº 5.395/2026 elenca cinco recomendações aos entes federad
 
 ## 7.2 Cobertura por nível federativo
 
-O Objetivo 4 conta com 43 variáveis ativas no índice (13 de TIC Governo Eletrônico (CETIC.br), 8 de TIC Saúde (CETIC.br), 3 de TIC Educação (CETIC.br), 9 de iESGo (TCU), 2 de IOSPD (ABEP-TIC), 4 de MUNIC (IBGE), 4 de ESTADIC (IBGE)), que entram na agregação como 31 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 6 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 4 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
+O Objetivo 4 conta com 43 variáveis ativas no índice (13 de TIC Governo Eletrônico (CETIC.br), 8 de TIC Saúde (CETIC.br), 3 de TIC Educação (CETIC.br), 9 de iESGo (TCU), 2 de IOSPD (ABEP-TIC), 4 de MUNIC (IBGE), 4 de ESTADIC (IBGE)), que entram na agregação como 30 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 6 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 4 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
 
 <!-- federal:cobertura -->
-No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (12 da TIC Governo Eletrônico (CETIC.br) e 9 do iESGo (TCU)), que entram na média do recorte como 14 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (12 da TIC Governo Eletrônico (CETIC.br) e 9 do iESGo (TCU)), que entram na média do recorte como 13 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 7.3 Dimensões
@@ -131,7 +131,7 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 *Definição:* Adoção das práticas substantivas exigidas pela LGPD: nomeação de encarregado pelo tratamento de dados pessoais (DPO), canal de atendimento para titulares, política de privacidade publicada, documento de papéis e responsabilidades sobre a lei, plano de resposta a incidentes envolvendo dados pessoais, campanha interna de conscientização e portal único com funcionalidade de consentimento. Corresponde à Recomendação 4.2 (vertente LGPD).
 
-*Média Nacional:* 44,7 (n=5; 13 itens).
+*Média Nacional:* 44,8 (n=4; 13 itens).
 
 **Indicadores:**
 
@@ -209,7 +209,7 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Estadual): 85,19 (média de 27 UFs)
 
 
-*Bateria de práticas LGPD adotadas pelo órgão público ou pela prefeitura: os 5 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*Bateria de práticas LGPD adotadas pelo órgão público ou pela prefeitura: os 6 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
 
 *Bateria de práticas LGPD adotadas pelo estabelecimento de saúde: os 5 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
@@ -359,8 +359,6 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 ![Recorte Estadual do Objetivo 4](../graficos/recortes/cap07_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 10. Indicadores do Recorte Estadual do Objetivo 4, com a dimensão temática da pergunta e o valor estadual*
 
@@ -398,26 +396,24 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Definição:* Conjunto das variáveis do Objetivo 4 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne as 12 variáveis TIC Governo Eletrônico e as 9 variáveis iESGo do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Federal:* 62,5 (n=14; 21 itens).
+*Média Federal:* 62,9 (n=13; 21 itens).
 
-![Recorte Federal do Objetivo 4](../graficos/recortes/cap07_federal.png)
-
-*Tabela 12. Indicadores do Recorte Federal do Objetivo 4, com a dimensão temática da pergunta e o valor federal*
+*Tabela 12. Indicadores do Recorte Federal do Objetivo 4, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `G1` | TIC Governo Eletrônico | 7.3.1 Governança e responsabilidades | 93,57 |
-| `B5A` | TIC Governo Eletrônico | 7.3.2 Planos, políticas e diagnóstico | 89,29 |
-| `G3`, Nomeação de encarregado de dados pessoais (DPO) | TIC Governo Eletrônico | 7.3.3 Proteção de dados pessoais: práticas LGPD | 92,86 |
-| `G3`, Canal online sobre o uso de dados pessoais | TIC Governo Eletrônico | 7.3.3 Proteção de dados pessoais: práticas LGPD | 78,57 |
-| `G3`, Política de privacidade publicada com bases legais | TIC Governo Eletrônico | 7.3.3 Proteção de dados pessoais: práticas LGPD | 60,00 |
-| `G3`, Plano de resposta a incidentes relacionados a dados pessoais | TIC Governo Eletrônico | 7.3.3 Proteção de dados pessoais: práticas LGPD | 54,29 |
-| `G3`, Possui programa de governança em privacidade e proteção de dados pessoais | TIC Governo Eletrônico | 7.3.3 Proteção de dados pessoais: práticas LGPD | 54,29 |
-| `B13`, Autenticação por meio de uma senha forte | TIC Governo Eletrônico | 7.3.4 Controles, riscos e auditoria | 97,86 |
-| `B13`, Backup | TIC Governo Eletrônico | 7.3.4 Controles, riscos e auditoria | 82,14 |
-| `B13`, Rede virtual privada (VPN) | TIC Governo Eletrônico | 7.3.4 Controles, riscos e auditoria | 96,43 |
-| `B13`, Sistemas de detecção ou prevenção de atividades suspeitas | TIC Governo Eletrônico | 7.3.4 Controles, riscos e auditoria | 94,29 |
-| `B13`, Testes de segurança | TIC Governo Eletrônico | 7.3.4 Controles, riscos e auditoria | 80,00 |
+| `G1` | TIC Gov. | 7.3.1 Governança e responsabilidades | 93,57 |
+| `B5A` | TIC Gov. | 7.3.2 Planos, políticas e diagnóstico | 89,29 |
+| `G3`, Nomeação de encarregado de dados pessoais (DPO) | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 92,86 |
+| `G3`, Canal online sobre o uso de dados pessoais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 78,57 |
+| `G3`, Política de privacidade publicada com bases legais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 60,00 |
+| `G3`, Plano de resposta a incidentes relacionados a dados pessoais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 54,29 |
+| `G3`, Possui programa de governança em privacidade e proteção de dados pessoais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 54,29 |
+| `B13`, Autenticação por meio de uma senha forte | TIC Gov. | 7.3.4 Controles, riscos e auditoria | 97,86 |
+| `B13`, Backup | TIC Gov. | 7.3.4 Controles, riscos e auditoria | 82,14 |
+| `B13`, Rede virtual privada (VPN) | TIC Gov. | 7.3.4 Controles, riscos e auditoria | 96,43 |
+| `B13`, Sistemas de detecção ou prevenção de atividades suspeitas | TIC Gov. | 7.3.4 Controles, riscos e auditoria | 94,29 |
+| `B13`, Testes de segurança | TIC Gov. | 7.3.4 Controles, riscos e auditoria | 80,00 |
 | `iESGo 4242` | iESGo | 7.3.1 Governança e responsabilidades | 66,67 |
 | `iESGo 4243` | iESGo | 7.3.1 Governança e responsabilidades | 57,45 |
 | `iESGo 4241` | iESGo | 7.3.2 Planos, políticas e diagnóstico | 75,61 |

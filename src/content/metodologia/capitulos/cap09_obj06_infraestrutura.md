@@ -18,7 +18,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federado
 
 ## 9.2 Cobertura por nível federativo
 
-O Objetivo 6 conta com 42 variáveis ativas no índice (9 de TIC Governo Eletrônico (CETIC.br), 4 de TIC Educação (CETIC.br), 2 de IOSPD (ABEP-TIC), 5 de Censo Escolar (INEP), 1 de PNAD Contínua TIC (IBGE), 1 de Cobertura móvel (ANATEL), 8 de MUNIC (IBGE), 2 de ESTADIC (IBGE), 10 de iGovSISP (SGD/MGI)), que entram na agregação como 31 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 4 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 14 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
+O Objetivo 6 conta com 43 variáveis ativas no índice (9 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 2 de IOSPD (ABEP-TIC), 5 de Censo Escolar (INEP), 1 de PNAD Contínua TIC (IBGE), 1 de Cobertura móvel (ANATEL), 8 de MUNIC (IBGE), 2 de ESTADIC (IBGE), 10 de iGovSISP (SGD/MGI)), que entram na agregação como 32 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 4 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 14 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
 
 <!-- federal:cobertura -->
 No recorte federal, 12 variáveis do objetivo têm observação dos órgãos federais (2 da TIC Governo Eletrônico (CETIC.br) e 10 do iGovSISP (SGD/MGI)), que entram na média do recorte como 10 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
@@ -26,7 +26,7 @@ No recorte federal, 12 variáveis do objetivo têm observação dos órgãos fed
 
 ## 9.3 Dimensões
 
-As 42 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. A primeira dimensão temática cobre a conectividade do ambiente brasileiro (acesso da população à Internet, pré-condição do governo digital, não enunciada pelas recomendações). As três seguintes cobrem aspectos diretamente enunciados pela Portaria: infraestrutura digital nas escolas, conectividade pública em equipamentos públicos, e plataformas digitais e armazenamento de dados. A quinta agrupa indicadores de maturidade operacional da rede de TI nos órgãos federais (autodiagnóstico SISP), que correspondem à infraestrutura de rede da Recomendação 6.4 vista de dentro dos órgãos. A sexta agrupa programas formais de inclusão digital ao cidadão, aspecto não enunciado pelas recomendações, complementando a conectividade em equipamentos públicos com a face programática. A sétima cobre a infraestrutura urbana inteligente das prefeituras, soluções digitais aplicadas à operação urbana municipal, aspecto não enunciado pelas recomendações. A oitava reúne guias e orientações institucionais para uso de inteligência artificial, correspondentes à Recomendação 6.6. Os recortes consolidam, respectivamente, as quatro variáveis com observação por UF e as quatorze variáveis com observação por capital para leitura subnacional. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. A primeira dimensão temática cobre a conectividade do ambiente brasileiro (acesso da população à Internet, pré-condição do governo digital, não enunciada pelas recomendações). As três seguintes cobrem aspectos diretamente enunciados pela Portaria: infraestrutura digital nas escolas, conectividade pública em equipamentos públicos, e plataformas digitais e armazenamento de dados. A quinta agrupa indicadores de maturidade operacional da rede de TI nos órgãos federais (autodiagnóstico SISP), que correspondem à infraestrutura de rede da Recomendação 6.4 vista de dentro dos órgãos. A sexta agrupa programas formais de inclusão digital ao cidadão, aspecto não enunciado pelas recomendações, complementando a conectividade em equipamentos públicos com a face programática. A sétima cobre a infraestrutura urbana inteligente das prefeituras, soluções digitais aplicadas à operação urbana municipal, aspecto não enunciado pelas recomendações. A oitava reúne guias e orientações institucionais para uso de inteligência artificial, correspondentes à Recomendação 6.6. Os recortes consolidam, respectivamente, as quatro variáveis com observação por UF e as quatorze variáveis com observação por capital para leitura subnacional. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 6](../graficos/dimensoes/cap09.png)
 
@@ -55,11 +55,16 @@ As 42 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 *Definição:* Recursos digitais nas unidades escolares: acesso à Internet, computadores, laboratório de informática, finalidades de uso (alunos, processo de ensino-aprendizagem) e uso de ambientes digitais de aprendizagem e avaliação, acesso dos alunos aos recursos fora do horário de aula e acesso de familiares e da comunidade. Combina o universo das escolas públicas em atividade do Censo Escolar (INEP) com o levantamento amostral TIC Educação. Corresponde à Recomendação 6.4 (ampliar e melhorar a infraestrutura de rede em órgãos públicos, especialmente em locais de grande demanda).
 
-*Média Nacional:* 44,7 (n=4; 8 itens).
+*Média Nacional:* 54,3 (n=5; 9 itens).
 
 **Indicadores:**
 
 *TIC Educação 2025 (CETIC.br):*
+
+- **A4**. A escola tem Wi-Fi?
+  - *Contagem:* Proporção de escolas públicas com Wi-Fi sobre todas as escolas públicas. Em 2025: 98,8843% entre escolas com Internet, multiplicados por 93,921% de escolas com Internet, resultam em 92,8731% na população inteira.
+  - *Normalização:* Proporção 0-100%, usada diretamente
+  - Valor (Nacional): 92,87
 
 - **G4**. Nos últimos 12 meses, a escola utilizou_____________?
   - *Contagem:* O valor é a maior proporção dos itens selecionados: Microsoft Teams ou Microsoft Teams for Education; Zoom; Moodle; Google Sala de Aula, Classroom ou Google For Education; Google Meet; AVAMEC; Outros ambientes ou plataformas; Plataforma Caed. É um limite inferior de pelo menos um item, não a união exata das respostas. Os percentuais condicionados já foram recalculados na fonte sobre a população inteira, com leitura de piso quando existe filtro.
@@ -363,8 +368,6 @@ As 42 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 ![Recorte Estadual do Objetivo 6](../graficos/recortes/cap09_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 15. Indicadores do Recorte Estadual do Objetivo 6, com a dimensão temática da pergunta e o valor estadual*
 
@@ -412,14 +415,12 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 47,2 (n=10; 12 itens).
 
-![Recorte Federal do Objetivo 6](../graficos/recortes/cap09_federal.png)
-
-*Tabela 17. Indicadores do Recorte Federal do Objetivo 6, com a dimensão temática da pergunta e o valor federal*
+*Tabela 17. Indicadores do Recorte Federal do Objetivo 6, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `B9B` | TIC Governo Eletrônico | 9.3.4 Plataformas digitais e armazenamento de dados | 87,86 |
-| `H3E` | TIC Governo Eletrônico | 9.3.8 Orientações para uso de inteligência artificial | 42,86 |
+| `B9B` | TIC Gov. | 9.3.4 Plataformas digitais e armazenamento de dados | 87,86 |
+| `H3E` | TIC Gov. | 9.3.8 Orientações para uso de inteligência artificial | 42,86 |
 | `G625IPD` | iGovSISP | 9.3.4 Plataformas digitais e armazenamento de dados | 34,87 |
 | `G637IPD` | iGovSISP | 9.3.4 Plataformas digitais e armazenamento de dados | 10,08 |
 | `G6001IPD` | iGovSISP | 9.3.4 Plataformas digitais e armazenamento de dados | 45,80 |

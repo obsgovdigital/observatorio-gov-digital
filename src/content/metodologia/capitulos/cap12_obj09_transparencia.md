@@ -219,8 +219,6 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
 
 ![Recorte Estadual do Objetivo 9](../graficos/recortes/cap12_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 21. Indicadores do Recorte Estadual do Objetivo 9, com a dimensão temática da pergunta e o valor estadual*
 
@@ -264,13 +262,11 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 55,0 (n=3; 3 itens).
 
-![Recorte Federal do Objetivo 9](../graficos/recortes/cap12_federal.png)
-
-*Tabela 23. Indicadores do Recorte Federal do Objetivo 9, com a dimensão temática da pergunta e o valor federal*
+*Tabela 23. Indicadores do Recorte Federal do Objetivo 9, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `E2A` | TIC Governo Eletrônico | 12.3.3 Participação social e cocriação | 94,29 |
-| `E4A` | TIC Governo Eletrônico | 12.3.3 Participação social e cocriação | 54,29 |
+| `E2A` | TIC Gov. | 12.3.3 Participação social e cocriação | 94,29 |
+| `E4A` | TIC Gov. | 12.3.3 Participação social e cocriação | 54,29 |
 | `G400DI` | iGovSISP | 12.3.4 Transparência no uso de inteligência artificial | 16,39 |
 <!-- /federal:secao -->

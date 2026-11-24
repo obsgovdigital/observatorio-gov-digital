@@ -20,8 +20,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "saturado",
-    "motivo_exclusao": "Decisão H do gate de 2026-07 (opção H1): medida próxima do teto — as 48 observações não nulas de 2023 variam de 99,5281% a 100% —, mantida como saturada, série descritiva e pai físico de percentuais condicionais.",
-    "anos_observados": [2021, 2023],
+    "motivo_exclusao": "Medida próxima do teto: em 2025, 22 observações não nulas variam de 99,8992% a 100%; TOTAL de órgãos 100% e de prefeituras 99,9784%. Mantida como saturada e pai físico de percentuais condicionais.",
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -362,16 +362,16 @@
     "dimensao_tematica_id": null,
     "tags": [],
     "audiencia": null,
-    "sub_itens": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+    "sub_itens": ["H", "I", "J", "K", "L"],
     "descricao": "Finalidades de uso de sistemas de informação",
     "pergunta": "Nos últimos 12 meses, este órgão público/esta prefeitura utilizou algum sistema para:",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras",
+    "populacao": "prefeituras",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão E do gate de 2026-07: a família B4 forma uma única bateria com os 12 itens conceituais A-L (incluindo compras e convênios); este container agregado permanece fora do índice para não duplicar o peso da bateria.",
-    "anos_observados": [2023],
+    "motivo_exclusao": "Contêiner agregado fora do índice para não duplicar a bateria de cinco itens H-L das prefeituras. Os 12 itens e o universo de órgãos pertencem à edição anterior.",
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -520,7 +520,7 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Contêiner da família B8, desmembrada em itens com identidade própria; o agregado permanece fora do índice para não duplicar o peso dos itens ativos.",
+    "motivo_exclusao": "Contêiner histórico da família B8, retirada pela fonte em 2025. Os seis conceitos anteriores estão arquivados, sem itens ativos correntes; o agregado não entra no índice.",
     "anos_observados": [2023],
     "primeiro_ano": 2023
   },
@@ -770,7 +770,7 @@
     "agregacao": "max",
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Mede multimídia (áudio/vídeo/lives), não serviços digitais ao cidadão — irrelevante para Obj 2 (obsgovdigital/arquivo#63)",
+    "motivo_exclusao": "Mede multimídia (áudio/vídeo/lives), não serviços digitais ao cidadão — irrelevante para Obj 2 (obsgovdigital/arquivo#63). A fonte retirou a pergunta e os três itens em 2025 nas duas populações; edição e valores de 2023 preservados no arquivo complementar.",
     "anos_observados": [2021, 2023],
     "primeiro_ano": 2021
   },
@@ -1045,8 +1045,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Redundância clara com munic/MUNIC_WIFI_PUBLICO (censo IBGE 2024 retido) — decisão reunião 2026-06-26 + rodada 2026-07-02, seção 1 da auditoria 002b (obsgovdigital/arquivo)",
-    "anos_observados": [2021, 2023],
+    "motivo_exclusao": "Redundância clara com munic/MUNIC_WIFI_PUBLICO (censo IBGE 2024 retido) — decisão reunião 2026-06-26 + rodada 2026-07-02, seção 1 da auditoria 002b (obsgovdigital/arquivo) A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -1121,7 +1121,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Decisão M do gate de 2026-07 (opção M1): somente o item A (login único Gov.br) entra no índice como C9B_A; login estadual, login do próprio ente, rede social e Outro permanecem descritivos, sem peso, porque exigir qualquer cadastro não comprova maturidade de identidade digital.",
-    "anos_observados": [2023],
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -1387,7 +1387,7 @@
     "dimensao_tematica_id": null,
     "tags": [],
     "audiencia": null,
-    "sub_itens": ["A", "B", "C", "D", "E", "F"],
+    "sub_itens": ["A", "B", "C", "D", "E"],
     "descricao": "Redes sociais finalidades",
     "pergunta": "Nos últimos 12 meses, este órgão/esta prefeitura realizou as seguintes atividades nas redes sociais online das quais participa:",
     "escala": "prop_0_100",
@@ -1396,7 +1396,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Finalidade de uso de redes sociais é detalhe técnico; o relevante é usar redes sociais, não para quê.",
-    "anos_observados": [2021, 2023],
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -1445,8 +1445,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Redundância clara com munic/MUNIC_SMART_CENTRO_CONTROLE (censo IBGE 2024 retido) — decisão reunião 2026-06-26 + rodada 2026-07-02, seção 1 da auditoria 002b (obsgovdigital/arquivo)",
-    "anos_observados": [2021, 2023],
+    "motivo_exclusao": "Redundância clara com munic/MUNIC_SMART_CENTRO_CONTROLE (censo IBGE 2024 retido) — decisão reunião 2026-06-26 + rodada 2026-07-02, seção 1 da auditoria 002b (obsgovdigital/arquivo) A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -1645,8 +1645,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_BILHETE, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva.",
-    "anos_observados": [2023],
+    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_BILHETE, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva. A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -1670,8 +1670,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_GPS_ONIBUS, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva.",
-    "anos_observados": [2023],
+    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_GPS_ONIBUS, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva. A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -1695,8 +1695,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_ILUMINACAO, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva.",
-    "anos_observados": [2023],
+    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_ILUMINACAO, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva. A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -1720,8 +1720,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_SEMAFOROS, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva.",
-    "anos_observados": [2023],
+    "motivo_exclusao": "Decisão D do gate de 2026-07: duplicado com munic/MUNIC_SMART_SEMAFOROS, medido pela MUNIC 2024 com censo e recorte de capitais; preservado apenas como série descritiva. A prioridade é a cobertura censitária e granular da MUNIC 2024, mesmo diante da TIC Governo 2025, mais recente.",
+    "anos_observados": [2023, 2025],
     "primeiro_ano": 2023
   },
   {
@@ -1966,12 +1966,12 @@
     "descricao": "Fontes big data",
     "pergunta": "Nos últimos 12 meses, este órgão fez análises de Big Data a partir de alguma das seguintes fontes de dados?",
     "escala": "prop_0_100",
-    "populacao": "orgaos",
+    "populacao": "orgaos_e_prefeituras",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Fontes de big data são detalhe técnico; H1 já captura 'fez big data?'",
-    "anos_observados": [2021, 2023],
+    "motivo_exclusao": "Fontes de big data são detalhe técnico; H1 já captura 'fez big data?' Em 2025, órgãos têm universo ampliado pela retirada do filtro de área de TI e prefeituras têm identidades próprias. As proporções publicadas já expressam a população; não se multiplica novamente por H1 ou H3.",
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -2016,12 +2016,12 @@
     "descricao": "Aplicações de IA",
     "pergunta": "Nos últimos 12 meses, este órgão público utilizou tecnologias de Inteligência Artificial para:",
     "escala": "prop_0_100",
-    "populacao": "orgaos",
+    "populacao": "orgaos_e_prefeituras",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Aplicações de IA são detalhe técnico; H3 já captura 'usou IA?'",
-    "anos_observados": [2021, 2023],
+    "motivo_exclusao": "Aplicações de IA são detalhe técnico; H3 já captura 'usou IA?' Em 2025, órgãos têm universo ampliado pela retirada do filtro de área de TI e prefeituras têm identidades próprias. As proporções publicadas já expressam a população; não se multiplica novamente por H1 ou H3.",
+    "anos_observados": [2021, 2023, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -2045,7 +2045,7 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Aprofundamento do geral tic_gov/H3 (a capacitação da equipe de TI em IA é detalhe do tema de IA; retido o geral) — decisão reunião 2026-06-26 + rodada 2026-07-02, caso 6.4 da auditoria 002b (obsgovdigital/arquivo)",
+    "motivo_exclusao": "Aprofundamento do geral tic_gov/H3 (a capacitação da equipe de TI em IA é detalhe do tema de IA; retido o geral) — decisão reunião 2026-06-26 + rodada 2026-07-02, caso 6.4 da auditoria 002b (obsgovdigital/arquivo) Identidade histórica; em 2025 a pergunta publicada com identidade source/H3C integra o índice, por decisão de 24/11/2026, com denominador e classificação correntes.",
     "anos_observados": [2023],
     "primeiro_ano": 2023
   },
@@ -2318,6 +2318,56 @@
     "escala": "prop_0_100",
     "populacao": "orgaos",
     "agregacao": null,
+    "bateria": "tic_gov_lgpd",
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2025],
+    "primeiro_ano": 2025
+  },
+  {
+    "chave": "tic_gov/source/H3C",
+    "concept_id": "tic_gov/source/H3C",
+    "fonte_id": "tic_gov",
+    "indicador": "source/H3C",
+    "indicador_fisico": "H3C",
+    "codigo_fonte": "H3C",
+    "objetivo_id": 10,
+    "objetivos_engd": [10],
+    "dimensao_conceitual_id": "capacidade",
+    "dimensao_tematica_id": "obj10-formacao-ia",
+    "tags": ["inteligencia-artificial", "gestao-planejamento-ti"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "Capacitação da equipe de TI em inteligência artificial",
+    "pergunta": "Algum dos funcionários da área ou departamento de TI participou de alguma capacitação, curso ou treinamento sobre Inteligência Artificial?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "agregacao": null,
+    "bateria": null,
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2023, 2025],
+    "primeiro_ano": 2023
+  },
+  {
+    "chave": "tic_gov/source/H3C_PREF",
+    "concept_id": "tic_gov/source/H3C_PREF",
+    "fonte_id": "tic_gov",
+    "indicador": "source/H3C_PREF",
+    "indicador_fisico": "H3C",
+    "codigo_fonte": "H3C",
+    "objetivo_id": 10,
+    "objetivos_engd": [10],
+    "dimensao_conceitual_id": "capacidade",
+    "dimensao_tematica_id": "obj10-formacao-ia",
+    "tags": ["inteligencia-artificial", "gestao-planejamento-ti"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "Capacitação da equipe de TI das prefeituras em inteligência artificial",
+    "pergunta": "Algum dos funcionários da área ou departamento de TI participou de alguma capacitação, curso ou treinamento sobre Inteligência Artificial?",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "agregacao": null,
     "bateria": null,
     "status": "ativo",
     "motivo_exclusao": null,
@@ -2342,6 +2392,31 @@
     "pergunta": "Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão públicoDisponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeituraDisponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários:",
     "escala": "prop_0_100",
     "populacao": "ambos",
+    "agregacao": null,
+    "bateria": null,
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2025],
+    "primeiro_ano": 2025
+  },
+  {
+    "chave": "tic_gov/source/H3E_D",
+    "concept_id": "tic_gov/source/H3E_D",
+    "fonte_id": "tic_gov",
+    "indicador": "source/H3E_D",
+    "indicador_fisico": "H3E",
+    "codigo_fonte": "H3E",
+    "objetivo_id": 10,
+    "objetivos_engd": [10],
+    "dimensao_conceitual_id": "capacidade",
+    "dimensao_tematica_id": "obj10-formacao-ia",
+    "tags": ["inteligencia-artificial", "gestao-planejamento-ti"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "Oferta de formação em inteligência artificial generativa",
+    "pergunta": "Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão públicoOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeituraOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias:",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_e_prefeituras",
     "agregacao": null,
     "bateria": null,
     "status": "ativo",
@@ -3028,15 +3103,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": ["A", "B", "C", "D", "E"],
-    "descricao": "Formação do gestor em informática em saúde (G0 quest. → E5 portal)",
-    "pergunta": "O(a) senhor(a) participou, nos últimos 12 meses, de [...]?",
+    "descricao": "Formação do gestor em informática em saúde (G0; aba E5A)",
+    "pergunta": "O(a) senhor(a) participou, nos últimos 24 meses, de [...]?",
     "escala": "prop_0_100",
     "populacao": "gestores_respondentes_estabelecimentos_publicos_saude",
     "agregacao": "max",
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão B do gate de 2026-07: a aba oficial mede formação individual de gestores respondentes, não capacidade do estabelecimento; excluída do índice. Em eventual reativação aprovada, usar a derivação 100 − item F (39,67), nunca max(A-E) (36,96).",
-    "anos_observados": [2021, 2022, 2023, 2024],
+    "motivo_exclusao": "A pergunta mede formação individual de gestores respondentes, não capacidade do estabelecimento. Exclusão mantida por decisão de 24/11/2026. Em 2025, max(A-E)=44,549%; F=53,01%; 100 menos F=46,99%, sem aprovação de troca da agregação.",
+    "anos_observados": [2021, 2022, 2023, 2024, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -3085,7 +3160,7 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Decisão H do gate de 2026-07 (opção H1): mede rede sem fio somente entre escolas com Internet (total condicional de 98,9051%; 25 observações entre 95,4922% e 100%); permanece como série descritiva e pai físico.",
+    "motivo_exclusao": "Decisão H do gate de 2026-07 (opção H1): mede rede sem fio somente entre escolas com Internet (total condicional de 98,9051%; 25 observações entre 95,4922% e 100%); permanece como série descritiva e pai físico. Identidade histórica; em 2025 a pergunta publicada com identidade source/A4 integra o índice, por decisão de 24/11/2026, com denominador e classificação correntes.",
     "anos_observados": [2022, 2023, 2024],
     "primeiro_ano": 2022
   },
@@ -3463,6 +3538,31 @@
     "motivo_exclusao": null,
     "anos_observados": [2024],
     "primeiro_ano": 2024
+  },
+  {
+    "chave": "tic_educacao/source/A4",
+    "concept_id": "tic_educacao/source/A4",
+    "fonte_id": "tic_educacao",
+    "indicador": "source/A4",
+    "indicador_fisico": "A4",
+    "codigo_fonte": "A4",
+    "objetivo_id": 6,
+    "objetivos_engd": [6],
+    "dimensao_conceitual_id": "capacidade",
+    "dimensao_tematica_id": "obj06-infraestrutura-digital-escolas",
+    "tags": ["conectividade", "educacao-digital"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "Rede sem fio nas escolas públicas",
+    "pergunta": "A escola tem Wi-Fi?",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "agregacao": null,
+    "bateria": null,
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2022, 2023, 2024, 2025],
+    "primeiro_ano": 2022
   },
   {
     "chave": "tic_educacao/source/C4_2",
@@ -4127,7 +4227,7 @@
     "dimensao_tematica_id": null,
     "tags": [],
     "audiencia": null,
-    "sub_itens": ["A", "B", "C", "D", "E", "F", "G"],
+    "sub_itens": ["A", "B", "C", "D", "E", "F", "G", "H"],
     "descricao": "Tipos de serviço público acessado (indicador publicado G2)",
     "pergunta": "Nos últimos 12 meses, o(a) senhor(a) usou a Internet para procurar informações ou realizar serviços públicos relacionados a:[...]?",
     "escala": "prop_0_100",
@@ -4136,7 +4236,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Variável de demanda (comportamento do cidadão), não de oferta. Oferta já capturada por C6B, C1 etc.",
-    "anos_observados": [2021, 2022, 2023, 2024],
+    "anos_observados": [2021, 2022, 2023, 2024, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -5028,15 +5128,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": null,
-    "descricao": "IOSPD DIM1 Capacidades (compósito I.1 e I.3-I.13)",
+    "descricao": "IOSPD DIM1 Capacidades (compósito I.1 e I.3-I.13) (composição histórica de 2025)",
     "pergunta": "Indicador calculado pelo Observatório: percentual da pontuação recebida sobre a pontuação possível na Dimensão I – Capacidades para a Oferta de Serviços Digitais do IOSPD 2025, em cada UF. A pontuação possível soma 54 pontos, nos 12 critérios com que a ABEP avalia a dimensão; o indicador I.2, anulado pela fonte, fica fora. A Dimensão I mensura a capacidade dos Estados brasileiros em oferecer serviços digitais e meios para suportar a oferta digital de serviços.",
     "escala": "indice_0_100",
     "populacao": "uf",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito de I.1 e I.3-I.13, desagregados individualmente (obsgovdigital/arquivo#61)",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito de I.1 e I.3-I.13, desagregados individualmente (obsgovdigital/arquivo#61) Em 2026, a dimensão 1 agrega 12 critérios; o compósito continua excluído.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -5053,15 +5153,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": null,
-    "descricao": "IOSPD DIM2 Serviços (compósito II.1-II.12)",
+    "descricao": "IOSPD DIM2 Serviços (compósito II.1-II.12) (composição histórica de 2025)",
     "pergunta": "Indicador calculado pelo Observatório: percentual da pontuação recebida sobre a pontuação possível na Dimensão II – Oferta de Serviços Digitais do IOSPD 2025, em cada UF, de 54 pontos (12 indicadores de até 4,5 pontos). A Dimensão II mensura a oferta de serviços digitais no setor público, em cada um dos Estados analisados.",
     "escala": "indice_0_100",
     "populacao": "uf",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito de II.1-II.12, desagregados individualmente (obsgovdigital/arquivo#61). Exclusão anterior (compósito de DIM4/DIM5) era incorreta — DIM2 tem indicadores próprios de serviços digitais.",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito de II.1-II.12, desagregados individualmente (obsgovdigital/arquivo#61). Exclusão anterior (compósito de DIM4/DIM5) era incorreta — DIM2 tem indicadores próprios de serviços digitais. Em 2026, a dimensão 2 agrega 12 critérios; o compósito continua excluído.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -5078,15 +5178,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": null,
-    "descricao": "IOSPD DIM3 Normatização (compósito III.1a-III.1d e III.2-III.7)",
+    "descricao": "IOSPD DIM3 Normatização (compósito III.1a-III.1d e III.2-III.7) (composição histórica de 2025)",
     "pergunta": "Indicador calculado pelo Observatório: percentual da pontuação recebida sobre a pontuação possível na Dimensão III – Normatização sobre Modernização para a Oferta de Serviços Públicos do IOSPD 2025, em cada UF. A pontuação possível soma 27,5 pontos, nos 7 critérios com que a ABEP avalia a dimensão; a linha III.1, que a fonte não pontua, fica fora.",
     "escala": "indice_0_100",
     "populacao": "uf",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito de III.1a-d + III.2-III.7, desagregados individualmente (obsgovdigital/arquivo#61)",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito de III.1a-d + III.2-III.7, desagregados individualmente (obsgovdigital/arquivo#61) Em 2026, a dimensão 3 agrega 6 critérios; o compósito continua excluído.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -5103,15 +5203,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": null,
-    "descricao": "IOSPD DIM4 Linguagem Simples (compósito IV.1-IV.9)",
+    "descricao": "IOSPD DIM4 Linguagem Simples (compósito IV.1-IV.9) (composição histórica de 2025)",
     "pergunta": "Indicador calculado pelo Observatório: percentual da pontuação recebida sobre a pontuação possível na Dimensão IV – Inclusividade na Oferta de Serviços Públicos do IOSPD 2025, em cada UF, de 44 pontos (IV.1 a IV.7 de até 5 pontos; IV.8 e IV.9 de até 4,5). A Dimensão IV avalia a capacidade das UFs ofertarem serviços digitais de forma clara, simples e intuitiva para todos os cidadãos.",
     "escala": "indice_0_100",
     "populacao": "uf",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito de IV.1-IV.9, desagregados individualmente (obsgovdigital/arquivo#61)",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito de IV.1-IV.9, desagregados individualmente (obsgovdigital/arquivo#61) Em 2026, a dimensão 4 agrega 8 critérios; o compósito continua excluído.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -5128,15 +5228,15 @@
     "tags": [],
     "audiencia": null,
     "sub_itens": null,
-    "descricao": "IOSPD DIM5 Inovação (compósito V.1-V.9)",
+    "descricao": "IOSPD DIM5 Inovação (compósito V.1-V.9) (composição histórica de 2025)",
     "pergunta": "Indicador calculado pelo Observatório: percentual da pontuação recebida sobre a pontuação possível na Dimensão V – Inovação na Oferta de Serviços Públicos do IOSPD 2025, em cada UF, de 40,50 pontos (9 indicadores de até 4,50). A Dimensão V visa verificar o engajamento das UFs na Inovação das Ofertas de Serviços Digitais e é medida em ranking específico, fora do ranking geral do IOSPD.",
     "escala": "indice_0_100",
     "populacao": "uf",
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito de V.1-V.9, desagregados individualmente (obsgovdigital/arquivo#61)",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito de V.1-V.9, desagregados individualmente (obsgovdigital/arquivo#61) Em 2026, a dimensão 5 agrega 6 critérios; o compósito continua excluído.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -6160,8 +6260,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Compósito das Dimensões I a IV; 52 indicadores individuais desagregados (obsgovdigital/arquivo#61)",
-    "anos_observados": [2024, 2025],
+    "motivo_exclusao": "Compósito das Dimensões I a IV; 52 indicadores individuais desagregados (obsgovdigital/arquivo#61) Em 2026, agrega as cinco dimensões I-V com pesos 30/30/10/20/10, sobre 26 UFs.",
+    "anos_observados": [2024, 2025, 2026],
     "primeiro_ano": 2024
   },
   {
@@ -7735,8 +7835,8 @@
     "agregacao": null,
     "bateria": null,
     "status": "excluido",
-    "motivo_exclusao": "Par empírico r_niv=+0,99 com pnad_tic/V4080 (retida a medida domiciliar) — decisão reunião 2026-06-26 + rodada 2026-07-02, auditoria 002b (obsgovdigital/arquivo), anotação redundancia-candidatos",
-    "anos_observados": [2021, 2022, 2023, 2024],
+    "motivo_exclusao": "Redundância mantida pelo teste original temporal nacional, limiar |r_niv| ≥ 0,85: 2016–2024, oito anos comuns, r_niv=0,992842 e r_dif=0,946210; acrescentando 2025, nove anos, r_niv=0,991228 e r_dif=0,935576. Retida a medida domiciliar V4080. A correlação transversal das 27 UFs de 2025 (0,820002) não reproduz o teste temporal. Cálculo exploratório sobre o arquivo histórico legado, sem o incorporar ao snapshot nem retirar sua quarentena.",
+    "anos_observados": [2021, 2022, 2023, 2024, 2025],
     "primeiro_ano": 2021
   },
   {
@@ -11261,7 +11361,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Degrau lógico de igovsisp/G106GPE (publicar pressupõe possuir; retido o mais exigente) — decisão reunião 2026-06-26 + rodada 2026-07-02, caso 5.1 da auditoria 002b (obsgovdigital/arquivo)",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -11311,7 +11411,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -11386,7 +11486,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -11411,7 +11511,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Rotina de acompanhamento do PDTIC sem vínculo substantivo demonstrado com governo digital. Não é absorvida por uma medida de execução geral do plano.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -11461,7 +11561,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Redundância clara com igovsisp/G106GPL (grupo 1.1 da auditoria 002b em obsgovdigital/arquivo, Obj 1): mesma bateria, respondente e objeto — dimensionamento de pessoal no PDTIC; GPL retida por maior granularidade (desagregação por competência). Decisão 2026-06-11",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -11610,8 +11710,8 @@
     "agregacao": null,
     "bateria": "igovsisp_pdtic",
     "status": "excluido",
-    "motivo_exclusao": "A pergunta aceita metas de acessibilidade no PDTIC ou em PTD equivalente. A fonte registra 77 respostas a partir do terceiro estágio entre 202 respondentes e não informa se os 32 órgãos que ficaram fora do bloco tinham metas em PTD.",
-    "anos_observados": [2025],
+    "motivo_exclusao": "A pergunta aceita metas de acessibilidade no PDTIC ou em PTD equivalente. A fonte registra 90 respostas a partir do terceiro estágio entre 213 respondentes e não informa se os 25 órgãos que ficaram fora do bloco tinham metas em PTD.",
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12336,7 +12436,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12361,7 +12461,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12386,7 +12486,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12461,7 +12561,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Alinhamento genérico aos ODS, sem identificação de capacidade ou resultado de governo digital nas alternativas.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12486,7 +12586,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12511,7 +12611,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12536,7 +12636,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de engenharia de software sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12611,7 +12711,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12636,7 +12736,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12661,7 +12761,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Prática de experiência ou suporte ao usuário que não distingue usuários internos e serviços públicos digitais.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12686,7 +12786,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Organização de equipes de jornada, UX e UI sem distinção de serviços públicos digitais; não demonstra vínculo substantivo com a capacidade de governo digital medida.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12711,7 +12811,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -12761,7 +12861,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Gestão de aplicações corporativas sem vínculo substantivo demonstrado com uma capacidade ou resultado de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -13661,7 +13761,7 @@
     "bateria": null,
     "status": "excluido",
     "motivo_exclusao": "Escada prática com igovsisp/G502CTI (normativos sucessivos da mesma política de contratações; retido G502CTI) — decisão reunião 2026-06-26 + rodada 2026-07-02, caso 5.6 da auditoria 002b (obsgovdigital/arquivo)",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -14086,7 +14186,7 @@
     "bateria": "igovsisp_ppsi",
     "status": "excluido",
     "motivo_exclusao": "Conhecimento e adoção do Design System gov.br não demonstram, por si, qualidade ou capacidade substantiva de governo digital.",
-    "anos_observados": [2025],
+    "anos_observados": [2025, 2026],
     "primeiro_ano": 2025
   },
   {
@@ -14507,6 +14607,56 @@
     "pergunta": "O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
+    "agregacao": null,
+    "bateria": null,
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2026],
+    "primeiro_ano": 2026
+  },
+  {
+    "chave": "igovsisp/G331410DI",
+    "concept_id": "igovsisp/G331410DI",
+    "fonte_id": "igovsisp",
+    "indicador": "G331410DI",
+    "indicador_fisico": "G331410DI",
+    "codigo_fonte": "G331410DI",
+    "objetivo_id": 3,
+    "objetivos_engd": [3],
+    "dimensao_conceitual_id": "uso_politicas",
+    "dimensao_tematica_id": "obj03-cpf-cadastros-publicos",
+    "tags": ["identidade-digital", "dados-interoperabilidade"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "CPF como identificador único nas bases finalísticas",
+    "pergunta": "Em relação às bases de dados finalísticas do seu órgão (relacionados a políticas públicas ou serviços públicos), qual a percentagem em que o número do CPF já é utilizado como identificador único (conforme art. 9º, II da Lei nº 14.534/2023), com validação/consulta automática na Receita Federal?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp_com_bases_aplicaveis",
+    "agregacao": null,
+    "bateria": null,
+    "status": "ativo",
+    "motivo_exclusao": null,
+    "anos_observados": [2026],
+    "primeiro_ano": 2026
+  },
+  {
+    "chave": "igovsisp/G331411DI",
+    "concept_id": "igovsisp/G331411DI",
+    "fonte_id": "igovsisp",
+    "indicador": "G331411DI",
+    "indicador_fisico": "G331411DI",
+    "codigo_fonte": "G331411DI",
+    "objetivo_id": 3,
+    "objetivos_engd": [3],
+    "dimensao_conceitual_id": "uso_politicas",
+    "dimensao_tematica_id": "obj03-cpf-cadastros-publicos",
+    "tags": ["identidade-digital", "dados-interoperabilidade"],
+    "audiencia": "gestor",
+    "sub_itens": null,
+    "descricao": "CPF como identificador único nos registros cadastrais ativos",
+    "pergunta": "Qual a estimativa do percentual de registros cadastrais ativos do seu órgão que já utilizam o CPF como identificador único?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp_com_registros_aplicaveis",
     "agregacao": null,
     "bateria": null,
     "status": "ativo",

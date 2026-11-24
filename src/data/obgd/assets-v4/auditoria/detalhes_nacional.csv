@@ -139,6 +139,8 @@ Total,3,Identificação Única,iospd/IOSPD_E26_108,iospd,IOSPD_E26_108,total,1.8
 Total,3,Identificação Única,iospd/IOSPD_E26_303,iospd,IOSPD_E26_303,total,"3.3 O USO DE ASSINATURAS ELETRÔNICAS EM INTERAÇÕES COM ENTES PÚBLICOS FOI NORMATIZADO PELO GOVERNO ESTADUAL/DISTRITAL, CONFORME PREVISTO PELA LEI FEDERAL 14.063/2020?",indice_0_10,uf,65.38,2026
 Total,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,6.74,2024
 Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,63.07,2026
+Total,3,Identificação Única,igovsisp/G331410DI,igovsisp,G331410DI,total,CPF como identificador único nas bases finalísticas,prop_0_100,orgaos_federais_sisp_com_bases_aplicaveis,45.26,2026
+Total,3,Identificação Única,igovsisp/G331411DI,igovsisp,G331411DI,total,CPF como identificador único nos registros cadastrais ativos,prop_0_100,orgaos_federais_sisp_com_registros_aplicaveis,50.12,2026
 Total,3,Identificação Única,cin/atingimento_meta_cin,cin,atingimento_meta_cin,total,Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN),pct_meta_100,uf,52.66,2026
 Total,4,Segurança e LGPD,tic_gov/B5A_B,tic_gov,B5A,['B'],Plano de segurança da informação,prop_0_100,orgaos_e_prefeituras,42.405837090000006,2025
 Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,58.778999999999996,2025
@@ -245,6 +247,7 @@ Total,6,Infraestrutura,tic_gov/F2C_E,tic_gov,F2C,['E'],Monitoramento de patrimô
 Total,6,Infraestrutura,tic_gov/F2C_F,tic_gov,F2C,['F'],Outros objetos monitorados pelo centro de operações,prop_0_100,prefeituras,3.9862012400000006,2025
 Total,6,Infraestrutura,tic_gov/source/H3E_A,tic_gov,H3E,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",prop_0_100,ambos,20.72445,2025
 Total,6,Infraestrutura,tic_educacao/G4,tic_educacao,G4,"['A', 'B', 'C', 'D', 'E', 'G', 'I', 'H']",Ambientes digitais de aprendizagem e avaliação,prop_0_100,escolas_publicas,74.5292,2025
+Total,6,Infraestrutura,tic_educacao/source/A4,tic_educacao,A4,total,Rede sem fio nas escolas públicas,prop_0_100,escolas_publicas,92.87312340300001,2025
 Total,6,Infraestrutura,tic_educacao/source/C4_2,tic_educacao,C4_2,total,ESCOLAS QUE PERMITEM QUE OS ALUNOS UTILIZEM A INTERNET OU OS COMPUTADORES DA INSTITUIÇÃO FORA DO HORÁRIO DE AULA,prop_0_100,escolas_publicas,27.746326733821853,2025
 Total,6,Infraestrutura,tic_educacao/source/C5_1,tic_educacao,C5_1,total,"ESCOLAS, POR USO DE COMPUTADORES E DA INTERNET DA ESCOLA PELA COMUNIDADE",prop_0_100,escolas_publicas,14.722152772568204,2025
 Total,6,Infraestrutura,tic_educacao/source/E5A,tic_educacao,E5A,total,"ESCOLAS QUE POSSUEM GUIA DE ORIENTAÇÕES SOBRE O USO DE INTELIGÊNCIA ARTIFICIAL NAS ATIVIDADES DE ENSINO, DE APRENDIZAGEM E DE GESTÃO",prop_0_100,escolas_publicas,20.8453,2025
@@ -337,6 +340,9 @@ Total,9,Transparência e Participação,estadic/ESTADIC_PARTICIP_INTERNET,estadi
 Total,9,Transparência e Participação,estadic/ESTADIC_TRANSP_CONTEUDO,estadic,ESTADIC_TRANSP_CONTEUDO,total,Conteúdo da página internet / portal da transparência,prop_0_100,governo_estadual,86.01,2024
 Total,9,Transparência e Participação,igovsisp/G400DI,igovsisp,G400DI,total,3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?,prop_0_100,orgaos_federais_sisp,16.39,2026
 Total,10,Competências em Governo Digital,tic_gov/G2,tic_gov,G2,total,Capacitação sobre a LGPD para funcionários de TI,prop_0_100,orgaos_e_prefeituras,36.457365331,2025
+Total,10,Competências em Governo Digital,tic_gov/source/H3C,tic_gov,H3C,total,Capacitação da equipe de TI em inteligência artificial,prop_0_100,orgaos,61.7385,2025
+Total,10,Competências em Governo Digital,tic_gov/source/H3C_PREF,tic_gov,H3C,total,Capacitação da equipe de TI das prefeituras em inteligência artificial,prop_0_100,prefeituras,13.557193939,2025
+Total,10,Competências em Governo Digital,tic_gov/source/H3E_D,tic_gov,H3E,total,Oferta de formação em inteligência artificial generativa,prop_0_100,orgaos_e_prefeituras,29.995350000000002,2025
 Total,10,Competências em Governo Digital,tic_educacao/G2_C,tic_educacao_professores,G2,['C'],Atividades com alunos sobre privacidade e dados pessoais,prop_0_100,professores_escolas_publicas,57.7607,2024
 Total,10,Competências em Governo Digital,tic_educacao/H3,tic_educacao_professores,H3,total,Formação continuada TIC (P45a quest. → H3 portal),prop_0_100,professores_escolas_publicas,52.1612,2024
 Total,10,Competências em Governo Digital,tic_educacao/H7_C,tic_educacao_professores,H7,['C'],Formação: criação de conteúdos educacionais com plataformas e aplicativos (P49A2_G quest. → H7 item C portal),prop_0_100,professores_escolas_publicas,42.89215476,2024
