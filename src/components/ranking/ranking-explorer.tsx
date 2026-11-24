@@ -37,6 +37,9 @@ import { type RankingFiltros, rankingHref } from '@/lib/ranking-url'
 
 type Vista = 'grafico' | 'mapa'
 
+// Fallback por chave, não por posição: Nacional e Federal vêm antes em `niveis`.
+const nivelEstadual = niveis.find(n => n.key === 'estadual') ?? niveis[0]
+
 export function RankingExplorer({
   filtros: filtrosServidor,
 }: {
@@ -63,7 +66,7 @@ export function RankingExplorer({
   const objetivoNumero = getObjectiveNumber(filtros.objetivo) || 1
   const tagSlug = filtros.tema
 
-  const nivel = niveis.find(n => n.key === active) ?? niveis[1]
+  const nivel = niveis.find(n => n.key === active) ?? nivelEstadual
   const cobertura = React.useMemo(() => objetivosComCobertura(nivel), [nivel])
   const coberturaTemas = React.useMemo(
     () => tematicasComCobertura(nivel),
@@ -73,7 +76,7 @@ export function RankingExplorer({
   const atualizar = React.useCallback(
     (patch: Partial<RankingFiltros>) => {
       const next: RankingFiltros = { ...filtros, ...patch }
-      const nivelAlvo = niveis.find(n => n.key === next.nivel) ?? niveis[1]
+      const nivelAlvo = niveis.find(n => n.key === next.nivel) ?? nivelEstadual
       const cob = objetivosComCobertura(nivelAlvo)
       const num = getObjectiveNumber(next.objetivo)
       if (!num || !objetivoSelecionavel(num - 1, cob)) {

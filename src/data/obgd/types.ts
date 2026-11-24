@@ -1,6 +1,11 @@
 /** Tipos dos JSON em `src/data/obgd/assets/` (subset de dados-v4). */
 
-export type EnteTipo = 'nacional' | 'uf' | 'municipio'
+/**
+ * `uniao` é o recorte federal (a União como ente único). A chave não é
+ * `federal` porque `federal` já foi o nome da visão Nacional e o proxy ainda
+ * redireciona os links antigos com `federal` para `nacional`.
+ */
+export type EnteTipo = 'nacional' | 'uniao' | 'uf' | 'municipio'
 
 /** Recorte do índice / detalhes (alinhado a `indice_long.nivel`). */
 export type DataNivel = EnteTipo

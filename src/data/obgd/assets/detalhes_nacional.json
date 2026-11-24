@@ -10,8 +10,50 @@
     "descricao": "Área de TI",
     "escala": "prop_0_100",
     "populacao": "ambos",
-    "valor_normalizado": 67.8899,
-    "ano_fonte": 2023
+    "valor_normalizado": 67.54115,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "tic_gov/B5A_A",
+    "fonte": "tic_gov",
+    "indicador": "B5A_A",
+    "sub_itens": "['A']",
+    "descricao": "Plano estratégico de TI",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 37.426129006,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "tic_gov/B7A",
+    "fonte": "tic_gov",
+    "indicador": "B7A",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI)",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 39.7970253162,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "tic_gov/source/B5A_C",
+    "fonte": "tic_gov",
+    "indicador": "source/B5A_C",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 38.0275893164,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -22,9 +64,9 @@
     "indicador": "source/2123",
     "sub_itens": "total",
     "descricao": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 37.78,
+    "valor_normalizado": 40.92,
     "ano_fonte": 2024
   },
   {
@@ -36,9 +78,9 @@
     "indicador": "source/2133",
     "sub_itens": "total",
     "descricao": "Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 66.76,
+    "valor_normalizado": 76.42,
     "ano_fonte": 2024
   },
   {
@@ -50,9 +92,9 @@
     "indicador": "source/2153",
     "sub_itens": "total",
     "descricao": "Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 57.43,
+    "valor_normalizado": 59.89,
     "ano_fonte": 2024
   },
   {
@@ -64,9 +106,9 @@
     "indicador": "source/3132_C",
     "sub_itens": "['C']",
     "descricao": "Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 59.95,
+    "valor_normalizado": 60.7,
     "ano_fonte": 2024
   },
   {
@@ -78,9 +120,9 @@
     "indicador": "source/4211",
     "sub_itens": "total",
     "descricao": "Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 71.74,
+    "valor_normalizado": 82.93,
     "ano_fonte": 2024
   },
   {
@@ -92,9 +134,9 @@
     "indicador": "source/4212",
     "sub_itens": "total",
     "descricao": "Plano de TI vigente (iESGo/TCU 2024, questão 4212)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 76.65,
+    "valor_normalizado": 84.01,
     "ano_fonte": 2024
   },
   {
@@ -106,9 +148,9 @@
     "indicador": "source/4221",
     "sub_itens": "total",
     "descricao": "Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 50.43,
+    "valor_normalizado": 53.93,
     "ano_fonte": 2024
   },
   {
@@ -120,9 +162,9 @@
     "indicador": "source/4222",
     "sub_itens": "total",
     "descricao": "Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 45.26,
+    "valor_normalizado": 52.3,
     "ano_fonte": 2024
   },
   {
@@ -134,9 +176,9 @@
     "indicador": "source/4223",
     "sub_itens": "total",
     "descricao": "Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 35.87,
+    "valor_normalizado": 37.13,
     "ano_fonte": 2024
   },
   {
@@ -148,9 +190,9 @@
     "indicador": "source/4224",
     "sub_itens": "total",
     "descricao": "Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 50.64,
+    "valor_normalizado": 56.37,
     "ano_fonte": 2024
   },
   {
@@ -162,9 +204,9 @@
     "indicador": "source/4261",
     "sub_itens": "total",
     "descricao": "Processo de software (iESGo/TCU 2024, questão 4261)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 51.69,
+    "valor_normalizado": 59.35,
     "ano_fonte": 2024
   },
   {
@@ -176,24 +218,66 @@
     "indicador": "source/4262",
     "sub_itens": "total",
     "descricao": "Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 49.18,
+    "valor_normalizado": 56.1,
     "ano_fonte": 2024
   },
   {
     "categoria": "Total",
     "objetivo": 1,
     "objetivo_nome": "Governança do Governo Digital",
-    "concept_id": "iospd/IOSPD_I10",
+    "concept_id": "iospd/IOSPD_E26_101",
     "fonte": "iospd",
-    "indicador": "IOSPD_I10",
+    "indicador": "IOSPD_E26_101",
     "sub_itens": "total",
-    "descricao": "Estratégia de governo digital (IOSPD I.10)",
+    "descricao": "1.1 POSSUI ESTRATÉGIA DE GOVERNO DIGITAL VIGENTE EM 2026?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 48.14,
-    "ano_fonte": 2025
+    "valor_normalizado": 83.01,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "iospd/IOSPD_E26_102",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_102",
+    "sub_itens": "total",
+    "descricao": "1.2 EXISTE UMA INSTITUIÇÃO RESPONSÁVEL POR LIDERAR E COORDENAR AS DECISÕES DE GOVERNO DIGITAL E / OU DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO E ASSEGURAR SUA IMPLEMENTAÇÃO DE FORMA TRANSVERSAL NO ESTADO?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 99.04,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "iospd/IOSPD_E26_103",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_103",
+    "sub_itens": "total",
+    "descricao": "1.3 EXISTE UM ÓRGÃO/ESTRUTURA FORMAL COLEGIADO DE COORDENAÇÃO RESPONSÁVEL POR DIRECIONAR TRANSVERSALMENTE AS POLÍTICAS E INICIATIVAS DE GOVERNO DIGITAL OU TIC?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 96.15,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 1,
+    "objetivo_nome": "Governança do Governo Digital",
+    "concept_id": "iospd/IOSPD_E26_506",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_506",
+    "sub_itens": "total",
+    "descricao": "5.6 O ESTADO POSSUI INICIATIVA OU PROGRAMA PARA APOIAR A TRANSFORMAÇÃO DIGITAL DOS SEUS MUNICÍPIOS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 84.62,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -220,8 +304,8 @@
     "descricao": "Estruturas/diretrizes de governança de TIC",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 86.32,
-    "ano_fonte": 2025
+    "valor_normalizado": 84.87,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -234,8 +318,8 @@
     "descricao": "Planejamento alinhado à EFGD",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 88.89,
-    "ano_fonte": 2025
+    "valor_normalizado": 92.02,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -248,8 +332,8 @@
     "descricao": "Comitê de Governança Digital",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 93.16,
-    "ano_fonte": 2025
+    "valor_normalizado": 90.76,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -262,8 +346,8 @@
     "descricao": "Gerenciamento de projetos de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 72.65,
-    "ano_fonte": 2025
+    "valor_normalizado": 76.47,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -276,8 +360,8 @@
     "descricao": "PDTIC publicado",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 94.06,
-    "ano_fonte": 2025
+    "valor_normalizado": 86.13,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -290,8 +374,8 @@
     "descricao": "Usa Guia PDTIC do SISP",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 98.02,
-    "ano_fonte": 2025
+    "valor_normalizado": 78.57,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -304,8 +388,8 @@
     "descricao": "Revisão anual do PDTIC",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 91.09,
-    "ano_fonte": 2025
+    "valor_normalizado": 61.34,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -318,8 +402,8 @@
     "descricao": "Estimou mínimo pessoal por competência",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 43.07,
-    "ano_fonte": 2025
+    "valor_normalizado": 38.24,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -332,8 +416,8 @@
     "descricao": "Analisou alternativas (IA, cloud)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 42.57,
-    "ano_fonte": 2025
+    "valor_normalizado": 43.28,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -346,8 +430,8 @@
     "descricao": "Detalhou orçamento por contrato",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 70.79,
-    "ano_fonte": 2025
+    "valor_normalizado": 64.71,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -360,8 +444,8 @@
     "descricao": "Detalhou riscos e tratamento",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 58.17,
-    "ano_fonte": 2025
+    "valor_normalizado": 56.09,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -374,8 +458,8 @@
     "descricao": "Planejou metas intermediárias",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 63.86,
-    "ano_fonte": 2025
+    "valor_normalizado": 60.08,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -388,8 +472,8 @@
     "descricao": "Orçamento adequado para necessidades de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 31.62,
-    "ano_fonte": 2025
+    "valor_normalizado": 28.99,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -402,8 +486,8 @@
     "descricao": "Avaliação de políticas de TI no processo orçamentário",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 48.29,
-    "ano_fonte": 2025
+    "valor_normalizado": 48.32,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -416,8 +500,8 @@
     "descricao": "Framework para gestão de riscos de entregas de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 39.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 46.64,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -430,8 +514,8 @@
     "descricao": "Gestão eficiente de recursos de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 83.76,
-    "ano_fonte": 2025
+    "valor_normalizado": 85.71,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -444,8 +528,8 @@
     "descricao": "Previsão orçamentária por cenários alternativos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 54.7,
-    "ano_fonte": 2025
+    "valor_normalizado": 55.88,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -458,8 +542,8 @@
     "descricao": "Avaliações regulares de conformidade em TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 51.28,
-    "ano_fonte": 2025
+    "valor_normalizado": 55.46,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -472,8 +556,8 @@
     "descricao": "Registros precisos de ativos de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.5,
-    "ano_fonte": 2025
+    "valor_normalizado": 74.79,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -486,8 +570,8 @@
     "descricao": "PEI/PDI com objetivos de TIC",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 82.05,
-    "ano_fonte": 2025
+    "valor_normalizado": 86.13,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -500,8 +584,8 @@
     "descricao": "Elaboração e execução do Plano de Transformação Digital",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 89.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 72.69,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -514,8 +598,8 @@
     "descricao": "Alinhamento estratégico dos investimentos do PTD",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 80.77,
-    "ano_fonte": 2025
+    "valor_normalizado": 63.45,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -527,9 +611,9 @@
     "sub_itens": "total",
     "descricao": "Presença de website",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 92.6303,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 96.25550126319999,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -541,9 +625,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
     "descricao": "Tipos de serviço disponibilizados no website",
     "escala": "prop_0_100",
-    "populacao": "orgaos_com_website",
-    "valor_normalizado": 83.2403,
-    "ano_fonte": 2023
+    "populacao": "orgaos",
+    "valor_normalizado": 83.83660479600002,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -556,8 +640,8 @@
     "descricao": "Meios de contato da central de atendimento",
     "escala": "prop_0_100",
     "populacao": "prefeituras",
-    "valor_normalizado": 84.5892,
-    "ano_fonte": 2023
+    "valor_normalizado": 82.5797,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -569,9 +653,9 @@
     "sub_itens": "['A']",
     "descricao": "Envio de SMS para o cidadão",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 21.81475,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 24.4520618408,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -583,9 +667,9 @@
     "sub_itens": "['B']",
     "descricao": "Recebimento de SMS enviado pelo cidadão",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 20.701349999999998,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 21.4414733888,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -597,9 +681,9 @@
     "sub_itens": "['C']",
     "descricao": "Aplicativo criado pelo ente",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 36.00495,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 35.004934481599996,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -611,9 +695,9 @@
     "sub_itens": "['D']",
     "descricao": "Website adaptado para dispositivos móveis",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 71.51735,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 72.0357925016,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -625,9 +709,9 @@
     "sub_itens": "['E']",
     "descricao": "Envio de mensagens por WhatsApp ou Telegram",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 48.4256,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 49.179945196,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -639,9 +723,9 @@
     "sub_itens": "['CHATBOT']",
     "descricao": "Atendimento automatizado por assistente virtual ou chatbot",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 13.842600000000001,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 16.576443627370292,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -653,9 +737,9 @@
     "sub_itens": "['COMPLAINT']",
     "descricao": "Denúncia online como forma de contato",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 69.4817,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 73.15282106982588,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -667,9 +751,9 @@
     "sub_itens": "['EMAIL']",
     "descricao": "Endereço de e-mail como forma de contato",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 95.67715,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 91.80373449666499,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -681,9 +765,9 @@
     "sub_itens": "['FOI_REQUEST']",
     "descricao": "Serviço de solicitação de acesso à informação",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 70.86915,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 70.10296048291312,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -695,9 +779,9 @@
     "sub_itens": "['FORM']",
     "descricao": "Formulário eletrônico como forma de contato",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 63.60525,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 61.755377261786336,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -709,9 +793,9 @@
     "sub_itens": "['LIVE_CHAT']",
     "descricao": "Chat com atendentes em tempo real",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 20.119349999999997,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 20.587158482314987,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -723,9 +807,37 @@
     "sub_itens": "['SUGGESTIONS']",
     "descricao": "Canal de sugestões para melhoria de serviços públicos",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 68.51595,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 70.44934149393227,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 2,
+    "objetivo_nome": "Qualidade dos Serviços Digitais",
+    "concept_id": "tic_gov/source/C10",
+    "fonte": "tic_gov",
+    "indicador": "source/C10",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE COLETARAM DADOS OU ESTATÍSTICAS SOBRE O USO DOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 37.873887787916644,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 2,
+    "objetivo_nome": "Qualidade dos Serviços Digitais",
+    "concept_id": "tic_gov/source/C11",
+    "fonte": "tic_gov",
+    "indicador": "source/C11",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE MEDIRAM A SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 27.49677116668653,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -737,9 +849,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E']",
     "descricao": "Serviços online ao paciente (D1 questionário → C1 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 28.153639999999996,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 29.078324175,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -751,9 +863,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F']",
     "descricao": "Telessaúde modalidades (D2A quest. → C2 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 20.953133333333337,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 32.028984564999995,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -765,9 +877,9 @@
     "sub_itens": "total",
     "descricao": "Website (B6-A quest. → C5 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 50.05,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 17.666124192,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -779,555 +891,317 @@
     "sub_itens": "total",
     "descricao": "Presença em redes sociais (B6_1 quest. → C6 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 56.7162,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I01",
-    "fonte": "iospd",
-    "indicador": "IOSPD_I01",
-    "sub_itens": "total",
-    "descricao": "Portal único ou de serviços (IOSPD I.1)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 74.07,
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 23.512215579,
     "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I03",
-    "fonte": "iospd",
-    "indicador": "IOSPD_I03",
+    "concept_id": "tic_domicilios/G1",
+    "fonte": "tic_domicilios",
+    "indicador": "G1",
     "sub_itens": "total",
-    "descricao": "Agendamento digital unificado (IOSPD I.3)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 62.96,
+    "descricao": "Uso de governo eletrônico (indicador publicado G1)",
+    "escala": "prop_0_100",
+    "populacao": "individuos_16_mais",
+    "valor_normalizado": 59.94893483286711,
     "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I04",
-    "fonte": "iospd",
-    "indicador": "IOSPD_I04",
-    "sub_itens": "total",
-    "descricao": "Avaliação de satisfação dos usuários (IOSPD I.4)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 74.07,
+    "concept_id": "tic_domicilios/G2A",
+    "fonte": "tic_domicilios",
+    "indicador": "G2A",
+    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
+    "descricao": "Resolução sem deslocamento (indicador publicado G2A)",
+    "escala": "prop_0_100",
+    "populacao": "individuos_16_mais",
+    "valor_normalizado": 7.669583597681969,
     "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I06",
+    "concept_id": "iospd/IOSPD_E26_107",
     "fonte": "iospd",
-    "indicador": "IOSPD_I06",
+    "indicador": "IOSPD_E26_107",
     "sub_itens": "total",
-    "descricao": "Gestão de cadastro e perfil do cidadão (IOSPD I.6)",
+    "descricao": "1.7 POSSUI UM PORTAL ÚNICO OU UM PORTAL DIGITAL DE SERVIÇOS DISPONÍVEL AO CIDADÃO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 66.67,
-    "ano_fonte": 2025
+    "valor_normalizado": 82.23,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I07",
+    "concept_id": "iospd/IOSPD_E26_109",
     "fonte": "iospd",
-    "indicador": "IOSPD_I07",
+    "indicador": "IOSPD_E26_109",
     "sub_itens": "total",
-    "descricao": "Ouvidoria integrada ao portal (IOSPD I.7)",
+    "descricao": "1.9 POSSUI OPÇÕES DE PAGAMENTOS DE SERVIÇOS DISPONÍVEIS AOS CIDADÃOS ATRAVÉS DE PIX OU CARTÃO DE CRÉDITO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 70.37,
-    "ano_fonte": 2025
+    "valor_normalizado": 73.08,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I08",
+    "concept_id": "iospd/IOSPD_E26_201",
     "fonte": "iospd",
-    "indicador": "IOSPD_I08",
+    "indicador": "IOSPD_E26_201",
     "sub_itens": "total",
-    "descricao": "Simplificação de serviços online (IOSPD I.8)",
+    "descricao": "2.1 DISPONIBILIZA SERVIÇO DIGITAL DE REMATRÍCULA ONLINE NAS ESCOLAS ESTADUAIS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 40.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 76.92,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_I12",
+    "concept_id": "iospd/IOSPD_E26_202",
     "fonte": "iospd",
-    "indicador": "IOSPD_I12",
+    "indicador": "IOSPD_E26_202",
     "sub_itens": "total",
-    "descricao": "Ferramenta digital integrada de atendimento (IOSPD I.12)",
+    "descricao": "2.2 DISPONIBILIZA SERVIÇO DIGITAL PARA SOLICITAÇÃO DE MEDICAMENTOS DO COMPONENTE ESPECIALIZADO DA ASSISTÊNCIA FARMACÊUTICA (CEAF)?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 68.52,
-    "ano_fonte": 2025
+    "valor_normalizado": 61.54,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II01",
+    "concept_id": "iospd/IOSPD_E26_203",
     "fonte": "iospd",
-    "indicador": "IOSPD_II01",
+    "indicador": "IOSPD_E26_203",
     "sub_itens": "total",
-    "descricao": "Rematrícula online escolas estaduais (IOSPD II.1)",
+    "descricao": "2.3 O ESTADO OFERECE SERVIÇOS ESTRUTURADOS DE TELESSAÚDE PARA O CIDADÃO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 51.85,
-    "ano_fonte": 2025
+    "valor_normalizado": 66.35,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II02",
+    "concept_id": "iospd/IOSPD_E26_204",
     "fonte": "iospd",
-    "indicador": "IOSPD_II02",
+    "indicador": "IOSPD_E26_204",
     "sub_itens": "total",
-    "descricao": "Solicitação de medicamento de alto custo digital (IOSPD II.2)",
+    "descricao": "2.4 DISPONIBILIZA PROVA DE VIDA ONLINE PARA SERVIDORES, APOSENTADOS E PENSIONISTAS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 48.15,
-    "ano_fonte": 2025
+    "valor_normalizado": 92.31,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II03",
+    "concept_id": "iospd/IOSPD_E26_205",
     "fonte": "iospd",
-    "indicador": "IOSPD_II03",
+    "indicador": "IOSPD_E26_205",
     "sub_itens": "total",
-    "descricao": "Tele-atendimento saúde por videoconferência (IOSPD II.3)",
+    "descricao": "2.5 DISPONIBILIZA FUNCIONALIDADE DE APRESENTAÇÃO DE RECURSO E DEFESA ONLINE PARA INFRAÇÕES DE TRÂNSITO EM ÂMBITO ESTADUAL?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 48.15,
-    "ano_fonte": 2025
+    "valor_normalizado": 73.08,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II04",
+    "concept_id": "iospd/IOSPD_E26_206",
     "fonte": "iospd",
-    "indicador": "IOSPD_II04",
+    "indicador": "IOSPD_E26_206",
     "sub_itens": "total",
-    "descricao": "Prova de vida online (IOSPD II.4)",
+    "descricao": "2.6 DISPONIBILIZA CONSULTA ONLINE DOS MEDICAMENTOS DISPONÍVEIS NA REDE ESTADUAL DE SAÚDE?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 70.37,
-    "ano_fonte": 2025
+    "valor_normalizado": 69.23,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II05",
+    "concept_id": "iospd/IOSPD_E26_207",
     "fonte": "iospd",
-    "indicador": "IOSPD_II05",
+    "indicador": "IOSPD_E26_207",
     "sub_itens": "total",
-    "descricao": "Recurso/defesa online infrações de trânsito (IOSPD II.5)",
+    "descricao": "2.7 A REDE ESTADUAL DE SAÚDE DISPONIBILIZA A EMISSÃO E O ENVIO ONLINE DE RECEITA MÉDICA AO CIDADÃO, APÓS AVALIAÇÃO CLÍNICA POR PROFISSIONAL HABILITADO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 66.67,
-    "ano_fonte": 2025
+    "valor_normalizado": 50,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II06",
+    "concept_id": "iospd/IOSPD_E26_208",
     "fonte": "iospd",
-    "indicador": "IOSPD_II06",
+    "indicador": "IOSPD_E26_208",
     "sub_itens": "total",
-    "descricao": "Registro digital reclamação CDC (IOSPD II.6)",
+    "descricao": "2.8 DISPONIBILIZA SERVIÇO DE SOLICITAÇÃO E EMISSÃO ONLINE DE CERTIFICADO DE CONCLUSÃO DO ENSINO MÉDIO NAS ESCOLAS DA REDE ESTADUAL DE EDUCAÇÃO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 74.07,
-    "ano_fonte": 2025
+    "valor_normalizado": 53.85,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II07",
+    "concept_id": "iospd/IOSPD_E26_209",
     "fonte": "iospd",
-    "indicador": "IOSPD_II07",
+    "indicador": "IOSPD_E26_209",
     "sub_itens": "total",
-    "descricao": "Solicitação online 2ª via RG (IOSPD II.7)",
+    "descricao": "2.9 DISPONIBILIZA SERVIÇOS DE TRANSFERÊNCIA ONLINE DE ALUNOS ENTRE ESCOLAS DA REDE ESTADUAL?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 100,
-    "ano_fonte": 2025
+    "valor_normalizado": 61.54,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II08",
+    "concept_id": "iospd/IOSPD_E26_210",
     "fonte": "iospd",
-    "indicador": "IOSPD_II08",
+    "indicador": "IOSPD_E26_210",
     "sub_itens": "total",
-    "descricao": "Boletim de ocorrência online violência doméstica (IOSPD II.8)",
+    "descricao": "2.10 DISPONIBILIZA TRANSFERÊNCIA DIGITAL DE VEÍCULOS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 74.07,
-    "ano_fonte": 2025
+    "valor_normalizado": 57.69,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II09",
+    "concept_id": "iospd/IOSPD_E26_212",
     "fonte": "iospd",
-    "indicador": "IOSPD_II09",
+    "indicador": "IOSPD_E26_212",
     "sub_itens": "total",
-    "descricao": "Consulta online medicamentos disponíveis (IOSPD II.9)",
+    "descricao": "2.12 O ESTADO OFERECE ACESSO A SERVIÇOS DE SAÚDE POR MEIO DE UMA PLATAFORMA DIGITAL (OU APLICATIVO)?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 59.26,
-    "ano_fonte": 2025
+    "valor_normalizado": 49.04,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II10",
+    "concept_id": "iospd/IOSPD_E26_305",
     "fonte": "iospd",
-    "indicador": "IOSPD_II10",
+    "indicador": "IOSPD_E26_305",
     "sub_itens": "total",
-    "descricao": "Emissão/envio de receita médica online (IOSPD II.10)",
+    "descricao": "3.5 POSSUI NORMA, MANUAL OU DIRETRIZ OFICIAL SOBRE LINGUAGEM SIMPLES APLICADA À COMUNICAÇÃO PÚBLICA?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 33.33,
-    "ano_fonte": 2025
+    "valor_normalizado": 76.92,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II11",
+    "concept_id": "iospd/IOSPD_E26_401",
     "fonte": "iospd",
-    "indicador": "IOSPD_II11",
+    "indicador": "IOSPD_E26_401",
     "sub_itens": "total",
-    "descricao": "Emissão online diplomas ensino médio (IOSPD II.11)",
+    "descricao": "4.1 OS SERVIÇOS PÚBLICOS ESTÃO DESCRITOS COM LINGUAGEM SIMPLES?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 40.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 71.54,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_II12",
+    "concept_id": "iospd/IOSPD_E26_402",
     "fonte": "iospd",
-    "indicador": "IOSPD_II12",
+    "indicador": "IOSPD_E26_402",
     "sub_itens": "total",
-    "descricao": "Transferência online entre escolas estaduais (IOSPD II.12)",
+    "descricao": "4.2 O ESTADO POSSUI UM KIT DE FERRAMENTAS PARA FORMALIZAR O PROCESSO DE PARTICIPAÇÃO DOS CIDADÃOS E EMPRESAS NO DESENHO, TESTE OU MELHORIA DOS SERVIÇOS DIGITAIS, REALIZANDO TESTES DE USABILIDADE E COMPREENSÃO COM USUÁRIOS REAIS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 51.85,
-    "ano_fonte": 2025
+    "valor_normalizado": 38.46,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_III01a",
+    "concept_id": "iospd/IOSPD_E26_403",
     "fonte": "iospd",
-    "indicador": "IOSPD_III01a",
+    "indicador": "IOSPD_E26_403",
     "sub_itens": "total",
-    "descricao": "Carta de Serviços normatizada (IOSPD III.1a)",
+    "descricao": "4.3 POSSUI EM OPERAÇÃO UMA ESTRATÉGIA DE OMNICANALIDADE QUE INTEGRE DIFERENTES CANAIS DE ATENDIMENTO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 88.89,
-    "ano_fonte": 2025
+    "valor_normalizado": 69.23,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_III01b",
+    "concept_id": "iospd/IOSPD_E26_404",
     "fonte": "iospd",
-    "indicador": "IOSPD_III01b",
+    "indicador": "IOSPD_E26_404",
     "sub_itens": "total",
-    "descricao": "Ouvidorias Públicas normatizadas (IOSPD III.1b)",
+    "descricao": "4.4 QUAL O GRAU DE ADAPTAÇÃO DO PORTAL ÚNICO OU DE SERVIÇOS PARA GARANTIR ACESSIBILIDADE A PESSOAS COM DEFICIÊNCIA AUDITIVA E VISUAL, EM CONFORMIDADE COM AS LEGISLAÇÕES VIGENTES, LEI Nº 13.146/2015 E COM OS PADRÕES DE ACESSIBILIDADE (EMAG, W3C)?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 92.59,
-    "ano_fonte": 2025
+    "valor_normalizado": 78.85,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_III01c",
+    "concept_id": "iospd/IOSPD_E26_405",
     "fonte": "iospd",
-    "indicador": "IOSPD_III01c",
+    "indicador": "IOSPD_E26_405",
     "sub_itens": "total",
-    "descricao": "Conselho de Usuários normatizado (IOSPD III.1c)",
+    "descricao": "4.5 OS CIDADÃOS EFETIVAMENTE ACESSAM E UTILIZAM O PORTAL DE SERVIÇOS DIGITAIS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 77.78,
-    "ano_fonte": 2025
+    "valor_normalizado": 27.69,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 2,
     "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_III01d",
+    "concept_id": "iospd/IOSPD_E26_407",
     "fonte": "iospd",
-    "indicador": "IOSPD_III01d",
+    "indicador": "IOSPD_E26_407",
     "sub_itens": "total",
-    "descricao": "Avaliação de Serviços Públicos normatizada (IOSPD III.1d)",
+    "descricao": "4.7 POSSUI METODOLOGIA E FERRAMENTA DE AVALIAÇÃO DA SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS PÚBLICOS PRESTADOS?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 70.37,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV01",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV01",
-    "sub_itens": "total",
-    "descricao": "Tempos verbais 2ª/3ª pessoa (IOSPD IV.1)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 86.67,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV02",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV02",
-    "sub_itens": "total",
-    "descricao": "Frases curtas com ação única (IOSPD IV.2)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 68.15,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV03",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV03",
-    "sub_itens": "total",
-    "descricao": "Título objetivo e curto (IOSPD IV.3)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 73.33,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV04",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV04",
-    "sub_itens": "total",
-    "descricao": "Parágrafos curtos (IOSPD IV.4)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 85.56,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV05",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV05",
-    "sub_itens": "total",
-    "descricao": "Uso do tempo presente (IOSPD IV.5)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 88.15,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV06",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV06",
-    "sub_itens": "total",
-    "descricao": "Uso de caracteres especiais (IOSPD IV.6)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 85.19,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV07",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV07",
-    "sub_itens": "total",
-    "descricao": "Vocabulário de fácil entendimento (IOSPD IV.7)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 69.63,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV08",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV08",
-    "sub_itens": "total",
-    "descricao": "Aplicação da técnica de Linguagem Simples (IOSPD IV.8)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 48.15,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_IV09",
-    "fonte": "iospd",
-    "indicador": "IOSPD_IV09",
-    "sub_itens": "total",
-    "descricao": "Mecanismo de melhoria na apresentação (IOSPD IV.9)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 77.78,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V01",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V01",
-    "sub_itens": "total",
-    "descricao": "Aplicativo móvel para portal de serviços (IOSPD V.1)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 53.08,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V03",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V03",
-    "sub_itens": "total",
-    "descricao": "Pagamento por PIX/cartão digital (IOSPD V.3)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 58.04,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V04",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V04",
-    "sub_itens": "total",
-    "descricao": "Ambiente autenticado e personalizado de serviços (IOSPD V.4)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 55.56,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V05",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V05",
-    "sub_itens": "total",
-    "descricao": "Licenciamento de veículo com pagamento eletrônico (IOSPD V.5)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 88.89,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V06",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V06",
-    "sub_itens": "total",
-    "descricao": "Certidão Negativa Estadual online (IOSPD V.6)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 85.19,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V08",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V08",
-    "sub_itens": "total",
-    "descricao": "Transferência digital de veículos (IOSPD V.8)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 48.15,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "iospd/IOSPD_V09",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V09",
-    "sub_itens": "total",
-    "descricao": "Acessibilidade da plataforma digital (IOSPD V.9)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 60.5,
-    "ano_fonte": 2025
+    "valor_normalizado": 70.52,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -1396,7 +1270,21 @@
     "descricao": "Serviços de atendimento ao público a distância",
     "escala": "prop_0_100",
     "populacao": "prefeituras",
-    "valor_normalizado": 98.55,
+    "valor_normalizado": 92.57,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 2,
+    "objetivo_nome": "Qualidade dos Serviços Digitais",
+    "concept_id": "munic/MUNIC_ATIV_REDES_CONSULTA",
+    "fonte": "munic",
+    "indicador": "MUNIC_ATIV_REDES_CONSULTA",
+    "sub_itens": "total",
+    "descricao": "Atividade em redes sociais — consulta pública/enquete",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 26.36,
     "ano_fonte": 2024
   },
   {
@@ -1799,7 +1687,7 @@
     "fonte": "munic",
     "indicador": "PAGINA_POSSUI_TITULO",
     "sub_itens": "total",
-    "descricao": "Páginas com título descritivo na aba do navegador (WCAG 2.4.2)",
+    "descricao": "Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2)",
     "escala": "prop_0_100",
     "populacao": "prefeituras",
     "valor_normalizado": 37.5,
@@ -1816,7 +1704,7 @@
     "descricao": "Acessibilidade da página e serviços eletrônicos",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
-    "valor_normalizado": 61.11,
+    "valor_normalizado": 59.26,
     "ano_fonte": 2024
   },
   {
@@ -1830,7 +1718,7 @@
     "descricao": "Formas de atendimento a distância ao cidadão",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
-    "valor_normalizado": 56.08,
+    "valor_normalizado": 96.3,
     "ano_fonte": 2024
   },
   {
@@ -1855,7 +1743,7 @@
     "fonte": "estadic",
     "indicador": "ESTADIC_BILHETE_UNICO",
     "sub_itens": "total",
-    "descricao": "Bilhete único para uso de transporte público",
+    "descricao": "Bilhete único para uso de transporte público (Etic241)",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
     "valor_normalizado": 44.44,
@@ -1886,21 +1774,7 @@
     "descricao": "Modelo de acessibilidade adotado",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
-    "valor_normalizado": 70.37,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 2,
-    "objetivo_nome": "Qualidade dos Serviços Digitais",
-    "concept_id": "estadic/ESTADIC_REDES_SOCIAIS",
-    "fonte": "estadic",
-    "indicador": "ESTADIC_REDES_SOCIAIS",
-    "sub_itens": "total",
-    "descricao": "Plataformas de rede social do governo estadual",
-    "escala": "prop_0_100",
-    "populacao": "governo_estadual",
-    "valor_normalizado": 70.37,
+    "valor_normalizado": 96.3,
     "ano_fonte": 2024
   },
   {
@@ -1956,8 +1830,8 @@
     "descricao": "Monitoramento da satisfação com sistemas e serviços públicos digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 75.21,
-    "ano_fonte": 2025
+    "valor_normalizado": 63.87,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -1970,8 +1844,22 @@
     "descricao": "Alinhamento dos investimentos do PTD à acessibilidade",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.93,
-    "ano_fonte": 2025
+    "valor_normalizado": 41.6,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 2,
+    "objetivo_nome": "Qualidade dos Serviços Digitais",
+    "concept_id": "igovsisp/G628IPD",
+    "fonte": "igovsisp",
+    "indicador": "G628IPD",
+    "sub_itens": "total",
+    "descricao": "2.1.2.5. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 68.91,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -1984,8 +1872,22 @@
     "descricao": "Integração dos serviços ao módulo de avaliação de satisfação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 45.68,
-    "ano_fonte": 2025
+    "valor_normalizado": 46.85,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 2,
+    "objetivo_nome": "Qualidade dos Serviços Digitais",
+    "concept_id": "igovsisp/G632IPD",
+    "fonte": "igovsisp",
+    "indicador": "G632IPD",
+    "sub_itens": "total",
+    "descricao": "2.1.2.9. Seu órgão possui algum aplicativo móvel?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 42.86,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -1998,22 +1900,36 @@
     "descricao": "Login único Gov.br para acesso a serviços online",
     "escala": "prop_0_100",
     "populacao": "orgaos_e_prefeituras",
-    "valor_normalizado": 13.38965,
-    "ano_fonte": 2023
+    "valor_normalizado": 18.522,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 3,
     "objetivo_nome": "Identificação Única",
-    "concept_id": "iospd/IOSPD_I09",
+    "concept_id": "iospd/IOSPD_E26_108",
     "fonte": "iospd",
-    "indicador": "IOSPD_I09",
+    "indicador": "IOSPD_E26_108",
     "sub_itens": "total",
-    "descricao": "Assinatura eletrônica Gov.br (IOSPD I.9)",
+    "descricao": "1.8 UTILIZA SOLUÇÃO DE ASSINATURA ELETRÔNICA CORPORATIVA PRÓPRIA OU DO GOV.BR?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 62.96,
-    "ano_fonte": 2025
+    "valor_normalizado": 65.38,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 3,
+    "objetivo_nome": "Identificação Única",
+    "concept_id": "iospd/IOSPD_E26_303",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_303",
+    "sub_itens": "total",
+    "descricao": "3.3 O USO DE ASSINATURAS ELETRÔNICAS EM INTERAÇÕES COM ENTES PÚBLICOS FOI NORMATIZADO PELO GOVERNO ESTADUAL/DISTRITAL, CONFORME PREVISTO PELA LEI FEDERAL 14.063/2020?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 65.38,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2023,10 +1939,10 @@
     "fonte": "munic",
     "indicador": "MUNIC_AUTENTICACAO",
     "sub_itens": "total",
-    "descricao": "Autenticação para acessar serviços pela internet",
-    "escala": "prop_0_100",
+    "descricao": "Abrangência declarada do acesso com a conta GOV.BR",
+    "escala": "indice_0_100",
     "populacao": "prefeituras",
-    "valor_normalizado": 38.1,
+    "valor_normalizado": 6.74,
     "ano_fonte": 2024
   },
   {
@@ -2040,8 +1956,8 @@
     "descricao": "Integração dos serviços à sociedade ao Login Único",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 60.21,
-    "ano_fonte": 2025
+    "valor_normalizado": 63.07,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2061,6 +1977,20 @@
     "categoria": "Total",
     "objetivo": 4,
     "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/B5A_B",
+    "fonte": "tic_gov",
+    "indicador": "B5A_B",
+    "sub_itens": "['B']",
+    "descricao": "Plano de segurança da informação",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 42.405837090000006,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
     "concept_id": "tic_gov/G1",
     "fonte": "tic_gov",
     "indicador": "G1",
@@ -2068,8 +1998,8 @@
     "descricao": "Responsável LGPD",
     "escala": "prop_0_100",
     "populacao": "ambos",
-    "valor_normalizado": 50.2654,
-    "ano_fonte": 2023
+    "valor_normalizado": 58.778999999999996,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2082,8 +2012,8 @@
     "descricao": "Nomeação de encarregado de dados pessoais (DPO)",
     "escala": "prop_0_100",
     "populacao": "ambos",
-    "valor_normalizado": 35.2307,
-    "ano_fonte": 2023
+    "valor_normalizado": 44.69585,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2096,8 +2026,8 @@
     "descricao": "Canal online sobre o uso de dados pessoais",
     "escala": "prop_0_100",
     "populacao": "ambos",
-    "valor_normalizado": 46.12075,
-    "ano_fonte": 2023
+    "valor_normalizado": 50.61395,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2110,8 +2040,8 @@
     "descricao": "Política de privacidade publicada com bases legais",
     "escala": "prop_0_100",
     "populacao": "orgaos",
-    "valor_normalizado": 44.4536,
-    "ano_fonte": 2023
+    "valor_normalizado": 52.0521,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2124,8 +2054,8 @@
     "descricao": "Documento de papéis e responsabilidades sobre a LGPD",
     "escala": "prop_0_100",
     "populacao": "prefeituras",
-    "valor_normalizado": 28.6243,
-    "ano_fonte": 2023
+    "valor_normalizado": 33.9372,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2138,8 +2068,92 @@
     "descricao": "Plano de resposta a incidentes relacionados a dados pessoais",
     "escala": "prop_0_100",
     "populacao": "orgaos",
-    "valor_normalizado": 31.6758,
-    "ano_fonte": 2023
+    "valor_normalizado": 43.3751,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/B13_A",
+    "fonte": "tic_gov",
+    "indicador": "source/B13_A",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 81.25835000000001,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/B13_B",
+    "fonte": "tic_gov",
+    "indicador": "source/B13_B",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 77.8345,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/B13_C",
+    "fonte": "tic_gov",
+    "indicador": "source/B13_C",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 62.84725,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/B13_D",
+    "fonte": "tic_gov",
+    "indicador": "source/B13_D",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 69.19695,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/B13_E",
+    "fonte": "tic_gov",
+    "indicador": "source/B13_E",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 57.97935,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_gov/source/G3_E",
+    "fonte": "tic_gov",
+    "indicador": "source/G3_E",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR AÇÕES RELACIONADAS À LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 44.2371,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2151,9 +2165,9 @@
     "sub_itens": "total",
     "descricao": "Política de segurança da informação (C8a quest. → A8 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 41.6422,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 27.402718353,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2165,9 +2179,9 @@
     "sub_itens": "total",
     "descricao": "Treinamento em segurança (C8b quest. → A8A portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 47.2449,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 31.581688245000002,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2179,9 +2193,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']",
     "descricao": "Ferramentas de segurança (C9a quest. → A10 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 53.011030000000005,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 38.7386861703,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2191,11 +2205,11 @@
     "fonte": "tic_saude",
     "indicador": "A12_A",
     "sub_itens": "['A']",
-    "descricao": "Nomeação de encarregado de dados pessoais (DPO)",
+    "descricao": "Nomeação de encarregado de dados pessoais (DPO) (C10_A quest. → A12 item A portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 29.6279,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 13.136468784,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2205,11 +2219,11 @@
     "fonte": "tic_saude",
     "indicador": "A12_B",
     "sub_itens": "['B']",
-    "descricao": "Canal online para titulares de dados",
+    "descricao": "Canal online para titulares de dados (C10_B quest. → A12 item B portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 30.5718,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 18.156362258999998,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2219,11 +2233,11 @@
     "fonte": "tic_saude",
     "indicador": "A12_C",
     "sub_itens": "['C']",
-    "descricao": "Política de privacidade publicada",
+    "descricao": "Política de privacidade publicada (C10_C quest. → A12 item C portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 32.4937,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 28.231549332,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2233,11 +2247,11 @@
     "fonte": "tic_saude",
     "indicador": "A12_D",
     "sub_itens": "['D']",
-    "descricao": "Conscientização interna sobre a LGPD",
+    "descricao": "Conscientização interna sobre a LGPD (C10_E quest. → A12 item D portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 43.5797,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 29.517363717000002,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2247,11 +2261,53 @@
     "fonte": "tic_saude",
     "indicador": "A12_E",
     "sub_itens": "['E']",
-    "descricao": "Plano de resposta a incidentes com dados pessoais",
+    "descricao": "Plano de resposta a incidentes com dados pessoais (C10_F quest. → A12 item E portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 30.5715,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 14.958258585,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_educacao/source/H1",
+    "fonte": "tic_educacao",
+    "indicador": "source/H1",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS QUE POSSUEM DOCUMENTO QUE DEFINE A POLÍTICA DE PROTEÇÃO DE DADOS E DE SEGURANÇA DA INFORMAÇÃO NA INSTITUIÇÃO",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 54.0529,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_educacao/source/H2A",
+    "fonte": "tic_educacao",
+    "indicador": "source/H2A",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS PÚBLICAS QUE RECEBERAM ORIENTAÇÕES DA REDE DE ENSINO SOBRE O TRATAMENTO DE DADOS PESSOAIS DE ALUNOS, PROFESSORES E FUNCIONÁRIOS",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 72.6311,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 4,
+    "objetivo_nome": "Segurança e LGPD",
+    "concept_id": "tic_educacao/source/H3",
+    "fonte": "tic_educacao",
+    "indicador": "source/H3",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS, POR REALIZAÇÃO DE DEBATES OU PALESTRAS SOBRE PRIVACIDADE E PROTEÇÃO DE DADOS NOS ÚLTIMOS 12 MESES",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 45.9177,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2262,9 +2318,9 @@
     "indicador": "source/4231",
     "sub_itens": "total",
     "descricao": "Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 43.7,
+    "valor_normalizado": 43.9,
     "ano_fonte": 2024
   },
   {
@@ -2276,9 +2332,9 @@
     "indicador": "source/4232",
     "sub_itens": "total",
     "descricao": "Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 40.43,
+    "valor_normalizado": 44.72,
     "ano_fonte": 2024
   },
   {
@@ -2290,9 +2346,9 @@
     "indicador": "source/4233",
     "sub_itens": "total",
     "descricao": "Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 27.79,
+    "valor_normalizado": 28.73,
     "ano_fonte": 2024
   },
   {
@@ -2304,9 +2360,9 @@
     "indicador": "source/4241",
     "sub_itens": "total",
     "descricao": "Política de segurança da informação (iESGo/TCU 2024, questão 4241)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 68.48,
+    "valor_normalizado": 75.61,
     "ano_fonte": 2024
   },
   {
@@ -2318,9 +2374,9 @@
     "indicador": "source/4242",
     "sub_itens": "total",
     "descricao": "Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 62.45,
+    "valor_normalizado": 66.67,
     "ano_fonte": 2024
   },
   {
@@ -2332,9 +2388,9 @@
     "indicador": "source/4243",
     "sub_itens": "total",
     "descricao": "Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 50.69,
+    "valor_normalizado": 57.45,
     "ano_fonte": 2024
   },
   {
@@ -2346,9 +2402,9 @@
     "indicador": "source/4251",
     "sub_itens": "total",
     "descricao": "Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 43.48,
+    "valor_normalizado": 53.39,
     "ano_fonte": 2024
   },
   {
@@ -2360,9 +2416,9 @@
     "indicador": "source/4252",
     "sub_itens": "total",
     "descricao": "Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 39.56,
+    "valor_normalizado": 46.07,
     "ano_fonte": 2024
   },
   {
@@ -2374,38 +2430,38 @@
     "indicador": "source/4253",
     "sub_itens": "total",
     "descricao": "Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",
-    "escala": "indice_0_100",
+    "escala": "prop_0_100",
     "populacao": "orgaos_federais",
-    "valor_normalizado": 54.72,
+    "valor_normalizado": 60.43,
     "ano_fonte": 2024
   },
   {
     "categoria": "Total",
     "objetivo": 4,
     "objetivo_nome": "Segurança e LGPD",
-    "concept_id": "iospd/IOSPD_III07",
+    "concept_id": "iospd/IOSPD_E26_110",
     "fonte": "iospd",
-    "indicador": "IOSPD_III07",
+    "indicador": "IOSPD_E26_110",
     "sub_itens": "total",
-    "descricao": "Consentimento LGPD no portal (IOSPD III.7)",
+    "descricao": "1.10 EXISTE UMA UNIDADE OPERACIONAL DE CIBERSEGURANÇA FORMALMENTE ESTABELECIDA E ATUALMENTE ATIVA?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 40.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 87.82,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
     "objetivo": 4,
     "objetivo_nome": "Segurança e LGPD",
-    "concept_id": "munic/MUNIC_LGPD",
-    "fonte": "munic",
-    "indicador": "MUNIC_LGPD",
+    "concept_id": "iospd/IOSPD_E26_111",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_111",
     "sub_itens": "total",
-    "descricao": "Disseminação de orientações sobre LGPD na prefeitura",
-    "escala": "prop_0_100",
-    "populacao": "prefeituras",
-    "valor_normalizado": 12.96,
-    "ano_fonte": 2024
+    "descricao": "1.11 POSSUI UMA EQUIPE DE RESPOSTA A INCIDENTES (CERT) FORMALIZADA OU EQUIVALENTE?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 81.54,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2523,15 +2579,43 @@
     "categoria": "Total",
     "objetivo": 5,
     "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "tic_gov/B7B",
+    "fonte": "tic_gov",
+    "indicador": "B7B",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE GOVERNANÇA DE DADOS",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 40.4878838718,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
     "concept_id": "tic_gov/H1",
     "fonte": "tic_gov",
     "indicador": "H1",
     "sub_itens": "total",
     "descricao": "Análise big data",
     "escala": "prop_0_100",
-    "populacao": "orgaos",
-    "valor_normalizado": 25.011,
-    "ano_fonte": 2023
+    "populacao": "ambos",
+    "valor_normalizado": 20.25265,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "tic_gov/source/B5A_D",
+    "fonte": "tic_gov",
+    "indicador": "source/B5A_D",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 34.1682052738,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2543,9 +2627,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
     "descricao": "Troca eletrônica entre estabelecimentos (C7 quest. → B6 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 33.30401428571428,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 48.09438977528571,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2557,9 +2641,23 @@
     "sub_itens": "total",
     "descricao": "Interoperabilidade rede de atenção (C8 quest. → B9 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 26.1022,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 41.943684579,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "tic_saude/B10",
+    "fonte": "tic_saude",
+    "indicador": "B10",
+    "sub_itens": "total",
+    "descricao": "ESTABELECIMENTOS DE SAÚDE, POR INTEGRAÇÃO À REDE NACIONAL DE DADOS EM SAÚDE (RNDS)",
+    "escala": "prop_0_100",
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 62.83765635,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -2571,23 +2669,65 @@
     "sub_itens": "total",
     "descricao": "Big Data em saúde (H2 quest. → D2 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 5.0163,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 5.831658279,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 5,
     "objetivo_nome": "Dados e Interoperabilidade",
-    "concept_id": "iospd/IOSPD_I05",
+    "concept_id": "iospd/IOSPD_E26_104",
     "fonte": "iospd",
-    "indicador": "IOSPD_I05",
+    "indicador": "IOSPD_E26_104",
     "sub_itens": "total",
-    "descricao": "Governança de dados (IOSPD I.5)",
+    "descricao": "1.4 EXISTE ESTRUTURA COLEGIADA DE GOVERNANÇA DE DADOS INSTITUÍDA FORMALMENTE?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 48.15,
-    "ano_fonte": 2025
+    "valor_normalizado": 42.31,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "iospd/IOSPD_E26_106",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_106",
+    "sub_itens": "total",
+    "descricao": "1.6 O ESTADO POSSUI UM FRAMEWORK DE INTEROPERABILIDADE?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 63.46,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "iospd/IOSPD_E26_306",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_306",
+    "sub_itens": "total",
+    "descricao": "3.6 QUAIS PADRÕES OU DIRETRIZES DE GESTÃO DE DADOS EXISTEM NO NÍVEL ESTADUAL?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 65.39,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "iospd/IOSPD_E26_504",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_504",
+    "sub_itens": "total",
+    "descricao": "5.4 HÁ USO DE APIS ABERTAS QUE PERMITAM QUE TERCEIROS (STARTUPS, EMPRESAS, UNIVERSIDADES OU SOCIEDADE CIVIL) CRIEM APLICAÇÕES, INTEGREM DADOS OU DESENVOLVAM NOVOS SERVIÇOS PÚBLICOS DIGITAIS COM BASE EM DADOS GOVERNAMENTAIS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 88.46,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2607,14 +2747,28 @@
     "categoria": "Total",
     "objetivo": 5,
     "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "estadic/ESTADIC_DADOS_ABERTOS",
+    "fonte": "estadic",
+    "indicador": "ESTADIC_DADOS_ABERTOS",
+    "sub_itens": "total",
+    "descricao": "Portal de dados abertos",
+    "escala": "prop_0_100",
+    "populacao": "governo_estadual",
+    "valor_normalizado": 70.37,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
     "concept_id": "estadic/ESTADIC_FORMATO_DADOS",
     "fonte": "estadic",
     "indicador": "ESTADIC_FORMATO_DADOS",
     "sub_itens": "total",
-    "descricao": "Formato de publicação dos dados da administração estadual",
+    "descricao": "Publicação dos dados gerais da administração estadual",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
-    "valor_normalizado": 48.5,
+    "valor_normalizado": 96.3,
     "ano_fonte": 2024
   },
   {
@@ -2628,8 +2782,8 @@
     "descricao": "Integração de sistemas e bases internas e externas",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 89.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 79.83,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2642,8 +2796,8 @@
     "descricao": "Relevância e suficiência dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 90.17,
-    "ano_fonte": 2025
+    "valor_normalizado": 39.92,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2656,8 +2810,8 @@
     "descricao": "Decisão baseada em dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 89.74,
-    "ano_fonte": 2025
+    "valor_normalizado": 51.26,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2670,8 +2824,8 @@
     "descricao": "Capacidade analítica",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 79.06,
-    "ano_fonte": 2025
+    "valor_normalizado": 42.86,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2684,8 +2838,8 @@
     "descricao": "Cultura de dados promovida pela alta gestão",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 91.45,
-    "ano_fonte": 2025
+    "valor_normalizado": 53.36,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2698,8 +2852,8 @@
     "descricao": "Uso sistemático de dados nas decisões",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 92.31,
-    "ano_fonte": 2025
+    "valor_normalizado": 42.86,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2712,8 +2866,8 @@
     "descricao": "Documentação ativos de dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 86.32,
-    "ano_fonte": 2025
+    "valor_normalizado": 44.12,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2726,8 +2880,8 @@
     "descricao": "Glossário termos de negócio",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 55.98,
-    "ano_fonte": 2025
+    "valor_normalizado": 20.59,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2740,8 +2894,8 @@
     "descricao": "Dados mestres e de referência",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 56.84,
-    "ano_fonte": 2025
+    "valor_normalizado": 16.81,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2754,8 +2908,8 @@
     "descricao": "Política dados abertos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 89.32,
-    "ano_fonte": 2025
+    "valor_normalizado": 57.56,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2768,8 +2922,8 @@
     "descricao": "Ecossistema dados abertos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 78.63,
-    "ano_fonte": 2025
+    "valor_normalizado": 34.87,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2782,8 +2936,8 @@
     "descricao": "Princípios e políticas de dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.93,
-    "ano_fonte": 2025
+    "valor_normalizado": 31.09,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2796,8 +2950,8 @@
     "descricao": "Estrutura de governança de dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 61.54,
-    "ano_fonte": 2025
+    "valor_normalizado": 36.13,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2810,8 +2964,8 @@
     "descricao": "Gestão de metadados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 64.53,
-    "ano_fonte": 2025
+    "valor_normalizado": 31.51,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2824,8 +2978,8 @@
     "descricao": "Ciclo de vida dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 67.95,
-    "ano_fonte": 2025
+    "valor_normalizado": 31.51,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2838,8 +2992,8 @@
     "descricao": "Dados não estruturados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 63.25,
-    "ano_fonte": 2025
+    "valor_normalizado": 36.55,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2852,8 +3006,8 @@
     "descricao": "Padrões interoperabilidade",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 76.92,
-    "ano_fonte": 2025
+    "valor_normalizado": 23.53,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2866,8 +3020,8 @@
     "descricao": "Integração de sistemas",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 93.59,
-    "ano_fonte": 2025
+    "valor_normalizado": 38.66,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2880,8 +3034,8 @@
     "descricao": "Monitoramento interoperabilidade",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 27.78,
-    "ano_fonte": 2025
+    "valor_normalizado": 8.4,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2894,8 +3048,8 @@
     "descricao": "Governança e gestão de dados para entregas à sociedade",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 87.61,
-    "ano_fonte": 2025
+    "valor_normalizado": 56.3,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2908,8 +3062,8 @@
     "descricao": "Ética no tratamento dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 88.89,
-    "ano_fonte": 2025
+    "valor_normalizado": 16.81,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2922,8 +3076,8 @@
     "descricao": "Compartilhamento dados externos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 81.2,
-    "ano_fonte": 2025
+    "valor_normalizado": 25.21,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2936,8 +3090,8 @@
     "descricao": "Modelagem de dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 74.79,
-    "ano_fonte": 2025
+    "valor_normalizado": 47.48,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2950,8 +3104,8 @@
     "descricao": "Alinhamento dados-objetivos estratégicos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 82.48,
-    "ano_fonte": 2025
+    "valor_normalizado": 40.76,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2964,8 +3118,8 @@
     "descricao": "Letramento em dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 64.1,
-    "ano_fonte": 2025
+    "valor_normalizado": 37.82,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2978,8 +3132,8 @@
     "descricao": "Dados geoespaciais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 17.09,
-    "ano_fonte": 2025
+    "valor_normalizado": 7.56,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -2992,8 +3146,8 @@
     "descricao": "Infraestrutura análise dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 87.18,
-    "ano_fonte": 2025
+    "valor_normalizado": 51.26,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3006,8 +3160,8 @@
     "descricao": "Gestão qualidade dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 59.4,
-    "ano_fonte": 2025
+    "valor_normalizado": 16.81,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3020,8 +3174,8 @@
     "descricao": "Cultura qualidade dados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 61.97,
-    "ano_fonte": 2025
+    "valor_normalizado": 9.24,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3034,7 +3188,133 @@
     "descricao": "Medição e controle qualidade",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 44.44,
+    "valor_normalizado": 8.4,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G403DI",
+    "fonte": "igovsisp",
+    "indicador": "G403DI",
+    "sub_itens": "total",
+    "descricao": "3.1.3.11. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 41.6,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G33112DI",
+    "fonte": "igovsisp",
+    "indicador": "G33112DI",
+    "sub_itens": "total",
+    "descricao": "3.1.1.2. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 18.07,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G33117DI",
+    "fonte": "igovsisp",
+    "indicador": "G33117DI",
+    "sub_itens": "total",
+    "descricao": "3.1.1.7. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 25.63,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G33118DI",
+    "fonte": "igovsisp",
+    "indicador": "G33118DI",
+    "sub_itens": "total",
+    "descricao": "3.1.1.8. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 17.65,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G33119DI",
+    "fonte": "igovsisp",
+    "indicador": "G33119DI",
+    "sub_itens": "total",
+    "descricao": "3.1.1.9. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 3.78,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G33141DI",
+    "fonte": "igovsisp",
+    "indicador": "G33141DI",
+    "sub_itens": "total",
+    "descricao": "3.1.4.1. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 63.03,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G331312DI",
+    "fonte": "igovsisp",
+    "indicador": "G331312DI",
+    "sub_itens": "total",
+    "descricao": "3.1.3.12. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 14.29,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 5,
+    "objetivo_nome": "Dados e Interoperabilidade",
+    "concept_id": "igovsisp/G331315DI",
+    "fonte": "igovsisp",
+    "indicador": "G331315DI",
+    "sub_itens": "total",
+    "descricao": "3.1.3.15. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 31.93,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/B9B",
+    "fonte": "tic_gov",
+    "indicador": "B9B",
+    "sub_itens": "['A', 'B', 'C', 'D']",
+    "descricao": "Contratação de serviços de computação em nuvem",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 48.6743,
     "ano_fonte": 2025
   },
   {
@@ -3047,9 +3327,107 @@
     "sub_itens": "['A']",
     "descricao": "Centros públicos de acesso gratuito à Internet",
     "escala": "prop_0_100",
-    "populacao": "prefeituras_com_acesso_internet",
-    "valor_normalizado": 45.387,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 41.632405457599994,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_A",
+    "fonte": "tic_gov",
+    "indicador": "F2C_A",
+    "sub_itens": "['A']",
+    "descricao": "Monitoramento de segurança pública",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 29.759421244000002,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_B",
+    "fonte": "tic_gov",
+    "indicador": "F2C_B",
+    "sub_itens": "['B']",
+    "descricao": "Monitoramento de trânsito",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 26.275987122,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_C",
+    "fonte": "tic_gov",
+    "indicador": "F2C_C",
+    "sub_itens": "['C']",
+    "descricao": "Monitoramento de transporte público",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 14.498060136000003,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_D",
+    "fonte": "tic_gov",
+    "indicador": "F2C_D",
+    "sub_itens": "['D']",
+    "descricao": "Monitoramento de situações de emergência ou desastres",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 22.0499816054,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_E",
+    "fonte": "tic_gov",
+    "indicador": "F2C_E",
+    "sub_itens": "['E']",
+    "descricao": "Monitoramento de patrimônio ou prédios públicos municipais",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 25.939256266,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/F2C_F",
+    "fonte": "tic_gov",
+    "indicador": "F2C_F",
+    "sub_itens": "['F']",
+    "descricao": "Outros objetos monitorados pelo centro de operações",
+    "escala": "prop_0_100",
+    "populacao": "prefeituras",
+    "valor_normalizado": 3.9862012400000006,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_gov/source/H3E_A",
+    "fonte": "tic_gov",
+    "indicador": "source/H3E_A",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",
+    "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 20.72445,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3058,12 +3436,82 @@
     "concept_id": "tic_educacao/G4",
     "fonte": "tic_educacao",
     "indicador": "G4",
-    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'G', 'H']",
-    "descricao": "Plataformas digitais EAD (P42 quest. → G4 portal)",
+    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'G', 'I', 'H']",
+    "descricao": "Ambientes digitais de aprendizagem e avaliação",
     "escala": "prop_0_100",
-    "populacao": "escolas",
-    "valor_normalizado": 55.7145,
-    "ano_fonte": 2024
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 74.5292,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_educacao/source/C4_2",
+    "fonte": "tic_educacao",
+    "indicador": "source/C4_2",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS QUE PERMITEM QUE OS ALUNOS UTILIZEM A INTERNET OU OS COMPUTADORES DA INSTITUIÇÃO FORA DO HORÁRIO DE AULA",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 27.746326733821853,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_educacao/source/C5_1",
+    "fonte": "tic_educacao",
+    "indicador": "source/C5_1",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS, POR USO DE COMPUTADORES E DA INTERNET DA ESCOLA PELA COMUNIDADE",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 14.722152772568204,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "tic_educacao/source/E5A",
+    "fonte": "tic_educacao",
+    "indicador": "source/E5A",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS QUE POSSUEM GUIA DE ORIENTAÇÕES SOBRE O USO DE INTELIGÊNCIA ARTIFICIAL NAS ATIVIDADES DE ENSINO, DE APRENDIZAGEM E DE GESTÃO",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 20.8453,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "iospd/IOSPD_E26_112",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_112",
+    "sub_itens": "total",
+    "descricao": "1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 74,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "iospd/IOSPD_E26_406",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_406",
+    "sub_itens": "total",
+    "descricao": "4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 70.19,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3073,10 +3521,10 @@
     "fonte": "censo_escolar",
     "indicador": "IN_COMPUTADOR",
     "sub_itens": "total",
-    "descricao": "% escolas com computador",
+    "descricao": "% escolas públicas com computador",
     "escala": "binario_agregar",
-    "populacao": "escolas",
-    "valor_normalizado": 86.15,
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 83.25,
     "ano_fonte": 2024
   },
   {
@@ -3087,10 +3535,10 @@
     "fonte": "censo_escolar",
     "indicador": "IN_INTERNET",
     "sub_itens": "total",
-    "descricao": "% escolas com acesso à Internet",
+    "descricao": "% escolas públicas com acesso à Internet",
     "escala": "binario_agregar",
-    "populacao": "escolas",
-    "valor_normalizado": 92.11,
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 89.99,
     "ano_fonte": 2024
   },
   {
@@ -3101,10 +3549,10 @@
     "fonte": "censo_escolar",
     "indicador": "IN_INTERNET_ALUNOS",
     "sub_itens": "total",
-    "descricao": "% escolas com Internet para alunos",
+    "descricao": "% escolas públicas com Internet para alunos",
     "escala": "binario_agregar",
-    "populacao": "escolas",
-    "valor_normalizado": 41.49,
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 40.42,
     "ano_fonte": 2024
   },
   {
@@ -3115,10 +3563,10 @@
     "fonte": "censo_escolar",
     "indicador": "IN_INTERNET_APRENDIZAGEM",
     "sub_itens": "total",
-    "descricao": "% escolas com Internet para ensino",
+    "descricao": "% escolas públicas com Internet para ensino",
     "escala": "binario_agregar",
-    "populacao": "escolas",
-    "valor_normalizado": 66.78,
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 66.32,
     "ano_fonte": 2024
   },
   {
@@ -3129,10 +3577,10 @@
     "fonte": "censo_escolar",
     "indicador": "IN_LABORATORIO_INFORMATICA",
     "sub_itens": "total",
-    "descricao": "% escolas com laboratório de informática",
+    "descricao": "% escolas públicas com laboratório de informática",
     "escala": "binario_agregar",
-    "populacao": "escolas",
-    "valor_normalizado": 29.55,
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 29.05,
     "ano_fonte": 2024
   },
   {
@@ -3146,8 +3594,8 @@
     "descricao": "% domicílios com Internet",
     "escala": "prop_0_100",
     "populacao": "domicilios",
-    "valor_normalizado": 93.68,
-    "ano_fonte": 2024
+    "valor_normalizado": 94.97,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3199,7 +3647,7 @@
     "fonte": "munic",
     "indicador": "MUNIC_INTERNET",
     "sub_itens": "total",
-    "descricao": "Municípios com evidência afirmativa de conexão à Internet",
+    "descricao": "Municípios com evidência afirmativa de conexão à Internet (Mtic04)",
     "escala": "prop_0_100",
     "populacao": "prefeituras",
     "valor_normalizado": 99.48,
@@ -3314,8 +3762,8 @@
     "descricao": "Documentação ativos rede",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 98.29,
-    "ano_fonte": 2025
+    "valor_normalizado": 87.82,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3328,8 +3776,8 @@
     "descricao": "Monitoramento rede",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 98.72,
-    "ano_fonte": 2025
+    "valor_normalizado": 76.05,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3342,8 +3790,8 @@
     "descricao": "Manutenção preventiva rede",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 94.87,
-    "ano_fonte": 2025
+    "valor_normalizado": 81.93,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3356,8 +3804,8 @@
     "descricao": "Maturidade computação em nuvem",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 43.59,
-    "ano_fonte": 2025
+    "valor_normalizado": 34.87,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3370,8 +3818,22 @@
     "descricao": "Maturidade adoção IPv6",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 62.82,
-    "ano_fonte": 2025
+    "valor_normalizado": 35.29,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "igovsisp/G636IPD",
+    "fonte": "igovsisp",
+    "indicador": "G636IPD",
+    "sub_itens": "total",
+    "descricao": "6.1.1.10. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 35.71,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3384,8 +3846,50 @@
     "descricao": "Portaria 5.950/2023 (nuvem)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 8.55,
-    "ano_fonte": 2025
+    "valor_normalizado": 10.08,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "igovsisp/G641IPD",
+    "fonte": "igovsisp",
+    "indicador": "G641IPD",
+    "sub_itens": "total",
+    "descricao": "6.1.1.6. O órgão possui rede de Longa Distância (link WAN)?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 61.34,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "igovsisp/G642IPD",
+    "fonte": "igovsisp",
+    "indicador": "G642IPD",
+    "sub_itens": "total",
+    "descricao": "6.1.2.1. O órgão possui contrato de nuvem?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 36.55,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 6,
+    "objetivo_nome": "Infraestrutura",
+    "concept_id": "igovsisp/G6001IPD",
+    "fonte": "igovsisp",
+    "indicador": "G6001IPD",
+    "sub_itens": "total",
+    "descricao": "6.1.1.1. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 45.8,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3397,9 +3901,9 @@
     "sub_itens": "total",
     "descricao": "Uso de IA",
     "escala": "prop_0_100",
-    "populacao": "orgaos",
-    "valor_normalizado": 30.0802,
-    "ano_fonte": 2023
+    "populacao": "ambos",
+    "valor_normalizado": 42.91865,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3411,9 +3915,65 @@
     "sub_itens": "total",
     "descricao": "Uso de IoT",
     "escala": "prop_0_100",
+    "populacao": "ambos",
+    "valor_normalizado": 31.9598,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "tic_gov/source/H3F_A",
+    "fonte": "tic_gov",
+    "indicador": "source/H3F_A",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+    "escala": "prop_0_100",
     "populacao": "orgaos",
-    "valor_normalizado": 26.9467,
-    "ano_fonte": 2023
+    "valor_normalizado": 17.267947319999998,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "tic_gov/source/H3F_B",
+    "fonte": "tic_gov",
+    "indicador": "source/H3F_B",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 8.971522536,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "tic_gov/source/H3F_C",
+    "fonte": "tic_gov",
+    "indicador": "source/H3F_C",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 32.08933092,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "tic_gov/source/H3F_D",
+    "fonte": "tic_gov",
+    "indicador": "source/H3F_D",
+    "sub_itens": "total",
+    "descricao": "ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",
+    "escala": "prop_0_100",
+    "populacao": "orgaos",
+    "valor_normalizado": 16.711183968,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3425,37 +3985,79 @@
     "sub_itens": "['A', 'B', 'C', 'D']",
     "descricao": "Tecnologias emergentes em saúde (H5 quest. → D5A portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 3.714,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 7,
-    "objetivo_nome": "Inovação e Tecnologias Emergentes",
-    "concept_id": "iospd/IOSPD_III06",
-    "fonte": "iospd",
-    "indicador": "IOSPD_III06",
-    "sub_itens": "total",
-    "descricao": "Laboratório de Inovação em Governo (IOSPD III.6)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 70.37,
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 10.463223132000001,
     "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 7,
     "objetivo_nome": "Inovação e Tecnologias Emergentes",
-    "concept_id": "iospd/IOSPD_V02",
-    "fonte": "iospd",
-    "indicador": "IOSPD_V02",
+    "concept_id": "tic_educacao/source/D9A",
+    "fonte": "tic_educacao",
+    "indicador": "source/D9A",
     "sub_itens": "total",
-    "descricao": "Uso de IA/ciência de dados em serviço público (IOSPD V.2)",
+    "descricao": "GESTORES ESCOLARES QUE ADOTAM INTELIGÊNCIA ARTIFICIAL NA GESTÃO PEDAGÓGICA, ADMINISTRATIVA OU FINANCEIRA DA INSTITUIÇÃO",
+    "escala": "prop_0_100",
+    "populacao": "gestores_escolas_publicas",
+    "valor_normalizado": 52.5777,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "iospd/IOSPD_E26_501",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_501",
+    "sub_itens": "total",
+    "descricao": "5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?",
     "escala": "indice_0_10",
     "populacao": "uf",
-    "valor_normalizado": 66.67,
-    "ano_fonte": 2025
+    "valor_normalizado": 46.15,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "iospd/IOSPD_E26_502",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_502",
+    "sub_itens": "total",
+    "descricao": "5.2 O ESTADO JÁ UTILIZOU SOLUÇÕES BASEADAS EM INTELIGÊNCIA ARTIFICIAL PARA APOIAR A OFERTA OU MELHORIA DE SERVIÇOS PÚBLICOS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 59.61,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "iospd/IOSPD_E26_503",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_503",
+    "sub_itens": "total",
+    "descricao": "5.3 O ESTADO REALIZOU COMPRAS PÚBLICAS PARA INOVAÇÃO (CPIN) NO ÚLTIMO ANO (2025), CONFORME OS INSTRUMENTOS PREVISTOS NA LEI Nº 14.133/2021, LEI Nº 10.973/2004 E NO MARCO LEGAL DAS STARTUPS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 69.23,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 7,
+    "objetivo_nome": "Inovação e Tecnologias Emergentes",
+    "concept_id": "iospd/IOSPD_E26_505",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_505",
+    "sub_itens": "total",
+    "descricao": "5.5 O ESTADO POSSUI UM LABORATÓRIO DE INOVAÇÃO (OU ESTRUTURA EQUIVALENTE) VOLTADO AO DESENHO, TESTE E EXPERIMENTAÇÃO DE NOVAS SOLUÇÕES DIGITAIS, ENVOLVENDO SERVIDORES, CIDADÃOS E PARCEIROS EXTERNOS?",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 80.77,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3465,7 +4067,7 @@
     "fonte": "estadic",
     "indicador": "ESTADIC_CAPACIT_EMPREEND",
     "sub_itens": "total",
-    "descricao": "Capacitação para empreendedorismo digital",
+    "descricao": "Capacitação para empreendedorismo digital (Etic243)",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
     "valor_normalizado": 88.89,
@@ -3479,7 +4081,7 @@
     "fonte": "estadic",
     "indicador": "ESTADIC_ESPACO_INOVACAO",
     "sub_itens": "total",
-    "descricao": "Espaços de inovação, coworking ou espaços compartilhados",
+    "descricao": "Espaços de inovação, coworking ou espaços compartilhados (Etic242)",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
     "valor_normalizado": 77.78,
@@ -3493,7 +4095,7 @@
     "fonte": "estadic",
     "indicador": "ESTADIC_PREMIO_INOVACAO",
     "sub_itens": "total",
-    "descricao": "Prêmio ou edital para empresas inovadoras e projetos criativos",
+    "descricao": "Prêmio ou edital para empresas inovadoras e projetos criativos (Etic244)",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
     "valor_normalizado": 77.78,
@@ -3510,106 +4112,8 @@
     "descricao": "Estratégia de IA",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 51.28,
-    "ano_fonte": 2025
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_A",
-    "fonte": "tic_gov",
-    "indicador": "B4_A",
-    "sub_itens": "['A']",
-    "descricao": "Sistema de recursos humanos",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 86.65565000000001,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_B",
-    "fonte": "tic_gov",
-    "indicador": "B4_B",
-    "sub_itens": "['B']",
-    "descricao": "Sistema de patrimônio",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 82.4798,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_C",
-    "fonte": "tic_gov",
-    "indicador": "B4_C",
-    "sub_itens": "['C']",
-    "descricao": "Sistema de orçamento",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 77.14625000000001,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_D",
-    "fonte": "tic_gov",
-    "indicador": "B4_D",
-    "sub_itens": "['D']",
-    "descricao": "Sistema de finanças e contabilidade",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 86.95570000000001,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_E",
-    "fonte": "tic_gov",
-    "indicador": "B4_E",
-    "sub_itens": "['E']",
-    "descricao": "Sistema de compras",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 84.452,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_F",
-    "fonte": "tic_gov",
-    "indicador": "B4_F",
-    "sub_itens": "['F']",
-    "descricao": "Sistema de convênios",
-    "escala": "prop_0_100",
-    "populacao": "orgaos",
-    "valor_normalizado": 60.0003,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/B4_G",
-    "fonte": "tic_gov",
-    "indicador": "B4_G",
-    "sub_itens": "['G']",
-    "descricao": "Sistema de contratos",
-    "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 77.76865000000001,
-    "ano_fonte": 2023
+    "valor_normalizado": 17.23,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3621,9 +4125,9 @@
     "sub_itens": "['H']",
     "descricao": "Sistema de informação geográfica, mapas ou geoprocessamento",
     "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 48.40205,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 47.3837,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3635,9 +4139,9 @@
     "sub_itens": "['I']",
     "descricao": "Sistema de apoio à decisão",
     "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 38.03485,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 16.0297,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3649,9 +4153,9 @@
     "sub_itens": "['J']",
     "descricao": "Sistema de protocolos",
     "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 73.89365000000001,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 58.9671,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3663,9 +4167,9 @@
     "sub_itens": "['K']",
     "descricao": "Sistema de gestão de documentos",
     "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 75.8614,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 59.7333,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3677,23 +4181,9 @@
     "sub_itens": "['L']",
     "descricao": "Sistema de gestão integrada (ERP)",
     "escala": "prop_0_100",
-    "populacao": "ambos",
-    "valor_normalizado": 39.36445,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 8,
-    "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_gov/C8",
-    "fonte": "tic_gov",
-    "indicador": "C8",
-    "sub_itens": "total",
-    "descricao": "Realização de pregão eletrônico",
-    "escala": "prop_0_100",
-    "populacao": "prefeituras_com_acesso_internet",
-    "valor_normalizado": 91.3945,
-    "ano_fonte": 2023
+    "populacao": "prefeituras",
+    "valor_normalizado": 33.9382,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3705,9 +4195,9 @@
     "sub_itens": "total",
     "descricao": "Prontuários mantidos apenas em formato eletrônico (C1 quest. → B1 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 36.7939,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 34.182378273,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3719,9 +4209,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",
     "descricao": "Maior percentual entre as funcionalidades eletrônicas disponíveis",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 64.7333,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 82.264619718,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3733,9 +4223,9 @@
     "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
     "descricao": "Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal)",
     "escala": "prop_0_100",
-    "populacao": "estabelecimentos_que_utilizaram_internet_12m",
-    "valor_normalizado": 28.11238571428572,
-    "ano_fonte": 2024
+    "populacao": "estabelecimentos_publicos",
+    "valor_normalizado": 31.296091030714287,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3744,39 +4234,39 @@
     "concept_id": "tic_educacao/E1",
     "fonte": "tic_educacao",
     "indicador": "E1",
-    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F']",
+    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
     "descricao": "Registro eletrônico (P33 quest. → E1 portal)",
     "escala": "prop_0_100",
-    "populacao": "escolas",
-    "valor_normalizado": 74.79998333333333,
-    "ano_fonte": 2024
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 78.52907142857143,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 8,
     "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "tic_educacao/E1A",
+    "concept_id": "tic_educacao/source/D8_E",
     "fonte": "tic_educacao",
-    "indicador": "E1A",
+    "indicador": "source/D8_E",
     "sub_itens": "total",
-    "descricao": "Sistema de gestão online (P33a quest. → E1A portal)",
+    "descricao": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
     "escala": "prop_0_100",
-    "populacao": "escolas",
-    "valor_normalizado": 85.918,
-    "ano_fonte": 2024
+    "populacao": "gestores_escolas_publicas",
+    "valor_normalizado": 61.58205918832958,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 8,
     "objetivo_nome": "Eficiência e Processos",
-    "concept_id": "iospd/IOSPD_III02",
-    "fonte": "iospd",
-    "indicador": "IOSPD_III02",
+    "concept_id": "tic_educacao/source/E1D",
+    "fonte": "tic_educacao",
+    "indicador": "source/E1D",
     "sub_itens": "total",
-    "descricao": "Grupos de desburocratização regulamentados (IOSPD III.2)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 66.67,
+    "descricao": "ESCOLAS QUE UTILIZAM PROGRAMAS, SISTEMAS OU PLATAFORMAS DIGITAIS NA GESTÃO ESCOLAR",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 94.344,
     "ano_fonte": 2025
   },
   {
@@ -3790,8 +4280,8 @@
     "descricao": "Utilização do SEI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.08,
-    "ano_fonte": 2025
+    "valor_normalizado": 74.37,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3804,8 +4294,8 @@
     "descricao": "Eficiência e produtividade percebidas após transformação digital",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 68.8,
-    "ano_fonte": 2025
+    "valor_normalizado": 70.59,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3818,8 +4308,8 @@
     "descricao": "Prática de avaliação do valor público dos sistemas digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 38.03,
-    "ano_fonte": 2025
+    "valor_normalizado": 27.73,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3832,8 +4322,8 @@
     "descricao": "IN SGD/ME nº 94/2022 (proc. contratação TIC)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 93.59,
-    "ano_fonte": 2025
+    "valor_normalizado": 96.22,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3846,8 +4336,8 @@
     "descricao": "Portaria 750/2023 (software)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 58.12,
-    "ano_fonte": 2025
+    "valor_normalizado": 61.76,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3860,8 +4350,8 @@
     "descricao": "Portaria 1.070/2023 (infraestrutura)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 58.97,
-    "ano_fonte": 2025
+    "valor_normalizado": 65.13,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3874,8 +4364,8 @@
     "descricao": "Portaria 2.715/2023 (estações)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 59.83,
-    "ano_fonte": 2025
+    "valor_normalizado": 66.81,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3888,8 +4378,8 @@
     "descricao": "Definição requisitos contratação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 100,
-    "ano_fonte": 2025
+    "valor_normalizado": 98.74,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3902,8 +4392,8 @@
     "descricao": "Procedimentos padronizados",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 93.59,
-    "ano_fonte": 2025
+    "valor_normalizado": 90.76,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3916,8 +4406,8 @@
     "descricao": "Gestão de contratos de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 98.72,
-    "ano_fonte": 2025
+    "valor_normalizado": 96.22,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3930,8 +4420,8 @@
     "descricao": "Pessoal para contratações de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 45.3,
-    "ano_fonte": 2025
+    "valor_normalizado": 50.42,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3944,8 +4434,8 @@
     "descricao": "Concordância sobre conhecimento aprofundado das normas de contratação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 67.95,
-    "ano_fonte": 2025
+    "valor_normalizado": 74.37,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3958,8 +4448,8 @@
     "descricao": "Critérios sustentáveis em contratações",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 96.15,
-    "ano_fonte": 2025
+    "valor_normalizado": 94.54,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3972,8 +4462,22 @@
     "descricao": "Acessibilidade digital em editais (eMAG/WCAG)",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 87.61,
-    "ano_fonte": 2025
+    "valor_normalizado": 46.64,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 8,
+    "objetivo_nome": "Eficiência e Processos",
+    "concept_id": "igovsisp/G644IPD",
+    "fonte": "igovsisp",
+    "indicador": "G644IPD",
+    "sub_itens": "total",
+    "descricao": "6.1.3.2. As ferramentas de produtividade e colaboração adotadas estão integradas aos processos de trabalho e sistemas corporativos do órgão?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 65.97,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -3985,9 +4489,9 @@
     "sub_itens": "total",
     "descricao": "Ouvidoria online",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_website",
-    "valor_normalizado": 81.14750000000001,
-    "ano_fonte": 2023
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 82.24351541853386,
+    "ano_fonte": 2025
   },
   {
     "categoria": "Total",
@@ -3999,37 +4503,23 @@
     "sub_itens": "['A', 'B', 'C', 'D']",
     "descricao": "Participação social",
     "escala": "prop_0_100",
-    "populacao": "orgaos_e_prefeituras_com_acesso_internet",
-    "valor_normalizado": 34.52105,
-    "ano_fonte": 2023
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 9,
-    "objetivo_nome": "Transparência e Participação",
-    "concept_id": "iospd/IOSPD_I11",
-    "fonte": "iospd",
-    "indicador": "IOSPD_I11",
-    "sub_itens": "total",
-    "descricao": "Cartas de Serviços na Base Nacional (IOSPD I.11)",
-    "escala": "indice_0_10",
-    "populacao": "uf",
-    "valor_normalizado": 51.85,
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 36.229088972,
     "ano_fonte": 2025
   },
   {
     "categoria": "Total",
     "objetivo": 9,
     "objetivo_nome": "Transparência e Participação",
-    "concept_id": "munic/MUNIC_ATIV_REDES_CONSULTA",
-    "fonte": "munic",
-    "indicador": "MUNIC_ATIV_REDES_CONSULTA",
+    "concept_id": "iospd/IOSPD_E26_408",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_408",
     "sub_itens": "total",
-    "descricao": "Atividade em redes sociais — consulta pública/enquete",
-    "escala": "prop_0_100",
-    "populacao": "prefeituras",
-    "valor_normalizado": 26.36,
-    "ano_fonte": 2024
+    "descricao": "4.8 POSSUI PLATAFORMA OU ALGUM OUTRO MECANISMO PARA PARTICIPAÇÃO DIGITAL? (POR EXEMPLO, PARTICIPA +)",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 80.77,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4043,20 +4533,6 @@
     "escala": "prop_0_100",
     "populacao": "prefeituras",
     "valor_normalizado": 2.08,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 9,
-    "objetivo_nome": "Transparência e Participação",
-    "concept_id": "munic/MUNIC_LAI",
-    "fonte": "munic",
-    "indicador": "MUNIC_LAI",
-    "sub_itens": "total",
-    "descricao": "Disseminação de orientações sobre LAI na prefeitura",
-    "escala": "prop_0_100",
-    "populacao": "prefeituras",
-    "valor_normalizado": 18.08,
     "ano_fonte": 2024
   },
   {
@@ -4085,20 +4561,6 @@
     "escala": "prop_0_100",
     "populacao": "prefeituras",
     "valor_normalizado": 24.51,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 9,
-    "objetivo_nome": "Transparência e Participação",
-    "concept_id": "munic/MUNIC_LAI_SOLICITACOES",
-    "fonte": "munic",
-    "indicador": "MUNIC_LAI_SOLICITACOES",
-    "sub_itens": "total",
-    "descricao": "Solicitações de acesso à informação recebidas em 2023",
-    "escala": "prop_0_100",
-    "populacao": "prefeituras",
-    "valor_normalizado": 55.83,
     "ano_fonte": 2024
   },
   {
@@ -4224,21 +4686,7 @@
     "descricao": "Formas de participação do cidadão pela internet",
     "escala": "prop_0_100",
     "populacao": "governo_estadual",
-    "valor_normalizado": 54.63,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 9,
-    "objetivo_nome": "Transparência e Participação",
-    "concept_id": "estadic/ESTADIC_PORTAL_TRANSP",
-    "fonte": "estadic",
-    "indicador": "ESTADIC_PORTAL_TRANSP",
-    "sub_itens": "total",
-    "descricao": "Portal da transparência e portal de dados abertos",
-    "escala": "prop_0_100",
-    "populacao": "governo_estadual",
-    "valor_normalizado": 85.19,
+    "valor_normalizado": 88.89,
     "ano_fonte": 2024
   },
   {
@@ -4257,16 +4705,44 @@
   },
   {
     "categoria": "Total",
+    "objetivo": 9,
+    "objetivo_nome": "Transparência e Participação",
+    "concept_id": "igovsisp/G400DI",
+    "fonte": "igovsisp",
+    "indicador": "G400DI",
+    "sub_itens": "total",
+    "descricao": "3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 16.39,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_gov/G2",
+    "fonte": "tic_gov",
+    "indicador": "G2",
+    "sub_itens": "total",
+    "descricao": "Capacitação sobre a LGPD para funcionários de TI",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_e_prefeituras",
+    "valor_normalizado": 36.457365331,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
     "objetivo": 10,
     "objetivo_nome": "Competências em Governo Digital",
     "concept_id": "tic_educacao/G2_C",
-    "fonte": "tic_educacao",
+    "fonte": "tic_educacao_professores",
     "indicador": "G2_C",
     "sub_itens": "['C']",
     "descricao": "Atividades com alunos sobre privacidade e dados pessoais",
     "escala": "prop_0_100",
-    "populacao": "professores",
-    "valor_normalizado": 56.9685,
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 57.7607,
     "ano_fonte": 2024
   },
   {
@@ -4274,13 +4750,111 @@
     "objetivo": 10,
     "objetivo_nome": "Competências em Governo Digital",
     "concept_id": "tic_educacao/H3",
-    "fonte": "tic_educacao",
+    "fonte": "tic_educacao_professores",
     "indicador": "H3",
     "sub_itens": "total",
     "descricao": "Formação continuada TIC (P45a quest. → H3 portal)",
     "escala": "prop_0_100",
-    "populacao": "professores",
-    "valor_normalizado": 53.537,
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 52.1612,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_C",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_C",
+    "sub_itens": "['C']",
+    "descricao": "Formação: criação de conteúdos educacionais com plataformas e aplicativos (P49A2_G quest. → H7 item C portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 42.89215476,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_D",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_D",
+    "sub_itens": "['D']",
+    "descricao": "Formação: avaliação da veracidade e compartilhamento responsável (P49A2_I quest. → H7 item D portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 32.366024599999996,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_E",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_E",
+    "sub_itens": "['E']",
+    "descricao": "Formação: proteção à privacidade e aos dados pessoais (P49A2_J quest. → H7 item E portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 29.252000959999997,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_F",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_F",
+    "sub_itens": "['F']",
+    "descricao": "Formação: computação, programação ou robótica na educação (P49A2_K1 quest. → H7 item F portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 20.7336597104,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_G",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_G",
+    "sub_itens": "['G']",
+    "descricao": "Formação: inteligência artificial em atividades educacionais (P49A2_L quest. → H7 item G portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 30.316454568399998,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_H",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_H",
+    "sub_itens": "['H']",
+    "descricao": "Formação: educação midiática e uso crítico das mídias (P49A2_M quest. → H7 item H portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 35.467529551999995,
+    "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/H7_I",
+    "fonte": "tic_educacao_professores",
+    "indicador": "H7_I",
+    "sub_itens": "['I']",
+    "descricao": "Formação: adaptação aos ritmos de aprendizagem (P49A2_N quest. → H7 item I portal)",
+    "escala": "prop_0_100",
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 40.47187508,
     "ano_fonte": 2024
   },
   {
@@ -4288,14 +4862,98 @@
     "objetivo": 10,
     "objetivo_nome": "Competências em Governo Digital",
     "concept_id": "tic_educacao/P42a_G",
-    "fonte": "tic_educacao",
+    "fonte": "tic_educacao_professores",
     "indicador": "P42a_G",
     "sub_itens": "['G']",
-    "descricao": "Atividades com alunos sobre impactos da inteligência artificial",
+    "descricao": "Atividades com alunos sobre impactos da inteligência artificial (P42a_G quest. → G2 item G portal)",
     "escala": "prop_0_100",
-    "populacao": "professores",
-    "valor_normalizado": 53.72,
+    "populacao": "professores_escolas_publicas",
+    "valor_normalizado": 52.12,
     "ano_fonte": 2024
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/source/D8_C",
+    "fonte": "tic_educacao",
+    "indicador": "source/D8_C",
+    "sub_itens": "total",
+    "descricao": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
+    "escala": "prop_0_100",
+    "populacao": "gestores_escolas_publicas",
+    "valor_normalizado": 62.0705221739929,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/source/D8_F",
+    "fonte": "tic_educacao",
+    "indicador": "source/D8_F",
+    "sub_itens": "total",
+    "descricao": "GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",
+    "escala": "prop_0_100",
+    "populacao": "gestores_escolas_publicas",
+    "valor_normalizado": 63.841282109608386,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/source/I4A",
+    "fonte": "tic_educacao",
+    "indicador": "source/I4A",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS, TIPOS DE PROJETOS ARTÍSTICOS, CULTURAIS E ESPORTIVOS PARA OS ALUNOS MANTIDOS PELA ESCOLA",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 14.433,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/source/I5",
+    "fonte": "tic_educacao",
+    "indicador": "source/I5",
+    "sub_itens": "total",
+    "descricao": "ESCOLAS QUE REALIZAM PROJETOS PARA OS ALUNOS SOBRE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 64.6449,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "tic_educacao/source/I5H",
+    "fonte": "tic_educacao",
+    "indicador": "source/I5H",
+    "sub_itens": "['A', 'B', 'C', 'D', 'E', 'F']",
+    "descricao": "ESCOLAS, POR INTERAÇÃO ENTRE ESCOLA E FAMÍLIA NA PROMOÇÃO DE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",
+    "escala": "prop_0_100",
+    "populacao": "escolas_publicas",
+    "valor_normalizado": 52.59186666666667,
+    "ano_fonte": 2025
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "iospd/IOSPD_E26_105",
+    "fonte": "iospd",
+    "indicador": "IOSPD_E26_105",
+    "sub_itens": "total",
+    "descricao": "1.5 A INSTITUIÇÃO RESPONSÁVEL POR LIDERAR AS DECISÕES DE GOVERNO DIGITAL (OU OUTRA) CONTRIBUI COM O DESENVOLVIMENTO DE COMPETÊNCIAS DIGITAIS PARA OS SERVIDORES PÚBLICOS ESTADUAIS? MARQUE AS FORMAS COMO SE APLICA:",
+    "escala": "indice_0_10",
+    "populacao": "uf",
+    "valor_normalizado": 61.53,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4308,8 +4966,8 @@
     "descricao": "Detalhou capacitações e orçamentos",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 45.79,
-    "ano_fonte": 2025
+    "valor_normalizado": 43.07,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4322,8 +4980,8 @@
     "descricao": "Força de trabalho de TIC: Gestão e Planejamento de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 76.5,
-    "ano_fonte": 2025
+    "valor_normalizado": 80.25,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4336,8 +4994,8 @@
     "descricao": "Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 75.64,
-    "ano_fonte": 2025
+    "valor_normalizado": 83.61,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4350,8 +5008,8 @@
     "descricao": "Força de trabalho de TIC: Dados e Informações",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 58.12,
-    "ano_fonte": 2025
+    "valor_normalizado": 62.61,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4364,8 +5022,8 @@
     "descricao": "Força de trabalho de TIC: Privacidade e Segurança da Informação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 55.98,
-    "ano_fonte": 2025
+    "valor_normalizado": 64.71,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4378,8 +5036,8 @@
     "descricao": "Força de trabalho de TIC: Contratações de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 76.92,
-    "ano_fonte": 2025
+    "valor_normalizado": 79.41,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4392,8 +5050,8 @@
     "descricao": "Força de trabalho de TIC: Infraestrutura e Plataformas Digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.93,
-    "ano_fonte": 2025
+    "valor_normalizado": 80.25,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4406,8 +5064,8 @@
     "descricao": "Titulares de funções de TI efetivos, empregados públicos ou militares",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 95.41,
-    "ano_fonte": 2025
+    "valor_normalizado": 96.01,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4420,8 +5078,8 @@
     "descricao": "Define competências necessárias para pessoal de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.5,
-    "ano_fonte": 2025
+    "valor_normalizado": 77.31,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4434,8 +5092,8 @@
     "descricao": "Critérios para pedidos de capacitação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 71.37,
-    "ano_fonte": 2025
+    "valor_normalizado": 72.27,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4448,8 +5106,8 @@
     "descricao": "Plano de capacitação periódico",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 73.5,
-    "ano_fonte": 2025
+    "valor_normalizado": 74.37,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4462,8 +5120,8 @@
     "descricao": "Executa plano de capacitação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 45.73,
-    "ano_fonte": 2025
+    "valor_normalizado": 45.8,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4476,8 +5134,8 @@
     "descricao": "Avalia execução do plano de capacitação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 36.75,
-    "ano_fonte": 2025
+    "valor_normalizado": 41.6,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4490,8 +5148,8 @@
     "descricao": "Incentivos para competências de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 45.3,
-    "ano_fonte": 2025
+    "valor_normalizado": 44.96,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4504,8 +5162,8 @@
     "descricao": "Capacitações em Gestão e Planejamento de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 49.15,
-    "ano_fonte": 2025
+    "valor_normalizado": 51.26,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4518,8 +5176,8 @@
     "descricao": "Capacitações em Sistemas e Serviços Públicos Digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 44.87,
-    "ano_fonte": 2025
+    "valor_normalizado": 47.48,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4532,8 +5190,8 @@
     "descricao": "Capacitações em Dados e Informações",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 41.03,
-    "ano_fonte": 2025
+    "valor_normalizado": 42.44,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4546,8 +5204,8 @@
     "descricao": "Capacitações em Privacidade e Segurança da Informação",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 55.98,
-    "ano_fonte": 2025
+    "valor_normalizado": 57.56,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4560,8 +5218,8 @@
     "descricao": "Capacitações em Contratações de TI",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 58.55,
-    "ano_fonte": 2025
+    "valor_normalizado": 57.56,
+    "ano_fonte": 2026
   },
   {
     "categoria": "Total",
@@ -4574,7 +5232,21 @@
     "descricao": "Capacitações em Infraestrutura e Plataformas Digitais",
     "escala": "prop_0_100",
     "populacao": "orgaos_federais_sisp",
-    "valor_normalizado": 49.57,
-    "ano_fonte": 2025
+    "valor_normalizado": 50,
+    "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 10,
+    "objetivo_nome": "Competências em Governo Digital",
+    "concept_id": "igovsisp/G143GP",
+    "fonte": "igovsisp",
+    "indicador": "G143GP",
+    "sub_itens": "total",
+    "descricao": "1.2.1.4. O órgão possui cargo e/ou carreira própria de TIC?",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais_sisp",
+    "valor_normalizado": 34.03,
+    "ano_fonte": 2026
   }
 ]

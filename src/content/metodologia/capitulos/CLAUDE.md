@@ -9,7 +9,7 @@ Sub-agrupamento de variáveis dentro de um objetivo da ENGD — sub-conceito mai
 Há dois tipos:
 
 - **Dimensões temáticas** — cada uma agrupa variáveis por sub-conceito uniforme. Cada variável aparece em exatamente uma dimensão temática.
-- **Dimensões federativas** (até 2 por objetivo, opcionais) — `Recorte Estadual` (criada quando há ≥2 vars com observação por UF) e `Recorte de Capitais` (≥2 vars com observação por capital). Estas são as únicas dimensões em que uma variável pode também aparecer em outra dimensão (exceção à regra de não-repetição).
+- **Dimensões federativas** (até 3 por objetivo, opcionais) — `Recorte Estadual` (≥2 variáveis com observação por UF), `Recorte de Capitais` (≥2 com observação por capital) e `Recorte Federal` (≥2 variáveis efetivas dos órgãos federais). São a única exceção à não-repetição de variáveis: a pergunta aparece só no bloco temático, e o Recorte remete a ele por uma tabela (Seção 3 e template).
 
 **Não confundir** com as antigas "3 dimensões conceituais" (capacidade / uso / valor público) da v4 — removidas do eixo editorial. Essas discussões teóricas continuam só no `cap02_revisao_literatura.md` como marco conceitual, sem regrupar indicadores.
 
@@ -23,7 +23,7 @@ A seção `X.1 Recomendações da ENGD para este objetivo` do capítulo cita lit
 
 Algumas fontes têm peculiaridades que afetam a montagem das dimensões. Estão registradas no `v5/CLAUDE.md` (seção "Notas sobre dados") e em memória do projeto, mas vale ter em mente:
 
-- **iGovSISP** mede apenas órgãos federais SISP — variáveis `G1xxGP` aparecem só na visão Nacional. Não entram em `Recorte Estadual` nem em `Recorte de Capitais`.
+- **iGovSISP** mede apenas órgãos federais SISP — suas variáveis aparecem na visão Nacional e no `Recorte Federal`, pela mesma linha `TOTAL`. Não entram em `Recorte Estadual` nem em `Recorte de Capitais`. O iESGo também entra pela linha `TOTAL`; a TIC Governo Eletrônico entra no federal pela linha `NÍVEL`/`Federal` da tabela de órgãos. O registro canônico é `RECORTES["federal"]`, em `variaveis/dimensoes_por_objetivo.py`.
 - **MUNIC e ESTADIC (IBGE)** — bloco TIC é rotativo (não é permanente em todas as edições); a edição usada é a 2024. Variáveis `MUNIC_*` têm observação por capital (entram em `Recorte de Capitais`); variáveis `ESTADIC_*` têm observação por UF (entram em `Recorte Estadual`). Algumas foram classificadas em objetivos por proximidade conceitual frouxa, sem revisão sistemática contra a Portaria — alta probabilidade de gerar variáveis em borda (cf. obsgovdigital/arquivo#80 para Obj 1).
 - **IOSPD** — observação por UF, então variáveis `IOSPD_*` típicas entram em `Recorte Estadual` quando há ≥2 no objetivo.
 - **CETIC.br (TIC Saúde / TIC Educação / TIC Cultura)** — agregações `max`/`mean` calculadas sobre proporções já agregadas pelo CETIC.br, não microdados. Não confundir essa nuance com escopo do indicador ao agrupar.
@@ -46,6 +46,7 @@ Filtrar `variaveis/catalogo_variaveis.py` por `N in entrada["objetivos_engd"]` e
 - **Nacional** (sempre): toda variável ativa contribui para a visão Nacional (agregação consolidada que incorpora MUNIC/ESTADIC quando aplicável).
 - **Estadual**: tem valor por UF? (típico de IOSPD, ESTADIC).
 - **Capitais**: tem valor por capital? (típico de MUNIC).
+- **Federal**: observa órgãos federais? (iGovSISP, iESGo e as variáveis da TIC Governo Eletrônico que têm linha `NÍVEL`/`Federal` na tabela de órgãos).
 
 Reportar em `X.2 Cobertura por nível federativo`: total ativos, nº por visão, e quais dimensões `Recorte` serão criadas.
 
@@ -62,11 +63,14 @@ Critérios:
 
 ### 3. Adicionar dimensões federativas (quando aplicável)
 
-- **`Recorte Estadual`**: criar como última (ou penúltima) dimensão sse o objetivo tiver ≥2 variáveis com observação por UF. Inclui todas elas, mesmo que já estejam em outras dimensões temáticas. Reporta `*Média Estadual:* XX.X (n=N; M itens)`.
-- **`Recorte de Capitais`**: criar como última dimensão sse o objetivo tiver ≥2 variáveis com observação por capital. Inclui todas elas, com possível repetição. Reporta `*Média Capitais:* XX.X (n=N; M itens)`.
-- **Ordem**: dimensões temáticas vêm primeiro; depois `Recorte Estadual`, depois `Recorte de Capitais`. Numeração contínua (`X.3.1`, `X.3.2`, …).
+- **`Recorte Estadual`**: criar como última (ou penúltima) dimensão sse o objetivo tiver ≥2 variáveis com observação por UF. Inclui todas elas, mesmo que já estejam em outras dimensões temáticas. Reporta `*Média Estadual:* XX,X (n=N; M itens)`.
+- **`Recorte de Capitais`**: criar como última dimensão sse o objetivo tiver ≥2 variáveis com observação por capital. Inclui todas elas, com possível repetição. Reporta `*Média Capitais:* XX,X (n=N; M itens)`.
+- **`Recorte Federal`**: criar quando houver ≥2 variáveis efetivas dos órgãos federais. Reporta `*Média Federal:* XX,X (n=N; M itens)`. A União é o único ente, sem ranking. O gráfico mostra os indicadores por fonte e a média com baterias colapsadas. A definição é: `Conjunto das variáveis do Objetivo N com observação dos órgãos federais, agregadas para leitura do governo federal como ente único.` Seguem-se a lista ou contagem por fonte e as frases canônicas de repetição e remissão à tabela (Seção 3a).
+- **Ordem**: dimensões temáticas vêm primeiro; depois `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. Numeração contínua (`X.3.1`, `X.3.2`, …).
 - **Subdivisão**: enquanto cada `Recorte` tiver ≤10 variáveis, mantém-se sem subdivisão. Subdimensionar é trabalho futuro (ver issue de acompanhamento criada junto ao padrão).
 - Se um nível federativo tem 0–1 variável, **não** criar a dimensão `Recorte` correspondente. Registrar a exceção em `X.2 Cobertura`. A variável (se houver) aparece dentro de uma dimensão temática.
+
+O build regenera, dos CSVs da mesma release, a seção Federal, a cobertura federal e as tabelas Estadual e de Capitais. Os marcadores `federal:secao` e `federal:cobertura` permanecem mesmo sem seção publicada. Fora dos marcadores, o build só confere `Valor (Federal)` e a normalização da TIC Governo Eletrônico; para atualizá-los, usar `uv run python -m entregas.secoes_recorte_federal --escrever`. A nota e os blocos do capítulo 3 usam `entregas/templates_federal/`.
 
 > **Fronteira com o `GLOSSARIO.md` da raiz.** Este contrato manda no **texto publicado**: as fórmulas canônicas de redação, o modelo do bloco `Recorte` e os rótulos que os capítulos usam. O `GLOSSARIO.md` manda no **vocabulário de código e de dado** dos três repositórios, e é lá que "dimensão" tem os seus cinco sentidos distinguidos, com o símbolo canônico de cada um. Onde os dois colidirem, **o publicado vence**, e o verbete de lá registra por quê.
 
@@ -79,18 +83,22 @@ Para padronizar a leitura horizontal entre os 10 capítulos-objetivo, cada `*Def
    - Múltiplas no mesmo plano: `Corresponde às Recomendações N.A e N.B.`
    - Recomendação principal + secundária: `Corresponde à Recomendação N.A; com vínculo secundário à Recomendação N.B.`
 
-2. **Sub-conceitos fora da Portaria — fórmula única.** Quando a dimensão cobre aspecto não enunciado pelas recomendações (ex.: gestão de processos de TI no Obj 1, qualidade dos ativos de dados no Obj 5), abrir a frase com **"Sub-conceito não enunciado pelas recomendações da ENGD, mas …"**. Não usar variantes ("não enunciado pelas recomendações do Objetivo N", "não enunciado [diretamente] pela Portaria").
+   A fórmula registra o assunto, e não a medida: o que cada recomendação tem medido está no Anexo B. A principal é a recomendação mais sustentada pelas variáveis da dimensão em `variaveis/cobertura_recomendacoes.py`; a secundária, quando houver, é outra recomendação que variáveis da dimensão também sustentam. A forma de mesmo plano cabe quando o assunto da dimensão é das duas e as duas são sustentadas por variáveis dela. Recomendação citada sem nenhuma variável da dimensão entre os sustentadores, ou secundária mais sustentada que a principal, reprova `tests/contrato/test_ancoras_capitulos.py`; a dimensão passa então à recomendação que as suas variáveis sustentam e, sem nenhuma, à fórmula de sub-conceito. O teste lê como correspondência todo número de recomendação que venha depois da fórmula na mesma definição, por isso a fórmula fica depois de qualquer remissão a outra recomendação.
+
+2. **Sub-conceitos fora da Portaria — fórmula única.** Quando a dimensão cobre aspecto não enunciado pelas recomendações (ex.: gestão de processos de TI no Obj 1, conectividade do ambiente brasileiro no Obj 6), abrir a frase com **"Sub-conceito não enunciado pelas recomendações da ENGD, mas …"**. Não usar variantes ("não enunciado pelas recomendações do Objetivo N", "não enunciado [diretamente] pela Portaria").
 
 3. **Definição dos blocos `Recorte` — modelo único.** Forma canônica:
 
    ```
-   *Definição:* Conjunto das variáveis do Objetivo N com observação por <UF | capital>, agregadas para leitura federativa <estadual | municipal> [do desempenho em <tema do objetivo>]. <Frase opcional listando contagens ou variáveis específicas, conforme regra abaixo.> Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
+   *Definição:* Conjunto das variáveis do Objetivo N com observação por <UF | capital>, agregadas para leitura federativa <estadual | municipal> [do desempenho em <tema do objetivo>]. <Frase opcional listando contagens ou variáveis específicas, conforme regra abaixo.> Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
    ```
+
+   A última frase é a remissão à tabela do recorte e não varia: o `Recorte` não repete a pergunta. `tests/contrato/test_tabelas_de_recorte.py` confere a frase.
 
    Não usar a forma facultativa "Pode incluir variáveis…" — quando o Recorte de fato repete variáveis temáticas, a forma indicativa é precisa.
 
 4. **Listar ou contar.** Na frase opcional do modelo de Recorte, escolher conforme o número de variáveis no recorte:
-   - **≤3 variáveis** → listar nominalmente as variáveis (pelo código exato do catálogo).
+   - **≤3 variáveis** → listar nominalmente as variáveis (pelo código da fonte, `variaveis.codigos_fonte.codigo_oficial`).
    - **>3 variáveis** → reportar contagem por fonte (ex.: "Reúne as 9 variáveis ESTADIC e as 34 variáveis IOSPD do objetivo.").
 
 ### 4. Variáveis em borda — quando criar issue separada
@@ -132,7 +140,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca <K> recomendações aos entes federados
 
 ## X.3 Dimensões
 
-[1-2 frases sobre como as <K_t> dimensões temáticas refletem (ou não) as recomendações da Portaria, e — se houver — quais dimensões `Recorte` foram criadas.]
+[1-2 frases sobre como as <K_t> dimensões temáticas refletem (ou não) as recomendações da Portaria e, se houver, quais dimensões `Recorte` foram criadas.]
 
 ![Dimensões do Objetivo N](../graficos/dimensoes/cap0X.png)
 
@@ -140,68 +148,82 @@ A Portaria SGD/MGI nº 5.395/2026 elenca <K> recomendações aos entes federados
 
 *Definição:* [1-2 frases]. Corresponde à(s) Recomendação(ões) N.X.
 
-*Média Nacional:* XX.X (n=<n>; <m> itens).
+*Média Nacional:* XX,X (n=<n>; <m> itens).
 
 > As duas metades do rótulo não são redundantes e nenhuma é opcional: `n` é o número de **componentes** que entraram na média, e a contagem de itens é a de **indicadores com dado** antes do colapso de bateria. Eles coincidem nas dimensões sem bateria e diferem naquelas em que há. O gerador casa este rótulo literalmente, com a segunda metade dentro: linha escrita só com `(n=N)` não é lida, e o build reprova em vez de conferir zero.
+
+> **Separador decimal.** O texto publicado usa vírgula decimal (`86,3`, `61,3%`, `PI (95,6)`), e o ponto fica para o milhar (`5.570`) e para a numeração (Seção 3.2.1, Recomendação 8.5). Os parsers dos geradores leem só a vírgula, e `tests/contrato/test_separador_decimal.py` reprova o número com ponto que não for milhar, recomendação na frase de uma palavra de recomendação ou numeração nomeada (Seção, Dimensão, Iniciativa). Recomendação citada sem a palavra ("sustentam a 10.3") reprova: escrever "a Recomendação 10.3". Em lista, o decimal com vírgula pede ponto e vírgula entre os itens: "0; 33,3 e 100", "(33,3; n=6)". Os rótulos dos gráficos publicados saem de `indices/decimal_publicado.py` e seguem a mesma regra.
 
 **Indicadores:**
 
 *FONTE ANO (INSTITUIÇÃO):*
 
-- **CODIGO** — Pergunta completa.
+- **CODIGO**. Pergunta completa.
+  - *Contagem:* [quando a variável reúne itens; texto do campo `contagem` do catálogo]
   - *Normalização:* [se sem alternativas]
-  - Valor (Nacional): XX.X
-  - Valor (Estadual): XX.X (quando aplicável)
-  - Valor (Capitais): XX.X (quando aplicável)
+  - Valor (Nacional): XX,X
+  - Valor (Estadual): XX,X (quando aplicável)
+  - Valor (Capitais): XX,X (quando aplicável)
+  - Valor (Federal): XX,XX (quando aplicável)
+  - *Leitura:* [quando houver]
+
+O bloco temático reúne **todos os valores por visão disponíveis**, conferidos por `tests/contrato/test_tabelas_de_recorte.py`. Na TIC Governo Eletrônico, a normalização distingue o valor Federal (linha `NÍVEL`/`Federal` da tabela de órgãos) do Nacional (média dos universos de órgãos e prefeituras).
 
 *[Próxima fonte]:*
 - ...
 
-Nos blocos do iESGo, o código editorial é `iESGo NNNN` ou `iESGo NNNN_C`. O segmento interno `iesgo/source/` pertence ao `concept_id` do dado e não é impresso no relatório.
+Nos blocos do iESGo, o código editorial é `iESGo NNNN` ou, no sub-item, `iESGo NNNNC`. O segmento interno `iesgo/source/` pertence ao `concept_id` do dado e não é impresso no relatório.
 
 ### X.3.2 [Próxima dimensão temática]
 ...
 
 ### X.3.K Recorte Estadual (quando ≥2 vars por UF)
 
-*Definição:* Conjunto das variáveis do Objetivo N com observação por UF, agregadas para leitura federativa estadual. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição).
+*Definição:* Conjunto das variáveis do Objetivo N com observação por UF, agregadas para leitura federativa estadual. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Estadual:* XX.X (n=<n>; <m> itens).
+*Média Estadual:* XX,X (n=<n>; <m> itens).
 
-![Recorte Estadual — Objetivo N](../graficos/recortes/cap0X_estadual.png)
+![Recorte Estadual do Objetivo N](../graficos/recortes/cap0X_estadual.png)
 
-**Indicadores:**
+<!-- federal:tabela-estadual -->
+*Tabela T. Indicadores do Recorte Estadual do Objetivo N, com a dimensão temática da pergunta e o valor estadual*
 
-[Mesmo formato. Cada indicador exibe `Valor (Estadual)`. Pode também citar Valor (Nacional) se já estiver em outra dimensão.]
+| Código | Fonte | Pergunta na dimensão | Valor (Estadual) |
+|---|---|---|---:|
+| `CODIGO` | FONTE | X.3.1 Nome da dimensão | XX,XX |
+<!-- /federal:tabela-estadual -->
 
 ### X.3.K+1 Recorte de Capitais (quando ≥2 vars por capital)
 
-[análogo, com `*Média Capitais:*` e `Valor (Capitais)`]
+[análogo, com `*Média Capitais:*`, o marcador `federal:tabela-capitais` e a coluna `Valor (Capitais)`]
 
-![Recorte de Capitais — Objetivo N](../graficos/recortes/cap0X_capitais.png)
+![Recorte de Capitais do Objetivo N](../graficos/recortes/cap0X_capitais.png)
 
-**Indicadores:**
+### X.3.K+2 Recorte Federal (quando ≥2 componentes federais)
 
-[...]
+[Gerado entre os marcadores `federal:secao`, com a mesma tabela e a coluna `Valor (Federal)`.]
 ```
 
-Use os códigos exatamente como aparecem no catálogo (ex.: `B1`, `IOSPD_I10`, `MUNIC_TI_ESTRUTURA`, `G101GP`), exceto no iESGo, que segue a convenção editorial definida acima.
+**A tabela do recorte** (gerada pelo build, nunca escrita à mão; `entregas/secoes_recorte_federal.py` e `variaveis/tabela_recorte.py`):
 
-**Gráfico do Recorte (obrigatório quando o Recorte existir):** logo após a linha `*Média Estadual:* XX.X (n=N; M itens).` (e análoga para Capitais) e antes de `**Indicadores:**`, inserir o PNG correspondente — `![Recorte Estadual — Objetivo N](../graficos/recortes/cap0X_estadual.png)` ou `![Recorte de Capitais — Objetivo N](../graficos/recortes/cap0X_capitais.png)`. O PNG é gerado por `indices/gerar_graficos_recortes.py` a partir dos CSVs em `pipeline/dados/` e ranqueia as 27 UFs (Estadual) ou 27 capitais (Capitais) pela média da unidade sobre as variáveis do Recorte. Para regerar:
+- Uma linha por indicador do recorte, na ordem das fontes do relatório e, dentro da fonte, na do capítulo. As colunas são `Código`, `Fonte`, `Pergunta na dimensão` (número e nome da dimensão temática onde o bloco do indicador está) e `Valor (<visão>)`, com vírgula decimal e duas casas.
+- A legenda `*Tabela T. ...*` segue a numeração do relatório inteiro (as Tabelas 1 e 2 são do Capítulo 2); o PDF Typst a numera por contador, e `tests/contrato/test_tabelas_de_recorte.py` confere que o texto concorda.
+- Quando o mesmo código se repete na dimensão (itens de uma bateria da CETIC.br, que dividem o código da aba), a célula traz o código seguido do nome do item (`` `E1`, Endereço de e-mail como forma de contato ``). O nome sai do catálogo, nunca é escrito à mão: a `descricao` da entrada, quando distingue o item dos de mesmo código na dimensão e cabe na coluna (até 70 caracteres); senão o rótulo do item na fonte (`codigos_fonte.rotulo_item`). Duas linhas com o mesmo código e o mesmo nome na tabela são erro, e `tests/contrato/test_tabelas_de_recorte.py` as reprova.
+- O valor da tabela dos recortes Estadual e de Capitais é o da linha `Valor (...)` do bloco temático; o do federal é o do dado, o mesmo da linha `Valor (Federal)` do bloco. Notas próprias do recorte (a ausência do Paraná no IOSPD, a nota de bateria, `Topo` e `Base`) ficam fora dos marcadores, antes ou depois da tabela.
+
+O código impresso é o da fonte, que `variaveis.codigos_fonte.codigo_oficial` devolve (ex.: `B1`, `I.10`, `Mtic06`, `Etic231-Etic235`, `G101GP`), nunca o nome da chave do catálogo; a regra por fonte está na Seção 3.2.5 de `cap03_metodologia.md`. A pergunta é a `pergunta` do catálogo, igual caractere a caractere, e a linha `*Contagem:*` é a `contagem` do catálogo. `tests/contrato/test_perguntas_capitulos.py` confere a linha de indicador e `tests/contrato/test_codigo_impresso.py`, a prosa.
+
+**Gráfico do Recorte (obrigatório quando o Recorte existir):** logo após a linha `*Média Estadual:* XX,X (n=N; M itens).` (e análoga para Capitais) e antes da tabela, inserir o PNG correspondente — `![Recorte Estadual do Objetivo N](../graficos/recortes/cap0X_estadual.png)` ou `![Recorte de Capitais do Objetivo N](../graficos/recortes/cap0X_capitais.png)`. O PNG é gerado por `indices/gerar_graficos_recortes.py` a partir dos CSVs em `pipeline/dados/` e ranqueia as 27 UFs (Estadual) ou 27 capitais (Capitais) pela média da unidade sobre as variáveis do Recorte. Para regerar:
 
 ```bash
 uv run python indices/gerar_graficos_recortes.py
 ```
 
-O gerador valida automaticamente que a média do PNG bate com `*Média Estadual:*`/`*Média Capitais:*` reportada no `.md` (tolerância 0.05) e que `n` reportado bate com o número de variáveis encontradas. Divergências saem como avisos no stdout.
+O gerador resolve cada linha da tabela contra o bloco temático indicado e confere os indicadores contra o catálogo, a média contra o `.md` (tolerância 0.05) e `n` contra a contagem de variáveis. Divergências geram avisos bloqueantes no stdout.
 
 ### 6. Atualizar o Anexo B
 
-Para cada recomendação `N.X` da Portaria sem indicador correspondente no índice:
-
-- Editar [`anexo_b_lacunas_recomendacoes.md`](anexo_b_lacunas_recomendacoes.md), sub-seção `B.<N>` do objetivo.
-- Substituir o placeholder `*Pendente — capítulo ainda não reorganizado.*` por uma lista das lacunas, no formato `- **Recomendação N.X (assunto):** [explicação curta].`
-- Se não houver lacuna, substituir o placeholder por `*Sem lacunas: todas as recomendações têm pelo menos um indicador correspondente.*`
+O Anexo B é gerado por `metodologia/gerar_anexo_b.py` a partir de `variaveis/cobertura_recomendacoes.py`: a lacuna ou a cobertura de cada recomendação se registra lá, e o arquivo se regenera, nunca se edita à mão.
 
 ### 7. O que NÃO fazer
 
@@ -212,6 +234,7 @@ Para cada recomendação `N.X` da Portaria sem indicador correspondente no índi
 - Não tocar em outros `cap0X` no mesmo PR.
 - Não calcular nem citar nota que agregue os dez objetivos no corpo do capítulo. O índice do próprio objetivo do capítulo passou a ser permitido em 01/09/2026, mas só quando o número chegar ao capítulo pelo caminho do build, e nunca escrito à mão.
 - Não criar sub-seções "Visão Nacional / Estadual / Capitais" como blocos separados de listagem plana — toda variável aparece dentro de uma dimensão.
+- Não repetir o bloco do indicador (pergunta, contagem, normalização, valores) dentro de um `Recorte`: a seção traz só a tabela.
 - Não escrever sub-seção "Lacunas" no corpo do capítulo — vai para o Anexo B.
 
 ## Checklist do PR de dimensão
@@ -219,14 +242,15 @@ Para cada recomendação `N.X` da Portaria sem indicador correspondente no índi
 - [ ] Apenas o capítulo-objetivo correspondente, a sub-seção `B.<N>` do Anexo B, o PNG `entregas/graficos/dimensoes/cap0X.png`, a entrada do objetivo em `variaveis/dimensoes_por_objetivo.py` e (opcionalmente) `entregas/relatorio_unificado.md` regenerado foram modificados (`git diff --name-only`).
 - [ ] `X.1 Recomendações da ENGD` cita literalmente as recomendações daquele objetivo, conforme `RECOMENDACOES_ENGD` em `config_engd.py` — conferido por `tests/contrato/test_recomendacoes_engd.py`, que também confere o numeral por extenso da frase de abertura e a ementa do blockquote.
 - [ ] `X.2 Cobertura por nível federativo` reporta totais por visão e antecipa criação (ou não) das dimensões `Recorte`.
-- [ ] Dimensões temáticas em número adequado à estrutura da medição (sem teto fixo), cada uma com definição (com a recomendação correspondente quando houver), `*Média Nacional:* XX.X (n=N; M itens)` e indicadores agrupados por fonte com pergunta completa e valores por visão aplicável.
+- [ ] Dimensões temáticas em número adequado à estrutura da medição (sem teto fixo), cada uma com definição (com a recomendação correspondente quando houver), `*Média Nacional:* XX,X (n=N; M itens)` e indicadores agrupados por fonte com pergunta completa e valores por visão aplicável.
 - [ ] Gráfico de dimensões regerado: rodar `uv run python indices/gerar_graficos_dimensoes.py` (atualiza `entregas/graficos/dimensoes/cap0X.png`); a linha `![Dimensões do Objetivo N](../graficos/dimensoes/cap0X.png)` está presente em `## X.3 Dimensões`, logo após o parágrafo introdutório e antes do primeiro `### X.3.1`. Mapeamento variável → dimensão atualizado em `variaveis/dimensoes_por_objetivo.py`.
 - [ ] `Recorte Estadual` criado sse há ≥2 vars por UF; `Recorte de Capitais` criado sse há ≥2 vars por capital. Se criados, reportam média no nível correspondente e ≤10 vars.
-- [ ] Gráficos dos Recortes regerados: rodar `uv run python indices/gerar_graficos_recortes.py` (atualiza `entregas/graficos/recortes/cap0X_estadual.png` e/ou `cap0X_capitais.png` quando aplicável); cada `Recorte` no `.md` tem o `![…](../graficos/recortes/cap0X_<nivel>.png)` correspondente logo após a linha `*Média …:* XX.X (n=N; M itens).` e antes de `**Indicadores:**`. Saída do gerador sem `[divergencia]`.
-- [ ] Cada variável aparece em **exatamente 1 dimensão temática**. Pode aparecer adicionalmente em `Recorte Estadual` e/ou `Recorte de Capitais` (única exceção).
+- [ ] Gráficos dos Recortes regerados: rodar `uv run python indices/gerar_graficos_recortes.py` (atualiza `entregas/graficos/recortes/cap0X_estadual.png` e/ou `cap0X_capitais.png` quando aplicável); cada `Recorte` no `.md` tem o `![…](../graficos/recortes/cap0X_<nivel>.png)` correspondente logo após a linha `*Média …:* XX,X (n=N; M itens).` e antes da tabela. Saída do gerador sem `[divergencia]`.
+- [ ] Cada variável aparece em **exatamente 1 dimensão temática**, com a pergunta por extenso uma vez só. Pode aparecer adicionalmente na tabela de `Recorte Estadual`, `Recorte de Capitais` e/ou `Recorte Federal` (única exceção), sem repetir o bloco.
+- [ ] Cada `Recorte` tem a tabela gerada, entre marcadores, e a definição termina com a remissão a ela. `uv run python -m entregas.secoes_recorte_federal` sai com código 0.
 - [ ] Nomes das dimensões temáticas são substantivos curtos.
 - [ ] Variáveis em borda (se houver) tratadas conforme procedimento §4 — issue aberta e referenciada no PR.
-- [ ] Sub-seção `B.<N>` do Anexo B atualizada (lacunas listadas, ou marcada como "sem lacunas").
+- [ ] Anexo B regenerado por `metodologia/gerar_anexo_b.py` quando a cobertura mudou.
 - [ ] Validação automática: total de variáveis citadas (excluindo as repetidas em `Recorte`) = total de variáveis ativas do objetivo no catálogo, sem duplicatas dentro das dimensões temáticas. A partir de `v5/`, ajustando `N` (objetivo) e `CAP`:
 
 ```bash
@@ -248,7 +272,8 @@ echo "Catálogo: $TOTAL | Capítulo (únicas em temáticas): $USADAS | Duplicada
 Estas regras valem para qualquer texto deste repositório e estão em `v5/CLAUDE.md`:
 
 - Pergunta sempre por extenso ao citar uma variável.
-- Indicadores agrupados por fonte com header `*FONTE ANO (INSTITUIÇÃO):*`.
+- Indicadores agrupados por fonte com header `*FONTE ANO (INSTITUIÇÃO):*`; o qualificador de bloco, quando houver, entra depois de vírgula: `*MUNIC 2024 (IBGE), bloco LAI:*`.
+- Sem travessão longo (`—`) no texto publicado; traço médio em intervalo numérico vale. `tests/contrato/test_sem_travessao.py` reprova o que voltar.
 - Sem referências a issues do GitHub no corpo do relatório.
 - Sem mencionar versões do índice (v3, v4) no corpo do relatório.
 - Vitrine, não análise: descrever composição e dados, não interpretar.

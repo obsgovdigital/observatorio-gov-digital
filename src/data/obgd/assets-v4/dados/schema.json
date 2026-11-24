@@ -92,7 +92,7 @@
       },
       "tipo": {
         "type": "string",
-        "enum": ["nacional", "uf", "municipio", "capital"]
+        "enum": ["nacional", "uf", "municipio", "capital", "uniao"]
       },
       "codigo": {
         "type": "string"
@@ -178,6 +178,9 @@
         "type": "string"
       },
       "indicador_fisico": {
+        "type": "string"
+      },
+      "codigo_fonte": {
         "type": "string"
       },
       "sub_itens": {
@@ -300,7 +303,7 @@
       },
       "dimensao": {
         "type": "string",
-        "enum": ["nacional", "estadual", "capitais", "municipios"]
+        "enum": ["nacional", "estadual", "capitais", "municipios", "uniao"]
       }
     },
     "keys": [],

@@ -32,14 +32,18 @@ function formatScoreLocal(n: number): string {
 }
 
 function detalheCategoriaKey(dataNivel: DataNivel, codigo: string): string {
-  if (dataNivel === 'nacional') return 'Total'
+  // Nacional e União têm um ente só; a categoria das linhas é `Total`.
+  if (dataNivel === 'nacional' || dataNivel === 'uniao') return 'Total'
   return codigo
 }
 
 function buildVariavel(row: DetalheRow, enteCodigo: string): Variavel {
   const chave = `${row.fonte}/${row.indicador}`
   const conceptId = row.concept_id || chave
-  const meta = indicadorByChave.get(chave)
+  // A chave do catálogo é o concept_id. Ele difere de `fonte/indicador` quando
+  // a fonte física é outra (ex.: professores da TIC Educação, fonte
+  // `tic_educacao_professores`, com concept_id `tic_educacao/*`).
+  const meta = indicadorByChave.get(conceptId)
   const fonteMeta = fonteById.get(row.fonte)
   const fonteLabel = fonteMeta
     ? `${fonteMeta.nome} (${fonteMeta.instituicao})`

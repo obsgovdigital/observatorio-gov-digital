@@ -3,32 +3,32 @@
     "id": "tic_gov",
     "nome": "TIC Governo Eletrônico",
     "instituicao": "CETIC.br",
-    "ano_base": 2023,
+    "ano_base": 2025,
     "formato": null,
     "granularidade": ["orgaos", "prefeituras", "prefeituras_uf"],
-    "anos_disponiveis": [2013, 2015, 2017, 2019, 2021, 2023]
+    "anos_disponiveis": [2013, 2015, 2017, 2019, 2021, 2023, 2025]
   },
   {
     "id": "tic_saude",
     "nome": "TIC Saúde",
     "instituicao": "CETIC.br",
-    "ano_base": 2024,
+    "ano_base": 2025,
     "formato": null,
     "granularidade": ["estabelecimentos"],
     "anos_disponiveis": [
-      2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024
+      2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025
     ]
   },
   {
     "id": "tic_educacao",
     "nome": "TIC Educação",
     "instituicao": "CETIC.br",
-    "ano_base": 2024,
+    "ano_base": 2025,
     "formato": null,
-    "granularidade": ["escolas", "professores"],
+    "granularidade": ["escolas", "gestores"],
     "anos_disponiveis": [
       2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022,
-      2023, 2024
+      2023, 2024, 2025
     ]
   },
   {
@@ -44,11 +44,11 @@
     "id": "tic_domicilios",
     "nome": "TIC Domicílios",
     "instituicao": "CETIC.br",
-    "ano_base": 2024,
+    "ano_base": 2025,
     "formato": null,
-    "granularidade": ["individuos"],
+    "granularidade": ["individuos", "domicilios"],
     "anos_disponiveis": [
-      2008, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024
+      2008, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025
     ]
   },
   {
@@ -64,10 +64,10 @@
     "id": "iospd",
     "nome": "IOSPD",
     "instituicao": "ABEP-TIC",
-    "ano_base": 2025,
+    "ano_base": 2026,
     "formato": null,
     "granularidade": ["uf"],
-    "anos_disponiveis": [2020, 2021, 2022, 2023, 2024, 2025]
+    "anos_disponiveis": [2020, 2021, 2022, 2023, 2024, 2025, 2026]
   },
   {
     "id": "anatel",
@@ -94,10 +94,10 @@
     "id": "pnad_tic",
     "nome": "PNAD Contínua TIC",
     "instituicao": "IBGE",
-    "ano_base": 2024,
+    "ano_base": 2025,
     "formato": null,
     "granularidade": ["uf", "nacional"],
-    "anos_disponiveis": [2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024]
+    "anos_disponiveis": [2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025]
   },
   {
     "id": "sgd_sat",
@@ -130,10 +130,10 @@
     "id": "igovsisp",
     "nome": "iGovSISP",
     "instituicao": "SGD/MGI",
-    "ano_base": 2025,
+    "ano_base": 2026,
     "formato": null,
     "granularidade": ["orgaos_federais_sisp"],
-    "anos_disponiveis": [2025]
+    "anos_disponiveis": [2025, 2026]
   },
   {
     "id": "cin",
@@ -143,5 +143,14 @@
     "formato": null,
     "granularidade": ["uf"],
     "anos_disponiveis": [2026]
+  },
+  {
+    "id": "tic_educacao_professores",
+    "nome": "TIC Educação — Professores",
+    "instituicao": "CETIC.br",
+    "ano_base": 2024,
+    "formato": null,
+    "granularidade": ["professores"],
+    "anos_disponiveis": [2024]
   }
 ]

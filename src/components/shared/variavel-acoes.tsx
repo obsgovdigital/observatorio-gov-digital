@@ -15,7 +15,7 @@ type VariavelAcoesProps = {
   fonteUrl: string
   fonteId: string
   arquivo: ArquivoDados
-  /** Nível da página (nacional | estadual | municipios). */
+  /** Nível da página (nacional | uniao | estadual | municipios). */
   nivelKey: NivelKey
   conceptId: string
   subItens?: string | null

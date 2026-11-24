@@ -1,104 +1,96 @@
 categoria,objetivo,objetivo_nome,concept_id,fonte,indicador,sub_itens,descricao,escala,populacao,valor_normalizado,ano_fonte
-Total,1,Governança do Governo Digital,tic_gov/B1,tic_gov,B1,total,Área de TI,prop_0_100,ambos,67.8899,2023
-Total,1,Governança do Governo Digital,iesgo/source/2123,iesgo,2123,total,"Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",indice_0_100,orgaos_federais,37.78,2024
-Total,1,Governança do Governo Digital,iesgo/source/2133,iesgo,2133,total,"Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",indice_0_100,orgaos_federais,66.76,2024
-Total,1,Governança do Governo Digital,iesgo/source/2153,iesgo,2153,total,"Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",indice_0_100,orgaos_federais,57.43,2024
-Total,1,Governança do Governo Digital,iesgo/source/3132_C,iesgo,3132,['C'],"Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",indice_0_100,orgaos_federais,59.95,2024
-Total,1,Governança do Governo Digital,iesgo/source/4211,iesgo,4211,total,"Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",indice_0_100,orgaos_federais,71.74,2024
-Total,1,Governança do Governo Digital,iesgo/source/4212,iesgo,4212,total,"Plano de TI vigente (iESGo/TCU 2024, questão 4212)",indice_0_100,orgaos_federais,76.65,2024
-Total,1,Governança do Governo Digital,iesgo/source/4221,iesgo,4221,total,"Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",indice_0_100,orgaos_federais,50.43,2024
-Total,1,Governança do Governo Digital,iesgo/source/4222,iesgo,4222,total,"Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",indice_0_100,orgaos_federais,45.26,2024
-Total,1,Governança do Governo Digital,iesgo/source/4223,iesgo,4223,total,"Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",indice_0_100,orgaos_federais,35.87,2024
-Total,1,Governança do Governo Digital,iesgo/source/4224,iesgo,4224,total,"Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",indice_0_100,orgaos_federais,50.64,2024
-Total,1,Governança do Governo Digital,iesgo/source/4261,iesgo,4261,total,"Processo de software (iESGo/TCU 2024, questão 4261)",indice_0_100,orgaos_federais,51.69,2024
-Total,1,Governança do Governo Digital,iesgo/source/4262,iesgo,4262,total,"Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",indice_0_100,orgaos_federais,49.18,2024
-Total,1,Governança do Governo Digital,iospd/IOSPD_I10,iospd,IOSPD_I10,total,Estratégia de governo digital (IOSPD I.10),indice_0_10,uf,48.14,2025
+Total,1,Governança do Governo Digital,tic_gov/B1,tic_gov,B1,total,Área de TI,prop_0_100,ambos,67.54115,2025
+Total,1,Governança do Governo Digital,tic_gov/B5A_A,tic_gov,B5A,['A'],Plano estratégico de TI,prop_0_100,orgaos_e_prefeituras,37.426129006,2025
+Total,1,Governança do Governo Digital,tic_gov/B7A,tic_gov,B7A,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI),prop_0_100,orgaos,39.7970253162,2025
+Total,1,Governança do Governo Digital,tic_gov/source/B5A_C,tic_gov,B5A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",prop_0_100,ambos,38.0275893164,2025
+Total,1,Governança do Governo Digital,iesgo/source/2123,iesgo,2123,total,"Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",prop_0_100,orgaos_federais,40.92,2024
+Total,1,Governança do Governo Digital,iesgo/source/2133,iesgo,2133,total,"Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",prop_0_100,orgaos_federais,76.42,2024
+Total,1,Governança do Governo Digital,iesgo/source/2153,iesgo,2153,total,"Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",prop_0_100,orgaos_federais,59.89,2024
+Total,1,Governança do Governo Digital,iesgo/source/3132_C,iesgo,3132,['C'],"Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",prop_0_100,orgaos_federais,60.7,2024
+Total,1,Governança do Governo Digital,iesgo/source/4211,iesgo,4211,total,"Processo de planejamento de TI (iESGo/TCU 2024, questão 4211)",prop_0_100,orgaos_federais,82.93,2024
+Total,1,Governança do Governo Digital,iesgo/source/4212,iesgo,4212,total,"Plano de TI vigente (iESGo/TCU 2024, questão 4212)",prop_0_100,orgaos_federais,84.01,2024
+Total,1,Governança do Governo Digital,iesgo/source/4221,iesgo,4221,total,"Catálogo de serviços de TI e níveis de serviço (iESGo/TCU 2024, questão 4221)",prop_0_100,orgaos_federais,53.93,2024
+Total,1,Governança do Governo Digital,iesgo/source/4222,iesgo,4222,total,"Processo de gestão de mudanças (iESGo/TCU 2024, questão 4222)",prop_0_100,orgaos_federais,52.3,2024
+Total,1,Governança do Governo Digital,iesgo/source/4223,iesgo,4223,total,"Processo de gestão de configuração e ativos (iESGo/TCU 2024, questão 4223)",prop_0_100,orgaos_federais,37.13,2024
+Total,1,Governança do Governo Digital,iesgo/source/4224,iesgo,4224,total,"Processo de gestão de incidentes de TI e de segurança (iESGo/TCU 2024, questão 4224)",prop_0_100,orgaos_federais,56.37,2024
+Total,1,Governança do Governo Digital,iesgo/source/4261,iesgo,4261,total,"Processo de software (iESGo/TCU 2024, questão 4261)",prop_0_100,orgaos_federais,59.35,2024
+Total,1,Governança do Governo Digital,iesgo/source/4262,iesgo,4262,total,"Processo de gestão de projetos de TI (iESGo/TCU 2024, questão 4262)",prop_0_100,orgaos_federais,56.1,2024
+Total,1,Governança do Governo Digital,iospd/IOSPD_E26_101,iospd,IOSPD_E26_101,total,1.1 POSSUI ESTRATÉGIA DE GOVERNO DIGITAL VIGENTE EM 2026?,indice_0_10,uf,83.01,2026
+Total,1,Governança do Governo Digital,iospd/IOSPD_E26_102,iospd,IOSPD_E26_102,total,1.2 EXISTE UMA INSTITUIÇÃO RESPONSÁVEL POR LIDERAR E COORDENAR AS DECISÕES DE GOVERNO DIGITAL E / OU DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO E ASSEGURAR SUA IMPLEMENTAÇÃO DE FORMA TRANSVERSAL NO ESTADO?,indice_0_10,uf,99.04,2026
+Total,1,Governança do Governo Digital,iospd/IOSPD_E26_103,iospd,IOSPD_E26_103,total,1.3 EXISTE UM ÓRGÃO/ESTRUTURA FORMAL COLEGIADO DE COORDENAÇÃO RESPONSÁVEL POR DIRECIONAR TRANSVERSALMENTE AS POLÍTICAS E INICIATIVAS DE GOVERNO DIGITAL OU TIC?,indice_0_10,uf,96.15,2026
+Total,1,Governança do Governo Digital,iospd/IOSPD_E26_506,iospd,IOSPD_E26_506,total,5.6 O ESTADO POSSUI INICIATIVA OU PROGRAMA PARA APOIAR A TRANSFORMAÇÃO DIGITAL DOS SEUS MUNICÍPIOS?,indice_0_10,uf,84.62,2026
 Total,1,Governança do Governo Digital,munic/MUNIC_TI_ESTRUTURA,munic,MUNIC_TI_ESTRUTURA,total,Estrutura organizacional de TI na prefeitura,prop_0_100,prefeituras,59.98,2024
-Total,1,Governança do Governo Digital,igovsisp/G101GP,igovsisp,G101GP,total,Estruturas/diretrizes de governança de TIC,prop_0_100,orgaos_federais_sisp,86.32,2025
-Total,1,Governança do Governo Digital,igovsisp/G102GP,igovsisp,G102GP,total,Planejamento alinhado à EFGD,prop_0_100,orgaos_federais_sisp,88.89,2025
-Total,1,Governança do Governo Digital,igovsisp/G103GP,igovsisp,G103GP,total,Comitê de Governança Digital,prop_0_100,orgaos_federais_sisp,93.16,2025
-Total,1,Governança do Governo Digital,igovsisp/G105GP,igovsisp,G105GP,total,Gerenciamento de projetos de TI,prop_0_100,orgaos_federais_sisp,72.65,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPE,igovsisp,G106GPE,total,PDTIC publicado,prop_0_100,orgaos_federais_sisp,94.06,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPG,igovsisp,G106GPG,total,Usa Guia PDTIC do SISP,prop_0_100,orgaos_federais_sisp,98.02,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPH,igovsisp,G106GPH,total,Revisão anual do PDTIC,prop_0_100,orgaos_federais_sisp,91.09,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPL,igovsisp,G106GPL,total,Estimou mínimo pessoal por competência,prop_0_100,orgaos_federais_sisp,43.07,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPN,igovsisp,G106GPN,total,"Analisou alternativas (IA, cloud)",prop_0_100,orgaos_federais_sisp,42.57,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPP,igovsisp,G106GPP,total,Detalhou orçamento por contrato,prop_0_100,orgaos_federais_sisp,70.79,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPQ,igovsisp,G106GPQ,total,Detalhou riscos e tratamento,prop_0_100,orgaos_federais_sisp,58.17,2025
-Total,1,Governança do Governo Digital,igovsisp/G106GPR,igovsisp,G106GPR,total,Planejou metas intermediárias,prop_0_100,orgaos_federais_sisp,63.86,2025
-Total,1,Governança do Governo Digital,igovsisp/G107GP,igovsisp,G107GP,total,Orçamento adequado para necessidades de TI,prop_0_100,orgaos_federais_sisp,31.62,2025
-Total,1,Governança do Governo Digital,igovsisp/G109GP,igovsisp,G109GP,total,Avaliação de políticas de TI no processo orçamentário,prop_0_100,orgaos_federais_sisp,48.29,2025
-Total,1,Governança do Governo Digital,igovsisp/G111GP,igovsisp,G111GP,total,Framework para gestão de riscos de entregas de TI,prop_0_100,orgaos_federais_sisp,39.74,2025
-Total,1,Governança do Governo Digital,igovsisp/G112GP,igovsisp,G112GP,total,Gestão eficiente de recursos de TI,prop_0_100,orgaos_federais_sisp,83.76,2025
-Total,1,Governança do Governo Digital,igovsisp/G114GP,igovsisp,G114GP,total,Previsão orçamentária por cenários alternativos,prop_0_100,orgaos_federais_sisp,54.7,2025
-Total,1,Governança do Governo Digital,igovsisp/G115GP,igovsisp,G115GP,total,Avaliações regulares de conformidade em TI,prop_0_100,orgaos_federais_sisp,51.28,2025
-Total,1,Governança do Governo Digital,igovsisp/G116GP,igovsisp,G116GP,total,Registros precisos de ativos de TI,prop_0_100,orgaos_federais_sisp,73.5,2025
-Total,1,Governança do Governo Digital,igovsisp/G146GP,igovsisp,G146GP,total,PEI/PDI com objetivos de TIC,prop_0_100,orgaos_federais_sisp,82.05,2025
-Total,1,Governança do Governo Digital,igovsisp/G213SPD,igovsisp,G213SPD,total,Elaboração e execução do Plano de Transformação Digital,prop_0_100,orgaos_federais_sisp,89.74,2025
-Total,1,Governança do Governo Digital,igovsisp/G225SPD,igovsisp,G225SPD,total,Alinhamento estratégico dos investimentos do PTD,prop_0_100,orgaos_federais_sisp,80.77,2025
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C1,tic_gov,C1,total,Presença de website,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,92.6303,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C3,tic_gov,C3,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Tipos de serviço disponibilizados no website,prop_0_100,orgaos_com_website,83.2403,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C5B,tic_gov,C5B,"['A', 'B', 'C', 'D', 'E']",Meios de contato da central de atendimento,prop_0_100,prefeituras,84.5892,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_A,tic_gov,C6B,['A'],Envio de SMS para o cidadão,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,21.81475,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_B,tic_gov,C6B,['B'],Recebimento de SMS enviado pelo cidadão,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,20.701349999999998,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_C,tic_gov,C6B,['C'],Aplicativo criado pelo ente,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,36.00495,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_D,tic_gov,C6B,['D'],Website adaptado para dispositivos móveis,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,71.51735,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_E,tic_gov,C6B,['E'],Envio de mensagens por WhatsApp ou Telegram,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,48.4256,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_CHATBOT,tic_gov,E1,['CHATBOT'],Atendimento automatizado por assistente virtual ou chatbot,prop_0_100,orgaos_e_prefeituras_com_website,13.842600000000001,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_COMPLAINT,tic_gov,E1,['COMPLAINT'],Denúncia online como forma de contato,prop_0_100,orgaos_e_prefeituras_com_website,69.4817,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_EMAIL,tic_gov,E1,['EMAIL'],Endereço de e-mail como forma de contato,prop_0_100,orgaos_e_prefeituras_com_website,95.67715,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FOI_REQUEST,tic_gov,E1,['FOI_REQUEST'],Serviço de solicitação de acesso à informação,prop_0_100,orgaos_e_prefeituras_com_website,70.86915,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FORM,tic_gov,E1,['FORM'],Formulário eletrônico como forma de contato,prop_0_100,orgaos_e_prefeituras_com_website,63.60525,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_LIVE_CHAT,tic_gov,E1,['LIVE_CHAT'],Chat com atendentes em tempo real,prop_0_100,orgaos_e_prefeituras_com_website,20.119349999999997,2023
-Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_SUGGESTIONS,tic_gov,E1,['SUGGESTIONS'],Canal de sugestões para melhoria de serviços públicos,prop_0_100,orgaos_e_prefeituras_com_website,68.51595,2023
-Total,2,Qualidade dos Serviços Digitais,tic_saude/C1,tic_saude,C1,"['A', 'B', 'C', 'D', 'E']",Serviços online ao paciente (D1 questionário → C1 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,28.153639999999996,2024
-Total,2,Qualidade dos Serviços Digitais,tic_saude/C2,tic_saude,C2,"['A', 'B', 'C', 'D', 'E', 'F']",Telessaúde modalidades (D2A quest. → C2 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,20.953133333333337,2024
-Total,2,Qualidade dos Serviços Digitais,tic_saude/C5,tic_saude,C5,total,Website (B6-A quest. → C5 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,50.05,2024
-Total,2,Qualidade dos Serviços Digitais,tic_saude/C6,tic_saude,C6,total,Presença em redes sociais (B6_1 quest. → C6 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,56.7162,2024
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I01,iospd,IOSPD_I01,total,Portal único ou de serviços (IOSPD I.1),indice_0_10,uf,74.07,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I03,iospd,IOSPD_I03,total,Agendamento digital unificado (IOSPD I.3),indice_0_10,uf,62.96,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I04,iospd,IOSPD_I04,total,Avaliação de satisfação dos usuários (IOSPD I.4),indice_0_10,uf,74.07,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I06,iospd,IOSPD_I06,total,Gestão de cadastro e perfil do cidadão (IOSPD I.6),indice_0_10,uf,66.67,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I07,iospd,IOSPD_I07,total,Ouvidoria integrada ao portal (IOSPD I.7),indice_0_10,uf,70.37,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I08,iospd,IOSPD_I08,total,Simplificação de serviços online (IOSPD I.8),indice_0_10,uf,40.74,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_I12,iospd,IOSPD_I12,total,Ferramenta digital integrada de atendimento (IOSPD I.12),indice_0_10,uf,68.52,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II01,iospd,IOSPD_II01,total,Rematrícula online escolas estaduais (IOSPD II.1),indice_0_10,uf,51.85,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II02,iospd,IOSPD_II02,total,Solicitação de medicamento de alto custo digital (IOSPD II.2),indice_0_10,uf,48.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II03,iospd,IOSPD_II03,total,Tele-atendimento saúde por videoconferência (IOSPD II.3),indice_0_10,uf,48.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II04,iospd,IOSPD_II04,total,Prova de vida online (IOSPD II.4),indice_0_10,uf,70.37,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II05,iospd,IOSPD_II05,total,Recurso/defesa online infrações de trânsito (IOSPD II.5),indice_0_10,uf,66.67,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II06,iospd,IOSPD_II06,total,Registro digital reclamação CDC (IOSPD II.6),indice_0_10,uf,74.07,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II07,iospd,IOSPD_II07,total,Solicitação online 2ª via RG (IOSPD II.7),indice_0_10,uf,100.0,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II08,iospd,IOSPD_II08,total,Boletim de ocorrência online violência doméstica (IOSPD II.8),indice_0_10,uf,74.07,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II09,iospd,IOSPD_II09,total,Consulta online medicamentos disponíveis (IOSPD II.9),indice_0_10,uf,59.26,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II10,iospd,IOSPD_II10,total,Emissão/envio de receita médica online (IOSPD II.10),indice_0_10,uf,33.33,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II11,iospd,IOSPD_II11,total,Emissão online diplomas ensino médio (IOSPD II.11),indice_0_10,uf,40.74,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_II12,iospd,IOSPD_II12,total,Transferência online entre escolas estaduais (IOSPD II.12),indice_0_10,uf,51.85,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_III01a,iospd,IOSPD_III01a,total,Carta de Serviços normatizada (IOSPD III.1a),indice_0_10,uf,88.89,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_III01b,iospd,IOSPD_III01b,total,Ouvidorias Públicas normatizadas (IOSPD III.1b),indice_0_10,uf,92.59,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_III01c,iospd,IOSPD_III01c,total,Conselho de Usuários normatizado (IOSPD III.1c),indice_0_10,uf,77.78,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_III01d,iospd,IOSPD_III01d,total,Avaliação de Serviços Públicos normatizada (IOSPD III.1d),indice_0_10,uf,70.37,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV01,iospd,IOSPD_IV01,total,Tempos verbais 2ª/3ª pessoa (IOSPD IV.1),indice_0_10,uf,86.67,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV02,iospd,IOSPD_IV02,total,Frases curtas com ação única (IOSPD IV.2),indice_0_10,uf,68.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV03,iospd,IOSPD_IV03,total,Título objetivo e curto (IOSPD IV.3),indice_0_10,uf,73.33,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV04,iospd,IOSPD_IV04,total,Parágrafos curtos (IOSPD IV.4),indice_0_10,uf,85.56,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV05,iospd,IOSPD_IV05,total,Uso do tempo presente (IOSPD IV.5),indice_0_10,uf,88.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV06,iospd,IOSPD_IV06,total,Uso de caracteres especiais (IOSPD IV.6),indice_0_10,uf,85.19,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV07,iospd,IOSPD_IV07,total,Vocabulário de fácil entendimento (IOSPD IV.7),indice_0_10,uf,69.63,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV08,iospd,IOSPD_IV08,total,Aplicação da técnica de Linguagem Simples (IOSPD IV.8),indice_0_10,uf,48.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_IV09,iospd,IOSPD_IV09,total,Mecanismo de melhoria na apresentação (IOSPD IV.9),indice_0_10,uf,77.78,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V01,iospd,IOSPD_V01,total,Aplicativo móvel para portal de serviços (IOSPD V.1),indice_0_10,uf,53.08,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V03,iospd,IOSPD_V03,total,Pagamento por PIX/cartão digital (IOSPD V.3),indice_0_10,uf,58.04,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V04,iospd,IOSPD_V04,total,Ambiente autenticado e personalizado de serviços (IOSPD V.4),indice_0_10,uf,55.56,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V05,iospd,IOSPD_V05,total,Licenciamento de veículo com pagamento eletrônico (IOSPD V.5),indice_0_10,uf,88.89,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V06,iospd,IOSPD_V06,total,Certidão Negativa Estadual online (IOSPD V.6),indice_0_10,uf,85.19,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V08,iospd,IOSPD_V08,total,Transferência digital de veículos (IOSPD V.8),indice_0_10,uf,48.15,2025
-Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_V09,iospd,IOSPD_V09,total,Acessibilidade da plataforma digital (IOSPD V.9),indice_0_10,uf,60.5,2025
+Total,1,Governança do Governo Digital,igovsisp/G101GP,igovsisp,G101GP,total,Estruturas/diretrizes de governança de TIC,prop_0_100,orgaos_federais_sisp,84.87,2026
+Total,1,Governança do Governo Digital,igovsisp/G102GP,igovsisp,G102GP,total,Planejamento alinhado à EFGD,prop_0_100,orgaos_federais_sisp,92.02,2026
+Total,1,Governança do Governo Digital,igovsisp/G103GP,igovsisp,G103GP,total,Comitê de Governança Digital,prop_0_100,orgaos_federais_sisp,90.76,2026
+Total,1,Governança do Governo Digital,igovsisp/G105GP,igovsisp,G105GP,total,Gerenciamento de projetos de TI,prop_0_100,orgaos_federais_sisp,76.47,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPE,igovsisp,G106GPE,total,PDTIC publicado,prop_0_100,orgaos_federais_sisp,86.13,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPG,igovsisp,G106GPG,total,Usa Guia PDTIC do SISP,prop_0_100,orgaos_federais_sisp,78.57,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPH,igovsisp,G106GPH,total,Revisão anual do PDTIC,prop_0_100,orgaos_federais_sisp,61.34,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPL,igovsisp,G106GPL,total,Estimou mínimo pessoal por competência,prop_0_100,orgaos_federais_sisp,38.24,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPN,igovsisp,G106GPN,total,"Analisou alternativas (IA, cloud)",prop_0_100,orgaos_federais_sisp,43.28,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPP,igovsisp,G106GPP,total,Detalhou orçamento por contrato,prop_0_100,orgaos_federais_sisp,64.71,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPQ,igovsisp,G106GPQ,total,Detalhou riscos e tratamento,prop_0_100,orgaos_federais_sisp,56.09,2026
+Total,1,Governança do Governo Digital,igovsisp/G106GPR,igovsisp,G106GPR,total,Planejou metas intermediárias,prop_0_100,orgaos_federais_sisp,60.08,2026
+Total,1,Governança do Governo Digital,igovsisp/G107GP,igovsisp,G107GP,total,Orçamento adequado para necessidades de TI,prop_0_100,orgaos_federais_sisp,28.99,2026
+Total,1,Governança do Governo Digital,igovsisp/G109GP,igovsisp,G109GP,total,Avaliação de políticas de TI no processo orçamentário,prop_0_100,orgaos_federais_sisp,48.32,2026
+Total,1,Governança do Governo Digital,igovsisp/G111GP,igovsisp,G111GP,total,Framework para gestão de riscos de entregas de TI,prop_0_100,orgaos_federais_sisp,46.64,2026
+Total,1,Governança do Governo Digital,igovsisp/G112GP,igovsisp,G112GP,total,Gestão eficiente de recursos de TI,prop_0_100,orgaos_federais_sisp,85.71,2026
+Total,1,Governança do Governo Digital,igovsisp/G114GP,igovsisp,G114GP,total,Previsão orçamentária por cenários alternativos,prop_0_100,orgaos_federais_sisp,55.88,2026
+Total,1,Governança do Governo Digital,igovsisp/G115GP,igovsisp,G115GP,total,Avaliações regulares de conformidade em TI,prop_0_100,orgaos_federais_sisp,55.46,2026
+Total,1,Governança do Governo Digital,igovsisp/G116GP,igovsisp,G116GP,total,Registros precisos de ativos de TI,prop_0_100,orgaos_federais_sisp,74.79,2026
+Total,1,Governança do Governo Digital,igovsisp/G146GP,igovsisp,G146GP,total,PEI/PDI com objetivos de TIC,prop_0_100,orgaos_federais_sisp,86.13,2026
+Total,1,Governança do Governo Digital,igovsisp/G213SPD,igovsisp,G213SPD,total,Elaboração e execução do Plano de Transformação Digital,prop_0_100,orgaos_federais_sisp,72.69,2026
+Total,1,Governança do Governo Digital,igovsisp/G225SPD,igovsisp,G225SPD,total,Alinhamento estratégico dos investimentos do PTD,prop_0_100,orgaos_federais_sisp,63.45,2026
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C1,tic_gov,C1,total,Presença de website,prop_0_100,orgaos_e_prefeituras,96.25550126319999,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C3,tic_gov,C3,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Tipos de serviço disponibilizados no website,prop_0_100,orgaos,83.83660479600002,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C5B,tic_gov,C5B,"['A', 'B', 'C', 'D', 'E']",Meios de contato da central de atendimento,prop_0_100,prefeituras,82.5797,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_A,tic_gov,C6B,['A'],Envio de SMS para o cidadão,prop_0_100,orgaos_e_prefeituras,24.4520618408,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_B,tic_gov,C6B,['B'],Recebimento de SMS enviado pelo cidadão,prop_0_100,orgaos_e_prefeituras,21.4414733888,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_C,tic_gov,C6B,['C'],Aplicativo criado pelo ente,prop_0_100,orgaos_e_prefeituras,35.004934481599996,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_D,tic_gov,C6B,['D'],Website adaptado para dispositivos móveis,prop_0_100,orgaos_e_prefeituras,72.0357925016,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/C6B_E,tic_gov,C6B,['E'],Envio de mensagens por WhatsApp ou Telegram,prop_0_100,orgaos_e_prefeituras,49.179945196,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_CHATBOT,tic_gov,E1,['CHATBOT'],Atendimento automatizado por assistente virtual ou chatbot,prop_0_100,orgaos_e_prefeituras,16.576443627370292,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_COMPLAINT,tic_gov,E1,['COMPLAINT'],Denúncia online como forma de contato,prop_0_100,orgaos_e_prefeituras,73.15282106982588,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_EMAIL,tic_gov,E1,['EMAIL'],Endereço de e-mail como forma de contato,prop_0_100,orgaos_e_prefeituras,91.80373449666499,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FOI_REQUEST,tic_gov,E1,['FOI_REQUEST'],Serviço de solicitação de acesso à informação,prop_0_100,orgaos_e_prefeituras,70.10296048291312,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_FORM,tic_gov,E1,['FORM'],Formulário eletrônico como forma de contato,prop_0_100,orgaos_e_prefeituras,61.755377261786336,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_LIVE_CHAT,tic_gov,E1,['LIVE_CHAT'],Chat com atendentes em tempo real,prop_0_100,orgaos_e_prefeituras,20.587158482314987,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/E1_SUGGESTIONS,tic_gov,E1,['SUGGESTIONS'],Canal de sugestões para melhoria de serviços públicos,prop_0_100,orgaos_e_prefeituras,70.44934149393227,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/source/C10,tic_gov,C10,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE COLETARAM DADOS OU ESTATÍSTICAS SOBRE O USO DOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES,prop_0_100,ambos,37.873887787916644,2025
+Total,2,Qualidade dos Serviços Digitais,tic_gov/source/C11,tic_gov,C11,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE MEDIRAM A SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS DIGITAIS OFERECIDOS NOS ÚLTIMOS 12 MESES,prop_0_100,ambos,27.49677116668653,2025
+Total,2,Qualidade dos Serviços Digitais,tic_saude/C1,tic_saude,C1,"['A', 'B', 'C', 'D', 'E']",Serviços online ao paciente (D1 questionário → C1 portal),prop_0_100,estabelecimentos_publicos,29.078324175,2025
+Total,2,Qualidade dos Serviços Digitais,tic_saude/C2,tic_saude,C2,"['A', 'B', 'C', 'D', 'E', 'F']",Telessaúde modalidades (D2A quest. → C2 portal),prop_0_100,estabelecimentos_publicos,32.028984564999995,2025
+Total,2,Qualidade dos Serviços Digitais,tic_saude/C5,tic_saude,C5,total,Website (B6-A quest. → C5 portal),prop_0_100,estabelecimentos_publicos,17.666124192,2025
+Total,2,Qualidade dos Serviços Digitais,tic_saude/C6,tic_saude,C6,total,Presença em redes sociais (B6_1 quest. → C6 portal),prop_0_100,estabelecimentos_publicos,23.512215579,2025
+Total,2,Qualidade dos Serviços Digitais,tic_domicilios/G1,tic_domicilios,G1,total,Uso de governo eletrônico (indicador publicado G1),prop_0_100,individuos_16_mais,59.94893483286711,2025
+Total,2,Qualidade dos Serviços Digitais,tic_domicilios/G2A,tic_domicilios,G2A,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Resolução sem deslocamento (indicador publicado G2A),prop_0_100,individuos_16_mais,7.669583597681969,2025
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_107,iospd,IOSPD_E26_107,total,1.7 POSSUI UM PORTAL ÚNICO OU UM PORTAL DIGITAL DE SERVIÇOS DISPONÍVEL AO CIDADÃO?,indice_0_10,uf,82.23,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_109,iospd,IOSPD_E26_109,total,1.9 POSSUI OPÇÕES DE PAGAMENTOS DE SERVIÇOS DISPONÍVEIS AOS CIDADÃOS ATRAVÉS DE PIX OU CARTÃO DE CRÉDITO?,indice_0_10,uf,73.08,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_201,iospd,IOSPD_E26_201,total,2.1 DISPONIBILIZA SERVIÇO DIGITAL DE REMATRÍCULA ONLINE NAS ESCOLAS ESTADUAIS?,indice_0_10,uf,76.92,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_202,iospd,IOSPD_E26_202,total,2.2 DISPONIBILIZA SERVIÇO DIGITAL PARA SOLICITAÇÃO DE MEDICAMENTOS DO COMPONENTE ESPECIALIZADO DA ASSISTÊNCIA FARMACÊUTICA (CEAF)?,indice_0_10,uf,61.54,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_203,iospd,IOSPD_E26_203,total,2.3 O ESTADO OFERECE SERVIÇOS ESTRUTURADOS DE TELESSAÚDE PARA O CIDADÃO?,indice_0_10,uf,66.35,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_204,iospd,IOSPD_E26_204,total,"2.4 DISPONIBILIZA PROVA DE VIDA ONLINE PARA SERVIDORES, APOSENTADOS E PENSIONISTAS?",indice_0_10,uf,92.31,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_205,iospd,IOSPD_E26_205,total,2.5 DISPONIBILIZA FUNCIONALIDADE DE APRESENTAÇÃO DE RECURSO E DEFESA ONLINE PARA INFRAÇÕES DE TRÂNSITO EM ÂMBITO ESTADUAL?,indice_0_10,uf,73.08,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_206,iospd,IOSPD_E26_206,total,2.6 DISPONIBILIZA CONSULTA ONLINE DOS MEDICAMENTOS DISPONÍVEIS NA REDE ESTADUAL DE SAÚDE?,indice_0_10,uf,69.23,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_207,iospd,IOSPD_E26_207,total,"2.7 A REDE ESTADUAL DE SAÚDE DISPONIBILIZA A EMISSÃO E O ENVIO ONLINE DE RECEITA MÉDICA AO CIDADÃO, APÓS AVALIAÇÃO CLÍNICA POR PROFISSIONAL HABILITADO?",indice_0_10,uf,50.0,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_208,iospd,IOSPD_E26_208,total,2.8 DISPONIBILIZA SERVIÇO DE SOLICITAÇÃO E EMISSÃO ONLINE DE CERTIFICADO DE CONCLUSÃO DO ENSINO MÉDIO NAS ESCOLAS DA REDE ESTADUAL DE EDUCAÇÃO?,indice_0_10,uf,53.85,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_209,iospd,IOSPD_E26_209,total,2.9 DISPONIBILIZA SERVIÇOS DE TRANSFERÊNCIA ONLINE DE ALUNOS ENTRE ESCOLAS DA REDE ESTADUAL?,indice_0_10,uf,61.54,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_210,iospd,IOSPD_E26_210,total,2.10 DISPONIBILIZA TRANSFERÊNCIA DIGITAL DE VEÍCULOS?,indice_0_10,uf,57.69,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_212,iospd,IOSPD_E26_212,total,2.12 O ESTADO OFERECE ACESSO A SERVIÇOS DE SAÚDE POR MEIO DE UMA PLATAFORMA DIGITAL (OU APLICATIVO)?,indice_0_10,uf,49.04,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_305,iospd,IOSPD_E26_305,total,"3.5 POSSUI NORMA, MANUAL OU DIRETRIZ OFICIAL SOBRE LINGUAGEM SIMPLES APLICADA À COMUNICAÇÃO PÚBLICA?",indice_0_10,uf,76.92,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_401,iospd,IOSPD_E26_401,total,4.1 OS SERVIÇOS PÚBLICOS ESTÃO DESCRITOS COM LINGUAGEM SIMPLES?,indice_0_10,uf,71.54,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_402,iospd,IOSPD_E26_402,total,"4.2 O ESTADO POSSUI UM KIT DE FERRAMENTAS PARA FORMALIZAR O PROCESSO DE PARTICIPAÇÃO DOS CIDADÃOS E EMPRESAS NO DESENHO, TESTE OU MELHORIA DOS SERVIÇOS DIGITAIS, REALIZANDO TESTES DE USABILIDADE E COMPREENSÃO COM USUÁRIOS REAIS?",indice_0_10,uf,38.46,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_403,iospd,IOSPD_E26_403,total,4.3 POSSUI EM OPERAÇÃO UMA ESTRATÉGIA DE OMNICANALIDADE QUE INTEGRE DIFERENTES CANAIS DE ATENDIMENTO?,indice_0_10,uf,69.23,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_404,iospd,IOSPD_E26_404,total,"4.4 QUAL O GRAU DE ADAPTAÇÃO DO PORTAL ÚNICO OU DE SERVIÇOS PARA GARANTIR ACESSIBILIDADE A PESSOAS COM DEFICIÊNCIA AUDITIVA E VISUAL, EM CONFORMIDADE COM AS LEGISLAÇÕES VIGENTES, LEI Nº 13.146/2015 E COM OS PADRÕES DE ACESSIBILIDADE (EMAG, W3C)?",indice_0_10,uf,78.85,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_405,iospd,IOSPD_E26_405,total,4.5 OS CIDADÃOS EFETIVAMENTE ACESSAM E UTILIZAM O PORTAL DE SERVIÇOS DIGITAIS?,indice_0_10,uf,27.69,2026
+Total,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,total,4.7 POSSUI METODOLOGIA E FERRAMENTA DE AVALIAÇÃO DA SATISFAÇÃO DOS USUÁRIOS EM RELAÇÃO AOS SERVIÇOS PÚBLICOS PRESTADOS?,indice_0_10,uf,70.52,2026
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ACESS_IMAGENS,munic,MUNIC_ACESS_IMAGENS,total,Descrição do conteúdo das imagens,prop_0_100,prefeituras,33.72,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ACESS_LIBRAS,munic,MUNIC_ACESS_LIBRAS,total,Tradução de conteúdo em LIBRAS,prop_0_100,prefeituras,31.81,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ACESS_NAVEGACAO,munic,MUNIC_ACESS_NAVEGACAO,total,Navegação acessível por todos os itens interativos,prop_0_100,prefeituras,46.3,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ACESS_SALTAR,munic,MUNIC_ACESS_SALTAR,total,Tecnologia assistiva para saltar itens repetitivos,prop_0_100,prefeituras,17.43,2024
-Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATEND_DISTANCIA,munic,MUNIC_ATEND_DISTANCIA,total,Serviços de atendimento ao público a distância,prop_0_100,prefeituras,98.55,2024
+Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATEND_DISTANCIA,munic,MUNIC_ATEND_DISTANCIA,total,Serviços de atendimento ao público a distância,prop_0_100,prefeituras,92.57,2024
+Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATIV_REDES_CONSULTA,munic,MUNIC_ATIV_REDES_CONSULTA,total,Atividade em redes sociais — consulta pública/enquete,prop_0_100,prefeituras,26.36,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATIV_REDES_DIVULGAR,munic,MUNIC_ATIV_REDES_DIVULGAR,total,Atividade em redes sociais — divulgar serviços/campanhas,prop_0_100,prefeituras,86.75,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATIV_REDES_NOTICIAS,munic,MUNIC_ATIV_REDES_NOTICIAS,total,Atividade em redes sociais — postar notícias,prop_0_100,prefeituras,93.57,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_ATIV_REDES_RESPOSTAS,munic,MUNIC_ATIV_REDES_RESPOSTAS,total,Atividade em redes sociais — responder comentários,prop_0_100,prefeituras,61.22,2024
@@ -127,50 +119,62 @@ Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNI
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,55.98,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,9.34,2024
 Total,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,11.54,2024
-Total,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (WCAG 2.4.2),prop_0_100,prefeituras,37.5,2024
-Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,61.11,2024
-Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,56.08,2024
+Total,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,37.5,2024
+Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,59.26,2024
+Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,96.3,2024
 Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,89.81,2024
-Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público,prop_0_100,governo_estadual,44.44,2024
+Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,44.44,2024
 Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,92.59,2024
-Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,70.37,2024
-Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_REDES_SOCIAIS,estadic,ESTADIC_REDES_SOCIAIS,total,Plataformas de rede social do governo estadual,prop_0_100,governo_estadual,70.37,2024
+Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,96.3,2024
 Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,55.56,2024
 Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_INFORMATIVOS,estadic,ESTADIC_SERV_INFORMATIVOS,total,Serviços informativos disponibilizados na página da internet,prop_0_100,governo_estadual,92.59,2024
 Total,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_TRANSACIONAIS,estadic,ESTADIC_SERV_TRANSACIONAIS,total,Serviços transacionais disponibilizados na página da internet,prop_0_100,governo_estadual,81.48,2024
-Total,2,Qualidade dos Serviços Digitais,igovsisp/G206SPD,igovsisp,G206SPD,total,Monitoramento da satisfação com sistemas e serviços públicos digitais,prop_0_100,orgaos_federais_sisp,75.21,2025
-Total,2,Qualidade dos Serviços Digitais,igovsisp/G226SPD,igovsisp,G226SPD,total,Alinhamento dos investimentos do PTD à acessibilidade,prop_0_100,orgaos_federais_sisp,73.93,2025
-Total,2,Qualidade dos Serviços Digitais,igovsisp/G631IPD,igovsisp,G631IPD,total,Integração dos serviços ao módulo de avaliação de satisfação,prop_0_100,orgaos_federais_sisp,45.68,2025
-Total,3,Identificação Única,tic_gov/C9B_A,tic_gov,C9B,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,13.38965,2023
-Total,3,Identificação Única,iospd/IOSPD_I09,iospd,IOSPD_I09,total,Assinatura eletrônica Gov.br (IOSPD I.9),indice_0_10,uf,62.96,2025
-Total,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Autenticação para acessar serviços pela internet,prop_0_100,prefeituras,38.1,2024
-Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,60.21,2025
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G206SPD,igovsisp,G206SPD,total,Monitoramento da satisfação com sistemas e serviços públicos digitais,prop_0_100,orgaos_federais_sisp,63.87,2026
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G226SPD,igovsisp,G226SPD,total,Alinhamento dos investimentos do PTD à acessibilidade,prop_0_100,orgaos_federais_sisp,41.6,2026
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G628IPD,igovsisp,G628IPD,total,"2.1.2.5. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:",prop_0_100,orgaos_federais_sisp,68.91,2026
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G631IPD,igovsisp,G631IPD,total,Integração dos serviços ao módulo de avaliação de satisfação,prop_0_100,orgaos_federais_sisp,46.85,2026
+Total,2,Qualidade dos Serviços Digitais,igovsisp/G632IPD,igovsisp,G632IPD,total,2.1.2.9. Seu órgão possui algum aplicativo móvel?,prop_0_100,orgaos_federais_sisp,42.86,2026
+Total,3,Identificação Única,tic_gov/C9B_A,tic_gov,C9B,['A'],Login único Gov.br para acesso a serviços online,prop_0_100,orgaos_e_prefeituras,18.522,2025
+Total,3,Identificação Única,iospd/IOSPD_E26_108,iospd,IOSPD_E26_108,total,1.8 UTILIZA SOLUÇÃO DE ASSINATURA ELETRÔNICA CORPORATIVA PRÓPRIA OU DO GOV.BR?,indice_0_10,uf,65.38,2026
+Total,3,Identificação Única,iospd/IOSPD_E26_303,iospd,IOSPD_E26_303,total,"3.3 O USO DE ASSINATURAS ELETRÔNICAS EM INTERAÇÕES COM ENTES PÚBLICOS FOI NORMATIZADO PELO GOVERNO ESTADUAL/DISTRITAL, CONFORME PREVISTO PELA LEI FEDERAL 14.063/2020?",indice_0_10,uf,65.38,2026
+Total,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,6.74,2024
+Total,3,Identificação Única,igovsisp/G630IPD,igovsisp,G630IPD,total,Integração dos serviços à sociedade ao Login Único,prop_0_100,orgaos_federais_sisp,63.07,2026
 Total,3,Identificação Única,cin/atingimento_meta_cin,cin,atingimento_meta_cin,total,Atingimento da meta de emissão da Carteira de Identidade Nacional (CIN),pct_meta_100,uf,52.66,2026
-Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,50.2654,2023
-Total,4,Segurança e LGPD,tic_gov/G3_A,tic_gov,G3,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,ambos,35.2307,2023
-Total,4,Segurança e LGPD,tic_gov/G3_B,tic_gov,G3,['B'],Canal online sobre o uso de dados pessoais,prop_0_100,ambos,46.12075,2023
-Total,4,Segurança e LGPD,tic_gov/G3_C,tic_gov,G3,['C'],Política de privacidade publicada com bases legais,prop_0_100,orgaos,44.4536,2023
-Total,4,Segurança e LGPD,tic_gov/G3_C_PREF,tic_gov,G3,['C'],Documento de papéis e responsabilidades sobre a LGPD,prop_0_100,prefeituras,28.6243,2023
-Total,4,Segurança e LGPD,tic_gov/G3_D,tic_gov,G3,['D'],Plano de resposta a incidentes relacionados a dados pessoais,prop_0_100,orgaos,31.6758,2023
-Total,4,Segurança e LGPD,tic_saude/A8,tic_saude,A8,total,Política de segurança da informação (C8a quest. → A8 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,41.6422,2024
-Total,4,Segurança e LGPD,tic_saude/A8A,tic_saude,A8A,total,Treinamento em segurança (C8b quest. → A8A portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,47.2449,2024
-Total,4,Segurança e LGPD,tic_saude/A10,tic_saude,A10,"['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']",Ferramentas de segurança (C9a quest. → A10 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,53.011030000000005,2024
-Total,4,Segurança e LGPD,tic_saude/A12_A,tic_saude,A12,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,29.6279,2024
-Total,4,Segurança e LGPD,tic_saude/A12_B,tic_saude,A12,['B'],Canal online para titulares de dados,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,30.5718,2024
-Total,4,Segurança e LGPD,tic_saude/A12_C,tic_saude,A12,['C'],Política de privacidade publicada,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,32.4937,2024
-Total,4,Segurança e LGPD,tic_saude/A12_D,tic_saude,A12,['D'],Conscientização interna sobre a LGPD,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,43.5797,2024
-Total,4,Segurança e LGPD,tic_saude/A12_E,tic_saude,A12,['E'],Plano de resposta a incidentes com dados pessoais,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,30.5715,2024
-Total,4,Segurança e LGPD,iesgo/source/4231,iesgo,4231,total,"Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",indice_0_100,orgaos_federais,43.7,2024
-Total,4,Segurança e LGPD,iesgo/source/4232,iesgo,4232,total,"Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",indice_0_100,orgaos_federais,40.43,2024
-Total,4,Segurança e LGPD,iesgo/source/4233,iesgo,4233,total,"Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",indice_0_100,orgaos_federais,27.79,2024
-Total,4,Segurança e LGPD,iesgo/source/4241,iesgo,4241,total,"Política de segurança da informação (iESGo/TCU 2024, questão 4241)",indice_0_100,orgaos_federais,68.48,2024
-Total,4,Segurança e LGPD,iesgo/source/4242,iesgo,4242,total,"Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",indice_0_100,orgaos_federais,62.45,2024
-Total,4,Segurança e LGPD,iesgo/source/4243,iesgo,4243,total,"Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",indice_0_100,orgaos_federais,50.69,2024
-Total,4,Segurança e LGPD,iesgo/source/4251,iesgo,4251,total,"Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",indice_0_100,orgaos_federais,43.48,2024
-Total,4,Segurança e LGPD,iesgo/source/4252,iesgo,4252,total,"Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",indice_0_100,orgaos_federais,39.56,2024
-Total,4,Segurança e LGPD,iesgo/source/4253,iesgo,4253,total,"Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",indice_0_100,orgaos_federais,54.72,2024
-Total,4,Segurança e LGPD,iospd/IOSPD_III07,iospd,IOSPD_III07,total,Consentimento LGPD no portal (IOSPD III.7),indice_0_10,uf,40.74,2025
-Total,4,Segurança e LGPD,munic/MUNIC_LGPD,munic,MUNIC_LGPD,total,Disseminação de orientações sobre LGPD na prefeitura,prop_0_100,prefeituras,12.96,2024
+Total,4,Segurança e LGPD,tic_gov/B5A_B,tic_gov,B5A,['B'],Plano de segurança da informação,prop_0_100,orgaos_e_prefeituras,42.405837090000006,2025
+Total,4,Segurança e LGPD,tic_gov/G1,tic_gov,G1,total,Responsável LGPD,prop_0_100,ambos,58.778999999999996,2025
+Total,4,Segurança e LGPD,tic_gov/G3_A,tic_gov,G3,['A'],Nomeação de encarregado de dados pessoais (DPO),prop_0_100,ambos,44.69585,2025
+Total,4,Segurança e LGPD,tic_gov/G3_B,tic_gov,G3,['B'],Canal online sobre o uso de dados pessoais,prop_0_100,ambos,50.61395,2025
+Total,4,Segurança e LGPD,tic_gov/G3_C,tic_gov,G3,['C'],Política de privacidade publicada com bases legais,prop_0_100,orgaos,52.0521,2025
+Total,4,Segurança e LGPD,tic_gov/G3_C_PREF,tic_gov,G3,['C'],Documento de papéis e responsabilidades sobre a LGPD,prop_0_100,prefeituras,33.9372,2025
+Total,4,Segurança e LGPD,tic_gov/G3_D,tic_gov,G3,['D'],Plano de resposta a incidentes relacionados a dados pessoais,prop_0_100,orgaos,43.3751,2025
+Total,4,Segurança e LGPD,tic_gov/source/B13_A,tic_gov,B13,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,81.25835000000001,2025
+Total,4,Segurança e LGPD,tic_gov/source/B13_B,tic_gov,B13,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,77.8345,2025
+Total,4,Segurança e LGPD,tic_gov/source/B13_C,tic_gov,B13,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,62.84725,2025
+Total,4,Segurança e LGPD,tic_gov/source/B13_D,tic_gov,B13,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,69.19695,2025
+Total,4,Segurança e LGPD,tic_gov/source/B13_E,tic_gov,B13,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR MEDIDAS DE SEGURANÇA DIGITAL",prop_0_100,ambos,57.97935,2025
+Total,4,Segurança e LGPD,tic_gov/source/G3_E,tic_gov,G3,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR AÇÕES RELACIONADAS À LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)",prop_0_100,orgaos,44.2371,2025
+Total,4,Segurança e LGPD,tic_saude/A8,tic_saude,A8,total,Política de segurança da informação (C8a quest. → A8 portal),prop_0_100,estabelecimentos_publicos,27.402718353,2025
+Total,4,Segurança e LGPD,tic_saude/A8A,tic_saude,A8A,total,Treinamento em segurança (C8b quest. → A8A portal),prop_0_100,estabelecimentos_publicos,31.581688245000002,2025
+Total,4,Segurança e LGPD,tic_saude/A10,tic_saude,A10,"['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']",Ferramentas de segurança (C9a quest. → A10 portal),prop_0_100,estabelecimentos_publicos,38.7386861703,2025
+Total,4,Segurança e LGPD,tic_saude/A12_A,tic_saude,A12,['A'],Nomeação de encarregado de dados pessoais (DPO) (C10_A quest. → A12 item A portal),prop_0_100,estabelecimentos_publicos,13.136468784,2025
+Total,4,Segurança e LGPD,tic_saude/A12_B,tic_saude,A12,['B'],Canal online para titulares de dados (C10_B quest. → A12 item B portal),prop_0_100,estabelecimentos_publicos,18.156362258999998,2025
+Total,4,Segurança e LGPD,tic_saude/A12_C,tic_saude,A12,['C'],Política de privacidade publicada (C10_C quest. → A12 item C portal),prop_0_100,estabelecimentos_publicos,28.231549332,2025
+Total,4,Segurança e LGPD,tic_saude/A12_D,tic_saude,A12,['D'],Conscientização interna sobre a LGPD (C10_E quest. → A12 item D portal),prop_0_100,estabelecimentos_publicos,29.517363717000002,2025
+Total,4,Segurança e LGPD,tic_saude/A12_E,tic_saude,A12,['E'],Plano de resposta a incidentes com dados pessoais (C10_F quest. → A12 item E portal),prop_0_100,estabelecimentos_publicos,14.958258585,2025
+Total,4,Segurança e LGPD,tic_educacao/source/H1,tic_educacao,H1,total,ESCOLAS QUE POSSUEM DOCUMENTO QUE DEFINE A POLÍTICA DE PROTEÇÃO DE DADOS E DE SEGURANÇA DA INFORMAÇÃO NA INSTITUIÇÃO,prop_0_100,escolas_publicas,54.0529,2025
+Total,4,Segurança e LGPD,tic_educacao/source/H2A,tic_educacao,H2A,total,"ESCOLAS PÚBLICAS QUE RECEBERAM ORIENTAÇÕES DA REDE DE ENSINO SOBRE O TRATAMENTO DE DADOS PESSOAIS DE ALUNOS, PROFESSORES E FUNCIONÁRIOS",prop_0_100,escolas_publicas,72.6311,2025
+Total,4,Segurança e LGPD,tic_educacao/source/H3,tic_educacao,H3,total,"ESCOLAS, POR REALIZAÇÃO DE DEBATES OU PALESTRAS SOBRE PRIVACIDADE E PROTEÇÃO DE DADOS NOS ÚLTIMOS 12 MESES",prop_0_100,escolas_publicas,45.9177,2025
+Total,4,Segurança e LGPD,iesgo/source/4231,iesgo,4231,total,"Gestão de riscos de TI sobre processos de negócio (iESGo/TCU 2024, questão 4231)",prop_0_100,orgaos_federais,43.9,2024
+Total,4,Segurança e LGPD,iesgo/source/4232,iesgo,4232,total,"Gestão de riscos de segurança da informação (iESGo/TCU 2024, questão 4232)",prop_0_100,orgaos_federais,44.72,2024
+Total,4,Segurança e LGPD,iesgo/source/4233,iesgo,4233,total,"Gestão de continuidade de serviços de TI (iESGo/TCU 2024, questão 4233)",prop_0_100,orgaos_federais,28.73,2024
+Total,4,Segurança e LGPD,iesgo/source/4241,iesgo,4241,total,"Política de segurança da informação (iESGo/TCU 2024, questão 4241)",prop_0_100,orgaos_federais,75.61,2024
+Total,4,Segurança e LGPD,iesgo/source/4242,iesgo,4242,total,"Comitê de segurança da informação (iESGo/TCU 2024, questão 4242)",prop_0_100,orgaos_federais,66.67,2024
+Total,4,Segurança e LGPD,iesgo/source/4243,iesgo,4243,total,"Gestor institucional de segurança da informação (iESGo/TCU 2024, questão 4243)",prop_0_100,orgaos_federais,57.45,2024
+Total,4,Segurança e LGPD,iesgo/source/4251,iesgo,4251,total,"Controle de acesso à informação e aos ativos (iESGo/TCU 2024, questão 4251)",prop_0_100,orgaos_federais,53.39,2024
+Total,4,Segurança e LGPD,iesgo/source/4252,iesgo,4252,total,"Classificação e tratamento de informações (iESGo/TCU 2024, questão 4252)",prop_0_100,orgaos_federais,46.07,2024
+Total,4,Segurança e LGPD,iesgo/source/4253,iesgo,4253,total,"Segurança dos recursos de processamento, nuvem inclusive (iESGo/TCU 2024, questão 4253)",prop_0_100,orgaos_federais,60.43,2024
+Total,4,Segurança e LGPD,iospd/IOSPD_E26_110,iospd,IOSPD_E26_110,total,1.10 EXISTE UMA UNIDADE OPERACIONAL DE CIBERSEGURANÇA FORMALMENTE ESTABELECIDA E ATUALMENTE ATIVA?,indice_0_10,uf,87.82,2026
+Total,4,Segurança e LGPD,iospd/IOSPD_E26_111,iospd,IOSPD_E26_111,total,1.11 POSSUI UMA EQUIPE DE RESPOSTA A INCIDENTES (CERT) FORMALIZADA OU EQUIVALENTE?,indice_0_10,uf,81.54,2026
 Total,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,28.4,2024
 Total,4,Segurança e LGPD,munic/MUNIC_LGPD_CAPACIT,munic,MUNIC_LGPD_CAPACIT,total,Cursos de segurança da informação e proteção de dados para servidores,prop_0_100,prefeituras,18.08,2024
 Total,4,Segurança e LGPD,munic/MUNIC_LGPD_REGULAMENT,munic,MUNIC_LGPD_REGULAMENT,total,Regulamentação municipal específica sobre LGPD,prop_0_100,prefeituras,23.88,2024
@@ -179,55 +183,83 @@ Total,4,Segurança e LGPD,estadic/ESTADIC_LGPD_CANAL_TITULAR,estadic,ESTADIC_LGP
 Total,4,Segurança e LGPD,estadic/ESTADIC_LGPD_CAPACIT,estadic,ESTADIC_LGPD_CAPACIT,total,Cursos segurança da informação e proteção de dados para servidores,prop_0_100,governo_estadual,66.67,2024
 Total,4,Segurança e LGPD,estadic/ESTADIC_LGPD_REGULAMENT,estadic,ESTADIC_LGPD_REGULAMENT,total,Regulamentação estadual específica sobre LGPD,prop_0_100,governo_estadual,66.67,2024
 Total,4,Segurança e LGPD,estadic/ESTADIC_LGPD_RESP,estadic,ESTADIC_LGPD_RESP,total,Responsável LGPD designado,prop_0_100,governo_estadual,85.19,2024
-Total,5,Dados e Interoperabilidade,tic_gov/H1,tic_gov,H1,total,Análise big data,prop_0_100,orgaos,25.011,2023
-Total,5,Dados e Interoperabilidade,tic_saude/B6,tic_saude,B6,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Troca eletrônica entre estabelecimentos (C7 quest. → B6 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,33.30401428571428,2024
-Total,5,Dados e Interoperabilidade,tic_saude/B9,tic_saude,B9,total,Interoperabilidade rede de atenção (C8 quest. → B9 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,26.1022,2024
-Total,5,Dados e Interoperabilidade,tic_saude/D2,tic_saude,D2,total,Big Data em saúde (H2 quest. → D2 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,5.0163,2024
-Total,5,Dados e Interoperabilidade,iospd/IOSPD_I05,iospd,IOSPD_I05,total,Governança de dados (IOSPD I.5),indice_0_10,uf,48.15,2025
+Total,5,Dados e Interoperabilidade,tic_gov/B7B,tic_gov,B7B,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE GOVERNANÇA DE DADOS,prop_0_100,orgaos,40.4878838718,2025
+Total,5,Dados e Interoperabilidade,tic_gov/H1,tic_gov,H1,total,Análise big data,prop_0_100,ambos,20.25265,2025
+Total,5,Dados e Interoperabilidade,tic_gov/source/B5A_D,tic_gov,B5A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",prop_0_100,ambos,34.1682052738,2025
+Total,5,Dados e Interoperabilidade,tic_saude/B6,tic_saude,B6,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Troca eletrônica entre estabelecimentos (C7 quest. → B6 portal),prop_0_100,estabelecimentos_publicos,48.09438977528571,2025
+Total,5,Dados e Interoperabilidade,tic_saude/B9,tic_saude,B9,total,Interoperabilidade rede de atenção (C8 quest. → B9 portal),prop_0_100,estabelecimentos_publicos,41.943684579,2025
+Total,5,Dados e Interoperabilidade,tic_saude/B10,tic_saude,B10,total,"ESTABELECIMENTOS DE SAÚDE, POR INTEGRAÇÃO À REDE NACIONAL DE DADOS EM SAÚDE (RNDS)",prop_0_100,estabelecimentos_publicos,62.83765635,2025
+Total,5,Dados e Interoperabilidade,tic_saude/D2,tic_saude,D2,total,Big Data em saúde (H2 quest. → D2 portal),prop_0_100,estabelecimentos_publicos,5.831658279,2025
+Total,5,Dados e Interoperabilidade,iospd/IOSPD_E26_104,iospd,IOSPD_E26_104,total,1.4 EXISTE ESTRUTURA COLEGIADA DE GOVERNANÇA DE DADOS INSTITUÍDA FORMALMENTE?,indice_0_10,uf,42.31,2026
+Total,5,Dados e Interoperabilidade,iospd/IOSPD_E26_106,iospd,IOSPD_E26_106,total,1.6 O ESTADO POSSUI UM FRAMEWORK DE INTEROPERABILIDADE?,indice_0_10,uf,63.46,2026
+Total,5,Dados e Interoperabilidade,iospd/IOSPD_E26_306,iospd,IOSPD_E26_306,total,3.6 QUAIS PADRÕES OU DIRETRIZES DE GESTÃO DE DADOS EXISTEM NO NÍVEL ESTADUAL?,indice_0_10,uf,65.39,2026
+Total,5,Dados e Interoperabilidade,iospd/IOSPD_E26_504,iospd,IOSPD_E26_504,total,"5.4 HÁ USO DE APIS ABERTAS QUE PERMITAM QUE TERCEIROS (STARTUPS, EMPRESAS, UNIVERSIDADES OU SOCIEDADE CIVIL) CRIEM APLICAÇÕES, INTEGREM DADOS OU DESENVOLVAM NOVOS SERVIÇOS PÚBLICOS DIGITAIS COM BASE EM DADOS GOVERNAMENTAIS?",indice_0_10,uf,88.46,2026
 Total,5,Dados e Interoperabilidade,munic/MUNIC_DADOS_ABERTOS,munic,MUNIC_DADOS_ABERTOS,total,Portal de dados abertos,prop_0_100,prefeituras,27.72,2024
-Total,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Formato de publicação dos dados da administração estadual,prop_0_100,governo_estadual,48.5,2024
-Total,5,Dados e Interoperabilidade,igovsisp/G222SPD,igovsisp,G222SPD,total,Integração de sistemas e bases internas e externas,prop_0_100,orgaos_federais_sisp,89.74,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G301DI,igovsisp,G301DI,total,Relevância e suficiência dados,prop_0_100,orgaos_federais_sisp,90.17,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G307DI,igovsisp,G307DI,total,Decisão baseada em dados,prop_0_100,orgaos_federais_sisp,89.74,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G308DI,igovsisp,G308DI,total,Capacidade analítica,prop_0_100,orgaos_federais_sisp,79.06,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G309DI,igovsisp,G309DI,total,Cultura de dados promovida pela alta gestão,prop_0_100,orgaos_federais_sisp,91.45,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G310DI,igovsisp,G310DI,total,Uso sistemático de dados nas decisões,prop_0_100,orgaos_federais_sisp,92.31,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G311DI,igovsisp,G311DI,total,Documentação ativos de dados,prop_0_100,orgaos_federais_sisp,86.32,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G312DI,igovsisp,G312DI,total,Glossário termos de negócio,prop_0_100,orgaos_federais_sisp,55.98,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G313DI,igovsisp,G313DI,total,Dados mestres e de referência,prop_0_100,orgaos_federais_sisp,56.84,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G314DI,igovsisp,G314DI,total,Política dados abertos,prop_0_100,orgaos_federais_sisp,89.32,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G315DI,igovsisp,G315DI,total,Ecossistema dados abertos,prop_0_100,orgaos_federais_sisp,78.63,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G321DI,igovsisp,G321DI,total,Princípios e políticas de dados,prop_0_100,orgaos_federais_sisp,73.93,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G322DI,igovsisp,G322DI,total,Estrutura de governança de dados,prop_0_100,orgaos_federais_sisp,61.54,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G324DI,igovsisp,G324DI,total,Gestão de metadados,prop_0_100,orgaos_federais_sisp,64.53,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G325DI,igovsisp,G325DI,total,Ciclo de vida dados,prop_0_100,orgaos_federais_sisp,67.95,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G326DI,igovsisp,G326DI,total,Dados não estruturados,prop_0_100,orgaos_federais_sisp,63.25,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G328DI,igovsisp,G328DI,total,Padrões interoperabilidade,prop_0_100,orgaos_federais_sisp,76.92,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G329DI,igovsisp,G329DI,total,Integração de sistemas,prop_0_100,orgaos_federais_sisp,93.59,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G330DI,igovsisp,G330DI,total,Monitoramento interoperabilidade,prop_0_100,orgaos_federais_sisp,27.78,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G333DI,igovsisp,G333DI,total,Governança e gestão de dados para entregas à sociedade,prop_0_100,orgaos_federais_sisp,87.61,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G334DI,igovsisp,G334DI,total,Ética no tratamento dados,prop_0_100,orgaos_federais_sisp,88.89,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G336DI,igovsisp,G336DI,total,Compartilhamento dados externos,prop_0_100,orgaos_federais_sisp,81.2,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G359DI,igovsisp,G359DI,total,Modelagem de dados,prop_0_100,orgaos_federais_sisp,74.79,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G361DI,igovsisp,G361DI,total,Alinhamento dados-objetivos estratégicos,prop_0_100,orgaos_federais_sisp,82.48,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G381DI,igovsisp,G381DI,total,Letramento em dados,prop_0_100,orgaos_federais_sisp,64.1,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G382DI,igovsisp,G382DI,total,Dados geoespaciais,prop_0_100,orgaos_federais_sisp,17.09,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G383DI,igovsisp,G383DI,total,Infraestrutura análise dados,prop_0_100,orgaos_federais_sisp,87.18,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G384DI,igovsisp,G384DI,total,Gestão qualidade dados,prop_0_100,orgaos_federais_sisp,59.4,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G385DI,igovsisp,G385DI,total,Cultura qualidade dados,prop_0_100,orgaos_federais_sisp,61.97,2025
-Total,5,Dados e Interoperabilidade,igovsisp/G386DI,igovsisp,G386DI,total,Medição e controle qualidade,prop_0_100,orgaos_federais_sisp,44.44,2025
-Total,6,Infraestrutura,tic_gov/C7_A,tic_gov,C7,['A'],Centros públicos de acesso gratuito à Internet,prop_0_100,prefeituras_com_acesso_internet,45.387,2023
-Total,6,Infraestrutura,tic_educacao/G4,tic_educacao,G4,"['A', 'B', 'C', 'D', 'E', 'G', 'H']",Plataformas digitais EAD (P42 quest. → G4 portal),prop_0_100,escolas,55.7145,2024
-Total,6,Infraestrutura,censo_escolar/IN_COMPUTADOR,censo_escolar,IN_COMPUTADOR,total,% escolas com computador,binario_agregar,escolas,86.15,2024
-Total,6,Infraestrutura,censo_escolar/IN_INTERNET,censo_escolar,IN_INTERNET,total,% escolas com acesso à Internet,binario_agregar,escolas,92.11,2024
-Total,6,Infraestrutura,censo_escolar/IN_INTERNET_ALUNOS,censo_escolar,IN_INTERNET_ALUNOS,total,% escolas com Internet para alunos,binario_agregar,escolas,41.49,2024
-Total,6,Infraestrutura,censo_escolar/IN_INTERNET_APRENDIZAGEM,censo_escolar,IN_INTERNET_APRENDIZAGEM,total,% escolas com Internet para ensino,binario_agregar,escolas,66.78,2024
-Total,6,Infraestrutura,censo_escolar/IN_LABORATORIO_INFORMATICA,censo_escolar,IN_LABORATORIO_INFORMATICA,total,% escolas com laboratório de informática,binario_agregar,escolas,29.55,2024
-Total,6,Infraestrutura,pnad_tic/V4080,pnad_tic,V4080,total,% domicílios com Internet,prop_0_100,domicilios,93.68,2024
+Total,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DADOS_ABERTOS,total,Portal de dados abertos,prop_0_100,governo_estadual,70.37,2024
+Total,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,96.3,2024
+Total,5,Dados e Interoperabilidade,igovsisp/G222SPD,igovsisp,G222SPD,total,Integração de sistemas e bases internas e externas,prop_0_100,orgaos_federais_sisp,79.83,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G301DI,igovsisp,G301DI,total,Relevância e suficiência dados,prop_0_100,orgaos_federais_sisp,39.92,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G307DI,igovsisp,G307DI,total,Decisão baseada em dados,prop_0_100,orgaos_federais_sisp,51.26,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G308DI,igovsisp,G308DI,total,Capacidade analítica,prop_0_100,orgaos_federais_sisp,42.86,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G309DI,igovsisp,G309DI,total,Cultura de dados promovida pela alta gestão,prop_0_100,orgaos_federais_sisp,53.36,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G310DI,igovsisp,G310DI,total,Uso sistemático de dados nas decisões,prop_0_100,orgaos_federais_sisp,42.86,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G311DI,igovsisp,G311DI,total,Documentação ativos de dados,prop_0_100,orgaos_federais_sisp,44.12,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G312DI,igovsisp,G312DI,total,Glossário termos de negócio,prop_0_100,orgaos_federais_sisp,20.59,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G313DI,igovsisp,G313DI,total,Dados mestres e de referência,prop_0_100,orgaos_federais_sisp,16.81,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G314DI,igovsisp,G314DI,total,Política dados abertos,prop_0_100,orgaos_federais_sisp,57.56,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G315DI,igovsisp,G315DI,total,Ecossistema dados abertos,prop_0_100,orgaos_federais_sisp,34.87,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G321DI,igovsisp,G321DI,total,Princípios e políticas de dados,prop_0_100,orgaos_federais_sisp,31.09,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G322DI,igovsisp,G322DI,total,Estrutura de governança de dados,prop_0_100,orgaos_federais_sisp,36.13,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G324DI,igovsisp,G324DI,total,Gestão de metadados,prop_0_100,orgaos_federais_sisp,31.51,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G325DI,igovsisp,G325DI,total,Ciclo de vida dados,prop_0_100,orgaos_federais_sisp,31.51,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G326DI,igovsisp,G326DI,total,Dados não estruturados,prop_0_100,orgaos_federais_sisp,36.55,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G328DI,igovsisp,G328DI,total,Padrões interoperabilidade,prop_0_100,orgaos_federais_sisp,23.53,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G329DI,igovsisp,G329DI,total,Integração de sistemas,prop_0_100,orgaos_federais_sisp,38.66,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G330DI,igovsisp,G330DI,total,Monitoramento interoperabilidade,prop_0_100,orgaos_federais_sisp,8.4,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G333DI,igovsisp,G333DI,total,Governança e gestão de dados para entregas à sociedade,prop_0_100,orgaos_federais_sisp,56.3,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G334DI,igovsisp,G334DI,total,Ética no tratamento dados,prop_0_100,orgaos_federais_sisp,16.81,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G336DI,igovsisp,G336DI,total,Compartilhamento dados externos,prop_0_100,orgaos_federais_sisp,25.21,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G359DI,igovsisp,G359DI,total,Modelagem de dados,prop_0_100,orgaos_federais_sisp,47.48,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G361DI,igovsisp,G361DI,total,Alinhamento dados-objetivos estratégicos,prop_0_100,orgaos_federais_sisp,40.76,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G381DI,igovsisp,G381DI,total,Letramento em dados,prop_0_100,orgaos_federais_sisp,37.82,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G382DI,igovsisp,G382DI,total,Dados geoespaciais,prop_0_100,orgaos_federais_sisp,7.56,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G383DI,igovsisp,G383DI,total,Infraestrutura análise dados,prop_0_100,orgaos_federais_sisp,51.26,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G384DI,igovsisp,G384DI,total,Gestão qualidade dados,prop_0_100,orgaos_federais_sisp,16.81,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G385DI,igovsisp,G385DI,total,Cultura qualidade dados,prop_0_100,orgaos_federais_sisp,9.24,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G386DI,igovsisp,G386DI,total,Medição e controle qualidade,prop_0_100,orgaos_federais_sisp,8.4,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G403DI,igovsisp,G403DI,total,3.1.3.11. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?,prop_0_100,orgaos_federais_sisp,41.6,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G33112DI,igovsisp,G33112DI,total,3.1.1.2. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?,prop_0_100,orgaos_federais_sisp,18.07,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G33117DI,igovsisp,G33117DI,total,"3.1.1.7. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?",prop_0_100,orgaos_federais_sisp,25.63,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G33118DI,igovsisp,G33118DI,total,3.1.1.8. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?,prop_0_100,orgaos_federais_sisp,17.65,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G33119DI,igovsisp,G33119DI,total,"3.1.1.9. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?",prop_0_100,orgaos_federais_sisp,3.78,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G33141DI,igovsisp,G33141DI,total,3.1.4.1. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?,prop_0_100,orgaos_federais_sisp,63.03,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G331312DI,igovsisp,G331312DI,total,"3.1.3.12. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?",prop_0_100,orgaos_federais_sisp,14.29,2026
+Total,5,Dados e Interoperabilidade,igovsisp/G331315DI,igovsisp,G331315DI,total,3.1.3.15. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?,prop_0_100,orgaos_federais_sisp,31.93,2026
+Total,6,Infraestrutura,tic_gov/B9B,tic_gov,B9B,"['A', 'B', 'C', 'D']",Contratação de serviços de computação em nuvem,prop_0_100,ambos,48.6743,2025
+Total,6,Infraestrutura,tic_gov/C7_A,tic_gov,C7,['A'],Centros públicos de acesso gratuito à Internet,prop_0_100,prefeituras,41.632405457599994,2025
+Total,6,Infraestrutura,tic_gov/F2C_A,tic_gov,F2C,['A'],Monitoramento de segurança pública,prop_0_100,prefeituras,29.759421244000002,2025
+Total,6,Infraestrutura,tic_gov/F2C_B,tic_gov,F2C,['B'],Monitoramento de trânsito,prop_0_100,prefeituras,26.275987122,2025
+Total,6,Infraestrutura,tic_gov/F2C_C,tic_gov,F2C,['C'],Monitoramento de transporte público,prop_0_100,prefeituras,14.498060136000003,2025
+Total,6,Infraestrutura,tic_gov/F2C_D,tic_gov,F2C,['D'],Monitoramento de situações de emergência ou desastres,prop_0_100,prefeituras,22.0499816054,2025
+Total,6,Infraestrutura,tic_gov/F2C_E,tic_gov,F2C,['E'],Monitoramento de patrimônio ou prédios públicos municipais,prop_0_100,prefeituras,25.939256266,2025
+Total,6,Infraestrutura,tic_gov/F2C_F,tic_gov,F2C,['F'],Outros objetos monitorados pelo centro de operações,prop_0_100,prefeituras,3.9862012400000006,2025
+Total,6,Infraestrutura,tic_gov/source/H3E_A,tic_gov,H3E,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS, POR  INICIATIVAS RELACIONADAS A FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL GENERATIVA",prop_0_100,ambos,20.72445,2025
+Total,6,Infraestrutura,tic_educacao/G4,tic_educacao,G4,"['A', 'B', 'C', 'D', 'E', 'G', 'I', 'H']",Ambientes digitais de aprendizagem e avaliação,prop_0_100,escolas_publicas,74.5292,2025
+Total,6,Infraestrutura,tic_educacao/source/C4_2,tic_educacao,C4_2,total,ESCOLAS QUE PERMITEM QUE OS ALUNOS UTILIZEM A INTERNET OU OS COMPUTADORES DA INSTITUIÇÃO FORA DO HORÁRIO DE AULA,prop_0_100,escolas_publicas,27.746326733821853,2025
+Total,6,Infraestrutura,tic_educacao/source/C5_1,tic_educacao,C5_1,total,"ESCOLAS, POR USO DE COMPUTADORES E DA INTERNET DA ESCOLA PELA COMUNIDADE",prop_0_100,escolas_publicas,14.722152772568204,2025
+Total,6,Infraestrutura,tic_educacao/source/E5A,tic_educacao,E5A,total,"ESCOLAS QUE POSSUEM GUIA DE ORIENTAÇÕES SOBRE O USO DE INTELIGÊNCIA ARTIFICIAL NAS ATIVIDADES DE ENSINO, DE APRENDIZAGEM E DE GESTÃO",prop_0_100,escolas_publicas,20.8453,2025
+Total,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,74.0,2026
+Total,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,70.19,2026
+Total,6,Infraestrutura,censo_escolar/IN_COMPUTADOR,censo_escolar,IN_COMPUTADOR,total,% escolas públicas com computador,binario_agregar,escolas_publicas,83.25,2024
+Total,6,Infraestrutura,censo_escolar/IN_INTERNET,censo_escolar,IN_INTERNET,total,% escolas públicas com acesso à Internet,binario_agregar,escolas_publicas,89.99,2024
+Total,6,Infraestrutura,censo_escolar/IN_INTERNET_ALUNOS,censo_escolar,IN_INTERNET_ALUNOS,total,% escolas públicas com Internet para alunos,binario_agregar,escolas_publicas,40.42,2024
+Total,6,Infraestrutura,censo_escolar/IN_INTERNET_APRENDIZAGEM,censo_escolar,IN_INTERNET_APRENDIZAGEM,total,% escolas públicas com Internet para ensino,binario_agregar,escolas_publicas,66.32,2024
+Total,6,Infraestrutura,censo_escolar/IN_LABORATORIO_INFORMATICA,censo_escolar,IN_LABORATORIO_INFORMATICA,total,% escolas públicas com laboratório de informática,binario_agregar,escolas_publicas,29.05,2024
+Total,6,Infraestrutura,pnad_tic/V4080,pnad_tic,V4080,total,% domicílios com Internet,prop_0_100,domicilios,94.97,2025
 Total,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos por telefonia móvel,pct_meta_100,domicilios,93.97,2025
 Total,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,50.38,2024
 Total,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,55.57,2024
-Total,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet,prop_0_100,prefeituras,99.48,2024
+Total,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,99.48,2024
 Total,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,22.98,2024
 Total,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,7.04,2024
 Total,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,5.03,2024
@@ -235,63 +267,64 @@ Total,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,tot
 Total,6,Infraestrutura,munic/MUNIC_WIFI_PUBLICO,munic,MUNIC_WIFI_PUBLICO,total,Acesso público à Internet (Wi-Fi) pela prefeitura,prop_0_100,prefeituras,48.08,2024
 Total,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,96.3,2024
 Total,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,62.96,2024
-Total,6,Infraestrutura,igovsisp/G607IPD,igovsisp,G607IPD,total,Documentação ativos rede,prop_0_100,orgaos_federais_sisp,98.29,2025
-Total,6,Infraestrutura,igovsisp/G608IPD,igovsisp,G608IPD,total,Monitoramento rede,prop_0_100,orgaos_federais_sisp,98.72,2025
-Total,6,Infraestrutura,igovsisp/G609IPD,igovsisp,G609IPD,total,Manutenção preventiva rede,prop_0_100,orgaos_federais_sisp,94.87,2025
-Total,6,Infraestrutura,igovsisp/G625IPD,igovsisp,G625IPD,total,Maturidade computação em nuvem,prop_0_100,orgaos_federais_sisp,43.59,2025
-Total,6,Infraestrutura,igovsisp/G634IPD,igovsisp,G634IPD,total,Maturidade adoção IPv6,prop_0_100,orgaos_federais_sisp,62.82,2025
-Total,6,Infraestrutura,igovsisp/G637IPD,igovsisp,G637IPD,total,Portaria 5.950/2023 (nuvem),prop_0_100,orgaos_federais_sisp,8.55,2025
-Total,7,Inovação e Tecnologias Emergentes,tic_gov/H3,tic_gov,H3,total,Uso de IA,prop_0_100,orgaos,30.0802,2023
-Total,7,Inovação e Tecnologias Emergentes,tic_gov/H4,tic_gov,H4,total,Uso de IoT,prop_0_100,orgaos,26.9467,2023
-Total,7,Inovação e Tecnologias Emergentes,tic_saude/D5,tic_saude,D5,"['A', 'B', 'C', 'D']",Tecnologias emergentes em saúde (H5 quest. → D5A portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,3.714,2024
-Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_III06,iospd,IOSPD_III06,total,Laboratório de Inovação em Governo (IOSPD III.6),indice_0_10,uf,70.37,2025
-Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_V02,iospd,IOSPD_V02,total,Uso de IA/ciência de dados em serviço público (IOSPD V.2),indice_0_10,uf,66.67,2025
-Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_CAPACIT_EMPREEND,estadic,ESTADIC_CAPACIT_EMPREEND,total,Capacitação para empreendedorismo digital,prop_0_100,governo_estadual,88.89,2024
-Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_ESPACO_INOVACAO,estadic,ESTADIC_ESPACO_INOVACAO,total,"Espaços de inovação, coworking ou espaços compartilhados",prop_0_100,governo_estadual,77.78,2024
-Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_PREMIO_INOVACAO,estadic,ESTADIC_PREMIO_INOVACAO,total,Prêmio ou edital para empresas inovadoras e projetos criativos,prop_0_100,governo_estadual,77.78,2024
-Total,7,Inovação e Tecnologias Emergentes,igovsisp/G337DI,igovsisp,G337DI,total,Estratégia de IA,prop_0_100,orgaos_federais_sisp,51.28,2025
-Total,8,Eficiência e Processos,tic_gov/B4_A,tic_gov,B4,['A'],Sistema de recursos humanos,prop_0_100,ambos,86.65565000000001,2023
-Total,8,Eficiência e Processos,tic_gov/B4_B,tic_gov,B4,['B'],Sistema de patrimônio,prop_0_100,ambos,82.4798,2023
-Total,8,Eficiência e Processos,tic_gov/B4_C,tic_gov,B4,['C'],Sistema de orçamento,prop_0_100,ambos,77.14625000000001,2023
-Total,8,Eficiência e Processos,tic_gov/B4_D,tic_gov,B4,['D'],Sistema de finanças e contabilidade,prop_0_100,ambos,86.95570000000001,2023
-Total,8,Eficiência e Processos,tic_gov/B4_E,tic_gov,B4,['E'],Sistema de compras,prop_0_100,ambos,84.452,2023
-Total,8,Eficiência e Processos,tic_gov/B4_F,tic_gov,B4,['F'],Sistema de convênios,prop_0_100,orgaos,60.0003,2023
-Total,8,Eficiência e Processos,tic_gov/B4_G,tic_gov,B4,['G'],Sistema de contratos,prop_0_100,ambos,77.76865000000001,2023
-Total,8,Eficiência e Processos,tic_gov/B4_H,tic_gov,B4,['H'],"Sistema de informação geográfica, mapas ou geoprocessamento",prop_0_100,ambos,48.40205,2023
-Total,8,Eficiência e Processos,tic_gov/B4_I,tic_gov,B4,['I'],Sistema de apoio à decisão,prop_0_100,ambos,38.03485,2023
-Total,8,Eficiência e Processos,tic_gov/B4_J,tic_gov,B4,['J'],Sistema de protocolos,prop_0_100,ambos,73.89365000000001,2023
-Total,8,Eficiência e Processos,tic_gov/B4_K,tic_gov,B4,['K'],Sistema de gestão de documentos,prop_0_100,ambos,75.8614,2023
-Total,8,Eficiência e Processos,tic_gov/B4_L,tic_gov,B4,['L'],Sistema de gestão integrada (ERP),prop_0_100,ambos,39.36445,2023
-Total,8,Eficiência e Processos,tic_gov/C8,tic_gov,C8,total,Realização de pregão eletrônico,prop_0_100,prefeituras_com_acesso_internet,91.3945,2023
-Total,8,Eficiência e Processos,tic_saude/B1,tic_saude,B1,total,Prontuários mantidos apenas em formato eletrônico (C1 quest. → B1 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,36.7939,2024
-Total,8,Eficiência e Processos,tic_saude/B3,tic_saude,B3,"['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",Maior percentual entre as funcionalidades eletrônicas disponíveis,prop_0_100,estabelecimentos_que_utilizaram_internet_12m,64.7333,2024
-Total,8,Eficiência e Processos,tic_saude/B4,tic_saude,B4,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal),prop_0_100,estabelecimentos_que_utilizaram_internet_12m,28.11238571428572,2024
-Total,8,Eficiência e Processos,tic_educacao/E1,tic_educacao,E1,"['A', 'B', 'C', 'D', 'E', 'F']",Registro eletrônico (P33 quest. → E1 portal),prop_0_100,escolas,74.79998333333333,2024
-Total,8,Eficiência e Processos,tic_educacao/E1A,tic_educacao,E1A,total,Sistema de gestão online (P33a quest. → E1A portal),prop_0_100,escolas,85.918,2024
-Total,8,Eficiência e Processos,iospd/IOSPD_III02,iospd,IOSPD_III02,total,Grupos de desburocratização regulamentados (IOSPD III.2),indice_0_10,uf,66.67,2025
-Total,8,Eficiência e Processos,igovsisp/G208SPD,igovsisp,G208SPD,total,Utilização do SEI,prop_0_100,orgaos_federais_sisp,73.08,2025
-Total,8,Eficiência e Processos,igovsisp/G214SPD,igovsisp,G214SPD,total,Eficiência e produtividade percebidas após transformação digital,prop_0_100,orgaos_federais_sisp,68.8,2025
-Total,8,Eficiência e Processos,igovsisp/G224SPD,igovsisp,G224SPD,total,Prática de avaliação do valor público dos sistemas digitais,prop_0_100,orgaos_federais_sisp,38.03,2025
-Total,8,Eficiência e Processos,igovsisp/G502CTI,igovsisp,G502CTI,total,IN SGD/ME nº 94/2022 (proc. contratação TIC),prop_0_100,orgaos_federais_sisp,93.59,2025
-Total,8,Eficiência e Processos,igovsisp/G504CTI,igovsisp,G504CTI,total,Portaria 750/2023 (software),prop_0_100,orgaos_federais_sisp,58.12,2025
-Total,8,Eficiência e Processos,igovsisp/G505CTI,igovsisp,G505CTI,total,Portaria 1.070/2023 (infraestrutura),prop_0_100,orgaos_federais_sisp,58.97,2025
-Total,8,Eficiência e Processos,igovsisp/G506CTI,igovsisp,G506CTI,total,Portaria 2.715/2023 (estações),prop_0_100,orgaos_federais_sisp,59.83,2025
-Total,8,Eficiência e Processos,igovsisp/G507CTI,igovsisp,G507CTI,total,Definição requisitos contratação,prop_0_100,orgaos_federais_sisp,100.0,2025
-Total,8,Eficiência e Processos,igovsisp/G508CTI,igovsisp,G508CTI,total,Procedimentos padronizados,prop_0_100,orgaos_federais_sisp,93.59,2025
-Total,8,Eficiência e Processos,igovsisp/G511CTI,igovsisp,G511CTI,total,Gestão de contratos de TI,prop_0_100,orgaos_federais_sisp,98.72,2025
-Total,8,Eficiência e Processos,igovsisp/G513CTI,igovsisp,G513CTI,total,Pessoal para contratações de TI,prop_0_100,orgaos_federais_sisp,45.3,2025
-Total,8,Eficiência e Processos,igovsisp/G516CTI,igovsisp,G516CTI,total,Concordância sobre conhecimento aprofundado das normas de contratação,prop_0_100,orgaos_federais_sisp,67.95,2025
-Total,8,Eficiência e Processos,igovsisp/G517CTI,igovsisp,G517CTI,total,Critérios sustentáveis em contratações,prop_0_100,orgaos_federais_sisp,96.15,2025
-Total,8,Eficiência e Processos,igovsisp/G520CTI,igovsisp,G520CTI,total,Acessibilidade digital em editais (eMAG/WCAG),prop_0_100,orgaos_federais_sisp,87.61,2025
-Total,9,Transparência e Participação,tic_gov/E2A,tic_gov,E2A,total,Ouvidoria online,prop_0_100,orgaos_e_prefeituras_com_website,81.14750000000001,2023
-Total,9,Transparência e Participação,tic_gov/E4A,tic_gov,E4A,"['A', 'B', 'C', 'D']",Participação social,prop_0_100,orgaos_e_prefeituras_com_acesso_internet,34.52105,2023
-Total,9,Transparência e Participação,iospd/IOSPD_I11,iospd,IOSPD_I11,total,Cartas de Serviços na Base Nacional (IOSPD I.11),indice_0_10,uf,51.85,2025
-Total,9,Transparência e Participação,munic/MUNIC_ATIV_REDES_CONSULTA,munic,MUNIC_ATIV_REDES_CONSULTA,total,Atividade em redes sociais — consulta pública/enquete,prop_0_100,prefeituras,26.36,2024
+Total,6,Infraestrutura,igovsisp/G607IPD,igovsisp,G607IPD,total,Documentação ativos rede,prop_0_100,orgaos_federais_sisp,87.82,2026
+Total,6,Infraestrutura,igovsisp/G608IPD,igovsisp,G608IPD,total,Monitoramento rede,prop_0_100,orgaos_federais_sisp,76.05,2026
+Total,6,Infraestrutura,igovsisp/G609IPD,igovsisp,G609IPD,total,Manutenção preventiva rede,prop_0_100,orgaos_federais_sisp,81.93,2026
+Total,6,Infraestrutura,igovsisp/G625IPD,igovsisp,G625IPD,total,Maturidade computação em nuvem,prop_0_100,orgaos_federais_sisp,34.87,2026
+Total,6,Infraestrutura,igovsisp/G634IPD,igovsisp,G634IPD,total,Maturidade adoção IPv6,prop_0_100,orgaos_federais_sisp,35.29,2026
+Total,6,Infraestrutura,igovsisp/G636IPD,igovsisp,G636IPD,total,"6.1.1.10. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?",prop_0_100,orgaos_federais_sisp,35.71,2026
+Total,6,Infraestrutura,igovsisp/G637IPD,igovsisp,G637IPD,total,Portaria 5.950/2023 (nuvem),prop_0_100,orgaos_federais_sisp,10.08,2026
+Total,6,Infraestrutura,igovsisp/G641IPD,igovsisp,G641IPD,total,6.1.1.6. O órgão possui rede de Longa Distância (link WAN)?,prop_0_100,orgaos_federais_sisp,61.34,2026
+Total,6,Infraestrutura,igovsisp/G642IPD,igovsisp,G642IPD,total,6.1.2.1. O órgão possui contrato de nuvem?,prop_0_100,orgaos_federais_sisp,36.55,2026
+Total,6,Infraestrutura,igovsisp/G6001IPD,igovsisp,G6001IPD,total,"6.1.1.1. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?",prop_0_100,orgaos_federais_sisp,45.8,2026
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/H3,tic_gov,H3,total,Uso de IA,prop_0_100,ambos,42.91865,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/H4,tic_gov,H4,total,Uso de IoT,prop_0_100,ambos,31.9598,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_A,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,17.267947319999998,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_B,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,8.971522536,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_C,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,32.08933092,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_D,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,16.711183968,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_saude/D5,tic_saude,D5,"['A', 'B', 'C', 'D']",Tecnologias emergentes em saúde (H5 quest. → D5A portal),prop_0_100,estabelecimentos_publicos,10.463223132000001,2025
+Total,7,Inovação e Tecnologias Emergentes,tic_educacao/source/D9A,tic_educacao,D9A,total,"GESTORES ESCOLARES QUE ADOTAM INTELIGÊNCIA ARTIFICIAL NA GESTÃO PEDAGÓGICA, ADMINISTRATIVA OU FINANCEIRA DA INSTITUIÇÃO",prop_0_100,gestores_escolas_publicas,52.5777,2025
+Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,46.15,2026
+Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_502,iospd,IOSPD_E26_502,total,5.2 O ESTADO JÁ UTILIZOU SOLUÇÕES BASEADAS EM INTELIGÊNCIA ARTIFICIAL PARA APOIAR A OFERTA OU MELHORIA DE SERVIÇOS PÚBLICOS?,indice_0_10,uf,59.61,2026
+Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_503,iospd,IOSPD_E26_503,total,"5.3 O ESTADO REALIZOU COMPRAS PÚBLICAS PARA INOVAÇÃO (CPIN) NO ÚLTIMO ANO (2025), CONFORME OS INSTRUMENTOS PREVISTOS NA LEI Nº 14.133/2021, LEI Nº 10.973/2004 E NO MARCO LEGAL DAS STARTUPS?",indice_0_10,uf,69.23,2026
+Total,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_505,iospd,IOSPD_E26_505,total,"5.5 O ESTADO POSSUI UM LABORATÓRIO DE INOVAÇÃO (OU ESTRUTURA EQUIVALENTE) VOLTADO AO DESENHO, TESTE E EXPERIMENTAÇÃO DE NOVAS SOLUÇÕES DIGITAIS, ENVOLVENDO SERVIDORES, CIDADÃOS E PARCEIROS EXTERNOS?",indice_0_10,uf,80.77,2026
+Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_CAPACIT_EMPREEND,estadic,ESTADIC_CAPACIT_EMPREEND,total,Capacitação para empreendedorismo digital (Etic243),prop_0_100,governo_estadual,88.89,2024
+Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_ESPACO_INOVACAO,estadic,ESTADIC_ESPACO_INOVACAO,total,"Espaços de inovação, coworking ou espaços compartilhados (Etic242)",prop_0_100,governo_estadual,77.78,2024
+Total,7,Inovação e Tecnologias Emergentes,estadic/ESTADIC_PREMIO_INOVACAO,estadic,ESTADIC_PREMIO_INOVACAO,total,Prêmio ou edital para empresas inovadoras e projetos criativos (Etic244),prop_0_100,governo_estadual,77.78,2024
+Total,7,Inovação e Tecnologias Emergentes,igovsisp/G337DI,igovsisp,G337DI,total,Estratégia de IA,prop_0_100,orgaos_federais_sisp,17.23,2026
+Total,8,Eficiência e Processos,tic_gov/B4_H,tic_gov,B4,['H'],"Sistema de informação geográfica, mapas ou geoprocessamento",prop_0_100,prefeituras,47.3837,2025
+Total,8,Eficiência e Processos,tic_gov/B4_I,tic_gov,B4,['I'],Sistema de apoio à decisão,prop_0_100,prefeituras,16.0297,2025
+Total,8,Eficiência e Processos,tic_gov/B4_J,tic_gov,B4,['J'],Sistema de protocolos,prop_0_100,prefeituras,58.9671,2025
+Total,8,Eficiência e Processos,tic_gov/B4_K,tic_gov,B4,['K'],Sistema de gestão de documentos,prop_0_100,prefeituras,59.7333,2025
+Total,8,Eficiência e Processos,tic_gov/B4_L,tic_gov,B4,['L'],Sistema de gestão integrada (ERP),prop_0_100,prefeituras,33.9382,2025
+Total,8,Eficiência e Processos,tic_saude/B1,tic_saude,B1,total,Prontuários mantidos apenas em formato eletrônico (C1 quest. → B1 portal),prop_0_100,estabelecimentos_publicos,34.182378273,2025
+Total,8,Eficiência e Processos,tic_saude/B3,tic_saude,B3,"['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",Maior percentual entre as funcionalidades eletrônicas disponíveis,prop_0_100,estabelecimentos_publicos,82.264619718,2025
+Total,8,Eficiência e Processos,tic_saude/B4,tic_saude,B4,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal),prop_0_100,estabelecimentos_publicos,31.296091030714287,2025
+Total,8,Eficiência e Processos,tic_educacao/E1,tic_educacao,E1,"['A', 'B', 'C', 'D', 'E', 'F', 'G']",Registro eletrônico (P33 quest. → E1 portal),prop_0_100,escolas_publicas,78.52907142857143,2025
+Total,8,Eficiência e Processos,tic_educacao/source/D8_E,tic_educacao,D8,total,"GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",prop_0_100,gestores_escolas_publicas,61.58205918832958,2025
+Total,8,Eficiência e Processos,tic_educacao/source/E1D,tic_educacao,E1D,total,"ESCOLAS QUE UTILIZAM PROGRAMAS, SISTEMAS OU PLATAFORMAS DIGITAIS NA GESTÃO ESCOLAR",prop_0_100,escolas_publicas,94.344,2025
+Total,8,Eficiência e Processos,igovsisp/G208SPD,igovsisp,G208SPD,total,Utilização do SEI,prop_0_100,orgaos_federais_sisp,74.37,2026
+Total,8,Eficiência e Processos,igovsisp/G214SPD,igovsisp,G214SPD,total,Eficiência e produtividade percebidas após transformação digital,prop_0_100,orgaos_federais_sisp,70.59,2026
+Total,8,Eficiência e Processos,igovsisp/G224SPD,igovsisp,G224SPD,total,Prática de avaliação do valor público dos sistemas digitais,prop_0_100,orgaos_federais_sisp,27.73,2026
+Total,8,Eficiência e Processos,igovsisp/G502CTI,igovsisp,G502CTI,total,IN SGD/ME nº 94/2022 (proc. contratação TIC),prop_0_100,orgaos_federais_sisp,96.22,2026
+Total,8,Eficiência e Processos,igovsisp/G504CTI,igovsisp,G504CTI,total,Portaria 750/2023 (software),prop_0_100,orgaos_federais_sisp,61.76,2026
+Total,8,Eficiência e Processos,igovsisp/G505CTI,igovsisp,G505CTI,total,Portaria 1.070/2023 (infraestrutura),prop_0_100,orgaos_federais_sisp,65.13,2026
+Total,8,Eficiência e Processos,igovsisp/G506CTI,igovsisp,G506CTI,total,Portaria 2.715/2023 (estações),prop_0_100,orgaos_federais_sisp,66.81,2026
+Total,8,Eficiência e Processos,igovsisp/G507CTI,igovsisp,G507CTI,total,Definição requisitos contratação,prop_0_100,orgaos_federais_sisp,98.74,2026
+Total,8,Eficiência e Processos,igovsisp/G508CTI,igovsisp,G508CTI,total,Procedimentos padronizados,prop_0_100,orgaos_federais_sisp,90.76,2026
+Total,8,Eficiência e Processos,igovsisp/G511CTI,igovsisp,G511CTI,total,Gestão de contratos de TI,prop_0_100,orgaos_federais_sisp,96.22,2026
+Total,8,Eficiência e Processos,igovsisp/G513CTI,igovsisp,G513CTI,total,Pessoal para contratações de TI,prop_0_100,orgaos_federais_sisp,50.42,2026
+Total,8,Eficiência e Processos,igovsisp/G516CTI,igovsisp,G516CTI,total,Concordância sobre conhecimento aprofundado das normas de contratação,prop_0_100,orgaos_federais_sisp,74.37,2026
+Total,8,Eficiência e Processos,igovsisp/G517CTI,igovsisp,G517CTI,total,Critérios sustentáveis em contratações,prop_0_100,orgaos_federais_sisp,94.54,2026
+Total,8,Eficiência e Processos,igovsisp/G520CTI,igovsisp,G520CTI,total,Acessibilidade digital em editais (eMAG/WCAG),prop_0_100,orgaos_federais_sisp,46.64,2026
+Total,8,Eficiência e Processos,igovsisp/G644IPD,igovsisp,G644IPD,total,6.1.3.2. As ferramentas de produtividade e colaboração adotadas estão integradas aos processos de trabalho e sistemas corporativos do órgão?,prop_0_100,orgaos_federais_sisp,65.97,2026
+Total,9,Transparência e Participação,tic_gov/E2A,tic_gov,E2A,total,Ouvidoria online,prop_0_100,orgaos_e_prefeituras,82.24351541853386,2025
+Total,9,Transparência e Participação,tic_gov/E4A,tic_gov,E4A,"['A', 'B', 'C', 'D']",Participação social,prop_0_100,orgaos_e_prefeituras,36.229088972,2025
+Total,9,Transparência e Participação,iospd/IOSPD_E26_408,iospd,IOSPD_E26_408,total,"4.8 POSSUI PLATAFORMA OU ALGUM OUTRO MECANISMO PARA PARTICIPAÇÃO DIGITAL? (POR EXEMPLO, PARTICIPA +)",indice_0_10,uf,80.77,2026
 Total,9,Transparência e Participação,munic/MUNIC_CONSELHO_TRANSP,munic,MUNIC_CONSELHO_TRANSP,total,Existência de Conselho Municipal de Transparência,prop_0_100,prefeituras,2.08,2024
-Total,9,Transparência e Participação,munic/MUNIC_LAI,munic,MUNIC_LAI,total,Disseminação de orientações sobre LAI na prefeitura,prop_0_100,prefeituras,18.08,2024
 Total,9,Transparência e Participação,munic/MUNIC_LAI_LEI,munic,MUNIC_LAI_LEI,total,Legislação municipal específica sobre LAI,prop_0_100,prefeituras,57.95,2024
 Total,9,Transparência e Participação,munic/MUNIC_LAI_PUBLICA_PR,munic,MUNIC_LAI_PUBLICA_PR,total,Publicação de perguntas e respostas feitas pela LAI,prop_0_100,prefeituras,24.51,2024
-Total,9,Transparência e Participação,munic/MUNIC_LAI_SOLICITACOES,munic,MUNIC_LAI_SOLICITACOES,total,Solicitações de acesso à informação recebidas em 2023,prop_0_100,prefeituras,55.83,2024
 Total,9,Transparência e Participação,munic/MUNIC_PARTICIPACAO,munic,MUNIC_PARTICIPACAO,total,Participação do cidadão pela internet,prop_0_100,prefeituras,39.43,2024
 Total,9,Transparência e Participação,munic/MUNIC_PORTAL_TRANSP,munic,MUNIC_PORTAL_TRANSP,total,Portal da transparência,prop_0_100,prefeituras,99.68,2024
 Total,9,Transparência e Participação,munic/MUNIC_SERV_INFO_FINANCAS,munic,MUNIC_SERV_INFO_FINANCAS,total,Serviço informativo — finanças públicas,prop_0_100,prefeituras,85.35,2024
@@ -300,29 +333,44 @@ Total,9,Transparência e Participação,estadic/ESTADIC_CTRL_INT_ONLINE,estadic,
 Total,9,Transparência e Participação,estadic/ESTADIC_LAI_CONTEUDO,estadic,ESTADIC_LAI_CONTEUDO,total,Conteúdo da legislação estadual de acesso à informação (LAI),prop_0_100,governo_estadual,85.19,2024
 Total,9,Transparência e Participação,estadic/ESTADIC_LAI_MEIOS,estadic,ESTADIC_LAI_MEIOS,total,Meios de solicitação de acesso à informação pública,prop_0_100,governo_estadual,65.93,2024
 Total,9,Transparência e Participação,estadic/ESTADIC_ORCAM_TEMPO_REAL,estadic,ESTADIC_ORCAM_TEMPO_REAL,total,Disponibiliza informações orçamentárias/financeiras em tempo real,prop_0_100,governo_estadual,88.89,2024
-Total,9,Transparência e Participação,estadic/ESTADIC_PARTICIP_INTERNET,estadic,ESTADIC_PARTICIP_INTERNET,total,Formas de participação do cidadão pela internet,prop_0_100,governo_estadual,54.63,2024
-Total,9,Transparência e Participação,estadic/ESTADIC_PORTAL_TRANSP,estadic,ESTADIC_PORTAL_TRANSP,total,Portal da transparência e portal de dados abertos,prop_0_100,governo_estadual,85.19,2024
+Total,9,Transparência e Participação,estadic/ESTADIC_PARTICIP_INTERNET,estadic,ESTADIC_PARTICIP_INTERNET,total,Formas de participação do cidadão pela internet,prop_0_100,governo_estadual,88.89,2024
 Total,9,Transparência e Participação,estadic/ESTADIC_TRANSP_CONTEUDO,estadic,ESTADIC_TRANSP_CONTEUDO,total,Conteúdo da página internet / portal da transparência,prop_0_100,governo_estadual,86.01,2024
-Total,10,Competências em Governo Digital,tic_educacao/G2_C,tic_educacao,G2,['C'],Atividades com alunos sobre privacidade e dados pessoais,prop_0_100,professores,56.9685,2024
-Total,10,Competências em Governo Digital,tic_educacao/H3,tic_educacao,H3,total,Formação continuada TIC (P45a quest. → H3 portal),prop_0_100,professores,53.537,2024
-Total,10,Competências em Governo Digital,tic_educacao/P42a_G,tic_educacao,G2,['G'],Atividades com alunos sobre impactos da inteligência artificial,prop_0_100,professores,53.72,2024
-Total,10,Competências em Governo Digital,igovsisp/G106GPO,igovsisp,G106GPO,total,Detalhou capacitações e orçamentos,prop_0_100,orgaos_federais_sisp,45.79,2025
-Total,10,Competências em Governo Digital,igovsisp/G119GP,igovsisp,G119GP,total,Força de trabalho de TIC: Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,76.5,2025
-Total,10,Competências em Governo Digital,igovsisp/G120GP,igovsisp,G120GP,total,Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,75.64,2025
-Total,10,Competências em Governo Digital,igovsisp/G121GP,igovsisp,G121GP,total,Força de trabalho de TIC: Dados e Informações,prop_0_100,orgaos_federais_sisp,58.12,2025
-Total,10,Competências em Governo Digital,igovsisp/G122GP,igovsisp,G122GP,total,Força de trabalho de TIC: Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,55.98,2025
-Total,10,Competências em Governo Digital,igovsisp/G123GP,igovsisp,G123GP,total,Força de trabalho de TIC: Contratações de TI,prop_0_100,orgaos_federais_sisp,76.92,2025
-Total,10,Competências em Governo Digital,igovsisp/G124GP,igovsisp,G124GP,total,Força de trabalho de TIC: Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,73.93,2025
-Total,10,Competências em Governo Digital,igovsisp/G130GP,igovsisp,G130GP,total,"Titulares de funções de TI efetivos, empregados públicos ou militares",prop_0_100,orgaos_federais_sisp,95.41,2025
-Total,10,Competências em Governo Digital,igovsisp/G131GP,igovsisp,G131GP,total,Define competências necessárias para pessoal de TI,prop_0_100,orgaos_federais_sisp,73.5,2025
-Total,10,Competências em Governo Digital,igovsisp/G132GP,igovsisp,G132GP,total,Critérios para pedidos de capacitação,prop_0_100,orgaos_federais_sisp,71.37,2025
-Total,10,Competências em Governo Digital,igovsisp/G133GP,igovsisp,G133GP,total,Plano de capacitação periódico,prop_0_100,orgaos_federais_sisp,73.5,2025
-Total,10,Competências em Governo Digital,igovsisp/G134GP,igovsisp,G134GP,total,Executa plano de capacitação,prop_0_100,orgaos_federais_sisp,45.73,2025
-Total,10,Competências em Governo Digital,igovsisp/G135GP,igovsisp,G135GP,total,Avalia execução do plano de capacitação,prop_0_100,orgaos_federais_sisp,36.75,2025
-Total,10,Competências em Governo Digital,igovsisp/G136GP,igovsisp,G136GP,total,Incentivos para competências de TI,prop_0_100,orgaos_federais_sisp,45.3,2025
-Total,10,Competências em Governo Digital,igovsisp/G137GP,igovsisp,G137GP,total,Capacitações em Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,49.15,2025
-Total,10,Competências em Governo Digital,igovsisp/G138GP,igovsisp,G138GP,total,Capacitações em Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,44.87,2025
-Total,10,Competências em Governo Digital,igovsisp/G139GP,igovsisp,G139GP,total,Capacitações em Dados e Informações,prop_0_100,orgaos_federais_sisp,41.03,2025
-Total,10,Competências em Governo Digital,igovsisp/G140GP,igovsisp,G140GP,total,Capacitações em Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,55.98,2025
-Total,10,Competências em Governo Digital,igovsisp/G141GP,igovsisp,G141GP,total,Capacitações em Contratações de TI,prop_0_100,orgaos_federais_sisp,58.55,2025
-Total,10,Competências em Governo Digital,igovsisp/G142GP,igovsisp,G142GP,total,Capacitações em Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,49.57,2025
+Total,9,Transparência e Participação,igovsisp/G400DI,igovsisp,G400DI,total,3.1.3.14. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?,prop_0_100,orgaos_federais_sisp,16.39,2026
+Total,10,Competências em Governo Digital,tic_gov/G2,tic_gov,G2,total,Capacitação sobre a LGPD para funcionários de TI,prop_0_100,orgaos_e_prefeituras,36.457365331,2025
+Total,10,Competências em Governo Digital,tic_educacao/G2_C,tic_educacao_professores,G2,['C'],Atividades com alunos sobre privacidade e dados pessoais,prop_0_100,professores_escolas_publicas,57.7607,2024
+Total,10,Competências em Governo Digital,tic_educacao/H3,tic_educacao_professores,H3,total,Formação continuada TIC (P45a quest. → H3 portal),prop_0_100,professores_escolas_publicas,52.1612,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_C,tic_educacao_professores,H7,['C'],Formação: criação de conteúdos educacionais com plataformas e aplicativos (P49A2_G quest. → H7 item C portal),prop_0_100,professores_escolas_publicas,42.89215476,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_D,tic_educacao_professores,H7,['D'],Formação: avaliação da veracidade e compartilhamento responsável (P49A2_I quest. → H7 item D portal),prop_0_100,professores_escolas_publicas,32.366024599999996,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_E,tic_educacao_professores,H7,['E'],Formação: proteção à privacidade e aos dados pessoais (P49A2_J quest. → H7 item E portal),prop_0_100,professores_escolas_publicas,29.252000959999997,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_F,tic_educacao_professores,H7,['F'],"Formação: computação, programação ou robótica na educação (P49A2_K1 quest. → H7 item F portal)",prop_0_100,professores_escolas_publicas,20.7336597104,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_G,tic_educacao_professores,H7,['G'],Formação: inteligência artificial em atividades educacionais (P49A2_L quest. → H7 item G portal),prop_0_100,professores_escolas_publicas,30.316454568399998,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_H,tic_educacao_professores,H7,['H'],Formação: educação midiática e uso crítico das mídias (P49A2_M quest. → H7 item H portal),prop_0_100,professores_escolas_publicas,35.467529551999995,2024
+Total,10,Competências em Governo Digital,tic_educacao/H7_I,tic_educacao_professores,H7,['I'],Formação: adaptação aos ritmos de aprendizagem (P49A2_N quest. → H7 item I portal),prop_0_100,professores_escolas_publicas,40.47187508,2024
+Total,10,Competências em Governo Digital,tic_educacao/P42a_G,tic_educacao_professores,G2,['G'],Atividades com alunos sobre impactos da inteligência artificial (P42a_G quest. → G2 item G portal),prop_0_100,professores_escolas_publicas,52.12,2024
+Total,10,Competências em Governo Digital,tic_educacao/source/D8_C,tic_educacao,D8,total,"GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",prop_0_100,gestores_escolas_publicas,62.0705221739929,2025
+Total,10,Competências em Governo Digital,tic_educacao/source/D8_F,tic_educacao,D8,total,"GESTORES ESCOLARES, POR PERCEPÇÃO SOBRE A INTEGRAÇÃO DE TECNOLOGIAS DIGITAIS ÀS ATIVIDADES EDUCACIONAIS NA INSTITUIÇÃO",prop_0_100,gestores_escolas_publicas,63.841282109608386,2025
+Total,10,Competências em Governo Digital,tic_educacao/source/I4A,tic_educacao,I4A,total,"ESCOLAS, TIPOS DE PROJETOS ARTÍSTICOS, CULTURAIS E ESPORTIVOS PARA OS ALUNOS MANTIDOS PELA ESCOLA",prop_0_100,escolas_publicas,14.433,2025
+Total,10,Competências em Governo Digital,tic_educacao/source/I5,tic_educacao,I5,total,"ESCOLAS QUE REALIZAM PROJETOS PARA OS ALUNOS SOBRE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",prop_0_100,escolas_publicas,64.6449,2025
+Total,10,Competências em Governo Digital,tic_educacao/source/I5H,tic_educacao,I5H,"['A', 'B', 'C', 'D', 'E', 'F']","ESCOLAS, POR INTERAÇÃO ENTRE ESCOLA E FAMÍLIA NA PROMOÇÃO DE EDUCAÇÃO DIGITAL, MIDIÁTICA E PARA A CIDADANIA DIGITAL",prop_0_100,escolas_publicas,52.59186666666667,2025
+Total,10,Competências em Governo Digital,iospd/IOSPD_E26_105,iospd,IOSPD_E26_105,total,1.5 A INSTITUIÇÃO RESPONSÁVEL POR LIDERAR AS DECISÕES DE GOVERNO DIGITAL (OU OUTRA) CONTRIBUI COM O DESENVOLVIMENTO DE COMPETÊNCIAS DIGITAIS PARA OS SERVIDORES PÚBLICOS ESTADUAIS? MARQUE AS FORMAS COMO SE APLICA:,indice_0_10,uf,61.53,2026
+Total,10,Competências em Governo Digital,igovsisp/G106GPO,igovsisp,G106GPO,total,Detalhou capacitações e orçamentos,prop_0_100,orgaos_federais_sisp,43.07,2026
+Total,10,Competências em Governo Digital,igovsisp/G119GP,igovsisp,G119GP,total,Força de trabalho de TIC: Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,80.25,2026
+Total,10,Competências em Governo Digital,igovsisp/G120GP,igovsisp,G120GP,total,Força de trabalho de TIC: Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,83.61,2026
+Total,10,Competências em Governo Digital,igovsisp/G121GP,igovsisp,G121GP,total,Força de trabalho de TIC: Dados e Informações,prop_0_100,orgaos_federais_sisp,62.61,2026
+Total,10,Competências em Governo Digital,igovsisp/G122GP,igovsisp,G122GP,total,Força de trabalho de TIC: Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,64.71,2026
+Total,10,Competências em Governo Digital,igovsisp/G123GP,igovsisp,G123GP,total,Força de trabalho de TIC: Contratações de TI,prop_0_100,orgaos_federais_sisp,79.41,2026
+Total,10,Competências em Governo Digital,igovsisp/G124GP,igovsisp,G124GP,total,Força de trabalho de TIC: Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,80.25,2026
+Total,10,Competências em Governo Digital,igovsisp/G130GP,igovsisp,G130GP,total,"Titulares de funções de TI efetivos, empregados públicos ou militares",prop_0_100,orgaos_federais_sisp,96.01,2026
+Total,10,Competências em Governo Digital,igovsisp/G131GP,igovsisp,G131GP,total,Define competências necessárias para pessoal de TI,prop_0_100,orgaos_federais_sisp,77.31,2026
+Total,10,Competências em Governo Digital,igovsisp/G132GP,igovsisp,G132GP,total,Critérios para pedidos de capacitação,prop_0_100,orgaos_federais_sisp,72.27,2026
+Total,10,Competências em Governo Digital,igovsisp/G133GP,igovsisp,G133GP,total,Plano de capacitação periódico,prop_0_100,orgaos_federais_sisp,74.37,2026
+Total,10,Competências em Governo Digital,igovsisp/G134GP,igovsisp,G134GP,total,Executa plano de capacitação,prop_0_100,orgaos_federais_sisp,45.8,2026
+Total,10,Competências em Governo Digital,igovsisp/G135GP,igovsisp,G135GP,total,Avalia execução do plano de capacitação,prop_0_100,orgaos_federais_sisp,41.6,2026
+Total,10,Competências em Governo Digital,igovsisp/G136GP,igovsisp,G136GP,total,Incentivos para competências de TI,prop_0_100,orgaos_federais_sisp,44.96,2026
+Total,10,Competências em Governo Digital,igovsisp/G137GP,igovsisp,G137GP,total,Capacitações em Gestão e Planejamento de TI,prop_0_100,orgaos_federais_sisp,51.26,2026
+Total,10,Competências em Governo Digital,igovsisp/G138GP,igovsisp,G138GP,total,Capacitações em Sistemas e Serviços Públicos Digitais,prop_0_100,orgaos_federais_sisp,47.48,2026
+Total,10,Competências em Governo Digital,igovsisp/G139GP,igovsisp,G139GP,total,Capacitações em Dados e Informações,prop_0_100,orgaos_federais_sisp,42.44,2026
+Total,10,Competências em Governo Digital,igovsisp/G140GP,igovsisp,G140GP,total,Capacitações em Privacidade e Segurança da Informação,prop_0_100,orgaos_federais_sisp,57.56,2026
+Total,10,Competências em Governo Digital,igovsisp/G141GP,igovsisp,G141GP,total,Capacitações em Contratações de TI,prop_0_100,orgaos_federais_sisp,57.56,2026
+Total,10,Competências em Governo Digital,igovsisp/G142GP,igovsisp,G142GP,total,Capacitações em Infraestrutura e Plataformas Digitais,prop_0_100,orgaos_federais_sisp,50.0,2026
+Total,10,Competências em Governo Digital,igovsisp/G143GP,igovsisp,G143GP,total,1.2.1.4. O órgão possui cargo e/ou carreira própria de TIC?,prop_0_100,orgaos_federais_sisp,34.03,2026

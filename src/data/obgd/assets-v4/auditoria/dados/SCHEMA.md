@@ -4,6 +4,8 @@ Schema e documentação derivam da mesma especificação. Os campos comuns refer
 
 A área de auditoria preserva códigos físicos, nulos, zeros e contagens n/n_itens. A projeção externa altera somente indicador para o sufixo canônico. concept_id e indicador_fisico permitem conferir a transformação. Escores não são recalculados ou arredondados. Somente os CSVs externos de detalhes omitem observações nulas.
 
+codigo_fonte é o código com que a própria fonte identifica a variável, o mesmo que o relatório imprime: a aba da tabela publicada na CETIC, a coluna da base no IBGE, o número do critério no IOSPD. Nas chaves sem código na fonte, repete o sufixo da chave.
+
 ## fonte.json
 
 Chaves: [["id"]]. Uma lista vazia não impõe unicidade simplificada aos fatos.
@@ -64,7 +66,7 @@ Chaves: [["id"], ["tipo", "codigo"]]. Uma lista vazia não impõe unicidade simp
 | Campo | Regra |
 |---|---|
 | id | {"type": "integer"} |
-| tipo | {"type": "string", "enum": ["nacional", "uf", "municipio", "capital"]} |
+| tipo | {"type": "string", "enum": ["nacional", "uf", "municipio", "capital", "uniao"]} |
 | codigo | {"type": "string"} |
 | nome | {"type": "string"} |
 | uf_sigla | {"type": "string", "nullable": true} |
@@ -103,6 +105,7 @@ Chaves: [["chave"]]. Uma lista vazia não impõe unicidade simplificada aos fato
 | status | {"type": "string"} |
 | concept_id | {"type": "string"} |
 | indicador_fisico | {"type": "string"} |
+| codigo_fonte | {"type": "string"} |
 | sub_itens | {"type": "string[]", "nullable": true} |
 | objetivos_engd | {"type": "integer[]"} |
 | dimensao_conceitual_id | {"type": "string", "nullable": true} |
@@ -135,7 +138,7 @@ Chaves: []. Uma lista vazia não impõe unicidade simplificada aos fatos.
 | escala | {"type": "string"} |
 | descricao | {"type": "string"} |
 | populacao | {"type": "string", "nullable": true} |
-| dimensao | {"type": "string", "enum": ["nacional", "estadual", "capitais", "municipios"]} |
+| dimensao | {"type": "string", "enum": ["nacional", "estadual", "capitais", "municipios", "uniao"]} |
 
 Relações: [{"fields": ["indicador_chave"], "target": "dados/indicador.json", "target_fields": ["chave"]}, {"fields": ["ente_id"], "target": "dados/ente.json", "target_fields": ["id"]}, {"fields": ["fonte_id"], "target": "dados/fonte.json", "target_fields": ["id"]}, {"fields": ["objetivo_id"], "target": "dados/objetivo_engd.json", "target_fields": ["id"]}].
 

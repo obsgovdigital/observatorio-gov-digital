@@ -21,6 +21,8 @@
     "auditoria/detalhes_municipios_tags.csv",
     "auditoria/detalhes_nacional.csv",
     "auditoria/detalhes_nacional_tags.csv",
+    "auditoria/detalhes_uniao.csv",
+    "auditoria/detalhes_uniao_tags.csv",
     "auditoria/indice_capitais.csv",
     "auditoria/indice_capitais_tags.csv",
     "auditoria/indice_estadual.csv",
@@ -29,6 +31,8 @@
     "auditoria/indice_municipios_tags.csv",
     "auditoria/indice_nacional.csv",
     "auditoria/indice_nacional_tags.csv",
+    "auditoria/indice_uniao.csv",
+    "auditoria/indice_uniao_tags.csv",
     "dados/SCHEMA.md",
     "dados/dimensao_conceitual.json",
     "dados/dimensao_tematica.json",
@@ -49,6 +53,8 @@
     "detalhes_municipios_tags.csv",
     "detalhes_nacional.csv",
     "detalhes_nacional_tags.csv",
+    "detalhes_uniao.csv",
+    "detalhes_uniao_tags.csv",
     "indice_capitais.csv",
     "indice_capitais_tags.csv",
     "indice_estadual.csv",
@@ -57,6 +63,8 @@
     "indice_municipios.csv",
     "indice_municipios_tags.csv",
     "indice_nacional.csv",
-    "indice_nacional_tags.csv"
+    "indice_nacional_tags.csv",
+    "indice_uniao.csv",
+    "indice_uniao_tags.csv"
   ]
 }

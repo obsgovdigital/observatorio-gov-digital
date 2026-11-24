@@ -12,8 +12,9 @@ interface Props {
   indicadoresHref: string
 }
 
-function tituloDaLista(nivelKey: NivelKey, nomeNacional: string | undefined) {
-  if (nivelKey === 'nacional') return nomeNacional ?? 'Nacional'
+function tituloDaLista(nivelKey: NivelKey, nomeEnteUnico: string | undefined) {
+  if (nivelKey === 'nacional') return nomeEnteUnico ?? 'Nacional'
+  if (nivelKey === 'uniao') return nomeEnteUnico ?? 'União'
   if (nivelKey === 'municipios') return 'Municípios'
   return 'Estados'
 }

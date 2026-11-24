@@ -10,7 +10,7 @@ O Insper, por meio de seu Centro de Gestão e Políticas Públicas (CGPP), firmo
 
 A primeira entrega do Observatório é a criação do Índice de Governo Digital, voltado a avaliar os avanços dos governos em face do proposto na Estratégia Nacional de Governo Digital (ENGD), publicada após amplo processo participativo online e presencial, em todas as regiões do país.
 
-Este relatório apresenta a construção do Índice de Governo Digital do Observatório. A organização editorial gira em torno dos **10 objetivos da Estratégia Nacional de Governo Digital (ENGD)**: cada um dos Capítulos 4 a 13 trata de um objetivo e organiza seus indicadores em **dimensões** — sub-conceitos mais fechados que o objetivo. Quando o objetivo reúne pelo menos duas variáveis com observação por UF ou por capital, o capítulo também apresenta recortes federativos dedicados (`Recorte Estadual` e/ou `Recorte de Capitais`). Assim, os capítulos combinam a fotografia nacional agregada com os recortes subnacionais disponíveis. As médias das dimensões são o que este relatório reporta, e não há nota geral por recorte nem escore único da ENGD que agregue os dez objetivos.
+Este relatório apresenta a construção do Índice de Governo Digital do Observatório. A organização editorial gira em torno dos **10 objetivos da Estratégia Nacional de Governo Digital (ENGD)**: cada um dos Capítulos 4 a 13 trata de um objetivo e organiza seus indicadores em **dimensões**, sub-conceitos mais fechados que o objetivo. Quando o objetivo reúne pelo menos duas variáveis com observação por UF, por capital ou nos órgãos federais, o capítulo também apresenta recortes federativos dedicados (`Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`). Assim, os capítulos combinam a fotografia nacional agregada com os recortes disponíveis por esfera federativa. As médias das dimensões são o que este relatório reporta, e não há nota geral por recorte nem escore único da ENGD que agregue os dez objetivos.
 
 ## Marco de Referência: Estratégia Nacional de Governo Digital
 
@@ -34,16 +34,16 @@ Os 10 objetivos da ENGD são:
 > Qualificar a tomada de decisões e a oferta de serviços nas organizações públicas com o reuso constante e de forma ética dos dados disponíveis para análises, interoperabilidade e personalização.
 
 **Objetivo 6: Infraestrutura**
-> Dispor de infraestrutura moderna, segura, escalável e robusta para a implantação e evolução de soluções de governo digital, promovendo soluções estruturantes compartilhadas.
+> Dispor de infraestrutura moderna, segura, escalável e robusta para a implantação e evolução de soluções de governo digital, promovendo soluções estruturantes compartilhadas, uso de padrões comuns e a integração entre os entes federados.
 
 **Objetivo 7: Inovação e Tecnologias Emergentes**
-> Estimular e fomentar o desenvolvimento do ecossistema de inovação e de governo digital, envolvendo todos os entes federados e a sociedade, gerando novas oportunidades.
+> Estimular e fomentar o desenvolvimento do ecossistema de inovação e de governo digital, envolvendo todos os entes federados e a sociedade, gerando novas oportunidades para o aprimoramento do setor público e desenvolvimento de negócios, inclusive para o desenvolvimento e o uso de tecnologias emergentes.
 
 **Objetivo 8: Eficiência e Processos**
 > Otimizar e promover a eficiência dos processos das organizações públicas por meio da racionalização de procedimentos e compartilhamento de soluções para problemas comuns.
 
 **Objetivo 9: Transparência e Participação**
-> Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social.
+> Contribuir para a ampliação da abertura e da transparência das organizações públicas, para legitimar o controle e a participação social, bem como potencializar a colaboração com a sociedade para entregar valor público.
 
 **Objetivo 10: Competências em Governo Digital**
-> Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas.
+> Desenvolver competências nas pessoas e equipes para consolidar a cultura de governo digital e inovação nas organizações públicas, ampliando a atração e retenção de talentos.
