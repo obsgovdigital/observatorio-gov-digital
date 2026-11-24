@@ -151,8 +151,6 @@ As 16 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temá
 
 ![Recorte Estadual do Objetivo 7](../graficos/recortes/cap10_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 18. Indicadores do Recorte Estadual do Objetivo 7, com a dimensão temática da pergunta e o valor estadual*
 
@@ -174,17 +172,15 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 32,2 (n=4; 7 itens).
 
-![Recorte Federal do Objetivo 7](../graficos/recortes/cap10_federal.png)
-
-*Tabela 19. Indicadores do Recorte Federal do Objetivo 7, com a dimensão temática da pergunta e o valor federal*
+*Tabela 19. Indicadores do Recorte Federal do Objetivo 7, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `H3` | TIC Governo Eletrônico | 10.3.1 Inteligência artificial e tecnologias emergentes | 70,00 |
-| `H4` | TIC Governo Eletrônico | 10.3.1 Inteligência artificial e tecnologias emergentes | 20,00 |
-| `H3F`, Universidades ou centro de pesquisa | TIC Governo Eletrônico | 10.3.2 Laboratórios e fomento à inovação | 21,43 |
-| `H3F`, Fundações ou associações sem fins lucrativos | TIC Governo Eletrônico | 10.3.2 Laboratórios e fomento à inovação | 6,43 |
-| `H3F`, Outros órgãos públicos | TIC Governo Eletrônico | 10.3.2 Laboratórios e fomento à inovação | 42,14 |
-| `H3F`, Organizações privadas | TIC Governo Eletrônico | 10.3.2 Laboratórios e fomento à inovação | 15,71 |
+| `H3` | TIC Gov. | 10.3.1 Inteligência artificial e tecnologias emergentes | 70,00 |
+| `H4` | TIC Gov. | 10.3.1 Inteligência artificial e tecnologias emergentes | 20,00 |
+| `H3F`, Universidades ou centro de pesquisa | TIC Gov. | 10.3.2 Laboratórios e fomento à inovação | 21,43 |
+| `H3F`, Fundações ou associações sem fins lucrativos | TIC Gov. | 10.3.2 Laboratórios e fomento à inovação | 6,43 |
+| `H3F`, Outros órgãos públicos | TIC Gov. | 10.3.2 Laboratórios e fomento à inovação | 42,14 |
+| `H3F`, Organizações privadas | TIC Gov. | 10.3.2 Laboratórios e fomento à inovação | 15,71 |
 | `G337DI` | iGovSISP | 10.3.1 Inteligência artificial e tecnologias emergentes | 17,23 |
 <!-- /federal:secao -->

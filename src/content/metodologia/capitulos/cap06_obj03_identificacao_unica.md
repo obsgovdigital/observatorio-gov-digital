@@ -20,15 +20,15 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 
 ## 6.2 Cobertura por nível federativo
 
-O Objetivo 3 conta com 6 variáveis ativas no índice (1 de TIC Governo Eletrônico (CETIC.br), 2 de IOSPD (ABEP-TIC), 1 de MUNIC (IBGE), 1 de iGovSISP (SGD/MGI), 1 de Base de dados da CIN (SGD/MGI)), que entram na agregação como 6 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 3 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Uma variável tem observação por capital (`Mtic18a3-Mtic18a4, Mtic18a6`, MUNIC 2024); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável.
+O Objetivo 3 conta com 8 variáveis ativas no índice (1 de TIC Governo Eletrônico (CETIC.br), 2 de IOSPD (ABEP-TIC), 1 de MUNIC (IBGE), 3 de iGovSISP (SGD/MGI), 1 de Base de dados da CIN (SGD/MGI)), que entram na agregação como 8 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 3 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Uma variável tem observação por capital (`Mtic18a3-Mtic18a4, Mtic18a6`, MUNIC 2024); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável.
 
 <!-- federal:cobertura -->
-No recorte federal, 2 variáveis do objetivo têm observação dos órgãos federais (1 da TIC Governo Eletrônico (CETIC.br) e 1 do iGovSISP (SGD/MGI)), que entram na média do recorte como 2 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 4 variáveis do objetivo têm observação dos órgãos federais (1 da TIC Governo Eletrônico (CETIC.br) e 3 do iGovSISP (SGD/MGI)), que entram na média do recorte como 4 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 6.3 Dimensões
 
-As 6 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte Federal`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria: autenticação digital, assinatura eletrônica e identidade civil. Uma dimensão tem uma única variável (`Identidade civil`), o que reflete o estado atual do índice. O `Recorte Estadual` consolida os três indicadores com observação por UF. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte Federal`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria: autenticação digital, assinatura eletrônica, identidade civil e CPF nos cadastros públicos. Uma dimensão tem uma única variável (`Identidade civil`), o que reflete o estado atual do índice. O `Recorte Estadual` consolida os três indicadores com observação por UF. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 3](../graficos/dimensoes/cap06.png)
 
@@ -99,7 +99,31 @@ As 6 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temá
   - Valor (Nacional): 52,66
   - Valor (Estadual): 55,66 (média de 27 UFs)
 
-### 6.3.4 Recorte Estadual
+### 6.3.4 CPF nos cadastros públicos
+
+*Definição:* Uso do CPF como identificador único nas bases finalísticas e nos registros cadastrais dos órgãos federais respondentes. Corresponde à Recomendação 3.7.
+
+*Média Nacional:* 47,7 (n=2; 2 itens).
+
+**Indicadores:**
+
+*iGovSISP 2026 (SGD/MGI):*
+
+- **G331410DI**. Em relação às bases de dados finalísticas do seu órgão (relacionados a políticas públicas ou serviços públicos), qual a percentagem em que o número do CPF já é utilizado como identificador único (conforme art. 9º, II da Lei nº 14.534/2023), com validação/consulta automática na Receita Federal?
+  - *Contagem:* Média dos tetos das faixas percentuais, ponderada pelas contagens de órgãos com bases aplicáveis. Não sei recebe zero; não existem bases sai do denominador. Não é proporção de órgãos nem média de todos os órgãos do SISP.
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com bases aplicáveis.
+  - Valor (Nacional): 45,26
+  - Valor (Federal): 45,26
+  - *Leitura:* A média dos tetos aproxima por cima a média declarada entre órgãos com bases finalísticas aplicáveis; órgãos sem bases não entram no denominador.
+
+- **G331411DI**. Qual a estimativa do percentual de registros cadastrais ativos do seu órgão que já utilizam o CPF como identificador único?
+  - *Contagem:* Média dos tetos das faixas percentuais, ponderada pelas contagens de órgãos com registros aplicáveis. Não sei recebe zero; não existem registros sai do denominador. Não é proporção de órgãos nem média de todos os órgãos do SISP.
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com registros aplicáveis.
+  - Valor (Nacional): 50,12
+  - Valor (Federal): 50,12
+  - *Leitura:* A média dos tetos aproxima por cima a média declarada entre órgãos com registros cadastrais aplicáveis; órgãos sem registros não entram no denominador.
+
+### 6.3.5 Recorte Estadual
 
 *Definição:* Conjunto das variáveis do Objetivo 3 com observação por UF, agregadas para leitura federativa estadual. Reúne `1.8`, `3.3` e `atingimento_meta_cin`. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
@@ -107,31 +131,29 @@ As 6 variáveis ativas do Objetivo 3 foram organizadas em três dimensões temá
 
 ![Recorte Estadual do Objetivo 3](../graficos/recortes/cap06_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
-*Tabela 8. Indicadores do Recorte Estadual do Objetivo 3, com a dimensão temática da pergunta e o valor estadual*
+*Tabela 8. Indicadores do Recorte Estadual do Objetivo 3, com a dimensão temática da pergunta e o valor estadual (CIN: Base de dados da CIN)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Estadual) |
 |---|---|---|---:|
 | `1.8` | IOSPD | 6.3.2 Assinatura eletrônica | 65,38 |
 | `3.3` | IOSPD | 6.3.2 Assinatura eletrônica | 65,38 |
-| `atingimento_meta_cin` | Base de dados da CIN | 6.3.3 Identidade civil | 55,66 |
+| `atingimento_meta_cin` | CIN | 6.3.3 Identidade civil | 55,66 |
 <!-- /federal:tabela-estadual -->
 
 <!-- federal:secao -->
-### 6.3.5 Recorte Federal
+### 6.3.6 Recorte Federal
 
-*Definição:* Conjunto das variáveis do Objetivo 3 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne `C9B` e `G630IPD`. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 3 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne 1 variável TIC Governo Eletrônico e as 3 variáveis iGovSISP do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Federal:* 50,8 (n=2; 2 itens).
+*Média Federal:* 49,3 (n=4; 4 itens).
 
-![Recorte Federal do Objetivo 3](../graficos/recortes/cap06_federal.png)
-
-*Tabela 9. Indicadores do Recorte Federal do Objetivo 3, com a dimensão temática da pergunta e o valor federal*
+*Tabela 9. Indicadores do Recorte Federal do Objetivo 3, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `C9B` | TIC Governo Eletrônico | 6.3.1 Autenticação digital | 38,57 |
+| `C9B` | TIC Gov. | 6.3.1 Autenticação digital | 38,57 |
 | `G630IPD` | iGovSISP | 6.3.1 Autenticação digital | 63,07 |
+| `G331410DI` | iGovSISP | 6.3.4 CPF nos cadastros públicos | 45,26 |
+| `G331411DI` | iGovSISP | 6.3.4 CPF nos cadastros públicos | 50,12 |
 <!-- /federal:secao -->

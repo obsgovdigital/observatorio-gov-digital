@@ -17,15 +17,15 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 
 ## 13.2 Cobertura por nível federativo
 
-O Objetivo 10 conta com 38 variáveis ativas no índice (1 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 10 de TIC Educação (Professores) (CETIC.br), 1 de IOSPD (ABEP-TIC), 21 de iGovSISP (SGD/MGI)), que entram na agregação como 16 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Uma variável tem observação por UF (`1.5`, IOSPD 2026); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável. Nenhuma variável tem observação por capital.
+O Objetivo 10 conta com 41 variáveis ativas no índice (4 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 10 de TIC Educação (Professores) (CETIC.br), 1 de IOSPD (ABEP-TIC), 21 de iGovSISP (SGD/MGI)), que entram na agregação como 19 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Uma variável tem observação por UF (`1.5`, IOSPD 2026); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável. Nenhuma variável tem observação por capital.
 
 <!-- federal:cobertura -->
-No recorte federal, 22 variáveis do objetivo têm observação dos órgãos federais (1 da TIC Governo Eletrônico (CETIC.br) e 21 do iGovSISP (SGD/MGI)), que entram na média do recorte como 7 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 24 variáveis do objetivo têm observação dos órgãos federais (3 da TIC Governo Eletrônico (CETIC.br) e 21 do iGovSISP (SGD/MGI)), que entram na média do recorte como 9 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 13.3 Dimensões
 
-As 38 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões temáticas, complementadas pela dimensão federativa `Recorte Federal`. A primeira trata da força de trabalho de TIC nos órgãos do governo federal, as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica nas escolas e ações estaduais de capacitação; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente quatro recomendações: a 10.1 (redes de capacitação), por medida indireta do planejamento e realização de capacitações no PDTIC; a 10.3 (capacitação continuada e retenção), pelo plano periódico de capacitação das equipes de TI federais e pela proporção de titulares de funções de TI que são servidores efetivos, empregados públicos ou militares; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A capacitação de servidores estaduais também sustenta a Recomendação 10.3, e as orientações recebidas pelas equipes gestoras das escolas acrescentam observação à Recomendação 10.6. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` e `G143GP` estão entre os indicadores que sustentam a Recomendação 10.3. As Recomendações 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice. O Anexo B.10 detalha as lacunas e os limites da cobertura. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões temáticas, complementadas pela dimensão federativa `Recorte Federal`. A primeira trata da força de trabalho de TIC nos órgãos do governo federal, as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica nas escolas e ações estaduais de capacitação; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente quatro recomendações: a 10.1 (redes de capacitação), por medida indireta do planejamento e realização de capacitações no PDTIC; a 10.3 (capacitação continuada e retenção), pelo plano periódico de capacitação das equipes de TI federais e pela proporção de titulares de funções de TI que são servidores efetivos, empregados públicos ou militares; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A capacitação de servidores estaduais também sustenta a Recomendação 10.3, e as orientações recebidas pelas equipes gestoras das escolas acrescentam observação à Recomendação 10.6. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` e `G143GP` estão entre os indicadores que sustentam a Recomendação 10.3. As Recomendações 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice. O Anexo B.10 detalha as lacunas e os limites da cobertura. A sexta dimensão observa formação em inteligência artificial nos órgãos e prefeituras, distinguindo participação da equipe de TI e oferta de cursos de IA generativa. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 10](../graficos/dimensoes/cap13.png)
 
@@ -286,20 +286,51 @@ As 38 variáveis ativas do Objetivo 10 foram organizadas em cinco dimensões tem
 
 *Esta seção apresenta 6 dos 6 indicadores de uma mesma bateria no objetivo. A média dimensional usa os itens desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
 
+### 13.3.6 Formação em inteligência artificial
+
+*Definição:* Participação da equipe de TI em formação sobre inteligência artificial e oferta de cursos, treinamentos ou capacitações em inteligência artificial generativa aos funcionários de órgãos públicos e prefeituras. Corresponde à Recomendação 10.5.
+
+*Média Nacional:* 35,1 (n=3; 3 itens).
+
+**Indicadores:**
+
+*TIC Governo Eletrônico 2025 (CETIC.br), órgãos públicos:*
+
+- **H3C**. Algum dos funcionários da área ou departamento de TI participou de alguma capacitação, curso ou treinamento sobre Inteligência Artificial?
+  - *Contagem:* Proporção de órgãos públicos cujos funcionários da área ou departamento de TI participaram de capacitação, curso ou treinamento em inteligência artificial; usa a população publicada de órgãos, sem multiplicar novamente pelo uso de IA.
+  - *Normalização:* Proporção 0-100% sobre o universo de órgãos públicos, usada diretamente; valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
+  - Valor (Nacional): 61,74
+  - Valor (Federal): 83,57
+
+*TIC Governo Eletrônico 2025 (CETIC.br), prefeituras:*
+
+- **H3C**. Algum dos funcionários da área ou departamento de TI participou de alguma capacitação, curso ou treinamento sobre Inteligência Artificial?
+  - *Contagem:* Proporção de respostas Sim na população publicada. Prefeituras com formação da equipe de TI em inteligência artificial.
+  - *Normalização:* Proporção 0-100% sobre o universo de prefeituras, usada diretamente.
+  - Valor (Nacional): 13,56
+
+*TIC Governo Eletrônico 2025 (CETIC.br):*
+
+- **H3E**. Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão públicoOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeituraOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias:
+  - *Contagem:* Proporção de respostas Sim na população publicada. Oferta de curso, treinamento ou capacitação em inteligência artificial generativa; média das proporções de órgãos e prefeituras, com peso igual entre os dois universos.
+  - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
+  - Valor (Nacional): 30,00
+  - Valor (Federal): 59,29
+
 <!-- federal:secao -->
-### 13.3.6 Recorte Federal
+### 13.3.7 Recorte Federal
 
-*Definição:* Conjunto das variáveis do Objetivo 10 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne 1 variável TIC Governo Eletrônico e as 21 variáveis iGovSISP do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 10 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne as 3 variáveis TIC Governo Eletrônico e as 21 variáveis iGovSISP do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Federal:* 63,3 (n=7; 22 itens).
+*Média Federal:* 65,1 (n=9; 24 itens).
 
-![Recorte Federal do Objetivo 10](../graficos/recortes/cap13_federal.png)
-
-*Tabela 24. Indicadores do Recorte Federal do Objetivo 10, com a dimensão temática da pergunta e o valor federal*
+*Tabela 24. Indicadores do Recorte Federal do Objetivo 10, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `G2` | TIC Governo Eletrônico | 13.3.4 Plano e processo de capacitação em TI no SISP | 84,29 |
+| `G2` | TIC Gov. | 13.3.4 Plano e processo de capacitação em TI no SISP | 84,29 |
+| `H3C`, Capacitação da equipe de TI em inteligência artificial | TIC Gov. | 13.3.6 Formação em inteligência artificial | 83,57 |
+| `H3E` | TIC Gov. | 13.3.6 Formação em inteligência artificial | 59,29 |
 | `G119GP` | iGovSISP | 13.3.1 Força de trabalho de TIC no SISP | 80,25 |
 | `G120GP` | iGovSISP | 13.3.1 Força de trabalho de TIC no SISP | 83,61 |
 | `G121GP` | iGovSISP | 13.3.1 Força de trabalho de TIC no SISP | 62,61 |

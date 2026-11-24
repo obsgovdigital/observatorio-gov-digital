@@ -368,8 +368,6 @@ A medida anterior de formalização da estratégia por instrumento normativo (I.
 
 ![Recorte Estadual do Objetivo 1](../graficos/recortes/cap04_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 3. Indicadores do Recorte Estadual do Objetivo 1, com a dimensão temática da pergunta e o valor estadual*
 
@@ -388,16 +386,14 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 68,1 (n=31; 38 itens).
 
-![Recorte Federal do Objetivo 1](../graficos/recortes/cap04_federal.png)
-
-*Tabela 4. Indicadores do Recorte Federal do Objetivo 1, com a dimensão temática da pergunta e o valor federal*
+*Tabela 4. Indicadores do Recorte Federal do Objetivo 1, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `B1` | TIC Governo Eletrônico | 4.3.1 Estrutura de governança | 99,29 |
-| `B7A` | TIC Governo Eletrônico | 4.3.1 Estrutura de governança | 93,57 |
-| `B5A`, Plano estratégico de TI | TIC Governo Eletrônico | 4.3.2 Estratégia e planejamento | 97,14 |
-| `B5A`, Plano ou estratégia de transformação digital ou governo digital | TIC Governo Eletrônico | 4.3.2 Estratégia e planejamento | 79,29 |
+| `B1` | TIC Gov. | 4.3.1 Estrutura de governança | 99,29 |
+| `B7A` | TIC Gov. | 4.3.1 Estrutura de governança | 93,57 |
+| `B5A`, Plano estratégico de TI | TIC Gov. | 4.3.2 Estratégia e planejamento | 97,14 |
+| `B5A`, Plano ou estratégia de transformação digital ou governo digital | TIC Gov. | 4.3.2 Estratégia e planejamento | 79,29 |
 | `iESGo 2133` | iESGo | 4.3.1 Estrutura de governança | 76,42 |
 | `iESGo 2153` | iESGo | 4.3.1 Estrutura de governança | 59,89 |
 | `iESGo 3132C` | iESGo | 4.3.1 Estrutura de governança | 60,70 |

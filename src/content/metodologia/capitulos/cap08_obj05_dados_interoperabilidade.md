@@ -430,8 +430,6 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 
 ![Recorte Estadual do Objetivo 5](../graficos/recortes/cap08_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 13. Indicadores do Recorte Estadual do Objetivo 5, com a dimensão temática da pergunta e o valor estadual*
 
@@ -452,15 +450,13 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 36,2 (n=29; 41 itens).
 
-![Recorte Federal do Objetivo 5](../graficos/recortes/cap08_federal.png)
-
-*Tabela 14. Indicadores do Recorte Federal do Objetivo 5, com a dimensão temática da pergunta e o valor federal*
+*Tabela 14. Indicadores do Recorte Federal do Objetivo 5, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `B7B` | TIC Governo Eletrônico | 8.3.1 Governança de dados | 63,57 |
-| `B5A` | TIC Governo Eletrônico | 8.3.1 Governança de dados | 49,29 |
-| `H1` | TIC Governo Eletrônico | 8.3.5 Análise de dados e decisão | 37,14 |
+| `B7B` | TIC Gov. | 8.3.1 Governança de dados | 63,57 |
+| `B5A` | TIC Gov. | 8.3.1 Governança de dados | 49,29 |
+| `H1` | TIC Gov. | 8.3.5 Análise de dados e decisão | 37,14 |
 | `G333DI` | iGovSISP | 8.3.1 Governança de dados | 56,30 |
 | `G309DI` | iGovSISP | 8.3.1 Governança de dados | 53,36 |
 | `G321DI` | iGovSISP | 8.3.1 Governança de dados | 31,09 |

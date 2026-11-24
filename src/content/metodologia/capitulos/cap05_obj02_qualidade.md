@@ -737,8 +737,6 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 
 ![Recorte Estadual do Objetivo 2](../graficos/recortes/cap05_estadual.png)
 
-O Paraná não participou do IOSPD desta edição e não tem observação nessa fonte. Seu resultado utiliza somente as demais fontes disponíveis, sem dados de edição anterior, zeros ou imputação. Se não houver outra fonte no objetivo, não se publica escore do Paraná.
-
 <!-- federal:tabela-estadual -->
 *Tabela 5. Indicadores do Recorte Estadual do Objetivo 2, com a dimensão temática da pergunta e o valor estadual*
 
@@ -842,28 +840,26 @@ O Paraná não participou do IOSPD desta edição e não tem observação nessa 
 
 *Média Federal:* 62,6 (n=11; 21 itens).
 
-![Recorte Federal do Objetivo 2](../graficos/recortes/cap05_federal.png)
-
-*Tabela 7. Indicadores do Recorte Federal do Objetivo 2, com a dimensão temática da pergunta e o valor federal*
+*Tabela 7. Indicadores do Recorte Federal do Objetivo 2, com a dimensão temática da pergunta e o valor federal (TIC Gov.: TIC Governo Eletrônico)*
 
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
-| `C1` | TIC Governo Eletrônico | 5.3.1 Informação pública digital | 99,29 |
-| `C3` | TIC Governo Eletrônico | 5.3.2 Serviços transversais | 92,86 |
-| `E1`, Endereço de e-mail como forma de contato | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 96,43 |
-| `E1`, Formulário eletrônico como forma de contato | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 75,00 |
-| `E1`, Chat com atendentes em tempo real | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 32,14 |
-| `E1`, Denúncia online como forma de contato | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 90,71 |
-| `E1`, Serviço de solicitação de acesso à informação | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 90,00 |
-| `E1`, Canal de sugestões para melhoria de serviços públicos | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 84,29 |
-| `E1`, Atendimento automatizado por assistente virtual ou chatbot | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 36,43 |
-| `C6B`, Envio de SMS para o cidadão | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 17,86 |
-| `C6B`, Recebimento de SMS enviado pelo cidadão | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 11,43 |
-| `C6B`, Aplicativo criado pelo ente | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 57,86 |
-| `C6B`, Website adaptado para dispositivos móveis | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 83,57 |
-| `C6B`, Envio de mensagens por WhatsApp ou Telegram | TIC Governo Eletrônico | 5.3.7 Canais e atendimento multicanal | 38,57 |
-| `C10` | TIC Governo Eletrônico | 5.3.10 Satisfação e experiência do cidadão | 62,86 |
-| `C11` | TIC Governo Eletrônico | 5.3.10 Satisfação e experiência do cidadão | 55,71 |
+| `C1` | TIC Gov. | 5.3.1 Informação pública digital | 99,29 |
+| `C3` | TIC Gov. | 5.3.2 Serviços transversais | 92,86 |
+| `E1`, Endereço de e-mail como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 96,43 |
+| `E1`, Formulário eletrônico como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 75,00 |
+| `E1`, Chat com atendentes em tempo real | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 32,14 |
+| `E1`, Denúncia online como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 90,71 |
+| `E1`, Serviço de solicitação de acesso à informação | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 90,00 |
+| `E1`, Canal de sugestões para melhoria de serviços públicos | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 84,29 |
+| `E1`, Atendimento automatizado por assistente virtual ou chatbot | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 36,43 |
+| `C6B`, Envio de SMS para o cidadão | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 17,86 |
+| `C6B`, Recebimento de SMS enviado pelo cidadão | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 11,43 |
+| `C6B`, Aplicativo criado pelo ente | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 57,86 |
+| `C6B`, Website adaptado para dispositivos móveis | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 83,57 |
+| `C6B`, Envio de mensagens por WhatsApp ou Telegram | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 38,57 |
+| `C10` | TIC Gov. | 5.3.10 Satisfação e experiência do cidadão | 62,86 |
+| `C11` | TIC Gov. | 5.3.10 Satisfação e experiência do cidadão | 55,71 |
 | `G628IPD` | iGovSISP | 5.3.2 Serviços transversais | 68,91 |
 | `G632IPD` | iGovSISP | 5.3.7 Canais e atendimento multicanal | 42,86 |
 | `G226SPD` | iGovSISP | 5.3.9 Acessibilidade | 41,60 |
