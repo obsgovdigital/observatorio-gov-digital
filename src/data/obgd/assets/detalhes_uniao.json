@@ -59,20 +59,6 @@
     "categoria": "Total",
     "objetivo": 1,
     "objetivo_nome": "Governança do Governo Digital",
-    "concept_id": "iesgo/source/2123",
-    "fonte": "iesgo",
-    "indicador": "source/2123",
-    "sub_itens": "total",
-    "descricao": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
-    "escala": "prop_0_100",
-    "populacao": "orgaos_federais",
-    "valor_normalizado": 40.92,
-    "ano_fonte": 2024
-  },
-  {
-    "categoria": "Total",
-    "objetivo": 1,
-    "objetivo_nome": "Governança do Governo Digital",
     "concept_id": "iesgo/source/2133",
     "fonte": "iesgo",
     "indicador": "source/2133",
@@ -2014,6 +2000,20 @@
     "populacao": "orgaos_federais_sisp",
     "valor_normalizado": 17.23,
     "ano_fonte": 2026
+  },
+  {
+    "categoria": "Total",
+    "objetivo": 8,
+    "objetivo_nome": "Eficiência e Processos",
+    "concept_id": "iesgo/source/2123",
+    "fonte": "iesgo",
+    "indicador": "source/2123",
+    "sub_itens": "total",
+    "descricao": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
+    "escala": "prop_0_100",
+    "populacao": "orgaos_federais",
+    "valor_normalizado": 40.92,
+    "ano_fonte": 2024
   },
   {
     "categoria": "Total",

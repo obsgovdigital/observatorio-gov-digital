@@ -16,10 +16,10 @@ A Portaria SGD/MGI nº 5.395/2026 elenca cinco recomendações aos entes federad
 
 ## 7.2 Cobertura por nível federativo
 
-O Objetivo 4 conta com 43 variáveis ativas no índice (13 de TIC Governo Eletrônico (CETIC.br), 8 de TIC Saúde (CETIC.br), 3 de TIC Educação (CETIC.br), 9 de iESGo (TCU), 2 de IOSPD (ABEP-TIC), 4 de MUNIC (IBGE), 4 de ESTADIC (IBGE)), que entram na agregação como 30 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 6 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 4 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
+O Objetivo 4 conta com 43 variáveis ativas no índice (13 de TIC Governo Eletrônico (CETIC.br), 8 de TIC Saúde (CETIC.br), 3 de TIC Educação (CETIC.br), 9 de iESGo (TCU), 2 de IOSPD (ABEP-TIC), 4 de MUNIC (IBGE), 4 de ESTADIC (IBGE)), que entram na agregação como 30 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 6 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 4 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`. O iGovSISP não tem variável neste objetivo, porque a dimensão de privacidade e segurança do questionário não foi publicada (Seção 3.4.1).
 
 <!-- federal:cobertura -->
-No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (12 da TIC Governo Eletrônico (CETIC.br) e 9 do iESGo (TCU)), que entram na média do recorte como 13 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (12 da TIC Governo Eletrônico (CETIC.br) e 9 do iESGo (TCU)), que entram na média do recorte como 13 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 7.3 Dimensões
@@ -30,9 +30,9 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 ### 7.3.1 Governança e responsabilidades
 
-*Definição:* Existência de comitê e gestor institucional de segurança da informação, de área ou pessoa responsável pela LGPD, de regulamentação local que define papéis e responsabilidades. Corresponde às Recomendações 4.1 e 4.3.
+*Definição:* Existência de comitê e gestor institucional de segurança da informação, de área ou pessoa responsável pela LGPD, de encarregado pelo tratamento de dados pessoais nomeado e de regulamentação ou documento que define papéis e responsabilidades sobre a LGPD. Os itens de encarregado e de papéis integram as baterias LGPD da TIC Governo Eletrônico e da TIC Saúde, que atravessam esta dimensão e a de práticas LGPD (Seção 3.3.4). Corresponde às Recomendações 4.1 e 4.3.
 
-*Média Nacional:* 59,3 (n=8; 8 itens).
+*Média Nacional:* 52,7 (n=10; 11 itens).
 
 **Indicadores:**
 
@@ -43,17 +43,33 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Nacional): 58,78
   - Valor (Federal): 93,57
 
+- **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), este órgão público Nomeou o encarregado de dados pessoais? / Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), esta prefeitura Nomeou o encarregado de dados pessoais?
+  - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
+  - Valor (Nacional): 44,70
+  - Valor (Federal): 92,86
+
+- **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), esta prefeitura Possui documento formalmente instituído que identifica os papéis e as responsabilidades de áreas ou setores da prefeitura sobre a LGPD?
+  - *Normalização:* Proporção 0-100% sobre o universo de prefeituras, usada diretamente.
+  - Valor (Nacional): 33,94
+
+*TIC Saúde 2025 (CETIC.br):*
+
+- **A12**. Em relação a Lei Geral de Proteção de Dados Pessoais (LGPD), este estabelecimento Nomeou o encarregado de dados pessoais ou Data Protection Officer (DPO) do estabelecimento?
+  - *Contagem:* O valor é a proporção de respostas positivas na população indicada. Percentuais condicionados são recalculados sobre a população inteira, no mesmo estrato; quem ficou fora do filtro conta como resposta negativa, com leitura de piso.
+  - *Normalização:* Proporção 0-100%, usada diretamente
+  - Valor (Nacional): 13,14
+
 *iESGo 2024 (TCU):*
 
 - **iESGo 4242**. A organização dispõe de comitê de segurança da informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 66,67
   - Valor (Federal): 66,67
 
 - **iESGo 4243**. A organização possui um gestor institucional de segurança da informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 57,45
   - Valor (Federal): 57,45
 
@@ -90,6 +106,10 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Nacional): 66,67
   - Valor (Estadual): 66,67 (média de 27 UFs)
 
+*Bateria de práticas LGPD adotadas pelo órgão público ou pela prefeitura: esta seção apresenta 2 dos 6 itens da bateria; a média dimensional usa os itens desta seção, e o índice do objetivo agrega a bateria uma só vez (ver Capítulo 3).*
+
+*Bateria de práticas LGPD adotadas pelo estabelecimento de saúde: esta seção apresenta 1 dos 5 itens da bateria; a média dimensional usa o item desta seção, e o índice do objetivo agrega a bateria uma só vez (ver Capítulo 3).*
+
 ### 7.3.2 Planos, políticas e diagnóstico
 
 *Definição:* Existência de política de segurança da informação nas organizações federais e nos estabelecimentos de saúde. Essa política aproxima o planejamento de segurança, sem demonstrar o plano de ação abrangente ou todos os diagnósticos exigidos. Corresponde à Recomendação 4.2.
@@ -100,7 +120,7 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **B5A**. Agora gostaria de saber se este órgão possui os seguintes documentos formalmente instituídos, mesmo que tenham sido elaborados por outro órgão público. Este órgão público possui documento formalmente instituído dePlano de segurança da informação? E documento formalmente instituído de Plano de segurança da informação? / Agora gostaria de saber se a prefeitura em que o(a) sr.(a) trabalha possui os seguintes documentos formalmente instituídos. Esta prefeitura possui documento formalmente instituído dePlano de segurança da informação? E documento formalmente instituído de Plano de segurança da informação?
+- **B5A**. Agora gostaria de saber se este órgão possui os seguintes documentos formalmente instituídos, mesmo que tenham sido elaborados por outro órgão público. Este órgão público possui documento formalmente instituído de Plano de segurança da informação? E documento formalmente instituído de Plano de segurança da informação? / Agora gostaria de saber se a prefeitura em que o(a) sr.(a) trabalha possui os seguintes documentos formalmente instituídos. Esta prefeitura possui documento formalmente instituído de Plano de segurança da informação? E documento formalmente instituído de Plano de segurança da informação?
   - *Contagem:* O valor é a proporção de respostas positivas na população indicada. Percentuais condicionados são recalculados sobre a população inteira, no mesmo estrato; quem ficou fora do filtro conta como resposta negativa, com leitura de piso.
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 42,41
@@ -123,24 +143,19 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 - **iESGo 4241**. A organização dispõe de uma política de segurança da informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 75,61
   - Valor (Federal): 75,61
 
 ### 7.3.3 Proteção de dados pessoais: práticas LGPD
 
-*Definição:* Adoção das práticas substantivas exigidas pela LGPD: nomeação de encarregado pelo tratamento de dados pessoais (DPO), canal de atendimento para titulares, política de privacidade publicada, documento de papéis e responsabilidades sobre a lei, plano de resposta a incidentes envolvendo dados pessoais, campanha interna de conscientização e portal único com funcionalidade de consentimento. Corresponde à Recomendação 4.2 (vertente LGPD).
+*Definição:* Adoção das práticas substantivas exigidas pela LGPD: canal de atendimento para titulares, política de privacidade publicada, plano de resposta a incidentes envolvendo dados pessoais, programa de governança em privacidade e campanha interna de conscientização. A nomeação do encarregado e o documento de papéis e responsabilidades estão na Seção 7.3.1. Corresponde à Recomendação 4.2 (vertente LGPD).
 
-*Média Nacional:* 44,8 (n=4; 13 itens).
+*Média Nacional:* 46,0 (n=4; 10 itens).
 
 **Indicadores:**
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
-
-- **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), este órgão público Nomeou o encarregado de dados pessoais? / Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), esta prefeitura Nomeou o encarregado de dados pessoais?
-  - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
-  - Valor (Nacional): 44,70
-  - Valor (Federal): 92,86
 
 - **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), este órgão público Disponibilizou canais de atendimento pela Internet para os cidadãos enviarem mensagens sobre o uso de seus dados pessoais pelo órgão público? / Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), esta prefeitura Disponibilizou canais de atendimento pela Internet para os cidadãos enviarem mensagens sobre o uso de seus dados pessoais pela prefeitura?
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
@@ -151,10 +166,6 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - *Normalização:* Proporção 0-100% sobre o universo de órgãos públicos, usada diretamente; valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 52,05
   - Valor (Federal): 60,00
-
-- **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), esta prefeitura Possui documento formalmente instituído que identifica os papéis e as responsabilidades de áreas ou setores da prefeitura sobre a LGPD?
-  - *Normalização:* Proporção 0-100% sobre o universo de prefeituras, usada diretamente.
-  - Valor (Nacional): 33,94
 
 - **G3**. Em relação à Lei Geral de Proteção de Dados Pessoais (LGPD), este órgão público Implementou um plano de resposta a incidentes de segurança da informação relacionado a dados pessoais?
   - *Normalização:* Proporção 0-100% sobre o universo de órgãos públicos, usada diretamente; valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
@@ -167,11 +178,6 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Federal): 54,29
 
 *TIC Saúde 2025 (CETIC.br):*
-
-- **A12**. Em relação a Lei Geral de Proteção de Dados Pessoais (LGPD), este estabelecimento Nomeou o encarregado de dados pessoais ou Data Protection Officer (DPO) do estabelecimento?
-  - *Contagem:* O valor é a proporção de respostas positivas na população indicada. Percentuais condicionados são recalculados sobre a população inteira, no mesmo estrato; quem ficou fora do filtro conta como resposta negativa, com leitura de piso.
-  - *Normalização:* Proporção 0-100%, usada diretamente
-  - Valor (Nacional): 13,14
 
 - **A12**. Em relação a Lei Geral de Proteção de Dados Pessoais (LGPD), este estabelecimento Disponibilizou canais de atendimento pela Internet para os titulares dos dados enviarem mensagens sobre o uso de seus dados pessoais pelo estabelecimento?
   - *Contagem:* O valor é a proporção de respostas positivas na população indicada. Percentuais condicionados são recalculados sobre a população inteira, no mesmo estrato; quem ficou fora do filtro conta como resposta negativa, com leitura de piso.
@@ -209,10 +215,10 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
   - Valor (Estadual): 85,19 (média de 27 UFs)
 
 
-*Bateria de práticas LGPD adotadas pelo órgão público ou pela prefeitura: os 6 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*Bateria de práticas LGPD adotadas pelo órgão público ou pela prefeitura: esta seção apresenta 4 dos 6 itens da bateria; a média dimensional usa os itens desta seção, e o índice do objetivo agrega a bateria uma só vez (ver Capítulo 3).*
 
 
-*Bateria de práticas LGPD adotadas pelo estabelecimento de saúde: os 5 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
+*Bateria de práticas LGPD adotadas pelo estabelecimento de saúde: esta seção apresenta 4 dos 5 itens da bateria; a média dimensional usa os itens desta seção, e o índice do objetivo agrega a bateria uma só vez (ver Capítulo 3).*
 
 ### 7.3.4 Controles, riscos e auditoria
 
@@ -224,27 +230,27 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utilizaAutenticação por meio de uma senha forte? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utilizaAutenticação por meio de uma senha forte?:
+- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utiliza Autenticação por meio de uma senha forte? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utiliza Autenticação por meio de uma senha forte?:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 81,26
   - Valor (Federal): 97,86
 
-- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utilizaBackup? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utilizaBackup?:
+- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utiliza Backup? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utiliza Backup?:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 77,83
   - Valor (Federal): 82,14
 
-- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utilizaRede virtual privada (VPN)? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utilizaRede virtual privada (VPN)?:
+- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utiliza Rede virtual privada (VPN)? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utiliza Rede virtual privada (VPN)?:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 62,85
   - Valor (Federal): 96,43
 
-- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utilizaSistemas de detecção ou prevenção de atividades suspeitas? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utilizaSistemas de detecção ou prevenção de atividades suspeitas?:
+- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utiliza Sistemas de detecção ou prevenção de atividades suspeitas? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utiliza Sistemas de detecção ou prevenção de atividades suspeitas?:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 69,20
   - Valor (Federal): 94,29
 
-- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utilizaTestes de segurança? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utilizaTestes de segurança?:
+- **B13**. Agora gostaria de saber se este órgão público utiliza alguma das seguintes medidas de segurança digital para acesso a dados e sistemas. Este órgão público utiliza Testes de segurança? / Agora gostaria de saber se esta prefeitura utiliza alguma das seguintes medidas de segurança digital em seus sistemas. Esta prefeitura utiliza Testes de segurança?:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 57,98
   - Valor (Federal): 80,00
@@ -260,31 +266,31 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 - **iESGo 4231**. A organização executa processo de gestão dos riscos de tecnologia da informação relativos a processos de negócio
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 43,90
   - Valor (Federal): 43,90
 
 - **iESGo 4232**. A organização executa processo de gestão de riscos de segurança da informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 44,72
   - Valor (Federal): 44,72
 
 - **iESGo 4251**. A organização executa processo de controle de acesso à informação e aos ativos associados à informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 53,39
   - Valor (Federal): 53,39
 
 - **iESGo 4252**. A organização executa processo para classificação e tratamento de informações
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 46,07
   - Valor (Federal): 46,07
 
 - **iESGo 4253**. A organização executa atividades de gestão da segurança dos recursos de processamento da informação, inclusive dos recursos de computação em nuvem
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 60,43
   - Valor (Federal): 60,43
 
@@ -300,7 +306,7 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 
 - **iESGo 4233**. A organização executa processo de gestão de continuidade de serviços de tecnologia da informação
   - *Contagem:* O valor é a proporção das 369 organizações respondentes, sem as 18 do Poder "Paraestatal", que receberam do TCU nota a partir de 0,4 na questão, o limite inferior do estágio intermediário de capacidade. A nota vai de 0 a 1: parte da categoria de adoção declarada (não adota = 0; há decisão formal ou plano = 0,05; adota em menor parte = 0,15; adota parcialmente = 0,5; adota em grande parte ou totalmente = 1) e desconta as subquestões não marcadas.
-  - *Normalização:* Proporção 0-100%, usada diretamente
+  - *Normalização:* Proporção 0-100%, usada diretamente; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 28,73
   - Valor (Federal): 28,73
 
@@ -403,8 +409,8 @@ As 43 variáveis ativas do Objetivo 4 foram organizadas em seis dimensões temá
 | Código | Fonte | Pergunta na dimensão | Valor (Federal) |
 |---|---|---|---:|
 | `G1` | TIC Gov. | 7.3.1 Governança e responsabilidades | 93,57 |
+| `G3`, Nomeação de encarregado de dados pessoais (DPO) | TIC Gov. | 7.3.1 Governança e responsabilidades | 92,86 |
 | `B5A` | TIC Gov. | 7.3.2 Planos, políticas e diagnóstico | 89,29 |
-| `G3`, Nomeação de encarregado de dados pessoais (DPO) | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 92,86 |
 | `G3`, Canal online sobre o uso de dados pessoais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 78,57 |
 | `G3`, Política de privacidade publicada com bases legais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 60,00 |
 | `G3`, Plano de resposta a incidentes relacionados a dados pessoais | TIC Gov. | 7.3.3 Proteção de dados pessoais: práticas LGPD | 54,29 |

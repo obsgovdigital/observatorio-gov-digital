@@ -18,16 +18,16 @@ A Portaria SGD/MGI nº 5.395/2026 elenca quatro recomendações aos entes federa
 O Objetivo 9 conta com 17 variáveis ativas no índice (2 de TIC Governo Eletrônico (CETIC.br), 1 de IOSPD (ABEP-TIC), 6 de MUNIC (IBGE), 7 de ESTADIC (IBGE), 1 de iGovSISP (SGD/MGI)), que entram na agregação como 17 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 8 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 6 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
 
 <!-- federal:cobertura -->
-No recorte federal, 3 variáveis do objetivo têm observação dos órgãos federais (2 da TIC Governo Eletrônico (CETIC.br) e 1 do iGovSISP (SGD/MGI)), que entram na média do recorte como 3 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 3 variáveis do objetivo têm observação dos órgãos federais (2 da TIC Governo Eletrônico (CETIC.br) e 1 do iGovSISP (SGD/MGI)), que entram na média do recorte como 3 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 12.3 Dimensões
 
-As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. As dimensões temáticas seguem diretamente as recomendações da Portaria: transparência ativa e dados abertos, acesso à informação (LAI), participação social e transparência no uso de inteligência artificial. Os recortes agregam as variáveis com observação por UF, por capital e dos órgãos federais, única exceção à regra de não-repetição entre dimensões. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. As dimensões temáticas seguem diretamente as recomendações da Portaria: transparência ativa, acesso à informação (LAI), participação social e transparência no uso de inteligência artificial. Os recortes agregam as variáveis com observação por UF, por capital e dos órgãos federais, única exceção à regra de não-repetição entre dimensões. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 9](../graficos/dimensoes/cap12.png)
 
-### 12.3.1 Transparência ativa e dados abertos
+### 12.3.1 Transparência ativa
 
 *Definição:* Existência e abrangência de canais públicos de divulgação proativa de informações governamentais: portais da transparência, controle interno publicado, divulgação de informações orçamentárias e financeiras. Corresponde às Recomendações 9.2 e 9.3.
 
@@ -196,7 +196,7 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
   - Valor (Nacional): 51,85
   - Valor (Estadual): 51,85 (média de 27 UFs)
 
-### 12.3.4 Transparência no uso de inteligência artificial
+### 12.3.4 Transparência no uso de inteligência artificial nos órgãos federais
 
 *Definição:* Abordagem institucional de divulgação e transparência das aplicações de inteligência artificial. Corresponde à Recomendação 9.4.
 
@@ -207,7 +207,7 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G400DI**. Qual das seguintes opções melhor descreve a abordagem do seu órgão em relação à transparência das aplicações de IA?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 16,39
   - Valor (Federal): 16,39
 
@@ -225,9 +225,9 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
 | Código | Fonte | Pergunta na dimensão | Valor (Estadual) |
 |---|---|---|---:|
 | `4.8` | IOSPD | 12.3.3 Participação social e cocriação | 80,77 |
-| `Egov081-Egov0811` | ESTADIC | 12.3.1 Transparência ativa e dados abertos | 86,01 |
-| `Egov061` | ESTADIC | 12.3.1 Transparência ativa e dados abertos | 88,89 |
-| `Egov241-Egov248` | ESTADIC | 12.3.1 Transparência ativa e dados abertos | 65,74 |
+| `Egov081-Egov0811` | ESTADIC | 12.3.1 Transparência ativa | 86,01 |
+| `Egov061` | ESTADIC | 12.3.1 Transparência ativa | 88,89 |
+| `Egov241-Egov248` | ESTADIC | 12.3.1 Transparência ativa | 65,74 |
 | `Egov021-Egov028` | ESTADIC | 12.3.2 Acesso à informação (LAI) | 85,19 |
 | `Egov031-Egov036` | ESTADIC | 12.3.2 Acesso à informação (LAI) | 65,93 |
 | `Etic231-Etic235` | ESTADIC | 12.3.3 Participação social e cocriação | 88,89 |
@@ -247,8 +247,8 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
 
 | Código | Fonte | Pergunta na dimensão | Valor (Capitais) |
 |---|---|---|---:|
-| `Mtic271` | MUNIC | 12.3.1 Transparência ativa e dados abertos | 100,00 |
-| `Mtic12a6` | MUNIC | 12.3.1 Transparência ativa e dados abertos | 100,00 |
+| `Mtic271` | MUNIC | 12.3.1 Transparência ativa | 100,00 |
+| `Mtic12a6` | MUNIC | 12.3.1 Transparência ativa | 100,00 |
 | `Mgov01` | MUNIC | 12.3.2 Acesso à informação (LAI) | 100,00 |
 | `Mgov05` | MUNIC | 12.3.2 Acesso à informação (LAI) | 50,00 |
 | `Mtic251-Mtic255` | MUNIC | 12.3.3 Participação social e cocriação | 81,48 |
@@ -268,5 +268,5 @@ As 17 variáveis ativas do Objetivo 9 foram organizadas em quatro dimensões tem
 |---|---|---|---:|
 | `E2A` | TIC Gov. | 12.3.3 Participação social e cocriação | 94,29 |
 | `E4A` | TIC Gov. | 12.3.3 Participação social e cocriação | 54,29 |
-| `G400DI` | iGovSISP | 12.3.4 Transparência no uso de inteligência artificial | 16,39 |
+| `G400DI` | iGovSISP | 12.3.4 Transparência no uso de inteligência artificial nos órgãos federais | 16,39 |
 <!-- /federal:secao -->

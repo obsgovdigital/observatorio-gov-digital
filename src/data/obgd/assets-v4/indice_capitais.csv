@@ -1,270 +1,270 @@
 categoria,objetivo,objetivo_nome,sub_indice,n,n_itens
 RO,1,Governança do Governo Digital,100.0,1,1
-RO,2,Qualidade dos Serviços Digitais,64.11,28,35
+RO,2,Qualidade dos Serviços Digitais,61.35,26,33
 RO,3,Identificação Única,50.0,1,1
 RO,4,Segurança e LGPD,100.0,4,4
 RO,5,Dados e Interoperabilidade,0.0,1,1
-RO,6,Infraestrutura,85.66,10,14
+RO,6,Infraestrutura,88.05,12,16
 RO,7,Inovação e Tecnologias Emergentes,,0,0
 RO,8,Eficiência e Processos,,0,0
 RO,9,Transparência e Participação,100.0,6,6
 RO,10,Competências em Governo Digital,,0,0
 AC,1,Governança do Governo Digital,100.0,1,1
-AC,2,Qualidade dos Serviços Digitais,41.96,28,35
+AC,2,Qualidade dos Serviços Digitais,37.5,26,33
 AC,3,Identificação Única,0.0,1,1
 AC,4,Segurança e LGPD,25.0,4,4
 AC,5,Dados e Interoperabilidade,0.0,1,1
-AC,6,Infraestrutura,84.78,10,14
+AC,6,Infraestrutura,87.32,12,16
 AC,7,Inovação e Tecnologias Emergentes,,0,0
 AC,8,Eficiência e Processos,,0,0
 AC,9,Transparência e Participação,100.0,6,6
 AC,10,Competências em Governo Digital,,0,0
 AM,1,Governança do Governo Digital,100.0,1,1
-AM,2,Qualidade dos Serviços Digitais,88.57,28,35
+AM,2,Qualidade dos Serviços Digitais,87.69,26,33
 AM,3,Identificação Única,100.0,1,1
 AM,4,Segurança e LGPD,100.0,4,4
 AM,5,Dados e Interoperabilidade,100.0,1,1
-AM,6,Infraestrutura,97.35,10,14
+AM,6,Infraestrutura,97.79,12,16
 AM,7,Inovação e Tecnologias Emergentes,,0,0
 AM,8,Eficiência e Processos,,0,0
 AM,9,Transparência e Participação,83.33,6,6
 AM,10,Competências em Governo Digital,,0,0
 RR,1,Governança do Governo Digital,100.0,1,1
-RR,2,Qualidade dos Serviços Digitais,81.25,28,35
+RR,2,Qualidade dos Serviços Digitais,79.81,26,33
 RR,3,Identificação Única,50.0,1,1
 RR,4,Segurança e LGPD,50.0,4,4
 RR,5,Dados e Interoperabilidade,0.0,1,1
-RR,6,Infraestrutura,46.05,10,14
+RR,6,Infraestrutura,55.04,12,16
 RR,7,Inovação e Tecnologias Emergentes,,0,0
 RR,8,Eficiência e Processos,,0,0
 RR,9,Transparência e Participação,83.33,6,6
 RR,10,Competências em Governo Digital,,0,0
 PA,1,Governança do Governo Digital,100.0,1,1
-PA,2,Qualidade dos Serviços Digitais,72.68,28,35
+PA,2,Qualidade dos Serviços Digitais,70.58,26,33
 PA,3,Identificação Única,0.0,1,1
 PA,4,Segurança e LGPD,0.0,4,4
 PA,5,Dados e Interoperabilidade,0.0,1,1
-PA,6,Infraestrutura,75.02,10,14
+PA,6,Infraestrutura,79.18,12,16
 PA,7,Inovação e Tecnologias Emergentes,,0,0
 PA,8,Eficiência e Processos,,0,0
 PA,9,Transparência e Participação,66.67,6,6
 PA,10,Competências em Governo Digital,,0,0
 AP,1,Governança do Governo Digital,100.0,1,1
-AP,2,Qualidade dos Serviços Digitais,91.96,28,35
+AP,2,Qualidade dos Serviços Digitais,91.35,26,33
 AP,3,Identificação Única,0.0,1,1
 AP,4,Segurança e LGPD,50.0,4,4
 AP,5,Dados e Interoperabilidade,100.0,1,1
-AP,6,Infraestrutura,74.2,10,14
+AP,6,Infraestrutura,78.5,12,16
 AP,7,Inovação e Tecnologias Emergentes,,0,0
 AP,8,Eficiência e Processos,,0,0
 AP,9,Transparência e Participação,83.33,6,6
 AP,10,Competências em Governo Digital,,0,0
 TO,1,Governança do Governo Digital,100.0,1,1
-TO,2,Qualidade dos Serviços Digitais,54.29,28,35
+TO,2,Qualidade dos Serviços Digitais,54.62,26,33
 TO,3,Identificação Única,0.0,1,1
 TO,4,Segurança e LGPD,50.0,4,4
 TO,5,Dados e Interoperabilidade,0.0,1,1
-TO,6,Infraestrutura,46.6,10,14
+TO,6,Infraestrutura,47.17,12,16
 TO,7,Inovação e Tecnologias Emergentes,,0,0
 TO,8,Eficiência e Processos,,0,0
 TO,9,Transparência e Participação,83.33,6,6
 TO,10,Competências em Governo Digital,,0,0
 MA,1,Governança do Governo Digital,100.0,1,1
-MA,2,Qualidade dos Serviços Digitais,84.29,28,35
+MA,2,Qualidade dos Serviços Digitais,83.08,26,33
 MA,3,Identificação Única,0.0,1,1
 MA,4,Segurança e LGPD,75.0,4,4
 MA,5,Dados e Interoperabilidade,100.0,1,1
-MA,6,Infraestrutura,66.45,10,14
+MA,6,Infraestrutura,72.04,12,16
 MA,7,Inovação e Tecnologias Emergentes,,0,0
 MA,8,Eficiência e Processos,,0,0
 MA,9,Transparência e Participação,66.67,6,6
 MA,10,Competências em Governo Digital,,0,0
 PI,1,Governança do Governo Digital,100.0,1,1
-PI,2,Qualidade dos Serviços Digitais,77.68,28,35
+PI,2,Qualidade dos Serviços Digitais,75.96,26,33
 PI,3,Identificação Única,0.0,1,1
 PI,4,Segurança e LGPD,100.0,4,4
 PI,5,Dados e Interoperabilidade,0.0,1,1
-PI,6,Infraestrutura,96.27,10,14
+PI,6,Infraestrutura,96.89,12,16
 PI,7,Inovação e Tecnologias Emergentes,,0,0
 PI,8,Eficiência e Processos,,0,0
 PI,9,Transparência e Participação,50.0,6,6
 PI,10,Competências em Governo Digital,,0,0
 CE,1,Governança do Governo Digital,100.0,1,1
-CE,2,Qualidade dos Serviços Digitais,81.96,28,35
+CE,2,Qualidade dos Serviços Digitais,80.58,26,33
 CE,3,Identificação Única,50.0,1,1
 CE,4,Segurança e LGPD,100.0,4,4
 CE,5,Dados e Interoperabilidade,100.0,1,1
-CE,6,Infraestrutura,78.41,10,14
+CE,6,Infraestrutura,82.01,12,16
 CE,7,Inovação e Tecnologias Emergentes,,0,0
 CE,8,Eficiência e Processos,,0,0
 CE,9,Transparência e Participação,66.67,6,6
 CE,10,Competências em Governo Digital,,0,0
 RN,1,Governança do Governo Digital,100.0,1,1
-RN,2,Qualidade dos Serviços Digitais,79.82,28,35
+RN,2,Qualidade dos Serviços Digitais,78.27,26,33
 RN,3,Identificação Única,0.0,1,1
 RN,4,Segurança e LGPD,25.0,4,4
 RN,5,Dados e Interoperabilidade,100.0,1,1
-RN,6,Infraestrutura,77.36,10,14
+RN,6,Infraestrutura,81.13,12,16
 RN,7,Inovação e Tecnologias Emergentes,,0,0
 RN,8,Eficiência e Processos,,0,0
 RN,9,Transparência e Participação,75.0,6,6
 RN,10,Competências em Governo Digital,,0,0
 PB,1,Governança do Governo Digital,100.0,1,1
-PB,2,Qualidade dos Serviços Digitais,94.29,28,35
+PB,2,Qualidade dos Serviços Digitais,93.85,26,33
 PB,3,Identificação Única,50.0,1,1
 PB,4,Segurança e LGPD,50.0,4,4
 PB,5,Dados e Interoperabilidade,100.0,1,1
-PB,6,Infraestrutura,66.84,10,14
+PB,6,Infraestrutura,72.36,12,16
 PB,7,Inovação e Tecnologias Emergentes,,0,0
 PB,8,Eficiência e Processos,,0,0
 PB,9,Transparência e Participação,83.33,6,6
 PB,10,Competências em Governo Digital,,0,0
 PE,1,Governança do Governo Digital,100.0,1,1
-PE,2,Qualidade dos Serviços Digitais,84.29,28,35
+PE,2,Qualidade dos Serviços Digitais,83.08,26,33
 PE,3,Identificação Única,50.0,1,1
 PE,4,Segurança e LGPD,100.0,4,4
 PE,5,Dados e Interoperabilidade,100.0,1,1
-PE,6,Infraestrutura,97.73,10,14
+PE,6,Infraestrutura,98.11,12,16
 PE,7,Inovação e Tecnologias Emergentes,,0,0
 PE,8,Eficiência e Processos,,0,0
 PE,9,Transparência e Participação,83.33,6,6
 PE,10,Competências em Governo Digital,,0,0
 AL,1,Governança do Governo Digital,100.0,1,1
-AL,2,Qualidade dos Serviços Digitais,57.5,28,35
+AL,2,Qualidade dos Serviços Digitais,54.23,26,33
 AL,3,Identificação Única,0.0,1,1
 AL,4,Segurança e LGPD,50.0,4,4
 AL,5,Dados e Interoperabilidade,0.0,1,1
-AL,6,Infraestrutura,86.39,10,14
+AL,6,Infraestrutura,88.66,12,16
 AL,7,Inovação e Tecnologias Emergentes,,0,0
 AL,8,Eficiência e Processos,,0,0
 AL,9,Transparência e Participação,83.33,6,6
 AL,10,Competências em Governo Digital,,0,0
 SE,1,Governança do Governo Digital,100.0,1,1
-SE,2,Qualidade dos Serviços Digitais,70.54,28,35
+SE,2,Qualidade dos Serviços Digitais,68.27,26,33
 SE,3,Identificação Única,0.0,1,1
 SE,4,Segurança e LGPD,75.0,4,4
 SE,5,Dados e Interoperabilidade,100.0,1,1
-SE,6,Infraestrutura,87.68,10,14
+SE,6,Infraestrutura,89.74,12,16
 SE,7,Inovação e Tecnologias Emergentes,,0,0
 SE,8,Eficiência e Processos,,0,0
 SE,9,Transparência e Participação,50.0,6,6
 SE,10,Competências em Governo Digital,,0,0
 BA,1,Governança do Governo Digital,100.0,1,1
-BA,2,Qualidade dos Serviços Digitais,95.71,28,35
+BA,2,Qualidade dos Serviços Digitais,95.38,26,33
 BA,3,Identificação Única,50.0,1,1
 BA,4,Segurança e LGPD,100.0,4,4
 BA,5,Dados e Interoperabilidade,100.0,1,1
-BA,6,Infraestrutura,96.38,10,14
+BA,6,Infraestrutura,96.99,12,16
 BA,7,Inovação e Tecnologias Emergentes,,0,0
 BA,8,Eficiência e Processos,,0,0
 BA,9,Transparência e Participação,66.67,6,6
 BA,10,Competências em Governo Digital,,0,0
 MG,1,Governança do Governo Digital,100.0,1,1
-MG,2,Qualidade dos Serviços Digitais,100.0,28,35
+MG,2,Qualidade dos Serviços Digitais,100.0,26,33
 MG,3,Identificação Única,50.0,1,1
 MG,4,Segurança e LGPD,100.0,4,4
 MG,5,Dados e Interoperabilidade,100.0,1,1
-MG,6,Infraestrutura,98.76,10,14
+MG,6,Infraestrutura,98.97,12,16
 MG,7,Inovação e Tecnologias Emergentes,,0,0
 MG,8,Eficiência e Processos,,0,0
 MG,9,Transparência e Participação,66.67,6,6
 MG,10,Competências em Governo Digital,,0,0
 ES,1,Governança do Governo Digital,100.0,1,1
-ES,2,Qualidade dos Serviços Digitais,82.14,28,35
+ES,2,Qualidade dos Serviços Digitais,84.62,26,33
 ES,3,Identificação Única,0.0,1,1
 ES,4,Segurança e LGPD,75.0,4,4
 ES,5,Dados e Interoperabilidade,100.0,1,1
-ES,6,Infraestrutura,78.33,10,14
+ES,6,Infraestrutura,73.61,12,16
 ES,7,Inovação e Tecnologias Emergentes,,0,0
 ES,8,Eficiência e Processos,,0,0
 ES,9,Transparência e Participação,83.33,6,6
 ES,10,Competências em Governo Digital,,0,0
 RJ,1,Governança do Governo Digital,100.0,1,1
-RJ,2,Qualidade dos Serviços Digitais,79.82,28,35
+RJ,2,Qualidade dos Serviços Digitais,78.27,26,33
 RJ,3,Identificação Única,50.0,1,1
 RJ,4,Segurança e LGPD,100.0,4,4
 RJ,5,Dados e Interoperabilidade,100.0,1,1
-RJ,6,Infraestrutura,87.16,10,14
+RJ,6,Infraestrutura,89.3,12,16
 RJ,7,Inovação e Tecnologias Emergentes,,0,0
 RJ,8,Eficiência e Processos,,0,0
 RJ,9,Transparência e Participação,83.33,6,6
 RJ,10,Competências em Governo Digital,,0,0
 SP,1,Governança do Governo Digital,100.0,1,1
-SP,2,Qualidade dos Serviços Digitais,73.39,28,35
+SP,2,Qualidade dos Serviços Digitais,71.35,26,33
 SP,3,Identificação Única,0.0,1,1
 SP,4,Segurança e LGPD,100.0,4,4
 SP,5,Dados e Interoperabilidade,100.0,1,1
-SP,6,Infraestrutura,97.37,10,14
+SP,6,Infraestrutura,97.81,12,16
 SP,7,Inovação e Tecnologias Emergentes,,0,0
 SP,8,Eficiência e Processos,,0,0
 SP,9,Transparência e Participação,100.0,6,6
 SP,10,Competências em Governo Digital,,0,0
 PR,1,Governança do Governo Digital,100.0,1,1
-PR,2,Qualidade dos Serviços Digitais,100.0,28,35
+PR,2,Qualidade dos Serviços Digitais,100.0,26,33
 PR,3,Identificação Única,50.0,1,1
 PR,4,Segurança e LGPD,100.0,4,4
 PR,5,Dados e Interoperabilidade,100.0,1,1
-PR,6,Infraestrutura,88.68,10,14
+PR,6,Infraestrutura,90.57,12,16
 PR,7,Inovação e Tecnologias Emergentes,,0,0
 PR,8,Eficiência e Processos,,0,0
 PR,9,Transparência e Participação,66.67,6,6
 PR,10,Competências em Governo Digital,,0,0
 SC,1,Governança do Governo Digital,100.0,1,1
-SC,2,Qualidade dos Serviços Digitais,75.71,28,35
+SC,2,Qualidade dos Serviços Digitais,73.85,26,33
 SC,3,Identificação Única,50.0,1,1
 SC,4,Segurança e LGPD,100.0,4,4
 SC,5,Dados e Interoperabilidade,0.0,1,1
-SC,6,Infraestrutura,57.1,10,14
+SC,6,Infraestrutura,64.25,12,16
 SC,7,Inovação e Tecnologias Emergentes,,0,0
 SC,8,Eficiência e Processos,,0,0
 SC,9,Transparência e Participação,83.33,6,6
 SC,10,Competências em Governo Digital,,0,0
 RS,1,Governança do Governo Digital,100.0,1,1
-RS,2,Qualidade dos Serviços Digitais,90.54,28,35
+RS,2,Qualidade dos Serviços Digitais,89.81,26,33
 RS,3,Identificação Única,0.0,1,1
 RS,4,Segurança e LGPD,100.0,4,4
 RS,5,Dados e Interoperabilidade,100.0,1,1
-RS,6,Infraestrutura,88.06,10,14
+RS,6,Infraestrutura,90.05,12,16
 RS,7,Inovação e Tecnologias Emergentes,,0,0
 RS,8,Eficiência e Processos,,0,0
 RS,9,Transparência e Participação,83.33,6,6
 RS,10,Competências em Governo Digital,,0,0
 MS,1,Governança do Governo Digital,100.0,1,1
-MS,2,Qualidade dos Serviços Digitais,72.14,28,35
+MS,2,Qualidade dos Serviços Digitais,70.0,26,33
 MS,3,Identificação Única,0.0,1,1
 MS,4,Segurança e LGPD,50.0,4,4
 MS,5,Dados e Interoperabilidade,100.0,1,1
-MS,6,Infraestrutura,87.05,10,14
+MS,6,Infraestrutura,89.21,12,16
 MS,7,Inovação e Tecnologias Emergentes,,0,0
 MS,8,Eficiência e Processos,,0,0
 MS,9,Transparência e Participação,66.67,6,6
 MS,10,Competências em Governo Digital,,0,0
 MT,1,Governança do Governo Digital,100.0,1,1
-MT,2,Qualidade dos Serviços Digitais,79.11,28,35
+MT,2,Qualidade dos Serviços Digitais,77.5,26,33
 MT,3,Identificação Única,0.0,1,1
 MT,4,Segurança e LGPD,100.0,4,4
 MT,5,Dados e Interoperabilidade,100.0,1,1
-MT,6,Infraestrutura,76.63,10,14
+MT,6,Infraestrutura,80.52,12,16
 MT,7,Inovação e Tecnologias Emergentes,,0,0
 MT,8,Eficiência e Processos,,0,0
 MT,9,Transparência e Participação,83.33,6,6
 MT,10,Competências em Governo Digital,,0,0
 GO,1,Governança do Governo Digital,100.0,1,1
-GO,2,Qualidade dos Serviços Digitais,60.71,28,35
+GO,2,Qualidade dos Serviços Digitais,57.69,26,33
 GO,3,Identificação Única,0.0,1,1
 GO,4,Segurança e LGPD,0.0,4,4
 GO,5,Dados e Interoperabilidade,100.0,1,1
-GO,6,Infraestrutura,77.59,10,14
+GO,6,Infraestrutura,81.32,12,16
 GO,7,Inovação e Tecnologias Emergentes,,0,0
 GO,8,Eficiência e Processos,,0,0
 GO,9,Transparência e Participação,83.33,6,6
 GO,10,Competências em Governo Digital,,0,0
 DF,1,Governança do Governo Digital,100.0,1,1
-DF,2,Qualidade dos Serviços Digitais,95.71,28,35
+DF,2,Qualidade dos Serviços Digitais,95.38,26,33
 DF,3,Identificação Única,50.0,1,1
 DF,4,Segurança e LGPD,100.0,4,4
 DF,5,Dados e Interoperabilidade,100.0,1,1
-DF,6,Infraestrutura,86.93,10,14
+DF,6,Infraestrutura,89.11,12,16
 DF,7,Inovação e Tecnologias Emergentes,,0,0
 DF,8,Eficiência e Processos,,0,0
 DF,9,Transparência e Participação,83.33,6,6

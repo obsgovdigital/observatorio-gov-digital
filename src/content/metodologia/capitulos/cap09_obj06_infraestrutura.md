@@ -18,15 +18,15 @@ A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federado
 
 ## 9.2 Cobertura por nível federativo
 
-O Objetivo 6 conta com 43 variáveis ativas no índice (9 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 2 de IOSPD (ABEP-TIC), 5 de Censo Escolar (INEP), 1 de PNAD Contínua TIC (IBGE), 1 de Cobertura móvel (ANATEL), 8 de MUNIC (IBGE), 2 de ESTADIC (IBGE), 10 de iGovSISP (SGD/MGI)), que entram na agregação como 32 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 4 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 14 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
+O Objetivo 6 conta com 46 variáveis ativas no índice (9 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 2 de IOSPD (ABEP-TIC), 5 de Censo Escolar (INEP), 1 de PNAD Contínua TIC (IBGE), 1 de Cobertura móvel (ANATEL), 10 de MUNIC (IBGE), 3 de ESTADIC (IBGE), 10 de iGovSISP (SGD/MGI)), que entram na agregação como 35 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 5 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 16 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
 
 <!-- federal:cobertura -->
-No recorte federal, 12 variáveis do objetivo têm observação dos órgãos federais (2 da TIC Governo Eletrônico (CETIC.br) e 10 do iGovSISP (SGD/MGI)), que entram na média do recorte como 10 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 12 variáveis do objetivo têm observação dos órgãos federais (2 da TIC Governo Eletrônico (CETIC.br) e 10 do iGovSISP (SGD/MGI)), que entram na média do recorte como 10 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 9.3 Dimensões
 
-As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. A primeira dimensão temática cobre a conectividade do ambiente brasileiro (acesso da população à Internet, pré-condição do governo digital, não enunciada pelas recomendações). As três seguintes cobrem aspectos diretamente enunciados pela Portaria: infraestrutura digital nas escolas, conectividade pública em equipamentos públicos, e plataformas digitais e armazenamento de dados. A quinta agrupa indicadores de maturidade operacional da rede de TI nos órgãos federais (autodiagnóstico SISP), que correspondem à infraestrutura de rede da Recomendação 6.4 vista de dentro dos órgãos. A sexta agrupa programas formais de inclusão digital ao cidadão, aspecto não enunciado pelas recomendações, complementando a conectividade em equipamentos públicos com a face programática. A sétima cobre a infraestrutura urbana inteligente das prefeituras, soluções digitais aplicadas à operação urbana municipal, aspecto não enunciado pelas recomendações. A oitava reúne guias e orientações institucionais para uso de inteligência artificial, correspondentes à Recomendação 6.6. Os recortes consolidam, respectivamente, as quatro variáveis com observação por UF e as quatorze variáveis com observação por capital para leitura subnacional. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 46 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. A primeira dimensão temática cobre a conectividade do ambiente brasileiro (acesso da população à Internet, pré-condição do governo digital, não enunciada pelas recomendações). As três seguintes correspondem a recomendações da Portaria: infraestrutura digital nas escolas, por aproximação à infraestrutura de rede em órgãos públicos da Recomendação 6.4, conectividade pública em equipamentos públicos, e plataformas digitais e armazenamento de dados. A quinta agrupa indicadores de maturidade operacional da rede de TI nos órgãos federais (autodiagnóstico SISP), que correspondem à infraestrutura de rede da Recomendação 6.4 vista de dentro dos órgãos. A sexta agrupa programas formais de inclusão digital ao cidadão, aspecto não enunciado pelas recomendações, complementando a conectividade em equipamentos públicos com a face programática. A sétima cobre a infraestrutura urbana inteligente, soluções digitais aplicadas à operação urbana e ao transporte público nas prefeituras e o bilhete único dos governos estaduais, aspecto não enunciado pelas recomendações. A oitava reúne guias e orientações institucionais para uso de inteligência artificial, correspondentes à Recomendação 6.6. Os recortes consolidam, respectivamente, as cinco variáveis com observação por UF e as dezesseis variáveis com observação por capital para leitura subnacional. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 6](../graficos/dimensoes/cap09.png)
 
@@ -53,7 +53,7 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 ### 9.3.2 Infraestrutura digital nas escolas
 
-*Definição:* Recursos digitais nas unidades escolares: acesso à Internet, computadores, laboratório de informática, finalidades de uso (alunos, processo de ensino-aprendizagem) e uso de ambientes digitais de aprendizagem e avaliação, acesso dos alunos aos recursos fora do horário de aula e acesso de familiares e da comunidade. Combina o universo das escolas públicas em atividade do Censo Escolar (INEP) com o levantamento amostral TIC Educação. Corresponde à Recomendação 6.4 (ampliar e melhorar a infraestrutura de rede em órgãos públicos, especialmente em locais de grande demanda).
+*Definição:* Recursos digitais nas unidades escolares: acesso à Internet, computadores, laboratório de informática, finalidades de uso (alunos, processo de ensino-aprendizagem) e uso de ambientes digitais de aprendizagem e avaliação, acesso dos alunos aos recursos fora do horário de aula e acesso de familiares e da comunidade. Combina o universo das escolas públicas em atividade do Censo Escolar (INEP) com o levantamento amostral TIC Educação. Corresponde à Recomendação 6.4 (ampliar e melhorar a infraestrutura de rede em órgãos públicos, especialmente em locais de grande demanda), por aproximação: a recomendação fala de órgãos públicos e não menciona escolas.
 
 *Média Nacional:* 54,3 (n=5; 9 itens).
 
@@ -177,30 +177,30 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G625IPD**. Em relação à computação em nuvem, como você classificaria seu órgão ou órgão governamental em termos de maturidade na adoção da nuvem?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 34,87
   - Valor (Federal): 34,87
   - *Estágio positivo mínimo:* Intermediário: O órgão utiliza a nuvem em alguns aspectos, mas não de forma abrangente em todos os setores.
 
 - **G637IPD**. Acerca da Portaria SGD/MGI nº 5.950, de 26 de outubro de 2023, que estabelece modelo de contratação de software e de serviços de computação em nuvem de governo, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal, o seu órgão:
-  - *Normalização:* Proporção nos níveis 4 e 5 de conhecimento e utilização, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção nos níveis 4 e 5 de conhecimento e utilização, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 10,08
   - Valor (Federal): 10,08
   - *Leitura:* O nível 3 já declara uso pequeno. O resultado considera utilização na maior parte ou na totalidade da infraestrutura de nuvem de governo.
 
 - **G6001IPD**. O órgão possui sala-cofre ou sala segura (centro de dados), conforme definição presente no item 4 do Anexo I da IN SGD nº 94/2022?
-  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 45,80
   - Valor (Federal): 45,80
 
 - **G642IPD**. O órgão possui contrato de nuvem?
-  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 36,55
   - Valor (Federal): 36,55
 
 ### 9.3.5 Gestão e qualificação da rede de TI federal
 
-*Definição:* Maturidade operacional da rede de TI nos órgãos federais SISP: documentação de ativos, monitoramento, manutenção preventiva, adoção do protocolo IPv6, estratégia formal de infraestrutura computacional e plano de continuidade de serviços digitais. Corresponde à Recomendação 6.4 (infraestrutura de rede em órgãos públicos), vista de dentro dos órgãos. Aspecto medido apenas para os órgãos do SISP via autodiagnóstico (sem cobertura subnacional).
+*Definição:* Maturidade operacional da rede de TI nos órgãos federais SISP: documentação de ativos, monitoramento, manutenção preventiva, adoção do protocolo IPv6 e estratégia formal de infraestrutura computacional. Corresponde à Recomendação 6.4 (infraestrutura de rede em órgãos públicos), vista de dentro dos órgãos. Aspecto medido apenas para os órgãos do SISP via autodiagnóstico (sem cobertura subnacional).
 
 *Média Nacional:* 53,6 (n=4; 6 itens).
 
@@ -209,36 +209,36 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G607IPD**. Qual é o nível de documentação dos ativos de rede em seu órgão?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 87,82
   - Valor (Federal): 87,82
   - *Estágio positivo mínimo:* Parcialmente documentado.
 
 - **G608IPD**. Como seu órgão monitora a disponibilidade o desempenho dos ativos de rede?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 76,05
   - Valor (Federal): 76,05
   - *Estágio positivo mínimo:* Monitoramento periódico trimestral, semestral ou anual.
 
 - **G609IPD**. Como o seu órgão gerencia a manutenção preventiva dos ativos de rede?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 81,93
   - Valor (Federal): 81,93
   - *Estágio positivo mínimo:* Manutenção ocasional conforme necessário.
 
 - **G634IPD**. Em qual estágio de maturidade o seu órgão se encontra em relação à adoção do IPv6?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 35,29
   - Valor (Federal): 35,29
   - *Estágio positivo mínimo:* A implementação do IPv6 já começou, com algumas redes e serviços adaptados, mas o IPv4 ainda é amplamente utilizado.
 
 - **G636IPD**. O órgão possui estratégia de sustentação e provimento da infraestrutura computacional formalmente definida na instituição, conforme diretrizes da Portaria SGD/MGI nº 2.715/2023, que estabelece Modelo de Contratação e Gestão de Estações de Trabalho, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 35,71
   - Valor (Federal): 35,71
 
 - **G641IPD**. O órgão possui rede de Longa Distância (link WAN)?
-  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 61,34
   - Valor (Federal): 61,34
 
@@ -276,9 +276,9 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 ### 9.3.7 Infraestrutura urbana inteligente
 
-*Definição:* Equipamentos e sistemas instalados pelas prefeituras municipais que automatizam a operação urbana: centro de controle operacional, iluminação inteligente com medição de consumo, semáforos remotos e sensores de monitoramento de áreas de risco. A MUNIC coleta esses equipamentos em todas as prefeituras, e a TIC Governo acrescenta as áreas monitoradas pelos centros de operações, recalculadas sobre todas as prefeituras. Sub-conceito não enunciado pelas recomendações da ENGD, mas captado pela MUNIC como automação da operação urbana. O monitoramento setorial aferido pela TIC Governo Eletrônico entra como piso sobre todas as prefeituras, após o recálculo da Seção 3.2.4. Os quatro itens de tecnologias para gestão urbana da mesma fonte saíram do índice por duplicar indicadores que a MUNIC mede em todas as prefeituras, dois deles nesta dimensão e dois no Objetivo 2.
+*Definição:* Equipamentos e sistemas que automatizam a operação urbana e o transporte público: nas prefeituras, centro de controle operacional, iluminação inteligente com medição de consumo, semáforos remotos, sensores de monitoramento de áreas de risco, bilhete ou cartão eletrônico no transporte público e ônibus com GPS que envia localização e velocidade; nos governos estaduais, o bilhete único. A MUNIC coleta esses equipamentos em todas as prefeituras, e a TIC Governo acrescenta as áreas monitoradas pelos centros de operações, recalculadas sobre todas as prefeituras. Sub-conceito não enunciado pelas recomendações da ENGD, mas captado pela MUNIC como automação da operação urbana. O monitoramento setorial aferido pela TIC Governo Eletrônico entra como piso sobre todas as prefeituras, após o recálculo da Seção 3.2.4. Os quatro itens de tecnologias para gestão urbana da mesma fonte saíram do índice por duplicar indicadores que a MUNIC mede em todas as prefeituras, nesta dimensão.
 
-*Média Nacional:* 12,6 (n=5; 10 itens).
+*Média Nacional:* 16,0 (n=8; 13 itens).
 
 **Indicadores:**
 
@@ -336,6 +336,24 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
   - Valor (Nacional): 7,36
   - Valor (Capitais): 51,85 (14/27 capitais)
 
+- **Mtic261**. O município conta atualmente com: Bilhete ou cartão eletrônico aos cidadãos para uso de transporte público
+  - *Normalização:* Proporção 0-100%, usada diretamente
+  - Valor (Nacional): 9,34
+  - Valor (Capitais): 100,00 (27/27 capitais)
+
+- **Mtic262**. O município conta atualmente com: Ônibus municipais com dispositivo de GPS que envia informações de localização e velocidade dos veículos
+  - *Normalização:* Proporção 0-100%, usada diretamente
+  - Valor (Nacional): 11,54
+  - Valor (Capitais): 92,59 (25/27 capitais)
+
+*ESTADIC 2024 (IBGE):*
+
+- **Etic241**. O governo estadual: Instituiu o bilhete único para uso de transporte público
+  - *Contagem:* Conta como sim a categoria Sim; Não e sem resposta contam como não. Rondônia, que não informou, conta como não.
+  - *Normalização:* Proporção 0-100%, usada diretamente
+  - Valor (Nacional): 44,44
+  - Valor (Estadual): 44,44 (média de 27 UFs)
+
 
 *Bateria de monitoramento setorial: os 6 itens apresentados nesta seção entram como um único componente, pela média dos itens observados (ver Capítulo 3).*
 
@@ -349,7 +367,7 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **H3E**. Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão públicoDisponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeituraDisponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários:
+- **H3E**. Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão público Disponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeitura Disponibilizou algum guia, manual, diretrizes ou orientações para uso dessas tecnologias para seus funcionários:
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 20,72
   - Valor (Federal): 42,86
@@ -362,9 +380,9 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 
 ### 9.3.9 Recorte Estadual
 
-*Definição:* Conjunto das variáveis do Objetivo 6 com observação por UF, agregadas para leitura federativa estadual. Reúne 2 variáveis IOSPD e 2 variáveis ESTADIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 6 com observação por UF, agregadas para leitura federativa estadual. Reúne 2 variáveis IOSPD e 3 variáveis ESTADIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Estadual:* 76,4 (n=4; 4 itens).
+*Média Estadual:* 69,5 (n=5; 5 itens).
 
 ![Recorte Estadual do Objetivo 6](../graficos/recortes/cap09_estadual.png)
 
@@ -377,13 +395,14 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 | `4.6` | IOSPD | 9.3.6 Programas de inclusão digital ao cidadão | 70,19 |
 | `Etic20` | ESTADIC | 9.3.3 Conectividade pública e em equipamentos públicos | 62,96 |
 | `Etic17` | ESTADIC | 9.3.6 Programas de inclusão digital ao cidadão | 96,30 |
+| `Etic241` | ESTADIC | 9.3.7 Infraestrutura urbana inteligente | 44,44 |
 <!-- /federal:tabela-estadual -->
 
 ### 9.3.10 Recorte de Capitais
 
-*Definição:* Conjunto das variáveis do Objetivo 6 com observação por capital, agregadas para leitura federativa municipal. Reúne 5 variáveis Censo Escolar, 1 variável Cobertura móvel e 8 variáveis MUNIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 6 com observação por capital, agregadas para leitura federativa municipal. Reúne 5 variáveis Censo Escolar, 1 variável Cobertura móvel e 10 variáveis MUNIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Capitais:* 81,0 (n=10; 14 itens).
+*Média Capitais:* 83,5 (n=12; 16 itens).
 
 ![Recorte de Capitais do Objetivo 6](../graficos/recortes/cap09_capitais.png)
 
@@ -406,6 +425,8 @@ As 43 variáveis ativas do Objetivo 6 foram organizadas em oito dimensões temá
 | `Mtic264` | MUNIC | 9.3.7 Infraestrutura urbana inteligente | 44,44 |
 | `Mtic265` | MUNIC | 9.3.7 Infraestrutura urbana inteligente | 77,78 |
 | `Mtic266` | MUNIC | 9.3.7 Infraestrutura urbana inteligente | 51,85 |
+| `Mtic261` | MUNIC | 9.3.7 Infraestrutura urbana inteligente | 100,00 |
+| `Mtic262` | MUNIC | 9.3.7 Infraestrutura urbana inteligente | 92,59 |
 <!-- /federal:tabela-capitais -->
 
 <!-- federal:secao -->

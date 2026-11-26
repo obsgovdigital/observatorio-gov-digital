@@ -26,7 +26,6 @@ RO,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 RO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -49,6 +48,7 @@ RO,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 RO,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,0.0,2024
 RO,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,41.0,2026
 RO,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+RO,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RO,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 RO,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 RO,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -94,7 +94,6 @@ AC,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,60.0,2024
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 AC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,33.33,2024
@@ -117,6 +116,7 @@ AC,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 AC,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 AC,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,66.0,2026
 AC,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+AC,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 AC,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 AC,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 AC,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -162,7 +162,6 @@ AM,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -185,6 +184,7 @@ AM,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 AM,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 AM,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,91.0,2026
 AM,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,50.0,2026
+AM,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 AM,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 AM,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 AM,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -230,7 +230,6 @@ RR,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,60.0,2024
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 RR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,83.33,2024
@@ -253,6 +252,7 @@ RR,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 RR,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 RR,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,0.0,2026
 RR,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,0.0,2026
+RR,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RR,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 RR,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 RR,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -298,7 +298,6 @@ PA,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,0.0,2024
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 PA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,16.67,2024
@@ -321,6 +320,7 @@ PA,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 PA,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 PA,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,66.0,2026
 PA,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,0.0,2026
+PA,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PA,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 PA,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 PA,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -366,7 +366,6 @@ AP,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,16.67,2024
@@ -389,6 +388,7 @@ AP,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 AP,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 AP,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,50.0,2026
 AP,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,50.0,2026
+AP,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 AP,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 AP,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 AP,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -434,7 +434,6 @@ TO,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,20.0,2024
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,50.0,2024
-TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 TO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -457,6 +456,7 @@ TO,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 TO,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 TO,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 TO,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+TO,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 TO,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 TO,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 TO,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -502,7 +502,6 @@ MA,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,60.0,2024
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,100.0,2024
@@ -525,6 +524,7 @@ MA,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 MA,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 MA,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,41.0,2026
 MA,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+MA,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 MA,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 MA,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 MA,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -570,7 +570,6 @@ PI,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,50.0,2024
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,83.33,2024
@@ -593,6 +592,7 @@ PI,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 PI,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 PI,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 PI,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+PI,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 PI,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 PI,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 PI,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -638,7 +638,6 @@ CE,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,20.0,2024
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,83.33,2024
@@ -661,6 +660,7 @@ CE,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 CE,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 CE,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,83.0,2026
 CE,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+CE,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 CE,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 CE,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 CE,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -706,7 +706,6 @@ RN,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 RN,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -729,6 +728,7 @@ RN,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 RN,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 RN,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,75.0,2026
 RN,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,0.0,2026
+RN,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RN,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 RN,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 RN,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -774,7 +774,6 @@ PB,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,40.0,2024
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,0.0,2024
 PB,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,16.67,2024
@@ -797,6 +796,7 @@ PB,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 PB,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 PB,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,91.0,2026
 PB,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,25.0,2026
+PB,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PB,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 PB,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 PB,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -842,7 +842,6 @@ PE,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,20.0,2024
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,0.0,2024
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 PE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,16.67,2024
@@ -865,6 +864,7 @@ PE,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 PE,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 PE,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,91.0,2026
 PE,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+PE,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PE,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 PE,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 PE,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -910,7 +910,6 @@ AL,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 AL,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -933,6 +932,7 @@ AL,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 AL,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 AL,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,58.0,2026
 AL,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+AL,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 AL,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 AL,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 AL,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -978,7 +978,6 @@ SE,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,20.0,2024
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 SE,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,33.33,2024
@@ -1001,6 +1000,7 @@ SE,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 SE,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 SE,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,41.0,2026
 SE,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+SE,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 SE,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 SE,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 SE,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -1046,7 +1046,6 @@ BA,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -1069,6 +1068,7 @@ BA,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 BA,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 BA,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,91.0,2026
 BA,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+BA,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 BA,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 BA,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 BA,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1114,7 +1114,6 @@ MG,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,0.0,2024
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,75.0,2024
-MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,83.33,2024
@@ -1137,6 +1136,7 @@ MG,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 MG,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 MG,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 MG,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+MG,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 MG,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 MG,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 MG,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1182,7 +1182,6 @@ ES,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,40.0,2024
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 ES,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -1205,6 +1204,7 @@ ES,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 ES,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 ES,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 ES,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+ES,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 ES,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 ES,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 ES,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1250,7 +1250,6 @@ RJ,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,33.33,2024
@@ -1273,6 +1272,7 @@ RJ,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 RJ,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 RJ,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,91.0,2026
 RJ,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+RJ,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 RJ,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 RJ,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 RJ,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1318,7 +1318,6 @@ SP,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -1341,6 +1340,7 @@ SP,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 SP,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 SP,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,66.0,2026
 SP,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+SP,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 SP,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 SP,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 SP,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,50.0,2026
@@ -1386,7 +1386,6 @@ PR,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,16.67,2024
@@ -1409,6 +1408,7 @@ PR,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 PR,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 PR,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,,2026
 PR,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,,2026
+PR,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 PR,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 PR,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 PR,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,,2026
@@ -1454,7 +1454,6 @@ SC,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,40.0,2024
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 SC,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,100.0,2024
@@ -1477,6 +1476,7 @@ SC,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 SC,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 SC,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,41.0,2026
 SC,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+SC,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 SC,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 SC,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,0.0,2024
 SC,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,50.0,2026
@@ -1522,7 +1522,6 @@ RS,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,60.0,2024
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,0.0,2024
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 RS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -1545,6 +1544,7 @@ RS,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 RS,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 RS,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 RS,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+RS,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 RS,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 RS,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 RS,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1590,7 +1590,6 @@ MS,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,60.0,2024
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 MS,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -1613,6 +1612,7 @@ MS,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 MS,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 MS,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,75.0,2026
 MS,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,50.0,2026
+MS,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 MS,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 MS,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 MS,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026
@@ -1658,7 +1658,6 @@ MT,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,20.0,2024
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,66.67,2024
@@ -1681,6 +1680,7 @@ MT,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 MT,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 MT,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 MT,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+MT,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,0.0,2024
 MT,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,0.0,2024
 MT,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 MT,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1726,7 +1726,6 @@ GO,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,50.0,2024
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 GO,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,50.0,2024
@@ -1749,6 +1748,7 @@ GO,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 GO,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 GO,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,100.0,2026
 GO,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,100.0,2026
+GO,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 GO,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 GO,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 GO,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,100.0,2026
@@ -1794,7 +1794,6 @@ DF,2,Qualidade dos Serviços Digitais,iospd/IOSPD_E26_407,iospd,IOSPD_E26_407,to
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ACESSIBILIDADE,estadic,ESTADIC_ACESSIBILIDADE,total,Acessibilidade da página e serviços eletrônicos,prop_0_100,governo_estadual,80.0,2024
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATEND_DISTANCIA,estadic,ESTADIC_ATEND_DISTANCIA,total,Formas de atendimento a distância ao cidadão,prop_0_100,governo_estadual,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_ATIV_REDES,estadic,ESTADIC_ATIV_REDES,total,Atividades do governo nas redes sociais nos últimos 12 meses,prop_0_100,governo_estadual,100.0,2024
-DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_FREQ_REDES,estadic,ESTADIC_FREQ_REDES,total,Frequência de atualização do conteúdo nas redes sociais,prop_0_100,governo_estadual,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_MODELO_ACESS,estadic,ESTADIC_MODELO_ACESS,total,Modelo de acessibilidade adotado,prop_0_100,governo_estadual,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,estadic/ESTADIC_SERV_CELULAR,estadic,ESTADIC_SERV_CELULAR,total,Serviços disponibilizados por celular/smartphone,prop_0_100,governo_estadual,83.33,2024
@@ -1817,6 +1816,7 @@ DF,5,Dados e Interoperabilidade,estadic/ESTADIC_DADOS_ABERTOS,estadic,ESTADIC_DA
 DF,5,Dados e Interoperabilidade,estadic/ESTADIC_FORMATO_DADOS,estadic,ESTADIC_FORMATO_DADOS,total,Publicação dos dados gerais da administração estadual,prop_0_100,governo_estadual,100.0,2024
 DF,6,Infraestrutura,iospd/IOSPD_E26_112,iospd,IOSPD_E26_112,total,"1.12 COM RELAÇÃO À CONECTIVIDADE, O ESTADO:",indice_0_10,uf,66.0,2026
 DF,6,Infraestrutura,iospd/IOSPD_E26_406,iospd,IOSPD_E26_406,total,4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?,indice_0_10,uf,75.0,2026
+DF,6,Infraestrutura,estadic/ESTADIC_BILHETE_UNICO,estadic,ESTADIC_BILHETE_UNICO,total,Bilhete único para uso de transporte público (Etic241),prop_0_100,governo_estadual,100.0,2024
 DF,6,Infraestrutura,estadic/ESTADIC_INCLUSAO_PROGRAMA,estadic,ESTADIC_INCLUSAO_PROGRAMA,total,Desenvolve programa ou ação de inclusão digital,prop_0_100,governo_estadual,100.0,2024
 DF,6,Infraestrutura,estadic/ESTADIC_WIFI_EXISTE,estadic,ESTADIC_WIFI_EXISTE,total,Disponibiliza acesso por conexão Wi-Fi pública,prop_0_100,governo_estadual,100.0,2024
 DF,7,Inovação e Tecnologias Emergentes,iospd/IOSPD_E26_501,iospd,IOSPD_E26_501,total,5.1 O ESTADO POSSUI UMA ESTRATÉGIA OU POLÍTICA ESTADUAL QUE ORIENTE O USO DE INTELIGÊNCIA ARTIFICIAL (IA) NO SETOR PÚBLICO?,indice_0_10,uf,0.0,2026

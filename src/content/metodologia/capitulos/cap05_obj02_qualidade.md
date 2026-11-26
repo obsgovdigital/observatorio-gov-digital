@@ -20,15 +20,15 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 
 ## 5.2 Cobertura por nível federativo
 
-O Objetivo 2 conta com 92 variáveis ativas no índice (17 de TIC Governo Eletrônico (CETIC.br), 4 de TIC Saúde (CETIC.br), 2 de TIC Domicílios (CETIC.br), 20 de IOSPD (ABEP-TIC), 35 de MUNIC (IBGE), 9 de ESTADIC (IBGE), 5 de iGovSISP (SGD/MGI)), que entram na agregação como 75 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 29 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 35 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
+O Objetivo 2 conta com 89 variáveis ativas no índice (17 de TIC Governo Eletrônico (CETIC.br), 4 de TIC Saúde (CETIC.br), 2 de TIC Domicílios (CETIC.br), 20 de IOSPD (ABEP-TIC), 33 de MUNIC (IBGE), 8 de ESTADIC (IBGE), 5 de iGovSISP (SGD/MGI)), que entram na agregação como 72 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 28 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Há 33 variáveis com observação por capital, reunidas também na dimensão `Recorte de Capitais`.
 
 <!-- federal:cobertura -->
-No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (16 da TIC Governo Eletrônico (CETIC.br) e 5 do iGovSISP (SGD/MGI)), que entram na média do recorte como 11 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 21 variáveis do objetivo têm observação dos órgãos federais (16 da TIC Governo Eletrônico (CETIC.br) e 5 do iGovSISP (SGD/MGI)), que entram na média do recorte como 11 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 5.3 Dimensões
 
-As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. Seis dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria: informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), linguagem e usabilidade (Rec 2.1), acessibilidade (Recs 2.1 e 2.7) e satisfação e experiência do cidadão (Rec 2.2). As outras quatro desdobram os serviços setoriais por área temática: saúde, educação e cidadania/segurança/fiscal, alinhadas à Recomendação 2.3, e mobilidade urbana, sub-conceito fora das recomendações (Seção 5.3.6), refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 89 variáveis ativas do Objetivo 2 foram organizadas em nove dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual`, `Recorte de Capitais` e `Recorte Federal`. Seis dessas dimensões correspondem a sub-conceitos enunciados diretamente pelas recomendações da Portaria: informação pública digital (Rec 2.3), serviços transversais (Recs 2.3 e 2.4), canais e atendimento multicanal (Recs 2.4 e 2.5), linguagem e usabilidade (Rec 2.1), acessibilidade (Recs 2.1 e 2.7) e satisfação e experiência do cidadão (Rec 2.2). As outras três desdobram os serviços setoriais por área temática, saúde, educação e cidadania/segurança/fiscal, alinhadas à Recomendação 2.3, refletindo a granularidade do índice nas áreas em que IOSPD, MUNIC e ESTADIC mantêm baterias específicas de medição. O bilhete eletrônico e o GPS dos ônibus estão no Objetivo 6 (Capítulo 9), na dimensão Infraestrutura urbana inteligente. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 2](../graficos/dimensoes/cap05.png)
 
@@ -171,7 +171,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G628IPD**. Em relação ao uso de ferramentas e soluções para promover a transformação dos serviços públicos, orientados pela perspectiva dos cidadãos e empresas, buscando a simplificação e a oferta de serviços por meio de canais digitais, seu órgão:
-  - *Normalização:* Proporção a partir do terceiro estágio de adoção, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de adoção, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 68,91
   - Valor (Federal): 68,91
 
@@ -266,7 +266,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 
 ### 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal
 
-*Definição:* Serviços públicos digitais de segurança pública, defesa do consumidor e administração fiscal/tributária: registro digital de reclamação no Código de Defesa do Consumidor, boletim de ocorrência online de violência doméstica, certidão negativa de débito (estadual e municipal), nota fiscal eletrônica, guia de pagamento de tributos, boletos por celular. Corresponde à Recomendação 2.3.
+*Definição:* Serviços públicos digitais de cidadania, trânsito e administração fiscal/tributária: prova de vida online para servidores, aposentados e pensionistas, recurso e defesa online contra infrações de trânsito e transferência digital de veículos, nos governos estaduais; certidão negativa de débito, nota fiscal eletrônica, guia de pagamento de tributos e boletos por celular, nas prefeituras. Corresponde à Recomendação 2.3.
 
 *Média Nacional:* 62,8 (n=7; 7 itens).
 
@@ -311,35 +311,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
   - Valor (Nacional): 27,81
   - Valor (Capitais): 70,37 (19/27 capitais)
 
-### 5.3.6 Serviços setoriais: Mobilidade urbana
-
-*Definição:* Serviços digitais de mobilidade urbana ofertados ao cidadão: bilhete ou cartão eletrônico no transporte público, tanto nas prefeituras quanto nos governos estaduais (bilhete único), e informação em tempo real sobre a frota de ônibus municipal (GPS com envio de informação ao usuário). Sub-conceito não enunciado pelas recomendações da ENGD, mas próximo da oferta digital ao cidadão: o bilhete e o cartão eletrônico são meio de pagamento e de integração tarifária, e o GPS dos ônibus fornece informação, sem que nenhum deles seja serviço prestado por canal digital, objeto da Recomendação 2.3.
-
-*Média Nacional:* 21,8 (n=3; 3 itens).
-
-**Indicadores:**
-
-*MUNIC 2024 (IBGE):*
-
-- **Mtic261**. O município conta atualmente com: Bilhete ou cartão eletrônico aos cidadãos para uso de transporte público
-  - *Normalização:* Proporção 0-100%, usada diretamente
-  - Valor (Nacional): 9,34
-  - Valor (Capitais): 100,00 (27/27 capitais)
-
-- **Mtic262**. O município conta atualmente com: Ônibus municipais com dispositivo de GPS que envia informações de localização e velocidade dos veículos
-  - *Normalização:* Proporção 0-100%, usada diretamente
-  - Valor (Nacional): 11,54
-  - Valor (Capitais): 92,59 (25/27 capitais)
-
-*ESTADIC 2024 (IBGE):*
-
-- **Etic241**. O governo estadual: Instituiu o bilhete único para uso de transporte público
-  - *Contagem:* Conta como sim a categoria Sim; Não e sem resposta contam como não. Rondônia, que não informou, conta como não.
-  - *Normalização:* Proporção 0-100%, usada diretamente
-  - Valor (Nacional): 44,44
-  - Valor (Estadual): 44,44 (média de 27 UFs)
-
-### 5.3.7 Canais e atendimento multicanal
+### 5.3.6 Canais e atendimento multicanal
 
 *Definição:* Diversidade de canais de atendimento e comunicação entre cidadão e governo: atendimento à distância, atendimento digital integrado entre portal, aplicativo e assistente virtual, serviços oferecidos por celular, presença em redes sociais (existência, atividade e frequência) e em plataformas digitais por estabelecimentos, presença mobile (apps de governo, website mobile, SMS e mensageria) e as formas de contato pela Internet oferecidas no website (e-mail, formulário eletrônico, chat em tempo real, denúncia, solicitação de acesso à informação, sugestões e chatbot). Corresponde às Recomendações 2.4 (integração de canais digitais, em especial apps móveis) e 2.5 (omnicanalidade físico-digital).
 
@@ -549,7 +521,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G632IPD**. Seu órgão possui algum aplicativo móvel?
-  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 42,86
   - Valor (Federal): 42,86
 
@@ -564,7 +536,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 
 *Bateria de recursos móveis: os 5 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
-### 5.3.8 Linguagem e usabilidade
+### 5.3.7 Linguagem e usabilidade
 
 *Definição:* Clareza textual, simplicidade de jornada, adequação do conteúdo à compreensão do cidadão e mecanismos de feedback do usuário sobre a apresentação dos serviços. Corresponde à Recomendação 2.1 (linguagem simplificada, experiência do usuário).
 
@@ -592,7 +564,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 
 
 
-### 5.3.9 Acessibilidade
+### 5.3.8 Acessibilidade
 
 *Definição:* Adequação dos serviços digitais a pessoas com deficiência (visual, auditiva, motora), nos órgãos federais (alinhamento dos investimentos do Plano de Transformação Digital às diretrizes de acessibilidade), no nível estadual (acessibilidade global da página, modelo de padrão adotado e plataforma adaptada a surdos e deficientes visuais) e nas páginas das prefeituras (recursos específicos: navegação por tecnologia assistiva, descrição de imagens, LIBRAS, título descritivo da página na aba do navegador). Corresponde à Recomendação 2.1 (acessibilidade); com vínculo secundário à Recomendação 2.7 (canais acessíveis).
 
@@ -655,7 +627,7 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G226SPD**. Os investimentos em sistemas e serviços digitais previstos no PTD estão alinhados aos padrões e diretrizes de acessibilidade digital, conforme as Normas ABNT NBR 17225/2025 e NBR 17060/2022, bem como o Modelo de Acessibilidade em Governo Eletrônico (eMAG 3.1)?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 41,60
   - Valor (Federal): 41,60
   - *Estágio positivo mínimo:* Os principais sistemas e serviços digitais consideram as diretrizes de acessibilidade no planejamento e desenvolvimento.
@@ -663,9 +635,9 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 
 *Bateria de acessibilidade do website da prefeitura: os 5 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
-### 5.3.10 Satisfação e experiência do cidadão
+### 5.3.9 Satisfação e experiência do cidadão
 
-*Definição:* Pesquisas de satisfação dos usuários dos serviços públicos digitais, metodologia institucional de avaliação, acesso e uso de serviços e necessidade de deslocamento para sua conclusão. O uso de pesquisa de experiência do usuário (C10) é observado, sem dever normativo específico correspondente. Corresponde à Recomendação 2.2 (avaliação de satisfação e melhoria contínua).
+*Definição:* Pesquisas de satisfação dos usuários dos serviços públicos digitais, metodologia institucional de avaliação, acesso e uso de serviços e necessidade de deslocamento para sua conclusão. A coleta de dados ou estatísticas sobre o uso dos serviços digitais (C10) é observada, sem dever normativo específico correspondente. Corresponde à Recomendação 2.2 (avaliação de satisfação e melhoria contínua).
 
 *Média Nacional:* 40,5 (n=9; 9 itens).
 
@@ -717,23 +689,23 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G206SPD**. O órgão monitora o índice de satisfação dos usuários e/ou cidadãos com os sistemas e serviços públicos digitais?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 63,87
   - Valor (Federal): 63,87
   - *Estágio positivo mínimo:* Monitora poucos sistemas e serviços públicos digitais
   - *Leitura:* Mede monitoramento da satisfação, não satisfação alta.
 
 - **G631IPD**. Dentro dos serviços oferecidos para a sociedade, quantos estão integrados ao módulo de Avaliação, api de avaliação da satisfação dos usuários, ofertada pelo Ministério da Gestão, sem ônus para o órgão?
-  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes.
+  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 46,85
   - Valor (Federal): 46,85
   - *Leitura:* Mede integração ao módulo de avaliação, não satisfação nem uso efetivo das avaliações. A média dos tetos aproxima por cima a média entre órgãos.
 
-### 5.3.11 Recorte Estadual
+### 5.3.10 Recorte Estadual
 
-*Definição:* Conjunto das variáveis do Objetivo 2 com observação por UF, agregadas para leitura federativa estadual. Reúne 20 variáveis IOSPD e 9 variáveis ESTADIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 2 com observação por UF, agregadas para leitura federativa estadual. Reúne 20 variáveis IOSPD e 8 variáveis ESTADIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Estadual:* 69,3 (n=29; 29 itens).
+*Média Estadual:* 70,4 (n=28; 28 itens).
 
 ![Recorte Estadual do Objetivo 2](../graficos/recortes/cap05_estadual.png)
 
@@ -755,33 +727,32 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 | `2.4` | IOSPD | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 92,31 |
 | `2.5` | IOSPD | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 73,08 |
 | `2.10` | IOSPD | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 57,69 |
-| `4.3` | IOSPD | 5.3.7 Canais e atendimento multicanal | 69,23 |
-| `3.5` | IOSPD | 5.3.8 Linguagem e usabilidade | 76,92 |
-| `4.1` | IOSPD | 5.3.8 Linguagem e usabilidade | 71,54 |
-| `4.2` | IOSPD | 5.3.8 Linguagem e usabilidade | 38,46 |
-| `4.4` | IOSPD | 5.3.9 Acessibilidade | 78,85 |
-| `4.5` | IOSPD | 5.3.10 Satisfação e experiência do cidadão | 27,69 |
-| `4.7` | IOSPD | 5.3.10 Satisfação e experiência do cidadão | 70,52 |
+| `4.3` | IOSPD | 5.3.6 Canais e atendimento multicanal | 69,23 |
+| `3.5` | IOSPD | 5.3.7 Linguagem e usabilidade | 76,92 |
+| `4.1` | IOSPD | 5.3.7 Linguagem e usabilidade | 71,54 |
+| `4.2` | IOSPD | 5.3.7 Linguagem e usabilidade | 38,46 |
+| `4.4` | IOSPD | 5.3.8 Acessibilidade | 78,85 |
+| `4.5` | IOSPD | 5.3.9 Satisfação e experiência do cidadão | 27,69 |
+| `4.7` | IOSPD | 5.3.9 Satisfação e experiência do cidadão | 70,52 |
 | `Etic12a1-Etic12a8` | ESTADIC | 5.3.1 Informação pública digital | 92,59 |
 | `Etic12b1-Etic12b13` | ESTADIC | 5.3.2 Serviços transversais | 81,48 |
-| `Etic241` | ESTADIC | 5.3.6 Serviços setoriais: Mobilidade urbana | 44,44 |
-| `Etic011-Etic018` | ESTADIC | 5.3.7 Canais e atendimento multicanal | 96,30 |
-| `Etic141-Etic146` | ESTADIC | 5.3.7 Canais e atendimento multicanal | 89,81 |
-| `Etic15` | ESTADIC | 5.3.7 Canais e atendimento multicanal | 92,59 |
-| `Etic161-Etic167` | ESTADIC | 5.3.7 Canais e atendimento multicanal | 55,56 |
-| `Etic261-Etic269` | ESTADIC | 5.3.9 Acessibilidade | 59,26 |
-| `Etic27` | ESTADIC | 5.3.9 Acessibilidade | 96,30 |
+| `Etic011-Etic018` | ESTADIC | 5.3.6 Canais e atendimento multicanal | 96,30 |
+| `Etic141-Etic146` | ESTADIC | 5.3.6 Canais e atendimento multicanal | 89,81 |
+| `Etic15` | ESTADIC | 5.3.6 Canais e atendimento multicanal | 92,59 |
+| `Etic161-Etic167` | ESTADIC | 5.3.6 Canais e atendimento multicanal | 55,56 |
+| `Etic261-Etic269` | ESTADIC | 5.3.8 Acessibilidade | 59,26 |
+| `Etic27` | ESTADIC | 5.3.8 Acessibilidade | 96,30 |
 <!-- /federal:tabela-estadual -->
 
-**Topo (top-3) no Recorte Estadual do Objetivo 2:** PI (97,7), GO (95,9), RJ (93,6).
+**Topo (top-3) no Recorte Estadual do Objetivo 2:** PI (97,6), GO (95,7), RJ (93,3).
 
-**Base (bottom-3) no Recorte Estadual do Objetivo 2:** RR (32,3), PA (39,6), SE (42,4).
+**Base (bottom-3) no Recorte Estadual do Objetivo 2:** RR (33,5), PA (41,0), AM (43,6).
 
-### 5.3.12 Recorte de Capitais
+### 5.3.11 Recorte de Capitais
 
-*Definição:* Conjunto das variáveis do Objetivo 2 com observação por capital, agregadas para leitura federativa municipal. Reúne 35 variáveis MUNIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
+*Definição:* Conjunto das variáveis do Objetivo 2 com observação por capital, agregadas para leitura federativa municipal. Reúne 33 variáveis MUNIC. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
-*Média Capitais:* 78,9 (n=28; 35 itens).
+*Média Capitais:* 77,6 (n=26; 33 itens).
 
 ![Recorte de Capitais do Objetivo 2](../graficos/recortes/cap05_capitais.png)
 
@@ -806,35 +777,33 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 | `Mtic12b8` | MUNIC | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 96,30 |
 | `Mtic12b11` | MUNIC | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 96,30 |
 | `Mtic166` | MUNIC | 5.3.5 Serviços setoriais: Cidadania, segurança e fiscal | 70,37 |
-| `Mtic261` | MUNIC | 5.3.6 Serviços setoriais: Mobilidade urbana | 100,00 |
-| `Mtic262` | MUNIC | 5.3.6 Serviços setoriais: Mobilidade urbana | 92,59 |
-| `Mtic013-Mtic014, Mtic018` | MUNIC | 5.3.7 Canais e atendimento multicanal | 100,00 |
-| `Mtic131-Mtic139` | MUNIC | 5.3.7 Canais e atendimento multicanal | 100,00 |
-| `Mtic144` | MUNIC | 5.3.7 Canais e atendimento multicanal | 96,30 |
-| `Mtic141` | MUNIC | 5.3.7 Canais e atendimento multicanal | 100,00 |
-| `Mtic142` | MUNIC | 5.3.7 Canais e atendimento multicanal | 100,00 |
-| `Mtic143` | MUNIC | 5.3.7 Canais e atendimento multicanal | 48,15 |
-| `Mtic164` | MUNIC | 5.3.7 Canais e atendimento multicanal | 48,15 |
-| `Mtic163` | MUNIC | 5.3.7 Canais e atendimento multicanal | 66,67 |
-| `Mtic165` | MUNIC | 5.3.7 Canais e atendimento multicanal | 70,37 |
-| `Mtic161` | MUNIC | 5.3.7 Canais e atendimento multicanal | 37,04 |
-| `Mtic162` | MUNIC | 5.3.7 Canais e atendimento multicanal | 22,22 |
-| `Mtic281` | MUNIC | 5.3.9 Acessibilidade | 51,85 |
-| `Mtic282` | MUNIC | 5.3.9 Acessibilidade | 33,33 |
-| `Mtic283` | MUNIC | 5.3.9 Acessibilidade | 51,85 |
-| `Mtic284` | MUNIC | 5.3.9 Acessibilidade | 62,96 |
-| `Mtic285` | MUNIC | 5.3.9 Acessibilidade | 44,44 |
-| `Mtic12b13` | MUNIC | 5.3.10 Satisfação e experiência do cidadão | 48,15 |
+| `Mtic013-Mtic014, Mtic018` | MUNIC | 5.3.6 Canais e atendimento multicanal | 100,00 |
+| `Mtic131-Mtic139` | MUNIC | 5.3.6 Canais e atendimento multicanal | 100,00 |
+| `Mtic144` | MUNIC | 5.3.6 Canais e atendimento multicanal | 96,30 |
+| `Mtic141` | MUNIC | 5.3.6 Canais e atendimento multicanal | 100,00 |
+| `Mtic142` | MUNIC | 5.3.6 Canais e atendimento multicanal | 100,00 |
+| `Mtic143` | MUNIC | 5.3.6 Canais e atendimento multicanal | 48,15 |
+| `Mtic164` | MUNIC | 5.3.6 Canais e atendimento multicanal | 48,15 |
+| `Mtic163` | MUNIC | 5.3.6 Canais e atendimento multicanal | 66,67 |
+| `Mtic165` | MUNIC | 5.3.6 Canais e atendimento multicanal | 70,37 |
+| `Mtic161` | MUNIC | 5.3.6 Canais e atendimento multicanal | 37,04 |
+| `Mtic162` | MUNIC | 5.3.6 Canais e atendimento multicanal | 22,22 |
+| `Mtic281` | MUNIC | 5.3.8 Acessibilidade | 51,85 |
+| `Mtic282` | MUNIC | 5.3.8 Acessibilidade | 33,33 |
+| `Mtic283` | MUNIC | 5.3.8 Acessibilidade | 51,85 |
+| `Mtic284` | MUNIC | 5.3.8 Acessibilidade | 62,96 |
+| `Mtic285` | MUNIC | 5.3.8 Acessibilidade | 44,44 |
+| `Mtic12b13` | MUNIC | 5.3.9 Satisfação e experiência do cidadão | 48,15 |
 <!-- /federal:tabela-capitais -->
 
 *Bateria de atividades nas redes sociais: os 4 itens apresentados nesta seção entram no índice como um único componente (média dos itens observados; ver Capítulo 3).*
 
-**Topo (top-3) no Recorte de Capitais do Objetivo 2:** Belo Horizonte (MG) com 100,00; Curitiba (PR) com 100,00; Salvador (BA) com 95,71; Brasília (DF) com 95,71.
+**Topo (top-3) no Recorte de Capitais do Objetivo 2:** Belo Horizonte (MG) e Curitiba (PR), empatadas com 100,0; Salvador (BA) e Brasília (DF), empatadas com 95,4.
 
-**Base (bottom-3) no Recorte de Capitais do Objetivo 2:** Rio Branco (AC) com 41,96; Palmas (TO) com 54,29; Maceió (AL) com 57,50.
+**Base (bottom-3) no Recorte de Capitais do Objetivo 2:** Rio Branco (AC) com 37,5; Maceió (AL) com 54,2; Palmas (TO) com 54,6.
 
 <!-- federal:secao -->
-### 5.3.13 Recorte Federal
+### 5.3.12 Recorte Federal
 
 *Definição:* Conjunto das variáveis do Objetivo 2 com observação dos órgãos federais, agregadas para leitura do governo federal como ente único. Reúne as 16 variáveis TIC Governo Eletrônico e as 5 variáveis iGovSISP do objetivo. Inclui variáveis também classificadas em dimensões temáticas (única exceção à regra de não-repetição). As perguntas estão nas dimensões temáticas indicadas na tabela.
 
@@ -846,23 +815,23 @@ As 92 variáveis ativas do Objetivo 2 foram organizadas em dez dimensões temát
 |---|---|---|---:|
 | `C1` | TIC Gov. | 5.3.1 Informação pública digital | 99,29 |
 | `C3` | TIC Gov. | 5.3.2 Serviços transversais | 92,86 |
-| `E1`, Endereço de e-mail como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 96,43 |
-| `E1`, Formulário eletrônico como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 75,00 |
-| `E1`, Chat com atendentes em tempo real | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 32,14 |
-| `E1`, Denúncia online como forma de contato | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 90,71 |
-| `E1`, Serviço de solicitação de acesso à informação | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 90,00 |
-| `E1`, Canal de sugestões para melhoria de serviços públicos | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 84,29 |
-| `E1`, Atendimento automatizado por assistente virtual ou chatbot | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 36,43 |
-| `C6B`, Envio de SMS para o cidadão | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 17,86 |
-| `C6B`, Recebimento de SMS enviado pelo cidadão | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 11,43 |
-| `C6B`, Aplicativo criado pelo ente | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 57,86 |
-| `C6B`, Website adaptado para dispositivos móveis | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 83,57 |
-| `C6B`, Envio de mensagens por WhatsApp ou Telegram | TIC Gov. | 5.3.7 Canais e atendimento multicanal | 38,57 |
-| `C10` | TIC Gov. | 5.3.10 Satisfação e experiência do cidadão | 62,86 |
-| `C11` | TIC Gov. | 5.3.10 Satisfação e experiência do cidadão | 55,71 |
+| `E1`, Endereço de e-mail como forma de contato | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 96,43 |
+| `E1`, Formulário eletrônico como forma de contato | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 75,00 |
+| `E1`, Chat com atendentes em tempo real | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 32,14 |
+| `E1`, Denúncia online como forma de contato | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 90,71 |
+| `E1`, Serviço de solicitação de acesso à informação | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 90,00 |
+| `E1`, Canal de sugestões para melhoria de serviços públicos | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 84,29 |
+| `E1`, Atendimento automatizado por assistente virtual ou chatbot | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 36,43 |
+| `C6B`, Envio de SMS para o cidadão | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 17,86 |
+| `C6B`, Recebimento de SMS enviado pelo cidadão | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 11,43 |
+| `C6B`, Aplicativo criado pelo ente | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 57,86 |
+| `C6B`, Website adaptado para dispositivos móveis | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 83,57 |
+| `C6B`, Envio de mensagens por WhatsApp ou Telegram | TIC Gov. | 5.3.6 Canais e atendimento multicanal | 38,57 |
+| `C10` | TIC Gov. | 5.3.9 Satisfação e experiência do cidadão | 62,86 |
+| `C11` | TIC Gov. | 5.3.9 Satisfação e experiência do cidadão | 55,71 |
 | `G628IPD` | iGovSISP | 5.3.2 Serviços transversais | 68,91 |
-| `G632IPD` | iGovSISP | 5.3.7 Canais e atendimento multicanal | 42,86 |
-| `G226SPD` | iGovSISP | 5.3.9 Acessibilidade | 41,60 |
-| `G206SPD` | iGovSISP | 5.3.10 Satisfação e experiência do cidadão | 63,87 |
-| `G631IPD` | iGovSISP | 5.3.10 Satisfação e experiência do cidadão | 46,85 |
+| `G632IPD` | iGovSISP | 5.3.6 Canais e atendimento multicanal | 42,86 |
+| `G226SPD` | iGovSISP | 5.3.8 Acessibilidade | 41,60 |
+| `G206SPD` | iGovSISP | 5.3.9 Satisfação e experiência do cidadão | 63,87 |
+| `G631IPD` | iGovSISP | 5.3.9 Satisfação e experiência do cidadão | 46,85 |
 <!-- /federal:secao -->

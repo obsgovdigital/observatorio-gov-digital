@@ -14,25 +14,19 @@
   {
     "id": "obj01-recursos-contratacoes",
     "objetivo_id": 1,
-    "nome": "Recursos e contratações",
+    "nome": "Recursos e contratações nos órgãos federais",
     "tipo": "tematica"
   },
   {
     "id": "obj01-maturidade-processos-ti",
     "objetivo_id": 1,
-    "nome": "Gestão e maturidade de processos de TI",
+    "nome": "Gestão e maturidade de processos de TI nos órgãos federais",
     "tipo": "tematica"
   },
   {
     "id": "obj01-pessoas-forca-trabalho-ti",
     "objetivo_id": 1,
-    "nome": "Pessoas e força de trabalho em TI",
-    "tipo": "tematica"
-  },
-  {
-    "id": "obj01-instrumentos-sgd-sisp",
-    "objetivo_id": 1,
-    "nome": "Adoção de instrumentos do SGD/SISP",
+    "nome": "Pessoas e força de trabalho em TI nos órgãos federais",
     "tipo": "tematica"
   },
   {
@@ -81,12 +75,6 @@
     "id": "obj02-servicos-setoriais-cidadania-seguranca-fiscal",
     "objetivo_id": 2,
     "nome": "Serviços setoriais: Cidadania, segurança e fiscal",
-    "tipo": "tematica"
-  },
-  {
-    "id": "obj02-servicos-setoriais-mobilidade-urbana",
-    "objetivo_id": 2,
-    "nome": "Serviços setoriais: Mobilidade urbana",
     "tipo": "tematica"
   },
   {
@@ -152,7 +140,7 @@
   {
     "id": "obj03-cpf-cadastros-publicos",
     "objetivo_id": 3,
-    "nome": "CPF nos cadastros públicos",
+    "nome": "CPF nos cadastros dos órgãos federais",
     "tipo": "tematica"
   },
   {
@@ -254,7 +242,7 @@
   {
     "id": "obj05-governanca-responsavel-ia",
     "objetivo_id": 5,
-    "nome": "Governança responsável de inteligência artificial",
+    "nome": "Governança responsável de inteligência artificial nos órgãos federais",
     "tipo": "tematica"
   },
   {
@@ -374,25 +362,19 @@
   {
     "id": "obj08-compras-contratacoes-ti",
     "objetivo_id": 8,
-    "nome": "Compras e contratações de TI",
+    "nome": "Compras e contratações de TI nos órgãos federais",
     "tipo": "tematica"
   },
   {
     "id": "obj08-processos-eletronicos-simplificacao",
     "objetivo_id": 8,
-    "nome": "Processos administrativos eletrônicos e simplificação",
+    "nome": "Processos administrativos eletrônicos e simplificação nos órgãos federais",
     "tipo": "tematica"
   },
   {
     "id": "obj08-sistemas-eletronicos-saude-educacao",
     "objetivo_id": 8,
     "nome": "Sistemas eletrônicos em saúde e educação",
-    "tipo": "tematica"
-  },
-  {
-    "id": "obj08-apoio-decisao-clinica",
-    "objetivo_id": 8,
-    "nome": "Apoio à decisão clínica",
     "tipo": "tematica"
   },
   {
@@ -404,7 +386,7 @@
   {
     "id": "obj09-transparencia-ativa-dados-abertos",
     "objetivo_id": 9,
-    "nome": "Transparência ativa e dados abertos",
+    "nome": "Transparência ativa",
     "tipo": "tematica"
   },
   {
@@ -422,7 +404,7 @@
   {
     "id": "obj09-transparencia-ia",
     "objetivo_id": 9,
-    "nome": "Transparência no uso de inteligência artificial",
+    "nome": "Transparência no uso de inteligência artificial nos órgãos federais",
     "tipo": "tematica"
   },
   {

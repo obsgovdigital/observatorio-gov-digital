@@ -20,12 +20,12 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 O Objetivo 10 conta com 41 variáveis ativas no índice (4 de TIC Governo Eletrônico (CETIC.br), 5 de TIC Educação (CETIC.br), 10 de TIC Educação (Professores) (CETIC.br), 1 de IOSPD (ABEP-TIC), 21 de iGovSISP (SGD/MGI)), que entram na agregação como 19 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Uma variável tem observação por UF (`1.5`, IOSPD 2026); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável. Nenhuma variável tem observação por capital.
 
 <!-- federal:cobertura -->
-No recorte federal, 24 variáveis do objetivo têm observação dos órgãos federais (3 da TIC Governo Eletrônico (CETIC.br) e 21 do iGovSISP (SGD/MGI)), que entram na média do recorte como 9 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 24 variáveis do objetivo têm observação dos órgãos federais (3 da TIC Governo Eletrônico (CETIC.br) e 21 do iGovSISP (SGD/MGI)), que entram na média do recorte como 9 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 13.3 Dimensões
 
-As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões temáticas, complementadas pela dimensão federativa `Recorte Federal`. A primeira trata da força de trabalho de TIC nos órgãos do governo federal, as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica nas escolas e ações estaduais de capacitação; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente quatro recomendações: a 10.1 (redes de capacitação), por medida indireta do planejamento e realização de capacitações no PDTIC; a 10.3 (capacitação continuada e retenção), pelo plano periódico de capacitação das equipes de TI federais e pela proporção de titulares de funções de TI que são servidores efetivos, empregados públicos ou militares; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A capacitação de servidores estaduais também sustenta a Recomendação 10.3, e as orientações recebidas pelas equipes gestoras das escolas acrescentam observação à Recomendação 10.6. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` e `G143GP` estão entre os indicadores que sustentam a Recomendação 10.3. As Recomendações 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice. O Anexo B.10 detalha as lacunas e os limites da cobertura. A sexta dimensão observa formação em inteligência artificial nos órgãos e prefeituras, distinguindo participação da equipe de TI e oferta de cursos de IA generativa. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões temáticas, complementadas pela dimensão federativa `Recorte Federal`. A primeira trata da força de trabalho de TIC nos órgãos do governo federal, as pessoas e equipes sobre as quais as capacitações incidem. As quatro seguintes são organizadas pelo **público-alvo da capacitação** e pela **fase do ciclo de capacitação**: participação de professores da educação básica em formação continuada em TIC; competências digitais e educação crítica nas escolas e ações estaduais de capacitação; plano e processo de capacitação nas equipes de TI do governo federal; e áreas temáticas das capacitações efetivamente desenvolvidas nessas equipes. A separação por público-alvo evita agregar resultados que medem populações conceitualmente distintas, com uma exceção: a Seção 13.3.3 reúne alunos, famílias, gestores escolares e professores e inclui o critério do IOSPD sobre competências digitais dos servidores estaduais, que não cabe nas dimensões de servidores, restritas às equipes de TI do SISP e à formação em inteligência artificial; a separação entre processo e áreas desenvolvidas dentro do SISP, por sua vez, distingue o ciclo PDCA do plano de capacitação dos resultados de cobertura temática. As dimensões do SISP alcançam parcialmente quatro recomendações: a 10.1 (redes de capacitação), por medida indireta do planejamento e realização de capacitações no PDTIC; a 10.3 (capacitação continuada e retenção), pelo plano periódico de capacitação das equipes de TI federais e pela proporção de titulares de funções de TI que são servidores efetivos, empregados públicos ou militares; a 10.5 (letramento em dados, nuvem, cibersegurança e inteligência artificial) e a 10.6 (liderança digital), pelas áreas temáticas efetivamente desenvolvidas nessas equipes. A capacitação de servidores estaduais também sustenta a Recomendação 10.3, e as orientações recebidas pelas equipes gestoras das escolas acrescentam observação à Recomendação 10.6. A dimensão de força de trabalho não é sub-conceito à parte: `G130GP` e `G143GP` estão entre os indicadores que sustentam a Recomendação 10.3. As Recomendações 10.2 (capacitações voltadas a abordagens inclusivas) e 10.4 (eventos de transformação digital) não têm indicador correspondente no índice. O Anexo B.10 detalha as lacunas e os limites da cobertura. A sexta dimensão observa formação em inteligência artificial nos órgãos e prefeituras, distinguindo participação da equipe de TI e oferta de cursos de IA generativa. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 10](../graficos/dimensoes/cap13.png)
 
@@ -40,42 +40,42 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G119GP**. a. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Gestão e Planejamento de Tecnologia da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 80,25
   - Valor (Federal): 80,25
 
 - **G120GP**. b. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Sistemas e Serviços Públicos Digitais;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 83,61
   - Valor (Federal): 83,61
 
 - **G121GP**. c. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Dados e Informações;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 62,61
   - Valor (Federal): 62,61
 
 - **G122GP**. d. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Privacidade e Segurança da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 64,71
   - Valor (Federal): 64,71
 
 - **G123GP**. e. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Contratações de Tecnologia da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 79,41
   - Valor (Federal): 79,41
 
 - **G124GP**. f. No órgão, a força de trabalho de TIC desenvolve satisfatoriamente suas atividades na área de conhecimento Infraestrutura e Plataformas Digitais.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 80,25
   - Valor (Federal): 80,25
 
 - **G130GP**. Qual é o percentual de titulares de funções de TI do seu órgão que são servidores públicos efetivos, empregados públicos ou militares, em conformidade com o Artigo 9º-C do Decreto nº 7.579, de 11 de outubro de 2011, que dispõe sobre o Sistema de Administração dos Recursos de Tecnologia da Informação - SISP, do Poder Executivo federal?
-  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes.
+  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 96,01
   - Valor (Federal): 96,01
 
 - **G143GP**. O órgão possui cargo e/ou carreira própria de TIC?
-  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de respostas Sim sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 34,03
   - Valor (Federal): 34,03
 
@@ -148,7 +148,7 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
   - *Normalização:* Proporção 0-100%, usada diretamente
   - Valor (Nacional): 64,64
 
-- **I4A**. A escola mantém para os alunos projetos deGrupo de programação, robótica ou maker?
+- **I4A**. A escola mantém para os alunos projetos de Grupo de programação, robótica ou maker?
   - *Normalização:* Proporção 0-100%, usada diretamente
   - Valor (Nacional): 14,43
 
@@ -157,11 +157,11 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
   - *Normalização:* Proporção 0-100%, usada diretamente
   - Valor (Nacional): 52,59
 
-- **D8**. O(A) Sr.(a) concorda, não concorda nem discorda ou discorda queOs professores da escola possuem habilidades para integrar tecnologias digitais às atividades educacionais: Concorda?
+- **D8**. O(A) Sr.(a) concorda, não concorda nem discorda ou discorda que Os professores da escola possuem habilidades para integrar tecnologias digitais às atividades educacionais: Concorda?
   - *Normalização:* Proporção 0-100%, usada diretamente
   - Valor (Nacional): 62,07
 
-- **D8**. O(A) Sr.(a) concorda, não concorda nem discorda ou discorda queAs equipes de gestão e coordenação da escola receberam orientações da rede de ensino sobre como integrar tecnologias digitais em atividades educacionais: Concorda?
+- **D8**. O(A) Sr.(a) concorda, não concorda nem discorda ou discorda que As equipes de gestão e coordenação da escola receberam orientações da rede de ensino sobre como integrar tecnologias digitais em atividades educacionais: Concorda?
   - *Normalização:* Proporção 0-100%, usada diretamente
   - Valor (Nacional): 63,84
 
@@ -204,37 +204,37 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G106GPO**. O órgão detalhou as capacitações planejadas, suas relações com as necessidades priorizadas no PDTIC, se já efetuou as do Capacita.gov.br e os orçamentos das capacitações?
-  - *Normalização:* Sim = 1, Em parte = 0,5 e Não = 0, sobre os 238 órgãos respondentes.
+  - *Normalização:* Sim = 1, Em parte = 0,5 e Não = 0, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 43,07
   - Valor (Federal): 43,07
 
 - **G131GP**. a. define as competências necessárias para o pessoal de TI executar suas atividades.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 77,31
   - Valor (Federal): 77,31
 
 - **G132GP**. b. define critérios para avaliação e atendimento dos pedidos de capacitação.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 72,27
   - Valor (Federal): 72,27
 
 - **G133GP**. c. elabora, periodicamente, plano de capacitação para suprir as necessidades de desenvolvimento de competências de TI.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 74,37
   - Valor (Federal): 74,37
 
 - **G134GP**. d. executa o plano de capacitação, identificando e corrigindo os desvios.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 45,80
   - Valor (Federal): 45,80
 
 - **G135GP**. e. avalia a execução do plano de capacitação, verificando se os objetivos e resultados esperados foram alcançados.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 41,60
   - Valor (Federal): 41,60
 
 - **G136GP**. f. possui algum tipo de incentivo, financeiro ou não, para o desenvolvimento de competências do pessoal de TI.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 44,96
   - Valor (Federal): 44,96
 
@@ -254,32 +254,32 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G137GP**. a. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Gestão e Planejamento de Tecnologia da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 51,26
   - Valor (Federal): 51,26
 
 - **G138GP**. b. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Sistemas e Serviços Públicos Digitais;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 47,48
   - Valor (Federal): 47,48
 
 - **G139GP**. c. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Dados e Informações;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 42,44
   - Valor (Federal): 42,44
 
 - **G140GP**. d. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Privacidade e Segurança da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 57,56
   - Valor (Federal): 57,56
 
 - **G141GP**. e. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Contratações de Tecnologia da Informação;
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 57,56
   - Valor (Federal): 57,56
 
 - **G142GP**. f. No órgão, são plenamente desenvolvidas capacitações na área de conhecimento Infraestrutura e Plataformas Digitais.
-  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes.
+  - *Normalização:* Proporção de concordância parcial ou total entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 50,00
   - Valor (Federal): 50,00
 
@@ -311,7 +311,7 @@ As 41 variáveis ativas do Objetivo 10 foram organizadas em seis dimensões tem�
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **H3E**. Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão públicoOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeituraOfereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias:
+- **H3E**. Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, este órgão público Ofereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias? / Em relação a ferramentas de Inteligência Artificial Generativa que ajudam a criar conteúdo automaticamente, como ChatGpt, Copilot, Gemini ou similares, esta prefeitura Ofereceu curso, treinamento ou capacitação para seus funcionários sobre o uso dessas tecnologias:
   - *Contagem:* Proporção de respostas Sim na população publicada. Oferta de curso, treinamento ou capacitação em inteligência artificial generativa; média das proporções de órgãos e prefeituras, com peso igual entre os dois universos.
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 30,00
