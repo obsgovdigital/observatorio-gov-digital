@@ -25,6 +25,7 @@ Visão de produto, escopo e rotas públicas — sem requisitos de ambiente de de
 | [Escopo e decisões](01-produto/escopo-e-decisoes.md) | Decisões de produto e comportamento da plataforma         |
 | [Mapa de rotas](01-produto/mapa-de-rotas.md)          | Rotas públicas, variantes A/B e navegação               |
 | [Glossário](01-produto/glossario.md)                 | Índice, níveis, tags, variável, fonte                   |
+| [Curadoria de publicações](01-produto/curadoria-publicacoes.md) | Guia ao MBC para alimentar `/publicacoes` (+ `.docx` para envio) |
 
 ### Engenharia
 
