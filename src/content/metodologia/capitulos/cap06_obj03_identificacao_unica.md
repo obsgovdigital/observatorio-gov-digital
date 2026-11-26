@@ -23,12 +23,12 @@ A Portaria SGD/MGI nº 5.395/2026 elenca nove recomendações aos entes federado
 O Objetivo 3 conta com 8 variáveis ativas no índice (1 de TIC Governo Eletrônico (CETIC.br), 2 de IOSPD (ABEP-TIC), 1 de MUNIC (IBGE), 3 de iGovSISP (SGD/MGI), 1 de Base de dados da CIN (SGD/MGI)), que entram na agregação como 8 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 3 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Uma variável tem observação por capital (`Mtic18a3-Mtic18a4, Mtic18a6`, MUNIC 2024); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável.
 
 <!-- federal:cobertura -->
-No recorte federal, 4 variáveis do objetivo têm observação dos órgãos federais (1 da TIC Governo Eletrônico (CETIC.br) e 3 do iGovSISP (SGD/MGI)), que entram na média do recorte como 4 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 4 variáveis do objetivo têm observação dos órgãos federais (1 da TIC Governo Eletrônico (CETIC.br) e 3 do iGovSISP (SGD/MGI)), que entram na média do recorte como 4 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 6.3 Dimensões
 
-As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte Federal`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria: autenticação digital, assinatura eletrônica, identidade civil e CPF nos cadastros públicos. Uma dimensão tem uma única variável (`Identidade civil`), o que reflete o estado atual do índice. O `Recorte Estadual` consolida os três indicadores com observação por UF. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
+As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões temáticas, complementadas pelas dimensões federativas `Recorte Estadual` e `Recorte Federal`. Cada dimensão temática corresponde diretamente a uma ou mais das nove recomendações da Portaria: autenticação digital, assinatura eletrônica, identidade civil e CPF nos cadastros dos órgãos federais. Uma dimensão tem uma única variável (`Identidade civil`). O `Recorte Estadual` consolida os três indicadores com observação por UF. O `Recorte Federal` reagrupa as variáveis com observação dos órgãos federais, com a União como ente único.
 
 ![Dimensões do Objetivo 3](../graficos/dimensoes/cap06.png)
 
@@ -42,7 +42,7 @@ As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões tem�
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **C9B**. Em relação ao cadastro ou login para acesso a serviços do órgão pelo website, o cidadão pode acessar peloLogin único, o Gov.br, do Governo Federal? / Em relação ao cadastro ou login para acesso a serviços da prefeitura pelo website, o cidadão pode acessar peloLogin único, o Gov.br, do Governo Federal?
+- **C9B**. Em relação ao cadastro ou login para acesso a serviços do órgão pelo website, o cidadão pode acessar pelo Login único, o Gov.br, do Governo Federal? / Em relação ao cadastro ou login para acesso a serviços da prefeitura pelo website, o cidadão pode acessar pelo Login único, o Gov.br, do Governo Federal?
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 18,52
   - Valor (Federal): 38,57
@@ -59,7 +59,7 @@ As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões tem�
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G630IPD**. Dentro dos serviços oferecidos para a sociedade, quantos estão integrados ao Login Único (Acesso gov.br), plataforma de autenticação única ofertada pelo Ministério da Gestão, sem ônus para o órgão?
-  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes.
+  - *Normalização:* Média dos tetos reais das faixas, ponderada pelas contagens, com peso igual entre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 63,07
   - Valor (Federal): 63,07
   - *Leitura:* A média dos tetos aproxima por cima a média de integração entre órgãos; não é a porcentagem exata de todos os serviços integrados.
@@ -99,7 +99,7 @@ As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões tem�
   - Valor (Nacional): 52,66
   - Valor (Estadual): 55,66 (média de 27 UFs)
 
-### 6.3.4 CPF nos cadastros públicos
+### 6.3.4 CPF nos cadastros dos órgãos federais
 
 *Definição:* Uso do CPF como identificador único nas bases finalísticas e nos registros cadastrais dos órgãos federais respondentes. Corresponde à Recomendação 3.7.
 
@@ -111,14 +111,14 @@ As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões tem�
 
 - **G331410DI**. Em relação às bases de dados finalísticas do seu órgão (relacionados a políticas públicas ou serviços públicos), qual a percentagem em que o número do CPF já é utilizado como identificador único (conforme art. 9º, II da Lei nº 14.534/2023), com validação/consulta automática na Receita Federal?
   - *Contagem:* Média dos tetos das faixas percentuais, ponderada pelas contagens de órgãos com bases aplicáveis. Não sei recebe zero; não existem bases sai do denominador. Não é proporção de órgãos nem média de todos os órgãos do SISP.
-  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com bases aplicáveis.
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com bases aplicáveis; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 45,26
   - Valor (Federal): 45,26
   - *Leitura:* A média dos tetos aproxima por cima a média declarada entre órgãos com bases finalísticas aplicáveis; órgãos sem bases não entram no denominador.
 
 - **G331411DI**. Qual a estimativa do percentual de registros cadastrais ativos do seu órgão que já utilizam o CPF como identificador único?
   - *Contagem:* Média dos tetos das faixas percentuais, ponderada pelas contagens de órgãos com registros aplicáveis. Não sei recebe zero; não existem registros sai do denominador. Não é proporção de órgãos nem média de todos os órgãos do SISP.
-  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com registros aplicáveis.
+  - *Normalização:* Média dos tetos reais das faixas percentuais, ponderada pelas contagens de órgãos com registros aplicáveis; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 50,12
   - Valor (Federal): 50,12
   - *Leitura:* A média dos tetos aproxima por cima a média declarada entre órgãos com registros cadastrais aplicáveis; órgãos sem registros não entram no denominador.
@@ -154,6 +154,6 @@ As 8 variáveis ativas do Objetivo 3 foram organizadas em quatro dimensões tem�
 |---|---|---|---:|
 | `C9B` | TIC Gov. | 6.3.1 Autenticação digital | 38,57 |
 | `G630IPD` | iGovSISP | 6.3.1 Autenticação digital | 63,07 |
-| `G331410DI` | iGovSISP | 6.3.4 CPF nos cadastros públicos | 45,26 |
-| `G331411DI` | iGovSISP | 6.3.4 CPF nos cadastros públicos | 50,12 |
+| `G331410DI` | iGovSISP | 6.3.4 CPF nos cadastros dos órgãos federais | 45,26 |
+| `G331411DI` | iGovSISP | 6.3.4 CPF nos cadastros dos órgãos federais | 50,12 |
 <!-- /federal:secao -->

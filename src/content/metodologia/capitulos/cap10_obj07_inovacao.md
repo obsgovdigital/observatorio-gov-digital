@@ -20,7 +20,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca seis recomendações aos entes federado
 O Objetivo 7 conta com 16 variáveis ativas no índice (6 de TIC Governo Eletrônico (CETIC.br), 1 de TIC Saúde (CETIC.br), 1 de TIC Educação (CETIC.br), 4 de IOSPD (ABEP-TIC), 3 de ESTADIC (IBGE), 1 de iGovSISP (SGD/MGI)), que entram na agregação como 13 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 7 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Nenhuma variável tem observação por capital.
 
 <!-- federal:cobertura -->
-No recorte federal, 7 variáveis do objetivo têm observação dos órgãos federais (6 da TIC Governo Eletrônico (CETIC.br) e 1 do iGovSISP (SGD/MGI)), que entram na média do recorte como 4 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 7 variáveis do objetivo têm observação dos órgãos federais (6 da TIC Governo Eletrônico (CETIC.br) e 1 do iGovSISP (SGD/MGI)), que entram na média do recorte como 4 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 10.3 Dimensões
@@ -31,7 +31,7 @@ As 16 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temá
 
 ### 10.3.1 Inteligência artificial e tecnologias emergentes
 
-*Definição:* Adoção de inteligência artificial, ciência de dados, dispositivos de Internet das Coisas (IoT) e demais tecnologias emergentes (Blockchain, IA, Robótica) em órgãos públicos, prefeituras e estabelecimentos de saúde, uso de IA na gestão escolar, e estágio de estruturação de uma estratégia institucional de IA nos órgãos federais. Corresponde à Recomendação 7.4.
+*Definição:* Adoção de inteligência artificial, dispositivos de Internet das Coisas (IoT) e demais tecnologias emergentes (Blockchain, IA, Robótica) em órgãos públicos, prefeituras e estabelecimentos de saúde, uso de IA na gestão escolar, e estágio de estruturação de uma estratégia institucional de IA nos órgãos federais. Corresponde à Recomendação 7.4.
 
 *Média Nacional:* 37,3 (n=7; 7 itens).
 
@@ -79,7 +79,7 @@ As 16 variáveis ativas do Objetivo 7 foram organizadas em duas dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G337DI**. TEMA: Estratégia de Inteligência Artificial Assertiva: Há adoção de uma estratégia estruturada para o uso da Inteligência Artificial, garantindo que sua aplicação esteja alinhada aos objetivos institucionais, com governança clara, infraestrutura adequada e monitoramento contínuo. A IA é integrada aos processos centrais da organização, sendo utilizada de forma ética, transparente e orientada para a inovação e a melhoria dos serviços públicos.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 17,23
   - Valor (Federal): 17,23
   - *Estágio positivo mínimo:* Bases para a governança da IA estão integradas à estratégia de governança de dados. São desenvolvidos planos para incorporar IA em processos-chave e serviços públicos, além do início da construção de uma infraestrutura adequada. Prototipagem de soluções e projetos piloto começam a ser realizados, com envolvimento gradual de diferentes áreas institucionais.

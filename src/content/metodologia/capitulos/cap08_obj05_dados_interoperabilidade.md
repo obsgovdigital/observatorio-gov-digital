@@ -21,7 +21,7 @@ A Portaria SGD/MGI nº 5.395/2026 elenca sete recomendações aos entes federado
 O Objetivo 5 conta com 52 variáveis ativas no índice (3 de TIC Governo Eletrônico (CETIC.br), 4 de TIC Saúde (CETIC.br), 4 de IOSPD (ABEP-TIC), 1 de MUNIC (IBGE), 2 de ESTADIC (IBGE), 38 de iGovSISP (SGD/MGI)), que entram na agregação como 40 componentes, após o colapso das baterias (ver Capítulo 3). Todas contribuem para a visão Nacional. Há 6 variáveis com observação por UF, reunidas também na dimensão `Recorte Estadual`. Uma variável tem observação por capital (`Mtic272`, MUNIC 2024); o indicador aparece na sua dimensão temática, sem criar uma dimensão federativa com apenas uma variável.
 
 <!-- federal:cobertura -->
-No recorte federal, 41 variáveis do objetivo têm observação dos órgãos federais (3 da TIC Governo Eletrônico (CETIC.br) e 38 do iGovSISP (SGD/MGI)), que entram na média do recorte como 29 componentes. O limiar mínimo de dois componentes efetivos observados justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
+No recorte federal, 41 variáveis do objetivo têm observação dos órgãos federais (3 da TIC Governo Eletrônico (CETIC.br) e 38 do iGovSISP (SGD/MGI)), que entram na média do recorte como 29 componentes. O limiar mínimo de duas variáveis efetivas observadas justifica a criação da dimensão **`Recorte Federal`**, em que a União é o único ente, sem ranking (Seção 3.1.6).
 <!-- /federal:cobertura -->
 
 ## 8.3 Dimensões
@@ -40,12 +40,12 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 
 *TIC Governo Eletrônico 2025 (CETIC.br):*
 
-- **B7B**. Este órgão público possui Comitê ou Conselho formalmente instituídode Governança de Dados
+- **B7B**. Este órgão público possui Comitê ou Conselho formalmente instituído de Governança de Dados
   - *Normalização:* Proporção 0-100% sobre o universo de órgãos públicos, usada diretamente; valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 40,49
   - Valor (Federal): 63,57
 
-- **B5A**. Agora gostaria de saber se este órgão possui os seguintes documentos formalmente instituídos, mesmo que tenham sido elaborados por outro órgão público. Este órgão público possui documento formalmente instituído dePlano ou política de governança de dados? E documento formalmente instituído de Plano ou política de governança de dados? / Agora gostaria de saber se a prefeitura em que o(a) sr.(a) trabalha possui os seguintes documentos formalmente instituídos. Esta prefeitura possui documento formalmente instituído dePlano ou política de governança de dados? E documento formalmente instituído de Plano ou política de governança de dados?
+- **B5A**. Agora gostaria de saber se este órgão possui os seguintes documentos formalmente instituídos, mesmo que tenham sido elaborados por outro órgão público. Este órgão público possui documento formalmente instituído de Plano ou política de governança de dados? E documento formalmente instituído de Plano ou política de governança de dados? / Agora gostaria de saber se a prefeitura em que o(a) sr.(a) trabalha possui os seguintes documentos formalmente instituídos. Esta prefeitura possui documento formalmente instituído de Plano ou política de governança de dados? E documento formalmente instituído de Plano ou política de governança de dados?
   - *Normalização:* Proporção 0-100%; valor Nacional é a média das proporções sobre os universos de órgãos públicos e de prefeituras (peso igual; ver Seção 3.3.4); valor Federal é a proporção sobre os órgãos federais (linha Federal do nível de governo na tabela de órgãos).
   - Valor (Nacional): 34,17
   - Valor (Federal): 49,29
@@ -60,53 +60,53 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G333DI**. TEMA: Dados como Pilar para Entregas à Sociedade Assertiva: A governança e gestão de dados estão estruturadas para melhorar a qualidade e a consistência das políticas públicas, maximizando os benefícios para a sociedade.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 56,30
   - Valor (Federal): 56,30
   - *Estágio positivo mínimo:* Existe a preocupação sobre a compreensão de como as práticas de governança de dados são importantes para integrar e convergir os esforços das diversas unidades e que isso tem impacto direto nas entregas de produtos de dados para a sociedade. Embora haja uma conscientização sobre como uma boa gestão de dados pode apoiar essas entregas, as iniciativas nesse sentido podem não estar totalmente alinhadas com todas as áreas de entrega para a sociedade, sendo necessário um esforço para melhorar a consistência e a integração de dados e das equipes.
   - *Leitura:* Mede governança e gestão de dados orientadas às entregas à sociedade, não qualidade técnica dos dados.
 
 - **G309DI**. TEMA: Promoção da Cultura de Dados pela Alta Gestão Assertiva: A alta gestão demonstra compromisso ativo na promoção de uma cultura orientada a dados, atuando como exemplo e engajando as equipes na valorização dos dados como ativos estratégicos.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 53,36
   - Valor (Federal): 53,36
   - *Estágio positivo mínimo:* A alta gestão demonstra um compromisso crescente com o uso estratégico dos dados, promovendo a tomada de decisão orientada por dados. Além disso, patrocina ações para conscientizar e engajar a organização sobre as estruturas, diretrizes e processos de governança de dados, fortalecendo a cultura organizacional nesse tema.
 
 - **G321DI**. TEMA: Princípios e Políticas de Dados Assertiva: Princípios e políticas de dados são definidos e implementados visando o estabelecimento de valores e diretrizes para garantir que os dados sejam geridos de forma ética, segura e estratégica, alinhados aos objetivos institucionais e às regulamentações aplicáveis.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 31,09
   - Valor (Federal): 31,09
   - *Estágio positivo mínimo:* Princípios e políticas de dados estão formalizados e abrangem diretrizes gerais para a gestão e governança de dados. Contudo, sua aplicação ainda é limitada, e a disseminação para as equipes e processos está em progresso.
 
 - **G322DI**. TEMA: Estrutura Organizacional para Governança de Dados Assertiva: Existe uma estrutura de governança de dados formalmente estabelecida, com papéis, responsabilidades e mecanismos de comunicação claros, garantindo a colaboração entre as áreas e a supervisão contínua do progresso e da efetividade do Programa de Governança de Dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 36,13
   - Valor (Federal): 36,13
   - *Estágio positivo mínimo:* A estrutura de governança de dados está em processo de desenvolvimento, com a definição inicial de alguns papéis e responsabilidades. Diretrizes, políticas e frameworks estão em elaboração ou avaliação. Já há esforços para disseminação do tema por meio de treinamentos, workshops ou iniciativas de comunicação, promovendo maior engajamento e alinhamento entre as partes envolvidas. Iniciam-se mecanismos básicos de supervisão, mas ainda sem uma estrutura consolidada para monitoramento contínuo.
 
 - **G334DI**. TEMA: Ética no Tratamento de Dados Assertiva: Princípios éticos sólidos no tratamento de dados são adotados, garantindo imparcialidade, equidade e transparência. São implementadas políticas robustas para a identificação e mitigação de vieses, auditorias regulares e treinamentos contínuos, assegurando que as decisões baseadas em dados sejam justas e responsáveis.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 16,81
   - Valor (Federal): 16,81
   - *Estágio positivo mínimo:* Diretrizes básicas para ética no tratamento de dados estão implementadas, incluindo medidas iniciais para identificação e mitigação de viés. Equipes começam a receber treinamento sobre ética de dados, e há discussões sobre a necessidade de mecanismos de responsabilização e auditoria.
 
 - **G33112DI**. O órgão ou entidade possui um Executivo de Dados ou agente público com atribuições equivalentes formalmente designado?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 18,07
   - Valor (Federal): 18,07
 
 - **G33117DI**. Existe hoje um colegiado interno de governança de dados, com atas e reuniões periódicas?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 25,63
   - Valor (Federal): 25,63
 
 - **G33118DI**. O órgão ou entidade possui Política Interna de Governança de Dados formalmente instituída e publicada?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 17,65
   - Valor (Federal): 17,65
 
 - **G33119DI**. As práticas de governança de dados hoje fazem parte da rotina da instituição, independentemente de haver ou não uma norma federal publicada (decreto, instrução normativa ou outro instrumento)?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 3,78
   - Valor (Federal): 3,78
 
@@ -117,7 +117,7 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 
 ### 8.3.2 Qualidade e gestão dos ativos de dados
 
-*Definição:* Práticas de catalogação, modelagem, armazenamento e mensuração da qualidade dos dados produzidos pelos órgãos: relevância e suficiência dos dados, documentação de ativos, glossário de termos de negócio, dados mestres, gestão de metadados, ciclo de vida, modelagem, dados não estruturados e geoespaciais, alinhamento do tratamento de dados aos objetivos estratégicos, letramento em dados e gestão, cultura e medição da qualidade dos dados. Corresponde à Recomendação 5.6 (padrões de qualidade, catalogação e semântica); com vínculo secundário à Recomendação 5.4.
+*Definição:* Práticas de catalogação, modelagem, armazenamento e mensuração da qualidade dos dados produzidos pelos órgãos: relevância e suficiência dos dados, documentação de ativos, glossário de termos de negócio, dados mestres, gestão de metadados, ciclo de vida, modelagem, dados não estruturados e geoespaciais, alinhamento do tratamento de dados aos objetivos estratégicos, letramento em dados e gestão, cultura e medição da qualidade dos dados. Corresponde às Recomendações 5.1 (programa de governança de dados) e 5.4.
 
 *Média Nacional:* 32,3 (n=10; 15 itens).
 
@@ -133,85 +133,85 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G301DI**. TEMA: Relevância e Suficiência dos Dados Assertiva: Os dados coletados são relevantes e suficientes para embasar as análises e tomadas de decisão necessárias à gestão institucional.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 39,92
   - Valor (Federal): 39,92
   - *Estágio positivo mínimo:* Os processos de gestão de dados são formalizados e documentados. Existem políticas e procedimentos claros para a coleta, armazenamento e uso de dados. Monitoramento inicial da completude, consistência e acurácia dos dados.
 
 - **G311DI**. TEMA: Documentação dos Ativos de Dados Assertiva: Práticas para a documentação de seus ativos de dados são adotadas para garantir o registro padronizado de informações essenciais, como propriedade, formato, origem e descrição.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 44,12
   - Valor (Federal): 44,12
   - *Estágio positivo mínimo:* A importância da documentação dos ativos de dados é reconhecida e iniciou a definição de diretrizes para padronizar esse processo. Algumas áreas já adotam práticas mais estruturadas, mas ainda há inconsistências na aplicação e na abrangência da documentação.
 
 - **G312DI**. TEMA: Glossário de Termos de Negócio Assertiva: Glossário de termos de negócio é mantido e utilizado para padronizar definições, reduzir ambiguidades e promover a comunicação clara entre as áreas.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 20,59
   - Valor (Federal): 20,59
   - *Estágio positivo mínimo:* Existe um glossário de termos de negócio em estágio inicial, abrangendo os principais conceitos utilizados internamente. Entretanto, sua adoção ainda é parcial, sem um processo estruturado de atualização e governança.
 
 - **G313DI**. TEMA: Gerenciamento de Dados Mestres e Dados de Referência Assertiva: Os processos para gerenciar dados mestres e dados de referência estão definidos, garantindo padronização e integridade nas bases utilizadas.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 16,81
   - Valor (Federal): 16,81
   - *Estágio positivo mínimo:* Os processos formais de gestão de dados mestres e de referência estão disponíveis e estabelecidos.
 
 - **G324DI**. TEMA: Gestão de Metadados Assertiva: Os metadados são gerenciados para aprimorar a capacidade da instituição de processar, manter, integrar, proteger, auditar e governar seus dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 31,51
   - Valor (Federal): 31,51
   - *Estágio positivo mínimo:* Práticas iniciais e padronizadas são adotadas na gestão de metadados em alguns domínios de dados. No entanto, a documentação ainda não é abrangente, e a integração entre metadados técnicos, negociais e operacionais é limitada.
 
 - **G325DI**. TEMA: Ciclo de Vida dos Dados Assertiva: Os dados da instituição seguem um ciclo de vida estruturado, com práticas de coleta, armazenamento, uso e descarte bem definidas.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 31,51
   - Valor (Federal): 31,51
   - *Estágio positivo mínimo:* Diretrizes, políticas, orientações, tecnologias e processos estão implementados para gerenciar todas as etapas de ciclo de vida dos dados. Os dados coletados são armazenados em repositórios apropriados, como bancos de dados, Data Warehaouse (DW) ou outras soluções equivalentes. A arquitetura de armazenamento garante compartilhamento, segurança e privacidade dos dados.
 
 - **G326DI**. TEMA: Dados não Estruturados Assertiva: Boas práticas e ferramentas são adotadas para coleta, armazenamento e análise de dados não estruturados, garantindo seu aproveitamento estratégico.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 36,55
   - Valor (Federal): 36,55
   - *Estágio positivo mínimo:* Começam a surgir iniciativas e pesquisas voltadas ao desenvolvimento de novas habilidades para análise de dados não estruturados, conforme demandas pontuais.
 
 - **G359DI**. TEMA: Modelagem de Dados Assertiva: Práticas de modelagem de dados são adotadas para estruturar, organizar e documentar suas bases de dados, garantindo padronização e facilitando a gestão e o uso estratégico dos dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 47,48
   - Valor (Federal): 47,48
   - *Estágio positivo mínimo:* Práticas iniciais e padronizadas de modelagem de dados são aplicadas a alguns sistemas ou projetos específicos. Contudo, a adoção ainda é limitada e os modelos não são amplamente documentados nem possuem uma governança centralizada para garantir sua consistência e evolução.
 
 - **G361DI**. TEMA: Alinhamento com Objetivos Estratégicos Assertiva: As atividades de coleta, análise e tomada de decisão com base em dados estão alinhadas à visão, missão e metas institucionais, garantindo suporte efetivo ao planejamento estratégico e à governança corporativa.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 40,76
   - Valor (Federal): 40,76
   - *Estágio positivo mínimo:* Uma abordagem mais estruturada para o uso de dados está sendo desenvolvida, visando alinhar as ações de governança e gestão de dados ao planejamento estratégico.
 
 - **G381DI**. TEMA: Letramento em Dados Assertiva: A promoção da capacitação é contínua entre os envolvidos para o uso efetivo de dados no apoio à tomada de decisões, assegurando que as habilidades necessárias sejam desenvolvidas em todas as áreas, de maneira alinhada aos objetivos estratégicos e às demandas institucionais.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 37,82
   - Valor (Federal): 37,82
   - *Estágio positivo mínimo:* Treinamentos pontuais e direcionados são promovidos, voltados principalmente a um grupo restrito de colaboradores especializados. Complementarmente, suporte e capacitações personalizadas são oferecidas para servidores envolvidos na gestão de dados, atendendo às demandas específicas de suas funções.
 
 - **G382DI**. TEMA: Gerenciamento de Dados Geoespaciais Assertiva: A captura, armazenamento e utilização dos dados geoespaciais é feita de forma estruturada, permitindo sua integração e análise para tomada de decisão, combinando atributos espaciais e não espaciais.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 7,56
   - Valor (Federal): 7,56
   - *Estágio positivo mínimo:* Dados geoespaciais são compartilhados por meio de metadados na INDE e em conformidade com os padrões e normas homologados pela Comissão Nacional de Geoinformação (CONGEO), promovendo a transparência e eliminando a duplicidade de esforços e recursos, ao permitir que o acesso público aos dados geoespaciais sejam amplamente utilizados e aproveitados por diferentes usuários e instituições. Há treinamentos periódicos para utilização da tecnologia por usuários não-especializados. A plataforma de SIG é reconhecida como um ativo importante para a instituição.
 
 - **G384DI**. TEMA: Gestão de Qualidade de Dados Assertiva: Há adoção de uma abordagem governada para planejar, implementar e controlar atividades que garantam que os dados sejam coletados, gerenciados e utilizados de forma adequada ao seu propósito, assegurando a identificação, correção e prevenção de inconsistências e desvios de qualidade ao longo de todo o ciclo de vida dos dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 16,81
   - Valor (Federal): 16,81
   - *Estágio positivo mínimo:* São definidos padrões, requisitos e especificações iniciais para controles de qualidade, e a organização começa a implementar processos para medir, monitorar e relatar os níveis de qualidade dos dados, focando nos dados críticos.
 
 - **G385DI**. TEMA: Cultura de Qualidade de Dados Assertiva: Há promoção e estabelecimento de uma mentalidade orientada ao aumento da qualidade dos dados coletados, gerenciados e utilizados pela organização, fomentando uma mudança cultural para que os colaboradores compreendam seu papel e atuem ativamente na manutenção e aprimoramento da confiabilidade dos dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 9,24
   - Valor (Federal): 9,24
   - *Estágio positivo mínimo:* Os processos estruturados de treinamento e sensibilização sobre a importância da qualidade de dados são implementados, promovendo maior engajamento e desenvolvendo competências essenciais entre os colaboradores, estabelecendo as bases para uma mudança cultural positiva.
 
 - **G386DI**. TEMA: Medição e Controle da Qualidade de Dados Assertiva: Há aferição e monitoramento contínuos sobre a qualidade dos dados coletados, gerenciados e utilizados, utilizando métricas, indicadores e técnicas diversas, como profilamento de dados e monitoramento de tendências, assegurando a confiabilidade, integridade e adequação ao uso.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 8,40
   - Valor (Federal): 8,40
   - *Estágio positivo mínimo:* Métricas iniciais para qualidade de dados são estabelecidas, o monitorar dados críticos é iniciado e já se aplica técnicas como profilamento de dados, análise de tendências e monitoramento de incidentes de qualidade, permitindo identificar padrões, violação de requisitos e tendências ao longo do tempo.
@@ -261,38 +261,38 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G222SPD**. Como o órgão gerencia a integração entre sistemas e bases de dados internas e externas?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 79,83
   - Valor (Federal): 79,83
   - *Estágio positivo mínimo:* Integrações automatizadas apenas entre sistemas internos.
   - *Leitura:* Mede integração de sistemas e bases internas e externas, não comprova por si integração federativa.
 
 - **G328DI**. TEMA: Padrões e Normas para Interoperabilidade Assertiva: Normas, diretrizes e padrões são adotados para garantir a consistência e a compatibilidade dos dados compartilhados entre diferentes sistemas, aplicativos e plataformas.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 23,53
   - Valor (Federal): 23,53
   - *Estágio positivo mínimo:* Há o reconhecimento da importância da interoperabilidade dos ativos de dados e iniciou-se a definição de diretrizes para padronizar esse processo. Há inventário de metadados estruturado ou adesão ao Catálogo Nacional de Metadados, há adoção parcial de registros de referência.
 
 - **G329DI**. TEMA: Integração de Sistemas Assertiva: Os sistemas heterogêneos da instituição estão integrados, permitindo a troca eficiente de informações entre diferentes plataformas, o que pode envolver a criação de mecanismos de interoperabilidade e canais de comunicação que permitam a troca de informações entre os sistemas de maneira padronizada e compatível.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 38,66
   - Valor (Federal): 38,66
   - *Estágio positivo mínimo:* Há diretrizes e padrões estabelecidos para a interoperabilidade de dados da Instituição em compatibilidade com a Infraestrutura Nacional de Dados (IND), por exemplo registros de referência, conecta gov.br e o Catálogo Nacional de Metadados.
 
 - **G330DI**. TEMA: Monitoramento e Avaliação da Interoperabilidade Assertiva: O monitoramento contínuo da interoperabilidade dos sistemas que permite identificar eventuais problemas ou gargalos são realizados, permitindo ações corretivas e melhorias do monitoramento da coleta, análise e interpretação de dados relacionado garantindo desempenho e confiabilidade.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 8,40
   - Valor (Federal): 8,40
   - *Estágio positivo mínimo:* Há um programa de implementação do monitoramento integrado de avaliação da interoperabilidade dos sistemas que compõem o conjunto de dados, com processos contínuos de coleta e análise dados e geração de relatórios por meio de ferramentas. Há metas de desempenho estabelecidas, comparando os resultados atuais com as expectativas e os requisitos preestabelecidos.
 
 - **G336DI**. TEMA: Compartilhamento de Dados com Atores Externos Assertiva: O compartilhamento de dados com atores externos à instituição ocorre de forma eficiente, segura e em conformidade com regulamentações.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 25,21
   - Valor (Federal): 25,21
   - *Estágio positivo mínimo:* Há um programa estruturado para compartilhamento de dados com atores externos constituído de processos formais implementados e os processos são revisados e atualizados periodicamente.
 
 - **G33141DI**. Qual opção melhor representa seu nível de conhecimento em relação ao programa Conecta gov.br?
-  - *Normalização:* Proporção nos níveis 4 e 5 de conhecimento e utilização, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção nos níveis 4 e 5 de conhecimento e utilização, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 63,03
   - Valor (Federal): 63,03
 
@@ -334,13 +334,13 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G314DI**. TEMA: Implementação da Política de Dados Abertos Assertiva: A política de dados abertos da instituição está implementada com processos definidos para seleção, publicação e manutenção dos conjuntos de dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 57,56
   - Valor (Federal): 57,56
   - *Estágio positivo mínimo:* A abertura de dados é realizada com objetivos claros de gerar valor, fomentar a inovação e promover soluções que atendam a necessidades específicas da sociedade e do governo. A gestão de dados abertos é realizada de forma centralizada, com um responsável específico por sua condução. A cultura de dados abertos está se fortalecendo, com foco crescente na formação e no uso estratégico dos dados. Adicionalmente, processos regulares de atualização das bases de dados abertos já publicadas são estabelecidos.
 
 - **G315DI**. TEMA: Ecossistema de Dados Abertos Assertiva: As contribuições para o ecossistema de dados abertos promovem um ambiente constituído por um conjunto de atores, tecnologias, processos e políticas que visam à disponibilização, acesso e reutilização de dados governamentais de forma livre e aberta para os interessados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 34,87
   - Valor (Federal): 34,87
   - *Estágio positivo mínimo:* Os atores que compõem o ecossistema estão mapeados, os processos estruturados foram definidos, e os canais de comunicação e interação entre publicadores e consumidores de dados abertos estão estabelecidos. Ferramentas tecnológicas permitem que os dados abertos sejam disponibilizados de forma acessível e organizada e a instituição estabelece diretrizes e processos que incentivam a publicação de dados abertos de forma mais consistente e ampla.
@@ -371,33 +371,33 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G310DI**. TEMA: Gestão Orientada a Dados Assertiva: Os dados são reconhecidos como um recurso estratégico na instituição e são utilizados de forma sistemática para embasar decisões em todos os níveis hierárquicos.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 42,86
   - Valor (Federal): 42,86
   - *Estágio positivo mínimo:* A cultura de decisão baseada em dados está em fase de consolidação e já se reconhecem os dados como um ativo estratégico. Existem processos estruturados para coleta, armazenamento e análise de dados, com maior integração entre áreas. Técnicas de análise começam a ser utilizadas para subsidiar decisões, e há um esforço para capacitação das equipes em gestão e uso de dados.
   - *Leitura:* Mede uso sistemático de dados nas decisões, não integração de bases.
 
 - **G307DI**. TEMA: Tomada de Decisão Baseada em Dados Assertiva: As decisões estratégicas e operacionais são fundamentadas em dados e em informações confiáveis, relevantes e alinhadas aos objetivos estratégicos organizacionais, garantindo maior assertividade e transparência.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 51,26
   - Valor (Federal): 51,26
   - *Estágio positivo mínimo:* Decisões começam a ser frequentemente baseadas em dados, com o uso de BI e análises descritivas. Indicadores e métricas bem definidos e monitorados regularmente.
 
 - **G308DI**. TEMA: Desenvolvimento da Capacidade Analítica Assertiva: A instituição promove ações de capacitação para fortalecer a capacidade analítica dos servidores no uso de dados.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 42,86
   - Valor (Federal): 42,86
   - *Estágio positivo mínimo:* As equipes começam a desenvolver habilidades analíticas, incluindo estatística básica. Treinamentos internos começam a ser oferecidos, mas a expertise ainda é limitada.
 
 - **G383DI**. TEMA: Infraestrutura e Ferramentas para Análise de Dados Assertiva: A Infraestrutura e as ferramentas são adequadas para análise eficiente de dados em larga escala.
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 51,26
   - Valor (Federal): 51,26
   - *Estágio positivo mínimo:* Há uma infraestrutura tecnológica minimamente estabelecida, com bancos de dados centralizados e uso de ferramentas analíticas mais robustas em contextos específicos.
 
 *Esta seção apresenta 1 dos 6 indicadores de uma mesma bateria no objetivo. A média dimensional usa o item desta seção; o índice do objetivo agrega a bateria uma só vez, conforme o Capítulo 3.*
 
-### 8.3.6 Governança responsável de inteligência artificial
+### 8.3.6 Governança responsável de inteligência artificial nos órgãos federais
 
 *Definição:* Processos de avaliação de riscos, autoavaliação de impacto ético e monitoramento das soluções de inteligência artificial no setor público. Corresponde à Recomendação 5.5.
 
@@ -408,17 +408,17 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 *iGovSISP 2026 (SGD/MGI):*
 
 - **G331312DI**. O órgão utiliza a Autoavaliação de Impacto Ético em Inteligência Artificial (AIE), elaborada pela SGD (disponibilizada em www.gov.br/nia), para orientar as medidas de governança ética aplicáveis aos projetos de IA?
-  - *Normalização:* Proporção a partir do terceiro estágio de adoção, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de adoção, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 14,29
   - Valor (Federal): 14,29
 
 - **G331315DI**. O órgão realiza monitoramento sistemático das soluções de IA após sua implantação?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 31,93
   - Valor (Federal): 31,93
 
 - **G403DI**. Qual das seguintes opções melhor descreve como seu órgão avalia os riscos de um novo projeto de Inteligência Artificial?
-  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes.
+  - *Normalização:* Proporção a partir do terceiro estágio de maturidade, sobre os 238 órgãos respondentes; a fonte observa só órgãos federais, e por isso o valor Nacional é o mesmo do Federal.
   - Valor (Nacional): 41,60
   - Valor (Federal): 41,60
 
@@ -492,7 +492,7 @@ As 52 variáveis ativas do Objetivo 5 foram organizadas em seis dimensões temá
 | `G307DI` | iGovSISP | 8.3.5 Análise de dados e decisão | 51,26 |
 | `G308DI` | iGovSISP | 8.3.5 Análise de dados e decisão | 42,86 |
 | `G383DI` | iGovSISP | 8.3.5 Análise de dados e decisão | 51,26 |
-| `G331312DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial | 14,29 |
-| `G331315DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial | 31,93 |
-| `G403DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial | 41,60 |
+| `G331312DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial nos órgãos federais | 14,29 |
+| `G331315DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial nos órgãos federais | 31,93 |
+| `G403DI` | iGovSISP | 8.3.6 Governança responsável de inteligência artificial nos órgãos federais | 41,60 |
 <!-- /federal:secao -->
