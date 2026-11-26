@@ -32,8 +32,6 @@ RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,0.0,2024
-RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-RO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RO,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 RO,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 RO,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -50,7 +48,9 @@ RO,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 RO,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+RO,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+RO,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 RO,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -94,8 +94,6 @@ AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-AC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AC,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 AC,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 AC,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -112,7 +110,9 @@ AC,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 AC,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 AC,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 AC,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+AC,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 AC,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+AC,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AC,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 AC,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 AC,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -156,8 +156,6 @@ AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-AM,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AM,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 AM,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,100.0,2024
 AM,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -174,7 +172,9 @@ AM,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 AM,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+AM,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+AM,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 AM,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -218,8 +218,6 @@ RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-RR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RR,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 RR,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 RR,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -236,7 +234,9 @@ RR,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 RR,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,0.0,2024
 RR,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 RR,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+RR,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 RR,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+RR,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RR,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 RR,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 RR,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -280,8 +280,6 @@ PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-PA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PA,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 PA,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 PA,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -298,7 +296,9 @@ PA,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 PA,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 PA,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 PA,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+PA,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 PA,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+PA,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PA,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 PA,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 PA,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -342,8 +342,6 @@ AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-AP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AP,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 AP,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 AP,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -360,7 +358,9 @@ AP,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 AP,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 AP,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 AP,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+AP,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 AP,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+AP,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AP,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 AP,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 AP,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -404,8 +404,6 @@ TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-TO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,0.0,2024
 TO,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 TO,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 TO,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -422,7 +420,9 @@ TO,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 TO,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 TO,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,0.0,2024
 TO,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+TO,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 TO,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,0.0,2024
+TO,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,0.0,2024
 TO,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 TO,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 TO,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -466,8 +466,6 @@ MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-MA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MA,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 MA,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 MA,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -484,7 +482,9 @@ MA,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 MA,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 MA,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 MA,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+MA,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 MA,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+MA,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MA,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 MA,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 MA,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -528,8 +528,6 @@ PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-PI,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PI,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 PI,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 PI,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -546,7 +544,9 @@ PI,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 PI,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+PI,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+PI,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 PI,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -590,8 +590,6 @@ CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-CE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 CE,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 CE,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 CE,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -608,7 +606,9 @@ CE,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 CE,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 CE,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 CE,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+CE,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 CE,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+CE,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 CE,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 CE,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 CE,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -652,8 +652,6 @@ RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-RN,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RN,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 RN,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 RN,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -670,7 +668,9 @@ RN,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 RN,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 RN,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 RN,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+RN,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 RN,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+RN,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RN,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 RN,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 RN,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -714,8 +714,6 @@ PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-PB,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PB,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 PB,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 PB,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -732,7 +730,9 @@ PB,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 PB,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 PB,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 PB,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+PB,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 PB,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+PB,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PB,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 PB,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,0.0,2024
 PB,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -776,8 +776,6 @@ PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-PE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PE,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 PE,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 PE,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -794,7 +792,9 @@ PE,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 PE,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+PE,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+PE,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 PE,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -838,8 +838,6 @@ AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-AL,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AL,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 AL,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 AL,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -856,7 +854,9 @@ AL,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 AL,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 AL,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 AL,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+AL,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 AL,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+AL,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 AL,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 AL,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 AL,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -900,8 +900,6 @@ SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-SE,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SE,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 SE,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 SE,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -918,7 +916,9 @@ SE,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 SE,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 SE,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 SE,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+SE,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 SE,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+SE,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SE,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 SE,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 SE,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -962,8 +962,6 @@ BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-BA,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 BA,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 BA,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 BA,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -980,7 +978,9 @@ BA,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 BA,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+BA,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+BA,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 BA,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1024,8 +1024,6 @@ MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-MG,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MG,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 MG,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 MG,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1042,7 +1040,9 @@ MG,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 MG,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+MG,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+MG,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 MG,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1086,8 +1086,6 @@ ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-ES,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,0.0,2024
 ES,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 ES,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 ES,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -1104,7 +1102,9 @@ ES,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 ES,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 ES,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 ES,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+ES,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 ES,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+ES,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,0.0,2024
 ES,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 ES,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 ES,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -1148,8 +1148,6 @@ RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-RJ,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RJ,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 RJ,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 RJ,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1166,7 +1164,9 @@ RJ,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 RJ,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+RJ,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+RJ,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 RJ,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1210,8 +1210,6 @@ SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-SP,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SP,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 SP,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 SP,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1228,7 +1226,9 @@ SP,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 SP,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+SP,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+SP,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 SP,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1272,8 +1272,6 @@ PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-PR,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PR,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 PR,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 PR,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1290,7 +1288,9 @@ PR,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 PR,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 PR,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 PR,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+PR,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 PR,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+PR,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 PR,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 PR,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 PR,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1334,8 +1334,6 @@ SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-SC,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SC,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 SC,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 SC,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1352,7 +1350,9 @@ SC,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 SC,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,0.0,2024
 SC,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 SC,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+SC,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 SC,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+SC,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 SC,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 SC,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 SC,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -1396,8 +1396,6 @@ RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-RS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RS,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,100.0,2024
 RS,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 RS,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1414,7 +1412,9 @@ RS,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 RS,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+RS,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+RS,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 RS,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -1458,8 +1458,6 @@ MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-MS,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MS,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 MS,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 MS,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -1476,7 +1474,9 @@ MS,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 MS,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 MS,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 MS,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+MS,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 MS,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+MS,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MS,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 MS,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 MS,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1520,8 +1520,6 @@ MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-MT,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MT,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 MT,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 MT,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1538,7 +1536,9 @@ MT,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 MT,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 MT,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 MT,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+MT,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 MT,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+MT,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 MT,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 MT,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 MT,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024
@@ -1582,8 +1582,6 @@ GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,0.0,2024
 GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,0.0,2024
 GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-GO,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 GO,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 GO,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,0.0,2024
 GO,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,0.0,2024
@@ -1600,7 +1598,9 @@ GO,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 GO,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 GO,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,0.0,2024
 GO,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+GO,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 GO,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+GO,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 GO,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,0.0,2024
 GO,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 GO,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,100.0,2024
@@ -1644,8 +1644,6 @@ DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_PROCESSOS,munic,MUN
 DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SATISFACAO,munic,MUNIC_SERV_TRANS_SATISFACAO,total,Serviço transacional — pesquisa de satisfação,prop_0_100,prefeituras,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_SAUDE,munic,MUNIC_SERV_TRANS_SAUDE,total,Serviço transacional — agendamento consulta saúde,prop_0_100,prefeituras,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SERV_TRANS_TRIBUTOS,munic,MUNIC_SERV_TRANS_TRIBUTOS,total,Serviço transacional — guia de pagamento de tributos,prop_0_100,prefeituras,100.0,2024
-DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
-DF,2,Qualidade dos Serviços Digitais,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 DF,2,Qualidade dos Serviços Digitais,munic/PAGINA_POSSUI_TITULO,munic,PAGINA_POSSUI_TITULO,total,Páginas com título descritivo na aba do navegador (Mtic285; WCAG 2.4.2),prop_0_100,prefeituras,0.0,2024
 DF,3,Identificação Única,munic/MUNIC_AUTENTICACAO,munic,MUNIC_AUTENTICACAO,total,Abrangência declarada do acesso com a conta GOV.BR,indice_0_100,prefeituras,50.0,2024
 DF,4,Segurança e LGPD,munic/MUNIC_LGPD_CANAL_TITULAR,munic,MUNIC_LGPD_CANAL_TITULAR,total,Canal pela internet para titulares de dados (LGPD),prop_0_100,prefeituras,100.0,2024
@@ -1662,7 +1660,9 @@ DF,6,Infraestrutura,anatel/BLM02,anatel,BLM02,total,% de domicílios cobertos po
 DF,6,Infraestrutura,munic/MUNIC_CPD,munic,MUNIC_CPD,total,Centro de Processamento de Dados na prefeitura,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_INCLUSAO_DIGITAL,munic,MUNIC_INCLUSAO_DIGITAL,total,Programa ou ação de inclusão digital,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_INTERNET,munic,MUNIC_INTERNET,total,Municípios com evidência afirmativa de conexão à Internet (Mtic04),prop_0_100,prefeituras,100.0,2024
+DF,6,Infraestrutura,munic/MUNIC_SMART_BILHETE,munic,MUNIC_SMART_BILHETE,total,Bilhete eletrônico no transporte público,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_SMART_CENTRO_CONTROLE,munic,MUNIC_SMART_CENTRO_CONTROLE,total,Centro de controle operacional,prop_0_100,prefeituras,100.0,2024
+DF,6,Infraestrutura,munic/MUNIC_SMART_GPS_ONIBUS,munic,MUNIC_SMART_GPS_ONIBUS,total,Ônibus com GPS para informação ao usuário,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_SMART_ILUMINACAO,munic,MUNIC_SMART_ILUMINACAO,total,Iluminação inteligente com medição de consumo,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_SMART_SEMAFOROS,munic,MUNIC_SMART_SEMAFOROS,total,Semáforos inteligentes controlados a distância,prop_0_100,prefeituras,100.0,2024
 DF,6,Infraestrutura,munic/MUNIC_SMART_SENSORES,munic,MUNIC_SMART_SENSORES,total,Sensores para monitoramento de áreas de risco,prop_0_100,prefeituras,0.0,2024

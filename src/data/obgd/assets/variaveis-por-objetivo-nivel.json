@@ -112,11 +112,6 @@
         "fonte": "iESGo"
       },
       {
-        "id": "iesgo/source/2123",
-        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
-        "fonte": "iESGo"
-      },
-      {
         "id": "iesgo/source/2133",
         "nome": "Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",
         "fonte": "iESGo"
@@ -384,16 +379,6 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "munic/MUNIC_SMART_BILHETE",
-        "nome": "Bilhete eletrônico no transporte público",
-        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "estadic/ESTADIC_BILHETE_UNICO",
-        "nome": "Bilhete único para uso de transporte público (Etic241)",
-        "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
         "id": "tic_gov/E1_SUGGESTIONS",
         "nome": "Canal de sugestões para melhoria de serviços públicos",
         "fonte": "TIC Governo Eletrônico"
@@ -476,11 +461,6 @@
       {
         "id": "munic/MUNIC_ACESS_NAVEGACAO",
         "nome": "Navegação acessível por todos os itens interativos",
-        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "munic/MUNIC_SMART_GPS_ONIBUS",
-        "nome": "Ônibus com GPS para informação ao usuário",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
@@ -1277,6 +1257,16 @@
         "fonte": "TIC Educação"
       },
       {
+        "id": "munic/MUNIC_SMART_BILHETE",
+        "nome": "Bilhete eletrônico no transporte público",
+        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
+      },
+      {
+        "id": "estadic/ESTADIC_BILHETE_UNICO",
+        "nome": "Bilhete único para uso de transporte público (Etic241)",
+        "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
+      },
+      {
         "id": "munic/MUNIC_SMART_CENTRO_CONTROLE",
         "nome": "Centro de controle operacional",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -1379,6 +1369,11 @@
       {
         "id": "munic/MUNIC_INTERNET",
         "nome": "Municípios com evidência afirmativa de conexão à Internet (Mtic04)",
+        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
+      },
+      {
+        "id": "munic/MUNIC_SMART_GPS_ONIBUS",
+        "nome": "Ônibus com GPS para informação ao usuário",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
@@ -1536,11 +1531,6 @@
         "fonte": "TIC Educação"
       },
       {
-        "id": "tic_saude/B4",
-        "nome": "Funcionalidades de apoio à decisão clínica (C5 quest. → B4 portal)",
-        "fonte": "TIC Saúde"
-      },
-      {
         "id": "igovsisp/G511CTI",
         "nome": "Gestão de contratos de TI",
         "fonte": "iGovSISP"
@@ -1559,6 +1549,11 @@
         "id": "tic_saude/B3",
         "nome": "Maior percentual entre as funcionalidades eletrônicas disponíveis",
         "fonte": "TIC Saúde"
+      },
+      {
+        "id": "iesgo/source/2123",
+        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
+        "fonte": "iESGo"
       },
       {
         "id": "igovsisp/G513CTI",
@@ -2011,11 +2006,6 @@
       {
         "id": "iesgo/source/2153",
         "nome": "Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",
-        "fonte": "iESGo"
-      },
-      {
-        "id": "iesgo/source/2123",
-        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
         "fonte": "iESGo"
       },
       {
@@ -2703,6 +2693,11 @@
         "fonte": "iGovSISP"
       },
       {
+        "id": "iesgo/source/2123",
+        "nome": "Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",
+        "fonte": "iESGo"
+      },
+      {
         "id": "igovsisp/G513CTI",
         "nome": "Pessoal para contratações de TI",
         "fonte": "iGovSISP"
@@ -3013,11 +3008,6 @@
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
-        "id": "estadic/ESTADIC_BILHETE_UNICO",
-        "nome": "Bilhete único para uso de transporte público (Etic241)",
-        "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
-      },
-      {
         "id": "estadic/ESTADIC_ATEND_DISTANCIA",
         "nome": "Formas de atendimento a distância ao cidadão",
         "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
@@ -3139,6 +3129,11 @@
         "id": "iospd/IOSPD_E26_406",
         "nome": "4.6 O ESTADO POSSUI UMA ESTRATÉGIA DE ALFABETIZAÇÃO DIGITAL E FECHAMENTO DE BRECHAS DIGITAIS?",
         "fonte": "IOSPD"
+      },
+      {
+        "id": "estadic/ESTADIC_BILHETE_UNICO",
+        "nome": "Bilhete único para uso de transporte público (Etic241)",
+        "fonte": "ESTADIC - Pesquisa de Informações Básicas Estaduais"
       },
       {
         "id": "estadic/ESTADIC_INCLUSAO_PROGRAMA",
@@ -3278,11 +3273,6 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
-        "id": "munic/MUNIC_SMART_BILHETE",
-        "nome": "Bilhete eletrônico no transporte público",
-        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
         "id": "munic/MUNIC_ACESS_IMAGENS",
         "nome": "Descrição do conteúdo das imagens",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -3300,11 +3290,6 @@
       {
         "id": "munic/MUNIC_ACESS_NAVEGACAO",
         "nome": "Navegação acessível por todos os itens interativos",
-        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
-      },
-      {
-        "id": "munic/MUNIC_SMART_GPS_ONIBUS",
-        "nome": "Ônibus com GPS para informação ao usuário",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
@@ -3496,6 +3481,11 @@
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {
+        "id": "munic/MUNIC_SMART_BILHETE",
+        "nome": "Bilhete eletrônico no transporte público",
+        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
+      },
+      {
         "id": "munic/MUNIC_SMART_CENTRO_CONTROLE",
         "nome": "Centro de controle operacional",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
@@ -3513,6 +3503,11 @@
       {
         "id": "munic/MUNIC_INTERNET",
         "nome": "Municípios com evidência afirmativa de conexão à Internet (Mtic04)",
+        "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
+      },
+      {
+        "id": "munic/MUNIC_SMART_GPS_ONIBUS",
+        "nome": "Ônibus com GPS para informação ao usuário",
         "fonte": "MUNIC - Pesquisa de Informações Básicas Municipais"
       },
       {

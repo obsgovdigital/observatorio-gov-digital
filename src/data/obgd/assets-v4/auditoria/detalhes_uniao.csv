@@ -3,7 +3,6 @@ Total,1,Governança do Governo Digital,tic_gov/B1,tic_gov,B1,total,Área de TI,p
 Total,1,Governança do Governo Digital,tic_gov/B5A_A,tic_gov,B5A,['A'],Plano estratégico de TI,prop_0_100,orgaos_e_prefeituras,97.14311459400001,2025
 Total,1,Governança do Governo Digital,tic_gov/B7A,tic_gov,B7A,total,ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM COMITÊ OU CONSELHO FORMALMENTE INSTITUÍDO DE TECNOLOGIA DA INFORMAÇÃO (TI),prop_0_100,orgaos,93.57141082220001,2025
 Total,1,Governança do Governo Digital,tic_gov/source/B5A_C,tic_gov,B5A,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS COM DOCUMENTO FORMALMENTE INSTITUÍDO DE PLANEJAMENTO DE TECNOLOGIA DA INFORMAÇÃO, POR TIPO",prop_0_100,ambos,79.2856878777,2025
-Total,1,Governança do Governo Digital,iesgo/source/2123,iesgo,2123,total,"Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",prop_0_100,orgaos_federais,40.92,2024
 Total,1,Governança do Governo Digital,iesgo/source/2133,iesgo,2133,total,"Modelo de gestão de TI estabelecido pela alta administração (iESGo/TCU 2024, questão 2133)",prop_0_100,orgaos_federais,76.42,2024
 Total,1,Governança do Governo Digital,iesgo/source/2153,iesgo,2153,total,"Liderança monitora o desempenho da gestão de TI (iESGo/TCU 2024, questão 2153)",prop_0_100,orgaos_federais,59.89,2024
 Total,1,Governança do Governo Digital,iesgo/source/3132_C,iesgo,3132,['C'],"Auditoria interna avalia a gestão de TI (iESGo/TCU 2024, questão 3132_C)",prop_0_100,orgaos_federais,60.7,2024
@@ -143,6 +142,7 @@ Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_B,tic_gov,H3F,tot
 Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_C,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,42.1428,2025
 Total,7,Inovação e Tecnologias Emergentes,tic_gov/source/H3F_D,tic_gov,H3F,total,"ÓRGÃOS PÚBLICOS FEDERAIS E ESTADUAIS QUE POSSUEM PARCERIAS PARA O DESENVOLVIMENTO DE INTELIGÊNCIA ARTIFICIAL, POR TIPO DE INSTITUIÇÃO PARCEIRA",prop_0_100,orgaos,15.7143,2025
 Total,7,Inovação e Tecnologias Emergentes,igovsisp/G337DI,igovsisp,G337DI,total,Estratégia de IA,prop_0_100,orgaos_federais_sisp,17.23,2026
+Total,8,Eficiência e Processos,iesgo/source/2123,iesgo,2123,total,"Metas para simplificação do atendimento ao usuário (iESGo/TCU 2024, questão 2123)",prop_0_100,orgaos_federais,40.92,2024
 Total,8,Eficiência e Processos,igovsisp/G208SPD,igovsisp,G208SPD,total,Utilização do SEI,prop_0_100,orgaos_federais_sisp,74.37,2026
 Total,8,Eficiência e Processos,igovsisp/G214SPD,igovsisp,G214SPD,total,Eficiência e produtividade percebidas após transformação digital,prop_0_100,orgaos_federais_sisp,70.59,2026
 Total,8,Eficiência e Processos,igovsisp/G224SPD,igovsisp,G224SPD,total,Prática de avaliação do valor público dos sistemas digitais,prop_0_100,orgaos_federais_sisp,27.73,2026
