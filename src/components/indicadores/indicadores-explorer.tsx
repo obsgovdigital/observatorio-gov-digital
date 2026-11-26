@@ -18,6 +18,7 @@ import { FilterPill } from '@/components/shared/filter-pill'
 import { FontesRecorte } from '@/components/shared/fontes-recorte'
 import { InfoTip } from '@/components/shared/info-tip'
 import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
+import { NotaRecorteFederal } from '@/components/shared/nota-recorte-federal'
 import { VariantLink } from '@/components/shared/variant-link'
 import { VariavelAcoes } from '@/components/shared/variavel-acoes'
 import {
@@ -505,6 +506,7 @@ export function IndicadoresExplorer({
                     const habitantes = porHabitantes
                       ? habitantesDoMunicipio(e.codigo)
                       : null
+                    const bandeira = bandeiraSrc(e.nivel, e.slug, e.ufSigla)
                     return (
                       <li key={e.slug}>
                         <button
@@ -528,10 +530,9 @@ export function IndicadoresExplorer({
                                 style={{ backgroundColor: CORES[idx] }}
                               />
                             )}
-                            <BandeiraEnte
-                              src={bandeiraSrc(e.nivel, e.slug, e.ufSigla)}
-                              nome={e.nome}
-                            />
+                            {bandeira && (
+                              <BandeiraEnte src={bandeira} nome={e.nome} />
+                            )}
                             <span className="truncate">{e.nome}</span>
                             {e.nivel === 'municipios' && e.ufSigla && (
                               <span className="shrink-0 text-[10px] text-muted-foreground">
@@ -552,6 +553,12 @@ export function IndicadoresExplorer({
                             </span>
                           )}
                         </button>
+                        {nivelKey === 'uniao' && (
+                          <NotaRecorteFederal
+                            tom="primary"
+                            className="mt-3 max-w-none px-3"
+                          />
+                        )}
                       </li>
                     )
                   })}

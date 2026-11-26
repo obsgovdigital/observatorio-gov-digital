@@ -4,7 +4,7 @@
 | --- | --- |
 | **Audiência** | Cliente |
 | **Status** | Canônico |
-| **Última atualização** | 2026-09-25 |
+| **Última atualização** | 2026-11-26 |
 | **Relacionados** | [Visão geral](visao-geral.md) · [Mapa de rotas](mapa-de-rotas.md) · [Glossário](glossario.md) · [Índice](../README.md) |
 
 Documento estável de decisões de produto e do comportamento correspondente na plataforma. Não registra diário de reuniões nem status de sprint.
@@ -26,6 +26,7 @@ Documento estável de decisões de produto e do comportamento correspondente na 
 | 8 | Nota técnica de objetivos com cobertura precária | Conteúdo provisório | Mock na metodologia / chips até validação editorial definitiva |
 | 9 | Internacionalização PT/EN | Não portar | Portal apenas em pt-BR |
 | 10 | Overlay de loading na abertura da home | Removido | Home sem intro animada (UX e SEO) |
+| 11 | Limitações metodológicas do Recorte Federal | Nota visível, sem tooltip | Texto fixo da revisão `4e8f197` (`2026-Q4-recorte-federal-v2`). A nota geral aparece em azul debaixo do ente União em Indicadores e, na home, debaixo dos botões de nível. Na página do ente, a nota geral e a limitação do objetivo em leitura formam um único bloco, com um link para a metodologia; cada objetivo repete a sua limitação na própria página. O front não recalcula percentuais. Nacional, estadual e municípios não mostram essas notas |
 
 ---
 

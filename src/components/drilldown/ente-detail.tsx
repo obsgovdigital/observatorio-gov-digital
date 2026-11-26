@@ -8,6 +8,7 @@ import {
 } from '@/components/charts/objetivos-radar'
 import { InfoTip } from '@/components/shared/info-tip'
 import { NotaObjetivosForaDaPontuacao } from '@/components/shared/nota-objetivos-fora-da-pontuacao'
+import { LeituraRecorteFederal } from '@/components/shared/nota-recorte-federal'
 import { VariantLink } from '@/components/shared/variant-link'
 import { GLOSSARIO } from '@/data/help-copy'
 import {
@@ -133,9 +134,17 @@ export function EnteDetail({
           </div>
         </div>
 
+        {nivel.key === 'uniao' && objetivoAtivo && (
+          <LeituraRecorteFederal
+            numero={objetivoAtivo.numero}
+            className="mt-8"
+          />
+        )}
+
         <div
           className={cn(
-            'mt-14 grid gap-10',
+            'grid gap-10',
+            nivel.key === 'uniao' ? 'mt-10' : 'mt-14',
             mostrarDistribuicao && 'lg:grid-cols-2'
           )}
         >

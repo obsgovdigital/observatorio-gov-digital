@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 import { VisualPerfil } from '@/components/home/home-feature-visuals'
 import { FilterPill } from '@/components/shared/filter-pill'
+import { NotaRecorteFederal } from '@/components/shared/nota-recorte-federal'
 import { mediasPorObjetivo, type NivelKey, niveis } from '@/data/indicators'
 
 interface Props {
@@ -58,6 +59,9 @@ export function HomeExplorar({ indicadoresHref }: Props) {
             </FilterPill>
           ))}
         </div>
+        {nivel.key === 'uniao' && (
+          <NotaRecorteFederal tom="primary" className="mt-4 max-w-sm" />
+        )}
       </div>
 
       <div className="flex items-start justify-center lg:col-span-2 lg:dash-l lg:pr-6 lg:pl-8">

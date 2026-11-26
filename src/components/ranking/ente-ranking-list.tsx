@@ -101,7 +101,9 @@ export function EnteRankingList({
             </p>
           )}
           {porHabitantes && (
-            <p className="text-muted-foreground text-xs">{NOTA_POPULACAO_CENSO}</p>
+            <p className="text-muted-foreground text-xs">
+              {NOTA_POPULACAO_CENSO}
+            </p>
           )}
         </div>
       )}
@@ -139,6 +141,9 @@ export function EnteRankingList({
           const habitantes = porHabitantes
             ? habitantesDoMunicipio(ente.codigo)
             : null
+          const bandeira = nivelKey
+            ? bandeiraSrc(nivelKey, ente.slug, ente.ufSigla)
+            : null
           return (
             <Link
               key={ente.slug}
@@ -152,12 +157,7 @@ export function EnteRankingList({
               <span className="w-10 shrink-0 text-muted-foreground text-sm tabular-nums">
                 {String(posicao).padStart(padPosicao, '0')}
               </span>
-              {nivelKey && (
-                <BandeiraEnte
-                  src={bandeiraSrc(nivelKey, ente.slug, ente.ufSigla)}
-                  nome={ente.nome}
-                />
-              )}
+              {bandeira && <BandeiraEnte src={bandeira} nome={ente.nome} />}
               <span className="flex min-w-0 flex-1 items-baseline gap-2 font-medium text-primary text-sm">
                 <span className="truncate">{ente.nome}</span>
                 {mostrarUf && ente.ufSigla && (

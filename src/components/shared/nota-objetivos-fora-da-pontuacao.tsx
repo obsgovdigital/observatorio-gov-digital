@@ -37,11 +37,20 @@ export function NotaObjetivosForaDaPontuacao({
   )
 }
 
-export function LinkMetodologiaPontuacao({ href }: { href: string }) {
+export function LinkMetodologiaPontuacao({
+  href,
+  className,
+}: {
+  href: string
+  className?: string
+}) {
   return (
     <Link
       href={href}
-      className="mt-2 inline-block font-medium underline underline-offset-2"
+      className={cn(
+        'mt-2 inline-block font-medium underline underline-offset-2',
+        className
+      )}
     >
       Ver na metodologia
     </Link>

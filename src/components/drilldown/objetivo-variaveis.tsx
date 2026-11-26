@@ -2,6 +2,7 @@ import { ArrowLeft } from 'lucide-react'
 import type { DrilldownBasePath } from '@/components/drilldown/ente-detail'
 import { FontesRecorte } from '@/components/shared/fontes-recorte'
 import { InfoTip } from '@/components/shared/info-tip'
+import { NotaLimitacaoObjetivo } from '@/components/shared/nota-recorte-federal'
 import { VariantLink } from '@/components/shared/variant-link'
 import { VariavelAcoes } from '@/components/shared/variavel-acoes'
 import {
@@ -83,6 +84,13 @@ export function ObjetivoVariaveis({
             {detalhe}
           </p>
         </div>
+
+        {nivel.key === 'uniao' && (
+          <NotaLimitacaoObjetivo
+            numero={objetivo.numero}
+            className="max-w-3xl pb-3"
+          />
+        )}
 
         <FontesRecorte fontes={fontes} titulo="Fontes deste objetivo" />
 

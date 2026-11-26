@@ -27,12 +27,16 @@ export function ufDeEnte(
   return null
 }
 
-/** Caminho da bandeira SVG em `/public/bandeiras/{nivel}/{slug}.svg`. */
+/**
+ * Caminho da bandeira SVG em `/public/bandeiras/{nivel}/{slug}.svg`.
+ * Brasil (nacional) e a União não têm bandeira.
+ */
 export function bandeiraSrc(
   nivel: NivelKey,
   slug: string,
   ufSigla?: string | null
-): string {
+): string | null {
+  if (nivel === 'nacional' || nivel === 'uniao') return null
   if (nivel === 'municipios' && ufSigla) {
     const ufSlug = slugPorUf.get(ufSigla)
     if (ufSlug) return `/bandeiras/estadual/${ufSlug}.svg`
